@@ -1,0 +1,28 @@
+id,label,module,class
+identifier_type,Kinds of identifier,core,E55
+place_type,Kinds of place,core,E55
+activity_type,Kinds of work,core,E55
+thing_type,Kinds of thing,core,E55
+material,Materials,core,E57
+unit,Units,core,E58
+dimension_kind,What is counted or measured,core,E55
+role,Roles of people,core,E55
+certainty,Marks of certainty on a value,core,E55
+language,Languages,core,E56
+licence,Licences,dataset,E55
+time_scale,Scales for years,space,SP11
+geometry_kind,Kinds of geometry,space,E55
+crs,Coordinate systems,space,SP4
+source_type,Kinds of source,sources,E55
+media_type,Kinds of media,sources,E55
+formation,How a unit formed,excavation,E55
+collection_method,How a find was collected,excavation,E55
+analysis_method,Methods of analysis,science,E29
+reasoning_method,How a conclusion was drawn,claims,E55
+event_kind,Events that can be dated,claims,E55
+taxon,Plants and animals,science,E55
+function,Function or use,claims,E55
+culture,Cultures and traditions,claims,E55
+motif,What an image shows,claims,E55
+condition,State of preservation,core,E55
+skeletal_element,Skeletal elements,science,E55

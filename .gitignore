@@ -1,0 +1,13 @@
+# Python environment and caches (rebuild with: python3 -m venv .venv && .venv/bin/pip install pypdf rdflib pyshacl pyvis)
+.venv/
+__pycache__/
+*.pyc
+
+# Third-party books kept locally only (copyrighted, 25-40 MB each)
+v2/papers/978-3-032-34896-8.pdf
+v2/papers/978-3-032-02049-9.pdf
+
+# Editor and OS noise
+.DS_Store
+*~
+.~lock.*#

@@ -1,0 +1,9 @@
+# CQ16 Which statements rest on cited literature, and on which pages?
+PREFIX crm:  <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX type: <https://example.org/kst45/type/>
+SELECT ?entity ?cited WHERE {
+  ?d crm:P70_documents ?e ; rdfs:label ?cited ; crm:P2_has_type ?t .
+  FILTER (?t IN (type:cited-publication, type:cited-passage))
+  ?e rdfs:label ?entity .
+} ORDER BY ?entity ?cited

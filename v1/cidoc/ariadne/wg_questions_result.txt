@@ -1,0 +1,38 @@
+question topic                                                       seleukeia_side theirs seleukeia_side ours  yumuktepe_2024 theirs yumuktepe_2024 ours
+Q1/Q4   typed and dated objects of a site (palaeolithic blades, ga                      0                   7                      0                  19
+        -> site link: they use AP21 contains, we use part-of and location; dating differs only by sub-property (rdfs)
+Q2      typed and dated features of a site (neolithic postholes)                        0                   2                      0                  10
+        -> same as Q1
+Q3      contexts by soil texture                                                        0                   0                      0                   0
+        -> the papers describe soil only in running text; we keep it in the label, not as a typed value
+Q5/Q6   objects discovered during the excavation of a given year                        0                  22                      0                  25
+        -> encounter and date match; they tie the encounter to the site with P8, we tie it to a place with P7
+Q7      objects found during an excavation led by a person                              0                  22                      0                  25
+        -> we put people on the campaign, not on each encounter; the paper never says who found what
+Q8      site located at a place                                                         0                   2                      0                   1
+        -> we use the more general P53; P55 is its sub-property, so inference does not help in this direction
+Q9      animal bones of a genus                                                         0                   0                      0                   5
+        -> they model the animal as a whole the bone is part of; we attach the taxon to the bones as a type
+Q10     objects that are parts of a feature with a given use (roma                      0                   6                      0                  24
+        -> we never state general use (P101); function is a type or an interpretation
+Q11     features of a period (burials of classical period)                              0                   2                      0                  10
+        -> they link feature to period directly (P8i); we go through a production event
+Q12     features composed of typed objects (floors with mosaics)                        0                  15                      0                  33
+        -> our finds are located at features, not parts of them
+Q13     stratigraphic units of a site belonging to a period                             0                   0                      0                   3
+        -> we do not record an encounter event for deposits, only for finds
+Q14     documents of an excavation created in a given year                              1                   1                      1                   1
+        -> identical path; the report is the only document, figures are visual items
+Q15     items with a measured value                                                     0                   5                      0                   4
+        -> we attach the dimension to the thing; they insert the measuring activity
+Q16     features inside trenches                                                        0                   0                      0                  17
+        -> for them a trench is a place; for us it is a feature that contexts are part of
+Q17     samples and what they contain (legume seeds)                                    0                   0                      0                   5
+        -> same classes; they sample the site and nest the seeds inside the sample, we sample the context and type the sample
+Q18     excavation events within a date range                                          22                  22                     25                  25
+        -> identical, but the papers give only the year
+Q19     excavations with radiocarbon samples                                            0                   0                      0                   5
+        -> they merge taking and measuring into one S3 event; we keep sample taking (S2) and analysis (S4) apart
+
+seleukeia_sidera_2024: 2 of 17 questions answered by their path as written, 11 of 17 by our own path
+yumuktepe_2024: 2 of 17 questions answered by their path as written, 16 of 17 by our own path

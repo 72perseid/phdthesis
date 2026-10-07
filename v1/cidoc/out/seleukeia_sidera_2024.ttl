@@ -1,0 +1,2106 @@
+@prefix crm: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/> .
+@prefix crmsci: <http://www.cidoc-crm.org/extensions/crmsci/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix kst: <https://example.org/kst45/vocab/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix type: <https://example.org/kst45/type/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-1985-87-0> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/isparta-muze> ;
+    crm:P14.1_in_the_role_of type:institution .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-1993-0> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/bingol> ;
+    crm:P14.1_in_the_role_of type:excavation-director .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-2010-22-0> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji> ;
+    crm:P14.1_in_the_role_of type:institution .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-2024-0> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu> ;
+    crm:P14.1_in_the_role_of type:excavation-director .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-2024-1> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P14.1_in_the_role_of type:deputy-director .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-2024-2> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/atay> ;
+    crm:P14.1_in_the_role_of type:team-member .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-2024-3> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin> ;
+    crm:P14.1_in_the_role_of type:team-member .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-2024-4> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/kazi-ekibi-2024> ;
+    crm:P14.1_in_the_role_of type:team .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/campaign-2024-5> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji> ;
+    crm:P14.1_in_the_role_of type:institution .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/cemetery-survey-2024-0> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/cemetery-survey-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/bakir> ;
+    crm:P14.1_in_the_role_of type:team-leader .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/conference-2024-0> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu> ;
+    crm:P14.1_in_the_role_of type:speaker .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/conference-2024-1> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P14.1_in_the_role_of type:speaker .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/conference-2024-2> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/yavuz> ;
+    crm:P14.1_in_the_role_of type:ministry-representative .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/funding-bap-2024-0> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/funding-bap-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-bap> ;
+    crm:P14.1_in_the_role_of type:funder .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/permit-2024-0> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/ktb> ;
+    crm:P14.1_in_the_role_of type:permitting-authority .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/permit-2024-1> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/kvmgm> ;
+    crm:P14.1_in_the_role_of type:permitting-authority .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/permit-2024-2> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/gelecege-miras> ;
+    crm:P14.1_in_the_role_of type:supporting-unit .
+
+<https://example.org/kst45/seleukeia-sidera-2024/pc14/permit-2024-3> a crm:PC14_carried_out_by ;
+    crm:P01_has_domain <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> ;
+    crm:P02_has_range <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu> ;
+    crm:P14.1_in_the_role_of type:supporting-institution .
+
+<https://example.org/kst45/document/kst45-1> a crm:E31_Document ;
+    rdfs:label "45. Kazı Sonuçları Toplantısı Bildirileri, Cilt 1"@tr ;
+    dcterms:contributor <https://example.org/kst45/seleukeia-sidera-2024/actor/atesogullari> ;
+    dcterms:publisher <https://example.org/kst45/seleukeia-sidera-2024/actor/kvmgm> ;
+    crm:P106_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P1_is_identified_by <https://example.org/kst45/seleukeia-sidera-2024/identifier/isbn-978-975-17-6634-2> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/condition/keystone-zeus> a crm:E3_Condition_State ;
+    rdfs:label "damaged"@en ;
+    crm:P2_has_type type:damaged .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/coin-seljuk-north-count> a crm:E54_Dimension ;
+    rdfs:label "count 1 piece"@en ;
+    crm:P2_has_type type:count ;
+    crm:P90_has_value 1.0 ;
+    crm:P91_has_unit type:piece .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/coins-1993-fill-count> a crm:E54_Dimension ;
+    rdfs:label "count 134 piece"@en ;
+    crm:P2_has_type type:count ;
+    crm:P90_has_value 134.0 ;
+    crm:P91_has_unit type:piece .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/diazoma-block-count> a crm:E54_Dimension ;
+    rdfs:label "count 1 piece"@en ;
+    crm:P2_has_type type:count ;
+    crm:P90_has_value 1.0 ;
+    crm:P91_has_unit type:piece .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/keystone-zeus-count> a crm:E54_Dimension ;
+    rdfs:label "count 1 piece"@en ;
+    crm:P2_has_type type:count ;
+    crm:P90_has_value 1.0 ;
+    crm:P91_has_unit type:piece .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/ottoman-tombstones-count> a crm:E54_Dimension ;
+    rdfs:label "count 11 piece"@en ;
+    crm:P2_has_type type:count ;
+    crm:P90_has_value 11.0 ;
+    crm:P91_has_unit type:piece .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-group-0> a crm:E54_Dimension ;
+    rdfs:label "length 18 m"@en ;
+    crm:P2_has_type type:length ;
+    crm:P90_has_value 18.0 ;
+    crm:P91_has_unit type:m .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-group-1> a crm:E54_Dimension ;
+    rdfs:label "width 12 m"@en ;
+    crm:P2_has_type type:width ;
+    crm:P90_has_value 12.0 ;
+    crm:P91_has_unit type:m .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-trenches-0> a crm:E54_Dimension ;
+    rdfs:label "count 13 trench"@en ;
+    crm:P2_has_type type:count ;
+    crm:P90_has_value 13.0 ;
+    crm:P91_has_unit type:trench .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-trenches-1> a crm:E54_Dimension ;
+    rdfs:label "length 10 m"@en ;
+    crm:P2_has_type type:length ;
+    crm:P90_has_value 10.0 ;
+    crm:P91_has_unit type:m .
+
+<https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-trenches-2> a crm:E54_Dimension ;
+    rdfs:label "width 10 m"@en ;
+    crm:P2_has_type type:width ;
+    crm:P90_has_value 10.0 ;
+    crm:P91_has_unit type:m .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/creation-report> a crm:E65_Creation ;
+    rdfs:label "Seleukeia Sidera Antik Kenti 2024 Yılı Çalışmaları – yazım"@tr ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/creation-report> ;
+    crm:P94_has_created <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-capital-coffer-architrave> a crm:E12_Production ;
+    rdfs:label "Sütun başlığı, kaset ve arşitrav parçaları (tiyatro üst yapısı) – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/find/capital-coffer-architrave> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/severan> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-ceramics-1993-fill> a crm:E12_Production ;
+    rdfs:label "1993 dolgusundan seramik parçaları ve pithos kırıkları – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-1993-fill> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/late-roman>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/roman-imperial> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-ceramics-stage-2024> a crm:E12_Production ;
+    rdfs:label "Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma, sınırlı Helenistik) – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-stage-2024> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/hellenistic>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/late-roman>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/roman-imperial> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-ceramics-trenches-2024> a crm:E12_Production ;
+    rdfs:label "Açma seramik parçaları (Roma İmparatorluk ve Geç Roma) – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-trenches-2024> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/late-roman>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/roman-imperial> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-coin-seljuk-north> a crm:E12_Production ;
+    rdfs:label "Selçuklu Dönemi sikkesi (tiyatro kuzeyi) – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/find/coin-seljuk-north> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/seljuk> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-hidirlik-graves> a crm:E12_Production ;
+    rdfs:label "Hıdırlık Mezarlığı mezarları – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-graves> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/early-beylik>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/ottoman>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/seljuk> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-late-roman-wall-north-vom> a crm:E12_Production ;
+    rdfs:label "Kuzey vomitoriumdaki Geç Roma duvar kalıntısı – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/late-roman> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-nymphaion> a crm:E12_Production ;
+    rdfs:label "Nymphaion – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/c4-6-ad> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/production-ottoman-tombstones> a crm:E12_Production ;
+    rdfs:label "Osmanlıca mezar taşları (11 adet, 18.-20. yüzyıl) – üretim"@tr ;
+    crm:P108_has_produced <https://example.org/kst45/seleukeia-sidera-2024/find/ottoman-tombstones> ;
+    crm:P10_falls_within <https://example.org/kst45/seleukeia-sidera-2024/period/c18-20> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/identifier/isbn-978-975-17-6634-2> a crm:E42_Identifier ;
+    rdfs:label "978-975-17-6634-2"@en ;
+    crm:P2_has_type type:isbn .
+
+<https://example.org/kst45/seleukeia-sidera-2024/identifier/orcid-0000-0001-6767-0939> a crm:E42_Identifier ;
+    rdfs:label "0000-0001-6767-0939"@en ;
+    crm:P2_has_type type:orcid .
+
+<https://example.org/kst45/seleukeia-sidera-2024/identifier/orcid-0000-0002-3676-7436> a crm:E42_Identifier ;
+    rdfs:label "0000-0002-3676-7436"@en ;
+    crm:P2_has_type type:orcid .
+
+<https://example.org/kst45/seleukeia-sidera-2024/identifier/orcid-0009-0005-6079-9293> a crm:E42_Identifier ;
+    rdfs:label "0009-0005-6079-9293"@en ;
+    crm:P2_has_type type:orcid .
+
+<https://example.org/kst45/seleukeia-sidera-2024/identifier/orcid-0009-0006-5725-5831> a crm:E42_Identifier ;
+    rdfs:label "0009-0006-5725-5831"@en ;
+    crm:P2_has_type type:orcid .
+
+<https://example.org/kst45/seleukeia-sidera-2024/identifier/project-number-skp-2024-9404> a crm:E42_Identifier ;
+    rdfs:label "SKP-2024-9404"@en ;
+    crm:P2_has_type type:project-number .
+
+<https://example.org/kst45/seleukeia-sidera-2024/inscription/ottoman-tombstones> a crm:E34_Inscription ;
+    rdfs:label "Osmanlıca mezar taşları (11 adet, 18.-20. yüzyıl) – yazıt"@tr .
+
+<https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-graves-dating> a crm:E13_Attribute_Assignment ;
+    rdfs:label "Selçuklu, Erken Beylikler ve Osmanlı dönemleri (kesin tarihleme için kazı planlanmaktadır)"@tr ;
+    crm:P140_assigned_attribute_to <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-graves> ;
+    crm:P141_assigned type:selcuklu-erken-beylikler-ve-osmanli-donemleri-kesin-tarihleme-icin-kazi-planlanmaktadir ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/bakir> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P2_has_type type:interpretation ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 213,
+        214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-mortar-floor> a crm:E13_Attribute_Assignment ;
+    rdfs:label "Yapının zeminine ait harç tabakası"@tr ;
+    crm:P140_assigned_attribute_to <https://example.org/kst45/seleukeia-sidera-2024/stratum/mortar-layer-north-vom> ;
+    crm:P141_assigned type:yapinin-zeminine-ait-harc-tabakasi ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P2_has_type type:interpretation ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-mosaic-rooms> a crm:E13_Attribute_Assignment ;
+    rdfs:label "Mozaikli ve sıvalı-boyalı duvarlı mekânların varlığı"@tr ;
+    crm:P140_assigned_attribute_to <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group> ;
+    crm:P141_assigned type:mozaikli-ve-sivali-boyali-duvarli-mekanlarin-varligi ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P2_has_type type:interpretation ;
+    crm:P3_has_note "Gerekçe: Tessera, fresk parçaları ve harç kalıntıları"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-nymphaion-perge> a crm:E13_Attribute_Assignment ;
+    rdfs:label "Perge örneğiyle özdeş, MS 4.-6. yüzyılda eklenmiş çeşme yapısı"@tr ;
+    crm:P140_assigned_attribute_to <https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion> ;
+    crm:P141_assigned type:perge-ornegiyle-ozdes-ms-4-6-yuzyilda-eklenmis-cesme-yapisi ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P2_has_type type:interpretation ;
+    crm:P3_has_note "Gerekçe: Mimari analiz; Italica ve Regina tiyatrolarıyla benzerlik"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-severan-superstructure> a crm:E13_Attribute_Assignment ;
+    rdfs:label "Severuslar Dönemi (MS 193-235) tiyatro üst yapısı"@tr ;
+    crm:P140_assigned_attribute_to <https://example.org/kst45/seleukeia-sidera-2024/find/capital-coffer-architrave> ;
+    crm:P141_assigned type:severuslar-donemi-ms-193-235-tiyatro-ust-yapisi ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P2_has_type type:interpretation ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-south-slope-commercial> a crm:E13_Attribute_Assignment ;
+    rdfs:label "Üretim ve ticaret odaklı, çok işlevli, uzun süreli kullanım; kamusal işlev"@tr ;
+    crm:P140_assigned_attribute_to <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group> ;
+    crm:P141_assigned type:uretim-ve-ticaret-odakli-cok-islevli-uzun-sureli-kullanim-kamusal-islev ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P2_has_type type:interpretation ;
+    crm:P3_has_note "Gerekçe: Ağırlık, terazi kolu, kefeler, bronz sikkeler; sütun ve kaideler; macellum ve Agora'ya yakınlık"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 212,
+        213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic> a crm:E13_Attribute_Assignment ;
+    rdfs:label "Helenistik Dönem'den itibaren farklı dönemlerde değişerek kullanım"@tr ;
+    crm:P140_assigned_attribute_to <https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building> ;
+    crm:P141_assigned type:helenistik-donem-den-itibaren-farkli-donemlerde-degiserek-kullanim ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P2_has_type type:interpretation ;
+    crm:P3_has_note "Gerekçe: Farklı dönemlere ait seramik parçaları"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs> a crm:E13_Attribute_Assignment ;
+    rdfs:label "Selçuklu Dönemi'nde gümrük yapısı olarak iskân (olası)"@tr ;
+    crm:P140_assigned_attribute_to <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P141_assigned type:selcuklu-donemi-nde-gumruk-yapisi-olarak-iskan-olasi ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P177_assigned_property_of_type crm:P2_has_type ;
+    crm:P2_has_type type:interpretation ;
+    crm:P3_has_note "Gerekçe: Güney vomitoriumdaki Selçuklu sikke definesi (Bingöl 1994) ve 2021 bulguları"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/c18-20> a crm:E52_Time-Span ;
+    rdfs:label "MS 1700 – MS 1999"@tr ;
+    crm:P82a_begin_of_the_begin "1700-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1999-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 1700 ;
+    kst:endYear 1999 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/c4-6-ad> a crm:E52_Time-Span ;
+    rdfs:label "MS 300 – MS 599"@tr ;
+    crm:P82a_begin_of_the_begin "0300-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0599-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 300 ;
+    kst:endYear 599 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-1985-87> a crm:E52_Time-Span ;
+    rdfs:label "MS 1985 – MS 1987"@tr ;
+    crm:P82a_begin_of_the_begin "1985-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1987-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 1985 ;
+    kst:endYear 1987 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-1993> a crm:E52_Time-Span ;
+    rdfs:label "MS 1993 – MS 1993"@tr ;
+    crm:P82a_begin_of_the_begin "1993-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "1993-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 1993 ;
+    kst:endYear 1993 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2010-22> a crm:E52_Time-Span ;
+    rdfs:label "MS 2010 – MS 2022"@tr ;
+    crm:P82a_begin_of_the_begin "2010-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2022-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 2010 ;
+    kst:endYear 2022 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/conference-2024> a crm:E52_Time-Span ;
+    rdfs:label "MS 2024 – MS 2024"@tr ;
+    crm:P82a_begin_of_the_begin "2024-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 2024 ;
+    kst:endYear 2024 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/creation-report> a crm:E52_Time-Span ;
+    rdfs:label "MS 2026 – MS 2026"@tr ;
+    crm:P82a_begin_of_the_begin "2026-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2026-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 2026 ;
+    kst:endYear 2026 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/funding-bap-2024> a crm:E52_Time-Span ;
+    rdfs:label "MS 2024 – MS 2024"@tr ;
+    crm:P82a_begin_of_the_begin "2024-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 2024 ;
+    kst:endYear 2024 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/permit-2024> a crm:E52_Time-Span ;
+    rdfs:label "MS 2024 – MS 2024"@tr ;
+    crm:P82a_begin_of_the_begin "2024-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 2024 ;
+    kst:endYear 2024 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/severan> a crm:E52_Time-Span ;
+    rdfs:label "MS 193 – MS 235"@tr ;
+    crm:P82a_begin_of_the_begin "0193-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "0235-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 193 ;
+    kst:endYear 235 .
+
+type:analemma-wall a crm:E55_Type ;
+    rdfs:label "analemma wall"@en .
+
+type:ancient-city a crm:E55_Type ;
+    rdfs:label "ancient city"@en .
+
+type:animal-bone a crm:E55_Type ;
+    rdfs:label "animal bone"@en .
+
+type:bronze a crm:E55_Type ;
+    rdfs:label "bronze"@en .
+
+type:building-group a crm:E55_Type ;
+    rdfs:label "building group"@en .
+
+type:cavea a crm:E55_Type ;
+    rdfs:label "cavea"@en .
+
+type:cemetery a crm:E55_Type ;
+    rdfs:label "cemetery"@en .
+
+type:cleaning-and-arrangement a crm:E55_Type ;
+    rdfs:label "cleaning and arrangement"@en .
+
+type:damaged a crm:E55_Type ;
+    rdfs:label "damaged"@en .
+
+type:deputy-director a crm:E55_Type ;
+    rdfs:label "deputy director"@en .
+
+type:district a crm:E55_Type ;
+    rdfs:label "district"@en .
+
+type:documentation-survey a crm:E55_Type ;
+    rdfs:label "documentation survey"@en .
+
+type:excavation-report a crm:E55_Type ;
+    rdfs:label "excavation report"@en .
+
+type:floor a crm:E55_Type ;
+    rdfs:label "floor"@en .
+
+type:funder a crm:E55_Type ;
+    rdfs:label "funder"@en .
+
+type:funding a crm:E55_Type ;
+    rdfs:label "funding"@en .
+
+type:grave a crm:E55_Type ;
+    rdfs:label "grave"@en .
+
+type:helenistik-donem-den-itibaren-farkli-donemlerde-degiserek-kullanim a crm:E55_Type ;
+    rdfs:label "Helenistik Dönem'den itibaren farklı dönemlerde değişerek kullanım"@tr .
+
+type:hill a crm:E55_Type ;
+    rdfs:label "hill"@en .
+
+type:iron a crm:E55_Type ;
+    rdfs:label "iron"@en .
+
+type:isbn a crm:E55_Type ;
+    rdfs:label "ISBN"@en .
+
+type:keystone a crm:E55_Type ;
+    rdfs:label "keystone"@en .
+
+type:locality a crm:E55_Type ;
+    rdfs:label "locality"@en .
+
+type:ministry-representative a crm:E55_Type ;
+    rdfs:label "ministry representative"@en .
+
+type:mozaikli-ve-sivali-boyali-duvarli-mekanlarin-varligi a crm:E55_Type ;
+    rdfs:label "Mozaikli ve sıvalı-boyalı duvarlı mekânların varlığı"@tr .
+
+type:nymphaeum a crm:E55_Type ;
+    rdfs:label "nymphaeum"@en .
+
+type:orchestra a crm:E55_Type ;
+    rdfs:label "orchestra"@en .
+
+type:parodos a crm:E55_Type ;
+    rdfs:label "parodos"@en .
+
+type:perge-ornegiyle-ozdes-ms-4-6-yuzyilda-eklenmis-cesme-yapisi a crm:E55_Type ;
+    rdfs:label "Perge örneğiyle özdeş, MS 4.-6. yüzyılda eklenmiş çeşme yapısı"@tr .
+
+type:permission-and-support a crm:E55_Type ;
+    rdfs:label "permission and support"@en .
+
+type:project-number a crm:E55_Type ;
+    rdfs:label "project number"@en .
+
+type:province a crm:E55_Type ;
+    rdfs:label "province"@en .
+
+type:public-outreach-conference a crm:E55_Type ;
+    rdfs:label "public outreach conference"@en .
+
+type:reused-architectural-element a crm:E55_Type ;
+    rdfs:label "reused architectural element"@en .
+
+type:roof-tile a crm:E55_Type ;
+    rdfs:label "roof tile"@en .
+
+type:school a crm:E55_Type ;
+    rdfs:label "school"@en .
+
+type:selcuklu-donemi-nde-gumruk-yapisi-olarak-iskan-olasi a crm:E55_Type ;
+    rdfs:label "Selçuklu Dönemi'nde gümrük yapısı olarak iskân (olası)"@tr .
+
+type:selcuklu-erken-beylikler-ve-osmanli-donemleri-kesin-tarihleme-icin-kazi-planlanmaktadir a crm:E55_Type ;
+    rdfs:label "Selçuklu, Erken Beylikler ve Osmanlı dönemleri (kesin tarihleme için kazı planlanmaktadır)"@tr .
+
+type:severuslar-donemi-ms-193-235-tiyatro-ust-yapisi a crm:E55_Type ;
+    rdfs:label "Severuslar Dönemi (MS 193-235) tiyatro üst yapısı"@tr .
+
+type:sieving a crm:E55_Type ;
+    rdfs:label "sieving"@en .
+
+type:slag a crm:E55_Type ;
+    rdfs:label "slag"@en .
+
+type:slope a crm:E55_Type ;
+    rdfs:label "slope"@en .
+
+type:small-find a crm:E55_Type ;
+    rdfs:label "small find"@en .
+
+type:stage-building a crm:E55_Type ;
+    rdfs:label "stage building"@en .
+
+type:staircase a crm:E55_Type ;
+    rdfs:label "staircase"@en .
+
+type:supporting-institution a crm:E55_Type ;
+    rdfs:label "supporting institution"@en .
+
+type:supporting-unit a crm:E55_Type ;
+    rdfs:label "supporting unit"@en .
+
+type:team a crm:E55_Type ;
+    rdfs:label "team"@en .
+
+type:team-leader a crm:E55_Type ;
+    rdfs:label "team leader"@en .
+
+type:terracotta-building-element a crm:E55_Type ;
+    rdfs:label "terracotta building element"@en .
+
+type:tessera a crm:E55_Type ;
+    rdfs:label "tessera"@en .
+
+type:theatre a crm:E55_Type ;
+    rdfs:label "theatre"@en .
+
+type:tombstone a crm:E55_Type ;
+    rdfs:label "tombstone"@en .
+
+type:tr a crm:E55_Type ;
+    rdfs:label "tr"@en .
+
+type:uretim-ve-ticaret-odakli-cok-islevli-uzun-sureli-kullanim-kamusal-islev a crm:E55_Type ;
+    rdfs:label "Üretim ve ticaret odaklı, çok işlevli, uzun süreli kullanım; kamusal işlev"@tr .
+
+type:wall a crm:E55_Type ;
+    rdfs:label "wall"@en .
+
+type:wall-painting-fragment a crm:E55_Type ;
+    rdfs:label "wall painting fragment"@en .
+
+type:water-pipe a crm:E55_Type ;
+    rdfs:label "water pipe"@en .
+
+type:weighing-instrument a crm:E55_Type ;
+    rdfs:label "weighing instrument"@en .
+
+type:yapinin-zeminine-ait-harc-tabakasi a crm:E55_Type ;
+    rdfs:label "Yapının zeminine ait harç tabakası"@tr .
+
+type:zeus a crm:E55_Type ;
+    rdfs:label "Zeus"@en .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/cleaning-south-slope-2024> a crm:E7_Activity ;
+    rdfs:label "Güney Yamaç Yapı Grubu temizlik, düzenleme ve eleme çalışmaları 2024"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-8> ;
+    crm:P2_has_type type:cleaning-and-arrangement ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/atesogullari> a crm:E21_Person ;
+    rdfs:label "Soner Ateşoğulları"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/embedding/arch-blocks-north-vom> a crmarchaeo:A7_Embedding ;
+    rdfs:label "Kuzey vomitorium mimari blokları – gömülü olma durumu"@tr ;
+    crmarchaeo:AP18_is_embedding_of <https://example.org/kst45/seleukeia-sidera-2024/find/arch-blocks-north-vom> ;
+    crmarchaeo:AP19_is_embedding_in <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-north-vom> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/embedding/bones-1993-fill> a crmarchaeo:A7_Embedding ;
+    rdfs:label "Hayvan kemiği parçaları – gömülü olma durumu"@tr ;
+    crmarchaeo:AP18_is_embedding_of <https://example.org/kst45/seleukeia-sidera-2024/find/bones-1993-fill> ;
+    crmarchaeo:AP19_is_embedding_in <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-1993> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/embedding/ceramics-1993-fill> a crmarchaeo:A7_Embedding ;
+    rdfs:label "1993 dolgusundan seramik parçaları ve pithos kırıkları – gömülü olma durumu"@tr ;
+    crmarchaeo:AP18_is_embedding_of <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-1993-fill> ;
+    crmarchaeo:AP19_is_embedding_in <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-1993> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/embedding/coins-1993-fill> a crmarchaeo:A7_Embedding ;
+    rdfs:label "1993 dolgusundan elenen sikkeler – gömülü olma durumu"@tr ;
+    crmarchaeo:AP18_is_embedding_of <https://example.org/kst45/seleukeia-sidera-2024/find/coins-1993-fill> ;
+    crmarchaeo:AP19_is_embedding_in <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-1993> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/embedding/keystone-zeus> a crmarchaeo:A7_Embedding ;
+    rdfs:label "Zeus kabartmalı kilit taşı – gömülü olma durumu"@tr ;
+    crmarchaeo:AP18_is_embedding_of <https://example.org/kst45/seleukeia-sidera-2024/find/keystone-zeus> ;
+    crmarchaeo:AP19_is_embedding_in <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-north-vom> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/embedding/slag-1993-fill> a crmarchaeo:A7_Embedding ;
+    rdfs:label "Demir cüruflar – gömülü olma durumu"@tr ;
+    crmarchaeo:AP18_is_embedding_of <https://example.org/kst45/seleukeia-sidera-2024/find/slag-1993-fill> ;
+    crmarchaeo:AP19_is_embedding_in <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-1993> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/north-cavea> a crm:E22_Human-Made_Object ;
+    rdfs:label "Kuzey cavea"@tr ;
+    crm:P2_has_type type:cavea ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra-floor> a crm:E25_Human-Made_Feature ;
+    rdfs:label "Cavea oturma sıralarını taşıyan blokların zemini"@tr ;
+    crm:P2_has_type type:floor ;
+    crm:P3_has_note "Nehir çakılları ve amorf taşlardan, araları harçla güçlendirilmiş."@tr ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/rock-cut-stairs> a crm:E25_Human-Made_Feature ;
+    rdfs:label "Ana kayaya oyulmuş merdiven sistemi"@tr ;
+    crm:P2_has_type type:staircase ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-south-vomitorium> a crm:E22_Human-Made_Object ;
+    rdfs:label "Tiyatro güney vomitoriumu"@tr ;
+    crm:P2_has_type type:vomitorium ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-13> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 13: Toplumsal Arkeoloji ve Kültürel Miras farkındalık çalışmaları."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 224 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-14> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 14: Toplumsal Arkeoloji ve Kültürel Miras farkındalık çalışmaları."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 224 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/bronze-coins-trenches> a crm:E22_Human-Made_Object ;
+    rdfs:label "Çok sayıda bronz sikke"@tr ;
+    crm:P2_has_type type:coin ;
+    crm:P45_consists_of type:bronze ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-bronze-coins-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/coffer-orchestra> a crm:E22_Human-Made_Object ;
+    rdfs:label "Orkestra kaset parçaları ve mimari unsurlar"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6> ;
+    crm:P2_has_type type:architectural-element ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coffer-orchestra> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/columns-trenches> a crm:E22_Human-Made_Object ;
+    rdfs:label "Sütun parçaları, kaideler ve mimari elemanlar"@tr ;
+    crm:P2_has_type type:architectural-element ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-columns-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/diazoma-block> a crm:E22_Human-Made_Object ;
+    rdfs:label "Diazoma duvar hattına ait olabilecek mimari blok"@tr ;
+    crm:P2_has_type type:architectural-block ;
+    crm:P43_has_dimension <https://example.org/kst45/seleukeia-sidera-2024/dimension/diazoma-block-count> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-diazoma-block> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/fresco-trenches> a crm:E22_Human-Made_Object ;
+    rdfs:label "Fresk parçaları ve harç kalıntıları"@tr ;
+    crm:P2_has_type type:wall-painting-fragment ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-fresco-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/roof-tiles-trenches> a crm:E22_Human-Made_Object ;
+    rdfs:label "Pişmiş toprak çatı kiremitleri ve zemin kaplama parçaları"@tr ;
+    crm:P2_has_type type:roof-tile ;
+    crm:P45_consists_of type:terracotta ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-roof-tiles-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/small-objects-trenches> a crm:E22_Human-Made_Object ;
+    rdfs:label "Metal, cam ve kemik objeler"@tr ;
+    crm:P2_has_type type:small-find ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-small-objects-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/terracotta-elements-stage> a crm:E22_Human-Made_Object ;
+    rdfs:label "Sahne binası pişmiş toprak yapı elemanları"@tr ;
+    crm:P2_has_type type:terracotta-building-element ;
+    crm:P45_consists_of type:terracotta ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-terracotta-elements-stage> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/tesserae-trenches> a crm:E22_Human-Made_Object ;
+    rdfs:label "Mozaik döşemelerine ait tessera örnekleri"@tr ;
+    crm:P2_has_type type:tessera ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-tesserae-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/weighing-set> a crm:E22_Human-Made_Object ;
+    rdfs:label "Ağırlık, titanbulum (terazi kolu) ve terazi kefeleri"@tr ;
+    crm:P2_has_type type:weighing-instrument ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-weighing-set> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/c18-20> a crm:E4_Period ;
+    rdfs:label "18.-20. yüzyıl"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/c18-20> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/c4-6-ad> a crm:E4_Period ;
+    rdfs:label "MS 4.-6. yüzyıl"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/c4-6-ad> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/early-beylik> a crm:E4_Period ;
+    rdfs:label "Erken Beylikler Dönemi"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/hellenistic> a crm:E4_Period ;
+    rdfs:label "Helenistik Dönem"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/ottoman> a crm:E4_Period ;
+    rdfs:label "Osmanlı Dönemi"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/severan> a crm:E4_Period ;
+    rdfs:label "Severuslar Dönemi"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/severan> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/atabey-lisesi> a crm:E53_Place ;
+    rdfs:label "Atabey Anadolu Lisesi"@tr ;
+    crm:P2_has_type type:school ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P89_falls_within <https://example.org/kst45/seleukeia-sidera-2024/place/atabey> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/bayat> a crm:E53_Place ;
+    rdfs:label "Bayat köyü"@tr ;
+    crm:P2_has_type type:village ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P89_falls_within <https://example.org/kst45/seleukeia-sidera-2024/place/atabey> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/islamkoy> a crm:E53_Place ;
+    rdfs:label "İslamköy köyü"@tr ;
+    crm:P2_has_type type:village ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P89_falls_within <https://example.org/kst45/seleukeia-sidera-2024/place/atabey> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/isparta> a crm:E53_Place ;
+    rdfs:label "Isparta ili"@tr ;
+    crm:P2_has_type type:province ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-north-analemma> a crm:E53_Place ;
+    rdfs:label "Kuzey analemma duvarı (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-nymphaion> a crm:E53_Place ;
+    rdfs:label "Nymphaion (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-site> a crm:E53_Place ;
+    rdfs:label "Seleukeia Sidera Antik Kenti (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/site> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre> a crm:E53_Place ;
+    rdfs:label "Tiyatro (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/stratum/hard-floor-layers> a crmarchaeo:A2_Stratigraphic_Volume_Unit ;
+    rdfs:label "Pişmiş toprak malzemeli sert zemin tabakaları"@tr ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/stratum/mortar-layer-north-vom> a crmarchaeo:A2_Stratigraphic_Volume_Unit ;
+    rdfs:label "Kuzey vomitorium zemin harç tabakası"@tr ;
+    crm:P3_has_note "Yapının zeminine ait olduğu düşünülmektedir."@tr ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 210 .
+
+type:architectural-block a crm:E55_Type ;
+    rdfs:label "architectural block"@en .
+
+type:excavation-director a crm:E55_Type ;
+    rdfs:label "excavation director"@en .
+
+type:length a crm:E55_Type ;
+    rdfs:label "length"@en .
+
+type:permitting-authority a crm:E55_Type ;
+    rdfs:label "permitting authority"@en .
+
+type:speaker a crm:E55_Type ;
+    rdfs:label "speaker"@en .
+
+type:team-member a crm:E55_Type ;
+    rdfs:label "team member"@en .
+
+type:terracotta a crm:E55_Type ;
+    rdfs:label "terracotta"@en .
+
+type:trench a crm:E55_Type ;
+    rdfs:label "trench"@en .
+
+type:village a crm:E55_Type ;
+    rdfs:label "village"@en .
+
+type:vomitorium a crm:E55_Type ;
+    rdfs:label "vomitorium"@en .
+
+type:width a crm:E55_Type ;
+    rdfs:label "width"@en .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/exc-orchestra-2024> a crm:E7_Activity,
+        crmarchaeo:A1_Excavation_Processing_Unit ;
+    rdfs:label "Orkestra güneydoğusu kazısı 2024"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6> ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra> ;
+    crm:P9_consists_of <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coffer-orchestra> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/funding-bap-2024> a crm:E7_Activity ;
+    rdfs:label "SDÜ BAP projesi SKP-2024-9404"@tr ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-bap> ;
+    crm:P1_is_identified_by <https://example.org/kst45/seleukeia-sidera-2024/identifier/project-number-skp-2024-9404> ;
+    crm:P20_had_specific_purpose <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P2_has_type type:funding ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/funding-bap-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/bingol> a crm:E21_Person ;
+    rdfs:label "Orhan Bingöl"@tr ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209,
+        212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/isparta-muze> a crm:E74_Group ;
+    rdfs:label "Isparta Müze Müdürlüğü"@tr ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/kazi-ekibi-2024> a crm:E74_Group ;
+    rdfs:label "Seleukeia Sidera 2024 kazı ve araştırma ekibi"@tr ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 215 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-arch-blocks-north-vom> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Kuzey vomitorium mimari blokları – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/arch-blocks-north-vom> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-bones-1993-fill> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Hayvan kemiği parçaları – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/sieving-1993-fill> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/bones-1993-fill> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-bronze-coins-trenches> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Çok sayıda bronz sikke – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/bronze-coins-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-capital-coffer-architrave> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Sütun başlığı, kaset ve arşitrav parçaları (tiyatro üst yapısı) – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/capital-coffer-architrave> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-1993-fill> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "1993 dolgusundan seramik parçaları ve pithos kırıkları – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/sieving-1993-fill> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-1993-fill> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-stage-2024> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma, sınırlı Helenistik) – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-stage-2024> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-trenches-2024> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Açma seramik parçaları (Roma İmparatorluk ve Geç Roma) – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-trenches-2024> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coffer-orchestra> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Orkestra kaset parçaları ve mimari unsurlar – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-orchestra-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/coffer-orchestra> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coin-seljuk-north> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Selçuklu Dönemi sikkesi (tiyatro kuzeyi) – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/coin-seljuk-north> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coins-1993-fill> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "1993 dolgusundan elenen sikkeler – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/sieving-1993-fill> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/coins-1993-fill> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-columns-trenches> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Sütun parçaları, kaideler ve mimari elemanlar – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/columns-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-diazoma-block> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Diazoma duvar hattına ait olabilecek mimari blok – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/diazoma-block> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-fresco-trenches> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Fresk parçaları ve harç kalıntıları – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/fresco-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-keystone-zeus> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Zeus kabartmalı kilit taşı – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/keystone-zeus> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ottoman-tombstones> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Osmanlıca mezar taşları (11 adet, 18.-20. yüzyıl) – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-hidirlik-cemetery> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/cemetery-survey-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/ottoman-tombstones> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-reused-mortar> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Duvarlarda devşirme kullanılan mortar parçaları – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/reused-mortar> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-roof-tiles-trenches> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Pişmiş toprak çatı kiremitleri ve zemin kaplama parçaları – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/roof-tiles-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-slag-1993-fill> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Demir cüruflar – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/sieving-1993-fill> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/slag-1993-fill> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-small-objects-trenches> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Metal, cam ve kemik objeler – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/small-objects-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-terracotta-elements-stage> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Sahne binası pişmiş toprak yapı elemanları – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/terracotta-elements-stage> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-tesserae-trenches> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Mozaik döşemelerine ait tessera örnekleri – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/tesserae-trenches> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/event/encounter-weighing-set> a crm:E7_Activity,
+        crmsci:S19_Encounter_Event ;
+    rdfs:label "Ağırlık, titanbulum (terazi kolu) ve terazi kefeleri – buluntu olayı"@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> ;
+    crmsci:O19_encountered_object <https://example.org/kst45/seleukeia-sidera-2024/find/weighing-set> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom> a crm:E25_Human-Made_Feature ;
+    rdfs:label "Kuzey vomitoriumdaki Geç Roma duvar kalıntısı"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-late-roman-wall-north-vom> ;
+    crm:P2_has_type type:wall ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos> a crm:E22_Human-Made_Object ;
+    rdfs:label "Kuzey parodos"@tr ;
+    crm:P2_has_type type:parodos ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/pipe-system> a crm:E25_Human-Made_Feature ;
+    rdfs:label "Künk sistemleri"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-10> ;
+    crm:P2_has_type type:water-pipe ;
+    crm:P3_has_note "Su tahliyesi veya su teminine yönelik altyapı."@tr ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 1: Seleukeia Sidera yerleşim alanları."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 217 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-10> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 10: Seleukeia Sidera Güney Yamaç Yapıları, Devşirme Mortar parçası ve Su Sistemleri."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/pipe-system>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/reused-mortar> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 222 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 2: Hisar Tepe, Seleukeia Sidera."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 218 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 3: Seleukeia Sidera Tiyatro, Sahne Binası, Vomitorium."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 218 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-5> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 5: Seleukeia Sidera Tiyatro Sahne Binası, Nymphaion."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 219 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-7> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 7: Seleukeia Sidera Güney Yamaç Yapıları."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 220 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-9> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 9: Seleukeia Sidera Güney Yamaç Yapıları."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-trenches> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 221 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/arch-blocks-north-vom> a crm:E22_Human-Made_Object ;
+    rdfs:label "Kuzey vomitorium mimari blokları"@tr ;
+    crm:P2_has_type type:architectural-block ;
+    crm:P3_has_note "Vomitoriumun kemerli yapılarında kullanıldığını gösterir."@tr ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmarchaeo:AP18i_is_embedded <https://example.org/kst45/seleukeia-sidera-2024/embedding/arch-blocks-north-vom> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-arch-blocks-north-vom> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/bones-1993-fill> a crm:E20_Biological_Object ;
+    rdfs:label "Hayvan kemiği parçaları"@tr ;
+    crm:P2_has_type type:animal-bone ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmarchaeo:AP18i_is_embedded <https://example.org/kst45/seleukeia-sidera-2024/embedding/bones-1993-fill> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-bones-1993-fill> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-stage-2024> a crm:E22_Human-Made_Object ;
+    rdfs:label "Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma, sınırlı Helenistik)"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-ceramics-stage-2024> ;
+    crm:P2_has_type type:pottery-sherds ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-stage-2024> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-trenches-2024> a crm:E22_Human-Made_Object ;
+    rdfs:label "Açma seramik parçaları (Roma İmparatorluk ve Geç Roma)"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-ceramics-trenches-2024> ;
+    crm:P2_has_type type:pottery-sherds ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-trenches-2024> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/coin-seljuk-north> a crm:E22_Human-Made_Object ;
+    rdfs:label "Selçuklu Dönemi sikkesi (tiyatro kuzeyi)"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-coin-seljuk-north> ;
+    crm:P2_has_type type:coin ;
+    crm:P43_has_dimension <https://example.org/kst45/seleukeia-sidera-2024/dimension/coin-seljuk-north-count> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coin-seljuk-north> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/coins-1993-fill> a crm:E22_Human-Made_Object ;
+    rdfs:label "1993 dolgusundan elenen sikkeler"@tr ;
+    crm:P2_has_type type:coin ;
+    crm:P3_has_note "Etütlük ve envanterlik nitelikte toplam 134 adet."@tr ;
+    crm:P43_has_dimension <https://example.org/kst45/seleukeia-sidera-2024/dimension/coins-1993-fill-count> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmarchaeo:AP18i_is_embedded <https://example.org/kst45/seleukeia-sidera-2024/embedding/coins-1993-fill> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coins-1993-fill> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/keystone-zeus> a crm:E22_Human-Made_Object ;
+    rdfs:label "Zeus kabartmalı kilit taşı"@tr ;
+    crm:P2_has_type type:keystone ;
+    crm:P3_has_note "Dolgu toprağı içinde ele geçmiştir."@tr ;
+    crm:P43_has_dimension <https://example.org/kst45/seleukeia-sidera-2024/dimension/keystone-zeus-count> ;
+    crm:P44_has_condition <https://example.org/kst45/seleukeia-sidera-2024/condition/keystone-zeus> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P62_depicts type:zeus ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmarchaeo:AP18i_is_embedded <https://example.org/kst45/seleukeia-sidera-2024/embedding/keystone-zeus> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-keystone-zeus> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/ottoman-tombstones> a crm:E22_Human-Made_Object ;
+    rdfs:label "Osmanlıca mezar taşları (11 adet, 18.-20. yüzyıl)"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-ottoman-tombstones> ;
+    crm:P128_carries <https://example.org/kst45/seleukeia-sidera-2024/inscription/ottoman-tombstones> ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-11>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-12> ;
+    crm:P2_has_type type:tombstone ;
+    crm:P3_has_note "Günümüz Türkçesine çevrilmiştir."@tr ;
+    crm:P43_has_dimension <https://example.org/kst45/seleukeia-sidera-2024/dimension/ottoman-tombstones-count> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-hidirlik-cemetery> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ottoman-tombstones> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/reused-mortar> a crm:E22_Human-Made_Object ;
+    rdfs:label "Duvarlarda devşirme kullanılan mortar parçaları"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-10> ;
+    crm:P2_has_type type:reused-architectural-element ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-reused-mortar> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/slag-1993-fill> a crm:E22_Human-Made_Object ;
+    rdfs:label "Demir cüruflar"@tr ;
+    crm:P2_has_type type:slag ;
+    crm:P45_consists_of type:iron ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmarchaeo:AP18i_is_embedded <https://example.org/kst45/seleukeia-sidera-2024/embedding/slag-1993-fill> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-slag-1993-fill> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/seljuk> a crm:E4_Period ;
+    rdfs:label "Selçuklu Dönemi"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/hidirlik> a crm:E53_Place ;
+    rdfs:label "Hıdırlık Mevkii"@tr ;
+    crm:P2_has_type type:locality ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-cemetery> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P89_falls_within <https://example.org/kst45/seleukeia-sidera-2024/place/islamkoy> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe-south-slope> a crm:E53_Place ;
+    rdfs:label "Hisar Tepe güney yamacı"@tr ;
+    crm:P2_has_type type:slope ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P89_falls_within <https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe> ;
+    kst:sourcePage 212 .
+
+type:architectural-element a crm:E55_Type ;
+    rdfs:label "architectural element"@en .
+
+type:coin a crm:E55_Type ;
+    rdfs:label "coin"@en .
+
+type:institution a crm:E55_Type ;
+    rdfs:label "institution"@en .
+
+type:pottery-sherds a crm:E55_Type ;
+    rdfs:label "pottery sherds"@en .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87> a crm:E7_Activity,
+        crmarchaeo:A9_Archaeological_Excavation ;
+    rdfs:label "Isparta Müzesi tiyatro kazıları 1985-1987"@tr ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/isparta-muze> ;
+    crm:P2_has_type type:excavation-campaign ;
+    crm:P3_has_note "Güney parados, cavea, sahne binası ve Nymphaion'un bir kısmı açığa çıkarılmıştır (Kaya 1999a, 1999b)."@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-1985-87> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre> ;
+    crmarchaeo:AP3_investigated <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    kst:sourcePage 209,
+        210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993> a crm:E7_Activity,
+        crmarchaeo:A9_Archaeological_Excavation ;
+    rdfs:label "Orhan Bingöl başkanlığında 1993 kazıları"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-7> ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/bingol> ;
+    crm:P2_has_type type:excavation-campaign ;
+    crm:P3_has_note "Güney Yamaç Yapı Grubu ilk kez açığa çıkarılmış; doğu ve batı yönlerinde dört mekân belirlenmiştir (Bingöl 1994, 2012)."@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-1993> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crmarchaeo:AP3_investigated <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    kst:sourcePage 209,
+        212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22> a crm:E7_Activity,
+        crmarchaeo:A9_Archaeological_Excavation ;
+    rdfs:label "Sahne binası kuzey kesimi kazıları 2010-2022"@tr ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji> ;
+    crm:P2_has_type type:excavation-campaign ;
+    crm:P3_has_note "Güney cephedeki niş serisinin kuzeyde de devam ettiği ortaya konmuştur."@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2010-22> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crmarchaeo:AP3_investigated <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/bakir> a crm:E21_Person ;
+    rdfs:label "Abdullah Bakır"@tr ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/cemetery-survey-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/gelecege-miras> a crm:E74_Group ;
+    rdfs:label "Geleceğe Miras Daire Başkanlığı"@tr ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/kvmgm> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-bap> a crm:E74_Group ;
+    rdfs:label "Süleyman Demirel Üniversitesi Bilimsel Araştırma Projeleri"@tr ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/funding-bap-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/yavuz> a crm:E21_Person ;
+    rdfs:label "Hanife Yavuz"@tr ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/ktb> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-graves> a crm:E25_Human-Made_Feature ;
+    rdfs:label "Hıdırlık Mezarlığı mezarları"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-hidirlik-graves> ;
+    crm:P2_has_type type:grave ;
+    crm:P3_has_note "Büyük ve küçük şahide taşlı çok sayıda mezar; Selçuklu ve Erken Beylikler tarihlemesi kesin değildir."@tr ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-cemetery> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma> a crm:E22_Human-Made_Object ;
+    rdfs:label "Kuzey analemma duvarı"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6> ;
+    crm:P2_has_type type:analemma-wall ;
+    crm:P3_has_note "Batı kısmı büyük kyklopik taşlarla inşa edilmiştir."@tr ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-north-analemma> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-trenches> a crm:E25_Human-Made_Feature ;
+    rdfs:label "Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m)"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-9> ;
+    crm:P2_has_type type:trench ;
+    crm:P43_has_dimension <https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-trenches-0>,
+        <https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-trenches-1>,
+        <https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-trenches-2> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe-south-slope>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium> a crm:E22_Human-Made_Object ;
+    rdfs:label "Tiyatro kuzey vomitoriumu"@tr ;
+    crm:P2_has_type type:vomitorium ;
+    crm:P46_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom> ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-11> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 11: Hıdırlık Mevkii Türk İslam Dönemi Mezarlığı."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-cemetery> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 222 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-12> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 12: Hıdırlık Mevkii Türk İslam Dönemi Mezarlığı."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-cemetery> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 223 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-8> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 8: Seleukeia Sidera Güney Yamaç Yapıları, 1993 ve 2024 yılı kazılarının gerçekleştiği alan."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 221 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/capital-coffer-architrave> a crm:E22_Human-Made_Object ;
+    rdfs:label "Sütun başlığı, kaset ve arşitrav parçaları (tiyatro üst yapısı)"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-capital-coffer-architrave> ;
+    crm:P2_has_type type:architectural-element ;
+    crm:P3_has_note "Tiyatronun üst yapısına ait; Severuslar Dönemi'ne (MS 193-235) tarihlendirilebileceği düşünülmektedir."@tr ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-capital-coffer-architrave> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-1993-fill> a crm:E22_Human-Made_Object ;
+    rdfs:label "1993 dolgusundan seramik parçaları ve pithos kırıkları"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-ceramics-1993-fill> ;
+    crm:P2_has_type type:pottery-sherds ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmarchaeo:AP18i_is_embedded <https://example.org/kst45/seleukeia-sidera-2024/embedding/ceramics-1993-fill> ;
+    crmsci:O19i_was_object_encountered_at <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-1993-fill> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/roman-imperial> a crm:E4_Period ;
+    rdfs:label "Roma İmparatorluk Dönemi"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/atabey> a crm:E53_Place ;
+    rdfs:label "Atabey ilçesi"@tr ;
+    crm:P2_has_type type:district ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P89_falls_within <https://example.org/kst45/seleukeia-sidera-2024/place/isparta> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe> a crm:E53_Place ;
+    rdfs:label "Hisar Tepe"@tr ;
+    crm:P2_has_type type:hill ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P89_falls_within <https://example.org/kst45/seleukeia-sidera-2024/place/bayat> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-hidirlik-cemetery> a crm:E53_Place ;
+    rdfs:label "İslamköy Hıdırlık Mezarlığı (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-cemetery> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos> a crm:E53_Place ;
+    rdfs:label "Kuzey parodos (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra> a crm:E53_Place ;
+    rdfs:label "Orkestra (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-north-vom> a crmarchaeo:A2_Stratigraphic_Volume_Unit ;
+    rdfs:label "Kuzey vomitorium dolgu toprağı"@tr ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmarchaeo:AP19i_contains_embedding <https://example.org/kst45/seleukeia-sidera-2024/embedding/arch-blocks-north-vom>,
+        <https://example.org/kst45/seleukeia-sidera-2024/embedding/keystone-zeus> ;
+    kst:sourcePage 210 .
+
+type:excavation-campaign a crm:E55_Type ;
+    rdfs:label "excavation campaign"@en .
+
+type:m a crm:E55_Type ;
+    rdfs:label "m"@en .
+
+type:orcid a crm:E55_Type ;
+    rdfs:label "ORCID"@en .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/cemetery-survey-2024> a crm:E7_Activity ;
+    rdfs:label "Hıdırlık Mevkii Türk-İslam Dönemi mezarlık belgeleme çalışmaları"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-11>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-12> ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/bakir> ;
+    crm:P2_has_type type:documentation-survey ;
+    crm:P3_has_note "Mezar ve mezar taşları tespit edilip belgelenmiş; Osmanlıca mezar taşları günümüz Türkçesine çevrilmiştir. Kesin tarihleme için bilimsel kazı planlanmaktadır."@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/hidirlik>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-hidirlik-cemetery> ;
+    crm:P9_consists_of <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ottoman-tombstones> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    kst:sourcePage 213,
+        214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024> a crm:E7_Activity,
+        crmarchaeo:A1_Excavation_Processing_Unit ;
+    rdfs:label "Sahne binası kuzey yönü kazı ve belgeleme çalışmaları 2024"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-5> ;
+    crm:P3_has_note "Yapının ana hatlarının belgelenmesi ve nymphaion ile yapısal bütünlüğünün incelenmesi amaçlanmıştır."@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-nymphaion>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crm:P9_consists_of <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-capital-coffer-architrave>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-stage-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-terracotta-elements-stage> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/ktb> a crm:E74_Group ;
+    rdfs:label "T.C. Kültür ve Turizm Bakanlığı"@tr ;
+    crm:P107_has_current_or_former_member <https://example.org/kst45/seleukeia-sidera-2024/actor/kvmgm>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/yavuz> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/sdu> a crm:E74_Group ;
+    rdfs:label "Süleyman Demirel Üniversitesi"@tr ;
+    crm:P107_has_current_or_former_member <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-bap> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209,
+        214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra> a crm:E22_Human-Made_Object ;
+    rdfs:label "Orkestra"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6> ;
+    crm:P2_has_type type:orchestra ;
+    crm:P46_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra-floor> ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 4: Seleukeia Sidera Tiyatro ve Sahne Binası plan."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 219 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/period/late-roman> a crm:E4_Period ;
+    rdfs:label "Geç Roma İmparatorluk Dönemi"@tr ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> .
+
+type:piece a crm:E55_Type ;
+    rdfs:label "piece"@en .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024> a crm:E7_Activity,
+        crmarchaeo:A1_Excavation_Processing_Unit ;
+    rdfs:label "Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey parodos) kazısı 2024"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4> ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-north-analemma>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> ;
+    crm:P9_consists_of <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-arch-blocks-north-vom>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coin-seljuk-north>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-diazoma-block>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-keystone-zeus> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crmarchaeo:AP5_removed_part_or_all_of <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-north-vom> ;
+    kst:sourcePage 210 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/sieving-1993-fill> a crm:E7_Activity ;
+    rdfs:label "1993 dolgu toprağının elenmesi 2024"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-8> ;
+    crm:P16_used_specific_object <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-1993> ;
+    crm:P2_has_type type:sieving ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P9_consists_of <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-bones-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coins-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-slag-1993-fill> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/kvmgm> a crm:E74_Group ;
+    rdfs:label "Kültür Varlıkları ve Müzeler Genel Müdürlüğü"@tr ;
+    crm:P107_has_current_or_former_member <https://example.org/kst45/seleukeia-sidera-2024/actor/gelecege-miras> ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/ktb> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-cemetery> a crm:E27_Site ;
+    rdfs:label "İslamköy Hıdırlık Mezarlığı"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-11>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-12> ;
+    crm:P2_has_type type:cemetery ;
+    crm:P46_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-graves> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/hidirlik>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-hidirlik-cemetery> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6> a crm:E36_Visual_Item ;
+    rdfs:label "Resim 6: Seleukeia Sidera Tiyatro ve Sahne Binası, Orkestra, kuzey Analemna Duvarı, Nymphaion."@tr ;
+    crm:P106i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P138_represents <https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra> ;
+    crm:P2_has_type type:figure,
+        type:resim ;
+    kst:sourcePage 220 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-1993> a crmarchaeo:A2_Stratigraphic_Volume_Unit ;
+    rdfs:label "1993 kazılarında açığa çıkarılan dolgu toprağı"@tr ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crmarchaeo:AP19i_contains_embedding <https://example.org/kst45/seleukeia-sidera-2024/embedding/bones-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/embedding/ceramics-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/embedding/coins-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/embedding/slag-1993-fill> ;
+    kst:sourcePage 212 .
+
+type:count a crm:E55_Type ;
+    rdfs:label "count"@en .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion> a crm:E22_Human-Made_Object ;
+    rdfs:label "Nymphaion"@tr ;
+    crm:P108i_was_produced_by <https://example.org/kst45/seleukeia-sidera-2024/event/production-nymphaion> ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-5>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6> ;
+    crm:P2_has_type type:nymphaeum ;
+    crm:P3_has_note "Sahne binasına MS 4.-6. yüzyıllarda entegre edilmiş çeşme yapısı; aedicula biçimli yarım nişler, çay taşı ve pişmiş toprak malzeme; sıva izleri ve harçlı zemin in situ."@tr ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-nymphaion> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 211 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building> a crm:E22_Human-Made_Object ;
+    rdfs:label "Sahne Binası"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4> ;
+    crm:P2_has_type type:stage-building ;
+    crm:P46_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion> ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 210,
+        211 .
+
+type:interpretation a crm:E55_Type ;
+    rdfs:label "interpretation"@en .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024> a crm:E7_Activity ;
+    rdfs:label "2024 çalışmaları için izin ve destek"@tr ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/gelecege-miras>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/ktb>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/kvmgm>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu> ;
+    crm:P20_had_specific_purpose <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P2_has_type type:permission-and-support ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/permit-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building> a crm:E53_Place ;
+    rdfs:label "Sahne Binası (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> a crm:E7_Activity ;
+    rdfs:label "Atabey ve Çevresinde Kültürel Miraslar ve Seleukeia Sidera Antik Kenti'nin Tanıtımı"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-13>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-14> ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/yavuz> ;
+    crm:P2_has_type type:public-outreach-conference ;
+    crm:P3_has_note "Toplumsal arkeoloji ve kültürel miras farkındalık etkinliği; yasa dışı kazıların zararları, sit alanı statüleri ve yerel halkın rolü ele alınmıştır."@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/conference-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/atabey-lisesi> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    kst:sourcePage 214 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji> a crm:E74_Group ;
+    rdfs:label "Süleyman Demirel Üniversitesi, İnsan ve Toplum Bilimleri Fakültesi, Arkeoloji Bölümü"@tr ;
+    crm:P107_has_current_or_former_member <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group> a crm:E22_Human-Made_Object ;
+    rdfs:label "Güney Yamaç Yapı Grubu"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-7>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-8> ;
+    crm:P2_has_type type:building-group ;
+    crm:P3_has_note "Kısmen ana kayaya oturtulmuş teraslar halinde; esas olarak 5 ayrı mekân; ana kayaya oyulmuş merdiven sistemiyle ilişkili."@tr ;
+    crm:P43_has_dimension <https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-group-0>,
+        <https://example.org/kst45/seleukeia-sidera-2024/dimension/south-slope-group-1> ;
+    crm:P46_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/feature/pipe-system>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/rock-cut-stairs> ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe-south-slope>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 212 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium> a crm:E53_Place ;
+    rdfs:label "Tiyatro kuzey vomitoriumu (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024> a crm:E7_Activity,
+        crmarchaeo:A1_Excavation_Processing_Unit ;
+    rdfs:label "Güney yamaç açma kazıları 2024 (13 açma)"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-9> ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> ;
+    crm:P9_consists_of <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-bronze-coins-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-trenches-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-columns-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-fresco-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-reused-mortar>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-roof-tiles-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-small-objects-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-tesserae-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-weighing-set> ;
+    crm:P9i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crmarchaeo:AP5_removed_part_or_all_of <https://example.org/kst45/seleukeia-sidera-2024/stratum/hard-floor-layers> ;
+    kst:sourcePage 213 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/site> a crm:E27_Site ;
+    rdfs:label "Seleukeia Sidera Antik Kenti"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2> ;
+    crm:P2_has_type type:ancient-city ;
+    crm:P46_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-site> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/atay> a crm:E21_Person ;
+    rdfs:label "Alper Atay"@tr ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P1_is_identified_by <https://example.org/kst45/seleukeia-sidera-2024/identifier/orcid-0009-0006-5725-5831> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin> a crm:E21_Person ;
+    rdfs:label "Mustafa Sarışahin"@tr ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P1_is_identified_by <https://example.org/kst45/seleukeia-sidera-2024/identifier/orcid-0009-0005-6079-9293> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/feature/theatre> a crm:E22_Human-Made_Object ;
+    rdfs:label "Tiyatro"@tr ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4> ;
+    crm:P2_has_type type:theatre ;
+    crm:P46_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/north-cavea>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-south-vomitorium> ;
+    crm:P46i_forms_part_of <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    crm:P53_has_former_or_current_location <https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu> a crm:E21_Person ;
+    rdfs:label "Bilge Hürmüzlü (Kortholt)"@tr ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> ;
+    crm:P1_is_identified_by <https://example.org/kst45/seleukeia-sidera-2024/identifier/orcid-0000-0002-3676-7436> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/actor/togan> a crm:E21_Person ;
+    rdfs:label "Semih Togan"@tr ;
+    crm:P107i_is_current_or_former_member_of <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji> ;
+    crm:P14i_performed <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024> ;
+    crm:P1_is_identified_by <https://example.org/kst45/seleukeia-sidera-2024/identifier/orcid-0000-0001-6767-0939> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    kst:sourcePage 209 .
+
+type:resim a crm:E55_Type ;
+    rdfs:label "Resim"@tr ;
+    crm:P127_has_broader_term type:figure .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-trenches> a crm:E53_Place ;
+    rdfs:label "Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m) (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-trenches> .
+
+type:figure a crm:E55_Type ;
+    rdfs:label "figure"@en .
+
+<https://example.org/kst45/seleukeia-sidera-2024/place/of-south-slope-group> a crm:E53_Place ;
+    rdfs:label "Güney Yamaç Yapı Grubu (konum)"@tr ;
+    crm:P53i_is_former_or_current_location_of <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group> .
+
+<https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> a crm:E7_Activity,
+        crmarchaeo:A9_Archaeological_Excavation ;
+    rdfs:label "Seleukeia Sidera 2024 yılı çalışmaları"@tr ;
+    crm:P134_continued <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22> ;
+    crm:P138i_has_representation <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2> ;
+    crm:P14_carried_out_by <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/kazi-ekibi-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan> ;
+    crm:P2_has_type type:excavation-campaign ;
+    crm:P3_has_note "Kazı, temizlik, düzenleme ve belgeleme çalışmaları; Güney Yamacı Yapı Grupları ile Tiyatro ve Sahne Binası'nda yoğunlaşmıştır."@tr ;
+    crm:P4_has_time_span <https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> ;
+    crm:P70i_is_documented_in <https://example.org/kst45/seleukeia-sidera-2024/document/report> ;
+    crm:P7_took_place_at <https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/of-site> ;
+    crm:P9_consists_of <https://example.org/kst45/seleukeia-sidera-2024/activity/cemetery-survey-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/cleaning-south-slope-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-orchestra-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/sieving-1993-fill> ;
+    crmarchaeo:AP3_investigated <https://example.org/kst45/seleukeia-sidera-2024/feature/site> ;
+    kst:sourcePage 209 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/timespan/campaign-2024> a crm:E52_Time-Span ;
+    rdfs:label "MS 2024 – MS 2024"@tr ;
+    crm:P82a_begin_of_the_begin "2024-01-01T00:00:00"^^xsd:dateTime ;
+    crm:P82b_end_of_the_end "2024-12-31T23:59:59"^^xsd:dateTime ;
+    kst:beginYear 2024 ;
+    kst:endYear 2024 .
+
+<https://example.org/kst45/seleukeia-sidera-2024/document/report> a crm:E31_Document,
+        crm:E33_Linguistic_Object ;
+    rdfs:label "Seleukeia Sidera Antik Kenti 2024 Yılı Çalışmaları"@tr ;
+    dcterms:source "kst_paper_split/14_SELEUKEIA_SIDERA_ANTIK_KENTI_2024_YILI_CALISMALARI.pdf" ;
+    crm:P106_is_composed_of <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-10>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-11>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-12>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-13>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-14>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-5>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-7>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-8>,
+        <https://example.org/kst45/seleukeia-sidera-2024/figure/resim-9> ;
+    crm:P106i_forms_part_of <https://example.org/kst45/document/kst45-1> ;
+    crm:P129_is_about <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024> ;
+    crm:P2_has_type type:excavation-report ;
+    crm:P70_documents <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/cemetery-survey-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/cleaning-south-slope-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/conference-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-orchestra-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-south-slope-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/funding-bap-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/permit-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/activity/sieving-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/atay>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/atesogullari>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/bakir>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/bingol>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/gelecege-miras>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/isparta-muze>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/kazi-ekibi-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/ktb>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/kvmgm>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-arkeoloji>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/sdu-bap>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/togan>,
+        <https://example.org/kst45/seleukeia-sidera-2024/actor/yavuz>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-arch-blocks-north-vom>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-bones-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-bronze-coins-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-capital-coffer-architrave>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-stage-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ceramics-trenches-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coffer-orchestra>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coin-seljuk-north>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-coins-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-columns-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-diazoma-block>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-fresco-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-keystone-zeus>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-ottoman-tombstones>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-reused-mortar>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-roof-tiles-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-slag-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-small-objects-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-terracotta-elements-stage>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-tesserae-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/event/encounter-weighing-set>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-cemetery>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/hidirlik-graves>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/north-cavea>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra-floor>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/pipe-system>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/rock-cut-stairs>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/site>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium>,
+        <https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-south-vomitorium>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/arch-blocks-north-vom>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/bones-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/bronze-coins-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/capital-coffer-architrave>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-stage-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/ceramics-trenches-2024>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/coffer-orchestra>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/coin-seljuk-north>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/coins-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/columns-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/diazoma-block>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/fresco-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/keystone-zeus>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/ottoman-tombstones>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/reused-mortar>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/roof-tiles-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/slag-1993-fill>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/small-objects-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/terracotta-elements-stage>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/tesserae-trenches>,
+        <https://example.org/kst45/seleukeia-sidera-2024/find/weighing-set>,
+        <https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-graves-dating>,
+        <https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-mortar-floor>,
+        <https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-mosaic-rooms>,
+        <https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-nymphaion-perge>,
+        <https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-severan-superstructure>,
+        <https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-south-slope-commercial>,
+        <https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic>,
+        <https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/c18-20>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/c4-6-ad>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/early-beylik>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/hellenistic>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/late-roman>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/ottoman>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/roman-imperial>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/seljuk>,
+        <https://example.org/kst45/seleukeia-sidera-2024/period/severan>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/atabey>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/atabey-lisesi>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/bayat>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/hidirlik>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe-south-slope>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/islamkoy>,
+        <https://example.org/kst45/seleukeia-sidera-2024/place/isparta>,
+        <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-1993>,
+        <https://example.org/kst45/seleukeia-sidera-2024/stratum/fill-north-vom>,
+        <https://example.org/kst45/seleukeia-sidera-2024/stratum/hard-floor-layers>,
+        <https://example.org/kst45/seleukeia-sidera-2024/stratum/mortar-layer-north-vom> ;
+    crm:P72_has_language type:tr ;
+    crm:P94i_was_created_by <https://example.org/kst45/seleukeia-sidera-2024/event/creation-report> ;
+    kst:printedPages "209-224" .
+

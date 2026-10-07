@@ -1,0 +1,173 @@
+out/seleukeia_sidera_2024.ttl: 1802 triples
+SHACL: conforms (0 violations, 0 warnings)
+
+=== cq01_finds_by_activity: CQ1  What was found, by which activity, where, and in what quantity?
+activity                                                      find                                                          type                          count  place                                                         page
+------------------------------------------------------------  ------------------------------------------------------------  ----------------------------  -----  ------------------------------------------------------------  ----
+1993 dolgu toprağının elenmesi 2024                           1993 dolgusundan elenen sikkeler                              coin                          134.0  Güney Yamaç Yapı Grubu (konum)                                212 
+1993 dolgu toprağının elenmesi 2024                           1993 dolgusundan seramik parçaları ve pithos kırıkları        pottery sherds                       Güney Yamaç Yapı Grubu (konum)                                212 
+1993 dolgu toprağının elenmesi 2024                           Demir cüruflar                                                slag                                 Güney Yamaç Yapı Grubu (konum)                                212 
+1993 dolgu toprağının elenmesi 2024                           Hayvan kemiği parçaları                                       animal bone                          Güney Yamaç Yapı Grubu (konum)                                212 
+Güney yamaç açma kazıları 2024 (13 açma)                      Açma seramik parçaları (Roma İmparatorluk ve Geç Roma)        pottery sherds                       Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m) (konum  213 
+Güney yamaç açma kazıları 2024 (13 açma)                      Ağırlık, titanbulum (terazi kolu) ve terazi kefeleri          weighing instrument                  Güney Yamaç Yapı Grubu (konum)                                213 
+Güney yamaç açma kazıları 2024 (13 açma)                      Duvarlarda devşirme kullanılan mortar parçaları               reused architectural element         Güney Yamaç Yapı Grubu (konum)                                213 
+Güney yamaç açma kazıları 2024 (13 açma)                      Fresk parçaları ve harç kalıntıları                           wall painting fragment               Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m) (konum  213 
+Güney yamaç açma kazıları 2024 (13 açma)                      Metal, cam ve kemik objeler                                   small find                           Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m) (konum  213 
+Güney yamaç açma kazıları 2024 (13 açma)                      Mozaik döşemelerine ait tessera örnekleri                     tessera                              Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m) (konum  213 
+Güney yamaç açma kazıları 2024 (13 açma)                      Pişmiş toprak çatı kiremitleri ve zemin kaplama parçaları     roof tile                            Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m) (konum  213 
+Güney yamaç açma kazıları 2024 (13 açma)                      Sütun parçaları, kaideler ve mimari elemanlar                 architectural element                Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m) (konum  213 
+Güney yamaç açma kazıları 2024 (13 açma)                      Çok sayıda bronz sikke                                        coin                                 Güney Yamaç Yapı Grubu (konum)                                213 
+Hıdırlık Mevkii Türk-İslam Dönemi mezarlık belgeleme çalışma  Osmanlıca mezar taşları (11 adet, 18.-20. yüzyıl)             tombstone                     11.0   İslamköy Hıdırlık Mezarlığı (konum)                           214 
+Orkestra güneydoğusu kazısı 2024                              Orkestra kaset parçaları ve mimari unsurlar                   architectural element                Orkestra (konum)                                              211 
+Sahne binası kuzey yönü kazı ve belgeleme çalışmaları 2024    Sahne binası pişmiş toprak yapı elemanları                    terracotta building element          Sahne Binası (konum)                                          211 
+Sahne binası kuzey yönü kazı ve belgeleme çalışmaları 2024    Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma,  pottery sherds                       Sahne Binası (konum)                                          211 
+Sahne binası kuzey yönü kazı ve belgeleme çalışmaları 2024    Sütun başlığı, kaset ve arşitrav parçaları (tiyatro üst yapı  architectural element                Sahne Binası (konum)                                          211 
+Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey par  Diazoma duvar hattına ait olabilecek mimari blok              architectural block           1.0    Kuzey parodos (konum)                                         210 
+Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey par  Kuzey vomitorium mimari blokları                              architectural block                  Tiyatro kuzey vomitoriumu (konum)                             210 
+Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey par  Selçuklu Dönemi sikkesi (tiyatro kuzeyi)                      coin                          1.0    Tiyatro kuzey vomitoriumu (konum)                             210 
+Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey par  Zeus kabartmalı kilit taşı                                    keystone                      1.0    Tiyatro kuzey vomitoriumu (konum)                             210 
+(22 rows)
+
+=== cq02_periods_by_thing: CQ2  Which periods are attested, through which finds or features, and who says so?
+period                        thing                                                         dated_by  how
+----------------------------  ------------------------------------------------------------  --------  ---
+18.-20. yüzyıl                Osmanlıca mezar taşları (11 adet, 18.-20. yüzyıl)                          
+Erken Beylikler Dönemi        Hıdırlık Mezarlığı mezarları                                               
+Geç Roma İmparatorluk Dönemi  1993 dolgusundan seramik parçaları ve pithos kırıkları                     
+Geç Roma İmparatorluk Dönemi  Açma seramik parçaları (Roma İmparatorluk ve Geç Roma)                     
+Geç Roma İmparatorluk Dönemi  Kuzey vomitoriumdaki Geç Roma duvar kalıntısı                              
+Geç Roma İmparatorluk Dönemi  Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma,               
+Helenistik Dönem              Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma,               
+MS 4.-6. yüzyıl               Nymphaion                                                                  
+Osmanlı Dönemi                Hıdırlık Mezarlığı mezarları                                               
+Roma İmparatorluk Dönemi      1993 dolgusundan seramik parçaları ve pithos kırıkları                     
+Roma İmparatorluk Dönemi      Açma seramik parçaları (Roma İmparatorluk ve Geç Roma)                     
+Roma İmparatorluk Dönemi      Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma,               
+Selçuklu Dönemi               Hıdırlık Mezarlığı mezarları                                               
+Selçuklu Dönemi               Selçuklu Dönemi sikkesi (tiyatro kuzeyi)                                   
+Severuslar Dönemi             Sütun başlığı, kaset ve arşitrav parçaları (tiyatro üst yapı               
+(15 rows)
+
+=== cq03_roles: CQ3  Who took part in the reported campaign, its parts and its support, in which role?
+activity                                                      actor                                                         role                   
+------------------------------------------------------------  ------------------------------------------------------------  -----------------------
+2024 çalışmaları için izin ve destek                          Kültür Varlıkları ve Müzeler Genel Müdürlüğü                  permitting authority   
+2024 çalışmaları için izin ve destek                          T.C. Kültür ve Turizm Bakanlığı                               permitting authority   
+2024 çalışmaları için izin ve destek                          Süleyman Demirel Üniversitesi                                 supporting institution 
+2024 çalışmaları için izin ve destek                          Geleceğe Miras Daire Başkanlığı                               supporting unit        
+Atabey ve Çevresinde Kültürel Miraslar ve Seleukeia Sidera A  Hanife Yavuz                                                  ministry representative
+Atabey ve Çevresinde Kültürel Miraslar ve Seleukeia Sidera A  Bilge Hürmüzlü (Kortholt)                                     speaker                
+Atabey ve Çevresinde Kültürel Miraslar ve Seleukeia Sidera A  Semih Togan                                                   speaker                
+Hıdırlık Mevkii Türk-İslam Dönemi mezarlık belgeleme çalışma  Abdullah Bakır                                                team leader            
+SDÜ BAP projesi SKP-2024-9404                                 Süleyman Demirel Üniversitesi Bilimsel Araştırma Projeleri    funder                 
+Seleukeia Sidera 2024 yılı çalışmaları                        Semih Togan                                                   deputy director        
+Seleukeia Sidera 2024 yılı çalışmaları                        Bilge Hürmüzlü (Kortholt)                                     excavation director    
+Seleukeia Sidera 2024 yılı çalışmaları                        Süleyman Demirel Üniversitesi, İnsan ve Toplum Bilimleri Fak  institution            
+Seleukeia Sidera 2024 yılı çalışmaları                        Seleukeia Sidera 2024 kazı ve araştırma ekibi                 team                   
+Seleukeia Sidera 2024 yılı çalışmaları                        Alper Atay                                                    team member            
+Seleukeia Sidera 2024 yılı çalışmaları                        Mustafa Sarışahin                                             team member            
+(15 rows)
+
+=== cq04_research_history: CQ4  Which earlier work does the reported campaign continue, when was it (if the paper says), and who ran it?
+earlier                                       begin  end   by                                                          
+--------------------------------------------  -----  ----  ------------------------------------------------------------
+Isparta Müzesi tiyatro kazıları 1985-1987     1985   1987  Isparta Müze Müdürlüğü                                      
+Orhan Bingöl başkanlığında 1993 kazıları      1993   1993  Orhan Bingöl                                                
+Sahne binası kuzey kesimi kazıları 2010-2022  2010   2022  Süleyman Demirel Üniversitesi, İnsan ve Toplum Bilimleri Fak
+(3 rows)
+
+=== cq05_figures: CQ5  What does each figure show?
+figure                                                        page  depicts                                                     
+------------------------------------------------------------  ----  ------------------------------------------------------------
+Resim 1: Seleukeia Sidera yerleşim alanları.                  217   Seleukeia Sidera Antik Kenti                                
+Resim 2: Hisar Tepe, Seleukeia Sidera.                        218   Seleukeia Sidera Antik Kenti                                
+Resim 3: Seleukeia Sidera Tiyatro, Sahne Binası, Vomitorium.  218   Sahne Binası; Tiyatro                                       
+Resim 4: Seleukeia Sidera Tiyatro ve Sahne Binası plan.       219   Sahne Binası; Tiyatro                                       
+Resim 5: Seleukeia Sidera Tiyatro Sahne Binası, Nymphaion.    219   Nymphaion                                                   
+Resim 6: Seleukeia Sidera Tiyatro ve Sahne Binası, Orkestra,  220   Kuzey analemma duvarı; Nymphaion; Orkestra                  
+Resim 7: Seleukeia Sidera Güney Yamaç Yapıları.               220   Güney Yamaç Yapı Grubu                                      
+Resim 8: Seleukeia Sidera Güney Yamaç Yapıları, 1993 ve 2024  221   Güney Yamaç Yapı Grubu                                      
+Resim 9: Seleukeia Sidera Güney Yamaç Yapıları.               221   Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m)       
+Resim 10: Seleukeia Sidera Güney Yamaç Yapıları, Devşirme Mo  222   Künk sistemleri; Duvarlarda devşirme kullanılan mortar parça
+Resim 11: Hıdırlık Mevkii Türk İslam Dönemi Mezarlığı.        222   İslamköy Hıdırlık Mezarlığı                                 
+Resim 12: Hıdırlık Mevkii Türk İslam Dönemi Mezarlığı.        223   İslamköy Hıdırlık Mezarlığı                                 
+Resim 13: Toplumsal Arkeoloji ve Kültürel Miras farkındalık   224   Atabey ve Çevresinde Kültürel Miraslar ve Seleukeia Sidera A
+Resim 14: Toplumsal Arkeoloji ve Kültürel Miras farkındalık   224   Atabey ve Çevresinde Kültürel Miraslar ve Seleukeia Sidera A
+(14 rows)
+
+=== cq06_interpretations: CQ6  Which statements are interpretations rather than observations, and on what basis?
+about                                                         interpretation                                                basis                                                         page
+------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ----
+Tiyatro                                                       Selçuklu Dönemi'nde gümrük yapısı olarak iskân (olası)        Gerekçe: Güney vomitoriumdaki Selçuklu sikke definesi (Bingö  209 
+Kuzey vomitorium zemin harç tabakası                          Yapının zeminine ait harç tabakası                                                                                          210 
+Nymphaion                                                     Perge örneğiyle özdeş, MS 4.-6. yüzyılda eklenmiş çeşme yapı  Gerekçe: Mimari analiz; Italica ve Regina tiyatrolarıyla ben  211 
+Sahne Binası                                                  Helenistik Dönem'den itibaren farklı dönemlerde değişerek ku  Gerekçe: Farklı dönemlere ait seramik parçaları               211 
+Sütun başlığı, kaset ve arşitrav parçaları (tiyatro üst yapı  Severuslar Dönemi (MS 193-235) tiyatro üst yapısı                                                                           211 
+Güney Yamaç Yapı Grubu                                        Üretim ve ticaret odaklı, çok işlevli, uzun süreli kullanım;  Gerekçe: Ağırlık, terazi kolu, kefeler, bronz sikkeler; sütu  212 
+Güney Yamaç Yapı Grubu                                        Mozaikli ve sıvalı-boyalı duvarlı mekânların varlığı          Gerekçe: Tessera, fresk parçaları ve harç kalıntıları         213 
+Hıdırlık Mezarlığı mezarları                                  Selçuklu, Erken Beylikler ve Osmanlı dönemleri (kesin tarihl                                                                213 
+(8 rows)
+
+=== cq07_finds_in_deposits: CQ7  Which finds come from a recorded deposit, and which activity removed or used that deposit?
+find                                                    deposit                                         handled_by                                                  
+------------------------------------------------------  ----------------------------------------------  ------------------------------------------------------------
+1993 dolgusundan elenen sikkeler                        1993 kazılarında açığa çıkarılan dolgu toprağı  1993 dolgu toprağının elenmesi 2024                         
+1993 dolgusundan seramik parçaları ve pithos kırıkları  1993 kazılarında açığa çıkarılan dolgu toprağı  1993 dolgu toprağının elenmesi 2024                         
+Demir cüruflar                                          1993 kazılarında açığa çıkarılan dolgu toprağı  1993 dolgu toprağının elenmesi 2024                         
+Hayvan kemiği parçaları                                 1993 kazılarında açığa çıkarılan dolgu toprağı  1993 dolgu toprağının elenmesi 2024                         
+Kuzey vomitorium mimari blokları                        Kuzey vomitorium dolgu toprağı                  Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey par
+Zeus kabartmalı kilit taşı                              Kuzey vomitorium dolgu toprağı                  Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey par
+(6 rows)
+
+=== cq08_place_hierarchy: CQ8  Which named places does the report use, and how do they nest?
+place                    type      within       
+-----------------------  --------  -------------
+Isparta ili              province               
+Atabey Anadolu Lisesi    school    Atabey ilçesi
+Bayat köyü               village   Atabey ilçesi
+İslamköy köyü            village   Atabey ilçesi
+Hisar Tepe               hill      Bayat köyü   
+Hisar Tepe güney yamacı  slope     Hisar Tepe   
+Atabey ilçesi            district  Isparta ili  
+Hıdırlık Mevkii          locality  İslamköy köyü
+(8 rows)
+
+=== cq09_radiocarbon: CQ9  Which contexts are dated by radiocarbon, on which samples, with what result?
+context  code  from  to  samples  page
+-------  ----  ----  --  -------  ----
+(0 rows)
+
+=== cq10_stratigraphic_relations: CQ10 Which stratigraphic relations between contexts does the report state, and how certain are they?
+later  relation  earlier  certainty  page
+-----  --------  -------  ---------  ----
+(0 rows)
+
+=== cq11_taxa_by_context: CQ11 Which plant and animal taxa were identified, in which context, and who identified them?
+taxon  remains  context  identified_by
+-----  -------  -------  -------------
+(0 rows)
+
+=== cq12_dating_conflicts: CQ12 Where do the radiocarbon range of a context and the period of a find from that context not overlap?
+context  c14_from  c14_to  find  period  period_from  period_to
+-------  --------  ------  ----  ------  -----------  ---------
+(0 rows)
+
+=== cq13_plans: CQ13 What work does the report announce for the future, and what does it concern?
+plan  year  concerns
+----  ----  --------
+(0 rows)
+
+=== cq14_hedged_datings: CQ14 Which datings are hedged, how sure are the authors, and which periods are the alternatives?
+thing  certainty  periods
+-----  ---------  -------
+(0 rows)
+
+=== cq15_excavated_amounts: CQ15 How much was excavated by which unit, and what documentation did the work produce?
+work  what  value  unit
+----  ----  -----  ----
+(0 rows)
+
+=== cq16_cited_literature: CQ16 Which statements rest on cited literature, and on which pages?
+entity  cited
+------  -----
+(0 rows)

@@ -1,0 +1,12 @@
+# CQ7  Which finds come from a recorded deposit, and which activity removed or used that deposit?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?find ?deposit ?handled_by WHERE {
+  ?f crmarchaeo:AP18i_is_embedded/crmarchaeo:AP19_is_embedding_in ?s .
+  ?f rdfs:label ?find . ?s rdfs:label ?deposit .
+  OPTIONAL { ?a crm:P16_used_specific_object|crmarchaeo:AP5_removed_part_or_all_of ?s ; rdfs:label ?handled_by }
+} ORDER BY ?deposit ?find

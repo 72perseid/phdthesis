@@ -1,0 +1,598 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/css/tom-select.min.css" integrity="sha512-43fHB3GLgZfz8QXl1RPQ8O66oIgv3po9cJ5erMt1c4QISq9dYb195T3vr5ImnJPXuVroKcGBPXBFKETW8jrPNQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/js/tom-select.complete.js" integrity="sha512-jeF9CfnvzDiw9G9xiksVjxR2lib44Gnovvkv+3CgCG6NXCD4gqlA5nDAVW5WjpA+i+/zKsUWV5xNEbW1X/HH0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!--
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/feature/site">https://example.org/kst45/yumuktepe-2024/feature/site</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/place/of-site">https://example.org/kst45/yumuktepe-2024/place/of-site</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/figure/resim-3">https://example.org/kst45/yumuktepe-2024/figure/resim-3</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/feature/a701">https://example.org/kst45/yumuktepe-2024/feature/a701</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/document/report">https://example.org/kst45/yumuktepe-2024/document/report</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/figure/resim-2">https://example.org/kst45/yumuktepe-2024/figure/resim-2</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/event/sampling-s-lentil-a701">https://example.org/kst45/yumuktepe-2024/event/sampling-s-lentil-a701</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/place/of-a701-hearth">https://example.org/kst45/yumuktepe-2024/place/of-a701-hearth</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/feature/trench-aa15">https://example.org/kst45/yumuktepe-2024/feature/trench-aa15</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/place/of-trench-aa15">https://example.org/kst45/yumuktepe-2024/place/of-trench-aa15</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-first-eba2">https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-first-eba2</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-oval">https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-oval</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/actor/evgen">https://example.org/kst45/yumuktepe-2024/actor/evgen</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/figure/sekil-1">https://example.org/kst45/yumuktepe-2024/figure/sekil-1</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/feature/medieval-pits-aa15">https://example.org/kst45/yumuktepe-2024/feature/medieval-pits-aa15</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/event/production-a701">https://example.org/kst45/yumuktepe-2024/event/production-a701</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/period/eba-2">https://example.org/kst45/yumuktepe-2024/period/eba-2</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-terrace">https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-terrace</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/feature/a701-foundation">https://example.org/kst45/yumuktepe-2024/feature/a701-foundation</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/event/use-a701">https://example.org/kst45/yumuktepe-2024/event/use-a701</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/find/pottery-a701">https://example.org/kst45/yumuktepe-2024/find/pottery-a701</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/plan/plan-z15-2025">https://example.org/kst45/yumuktepe-2024/plan/plan-z15-2025</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/place/of-a701">https://example.org/kst45/yumuktepe-2024/place/of-a701</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/place/plankare-z15">https://example.org/kst45/yumuktepe-2024/place/plankare-z15</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/activity/exc-aa15">https://example.org/kst45/yumuktepe-2024/activity/exc-aa15</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/event/sampling-s-olive-a701">https://example.org/kst45/yumuktepe-2024/event/sampling-s-olive-a701</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/stratum/level-xvi">https://example.org/kst45/yumuktepe-2024/stratum/level-xvi</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/stratum/a701-marl-between">https://example.org/kst45/yumuktepe-2024/stratum/a701-marl-between</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/stratum/a701-soil">https://example.org/kst45/yumuktepe-2024/stratum/a701-soil</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-function">https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-function</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/activity/pottery-analysis">https://example.org/kst45/yumuktepe-2024/activity/pottery-analysis</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/event/encounter-pottery-a701">https://example.org/kst45/yumuktepe-2024/event/encounter-pottery-a701</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/actor/ulas">https://example.org/kst45/yumuktepe-2024/actor/ulas</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/place/gya">https://example.org/kst45/yumuktepe-2024/place/gya</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/feature/a701-tandir">https://example.org/kst45/yumuktepe-2024/feature/a701-tandir</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/feature/a701-floor">https://example.org/kst45/yumuktepe-2024/feature/a701-floor</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/feature/a701-hearth">https://example.org/kst45/yumuktepe-2024/feature/a701-hearth</option>
+                                
+                                    <option value="https://example.org/kst45/yumuktepe-2024/event/production-level-xvi">https://example.org/kst45/yumuktepe-2024/event/production-level-xvi</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+              <div id="filter-menu" class="card-header">
+                <div class="row no-gutters">
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'item')"
+                            id="select-item"
+                        >
+                        <option value="">Select a network item</option>
+                        <option value="edge">edge</option>
+                        <option value="node">node</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'property')"
+                            id="select-property"
+                        >
+                        <option value="">Select a property...</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            id="select-value"
+                        >
+                        <option value="">Select value(s)...</option>
+                    </select>
+                  </div>
+                  <div class="col-1 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="highlightFilter(filter);">Filter</button>
+                  </div>
+                  <div class="col-2 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="clearFilter(true)">Reset Selection</button>
+                  </div>
+                </div>
+              </div>
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+                  // explicitly using onItemAdd and this function as we need to save multiple values
+                  let updateValueFilter = function() {
+                      return function () {
+                      filter['value'].push(arguments[0])
+                      }
+                  }
+
+                  let valueControl = new TomSelect("#select-value",{
+                      maxItems: null,
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: updateValueFilter()
+                  });
+
+                  let addValues = function() {
+                      return function () {
+                          // clear the current value options and add the selected attribute values
+                          // tom-select handles duplicates
+                          let selectedProperty = arguments[0];
+                          valueControl.clear();
+                          valueControl.clearOptions();
+                          filter['value'] = []
+                          if (filter['item'] === 'node') {
+                              for (let each in allNodes) {
+                                  valueControl.addOption({
+                                      id:allNodes[each][selectedProperty],
+                                      title:allNodes[each][selectedProperty]
+                                  })
+                              }
+                          }
+                          else if (filter['item'] === 'edge') {
+                              for (let each in allEdges) {
+                                  valueControl.addOption({
+                                      id:allEdges[each][selectedProperty],
+                                      title:allEdges[each][selectedProperty]
+                                  })
+                              }
+                          }
+                      }
+                  };
+
+                  let propControl = new TomSelect("#select-property",{
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addValues()
+                  });
+
+                  let addProperties = function() {
+                      return function () {
+                          // loops through the selected network item and adds the attributes to dropdown
+                          // tom-select handles duplicates
+                          clearFilter(false)
+                          if (arguments[0] === 'edge') {
+                              for (let each in allEdges) {
+                                  if (allEdges.hasOwnProperty(each)) {
+                                      for (let eachProp in allEdges[each]) {
+                                          if (allEdges[each].hasOwnProperty(eachProp)) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                          else if (arguments[0] === 'node') {
+                              for (let each in allNodes) {
+                                  if (allNodes.hasOwnProperty(each)) {
+                                      for (let eachProp in allNodes[each]) {
+                                          if (allNodes[each].hasOwnProperty(eachProp)
+                                              && (eachProp !== 'hidden' && eachProp !== 'savedLabel'
+                                                  && eachProp !== 'hiddenLabel')) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  };
+
+                  let itemControl = new TomSelect("#select-item",{
+                      create: false,
+                      sortField:{
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addProperties()
+                  });
+
+                  function clearFilter(reset) {
+                      // utility function to clear all the selected filter options
+                      // if reset is set to true, the existing filter will be removed
+                      // else, only the dropdown options are cleared
+                      propControl.clear();
+                      propControl.clearOptions();
+                      valueControl.clear();
+                      valueControl.clearOptions();
+                      filter = {
+                          item : '',
+                          property : '',
+                          value : []
+                      }
+                      if (reset) {
+                          itemControl.clear();
+                          filterHighlight({nodes: []})
+                      }
+                  }
+
+                  function updateFilter(value, key) {
+                      // key could be 'item' or 'property' and value is as selected in dropdown
+                      filter[key] = value
+                  }
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/feature/site", "label": "Yumuktepe H\u00f6y\u00fc\u011f\u00fc", "shape": "star", "size": 16, "title": "\u003cb\u003eYumuktepe H\u00f6y\u00fc\u011f\u00fc\u003c/b\u003e\nclass: E27_Site\nuri: site\ntype: mound settlement\nsourcePage: 265"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/yumuktepe-2024/place/of-site", "label": "Yumuktepe H\u00f6y\u00fc\u011f\u00fc (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eYumuktepe H\u00f6y\u00fc\u011f\u00fc (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-site"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/yumuktepe-2024/figure/resim-3", "label": "Resim 3: AA15 a\u00e7mas\u0131ndaki A 701 yap\u0131 kat\u2026", "shape": "square", "size": 18, "title": "\u003cb\u003eResim 3: AA15 a\u00e7mas\u0131ndaki A 701 yap\u0131 kat\u0131.\u003c/b\u003e\nclass: E36_Visual_Item\nuri: resim-3\ntype: figure\ntype: Resim\nsourcePage: 276"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/feature/a701", "label": "A701 yap\u0131 kat\u0131", "shape": "dot", "size": 16, "title": "\u003cb\u003eA701 yap\u0131 kat\u0131\u003c/b\u003e\nclass: E25_Human-Made_Feature, A8_Stratigraphic_Unit\nuri: a701\nidentifier: A701\ntype: building level\nP3 has note: Sar\u0131ms\u0131 a\u00e7\u0131k kahverengi toprak, ocak, tand\u0131r ve ta\u015f temeller \u00e7ok evreli bir kullan\u0131ma i\u015faret eder.\nsourcePage: 267\nsourcePage: 268\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "Yumuktepe H\u00f6y\u00fck \"Gelece\u011fe Miras Projesi\"\u2026", "shape": "box", "size": 18, "title": "\u003cb\u003eYumuktepe H\u00f6y\u00fck \"Gelece\u011fe Miras Projesi\" 2024 Kaz\u0131 \u00c7al\u0131\u015fmalar\u0131\u003c/b\u003e\nclass: E31_Document, E33_Linguistic_Object\nuri: report\nsource: kst_paper_split/18_YUMUKTEPE_HOYUK_GELECEGE_MIRAS_PROJESI_2024_KAZI_CALISMALARI.pdf\ntype: excavation report\nlanguage: tr\nprintedPages: 265-278"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/yumuktepe-2024/figure/resim-2", "label": "Resim 2: Kaz\u0131 \u00e7al\u0131\u015fmas\u0131 ger\u00e7ekle\u015ftirilen\u2026", "shape": "square", "size": 18, "title": "\u003cb\u003eResim 2: Kaz\u0131 \u00e7al\u0131\u015fmas\u0131 ger\u00e7ekle\u015ftirilen AA15, BB15, DD15 ve EE18 (foto\u011frafta sol \u00fcst k\u00f6\u015fede) a\u00e7malar\u0131.\u003c/b\u003e\nclass: E36_Visual_Item\nuri: resim-2\ntype: figure\ntype: Resim\nsourcePage: 276"}, {"font": {"color": "#222222"}, "group": "event", "id": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-lentil-a701", "label": "Mercimek tohumlar\u0131 (A701 oca\u011f\u0131n\u0131n g\u00fcneyi\u2026", "shape": "ellipse", "size": 10, "title": "\u003cb\u003eMercimek tohumlar\u0131 (A701 oca\u011f\u0131n\u0131n g\u00fcneyi) \u2013 \u00f6rnek alma\u003c/b\u003e\nclass: E7_Activity, S2_Sample_Taking\nuri: sampling-s-lentil-a701\ntime-span: MS 2024 \u2013 MS 2024\nsourcePage: 268"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/yumuktepe-2024/place/of-a701-hearth", "label": "A701 at nal\u0131 bi\u00e7imli ocak (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eA701 at nal\u0131 bi\u00e7imli ocak (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-a701-hearth"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15", "label": "AA 15 a\u00e7mas\u0131", "shape": "dot", "size": 16, "title": "\u003cb\u003eAA 15 a\u00e7mas\u0131\u003c/b\u003e\nclass: E25_Human-Made_Feature\nuri: trench-aa15\nidentifier: AA15\ntype: trench\ndimension: length 5 m\ndimension: width 5 m\nsourcePage: 267\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/yumuktepe-2024/place/of-trench-aa15", "label": "AA 15 a\u00e7mas\u0131 (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eAA 15 a\u00e7mas\u0131 (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-trench-aa15"}, {"font": {"color": "#222222"}, "group": "interpretation", "id": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-first-eba2", "label": "Yumuktepe\u0027de ET\u00c7 II evresinin belgelenen\u2026", "shape": "diamond", "size": 18, "title": "\u003cb\u003eYumuktepe\u0027de ET\u00c7 II evresinin belgelenen ilk mimari yap\u0131 kat\u0131\u003c/b\u003e\nclass: E13_Attribute_Assignment\nuri: int-a701-first-eba2\nassigned: Yumuktepe\u0027de ET\u00c7 II evresinin belgelenen ilk mimari yap\u0131 kat\u0131\ntype: interpretation\nP3 has note: Gerek\u00e7e: Karbon 14 sonu\u00e7lar\u0131 M\u00d6 2580-2141 cal.\nsourcePage: 268\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "interpretation", "id": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-oval", "label": "Oval planl\u0131 yap\u0131 (olas\u0131)", "shape": "diamond", "size": 18, "title": "\u003cb\u003eOval planl\u0131 yap\u0131 (olas\u0131)\u003c/b\u003e\nclass: E13_Attribute_Assignment\nuri: int-a701-oval\nassigned: Oval planl\u0131 yap\u0131 (olas\u0131)\ntype: interpretation\nP3 has note: Gerek\u00e7e: Ta\u015f temellerin y\u00f6nelimi\nsourcePage: 267"}, {"font": {"color": "#222222"}, "group": "actor", "id": "https://example.org/kst45/yumuktepe-2024/actor/evgen", "label": "Gamze Evgen", "shape": "dot", "size": 16, "title": "\u003cb\u003eGamze Evgen\u003c/b\u003e\nclass: E21_Person\nuri: evgen\nP3 has note: Yazar dipnotunda kurum ve ORCID verilmemi\u015ftir.\nsourcePage: 265\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/yumuktepe-2024/figure/sekil-1", "label": "\u015eekil 1: 2024 y\u0131l\u0131nda kaz\u0131s\u0131 ger\u00e7ekle\u015fti\u2026", "shape": "square", "size": 18, "title": "\u003cb\u003e\u015eekil 1: 2024 y\u0131l\u0131nda kaz\u0131s\u0131 ger\u00e7ekle\u015ftirilen plankareleri ve \u00f6nceki kaz\u0131 alanlar\u0131n\u0131 g\u00f6steren plan.\u003c/b\u003e\nclass: E36_Visual_Item\nuri: sekil-1\ntype: figure\ntype: \u015eekil\nsourcePage: 275"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/feature/medieval-pits-aa15", "label": "AA 15 Orta \u00c7a\u011f \u00e7\u00f6p \u00e7ukurlar\u0131", "shape": "dot", "size": 16, "title": "\u003cb\u003eAA 15 Orta \u00c7a\u011f \u00e7\u00f6p \u00e7ukurlar\u0131\u003c/b\u003e\nclass: E25_Human-Made_Feature, A8_Stratigraphic_Unit\nuri: medieval-pits-aa15\ntype: refuse pit\nsourcePage: 267\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "event", "id": "https://example.org/kst45/yumuktepe-2024/event/production-a701", "label": "A701 yap\u0131 kat\u0131 \u2013 \u00fcretim", "shape": "ellipse", "size": 10, "title": "\u003cb\u003eA701 yap\u0131 kat\u0131 \u2013 \u00fcretim\u003c/b\u003e\nclass: E12_Production\nuri: production-a701"}, {"font": {"color": "#222222"}, "group": "period", "id": "https://example.org/kst45/yumuktepe-2024/period/eba-2", "label": "ET\u00c7 II", "shape": "dot", "size": 16, "title": "\u003cb\u003eET\u00c7 II\u003c/b\u003e\nclass: E4_Period\nuri: eba-2"}, {"font": {"color": "#222222"}, "group": "interpretation", "id": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-terrace", "label": "XVI tabakay\u0131 keserek yamaca oturtulan te\u2026", "shape": "diamond", "size": 18, "title": "\u003cb\u003eXVI tabakay\u0131 keserek yamaca oturtulan teras yerle\u015fmesi\u003c/b\u003e\nclass: E13_Attribute_Assignment\nuri: int-a701-terrace\nassigned: XVI tabakay\u0131 keserek yamaca oturtulan teras yerle\u015fmesi\ntype: interpretation\nsourcePage: 268\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/feature/a701-foundation", "label": "A701 \u00fc\u00e7 s\u0131ral\u0131 ta\u015f duvar (temel)", "shape": "dot", "size": 16, "title": "\u003cb\u003eA701 \u00fc\u00e7 s\u0131ral\u0131 ta\u015f duvar (temel)\u003c/b\u003e\nclass: E25_Human-Made_Feature, A8_Stratigraphic_Unit\nuri: a701-foundation\ntype: stone foundation\nP3 has note: Orta \u00c7a\u011f \u00e7\u00f6p \u00e7ukurlar\u0131n\u0131n kesitlerinde g\u00f6zlemlenmi\u015ftir.\nsourcePage: 267"}, {"font": {"color": "#222222"}, "group": "event", "id": "https://example.org/kst45/yumuktepe-2024/event/use-a701", "label": "A701 yap\u0131 kat\u0131 \u2013 kullan\u0131m evresi", "shape": "ellipse", "size": 10, "title": "\u003cb\u003eA701 yap\u0131 kat\u0131 \u2013 kullan\u0131m evresi\u003c/b\u003e\nclass: E5_Event\nuri: use-a701\ntype: use phase\ntime-span: M\u00d6 2580 \u2013 M\u00d6 2141 cal.\nsourcePage: 268"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/find/pottery-a701", "label": "A701 el yap\u0131m\u0131, kaba hamurlu, k\u0131rm\u0131z\u0131 as\u2026", "shape": "dot", "size": 16, "title": "\u003cb\u003eA701 el yap\u0131m\u0131, kaba hamurlu, k\u0131rm\u0131z\u0131 astarl\u0131 \u00e7anak \u00e7\u00f6mlek\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: pottery-a701\ntype: pottery sherds\nP3 has note: Benzer: Garstang X trenci XII A tabakas\u0131 \u00e7anak \u00e7\u00f6mle\u011fi (Garstang 1953, b\u00f6l\u00fcm 9, fig. 22)\nP3 has note: Benzer: G\u00f6ller B\u00f6lgesi ET\u00c7 I\u2013II mal gruplar\u0131 (\u00d6zsait-T\u00fcrkteki 2014; Duru 2016; Duru ve Umurtak 2008; 2011)\nP3 has note: Resim 4 alt yaz\u0131s\u0131 \u0027siyah hamurlu\u0027 der; metin \u0027k\u0131rm\u0131z\u0131 astarl\u0131\u0027 der.\nsourcePage: 267\nsourcePage: 268"}, {"font": {"color": "#222222"}, "group": "plan", "id": "https://example.org/kst45/yumuktepe-2024/plan/plan-z15-2025", "label": "Z 15 plankaresinde kaz\u0131", "shape": "box", "size": 14, "title": "\u003cb\u003eZ 15 plankaresinde kaz\u0131\u003c/b\u003e\nclass: E29_Design_or_Procedure\nuri: plan-z15-2025\ntype: planned work\nP3 has note: XVI tabakas\u0131 ile ET\u00c7 II teras\u0131n\u0131n stratigrafik ili\u015fkisini anlamak i\u00e7in.\nplannedFor: 2025\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/yumuktepe-2024/place/of-a701", "label": "A701 yap\u0131 kat\u0131 (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eA701 yap\u0131 kat\u0131 (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-a701"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/yumuktepe-2024/place/plankare-z15", "label": "Z 15 plankaresi", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eZ 15 plankaresi\u003c/b\u003e\nclass: E53_Place\nuri: plankare-z15\ntype: grid square\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "activity", "id": "https://example.org/kst45/yumuktepe-2024/activity/exc-aa15", "label": "AA 15 a\u00e7mas\u0131 kaz\u0131s\u0131 2024", "shape": "box", "size": 22, "title": "\u003cb\u003eAA 15 a\u00e7mas\u0131 kaz\u0131s\u0131 2024\u003c/b\u003e\nclass: E7_Activity, A1_Excavation_Processing_Unit\nuri: exc-aa15\ntime-span: MS 2024 \u2013 MS 2024\nsourcePage: 267\nsourcePage: 268"}, {"font": {"color": "#222222"}, "group": "event", "id": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-olive-a701", "label": "Zeytin \u00e7ekirde\u011fi (A701 oca\u011f\u0131n\u0131n do\u011fusu) \u2026", "shape": "ellipse", "size": 10, "title": "\u003cb\u003eZeytin \u00e7ekirde\u011fi (A701 oca\u011f\u0131n\u0131n do\u011fusu) \u2013 \u00f6rnek alma\u003c/b\u003e\nclass: E7_Activity, S2_Sample_Taking\nuri: sampling-s-olive-a701\ntime-span: MS 2024 \u2013 MS 2024\nsourcePage: 268"}, {"font": {"color": "#222222"}, "group": "stratum", "id": "https://example.org/kst45/yumuktepe-2024/stratum/level-xvi", "label": "XVI tabakas\u0131", "shape": "triangle", "size": 16, "title": "\u003cb\u003eXVI tabakas\u0131\u003c/b\u003e\nclass: A2_Stratigraphic_Volume_Unit, A8_Stratigraphic_Unit\nuri: level-xvi\nidentifier: XVI\nP3 has note: Caneva kaz\u0131lar\u0131nca GYA sekt\u00f6r\u00fcnde belgelenmi\u015ftir (Palumbi ve Caneva 2019); A701\u0027den yakla\u015f\u0131k 3 m y\u00fcksekte ve 5 m kuzeyde.\nsourcePage: 267\nsourcePage: 268\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "stratum", "id": "https://example.org/kst45/yumuktepe-2024/stratum/a701-marl-between", "label": "Ocak ile tand\u0131r aras\u0131ndaki sar\u0131ms\u0131-marn \u2026", "shape": "triangle", "size": 16, "title": "\u003cb\u003eOcak ile tand\u0131r aras\u0131ndaki sar\u0131ms\u0131-marn \u00f6zellikli s\u0131k\u0131\u015ft\u0131r\u0131lm\u0131\u015f toprak\u003c/b\u003e\nclass: A2_Stratigraphic_Volume_Unit\nuri: a701-marl-between\nsourcePage: 267"}, {"font": {"color": "#222222"}, "group": "stratum", "id": "https://example.org/kst45/yumuktepe-2024/stratum/a701-soil", "label": "A701 sar\u0131ms\u0131 a\u00e7\u0131k kahverengi toprak", "shape": "triangle", "size": 16, "title": "\u003cb\u003eA701 sar\u0131ms\u0131 a\u00e7\u0131k kahverengi toprak\u003c/b\u003e\nclass: A2_Stratigraphic_Volume_Unit\nuri: a701-soil\nsourcePage: 268"}, {"font": {"color": "#222222"}, "group": "interpretation", "id": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-function", "label": "ET\u00c7 II evresine ait bitkisel kaynaklar\u0131 \u2026", "shape": "diamond", "size": 18, "title": "\u003cb\u003eET\u00c7 II evresine ait bitkisel kaynaklar\u0131 depolama ve pi\u015firme mek\u00e2n\u0131 (b\u00fcy\u00fck olas\u0131l\u0131kla)\u003c/b\u003e\nclass: E13_Attribute_Assignment\nuri: int-a701-function\nassigned: ET\u00c7 II evresine ait bitkisel kaynaklar\u0131 depolama ve pi\u015firme mek\u00e2n\u0131 (b\u00fcy\u00fck olas\u0131l\u0131kla)\ntype: interpretation\nP3 has note: Gerek\u00e7e: Mimari, seramik ve arkeobotanik veriler\nsourcePage: 268"}, {"font": {"color": "#222222"}, "group": "activity", "id": "https://example.org/kst45/yumuktepe-2024/activity/pottery-analysis", "label": "\u00c7anak \u00e7\u00f6mlek analizleri", "shape": "box", "size": 22, "title": "\u003cb\u003e\u00c7anak \u00e7\u00f6mlek analizleri\u003c/b\u003e\nclass: E7_Activity\nuri: pottery-analysis\ntype: pottery analysis\ntime-span: MS 2024 \u2013 MS 2024\nsourcePage: 267\nsourcePage: 272"}, {"font": {"color": "#222222"}, "group": "event", "id": "https://example.org/kst45/yumuktepe-2024/event/encounter-pottery-a701", "label": "A701 el yap\u0131m\u0131, kaba hamurlu, k\u0131rm\u0131z\u0131 as\u2026", "shape": "ellipse", "size": 10, "title": "\u003cb\u003eA701 el yap\u0131m\u0131, kaba hamurlu, k\u0131rm\u0131z\u0131 astarl\u0131 \u00e7anak \u00e7\u00f6mlek \u2013 buluntu olay\u0131\u003c/b\u003e\nclass: E7_Activity, S19_Encounter_Event\nuri: encounter-pottery-a701\ntime-span: MS 2024 \u2013 MS 2024\nsourcePage: 267\nsourcePage: 268"}, {"font": {"color": "#222222"}, "group": "actor", "id": "https://example.org/kst45/yumuktepe-2024/actor/ulas", "label": "Burhan Ula\u015f", "shape": "dot", "size": 16, "title": "\u003cb\u003eBurhan Ula\u015f\u003c/b\u003e\nclass: E21_Person\nuri: ulas\nidentifier: 0000-0002-0031-7222\nsourcePage: 265"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/yumuktepe-2024/place/gya", "label": "G\u00fcney Yama\u00e7 A\u00e7mas\u0131 (GYA) sekt\u00f6r\u00fc", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eG\u00fcney Yama\u00e7 A\u00e7mas\u0131 (GYA) sekt\u00f6r\u00fc\u003c/b\u003e\nclass: E53_Place\nuri: gya\ntype: excavation sector\nsourcePage: 265\nsourcePage: 267"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/feature/a701-tandir", "label": "A701 yuvarlak planl\u0131 tand\u0131r f\u0131r\u0131n", "shape": "dot", "size": 16, "title": "\u003cb\u003eA701 yuvarlak planl\u0131 tand\u0131r f\u0131r\u0131n\u003c/b\u003e\nclass: E25_Human-Made_Feature\nuri: a701-tandir\ntype: tand\u0131r oven\nsourcePage: 267"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/feature/a701-floor", "label": "A701 taban\u0131 (marn \u00fczerine s\u0131k\u0131\u015ft\u0131r\u0131lm\u0131\u015f \u2026", "shape": "dot", "size": 16, "title": "\u003cb\u003eA701 taban\u0131 (marn \u00fczerine s\u0131k\u0131\u015ft\u0131r\u0131lm\u0131\u015f toprak)\u003c/b\u003e\nclass: E25_Human-Made_Feature\nuri: a701-floor\ntype: floor\nP3 has note: Baz\u0131 alanlarda kerpi\u00e7 bloklara rastlanm\u0131\u015ft\u0131r.\nsourcePage: 267"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/yumuktepe-2024/feature/a701-hearth", "label": "A701 at nal\u0131 bi\u00e7imli ocak", "shape": "dot", "size": 16, "title": "\u003cb\u003eA701 at nal\u0131 bi\u00e7imli ocak\u003c/b\u003e\nclass: E25_Human-Made_Feature\nuri: a701-hearth\ntype: hearth\nP3 has note: Tek s\u0131ral\u0131 yuvarlak ta\u015flardan bir platforma oturur; \u00e7at\u0131 deste\u011fi i\u00e7in iki hat\u0131l izi.\nsourcePage: 267"}, {"font": {"color": "#222222"}, "group": "event", "id": "https://example.org/kst45/yumuktepe-2024/event/production-level-xvi", "label": "XVI tabakas\u0131 \u2013 \u00fcretim", "shape": "ellipse", "size": 10, "title": "\u003cb\u003eXVI tabakas\u0131 \u2013 \u00fcretim\u003c/b\u003e\nclass: E12_Production\nuri: production-level-xvi"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/site", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/of-site"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/figure/resim-3", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P106 is composed of", "title": "P106_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/figure/resim-2"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-lentil-a701", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701-hearth"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/of-trench-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-first-eba2", "label": "P140 assigned attribute to", "title": "P140_assigned_attribute_to", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-oval", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/yumuktepe-2024/actor/evgen"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P106 is composed of", "title": "P106_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/figure/sekil-1"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-oval", "label": "P140 assigned attribute to", "title": "P140_assigned_attribute_to", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/actor/evgen"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/feature/medieval-pits-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/production-a701", "label": "P10 falls within", "title": "P10_falls_within", "to": "https://example.org/kst45/yumuktepe-2024/period/eba-2"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-terrace"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/medieval-pits-aa15", "label": "AP11 has physical relation to", "title": "AP11_has_physical_relation_to", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-foundation"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/use-a701", "label": "P12 occurred in the presence of", "title": "P12_occurred_in_the_presence_of", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-first-eba2", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/yumuktepe-2024/actor/evgen"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/find/pottery-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/plan/plan-z15-2025"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/figure/resim-2", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/find/pottery-a701", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/place/plankare-z15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/a701", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-foundation"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/activity/exc-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-olive-a701", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701-hearth"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-foundation"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/activity/exc-aa15", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/yumuktepe-2024/place/of-trench-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/a701", "label": "AP11 has physical relation to", "title": "AP11_has_physical_relation_to", "to": "https://example.org/kst45/yumuktepe-2024/stratum/level-xvi"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/stratum/a701-marl-between", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/stratum/a701-soil", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-function", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/yumuktepe-2024/actor/evgen"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/activity/pottery-analysis"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-function", "label": "P140 assigned attribute to", "title": "P140_assigned_attribute_to", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/encounter-pottery-a701", "label": "O19 encountered object", "title": "O19_encountered_object", "to": "https://example.org/kst45/yumuktepe-2024/find/pottery-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/activity/exc-aa15", "label": "P9 consists of", "title": "P9_consists_of", "to": "https://example.org/kst45/yumuktepe-2024/event/encounter-pottery-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/a701", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-terrace", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/yumuktepe-2024/actor/ulas"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/gya"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/a701", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-tandir"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/a701", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-floor"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-tandir"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/encounter-pottery-a701", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/plan/plan-z15-2025", "label": "P67 refers to", "title": "P67_refers_to", "to": "https://example.org/kst45/yumuktepe-2024/stratum/level-xvi"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-floor"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/activity/pottery-analysis", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-oval", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/yumuktepe-2024/actor/ulas"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/plan/plan-z15-2025", "label": "P67 refers to", "title": "P67_refers_to", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/actor/ulas"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/feature/medieval-pits-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/figure/sekil-1", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/a701-hearth", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701-hearth"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-first-eba2", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/yumuktepe-2024/actor/ulas"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/activity/exc-aa15", "label": "P9 consists of", "title": "P9_consists_of", "to": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-lentil-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/place/plankare-z15", "label": "P89 falls within", "title": "P89_falls_within", "to": "https://example.org/kst45/yumuktepe-2024/place/gya"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/production-a701", "label": "P108 has produced", "title": "P108_has_produced", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-first-eba2"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/stratum/a701-marl-between"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-function"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/period/eba-2"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/event/encounter-pottery-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/event/use-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/place/gya"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-lentil-a701", "label": "O3 sampled from", "title": "O3_sampled_from", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-hearth"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/production-level-xvi", "label": "P108 has produced", "title": "P108_has_produced", "to": "https://example.org/kst45/yumuktepe-2024/stratum/level-xvi"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/a701", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-hearth"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/feature/site"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/site", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/feature/trench-aa15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P106 is composed of", "title": "P106_is_composed_of", "to": "https://example.org/kst45/yumuktepe-2024/figure/resim-3"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-hearth"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-olive-a701", "label": "O3 sampled from", "title": "O3_sampled_from", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-hearth"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/stratum/a701-soil"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-function", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/yumuktepe-2024/actor/ulas"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/stratum/level-xvi"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-oval"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/activity/exc-aa15", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/yumuktepe-2024/place/of-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/plan/plan-z15-2025", "label": "P67 refers to", "title": "P67_refers_to", "to": "https://example.org/kst45/yumuktepe-2024/place/plankare-z15"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/feature/a701-hearth", "label": "contemporaryWith", "title": "contemporaryWith", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701-tandir"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-terrace", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/yumuktepe-2024/actor/evgen"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/interpretation/int-a701-terrace", "label": "P140 assigned attribute to", "title": "P140_assigned_attribute_to", "to": "https://example.org/kst45/yumuktepe-2024/feature/a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/stratum/level-xvi", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/yumuktepe-2024/place/of-site"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/activity/exc-aa15", "label": "P9 consists of", "title": "P9_consists_of", "to": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-olive-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-lentil-a701"}, {"arrows": "to", "from": "https://example.org/kst45/yumuktepe-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/yumuktepe-2024/event/sampling-s-olive-a701"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"solver": "forceAtlas2Based", "forceAtlas2Based": {"gravitationalConstant": -60, "springLength": 120, "springConstant": 0.04}, "stabilization": {"iterations": 200}}, "edges": {"arrows": {"to": {"enabled": true, "scaleFactor": 0.6}}, "smooth": {"type": "dynamic"}, "font": {"size": 9, "color": "#666666", "align": "middle"}, "color": {"color": "#b0b0b0"}}, "nodes": {"font": {"size": 12}}, "interaction": {"hover": true, "tooltipDelay": 100, "navigationButtons": true}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

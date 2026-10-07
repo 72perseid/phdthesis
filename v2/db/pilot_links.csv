@@ -1,0 +1,23 @@
+list;own;standard;match
+activity_type;excavation campaign;season;same
+activity_type;illegal excavation;looting;same
+activity_type;surface survey;survey;same
+activity_type;dry sieving;sieving;narrower
+activity_type;cleaning and arrangement;cleaning;wider
+activity_type;archaeobotanical analysis;analysis;narrower
+activity_type;pottery analysis;analysis;narrower
+activity_type;photogrammetric documentation;documentation;narrower
+activity_type;hand drawing;documentation;narrower
+activity_type;documentation survey;documentation;narrower
+activity_type;décapage excavation;excavation_unit;narrower
+role;excavation director;director;same
+role;former excavation director;director;close
+role;team;team_member;close
+role;excavator;team_member;narrower
+role;analyst;specialist;same
+role;supporting institution;funder;close
+role;supporter;funder;close
+role;directing institution;institution;same
+material;terracotta;ceramic;narrower
+place_type;excavation sector;area;same
+place_type;neighbourhood;village;close

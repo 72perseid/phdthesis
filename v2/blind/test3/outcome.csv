@@ -1,0 +1,680 @@
+﻿n;page;group;form;core;subject;says;value;hedge;negative;outcome;where;note
+1;115;STRUCT;prose;no;sayfa üst başlığı;page header reads;45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1;;;F;;Structure of the printed document. The database has no place for it.
+2;115;DOC;prose;yes;bildiri;has title;İZNİK HİSARDERE NEKROPOLÜ 2024 YILI KAZI ÇALIŞMALARI;;;A;entity.label;
+3;115;DOC;list;yes;bildiri;has author;Aygün EKİN MERİÇ;;;A;relation authored_by;
+4;115;DOC;list;yes;bildiri;has author;Ali Kazım ÖZ;;;A;relation authored_by;
+5;115;DOC;list;yes;bildiri;has author;Tolga KOPARAL;;;A;relation authored_by;
+6;115;DOC;list;yes;bildiri;has author;Gülşen KUTBAY;;;A;relation authored_by;
+7;115;DOC;list;yes;bildiri;has author;Ruken Zeynep KÖSE;;;A;relation authored_by;
+8;115;ADMIN;prose;no;İznik Hisardere Nekropolü 2024 yılı kazı çalışmaları;was permitted by;Kültür ve Turizm Bakanlığı;;;C;participation;own code in the list role
+9;115;ADMIN;prose;no;İznik Hisardere Nekropolü 2024 yılı kazı çalışmaları;was financially supported by;Kültür ve Turizm Bakanlığı;;;A;participation;
+10;115;ADMIN;prose;no;İznik Hisardere Nekropolü 2024 yılı kazı çalışmaları;was carried out under the presidency of;İznik Müzesi Müdürlüğü;;;C;participation;own code in the list role
+11;115;PEOPLE;prose;yes;Aygün Ekin Meriç;role in the work;Bilimsel Koordinatör;;;C;participation;own code in the list role
+12;115;PEOPLE;prose;yes;Aygün Ekin Meriç;title;Prof. Dr.;;;D;own attribute 'unvan';No column, relation or declared attribute for it.
+13;115;PEOPLE;prose;yes;Aygün Ekin Meriç;affiliation;Dokuz Eylül Üniversitesi;;;A;actor.member_of;
+14;115;WORK;prose;yes;İznik Hisardere Nekropolü 2024 yılı kazı çalışmaları;was carried out by;Bilimsel Koordinatörlüğünde oluşturulan bir ekip;;;A;participation;
+15;115;WORK;prose;yes;İznik Hisardere Nekropolü 2024 yılı kazı çalışmaları;took place between;01.08.2024-27.12.2024;;;B;"activity.begin; activity.end";Years are whole numbers. Day and month are lost.
+16;115;WORK;prose;yes;İznik Hisardere Nekropolü 2024 yılı kazı çalışmaları;manner of continuation;aralıklı olarak;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+17;115;PEOPLE;list;yes;arkeolog;count in the team;bir;;;C;dimension;own code in the list dimension_kind
+18;115;PEOPLE;list;yes;antropolog;count in the team;bir;;;C;dimension;own code in the list dimension_kind
+19;115;ADMIN;list;no;işçi;count in the team;dört;;;C;dimension;own code in the list dimension_kind
+20;115;PEOPLE;list;yes;gönüllü öğrenci;count in the team;sekiz;;;C;dimension;own code in the list dimension_kind
+21;115;WORK;prose;yes;çalışmalar;number of work areas;beş alan;;;C;dimension;own code in the list dimension_kind
+22;115;WORK;list;yes;çalışmalar;had work area;Kazı Çalışmaları;;;B;activity.part_of;An entity that holds only a name, with no kind from a list.
+23;115;WORK;list;yes;çalışmalar;had work area;Seramik ve Küçük Buluntu Değerlendirme;;;B;activity.part_of;An entity that holds only a name, with no kind from a list.
+24;115;WORK;list;yes;çalışmalar;had work area;Antropoloji Çalışmaları;;;B;activity.part_of;An entity that holds only a name, with no kind from a list.
+25;115;WORK;list;yes;çalışmalar;had work area;Mimari Belgeleme ve Çizim;;;B;activity.part_of;An entity that holds only a name, with no kind from a list.
+26;115;WORK;list;yes;çalışmalar;had work area;Restorasyon ve Konservasyon;;;B;activity.part_of;An entity that holds only a name, with no kind from a list.
+27;115;STRUCT;prose;no;başlık;heading reads;KAZI ÇALIŞMALARI;;;F;;Structure of the printed document. The database has no place for it.
+28;115;WORK;prose;yes;alan;was scanned with;yeraltı görüntüleme sistemi;;;A;"relation used; relation worked_on; relation worked_on";
+29;115;WORK;prose;yes;yeraltı görüntüleme sistemi taraması;took place in;2020 yılı temmuz ayı;;;B;activity.begin;Years are whole numbers. Day and month are lost. The month is lost. Years are whole numbers.
+30;115;WORK;prose;yes;çalışma planı;was based on;jeoradar verileri;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+31;115;WORK;prose;yes;öncelikli kazılacak alanlar;were determined from;jeoradar tarama verileri;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+32;115;WORK;prose;yes;öncelikli kazılacak alanlar;were determined from;önceki yıllarda gerçekleştirilen kazı çalışmaları;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+33;115;WORK;prose;yes;01.08.2024-30.08.2024 çalışmaları;took place between;01.08.2024-30.08.2024;;;B;"activity.begin; activity.end";Years are whole numbers. Day and month are lost.
+34;115;ADMIN;prose;no;01.08.2024-30.08.2024 çalışmaları;was funded by;Kültür ve Turizm Bakanlığından sağlanan ödenek;;;B;participation;'From the allowance' is lost.
+35;115;WORK;prose;yes;01.08.2024-30.08.2024 çalışmaları;took place in square;E-15;;;A;relation also_at;
+36;115;WORK;prose;yes;01.08.2024-30.08.2024 çalışmaları;took place in square;E-16;;;A;relation also_at;
+37;115;WORK;prose;yes;03.10.2024-29.11.2024 çalışmaları;took place between;03.10.2024-29.11.2024;;;B;"activity.begin; activity.end";Years are whole numbers. Day and month are lost.
+38;115;ADMIN;prose;no;03.10.2024-29.11.2024 çalışmaları;was part of project;Geleceğe Miras Projesi;;;A;activity.part_of;
+39;115;ADMIN;prose;no;03.10.2024-29.11.2024 çalışmaları;was funded by;Kültür ve Turizm Bakanlığından sağlanan ödenek yardımı;;;B;participation;'From the allowance' is lost.
+40;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;J-17;;;A;relation also_at;
+41;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;J-18;;;A;relation also_at;
+42;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;J-K/18;;;B;relation also_at;A compound of squares is stored as one place.
+43;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;K-16;;;A;relation also_at;
+44;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;K-17;;;A;relation also_at;
+45;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;K-18;;;A;relation also_at;
+46;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;K-L/15-16;;;B;relation also_at;A compound of squares is stored as one place.
+47;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;L-17;;;A;relation also_at;
+48;115;WORK;list;yes;03.10.2024-29.11.2024 çalışmaları;took place in square;L-18;;;A;relation also_at;
+49;115;FIGURE;prose;yes;plankareler / kazı alanı;is shown in figure;Çizim: 1;;;A;about;
+50;115;PEOPLE;list;yes;Aygün Ekin Meriç;affiliation;Dokuz Eylül Üniversitesi, Edebiyat Fakültesi, Arkeoloji Bölümü;;;B;actor.member_of;University, faculty and department are one name.
+51;115;PEOPLE;list;yes;Aygün Ekin Meriç;address of affiliation;Tınaztepe Kampüsü, 35390 Buca, İzmir, TÜRKIYE;;;D;own attribute 'adres';No column, relation or declared attribute for it.
+52;115;PEOPLE;list;yes;Aygün Ekin Meriç;identifier (ORCID);0000-0002-1343-847X;;;A;identifier;
+53;115;PEOPLE;list;yes;Ali Kazım Öz;title;Prof. Dr.;;;D;own attribute 'unvan';No column, relation or declared attribute for it.
+54;115;PEOPLE;list;yes;Ali Kazım Öz;affiliation;Dokuz Eylül Üniversitesi, Edebiyat Fakültesi, Arkeoloji Bölümü;;;B;actor.member_of;University, faculty and department are one name.
+55;115;PEOPLE;list;yes;Ali Kazım Öz;address of affiliation;Tınaztepe Kampüsü, 35390 Buca, İzmir, TÜRKIYE;;;D;own attribute 'adres';No column, relation or declared attribute for it.
+56;115;PEOPLE;list;yes;Ali Kazım Öz;identifier (ORCID);0000-0002-3005-323X;;;A;identifier;
+57;115;PEOPLE;list;yes;Tolga Koparal;title;Arkeolog;;;D;own attribute 'unvan';No column, relation or declared attribute for it.
+58;115;PEOPLE;list;yes;Tolga Koparal;affiliation;İznik Müzesi Müdürlüğü;;;A;actor.member_of;
+59;115;PEOPLE;list;yes;Tolga Koparal;address of affiliation;16860 İznik, Bursa, TÜRKIYE;;;D;own attribute 'adres';No column, relation or declared attribute for it.
+60;115;PEOPLE;list;yes;Gülşen Kutbay;title;Arkeolog Dr.;;;D;own attribute 'unvan';No column, relation or declared attribute for it.
+61;115;PEOPLE;list;yes;Gülşen Kutbay;affiliation;Hisardere Nekropolü Kazıevi;;;A;actor.member_of;
+62;115;PEOPLE;list;yes;Gülşen Kutbay;address of affiliation;16860 İznik, Bursa, TÜRKIYE;;;D;own attribute 'adres';No column, relation or declared attribute for it.
+63;115;PEOPLE;list;yes;Ruken Zeynep Köse;title;Antropolog;;;D;own attribute 'unvan';No column, relation or declared attribute for it.
+64;115;PEOPLE;list;yes;Ruken Zeynep Köse;affiliation;Hisardere Nekropolü Kazıevi;;;A;actor.member_of;
+65;115;PEOPLE;list;yes;Ruken Zeynep Köse;address of affiliation;16860 İznik, Bursa, TÜRKIYE;;;D;own attribute 'adres';No column, relation or declared attribute for it.
+66;116;STRUCT;prose;no;sayfa üst başlığı;page header reads;KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ;;;F;;Structure of the printed document. The database has no place for it.
+67;116;STRUCT;prose;no;başlık;heading reads;E-15 Plankaresi;;;F;;Structure of the printed document. The database has no place for it.
+68;116;BUILT;prose;yes;bazilika;was built over;Nekropol alanı;;;A;relation lies_in;
+69;116;WORK;prose;yes;E-15 plankaresi kazı çalışmaları;was planned because of;jeoradar taramaları sonucu;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+70;116;WORK;prose;yes;E-15 plankaresi kazı çalışmaları;had the aim;bazilikanın batı sınırını ortaya çıkarmak;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+71;116;WORK;prose;yes;E-15 açması;trench limits measure;600x600 cm;;;D;"own attribute 'boyut'; own attribute 'boyut'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15 First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+72;116;PLACE;prose;yes;E-15 açması;work started at elevation;+96,82 m;;;D;own attribute 'açılış kotu';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+73;116;BUILT;prose;yes;toprak tabakası (E-15);lies in;alanın kuzey kesiti;;;B;thing.part_of;An entity that holds only a name, with no kind from a list.
+74;116;BUILT;list;yes;toprak tabakası (E-15);has character;sert;;;C;"claim, belief true; assertion condition";own code in the list condition
+75;116;BUILT;list;yes;toprak tabakası (E-15);has character;kuru;;;C;"claim, belief true; assertion condition";own code in the list condition
+76;116;BUILT;list;yes;toprak tabakası (E-15);has character;sıkışmış;;;C;"claim, belief true; assertion condition";own code in the list condition
+77;116;FIND;prose;yes;tessera (E-15);kind;tessera;;;C;thing.type;own code in the list thing_type
+78;116;FIND;prose;yes;tessera (E-15);was found in;kuzey kesitteki toprak tabakası;;;A;find_context;
+79;116;FIND;prose;yes;tessera (E-15);position in place;öbekler halinde;;;D;own attribute 'buluntu durumu';No column, relation or declared attribute for it.
+80;116;FIND;prose;yes;mozaik parçaları (E-15);kind;mozaik parçaları;;;C;thing.type;own code in the list thing_type
+81;116;FIND;prose;yes;mozaik parçaları (E-15);was found in;kuzey kesitteki toprak tabakası;;;A;find_context;
+82;116;FIND;prose;yes;mozaik parçaları (E-15);position in place;öbekler halinde;;;D;own attribute 'buluntu durumu';No column, relation or declared attribute for it.
+83;116;WORK;prose;yes;tesseralar (E-15);was examined for;alanla organik bir bağının olup olmadığı;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+84;116;BUILT;prose;yes;statumen tabakası (E-15);kind;statumen tabakası;;;C;thing.type;own code in the list thing_type
+85;116;PLACE;prose;yes;statumen tabakası (E-15);elevation;96,44 m;;;A;dimension;
+86;116;BUILT;prose;yes;statumen tabakası (E-15);condition;tahrip olmuş;;;C;"claim, belief true; assertion condition";own code in the list condition
+87;116;BUILT;prose;yes;mozaik harcı (E-15);kind;mozaik harcı;;;C;thing.type;own code in the list thing_type
+88;116;PLACE;prose;yes;mozaik harcı (E-15);elevation;96,44 m;;;A;dimension;
+89;116;INTERP;prose;yes;alan (E-15);is interpreted as covered with;mozaik taban döşemesi;işaret ettiğinden;;A;"claim, belief probable; assertion interpreted_as";
+90;116;WORK;prose;yes;statumen tabakası ve mozaik harcı kalıntıları (E-15);decision;korunmasına karar verilmiştir;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+91;116;DESCR;prose;no;statumen tabakası ve mozaik harcı kalıntıları (E-15);is judged;önemli;;;E;entity.remark;A judgement or a general description.
+92;116;WORK;prose;yes;E-15 kazı çalışmaları;advanced towards;kuzey yönü;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+93;116;BUILT;prose;yes;duvar yapısı (E-15);kind;duvar yapısı;;;C;thing.type;own code in the list thing_type
+94;116;PLACE;prose;yes;duvar yapısı (E-15);elevation;+96,33 m;;;A;dimension;
+95;116;MEASURE;prose;yes;duvar yapısı (E-15);measures;67x120 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+96;116;BUILT;prose;yes;duvar yapısı (E-15);is built as;iki sıra taş örgülü;;;D;own attribute 'örgü';No column, relation or declared attribute for it.
+97;116;BUILT;prose;yes;duvar (E-15);orientation;doğu-batı doğrultulu;;;D;own attribute 'doğrultu';No column, relation or declared attribute for it.
+98;116;FIND;prose;yes;pithos kalıntısı (E-15);kind;pithos kalıntısı;;;C;thing.type;own code in the list thing_type
+99;116;FIND;prose;yes;pithos kalıntısı (E-15);was found in;doğu-batı doğrultulu duvarın güneyinde yer alan bir alan;;;A;find_context;
+100;116;FIND;prose;yes;pithos kalıntısı (E-15);condition;dibe yakın bölümü korunmuş;;;C;"claim, belief true; assertion condition";own code in the list condition
+101;116;FIND;prose;yes;pithos kalıntısı (E-15);contains;harç kalıntıları;;;E;entity.remark;Free text. No structure fits.
+102;116;DESCR;prose;no;pithosun harç kalıntıları (E-15);is judged to have potential to inform on;yapının kullanım amacı ve dönemin gömü pratikleri;potansiyeline sahiptir;;E;entity.remark;A judgement or a general description.
+103;116;BUILT;prose;yes;ÇM 1 (E-15);kind;Çatkı Mezar;;;C;thing.type;own code in the list thing_type
+104;116;BUILT;prose;yes;ÇM 1 (E-15);position;açmanın kuzey kesitinden 40 cm içeride;;;E;entity.remark;A position, a relation or a state described in words.
+105;116;PLACE;prose;yes;ÇM 1 (E-15);elevation;+96,00 m.;;;A;dimension;
+106;116;BUILT;prose;yes;ÇM 1 (E-15);orientation;doğu-batı doğrultusunda;;;D;own attribute 'doğrultu';No column, relation or declared attribute for it.
+107;116;MEASURE;prose;yes;ÇM 1 (E-15);measures (length);182 cm;;;A;dimension;
+108;116;MEASURE;prose;yes;ÇM 1 (E-15);measures (width);50 cm;;;A;dimension;
+109;116;BUILT;prose;yes;ÇM 1 (E-15);extends;bir kısmı doğu kesitin altına doğru;;;E;entity.remark;A position, a relation or a state described in words.
+110;116;BUILT;prose;yes;ÇM 1 (E-15) mezar kapakları;are supported with;harç ve taşlar;;;E;entity.remark;A position, a relation or a state described in words.
+111;116;WORK;prose;yes;ÇM 1 (E-15);work done;belgeleme işlemleri tamamlandı;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+112;116;WORK;prose;yes;ÇM 1 (E-15);work done;batı yönündeki iki kapak açıldı;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+113;116;FIND;prose;yes;kemik döküntüleri (E-15 ÇM 1);kind;iskelete ait kemik döküntüleri;;;C;thing.type;own code in the list thing_type
+114;116;FIND;prose;yes;kemik döküntüleri (E-15 ÇM 1);was found in;ÇM 1 mezar içi;;;A;find_context;
+115;116;FIND;prose;yes;iskelet (E-15 ÇM 1);condition;neredeyse tamamen yok olmuş;;;C;"claim, belief true; assertion condition";own code in the list condition
+116;116;WORK;prose;yes;kemik döküntüleri (E-15 ÇM 1);work done;toplanarak kayıt altına alınmıştır;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+117;116;WORK;prose;yes;E-15 kazı çalışmaları;continued towards;güney yönü;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+118;116;BUILT;prose;yes;TPM 1 (E-15);kind;terrakota plaka kapaklı mezar yapısı;;;E;entity.remark;The kind is described in a sentence. The term cannot be taken apart (rule R18).
+119;116;PLACE;prose;yes;TPM 1 (E-15) kapakları ve tuğla sırası;elevation;+95,98 m;;;A;dimension;
+120;116;BUILT;prose;yes;TPM 1 (E-15);has part;mezarın duvarına ait tuğla sırası;;;C;thing.type;own code in the list thing_type
+121;116;BUILT;prose;yes;TPM 1 (E-15);orientation;doğu-batı doğrultusunda;;;D;own attribute 'doğrultu';No column, relation or declared attribute for it.
+122;116;MEASURE;prose;yes;TPM 1 (E-15);measures;71x213 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+123;116;BUILT;prose;yes;TPM 1 (E-15);is covered with;pişmiş toprak plaka;;;C;thing.type;own code in the list thing_type
+124;116;BUILT;prose;yes;TPM 1 (E-15) pişmiş toprak plakalar;count;üç adet;;;A;dimension;
+125;116;MEASURE;prose;yes;TPM 1 (E-15) pişmiş toprak plakalar;measures (thickness);8 cm;;;A;dimension;
+126;116;MEASURE;prose;yes;TPM 1 (E-15) pişmiş toprak plakalar;measures;71x71 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+127;116;BUILT;prose;yes;TPM 1 (E-15);is surrounded by;tuğlalardan oluşan bir sıra;;;E;entity.remark;A position, a relation or a state described in words.
+128;116;MEASURE;prose;yes;TPM 1 (E-15) tuğlalar;measures (length);32 cm;;;A;dimension;
+129;116;MEASURE;prose;yes;TPM 1 (E-15) tuğla sırası;measures (measurable total length);238 cm;;;B;dimension;'Measurable' is lost.
+130;116;BUILT;prose;yes;TPM 1 (E-15);number of covers fit for opening;üç kapak;;;C;dimension;own code in the list dimension_kind
+131;116;WORK;prose;yes;TPM 1 (E-15);work done;doğu yönündeki iki kapak kaldırıldı;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+132;116;MEASURE;prose;yes;TPM 1 (E-15) mezar içi;measures (length);185 cm;;;A;dimension;
+133;116;MEASURE;prose;yes;TPM 1 (E-15) mezar içi;measures (width);38 cm;;;A;dimension;
+134;116;FIND;prose;yes;iskelet kalıntısı (E-15 TPM 1);kind;iskelet kalıntısı;;;C;thing.type;own code in the list thing_type
+135;116;FIND;prose;yes;iskelet kalıntısı (E-15 TPM 1);was found in;TPM 1 mezar içi;;;A;find_context;
+136;116;FIND;prose;yes;iskelet kalıntısı (E-15 TPM 1);count of individuals;bir birey;;;C;dimension;own code in the list dimension_kind
+137;116;WORK;prose;yes;TPM 1 (E-15);work done;mezarın içi temizlenerek çalışmalar sonlandırılmıştır;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+138;116;BUILT;prose;yes;TPM 1 (E-15) mezar iç duvarları;are coated with;tuğla tozu içeren pembemsi bir sıva;;;E;entity.remark;A position, a relation or a state described in words.
+139;116;BUILT;prose;yes;TPM 1 (E-15) zemini;is paved with;düzensiz biçimde alana uydurulmuş tuğlalar;;;E;entity.remark;A position, a relation or a state described in words.
+140;116;FIGURE;prose;yes;TPM 1 (E-15);is shown in figure;Resim: 1;;;A;about;
+141;116;LAB;prose;yes;iskelet (E-15 TPM 1);sex is;kadın;muhtemelen ... olabileceği yönünde ilk bulgular;;D;"claim, belief probable; own attribute 'cinsiyet'";No column, relation or declared attribute for it.
+142;116;BUILT;prose;yes;beş çatkı mezar (E-15);position;Çatkı Mezar 1’in (ÇM 1) güney paralelinde;;;E;entity.remark;A position, a relation or a state described in words.
+143;116;BUILT;prose;yes;beş çatkı mezar (E-15);was found during work in;doğu kesit;;;E;entity.remark;A position, a relation or a state described in words.
+144;117;BUILT;prose;yes;beş çatkı mezar (E-15);kind;çatkı mezar;;;C;thing.type;own code in the list thing_type
+145;117;BUILT;prose;yes;beş çatkı mezar (E-15);count;beş adet;;;A;dimension;
+146;117;BUILT;prose;yes;beş çatkı mezar (E-15);orientation;doğu-batı doğrultusunda;;;D;own attribute 'doğrultu';No column, relation or declared attribute for it.
+147;117;WORK;prose;yes;E-15 mezarları;were evaluated by;korunma durumları;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+148;117;BUILT;list;yes;ÇM 2 (E-15);condition;korunma durumu oldukça kötü;;;C;"claim, belief true; assertion condition";own code in the list condition
+149;117;WORK;list;yes;ÇM 2 (E-15);decision;kapalı konumda muhafaza edilmesi;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+150;117;BUILT;list;yes;ÇM 3 (E-15);condition;korunma durumu oldukça kötü;;;C;"claim, belief true; assertion condition";own code in the list condition
+151;117;WORK;list;yes;ÇM 3 (E-15);decision;kapalı konumda muhafaza edilmesi;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+152;117;BUILT;list;yes;ÇM 5 (E-15);condition;korunma durumu oldukça kötü;;;C;"claim, belief true; assertion condition";own code in the list condition
+153;117;WORK;list;yes;ÇM 5 (E-15);decision;kapalı konumda muhafaza edilmesi;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+154;117;BUILT;prose;yes;ÇM 4 (E-15);condition;nispeten iyi durumda;nispeten;;C;"claim, belief probable; assertion condition";own code in the list condition
+155;117;WORK;prose;yes;ÇM 4 (E-15);decision;açılarak incelenmesi;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+156;117;INTERP;prose;yes;ÇM 4 (E-15) mezar kapakları;compared with other simple çatkı graves are;daha kalın cidarlı ve özenli bir yapıya sahip;;;A;"claim, belief true; assertion interpreted_as";
+157;117;BUILT;prose;yes;ÇM 4 (E-15) kapaklarının iç yüzeyleri;bear;basit kazıma motifler;;;C;"claim, belief true; assertion depicts_motif";own code in the list motif
+158;117;MEASURE;prose;yes;ÇM 4 (E-15);measures (length);187 cm;;;A;dimension;
+159;117;MEASURE;prose;yes;ÇM 4 (E-15);measures (width);45 cm;;;A;dimension;
+160;117;WORK;prose;yes;ÇM 4 (E-15);work done;temizlik ve belgeleme çalışmaları tamamlanmış;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+161;117;FIND;prose;yes;iskelet (E-15 ÇM 4);kind;iskelet;;;C;thing.type;own code in the list thing_type
+162;117;WORK;prose;yes;iskelet (E-15 ÇM 4);work done;laboratuvar ortamında detaylı analiz için toplanmış;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+163;117;WORK;prose;yes;ÇM 4 (E-15);work done;mezar içi temizlenerek çalışmalar sonlandırılmıştır;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+164;117;BUILT;prose;yes;bazilikanın batı sınırını oluşturan duvar sırası;was exposed in E-15 (extent);bir bölümü;;;E;entity.remark;A position, a relation or a state described in words.
+165;117;BUILT;prose;yes;odaları birbirinden ayıran duvarlar;was exposed in E-15 (extent);bazı kısımları;;;E;entity.remark;A position, a relation or a state described in words.
+166;117;BUILT;prose;yes;E-15 mezarları;count;toplam yedi mezar;;;A;dimension;
+167;117;BUILT;prose;yes;E-15 mezarları;type;beşik çatkı tipi;;;C;thing.type;own code in the list thing_type
+168;117;BUILT;prose;yes;E-15 mezarları;count with pişmiş toprak plaka cover;ikisi;;;E;entity.remark;A count given in words.
+169;117;FIGURE;prose;yes;E-15 mezarları;is shown in figure;Resim: 2;;;A;about;
+170;117;FIND;prose;yes;seramik parçası (E-15);kind;seramik parçası;;;C;thing.type;own code in the list thing_type
+171;117;FIND;prose;yes;seramik parçası (E-15);count;az sayıda;;;E;entity.remark;A count given in words.
+172;117;FIND;prose;yes;seramik parçası (E-15);was found in;E-15 plankaresi;;;A;find_context;
+173;117;FIND;prose;yes;bronz sikke (E-15);kind;sikke;;;A;thing.type;
+174;117;FIND;prose;yes;bronz sikke (E-15);count;üç adet;;;A;dimension;
+175;117;FIND;prose;yes;bronz sikke (E-15);is made of;bronz;;;A;thing.material;
+176;117;FIND;prose;yes;bronz sikke (E-15);was found in;E-15 plankaresi;;;A;find_context;
+177;117;DESCR;prose;no;E-15 buluntuları;is judged;alanın mimari düzenini, kullanım amacını ve tarihi bağlamını anlamak açısından önemli veriler sunmaktadır;;;E;entity.remark;A judgement or a general description.
+178;117;STRUCT;prose;no;başlık;heading reads;E-16 Plankaresi;;;F;;Structure of the printed document. The database has no place for it.
+179;117;WORK;prose;yes;E-16 açması;trench limits measure;3,50x5,00 m;;;D;"own attribute 'boyut'; own attribute 'boyut'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15 First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+180;117;PLACE;prose;yes;E-16 açması;work started at elevation;+96,82 m;;;D;own attribute 'açılış kotu';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+181;117;BUILT;prose;yes;ÇM 1 (E-16);kind;basit formlu çatkı mezar;;;C;thing.type;own code in the list thing_type
+182;117;PLACE;prose;yes;ÇM 1 (E-16);elevation;+96,15 m;;;A;dimension;
+183;117;BUILT;prose;yes;ÇM 1 (E-16);orientation;doğu-batı doğrultulu;;;D;own attribute 'doğrultu';No column, relation or declared attribute for it.
+184;117;BUILT;prose;yes;ÇM 2 (E-16);kind;basit formlu çatkı mezar;;;C;thing.type;own code in the list thing_type
+185;117;PLACE;prose;yes;ÇM 2 (E-16);elevation;+96,15 m;;;A;dimension;
+186;117;BUILT;prose;yes;ÇM 2 (E-16);orientation;doğu-batı doğrultulu;;;D;own attribute 'doğrultu';No column, relation or declared attribute for it.
+187;117;BUILT;prose;yes;ÇM 1 (E-16) mezar kapakları;bear;düzensiz kazıma motifler;;;C;"claim, belief true; assertion depicts_motif";own code in the list motif
+188;117;BUILT;prose;yes;ÇM 1 (E-16);condition;korunma durumu kötü;;;C;"claim, belief true; assertion condition";own code in the list condition
+189;117;BUILT;prose;yes;ÇM 1 (E-16);condition;kapaklardaki çökme sonucu içeriye fazlaca toprak dolmuş;;;E;entity.remark;Described in a sentence.
+190;117;FIND;prose;yes;iskelet kalıntısı (E-16 ÇM 1);was found in situ;rastlanamamıştır;;yes;E;entity.remark;Something that was not found. It does not exist, so it cannot be an entity (rule R25).
+191;117;STRUCT;prose;no;başlık;heading reads;K-17 Plankaresi;;;F;;Structure of the printed document. The database has no place for it.
+192;117;ADMIN;prose;no;K-17 plankaresi kazı çalışmaları;was part of project;Kültür ve Turizm Bakanlığı, Geleceğe Miras Projesi;;;A;activity.part_of;
+193;117;PLACE;prose;yes;K-17 plankaresi;is located in;nekropol alanının güneyi;;;E;entity.remark;A position described in words.
+194;117;BUILT;prose;yes;bazilikanın Narteks bölümüne ait güney duvarının devamı (K-17);kind;duvar (Narteks güney duvarının devamı);;;E;entity.remark;The kind is described in a sentence. The term cannot be taken apart (rule R18).
+195;117;BUILT;prose;yes;Narteks;is part of;bazilika;;;B;thing.part_of;An entity that holds only a name, with no kind from a list.
+196;117;PLACE;prose;yes;Narteks güney duvarının devamı (K-17);elevation;+97,63 m;;;A;dimension;
+197;117;BUILT;prose;yes;Narteks güney duvarının devamı (K-17);orientation;doğu-batı doğrultulu;;;D;own attribute 'doğrultu';No column, relation or declared attribute for it.
+198;117;MEASURE;prose;yes;Narteks güney duvarının devamı (K-17);measures (width);1,46 m;;;A;dimension;
+199;117;MEASURE;prose;yes;buna dik duvarlar (K-17);measures (dimension not named);[unclear] 72 cm;;;C;dimension;own code in the list dimension_kind
+200;117;BUILT;prose;yes;dik duvarlar (K-17);position;doğu-batı doğrultulu duvara dik;;;E;entity.remark;A position, a relation or a state described in words.
+201;117;BUILT;prose;yes;Sanduka (K-17);kind;Sanduka tipinde bir mezar;;;C;thing.type;own code in the list thing_type
+202;117;PLACE;prose;yes;Sanduka (K-17);elevation;+97,22 m;;;A;dimension;
+203;117;BUILT;prose;yes;Sanduka (K-17);position;doğu-batı doğrultulu duvara paralel;;;E;entity.remark;A position, a relation or a state described in words.
+204;117;BUILT;prose;yes;Sanduka (K-17);condition;modern atıklarla tamamen dolmuş;;;C;"claim, belief true; assertion condition";own code in the list condition
+205;117;HISTORY;prose;no;Sanduka (K-17);was looted by;kaçak kazıcılar;;;A;relation worked_on;
+206;117;FIND;prose;yes;iskelet kalıntısı (K-17 Sanduka);was found in grave;rastlanmamıştır;;yes;E;entity.remark;Something that was not found. It does not exist, so it cannot be an entity (rule R25).
+207;117;FIND;prose;yes;buluntu niteliği taşıyan materyal (K-17 Sanduka);was found in grave;rastlanmamıştır;;yes;E;entity.remark;Something that was not found. It does not exist, so it cannot be an entity (rule R25).
+208;117;MEASURE;list;yes;Sanduka (K-17);measures (length);220 cm;;;A;dimension;
+209;117;MEASURE;list;yes;Sanduka (K-17);measures (width);88 cm;;;A;dimension;
+210;117;MEASURE;list;yes;Sanduka (K-17);measures (depth);40 cm;;;A;dimension;
+211;117;BUILT;prose;yes;Sanduka (K-17);is made of;monolit taş;;;C;thing.material;own code in the list material
+212;117;BUILT;prose;yes;Sanduka (K-17) monolit taşlar;count;dört adet;;;A;dimension;
+213;117;BUILT;prose;yes;Sanduka (K-17) monolit taşlar;workmanship;oldukça düzgün yontulmuş;;;D;own attribute 'işçilik';No column, relation or declared attribute for it.
+214;118;STRUCT;prose;no;başlık;heading reads;K-16 Plankaresi;;;F;;Structure of the printed document. The database has no place for it.
+215;118;BUILT;prose;yes;Hipoje 1 (K-16);kind;yeraltı mezar odası;;;C;thing.type;own code in the list thing_type
+216;118;PLACE;prose;yes;Hipoje 1 (K-16) tonozlu üst yapısı ve plaka kapağı;elevation;+97,10 m;;;A;dimension;
+217;118;BUILT;prose;yes;Hipoje 1 (K-16);orientation;doğu-batı doğrultusunda;;;D;own attribute 'doğrultu';No column, relation or declared attribute for it.
+218;118;BUILT;prose;yes;Hipoje 1 (K-16);has part;tonozlu üst yapı;;;C;thing.type;own code in the list thing_type
+219;118;BUILT;prose;yes;Hipoje 1 (K-16);entrance is given by;terrakotta içbükey bir plaka kapak;;;E;entity.remark;A position, a relation or a state described in words.
+220;118;BUILT;prose;yes;ÇM 1 (K-16);kind;çatkı mezar;;;C;thing.type;own code in the list thing_type
+221;118;PLACE;prose;yes;ÇM 1 (K-16);elevation;+96,92 m;;;A;dimension;
+222;118;MEASURE;prose;yes;ÇM 1 (K-16);measures (length);174 cm;;;A;dimension;
+223;118;MEASURE;prose;yes;ÇM 1 (K-16);measures (width);52 cm;;;A;dimension;
+224;118;FIGURE;prose;yes;ÇM 1 (K-16);is shown in figure;Resim: 3;;;A;about;
+225;118;BUILT;prose;yes;ÇM 1 (K-16) pişmiş toprak plakalar;consist of;dört parça;;;A;dimension;
+226;118;FIND;prose;yes;iskelet kalıntıları (K-16 ÇM 1);kind;iskelet kalıntıları;;;C;thing.type;own code in the list thing_type
+227;118;FIND;prose;yes;iskelet kalıntıları (K-16 ÇM 1);count of individuals;bir birey;;;C;dimension;own code in the list dimension_kind
+228;118;FIND;prose;yes;iskelet kalıntıları (K-16 ÇM 1);was found in;ÇM 1;;;A;find_context;
+229;118;FIND;prose;yes;iskelet kalıntıları (K-16 ÇM 1);position in place;pişmiş toprak plakaların üzerinde;;;D;own attribute 'buluntu durumu';No column, relation or declared attribute for it.
+230;118;WORK;prose;yes;iskelet (K-16 ÇM 1);work done;laboratuvar ortamında incelenmek üzere toplanmıştır;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+231;118;BUILT;prose;yes;Hipoje 1 (K-16) özgün giriş kapısı;is located in;doğu lunette bölümü;;;B;thing.part_of;An entity that holds only a name, with no kind from a list.
+232;118;BUILT;prose;yes;Hipoje 1 (K-16) özgün giriş kapısı;was closed with;tuğla duvar örgüsü;;;E;entity.remark;A position, a relation or a state described in words.
+233;118;DATE;prose;yes;Hipoje 1 (K-16) giriş kapısının kapatılması;took place in;kendi döneminde;;;E;entity.remark;Free text. No structure fits.
+234;118;HISTORY;prose;no;Hipoje 1 (K-16) giriş kapısının üst kısmı;was torn down by;kaçak kazıcılar;;;B;relation worked_on;'was torn down by' is stored as 'was worked on'.
+235;118;MEASURE;list;yes;Hipoje 1 (K-16);measures (inner length);192 cm;;;B;dimension;'Inner' is lost.
+236;118;MEASURE;list;yes;Hipoje 1 (K-16);measures (width);81 cm;;;A;dimension;
+237;118;MEASURE;list;yes;Hipoje 1 (K-16);measures (height);156 cm;;;A;dimension;
+238;118;BUILT;prose;yes;Hipoje 1 (K-16);is coated with;sıva (tüm bölümleri);;;C;thing.type;own code in the list thing_type
+239;118;BUILT;prose;yes;Hipoje 1 (K-16) sıvası;colour;beyaz;;;D;own attribute 'renk';No column, relation or declared attribute for it.
+240;118;BUILT;prose;yes;Hipoje 1 (K-16) sıvası;workmanship;incelikle uygulanmış;;;D;own attribute 'işçilik';No column, relation or declared attribute for it.
+241;118;BUILT;prose;yes;Hipoje 1 (K-16) sıvası;has decoration;bezemesiz;;yes;E;entity.remark;A position, a relation or a state described in words.
+242;118;BUILT;prose;yes;Hipoje 1 (K-16);has part;havalandırma bacası (tavan kısmında);;;C;thing.type;own code in the list thing_type
+243;118;MEASURE;prose;yes;Hipoje 1 (K-16) havalandırma bacası;measures (diameter);7 cm;;;A;dimension;
+244;118;BUILT;prose;yes;Hipoje 1 (K-16) alanı;is separated by;sonradan tuğlayla örülmüş bir kapı;;;E;entity.remark;A position, a relation or a state described in words.
+245;118;MEASURE;prose;yes;bazilika duvarı ile mezar (Hipoje 1, K-16) arasındaki boşluk;measures;42 cm;;;D;own attribute 'aradaki mesafe';No column, relation or declared attribute for it.
+246;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 1 boşluğu);kind;iskelet kalıntıları;;;C;thing.type;own code in the list thing_type
+247;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 1 boşluğu);was found in;bazilika duvarı ile mezar arasındaki boşluk;;;A;find_context;
+248;118;FIGURE;prose;yes;Hipoje 1 (K-16);is shown in figure;Resim: 4;;;A;about;
+249;118;WORK;prose;yes;Hipoje 2 (K-16);was found;önceden;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+250;118;WORK;prose;yes;Hipoje 2 (K-16);was entered by;pişmiş toprak kapağın çıkarılması;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+251;118;BUILT;prose;yes;Hipoje 2 (K-16) kapağının iç yüzü;bears;geometrik motifler;;;C;"claim, belief true; assertion depicts_motif";own code in the list motif
+252;118;BUILT;prose;yes;Hipoje 2 (K-16) kapağındaki geometrik motifler;colour;kırmızımsı kahverengi tonlarda;;;D;own attribute 'renk';No column, relation or declared attribute for it.
+253;118;MEASURE;list;yes;Hipoje 2 (K-16);measures (inner length);253 cm;;;B;dimension;'Inner' is lost.
+254;118;MEASURE;list;yes;Hipoje 2 (K-16);measures (width);100 cm;;;A;dimension;
+255;118;MEASURE;list;yes;Hipoje 2 (K-16);measures (height);173 cm;;;A;dimension;
+256;118;BUILT;prose;yes;Hipoje 2 (K-16);masonry;almaşık düzende örülmüş;;;D;own attribute 'örgü';No column, relation or declared attribute for it.
+257;118;BUILT;prose;yes;Hipoje 2 (K-16);form;beşik tonoz formunda;;;D;own attribute 'biçim';No column, relation or declared attribute for it.
+258;118;DESCR;prose;no;Hipoje 2 (K-16);workmanship is judged;oldukça özenli bir şekilde;;;E;entity.remark;A judgement or a general description.
+259;118;FIGURE;prose;yes;Hipoje 2 (K-16);is shown in figure;Resim: 5;;;A;about;
+260;118;BUILT;prose;yes;Hipoje 2 (K-16) tabanı;is paved with;tuğla plakalar;;;C;thing.type;own code in the list thing_type
+261;118;BUILT;prose;yes;Hipoje 2 (K-16) duvarları;has plaster;sıvasız;;yes;E;entity.remark;A position, a relation or a state described in words.
+262;118;BUILT;prose;yes;Hipoje 2 (K-16);has part;iki adet küçük niş;;;C;thing.type;own code in the list thing_type
+263;118;BUILT;prose;yes;kemerli kapı (K-16 Hipoje 2);kind;kemerli bir kapı;;;C;thing.type;own code in the list thing_type
+264;118;BUILT;prose;yes;kemerli kapı (K-16 Hipoje 2);is located in;Hipojenin kuzey duvarı;;;B;thing.part_of;An entity that holds only a name, with no kind from a list.
+265;118;MEASURE;prose;yes;kemerli kapı (K-16 Hipoje 2);measures (height above floor);39 cm;;;C;dimension;own code in the list dimension_kind
+266;118;MEASURE;prose;yes;kemerli kapı (K-16 Hipoje 2);measures (height);76 cm;;;A;dimension;
+267;118;MEASURE;prose;yes;kemerli kapı (K-16 Hipoje 2);measures (width);90 cm;;;A;dimension;
+268;118;BUILT;prose;yes;kemerli kapı (K-16 Hipoje 2);is filled with;tuğla (içi tuğla ile örülmüş);;;E;entity.remark;A position, a relation or a state described in words.
+269;118;INTERP;prose;yes;kemerli kapı alanı (K-16 Hipoje 2);certain evidence of function;kesin bir bulgu olmamakla birlikte;;yes;A;"claim, belief false; assertion interpreted_as";
+270;118;INTERP;prose;yes;kemerli kapı alanı (K-16 Hipoje 2);is interpreted as;diğer Hipojelerle ulaşmak amacıyla yapılmış ve işlevini yitirerek iptal edilmiş bir geçit;olabileceği düşünülmektedir;;A;"claim, belief probable; assertion interpreted_as";
+271;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 2);kind;iskelet kalıntıları;İlk incelemelere göre;;C;thing.type;own code in the list thing_type The hedge 'İlk incelemelere göre' is lost.
+272;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 2);count of individuals;birden fazla birey;İlk incelemelere göre;;E;entity.remark;A count given in words.
+273;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 2);position in place;in situ halde;;;D;own attribute 'buluntu durumu';No column, relation or declared attribute for it.
+274;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 2);was found in;Hipoje 2 mezar içi;;;A;find_context;
+275;118;FIND;prose;yes;testi formunda kap (K-16 Hipoje 2);kind;testi formunda kap;;;C;thing.type;own code in the list thing_type
+276;118;FIND;prose;yes;testi formunda kap (K-16 Hipoje 2);count;bir adet;;;A;dimension;
+277;118;FIND;prose;yes;testi formunda kap (K-16 Hipoje 2);was found in;Hipoje 2 mezar içi;;;A;find_context;
+278;118;FIND;prose;yes;cam boncuklar (K-16 Hipoje 2);kind;boncuk;;;A;thing.type;
+279;118;FIND;prose;yes;cam boncuklar (K-16 Hipoje 2);is made of;cam;;;A;thing.material;
+280;118;FIND;prose;yes;cam boncuklar (K-16 Hipoje 2);position in place;dağınık halde;;;D;own attribute 'buluntu durumu';No column, relation or declared attribute for it.
+281;118;FIND;prose;yes;cam boncuklar (K-16 Hipoje 2);was found in;Hipoje 2 mezar içi;;;A;find_context;
+282;118;FIND;prose;yes;altın küpe (K-16 Hipoje 2);kind;küpe;;;C;thing.type;own code in the list thing_type
+283;118;FIND;prose;yes;altın küpe (K-16 Hipoje 2);count;bir çift;;;C;dimension;own code in the list unit
+284;118;FIND;prose;yes;altın küpe (K-16 Hipoje 2);is made of;altın;;;A;thing.material;
+285;118;FIND;prose;yes;altın küpe (K-16 Hipoje 2);was found in;Hipoje 2 mezar içi;;;A;find_context;
+286;118;WORK;prose;yes;Hipoje 2 (K-16) iskeletleri ve buluntuları;work done;laboratuvar ortamında detaylı incelemeler yapılmak üzere ayrı kasalara yerleştirilerek muhafaza edilmiştir;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+287;118;WORK;prose;yes;Hipoje 2 (K-16);work done;belgeleme işlemleri tamamlandı;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+288;118;INTERP;prose;yes;Hipoje 3 (K-16);was at first interpreted as;Hipojeler arası geçiş sağlayan bir koridor;Başlangıçta ... düşünülen;;A;"claim, belief probable; assertion interpreted_as";
+289;118;INTERP;prose;yes;Hipoje 3 (K-16);is interpreted as;bebek ve çocuklar için inşa edilmiş Hipoje yapısı;;;A;"claim, belief true; assertion interpreted_as";
+290;118;BUILT;prose;yes;Hipoje 3 (K-16);has character;oldukça dar ve küçük;;;C;"claim, belief true; assertion condition";own code in the list condition
+291;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 3);kind;bebeğe ait iskelet kalıntıları;;;C;thing.type;own code in the list thing_type
+292;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 3);count of individuals;dört bebek;;;C;dimension;own code in the list dimension_kind
+293;118;FIND;prose;yes;iskelet kalıntıları (K-16 Hipoje 3);was found in;Hipoje 3;;;A;find_context;
+294;118;LAB;prose;yes;iskelet kalıntıları (K-16 Hipoje 3);was examined by;Antropolog (detaylı antropolojik incelemeler);;;A;relation observed;
+295;118;MEASURE;list;yes;Hipoje 3 (K-16);measures (inner length);258 cm;;;B;dimension;'Inner' is lost.
+296;118;MEASURE;list;yes;Hipoje 3 (K-16);measures (width);70 cm;;;A;dimension;
+297;118;MEASURE;list;yes;Hipoje 3 (K-16);measures (height);180 cm;;;A;dimension;
+298;118;BUILT;prose;yes;Hipoje 3 (K-16) duvarları;has plaster;bulunmamakla birlikte;;yes;E;entity.remark;A position, a relation or a state described in words.
+299;118;BUILT;prose;yes;Hipoje 3 (K-16) duvarları;has decoration;bulunmamakla birlikte;;yes;E;entity.remark;A position, a relation or a state described in words.
+300;118;BUILT;prose;yes;Hipoje 3 (K-16) doğu duvarı;masonry;tamamen tuğlayla örülmüş;;;D;own attribute 'örgü';No column, relation or declared attribute for it.
+301;118;BUILT;prose;yes;Hipoje 3 (K-16) batı duvarı;masonry;almaşık düzende;;;D;own attribute 'örgü';No column, relation or declared attribute for it.
+302;119;DATE;prose;yes;nekropol alanı;is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+303;119;INTERP;prose;yes;Hipoje 3 incelemesi;is interpreted as showing;farklı yaş gruplarına yönelik Hipoje yapılarının varlığı;;;A;"claim, belief true; assertion interpreted_as";
+304;119;INTERP;prose;yes;Hipoje 3 incelemesi;is interpreted as showing;gömü geleneklerindeki çeşitlilik;;;A;"claim, belief true; assertion interpreted_as";
+305;119;STRUCT;prose;no;başlık;heading reads;J-17 Plankaresi;;;F;;Structure of the printed document. The database has no place for it.
+306;119;BUILT;prose;yes;tuğla zemin döşemesi (J-17);kind;tuğla zemin döşemesi;;;C;thing.type;own code in the list thing_type
+307;119;PLACE;prose;yes;tuğla zemin döşemesi (J-17);elevation;+97,31 m;;;A;dimension;
+308;119;PLACE;prose;yes;tuğla zemin döşemesi (J-17);position;yüzeye oldukça yakın;;;E;entity.remark;A position described in words.
+309;119;BUILT;prose;yes;tuğla zemin döşemesi (J-17);is made of;pişmiş toprak plakalar;;;C;thing.material;own code in the list material
+310;119;MEASURE;prose;yes;tuğla zemin döşemesi (J-17) pişmiş toprak plakaları;measures;40x40 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+311;119;BUILT;prose;yes;tuğla zemin döşemesi (J-17);condition;kırıklar ve çökmeler;;;C;"claim, belief true; assertion condition";own code in the list condition
+312;119;FIND;prose;yes;demir çiviler (J-17);kind;çivi;;;C;thing.type;own code in the list thing_type
+313;119;FIND;prose;yes;demir çiviler (J-17);is made of;demir;;;A;thing.material;
+314;119;FIND;prose;yes;demir çiviler (J-17);count;yoğun miktarda;;;E;entity.remark;A count given in words.
+315;119;FIND;prose;yes;demir çiviler (J-17);size;irili ufaklı;;;D;own attribute 'buluntu durumu';No column, relation or declared attribute for it.
+316;119;FIND;prose;yes;demir çiviler (J-17);was found in;kül toprağı;;;A;find_context;
+317;119;MEASURE;prose;yes;tuğla zemin döşemesi (J-17) kazılan alan içindeki sınırları;measures (north-south);4,90 m;;;C;dimension;own code in the list dimension_kind
+318;119;MEASURE;prose;yes;tuğla zemin döşemesi (J-17) kazılan alan içindeki sınırları;measures (east-west);3,04 m;;;C;dimension;own code in the list dimension_kind
+319;119;BUILT;prose;yes;payeler (J-17);kind;taş ve harçla örülmüş payeler;;;E;entity.remark;The kind is described in a sentence. The term cannot be taken apart (rule R18).
+320;119;BUILT;prose;yes;payeler (J-17);position;tuğla döşemenin batısında;;;E;entity.remark;A position, a relation or a state described in words.
+321;119;MEASURE;prose;yes;payeler (J-17);measures (distance between them);174 cm;;;D;own attribute 'aradaki mesafe';No column, relation or declared attribute for it.
+322;119;MEASURE;prose;yes;paye (J-17), birinci;measures;83x70 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+323;119;MEASURE;prose;yes;paye (J-17), ikinci;measures;59x75 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+324;119;BUILT;prose;yes;payeler (J-17);is made of;taş ve harç;;;C;thing.material;own code in the list material
+325;119;INTERP;prose;yes;payeler (J-17);is interpreted as;sütun kaidesi;olabilecek;;A;"claim, belief probable; assertion interpreted_as";
+326;119;INTERP;prose;yes;tuğla döşeme (J-17);is interpreted as;Bazilika’nın dışında yer alan atriuma (avlu) ait döşeme;muhtemelen ... olmalıdır;;A;"claim, belief probable; assertion interpreted_as";
+327;119;INTERP;prose;yes;payeler (J-17);is interpreted as belonging to;Portiko;muhtemelen ... olmalıdır;;A;"claim, belief probable; assertion interpreted_as";
+328;119;BUILT;prose;yes;atrium;position;Bazilika’nın dışında;;;E;entity.remark;A position, a relation or a state described in words.
+329;119;BUILT;prose;yes;Çatkı Mezar 1 (J-17);kind;Çatkı Mezar;;;C;thing.type;own code in the list thing_type
+330;119;BUILT;prose;yes;Çatkı Mezar 1 (J-17);condition;kuzey yönündeki ilk kapağı açılabilir;;;E;entity.remark;Described in a sentence.
+331;119;BUILT;prose;yes;Çatkı Mezar 2 (J-17);kind;Çatkı Mezar;;;C;thing.type;own code in the list thing_type
+332;119;BUILT;prose;yes;Çatkı Mezar 2 (J-17) kapakları;lies below;zemin döşemesi (büyük çoğunluğu);;;A;relation overlies;
+333;119;WORK;prose;yes;Çatkı Mezar 2 (J-17);decision;[unclear] belgelenerek olduğu haliyle korunması (kararın ÇM 1'i de kapsayıp kapsamadığı belirsiz);;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+334;119;FIGURE;prose;yes;tuğla döşeme ve payeler (J-17);is shown in figure;Resim: 6;;;A;about;
+335;119;STRUCT;prose;no;başlık;heading reads;L-18 Plankaresi;;;F;;Structure of the printed document. The database has no place for it.
+336;119;WORK;prose;yes;L-18 plankaresi çalışmaları;advanced towards;plankarenin güney yönü;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+337;119;BUILT;prose;yes;Hipoje 1 (L-18) plaka kapağı;kind;terrakota içbükey plaka kapak;;;C;thing.type;own code in the list thing_type
+338;119;MEASURE;prose;yes;Hipoje 1 (L-18) plaka kapağı;measures;64x64 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+339;119;WORK;prose;yes;Hipoje 1 (L-18) plaka kapağı;was exposed (extent);tamamı;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+340;119;MEASURE;list;yes;Hipoje 1 (L-18);measures (inner length);424 cm;;;B;dimension;'Inner' is lost.
+341;119;MEASURE;list;yes;Hipoje 1 (L-18);measures (width);230 cm;;;A;dimension;
+342;119;MEASURE;list;yes;Hipoje 1 (L-18);measures (height);180 cm;;;A;dimension;
+343;119;BUILT;prose;yes;Hipoje 1 (L-18) tonoz bölümü;is made of;tuğla;;;C;thing.material;own code in the list material
+344;119;BUILT;prose;yes;Hipoje 1 (L-18) duvarları;is made of;moloz taş;;;C;thing.material;own code in the list material
+345;119;BUILT;prose;yes;Hipoje 1 (L-18);is coated with;beyaz renkli bir sıva;;;C;thing.type;own code in the list thing_type
+346;119;BUILT;prose;yes;Hipoje 1 (L-18) orijinal girişi;count of entrance points;iki farklı nokta;;;C;dimension;own code in the list dimension_kind
+347;119;BUILT;prose;yes;Hipoje 1 (L-18) ilk girişi;is located in;mezar tonozunun kuzeydoğu köşesi;;;E;entity.remark;A position, a relation or a state described in words.
+348;119;BUILT;prose;yes;Hipoje 1 (L-18) ilk girişi;is closed with;terrakota içbükey bir plaka kapak;;;E;entity.remark;A position, a relation or a state described in words.
+349;119;INTERP;prose;yes;Hipoje 1 (L-18) ikinci girişi;is interpreted as;güney lunette bölümünde yer alan bir kapı açıklığı;olduğu düşünülmektedir;;A;"claim, belief probable; assertion interpreted_as";
+350;119;MEASURE;prose;yes;Hipoje 1 (L-18) kapı açıklığı;measures;80x48 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+351;119;BUILT;prose;yes;kline (L-18 Hipoje 1);kind;kline;;;C;thing.type;own code in the list thing_type
+352;119;BUILT;prose;yes;kline (L-18 Hipoje 1);is located in;Hipojenin güney kısmı;;;E;entity.remark;A position, a relation or a state described in words.
+353;119;HISTORY;prose;no;kline (L-18 Hipoje 1);was destroyed by;kaçak kazılar (tamamen yok edildi);;;B;relation worked_on;'was destroyed by' is stored as 'was worked on'.
+354;119;DOC;prose;yes;cümle: Hipojenin güney kısmında bir kline ... ortaya koymuştur;subject of the sentence;[unclear] neyin ortaya koyduğu yazılmamış;;;E;entity.remark;Free text. No structure fits.
+355;119;WORK;prose;yes;kline (L-18 Hipoje 1) ölçüleri;were taken from;mevcut izler;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+356;119;MEASURE;list;yes;kline (L-18 Hipoje 1);measures (height);yaklaşık 70 cm;yaklaşık;;A;dimension, approx;
+357;119;MEASURE;list;yes;kline (L-18 Hipoje 1);measures (north-south);1,05 m;;;C;dimension;own code in the list dimension_kind
+358;119;MEASURE;list;yes;kline (L-18 Hipoje 1);measures (east-west);2,30 m;;;C;dimension;own code in the list dimension_kind
+359;119;PLACE;prose;yes;Hipoje 2 (L-18);elevation;97,87 metre;;;A;dimension;
+360;119;BUILT;prose;yes;Hipoje 2 (L-18);kind;Hipoje;;;C;thing.type;own code in the list thing_type
+361;119;HISTORY;prose;no;Hipoje 2 (L-18);was damaged by;kaçak kazıcılar;;;B;relation worked_on;'was damaged by' is stored as 'was worked on'.
+362;119;WORK;prose;yes;Hipoje 2 (L-18) mezar içi çalışmaları;started after;plankare seviye çalışmalarının tamamlanması;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+363;119;BUILT;prose;yes;açıklık (L-18 Hipoje 2);is located in;Hipojenin kuzey kısmı, tepe kısmı;;;E;entity.remark;A position, a relation or a state described in words.
+364;119;HISTORY;prose;no;açıklık (L-18 Hipoje 2);was opened by;kaçak kazıcılar;;;B;relation worked_on;'was opened by' is stored as 'was worked on'.
+365;119;MEASURE;prose;yes;açıklık (L-18 Hipoje 2);measures;30x50 cm;;;C;"dimension; dimension";own code in the list dimension_kind
+366;119;WORK;prose;yes;Hipoje 2 (L-18);was entered through;kaçak kazıcıların açtığı açıklık;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+367;119;BUILT;prose;yes;Hipoje 2 (L-18) tonoz bölümü;is made of;tuğla;;;C;thing.material;own code in the list material
+368;119;BUILT;prose;yes;Hipoje 2 (L-18) duvarları;is made of;taş;;;A;thing.material;
+369;119;BUILT;prose;yes;Hipoje 2 (L-18) duvarları;is plastered with;duvarların inşasında kullanılan harç;;;E;entity.remark;A position, a relation or a state described in words.
+370;119;BUILT;prose;yes;kline (L-18 Hipoje 2);kind;kline;;;C;thing.type;own code in the list thing_type
+371;119;BUILT;prose;yes;kline (L-18 Hipoje 2);is located in;kuzey cephesi;;;E;entity.remark;A position, a relation or a state described in words.
+372;119;HISTORY;prose;no;kline (L-18 Hipoje 2);was destroyed by;kaçak kazıcılar (tamamen yok edildi);;;B;relation worked_on;'was destroyed by' is stored as 'was worked on'.
+373;119;MEASURE;list;yes;kline (L-18 Hipoje 2);measures (height);64 cm;değerlendirilmiştir;;B;"dimension; approx";The hedge 'değerlendirilmiştir' is lost. The hedge 'değerlendirilmiştir' is lost. A measurement has no claim.
+374;119;MEASURE;list;yes;kline (L-18 Hipoje 2);measures (east-west);2,30 m;değerlendirilmiştir;;C;"dimension; approx";own code in the list dimension_kind The hedge 'değerlendirilmiştir' is lost. The hedge 'değerlendirilmiştir' is lost. A measurement has no claim.
+375;120;MEASURE;list;yes;kline (L-18 Hipoje 2);measures (north-south);1,05 m;değerlendirilmiştir;;C;"dimension; approx";own code in the list dimension_kind The hedge 'değerlendirilmiştir' is lost. The hedge 'değerlendirilmiştir' is lost. A measurement has no claim.
+376;120;MEASURE;list;yes;Hipoje 2 (L-18);measures (inner length);326 cm;;;B;dimension;'Inner' is lost.
+377;120;MEASURE;list;yes;Hipoje 2 (L-18);measures (width);228 cm;;;A;dimension;
+378;120;MEASURE;list;yes;Hipoje 2 (L-18);measures (height);178 cm;;;A;dimension;
+379;120;BUILT;prose;yes;Hipoje 2 (L-18) orijinal giriş bölümü;has part;merdivenler;;;C;thing.type;own code in the list thing_type
+380;120;HISTORY;prose;no;Hipoje 2 (L-18) merdiven basamakları;were removed by;kaçak kazıcılar (büyük çoğunluğu);;;B;relation worked_on;'were removed by' is stored as 'was worked on'.
+381;120;STRUCT;prose;no;başlık;heading reads;MİMARİ BELGELEME VE KORUMA PROJELERİ;;;F;;Structure of the printed document. The database has no place for it.
+382;120;WORK;prose;yes;mimari belgeleme çalışmaları;had the aim;Nekropol alanının arkeolojik ve mimari özelliklerini detaylı bir şekilde incelemek ve belgelemek;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+383;120;PEOPLE;prose;yes;Neval Sarıtekin;role in the work;alanın mimari belgelerinin hazırlanması;;;A;participation;
+384;120;PEOPLE;prose;yes;Doruk Bayrak;role in the work;alanın mimari belgelerinin hazırlanması;;;A;participation;
+385;120;WORK;list;yes;Nekropol;was documented with;üç boyutlu vaziyet görüntüleri;;;C;media.type, about;own code in the list media_type
+386;120;WORK;list;yes;Nekropol;was documented with;plan rölöve çizimleri;;;C;media.type, about;own code in the list media_type
+387;120;WORK;list;yes;Nekropol;was documented with;kesit rölöve çizimleri;;;C;media.type, about;own code in the list media_type
+388;120;FIGURE;prose;yes;mimari belgeleme;is shown in figure;Çizim: 2;;;A;about;
+389;120;STRUCT;prose;no;başlık;heading reads;Geçici Çatı Örtüsü;;;F;;Structure of the printed document. The database has no place for it.
+390;120;DESCR;prose;no;arkeolojik kazı alanlarında yapılan çalışmalar;general statement;uygun koruma önlemlerini zorunlu kılar;;;E;entity.remark;A judgement or a general description.
+391;120;DESCR;prose;no;geçici çatı örtülerinin kullanılması;is judged;önemlidir (çevresel faktörlerin kazı alanına zarar vermesini önlemek amacıyla);;;E;entity.remark;A judgement or a general description.
+392;120;DESCR;list;no;çevresel faktörler;includes;güneş;;;E;entity.remark;A judgement or a general description.
+393;120;DESCR;list;no;çevresel faktörler;includes;yağmur;;;E;entity.remark;A judgement or a general description.
+394;120;DESCR;list;no;çevresel faktörler;includes;rüzgar;;;E;entity.remark;A judgement or a general description.
+395;120;WORK;prose;yes;mevcut çatı örtüleri;is made of;branda;;;C;thing.material;own code in the list material
+396;120;ADMIN;prose;no;mevcut branda ile yapılmış çatı örtüleri;was judged sufficient;yeterli olmadığı belirlenmiş;;yes;E;entity.remark;Free text. No structure fits.
+397;120;ADMIN;prose;no;Kültür ve Turizm Bakanlığından gelen uzmanlar;role in the work;çatı örtülerini incelediler;;;E;entity.remark;A role described in a sentence.
+398;120;WORK;prose;yes;çatı örtüleri;decision;yerine geçici ancak daha dayanıklı bir sistemin inşa edilmesi;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+399;120;WORK;prose;yes;yeni yapılan çatılar;is made of;çelik iskelet;;;C;thing.material;own code in the list material
+400;120;WORK;prose;yes;yeni yapılan çatılar;is made of;trapez çatı örtüsü;;;C;thing.material;own code in the list material
+401;120;DESCR;prose;no;yeni yapılan çatılar;is judged;geçici fakat sağlam bir yapı;;;E;entity.remark;A judgement or a general description.
+402;120;WORK;prose;yes;yeni yapılan çatılar;is supported by;taşınabilir beton ayaklar;;;B;thing.part_of;An entity that holds only a name, with no kind from a list.
+403;120;WORK;prose;yes;beton ayaklar;intervene in the ground of the excavation area;müdahale etmeyen;;yes;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+404;120;FIGURE;prose;yes;geçici çatı;is shown in figure;Resim: 7;;;A;about;
+405;120;DESCR;prose;no;çatıların tasarımı;took into account;dayanıklılık, işlevsellik ve pratiklik;;;E;entity.remark;A judgement or a general description.
+406;120;WORK;prose;yes;çatılar;provide;yeterli ışık ve hava sirkülasyonu;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+407;120;DESCR;prose;no;kullanılan malzemeler;is judged;"çevresel etkilere karşı dirençli; bakım maliyetlerini azaltmakta, uzun süreli kullanıma olanak tanımakta";;;E;entity.remark;A judgement or a general description.
+408;120;DESCR;prose;no;bu tür uygulamalar;is judged;kültürel mirasın zarar görmeden geleceğe aktarılmasına katkı sağlamaktadır;;;E;entity.remark;A judgement or a general description.
+409;120;DESCR;prose;no;geçici çatı sistemlerinin tasarımı;is judged;alanın özgünlüğünü koruyacak hassasiyetin gösterilmesi büyük önem taşımaktadır;;;E;entity.remark;A judgement or a general description.
+410;120;STRUCT;prose;no;başlık;heading reads;SERAMİK VE KÜÇÜK BULUNTU DEĞERLENDİRME ÇALIŞMALARI;;;F;;Structure of the printed document. The database has no place for it.
+411;120;PEOPLE;prose;yes;Gizem Sevinç Memiş;role in the work;seramik ve küçük buluntu çalışmaları;;;A;participation;
+412;120;PEOPLE;prose;yes;Beyza Davdav;role in the work;seramik ve küçük buluntu çalışmaları;;;A;participation;
+413;120;FIND;prose;yes;2024 yılı seramikleri;count;1.970 adet;;;A;dimension;
+414;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;E-15;;;A;find_context;
+415;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;E-16;;;A;find_context;
+416;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;J-15;;;A;find_context;
+417;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;J-17;;;A;find_context;
+418;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;J-18;;;A;find_context;
+419;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;J-K-18;;;B;find_context;A compound of squares is stored as one place.
+420;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;K-16;;;A;find_context;
+421;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;K-17;;;A;find_context;
+422;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;K-18;;;A;find_context;
+423;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;K-L-15-16;;;B;find_context;A compound of squares is stored as one place.
+424;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;L-17 Kuzey Batı Kesit;;;B;find_context;A compound of squares is stored as one place.
+425;120;FIND;list;yes;2024 yılı seramikleri;was found in trench;L-18;;;A;find_context;
+426;120;FIND;prose;yes;analizi yapılıp alınan seramik;count;559 adet;;;A;dimension;
+427;120;FIND;prose;yes;atılan seramik;count;1.411 adettir;;;A;dimension;
+428;121;DATE;list;yes;2024 yılında ele geçen seramikler;share dated to Roma Dönemi;%68 (çoğunluğu);;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+429;121;DATE;list;yes;2024 yılında ele geçen seramikler;share dated to Helenistik Dönem;%31;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+430;121;DATE;list;yes;2024 yılında ele geçen seramikler;share dated to Bizans Dönemi;%1 (çok az sayıda);;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+431;121;FIGURE;prose;yes;2024 yılı seramikleri;is shown in figure;Çizim: 3;;;A;about;
+432;121;FIND;list;yes;E-15 açması analizi yapılan seramik;count (bags);17 poşet;;;C;dimension;own code in the list unit
+433;121;DATE;list;yes;E-15 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+434;121;DATE;list;yes;E-15 açması seramikleri;share of Roma Dönemi;%77;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+435;121;FIND;list;yes;Mermer Seramikleri (E-15 açması);kind;Mermer Seramikleri;;;C;thing.type;own code in the list thing_type
+436;121;FIND;list;yes;Mermer Seramikleri (E-15 açması);was found in;E-15 açması;;;A;find_context;
+437;121;FIND;list;yes;pişirme kapları (E-15 açması);kind;pişirme kapları;;;C;thing.type;own code in the list thing_type
+438;121;FIND;list;yes;pişirme kapları (E-15 açması);was found in;E-15 açması;;;A;find_context;
+439;121;FIND;list;yes;tam firnisli tabaklar (E-15 açması);kind;tam firnisli tabaklar;;;C;thing.type;own code in the list thing_type
+440;121;FIND;list;yes;tam firnisli tabaklar (E-15 açması);was found in;E-15 açması;;;A;find_context;
+441;121;DATE;list;yes;tam firnisli tabaklar (E-15 açması);is dated to period;Helenistik Dönem;;;A;"claim, belief true; dating, event making";
+442;121;FIND;list;yes;kırmızı hamurlu tabaklar (E-15 açması);kind;kırmızı hamurlu tabaklar;;;C;thing.type;own code in the list thing_type
+443;121;FIND;list;yes;kırmızı hamurlu tabaklar (E-15 açması);was found in;E-15 açması;;;A;find_context;
+444;121;DATE;list;yes;kırmızı hamurlu tabaklar (E-15 açması);is dated to period;Bizans Dönemi;;;A;"claim, belief true; dating, event making";
+445;121;FIND;list;yes;E-16 açması analizi yapılan seramik;count (bags);11 poşet;;;C;dimension;own code in the list unit
+446;121;DATE;list;yes;E-16 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+447;121;DATE;list;yes;E-16 açması seramikleri;share of Roma Dönemi;%61;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+448;121;FIND;list;yes;tabaklar (E-16 açması);kind;tabaklar;;;C;thing.type;own code in the list thing_type
+449;121;FIND;list;yes;tabaklar (E-16 açması);was found in;E-16 açması;;;A;find_context;
+450;121;DATE;list;yes;tabaklar (E-16 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+451;121;FIND;list;yes;J-15 açması analizi yapılan seramik;count (bags);1 poşet;;;C;dimension;own code in the list unit
+452;121;DATE;list;yes;J-15 açması seramikleri;general density belongs to period;Helenistik Dönem;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+453;121;DATE;list;yes;J-15 açması seramikleri;share of Helenistik Dönem;%50;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+454;121;FIND;list;yes;Tam Firnisli tabaklar (J-15 açması);kind;Tam Firnisli tabaklar;;;C;thing.type;own code in the list thing_type
+455;121;FIND;list;yes;Tam Firnisli tabaklar (J-15 açması);was found in;J-15 açması;;;A;find_context;
+456;121;FIND;list;yes;J-17 açması analizi yapılan seramik;count (bags);8 poşet;;;C;dimension;own code in the list unit
+457;121;DATE;list;yes;J-17 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+458;121;DATE;list;yes;J-17 açması seramikleri;share of Roma Dönemi;%85;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+459;121;FIND;list;yes;pişirme kapları (J-17 açması);kind;pişirme kapları;;;C;thing.type;own code in the list thing_type
+460;121;FIND;list;yes;pişirme kapları (J-17 açması);was found in;J-17 açması;;;A;find_context;
+461;121;FIND;list;yes;yerel tip kandiller (J-17 açması);kind;yerel tip kandiller;;;C;thing.type;own code in the list thing_type
+462;121;FIND;list;yes;yerel tip kandiller (J-17 açması);was found in;J-17 açması;;;A;find_context;
+463;121;DATE;list;yes;yerel tip kandiller (J-17 açması);is dated to;MS 4.-6. yy.;;;A;"claim, belief true; dating, event making";
+464;121;FIND;list;yes;J-18 açması analizi yapılan seramik;count (bags);5 poşet;;;C;dimension;own code in the list unit
+465;121;DATE;list;yes;J-18 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+466;121;DATE;list;yes;J-18 açması seramikleri;share of Roma Dönemi;%58;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+467;121;FIND;list;yes;günlük kullanım kapları (J-18 açması);kind;günlük kullanım kapları;;;C;thing.type;own code in the list thing_type
+468;121;FIND;list;yes;günlük kullanım kapları (J-18 açması);was found in;J-18 açması;;;A;find_context;
+469;121;DATE;list;yes;günlük kullanım kapları (J-18 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+470;121;FIND;list;yes;J-K-18 açması analizi yapılan seramik;count (bags);5 poşet;;;C;dimension;own code in the list unit
+471;121;DATE;list;yes;J-K-18 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+472;121;DATE;list;yes;J-K-18 açması seramikleri;share of Roma Dönemi;%62;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+473;121;FIND;list;yes;amphoralar (J-K-18 açması);kind;amphoralar;;;C;thing.type;own code in the list thing_type
+474;121;FIND;list;yes;amphoralar (J-K-18 açması);was found in;J-K-18 açması;;;B;find_context;A compound of squares is stored as one place.
+475;121;DATE;list;yes;amphoralar (J-K-18 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+476;121;FIND;list;yes;mermer seramikleri (J-K-18 açması);kind;mermer seramikleri;;;C;thing.type;own code in the list thing_type
+477;121;FIND;list;yes;mermer seramikleri (J-K-18 açması);was found in;J-K-18 açması;;;B;find_context;A compound of squares is stored as one place.
+478;121;DATE;list;yes;mermer seramikleri (J-K-18 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+479;121;DATE;list;yes;mermer seramikleri (J-K-18 açması);is dated to;MS 3.-4. yy.;;;A;"claim, belief true; dating, event making";
+480;121;FIND;list;yes;K-16 açması analizi yapılan seramik;count (bags);10 poşet;;;C;dimension;own code in the list unit
+481;121;DATE;list;yes;K-16 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+482;121;DATE;list;yes;K-16 açması seramikleri;share of Roma Dönemi;%61;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+483;121;DATE;list;yes;K-16 açması seramikleri;share of Helenistik Dönem;%39;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+484;121;FIND;list;yes;günlük kullanım kapları (K-16 açması);kind;günlük kullanım kapları;;;C;thing.type;own code in the list thing_type
+485;121;FIND;list;yes;günlük kullanım kapları (K-16 açması);was found in;K-16 açması;;;A;find_context;
+486;121;DATE;list;yes;günlük kullanım kapları (K-16 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+487;121;FIND;list;yes;Megara kaseleri (K-16 açması);kind;Megara kaseleri;;;C;thing.type;own code in the list thing_type
+488;121;FIND;list;yes;Megara kaseleri (K-16 açması);was found in;K-16 açması;;;A;find_context;
+489;121;DATE;list;yes;Megara kaseleri (K-16 açması);is dated to period;Helenistik Dönem;;;A;"claim, belief true; dating, event making";
+490;121;FIND;list;yes;gri siyah tabaklar (K-16 açması);kind;gri siyah tabaklar;;;C;thing.type;own code in the list thing_type
+491;121;FIND;list;yes;gri siyah tabaklar (K-16 açması);was found in;K-16 açması;;;A;find_context;
+492;121;DATE;list;yes;gri siyah tabaklar (K-16 açması);is dated to period;Helenistik Dönem;;;A;"claim, belief true; dating, event making";
+493;121;FIND;list;yes;tam firnisli tabaklar (K-16 açması);kind;tam firnisli tabaklar;;;C;thing.type;own code in the list thing_type
+494;121;FIND;list;yes;tam firnisli tabaklar (K-16 açması);was found in;K-16 açması;;;A;find_context;
+495;121;DATE;list;yes;tam firnisli tabaklar (K-16 açması);is dated to period;Helenistik Dönem;;;A;"claim, belief true; dating, event making";
+496;121;FIND;list;yes;K-17 açması analizi yapılan seramik;count (bags);8 poşet;;;C;dimension;own code in the list unit
+497;121;DATE;list;yes;K-17 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+498;121;DATE;list;yes;K-17 açması seramikleri;share of Roma Dönemi;%77;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+499;121;FIND;list;yes;Filistin Amphorası (K-17 açması);kind;Filistin Amphorası;;;C;thing.type;own code in the list thing_type
+500;121;FIND;list;yes;Filistin Amphorası (K-17 açması);was found in;K-17 açması;;;A;find_context;
+501;121;DATE;list;yes;Filistin Amphorası (K-17 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+502;121;DATE;list;yes;Filistin Amphorası (K-17 açması);is dated to;MS 5.-6. yy.;;;A;"claim, belief true; dating, event making";
+503;121;FIND;list;yes;Yerel Tip Kandiller (K-17 açması);kind;Yerel Tip Kandiller;;;C;thing.type;own code in the list thing_type
+504;121;FIND;list;yes;Yerel Tip Kandiller (K-17 açması);was found in;K-17 açması;;;A;find_context;
+505;121;DATE;list;yes;Yerel Tip Kandiller (K-17 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+506;121;DATE;list;yes;Yerel Tip Kandiller (K-17 açması);is dated to;MS 3.-4. yy.;;;A;"claim, belief true; dating, event making";
+507;121;FIND;list;yes;Günlük Kullanım Kapları (K-17 açması);kind;Günlük Kullanım Kapları;;;C;thing.type;own code in the list thing_type
+508;121;FIND;list;yes;Günlük Kullanım Kapları (K-17 açması);was found in;K-17 açması;;;A;find_context;
+509;121;DATE;list;yes;Günlük Kullanım Kapları (K-17 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+510;121;FIND;list;yes;K-18 açması analizi yapılan seramik;count (bags);6 poşet;;;C;dimension;own code in the list unit
+511;121;DATE;list;yes;K-18 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+512;121;DATE;list;yes;K-18 açması seramikleri;share of Roma Dönemi;%67;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+513;121;DATE;list;yes;K-18 açması seramikleri;share of Helenistik Dönem;%33;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+514;121;FIND;list;yes;yerel tip kandiller (K-18 açması);kind;yerel tip kandiller;;;C;thing.type;own code in the list thing_type
+515;121;FIND;list;yes;yerel tip kandiller (K-18 açması);was found in;K-18 açması;;;A;find_context;
+516;121;DATE;list;yes;yerel tip kandiller (K-18 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+517;121;DATE;list;yes;yerel tip kandiller (K-18 açması);is dated to;MS 4.-6. yy.;;;A;"claim, belief true; dating, event making";
+518;121;FIND;list;yes;Günlük Kullanım kapları (K-18 açması);kind;Günlük Kullanım kapları;;;C;thing.type;own code in the list thing_type
+519;121;FIND;list;yes;Günlük Kullanım kapları (K-18 açması);was found in;K-18 açması;;;A;find_context;
+520;121;DATE;list;yes;Günlük Kullanım kapları (K-18 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+521;121;FIND;list;yes;basit firnisli tabaklar (K-18 açması);kind;basit firnisli tabaklar;;;C;thing.type;own code in the list thing_type
+522;121;FIND;list;yes;basit firnisli tabaklar (K-18 açması);was found in;K-18 açması;;;A;find_context;
+523;121;DATE;list;yes;basit firnisli tabaklar (K-18 açması);is dated to period;Helenistik Dönem;;;A;"claim, belief true; dating, event making";
+524;121;FIND;list;yes;tam firnisli tabaklar (K-18 açması);kind;tam firnisli tabaklar;;;C;thing.type;own code in the list thing_type
+525;121;FIND;list;yes;tam firnisli tabaklar (K-18 açması);was found in;K-18 açması;;;A;find_context;
+526;121;DATE;list;yes;tam firnisli tabaklar (K-18 açması);is dated to period;Helenistik Dönem;;;A;"claim, belief true; dating, event making";
+527;121;FIND;list;yes;K-L-15-16 açması analizi yapılan seramik;count (bags);4 poşet;;;C;dimension;own code in the list unit
+528;121;DATE;list;yes;K-L-15-16 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+529;121;DATE;list;yes;K-L-15-16 açması seramikleri;share of Roma Dönemi;%74;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+530;121;FIND;list;yes;Yerel Tip Kandiller (K-L-15-16 açması);kind;Yerel Tip Kandiller;;;C;thing.type;own code in the list thing_type
+531;121;FIND;list;yes;Yerel Tip Kandiller (K-L-15-16 açması);was found in;K-L-15-16 açması;;;B;find_context;A compound of squares is stored as one place.
+532;121;DATE;list;yes;Yerel Tip Kandiller (K-L-15-16 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+533;121;DATE;list;yes;Yerel Tip Kandiller (K-L-15-16 açması);is dated to;MS 4.-6. yy.;;;A;"claim, belief true; dating, event making";
+534;121;FIND;list;yes;Günlük Kullanım Kapları (K-L-15-16 açması);kind;Günlük Kullanım Kapları;;;C;thing.type;own code in the list thing_type
+535;121;FIND;list;yes;Günlük Kullanım Kapları (K-L-15-16 açması);was found in;K-L-15-16 açması;;;B;find_context;A compound of squares is stored as one place.
+536;121;DATE;list;yes;Günlük Kullanım Kapları (K-L-15-16 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+537;122;FIND;list;yes;L-17 Kuzey Batı Kesit açması analizi yapılan seramik;count (bags);2 poşet;;;C;dimension;own code in the list unit
+538;122;DATE;list;yes;L-17 Kuzey Batı Kesit açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+539;122;DATE;list;yes;L-17 Kuzey Batı Kesit açması seramikleri;share of Roma Dönemi;%74;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+540;122;FIND;list;yes;pişirme kapları (L-17 Kuzey Batı Kesit açması);kind;pişirme kapları;;;C;thing.type;own code in the list thing_type
+541;122;FIND;list;yes;pişirme kapları (L-17 Kuzey Batı Kesit açması);was found in;L-17 Kuzey Batı Kesit açması;;;B;find_context;A compound of squares is stored as one place.
+542;122;DATE;list;yes;pişirme kapları (L-17 Kuzey Batı Kesit açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+543;122;FIND;list;yes;kandil kulbu (L-17 Kuzey Batı Kesit açması);kind;kandil kulbu;;;C;thing.type;own code in the list thing_type
+544;122;FIND;list;yes;kandil kulbu (L-17 Kuzey Batı Kesit açması);was found in;L-17 Kuzey Batı Kesit açması;;;B;find_context;A compound of squares is stored as one place.
+545;122;DATE;list;yes;kandil kulbu (L-17 Kuzey Batı Kesit açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+546;122;FIND;list;yes;mermer seramikleri (L-17 Kuzey Batı Kesit açması);kind;mermer seramikleri;;;C;thing.type;own code in the list thing_type
+547;122;FIND;list;yes;mermer seramikleri (L-17 Kuzey Batı Kesit açması);was found in;L-17 Kuzey Batı Kesit açması;;;B;find_context;A compound of squares is stored as one place.
+548;122;DATE;list;yes;mermer seramikleri (L-17 Kuzey Batı Kesit açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+549;122;FIND;list;yes;L-18 açması analizi yapılan seramik;count (bags);6 poşet;;;C;dimension;own code in the list unit
+550;122;DATE;list;yes;L-18 açması seramikleri;general density belongs to period;Roma Dönemi;;;B;"claim, belief true; dating, event making";'In general' is lost. The whole group is dated to the period.
+551;122;DATE;list;yes;L-18 açması seramikleri;share of Roma Dönemi;%63;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+552;122;DATE;list;yes;L-18 açması seramikleri;share of Helenistik Dönem;%35;;;C;"claim, belief true; dating, event making; dimension";own code in the list dimension_kind
+553;122;FIND;list;yes;pişirme kapları (L-18 açması);kind;pişirme kapları;;;C;thing.type;own code in the list thing_type
+554;122;FIND;list;yes;pişirme kapları (L-18 açması);was found in;L-18 açması;;;A;find_context;
+555;122;DATE;list;yes;pişirme kapları (L-18 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+556;122;FIND;list;yes;tabaklar (L-18 açması);kind;tabaklar;;;C;thing.type;own code in the list thing_type
+557;122;FIND;list;yes;tabaklar (L-18 açması);was found in;L-18 açması;;;A;find_context;
+558;122;DATE;list;yes;tabaklar (L-18 açması);is dated to period;Roma Dönemi;;;A;"claim, belief true; dating, event making";
+559;122;FIND;list;yes;Megara kaseleri (L-18 açması);kind;Megara kaseleri;;;C;thing.type;own code in the list thing_type
+560;122;FIND;list;yes;Megara kaseleri (L-18 açması);was found in;L-18 açması;;;A;find_context;
+561;122;DATE;list;yes;Megara kaseleri (L-18 açması);is dated to period;Helenistik Dönem;;;A;"claim, belief true; dating, event making";
+562;122;FIND;list;yes;basit firnisli tabaklar (L-18 açması);kind;basit firnisli tabaklar;;;C;thing.type;own code in the list thing_type
+563;122;FIND;list;yes;basit firnisli tabaklar (L-18 açması);was found in;L-18 açması;;;A;find_context;
+564;122;DATE;list;yes;basit firnisli tabaklar (L-18 açması);is dated to period;Helenistik Dönem;;;A;"claim, belief true; dating, event making";
+565;122;STRUCT;prose;no;başlık;heading reads;RESTORASYON VE KONSERVASYON ÇALIŞMALARI;;;F;;Structure of the printed document. The database has no place for it.
+566;122;PEOPLE;prose;yes;Tuğçe Güçlü;role in the work;konservasyon çalışmaları;;;A;participation;
+567;122;PEOPLE;prose;yes;Tuğçe Güçlü;title;Arkeolog/Restoratör;;;D;own attribute 'unvan';No column, relation or declared attribute for it.
+568;122;LAB;list;yes;pişmiş toprak testi;count received for conservation;1 adet;;;B;"dimension; relation modified";Count and conservation are stored apart. That this count was handed over is lost.
+569;122;FIND;list;yes;pişmiş toprak testi;is made of;pişmiş toprak;;;C;thing.material;own code in the list material
+570;122;LAB;list;yes;metal obje;count received for conservation;1 adet;;;B;"dimension; relation modified";Count and conservation are stored apart. That this count was handed over is lost.
+571;122;FIND;list;yes;metal obje;kind;metal obje;;;C;thing.type;own code in the list thing_type
+572;122;FIND;list;yes;metal obje;is made of;metal;;;A;thing.material;
+573;122;LAB;list;yes;altın küpe;count received for conservation;bir çift;;;C;"dimension; relation modified";own code in the list unit Count and conservation are stored apart. That this count was handed over is lost.
+574;122;LAB;list;yes;bronz sikke;count received for conservation;6 adet;;;B;"dimension; relation modified";Count and conservation are stored apart. That this count was handed over is lost.
+575;122;LAB;prose;yes;eserler;conservation step;öncelikle kayıt altına alınmış;;;E;entity.remark;A step, an aim or a method described in a sentence.
+576;122;LAB;prose;yes;metal eserlerin temizliği;substance used;%50 oranında saf su ve alkol karışımı;;;C;"relation used; dimension";own code in the list dimension_kind
+577;122;LAB;prose;yes;metal eserlerin temizliği;aim of the substance;yüzeydeki korozyonun yumuşatılması;;;E;entity.remark;A step, an aim or a method described in a sentence.
+578;122;LAB;prose;yes;metal eserler;conservation step;mikroskop altında mekanik temizlik;;;E;entity.remark;A step, an aim or a method described in a sentence.
+579;122;LAB;list;yes;metal eserlerin mekanik temizliği;tool used;bisturi;;;A;relation used;
+580;122;LAB;list;yes;metal eserlerin mekanik temizliği;tool used;bambu çubuk;;;A;relation used;
+581;122;LAB;list;yes;metal eserlerin mekanik temizliği;tool used;çeşitli fırçalar;;;A;relation used;
+582;122;LAB;list;yes;metal eserlerin mekanik temizliği;tool used;dişçi motoru;;;A;relation used;
+583;122;LAB;prose;yes;metal eser ve sikkeler;substance applied;%3 oranında Paraloid B72 çözeltisi;;;C;"relation used; dimension";own code in the list dimension_kind
+584;122;LAB;prose;yes;Paraloid B72 çözeltisi uygulaması;aim;koruma ve stabilizasyon;;;E;entity.remark;A step, an aim or a method described in a sentence.
+585;122;LAB;prose;yes;eserler;conservation step;uygun koşullarda muhafaza edilmek üzere kaldırılmıştır;;;E;entity.remark;A step, an aim or a method described in a sentence.
+586;122;FIGURE;prose;yes;konservasyonu yapılan eserler;is shown in figure;Resim: 8;;;A;about;
+587;122;FIND;prose;yes;pişmiş toprak testi;condition;yüzeyde kalker tabakası;;;C;"claim, belief true; assertion condition";own code in the list condition
+588;122;LAB;prose;yes;pişmiş toprak testinin temizliği;substance used;%50 oranında saf su ve alkol karışımı;;;C;"relation used; dimension";own code in the list dimension_kind
+589;122;LAB;prose;yes;pişmiş toprak testi;conservation step;paketleme yöntemiyle karışım içinde bekletilmiş;;;E;entity.remark;A step, an aim or a method described in a sentence.
+590;122;LAB;prose;yes;pişmiş toprak testi;conservation step;yumuşayan kalker tabakası mekanik yöntemlerle temizlenmiştir;;;E;entity.remark;A step, an aim or a method described in a sentence.
+591;122;LAB;prose;yes;pişmiş toprak testinin temizliği;tool used;çeşitli bisturi uçları;;;A;relation used;
+592;122;LAB;prose;yes;pişmiş toprak testi;conservation step;uygun şekilde muhafaza edilmek üzere teslim edilmiştir;;;E;entity.remark;A step, an aim or a method described in a sentence.
+593;122;FIGURE;prose;yes;pişmiş toprak testi;is shown in figure;Resim: 9;;;A;about;
+594;122;STRUCT;prose;no;başlık;heading reads;ANTROPOLOJİ ÇALIŞMALARI;;;F;;Structure of the printed document. The database has no place for it.
+595;122;PEOPLE;prose;yes;Ruken Zeynep Köse;role in the work;antropoloji çalışmaları;;;A;participation;
+596;122;WORK;prose;yes;Hipoje 2022-1;was exposed in;önceki yıllarda;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+597;122;LAB;prose;yes;Hipoje 2022-1 iskelet kalıntıları;work done;detaylı bir şekilde belgelenmiştir;;;E;entity.remark;A step, an aim or a method described in a sentence.
+598;122;WORK;prose;yes;Hipoje 2023-1;was exposed in;önceki yıllarda;;;E;entity.remark;A step, an aim, a reason or a decision described in a sentence.
+599;122;LAB;prose;yes;Hipoje 2023-1 iskelet kalıntıları;work done;detaylı bir şekilde belgelenmiştir;;;E;entity.remark;A step, an aim or a method described in a sentence.
+600;122;LAB;list;yes;2024 yılında bulunan Hipojeler, Sanduka Mezar ve Çatkı Mezarlar içinden çıkan iskeletler;was examined for;cinsiyet;;;C;analysis.method;own code in the list analysis_method
+601;122;LAB;list;yes;2024 yılında bulunan Hipojeler, Sanduka Mezar ve Çatkı Mezarlar içinden çıkan iskeletler;was examined for;yaş tayini;;;C;analysis.method;own code in the list analysis_method
+602;122;LAB;list;yes;2024 yılında bulunan Hipojeler, Sanduka Mezar ve Çatkı Mezarlar içinden çıkan iskeletler;was examined for;hastalıklar;;;C;analysis.method;own code in the list analysis_method
+603;122;LAB;prose;yes;cinsiyet belirleme;bones examined first;cranium ve pelvis kemikleri;;;E;entity.remark;A step, an aim or a method described in a sentence.
+604;122;LAB;list;yes;cinsiyet belirleme;criterion used;craniumda bulunan mastoid çıkıntıların yapısı;;;E;entity.remark;A step, an aim or a method described in a sentence.
+605;122;LAB;list;yes;cinsiyet belirleme;criterion used;kaş kemerleri ve glabellanın belirginliği;;;E;entity.remark;A step, an aim or a method described in a sentence.
+606;122;LAB;list;yes;cinsiyet belirleme;criterion used;orbitaların şekli;;;C;claim.method;own code in the list reasoning_method
+607;122;LAB;list;yes;cinsiyet belirleme;criterion used;mandibula kemiklerinin özellikleri;;;C;claim.method;own code in the list reasoning_method
+608;122;LAB;list;yes;cinsiyet belirleme;criterion used;uzun kemiklerdeki kas tutunma izleri;;;E;entity.remark;A step, an aim or a method described in a sentence.
+609;122;LAB;prose;yes;yaş tayini;method;yaş grupları için farklı teknik ve yöntem;;;E;entity.remark;A step, an aim or a method described in a sentence.
+610;122;LAB;list;yes;bebek ve çocukların yaş tayini;criterion used;diş sürme süreci;;;C;claim.method;own code in the list reasoning_method
+611;122;LAB;list;yes;bebek ve çocukların yaş tayini;criterion used;sağlam olan uzun kemiklerden ölçüm;;;E;entity.remark;A step, an aim or a method described in a sentence.
+612;123;LAB;list;yes;genç erişkinlerin yaş tayini;criterion used;epifiz kaynaşması;;;C;claim.method;own code in the list reasoning_method
+613;123;LAB;list;yes;genç erişkinlerin yaş tayini;criterion used;diş köklerinin kapanma dereceleri;;;C;claim.method;own code in the list reasoning_method
+614;123;LAB;list;yes;erişkin bireylerin yaş tayini;criterion used;cranium sütural kapanma dereceleri;;;C;claim.method;own code in the list reasoning_method
+615;123;LAB;list;yes;erişkin bireylerin yaş tayini;criterion used;symphysial yaşlandırma;;;C;claim.method;own code in the list reasoning_method
+616;123;LAB;list;yes;erişkin bireylerin yaş tayini;criterion used;dental aşınma derecesi;;;C;claim.method;own code in the list reasoning_method
+617;123;LAB;list;yes;erişkin bireylerin yaş tayini;criterion used;clavicula kemiğinin uçları;;;C;claim.method;own code in the list reasoning_method
+618;123;LAB;list;yes;antropolojik sonuç;observed;farklı mezar tipleri;;;E;entity.remark;A step, an aim or a method described in a sentence.
+619;123;LAB;list;yes;antropolojik sonuç;observed;gömü türleri;;;E;entity.remark;A step, an aim or a method described in a sentence.
+620;123;LAB;list;yes;antropolojik sonuç;observed;mezar içindeki yatış pozisyonları;;;E;entity.remark;A step, an aim or a method described in a sentence.
+621;123;LAB;list;yes;antropolojik sonuç;observed;ritüeller;;;E;entity.remark;A step, an aim or a method described in a sentence.
+622;123;DESCR;prose;no;antropolojik bulgular;is judged;dönemin sosyo-kültürel yapısı ve inanç sistemleri hakkında önemli bilgiler sunmaktadır;;;E;entity.remark;A judgement or a general description.
+623;123;FIND;prose;yes;bazı mezarların içerisinde yer alan iskeletler;condition;fazlasıyla zarar görmüş (çevresel, fiziksel ve toprak yapısı ile alakalı olarak);;;E;entity.remark;Described in a sentence.
+624;123;HISTORY;prose;no;Hisardere alanı;was used earlier for;tarım;;;C;"claim, belief true; assertion function";own code in the list function
+625;123;INTERP;prose;yes;iskeletlerin zarar görmesi;most important cause is;Hisardere alanının önceki zamanlarda tarım amaçlı kullanılması;;;A;"claim, belief true; assertion interpreted_as";
+626;123;LAB;prose;yes;kemikler (özellikle vertebralar);disease observed;Schormol nodülü;;;C;"claim, belief true; assertion condition";own code in the list condition
+627;123;LAB;prose;yes;kemikler (özellikle vertebralar);disease observed;osteoartrit;;;C;"claim, belief true; assertion condition";own code in the list condition
+628;123;INTERP;prose;yes;Schormol nodülü, osteoartrit gibi hastalıklar;is interpreted as showing;bireylerin ağır ve fiziksel işlerde çalıştığı;;;A;"claim, belief true; assertion interpreted_as";
+629;123;LAB;prose;yes;dişler;observed;aşınmalar ve kırıklar;;;C;"claim, belief true; assertion condition";own code in the list condition
+630;123;INTERP;prose;yes;dişlerdeki aşınmalar ve kırıklar;is interpreted as showing;dişlerin günlük yaşamda bir alet ya da “üçüncü el” gibi kullanıldığı;;;A;"claim, belief true; assertion interpreted_as";
+631;123;DESCR;prose;no;dişlerin alet gibi kullanılması;is judged to inform on;bireylerin sosyo-ekonomik koşulları;;;E;entity.remark;A judgement or a general description.
+632;123;LAB;prose;yes;dişler;observed;hipoplaziler;;;C;"claim, belief true; assertion condition";own code in the list condition
+633;123;INTERP;prose;yes;dişlerde gözlemlenen hipoplaziler;is interpreted as showing;çocukluk döneminde besin yetersizliğinin ve stres düzeyinin yüksek olduğu;;;A;"claim, belief true; assertion interpreted_as";
+634;123;LAB;prose;yes;iskeletler;disease observed;metabolik hastalıklar;;;C;"claim, belief true; assertion condition";own code in the list condition
+635;123;LAB;prose;yes;iskeletler;disease observed;enfeksiyonel hastalıklar;;;C;"claim, belief true; assertion condition";own code in the list condition
+636;123;LAB;prose;yes;metabolik hastalıklar;observed especially in;çocuklar;;;E;entity.remark;A step, an aim or a method described in a sentence.
+637;123;INTERP;prose;yes;çocuklarda izlenen metabolik hastalıklar;give a clue about;beslenme yetersizliği;ipucu sağlamaktadır;;A;"claim, belief probable; assertion interpreted_as";
+638;123;INTERP;prose;yes;çocuklarda izlenen metabolik hastalıklar;give a clue about;anne sütü bakımından eksiklik;ipucu sağlamaktadır;;A;"claim, belief probable; assertion interpreted_as";
+639;123;INTERP;prose;yes;çocuklarda izlenen metabolik hastalıklar;give a clue about;hijyen koşulları;ipucu sağlamaktadır;;A;"claim, belief probable; assertion interpreted_as";
+640;123;DESCR;prose;no;antropoloji sonuçları;is judged to inform on;popülasyonun sosyo-kültürel durumu, beslenme pratikleri ve yaşam tarzları;;;E;entity.remark;A judgement or a general description.
+641;123;STRUCT;prose;no;başlık;heading reads;SONUÇ;;;F;;Structure of the printed document. The database has no place for it.
+642;123;DESCR;prose;no;İznik Hisardere Nekropolü 2024 yılı kazı çalışmaları;is judged;bölgenin Roma Dönemi’ne ait mimari yapısı ve gömü pratikleriyle ilgili dikkate değer veriler sunmuştur;;;E;entity.remark;A judgement or a general description.
+643;123;DESCR;prose;no;kazı çalışmaları;is judged;titizlikle yürütülmüştür;;;E;entity.remark;A judgement or a general description.
+644;123;ADMIN;prose;no;E-15 ve E-16 plankarelerindeki çalışmalar;was part of project;Geleceğe Miras Projesi;;;A;activity.part_of;
+645;123;BUILT;list;yes;Hipoje (2024 kazıları);count;7 adet;;;A;dimension;
+646;123;BUILT;list;yes;Çatkı Mezar (2024 kazıları);count;10 adet;;;A;dimension;
+647;123;BUILT;list;yes;Taş Sanduka Mezar (2024 kazıları);count;1 adet;;;A;dimension;
+648;123;BUILT;list;yes;Tuğla Plaka Mezar (2024 kazıları);count;2 adet;;;A;dimension;
+649;123;FIND;prose;yes;envanterlik eser;count;7 tanesi;;;A;"dimension; declared attribute museum_grade";
+650;123;FIND;prose;yes;etütlük eser;count;6 tanesi;;;A;dimension;
+651;123;INTERP;prose;yes;Nekropol alanı;is interpreted as;yalnızca bir mezarlık değil, aynı zamanda sosyal ve dini bağlamlarla bütünleşmiş bir yapıya sahip;;;A;"claim, belief true; assertion interpreted_as";
+652;123;BUILT;list;yes;nekropol;yielded;mozaik taban döşemeleri;;;E;entity.remark;A position, a relation or a state described in words.
+653;123;BUILT;list;yes;nekropol;yielded;duvar kalıntıları;;;E;entity.remark;A position, a relation or a state described in words.
+654;123;BUILT;list;yes;nekropol;yielded;farklı gömü türlerini temsil eden mezar yapıları;;;E;entity.remark;A position, a relation or a state described in words.
+655;123;INTERP;prose;yes;Bazilika ile Nekropol alanındaki mezarlar arasındaki mekânsal ilişki;is noticeable especially in;Hipoje mezarlar;;;A;"claim, belief true; assertion interpreted_as";
+656;123;FIND;prose;yes;mezar hediyeleri (Hipojeler);was found in;Hipojeler (iskelet kalıntıları ile beraber);;;A;find_context;
+657;123;FIND;prose;yes;mezar hediyeleri (Hipojeler);kind;çeşitli mezar hediyeleri;;;C;thing.type;own code in the list thing_type
+658;123;INTERP;prose;yes;Hipoje mezarlar;is interpreted as;yalnızca bireysel definler için değil, aile ya da topluluk mezarları olarak kullanıldı;;;A;"claim, belief true; assertion interpreted_as";
+659;123;INTERP;prose;yes;bölge (Nekropol alanı);use in Roma Dönemi;gömü alanı;;;A;"claim, belief true; assertion interpreted_as";
+660;123;INTERP;prose;yes;bölge (Nekropol alanı);in Erken Bizans Dönemi had;dini yapılarla bütünleşmiş bir düzenleme;;;A;"claim, belief true; assertion interpreted_as";
+661;124;INTERP;prose;yes;Bazilika;is interpreted as;Mezarlık Kilisesi (ölülerle yaşayanlar arasında manevi bir köprü görevi gören);olabileceğini göstermektedir;;A;"claim, belief probable; assertion interpreted_as";
+662;124;INTERP;prose;yes;Bazilika;is interpreted as;ibadet mekânı;;;A;"claim, belief true; assertion interpreted_as";
+663;124;DESCR;prose;no;Hisardere Nekropolü Kazıları;is judged;Roma Dönemi Nekropol alanlarının mekânsal düzeni, dini ve toplumsal bağlamları açısından dönemin dinamik yapısını gözler önüne sermektedir;;;E;entity.remark;A judgement or a general description.
+664;124;DESCR;prose;no;çalışmalar sırasında elde edilen bulgular;is judged;Roma Dönemi ölü gömme ritüelleri ve mimari planlama konusunda yeni sorular ortaya çıkarır;;;E;entity.remark;A judgement or a general description.
+665;124;DESCR;prose;no;alan;is judged to need;korunması ve daha ileri teknolojiyle incelenmesi;;;E;entity.remark;A judgement or a general description.
+666;125;STRUCT;prose;no;başlık;heading reads;EKLER;;;F;;Structure of the printed document. The database has no place for it.
+667;125;FIGURE;prose;yes;Çizim 1;caption reads;İznik Hisardere Nekropolü Kazı Alanı.;;;A;entity.label of the media item;
+668;125;FIGURE;prose;yes;Çizim 2;caption reads;Kesit üzerinde mezarlar arasındaki ilişki.;;;A;entity.label of the media item;
+669;126;FIGURE;prose;yes;Çizim 3;caption reads;2024 yılı seramik buluntu örnekleri.;;;A;entity.label of the media item;
+670;127;FIGURE;list;yes;Resim 1;caption reads;Terrakota Plaka Kapaklı Mezar-1.;;;A;entity.label of the media item;
+671;127;FIGURE;list;yes;Resim 2;caption reads;E-15 Plankaresi’nde ortaya çıkarılan mezarlar.;;;A;entity.label of the media item;
+672;128;FIGURE;list;yes;Resim 3;caption reads;K-16 Plankaresi’nde ortaya çıkarılan Çatkı Mezar-1.;;;A;entity.label of the media item;
+673;128;FIGURE;list;yes;Resim 4;caption reads;K-16 Plankaresi’nde ortaya çıkarılan Hipoje-2.;;;A;entity.label of the media item;
+674;129;FIGURE;list;yes;Resim 5;caption reads;K-16 Plankaresi’nde ortaya çıkarılan Hipoje-1.;;;A;entity.label of the media item;
+675;129;FIGURE;list;yes;Resim 6;caption reads;J-17 Plankaresi Tuğla Zemin Döşemesi.;;;A;entity.label of the media item;
+676;130;FIGURE;list;yes;Resim 7;caption reads;Nekropol alanına yapılan Geçici Koruma Çatısı.;;;A;entity.label of the media item;
+677;130;FIGURE;list;yes;Resim 8;caption reads;Konservasyonu yapılan altın küpeler.;;;A;entity.label of the media item;
+678;131;FIGURE;list;yes;Resim 9;caption reads;K16 Plankaresi Hipoje-2 içinden çıkarılan pişmiş toprak testi.;;;A;entity.label of the media item;
+679;131;FIGURE;list;yes;Resim 10;caption reads;Kemikler üzerinde gözlemlenen hastalıklar.;;;A;entity.label of the media item;

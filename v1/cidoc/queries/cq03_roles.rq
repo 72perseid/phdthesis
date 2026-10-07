@@ -1,0 +1,13 @@
+# CQ3  Who took part in the reported campaign, its parts and its support, in which role?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?activity ?actor ?role WHERE {
+  ?report crm:P129_is_about ?campaign .
+  ?pc a crm:PC14_carried_out_by ; crm:P01_has_domain ?a ; crm:P02_has_range ?ac ; crm:P14.1_in_the_role_of ?r .
+  ?a rdfs:label ?activity . ?ac rdfs:label ?actor . ?r rdfs:label ?role .
+  { ?a crm:P9i_forms_part_of* ?campaign } UNION { ?a crm:P20_had_specific_purpose ?campaign }
+} ORDER BY ?activity ?role ?actor

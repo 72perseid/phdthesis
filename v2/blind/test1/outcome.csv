@@ -1,0 +1,1501 @@
+﻿n;page;subject;says;value;hedge;outcome;where;note
+1;181;Zerzevan Kalesi 2024 Yılı Çalışmaları;is part of volume;45. Kazı Sonuçları Toplantısı Bildirileri, Cilt 1;;1;source.part_of;
+2;181;Zerzevan Kalesi 2024 Yılı Çalışmaları;has title;ZERZEVAN KALESİ 2024 YILI ÇALIŞMALARI;;1;entity.label;
+3;181;Zerzevan Kalesi 2024 Yılı Çalışmaları;was written by;Aytaç COŞKUN;;1;relation authored_by;
+4;181;Zerzevan Kalesi 2024 Yılı Çalışmaları;was written by;Fatma DURMA;;1;relation authored_by;
+5;181;Zerzevan Kalesi 2024 Yılı Çalışmaları;was written by;Şıvan AYUS;;1;relation authored_by;
+6;181;Zerzevan Kalesi;is located in;Diyarbakır ili;;1;thing.location;
+7;181;Zerzevan Kalesi;distance to Çınar ilçesi;13 km;;4;entity.remark;A distance between two places has no place.
+8;181;Zerzevan Kalesi;distance to Demirölçek Mahallesi;1 km;;4;entity.remark;A distance between two places has no place.
+9;181;Zerzevan Kalesi arkeolojik kazı ve restorasyon çalışmaları;was carried out with permission of;Kültür ve Turizm Bakanlığı, Kültür Varlıkları ve Müzeler Genel Müdürlüğü;;3;participation.role;own code for the role
+10;181;Zerzevan Kalesi arkeolojik kazı ve restorasyon çalışmaları;was directed by;Prof. Dr. Aytaç Coşkun;;1;participation.role;
+11;181;Zerzevan Kalesi arkeolojik kazı ve restorasyon çalışmaları;took place from;09.01.2024;;4;entity.remark;Years are whole numbers. The year 2024 is stored. Day and month are text only.
+12;181;Zerzevan Kalesi arkeolojik kazı ve restorasyon çalışmaları;took place until;31.12.2024;;4;entity.remark;Years are whole numbers. The year 2024 is stored. Day and month are text only.
+13;181;Zerzevan Kalesi arkeolojik kazı ve restorasyon çalışmaları;is described as;büyük proje;;4;entity.remark;
+14;181;T.C. Kültür ve Turizm Bakanlığı, Kültür Varlıkları ve Müzeler Genel Müdürlüğü;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+15;181;Safir Tuz;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+16;181;Diyarbakır Valiliği;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+17;181;Diyarbakır Büyükşehir Belediyesi;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+18;181;Dicle Üniversitesi;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+19;181;İl Kültür ve Turizm Müdürlüğü;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+20;181;Diyarbakır Müze Müdürlüğü;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+21;181;Çınar Kaymakamlığı;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+22;181;Karacadağ Kalkınma Ajansı;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+23;181;GAP İdaresi Başkanlığı;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+24;181;Türkiye İş Kurumu (İŞKUR);thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+25;181;Türkiye Jokey Kulübü;thanked for support;teşekkür;;3;participation.role;own code: a person or body that is thanked
+26;181;Safir Tuz;has the role;sponsor;;3;participation.role;own code for the role
+27;181;Zerzevan Kalesi arkeolojik kazı ve restorasyon çalışmaları;is a special project of;Kültür ve Turizm Bakanlığı;;4;entity.remark;
+28;181;Zerzevan Kalesi arkeolojik kazı ve restorasyon çalışmaları;continues for duration;12 ay;;3;dimension;own code for the unit month
+29;181;heyet üyeleri;are continuously employed by;Kültür Varlıkları ve Müzeler Genel Müdürlüğü;;4;entity.remark;Employment has no place.
+30;181;heyet üyeleri;are continuously employed by;Diyarbakır Büyükşehir Belediyesi;;4;entity.remark;Employment has no place.
+31;181;heyet üyeleri;participated in;çalışmalar;;1;participation;
+32;181;işçiler;were taken as service procurement under;Geleceğe Miras Projesi;;4;entity.remark;Employment has no place.
+33;181;işçiler;were employed through;İŞKUR projesi;;4;entity.remark;Employment has no place.
+34;181;işçiler;were employed by;Çınar Kaymakamlığı;;4;entity.remark;Employment has no place.
+35;181;işçiler;participated in;çalışmalar;;1;participation;
+36;181;Aytaç COŞKUN;has title;Prof. Dr.;;3;own attribute 'unvan';No place for an academic title.
+37;181;Aytaç COŞKUN;has affiliation;Dicle Üniversitesi, Edebiyat Fakültesi, Arkeoloji Bölümü, 21280 Diyarbakır/ TÜRKİYE;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+38;181;Aytaç COŞKUN;has website;www.zerzevan.org;;1;identifier;
+39;181;Aytaç COŞKUN;has ORCID;0000-0002-2392-7218;;1;identifier;
+40;181;Fatma DURMA;has the role;Zerzevan Kalesi Kazı Heyet Üyesi;;3;participation.role;own code for the role
+41;181;Fatma DURMA;has ORCID;0000-0002-3331-1361;;1;identifier;
+42;181;Şıvan AYUS;has the role;Zerzevan Kalesi Kazı Heyet Üyesi;;3;participation.role;own code for the role
+43;181;Şıvan AYUS;has ORCID;0000-0003-1619-9889;;1;identifier;
+44;181;Mehmet Nuri Ersoy;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+45;181;Mehmet Nuri Ersoy;has the role;Kültür ve Turizm Bakanı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+46;181;footnote 1 thanks (Ersoy ... Gamze Özdemir);thanked for;Zerzevan Kalesi kazılarına sağladıkları izin ve sonsuz destekleri;;4;entity.remark of the season;
+47;181;Gökhan Yazgı;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+48;181;Gökhan Yazgı;has the role;Bakan Yardımcısı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+49;181;Batuhan Mumcu;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+50;181;Batuhan Mumcu;has the role;Bakan Yardımcısı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+51;181;Nadir Alpaslan;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+52;181;Nadir Alpaslan;has the role;Bakan Yardımcısı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+53;181;Birol İnceciköz;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+54;181;Birol İnceciköz;has the role;Kültür Varlıkları ve Müzeler Genel Müdürü;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+55;181;Bülent Gönültaş;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+56;181;Bülent Gönültaş;has the role;Genel Müdür Yardımcısı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+57;181;Umut Görgülü;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+58;181;Umut Görgülü;has the role;Kazılar ve Araştırmalar Daire Başkanı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+59;181;Nihal Metin;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+60;181;Nihal Metin;has the role;Kazılar Şubesi Müdürü;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+61;181;Gizem Alpaslan;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+62;181;Gizem Alpaslan;has the role;Kazılar Şubesi’nden;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+63;181;Gamze Özdemir;thanked for support;izin ve sonsuz destek;;3;participation.role;own code: a person or body that is thanked
+64;181;Gamze Özdemir;has the role;Kazılar Şubesi’nden;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+65;181;Nihat Özpınar;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+66;181;Nihat Özpınar;has the role;Safir Tuz Yönetim Kurulu Başkanı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+67;181;Murat Zoroğlu;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+68;181;Murat Zoroğlu;has the role;Diyarbakır Valisi;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+69;181;İlyas Öztürk;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+70;181;İlyas Öztürk;has the role;Diyarbakır Vali Yardımcısı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+71;181;Sabahattin Genç;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+72;181;Sabahattin Genç;has the role;Diyarbakır İl Kültür Müdürü;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+73;181;Müjdat Gizligöl;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+74;181;Müjdat Gizligöl;has the role;Diyarbakır Müzesi Müdür Vekili;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+75;181;tüm müze çalışanları (Diyarbakır Müzesi);thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+76;181;Zikrullah Erdoğan;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+77;181;Zikrullah Erdoğan;has the role;Çınar Kaymakamı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+78;181;Zikrullah Erdoğan;is described as;büyük bir özveri ile bizi hiç yalnız bırakmayan;;4;entity.remark;
+79;181;Kamuran Eronat;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+80;181;Kamuran Eronat;has the role;Dicle Üniversitesi Rektörü;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+81;181;Kamuran Eronat;has title;Prof. Dr.;;3;own attribute 'unvan';No place for an academic title.
+82;181;Mustafa Uğurlu Arslan;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+83;181;Mustafa Uğurlu Arslan;has the role;Genel Sekreter;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+84;181;Mustafa Uğurlu Arslan;has title;Doç. Dr.;;3;own attribute 'unvan';No place for an academic title.
+85;181;Yunus Çolak;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+86;181;Yunus Çolak;has the role;Karacadağ Kalkınma Ajansı Genel Sekreteri;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+87;181;Hasan Maral;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+88;181;Hasan Maral;has the role;GAP İdaresi Başkanı;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+89;181;Yılmaz Çelik;thanked for support;destek;;3;participation.role;own code: a person or body that is thanked
+90;181;Yılmaz Çelik;has the role;Hipodrom Müdürü;;3;own attribute 'görev';An office held in an institution. No place for it. The institution inside the office name is not linked.
+91;181;Neslihan Dalkılıç;participated in;2024 sezonu çalışmaları;;1;participation;
+92;181;Neslihan Dalkılıç;has title;Prof. Dr.;;3;own attribute 'unvan';No place for an academic title.
+93;181;Neslihan Dalkılıç;has affiliation;Dicle Üniversitesi, Mimarlık Fakültesi, Mimarlık Bölümü;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+94;181;Sabri Karadoğan;participated in;2024 sezonu çalışmaları;;1;participation;
+95;181;Sabri Karadoğan;has title;Prof. Dr.;;3;own attribute 'unvan';No place for an academic title.
+96;181;Sabri Karadoğan;has affiliation;Dicle Üniversitesi, Ziya Gökalp Eğitim Fakültesi, Coğrafya Bölümü;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+97;181;Vedat Toprak;participated in;2024 sezonu çalışmaları;;1;participation;
+98;181;Vedat Toprak;has title;Prof. Dr.;;3;own attribute 'unvan';No place for an academic title.
+99;181;Vedat Toprak;has affiliation;Dicle Üniversitesi, Mühendislik Fakültesi, Orta Doğu Teknik Üniversitesi, Jeoloji Mühendisliği Bölümü;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+100;181;Felat Dursun;participated in;2024 sezonu çalışmaları;;1;participation;
+101;181;Felat Dursun;has title;Dr. Öğr. Üyesi;;3;own attribute 'unvan';No place for an academic title.
+102;181;Felat Dursun;has affiliation;Dicle Üniversitesi, Maden Mühendisliği Bölümü;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+103;181;Can Yümni Gündem;participated in;2024 sezonu çalışmaları;;1;participation;
+104;181;Can Yümni Gündem;has title;Doç. Dr.;;3;own attribute 'unvan';No place for an academic title.
+105;181;Can Yümni Gündem;has affiliation;Batman Üniversitesi, Fen-Edebiyat Fakültesi, Arkeoloji Bölümü;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+106;182;Cüneyt Öz;participated in;2024 sezonu çalışmaları;;1;participation;
+107;182;Cüneyt Öz;has title;Doç. Dr.;;3;own attribute 'unvan';No place for an academic title.
+108;182;Cüneyt Öz;has affiliation;Dicle Üniversitesi, Edebiyat Fakültesi, Arkeoloji Bölümü;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+109;182;Ömer Can Yıldırım;participated in;2024 sezonu çalışmaları;;1;participation;
+110;182;Ömer Can Yıldırım;has title;Dr. Öğr. Üyesi;;3;own attribute 'unvan';No place for an academic title.
+111;182;Ömer Can Yıldırım;has affiliation;Çanakkale Onsekiz Mart Üniversitesi;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+112;182;Deniz Oğuz Kırca;participated in;2024 sezonu çalışmaları;;1;participation;
+113;182;Deniz Oğuz Kırca;has title;Doç. Dr.;;3;own attribute 'unvan';No place for an academic title.
+114;182;Deniz Oğuz Kırca;has affiliation;Savunma Sanayii Başkanlığı;;1;actor.member_of;The whole affiliation is one name. Faculty and department are not separated.
+115;182;Fatma Durma;participated in;2024 sezonu çalışmaları;;1;participation;
+116;182;Fatma Durma;has the role;Arkeolog;;3;participation.role;own code for the role
+117;182;Şıvan Ayus;participated in;2024 sezonu çalışmaları;;1;participation;
+118;182;Şıvan Ayus;has the role;Arkeolog;;3;participation.role;own code for the role
+119;182;Mehmet Bilen;participated in;2024 sezonu çalışmaları;;1;participation;
+120;182;Mehmet Bilen;has the role;Arkeolog;;3;participation.role;own code for the role
+121;182;Pınar Şenol;participated in;2024 sezonu çalışmaları;;1;participation;
+122;182;Pınar Şenol;has the role;Arkeolog;;3;participation.role;own code for the role
+123;182;Eda Kılıç Yıldız;participated in;2024 sezonu çalışmaları;;1;participation;
+124;182;Eda Kılıç Yıldız;has the role;Arkeolog;;3;participation.role;own code for the role
+125;182;Ülkü Dizman;participated in;2024 sezonu çalışmaları;;1;participation;
+126;182;Ülkü Dizman;has the role;Arkeolog;;3;participation.role;own code for the role
+127;182;Habibe Durmuş;participated in;2024 sezonu çalışmaları;;1;participation;
+128;182;Habibe Durmuş;has the role;Arkeolog;;3;participation.role;own code for the role
+129;182;Ayşe Poyraz;participated in;2024 sezonu çalışmaları;;1;participation;
+130;182;Ayşe Poyraz;has the role;Arkeolog;;3;participation.role;own code for the role
+131;182;Nurjian Özdemir;participated in;2024 sezonu çalışmaları;;1;participation;
+132;182;Nurjian Özdemir;has the role;Arkeolog;;3;participation.role;own code for the role
+133;182;İpek Sude Yentürk;participated in;2024 sezonu çalışmaları;;1;participation;
+134;182;İpek Sude Yentürk;has the role;Arkeolog;;3;participation.role;own code for the role
+135;182;Ebedin Emlük;participated in;2024 sezonu çalışmaları;;1;participation;
+136;182;Ebedin Emlük;has the role;Sanat Tarihçi;;3;participation.role;own code for the role
+137;182;Recep Özger;participated in;2024 sezonu çalışmaları;;1;participation;
+138;182;Recep Özger;has the role;Restoratör;;3;participation.role;own code for the role
+139;182;Muhammet Azad Ekinci;participated in;2024 sezonu çalışmaları;;1;participation;
+140;182;Muhammet Azad Ekinci;has the role;Restoratör;;3;participation.role;own code for the role
+141;182;Sultan Yılmaz;participated in;2024 sezonu çalışmaları;;1;participation;
+142;182;Sultan Yılmaz;has the role;Mimar;;3;participation.role;own code for the role
+143;182;Kültür Varlıkları ve Müzeler Genel Müdürlüğü;is named in page header of volume;KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ;;X;;Structure of the printed document. No place, and not fieldwork data.
+144;182;Zerzevan Kalesi arkeolojik kazı ve restorasyon çalışmaları;continues for duration;yıl boyu;;4;entity.remark;
+145;182;eski Cezaevi;is located in;Çınar ilçesi;;1;thing.location;
+146;182;eski Cezaevi;is used as;kazı evi;;3;assertion function;own code. The list of functions is empty.
+147;182;eski Cezaevi;is used for purpose;çalışmaların daha etkin yapılabilmesi;;4;entity.remark;
+148;182;Ziyaretçi Karşılama Merkezi;is located in;Zerzevan Kalesi’nin girişi;;1;thing.location;
+149;182;Ziyaretçi Karşılama Merkezi;was approved by;Kültür Varlıkları ve Müzeler Genel Müdürlüğü;;3;participation.role;own code for the role
+150;182;Ziyaretçi Karşılama Merkezi;was financed by;GAP İdaresi Başkanlığı;;1;participation.role;
+151;182;Ziyaretçi Karşılama Merkezi;was financed by;Diyarbakır Büyükşehir Belediyesi;;1;participation.role;
+152;182;Ziyaretçi Karşılama Merkezi;construction continued;inşası devam etmiştir;;3;activity with an own kind, relation worked_on;own code for the kind of work
+153;182;envanterlik eserler;number of pieces;55 adet;;1;dimension, kind count;
+154;182;envanterlik eserler;were delivered to;Diyarbakır Müzesi;;1;relation keeper;
+155;182;etüdlük eserler;number of pieces;40 adet;;1;dimension, kind count;
+156;182;etüdlük eserler;were delivered to;Diyarbakır Müzesi;;1;relation keeper;
+157;182;envanterlik ve etüdlük eserler;result of work of year;2024 yılı çalışmaları;;1;find_context.found_by;
+158;182;Zerzevan Kalesi kazı, belgeleme ve restorasyon çalışmaları (2024);is season number;on birinci dönem;;3;own attribute;No place for the running number of a season.
+159;182;Sinan Ocak;has the role;Bakanlık Yetkili Uzmanı;;3;participation.role;own code for the role
+160;182;Sinan Ocak;participated in;on birinci dönem kazı, belgeleme ve restorasyon çalışmaları;;1;participation;
+161;182;Yasemin Beyaz Dündar;has the role;Bakanlık Yetkili Uzmanı;;3;participation.role;own code for the role
+162;182;Yasemin Beyaz Dündar;participated in;on birinci dönem kazı, belgeleme ve restorasyon çalışmaları;;1;participation;
+163;182;Mehmet Bahattin Aydın;has the role;Bakanlık Yetkili Uzmanı;;3;participation.role;own code for the role
+164;182;Mehmet Bahattin Aydın;participated in;on birinci dönem kazı, belgeleme ve restorasyon çalışmaları;;1;participation;
+165;182;Resmiye Timur;has the role;Bakanlık Yetkili Uzmanı;;3;participation.role;own code for the role
+166;182;Resmiye Timur;participated in;on birinci dönem kazı, belgeleme ve restorasyon çalışmaları;;1;participation;
+167;182;Sayısal Kent Planı ve Mimari Belgeleme;is part of;BELGELEME ÇALIŞMALARI;;X;;Structure of the printed document. No place, and not fieldwork data.
+168;182;Zerzevan Kalesi;is located at;oldukça stratejik bir nokta;;4;entity.remark;
+169;182;Zerzevan Kalesi;is located in;Mardin-Midyat Platosu ile Diyarbakır Havzası sınırı;;3;relation with the raw property P53;A thing has one column for its place. The second place needed a property taken from the ontology.
+170;182;Zerzevan Kalesi (konum: Mardin-Midyat Platosu ile Diyarbakır Havzası sınırı);cites publication;Karadoğan ve Coşkun, 2017;;1;about;The source is tied to the thing, not to the sentence that cites it.
+171;182;Zerzevan Kalesi (konum: Mardin-Midyat Platosu ile Diyarbakır Havzası sınırı);cites publication;Karadoğan ve Coşkun, 2018;;1;about;The source is tied to the thing, not to the sentence that cites it.
+172;182;Zerzevan Kalesi (konum: Mardin-Midyat Platosu ile Diyarbakır Havzası sınırı);cites publication;Karadoğan ve Coşkun, 2022;;1;about;The source is tied to the thing, not to the sentence that cites it.
+173;182;Zerzevan Kalesi (konum: Mardin-Midyat Platosu ile Diyarbakır Havzası sınırı);cites publication;Dursun ve Coşkun, 2020, s. 3;;1;about;The source is tied to the thing, not to the sentence that cites it.
+174;182;Zerzevan Kalesi (konum: Mardin-Midyat Platosu ile Diyarbakır Havzası sınırı);cites publication;Dursun vd., 2023;;1;about;The source is tied to the thing, not to the sentence that cites it.
+175;182;Kalenin sayısal kent planının çıkarılması çalışmaları;began in;2014 yılı;;1;activity.begin;
+176;182;Kalenin sayısal kent planının çıkarılması çalışmaları;cites publication;Coşkun, 2016, s.126;;1;about;The source is tied to the thing, not to the sentence that cites it.
+177;182;Kalenin sayısal kent planının çıkarılması çalışmaları;cites publication;Coşkun, 2017a;;1;about;The source is tied to the thing, not to the sentence that cites it.
+178;182;Kalenin sayısal kent planının çıkarılması çalışmaları;cites publication;Coşkun, 2017b, s.406;;1;about;The source is tied to the thing, not to the sentence that cites it.
+179;182;Kalenin sayısal kent planının çıkarılması çalışmaları;cites publication;Coşkun, 2019a, s. 568;;1;about;The source is tied to the thing, not to the sentence that cites it.
+180;182;Kalenin sayısal kent planının çıkarılması çalışmaları;cites publication;Coşkun, 2019b;;1;about;The source is tied to the thing, not to the sentence that cites it.
+181;182;rölöve ve kesit çizimleri;missing parts were completed in;2024 yılı kazı sezonu;;1;activity.part_of;
+182;182;rölöve ve kesit çizimleri;was made with instrument;total station;;1;relation used;
+183;182;rölöve ve kesit çizimleri;were added to;ana plan;;4;entity.remark;
+184;182;ana plan;is shown in figure;Çizim: 1;;1;about;
+185;182;2024 yılı çalışmaları;took place in;Mithras Kutsal Alanı;;1;relation worked_on;
+186;182;Mithras Kutsal Alanı;cites publication;Coşkun ve Kırca, 2022;;1;about;The source is tied to the thing, not to the sentence that cites it.
+187;182;Mithras Kutsal Alanı;cites publication;Coşkun ve Kırca, 2023;;1;about;The source is tied to the thing, not to the sentence that cites it.
+188;182;Mithras Kutsal Alanı;cites publication;Coşkun vd., 2024, s. 250;;1;about;The source is tied to the thing, not to the sentence that cites it.
+189;182;Mithras Kutsal Alanı;cites publication;Coşkun vd., 2025;;1;about;The source is tied to the thing, not to the sentence that cites it.
+190;182;mevcut alanların çizimleri;were completed;kazılardan önce;;3;relation with the raw property P183;'Before the excavation': order in time between two works has no declared relation.
+191;182;duvarlar;were documented in detail;"kazı yapıldıkça ortaya çıkarılan; detaylı belgeleme çalışmaları yapılmıştır";;1;relation worked_on;
+192;182;mimari bloklar;were documented in detail;"kazı yapıldıkça ortaya çıkarılan; detaylı belgeleme çalışmaları yapılmıştır";;1;relation worked_on;
+193;182;küçük buluntular;were documented in detail;"kazı yapıldıkça ortaya çıkarılan; detaylı belgeleme çalışmaları yapılmıştır";;1;relation worked_on;
+194;182;mezarlar (kalenin kuzey kısmı);is located in;Kalenin kuzey kısmı;;1;thing.location;
+195;182;mezarlar (kalenin kuzey kısmı);was documented by;arazi modellemesi;;3;media with about;own code for the kind of record
+196;182;mezarlar (kalenin kuzey kısmı);was documented by;rekonstrüksiyon çizimleri;;3;media with about;own code for the kind of record
+197;182;mezarlar (kalenin kuzey kısmı);was documented by;render;;3;media with about;own code for the kind of record
+198;182;kaya mezarları (güney kısmı);is located in;Güney kısmı;;1;thing.location;
+199;182;kaya mezarları (güney kısmı);reconstruction drawings were completed;rekonstrüksiyon çizimleri tamamlanmıştır;;3;media with about;own code for the kind of record
+200;182;tonozlu mezar (güney kısmı);is located in;Güney kısmı;;1;thing.location;
+201;182;tonozlu mezar (güney kısmı);reconstruction drawings were completed;rekonstrüksiyon çizimleri tamamlanmıştır;;3;media with about;own code for the kind of record
+202;182;diğer mezarlar (güney kısmı);is located in;Güney kısmı;;1;thing.location;
+203;182;diğer mezarlar (güney kısmı);reconstruction drawings were completed;rekonstrüksiyon çizimleri tamamlanmıştır;;3;media with about;own code for the kind of record
+204;182;Mithras Kutsal Alanı;reconstructions were updated;rekonstrüksiyonları güncellenmiştir;;3;media with about;own code for the kind of record
+205;182;konutlar;reconstructions were updated;rekonstrüksiyonları güncellenmiştir;;3;media with about;own code for the kind of record
+206;182;mevcut yapılar;reconstructions were updated;rekonstrüksiyonları güncellenmiştir;;3;media with about;own code for the kind of record
+207;183;Çevre Düzenleme Çalışmaları;is part of;KAZI VE ÇEVRE DÜZENLEME ÇALIŞMALARI;;X;;Structure of the printed document. No place, and not fieldwork data.
+208;183;çevre düzenleme çalışmaları;took place in;Zerzevan Kalesi;;1;relation worked_on;
+209;183;çevre düzenleme çalışmaları;has purpose;sur içi ve sur dışı ulaşımın iyileştirilmesi;;4;entity.remark;A purpose given as text has no place.
+210;183;Mithras Kutsal Alanı;is also called;Mithraeum;;3;identifier, own kind;An entity has one name. A second name needed an own code.
+211;183;Mithras Kutsal Alanı (Mithraeum);vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+212;183;Yeraltı Yapısı;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+213;183;Güney Kule;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+214;183;Yeraltı Kilisesi;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+215;183;Kaya Sunağı;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+216;183;A Konutu;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+217;183;B Konutu;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+218;183;J Konutu;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+219;183;K Konutu;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+220;183;L Konutu;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+221;183;M Konutu;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+222;183;N Konutu;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+223;183;G Konutu;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+224;183;Büyük Kilise;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+225;183;Sunu Çanakları;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+226;183;Tonozlu Sarnıç;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+227;183;Su Kanalı;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+228;183;Kaya Mezarları;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+229;183;Tonozlu Mezarlar;vegetation was cleaned around and inside;bitki temizliği yapılmış;;1;relation worked_on;'Around and inside' is lost.
+230;183;yapılar (Mithras Kutsal Alanı ... Tonozlu Mezarlar);vegetation was cleaned around and inside;çevresinde ve iç mekânlarında bitki temizliği;;4;entity.remark;
+231;183;alan geneli;was arranged;alan genelinde düzenleme gerçekleştirilmiştir;;1;relation worked_on;
+232;183;CFI kodlu kolye veya yüzük taşı;is find of kind;kolye veya yüzük taşı;veya;3;assertion identified_as, with a claim;own code for the kind
+233;183;CFI kodlu kolye veya yüzük taşı;has find code;CFI;;1;identifier;
+234;183;CFI kodlu kolye veya yüzük taşı;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+235;183;CFI kodlu kolye veya yüzük taşı;was found in grid square;T25/3;;1;find_context.found_in, place of kind square;
+236;183;CFI kodlu kolye veya yüzük taşı;was found in position within grid square;E4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+237;183;CFI kodlu kolye veya yüzük taşı;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+238;183;CFI kodlu kolye veya yüzük taşı;number of pieces;bir adet;;1;dimension, kind count;
+239;183;CFI kodlu kolye veya yüzük taşı;is made of;cam;;1;thing.material;
+240;183;CFU kodlu kap parçası;is find of kind;kap parçası;;3;thing.type;own code for the kind
+241;183;CFU kodlu kap parçası;has find code;CFU;;1;identifier;
+242;183;CFU kodlu kap parçası;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+243;183;CFU kodlu kap parçası;was found in grid square;AK29/3;;1;find_context.found_in, place of kind square;
+244;183;CFU kodlu kap parçası;was found at location;Yeraltı Kilisesi’nin güneybatısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+245;183;CFU kodlu kap parçası;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+246;183;CFU kodlu kap parçası;number of pieces;bir adet;;1;dimension, kind count;
+247;183;CFU kodlu kap parçası;is made of;bronz;;1;thing.material;
+248;183;CFV kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+249;183;CFV kodlu ok ucu;has find code;CFV;;1;identifier;
+250;183;CFV kodlu ok ucu;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+251;183;CFV kodlu ok ucu;was found in grid square;AR28/2;;1;find_context.found_in, place of kind square;
+252;183;CFV kodlu ok ucu;was found at location;kilisenin kuzeybatısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+253;183;CFV kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+254;183;CFV kodlu ok ucu;is made of;demir;;1;thing.material;
+255;183;CFY kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+256;183;CFY kodlu seramik parçaları;has find code;CFY;;1;identifier;
+257;183;CFY kodlu seramik parçaları;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+258;183;CFY kodlu seramik parçaları;was found in grid square;AS28/3;;1;find_context.found_in, place of kind square;
+259;183;CFY kodlu seramik parçaları;was found in position within grid square;D4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+260;183;CFY kodlu seramik parçaları;was found at location;kilisenin batısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+261;183;CFY kodlu seramik parçaları;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+262;183;CFZ kodlu kaide parçası;is find of kind;kaide parçası;;3;thing.type;own code for the kind
+263;183;CFZ kodlu kaide parçası;has find code;CFZ;;1;identifier;
+264;183;CFZ kodlu kaide parçası;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+265;183;CFZ kodlu kaide parçası;was found in grid square;AI29/2;;1;find_context.found_in, place of kind square;
+266;183;CFZ kodlu kaide parçası;was found in position within grid square;A1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+267;183;CFZ kodlu kaide parçası;was found at location;Yeraltı Kilisesi’nin kuzeyinde;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+268;183;CFZ kodlu kaide parçası;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+269;183;CFZ kodlu kaide parçası;number of pieces;birer adet;;1;dimension, kind count;
+270;183;CFZ kodlu kaide parçası;is made of;cam;;1;thing.material;
+271;183;CFZ kodlu lüle parçası;is find of kind;lüle parçası;;3;thing.type;own code for the kind
+272;183;CFZ kodlu lüle parçası;has find code;CFZ;;1;identifier;
+273;183;CFZ kodlu lüle parçası;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+274;183;CFZ kodlu lüle parçası;was found in grid square;AI29/2;;1;find_context.found_in, place of kind square;
+275;183;CFZ kodlu lüle parçası;was found in position within grid square;A1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+276;183;CFZ kodlu lüle parçası;was found at location;Yeraltı Kilisesi’nin kuzeyinde;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+277;183;CFZ kodlu lüle parçası;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+278;183;CFZ kodlu lüle parçası;number of pieces;birer adet;;1;dimension, kind count;
+279;183;CFZ kodlu lüle parçası;is made of;pişmiş toprak;;3;thing.material;own code for the material
+280;183;CGA kodlu obje parçası;is find of kind;obje parçası;;3;thing.type;own code for the kind
+281;183;CGA kodlu obje parçası;has find code;CGA;;1;identifier;
+282;183;CGA kodlu obje parçası;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+283;183;CGA kodlu obje parçası;was found in grid square;AP26/2;;1;find_context.found_in, place of kind square;
+284;183;CGA kodlu obje parçası;was found at location;Arsenal’in batısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+285;183;CGA kodlu obje parçası;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+286;183;CGA kodlu obje parçası;is made of;bronz;;1;thing.material;
+287;183;CGJ kodlu cam kap parçaları;is find of kind;cam kap parçaları;;3;thing.type;own code for the kind
+288;183;CGJ kodlu cam kap parçaları;has find code;CGJ;;1;identifier;
+289;183;CGJ kodlu cam kap parçaları;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+290;183;CGJ kodlu cam kap parçaları;was found in grid square;T24/2;;1;find_context.found_in, place of kind square;
+291;183;CGJ kodlu cam kap parçaları;was found in position within grid square;B3-B4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+292;183;CGJ kodlu cam kap parçaları;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+293;183;CGJ kodlu cam kap parçaları;is made of;cam;;1;thing.material;
+294;183;CHC kodlu sikke;is find of kind;sikke;;1;thing.type;
+295;183;CHC kodlu sikke;has find code;CHC;;1;identifier;
+296;183;CHC kodlu sikke;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+297;183;CHC kodlu sikke;was found in grid square;AU/33-2;;1;find_context.found_in, place of kind square;
+298;183;CHC kodlu sikke;was found at location;kilisenin güneyinde;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+299;183;CHC kodlu sikke;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+300;183;CHC kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+301;183;CHC kodlu sikke;is made of;bronz;;1;thing.material;
+302;183;CHG kodlu yüzük;is find of kind;yüzük;;3;thing.type;own code for the kind
+303;183;CHG kodlu yüzük;has find code;CHG;;1;identifier;
+304;183;CHG kodlu yüzük;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+305;183;CHG kodlu yüzük;was found in grid square;AN34/3;;1;find_context.found_in, place of kind square;
+306;183;CHG kodlu yüzük;was found at location;kilisenin doğusunda;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+307;183;CHG kodlu yüzük;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+308;183;CHG kodlu yüzük;is made of;bronz;;1;thing.material;
+309;183;CHG kodlu yüzük;is shown in figure;Resim: 6;;1;about;
+310;183;CIA kodlu aplik parçası;is find of kind;aplik parçası;;3;thing.type;own code for the kind
+311;183;CIA kodlu aplik parçası;has find code;CIA;;1;identifier;
+312;183;CIA kodlu aplik parçası;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+313;183;CIA kodlu aplik parçası;was found in grid square;AS30/3;;1;find_context.found_in, place of kind square;
+314;183;CIA kodlu aplik parçası;was found at location;kilisenin doğusunda;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+315;183;CIA kodlu aplik parçası;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+316;183;CIA kodlu aplik parçası;is made of;bronz;;1;thing.material;
+317;183;ok ucu (Arsenal’in doğusunda, AP/26 3);is find of kind;ok ucu;;3;thing.type;own code for the kind
+318;183;ok ucu (Arsenal’in doğusunda, AP/26 3);was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+319;183;ok ucu (Arsenal’in doğusunda, AP/26 3);was found in grid square;AP/26 3;;1;find_context.found_in, place of kind square;
+320;183;ok ucu (Arsenal’in doğusunda, AP/26 3);was found at location;Arsenal’in doğusunda;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+321;183;ok ucu (Arsenal’in doğusunda, AP/26 3);was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+322;183;ok ucu (Arsenal’in doğusunda, AP/26 3);is made of;demir;;1;thing.material;
+323;183;kemer tokası (Arsenal’in doğusunda, AP/26 3);is find of kind;kemer tokası;;3;thing.type;own code for the kind
+324;183;kemer tokası (Arsenal’in doğusunda, AP/26 3);was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+325;183;kemer tokası (Arsenal’in doğusunda, AP/26 3);was found in grid square;AP/26 3;;1;find_context.found_in, place of kind square;
+326;183;kemer tokası (Arsenal’in doğusunda, AP/26 3);was found at location;Arsenal’in doğusunda;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+327;183;kemer tokası (Arsenal’in doğusunda, AP/26 3);was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+328;183;kemer tokası (Arsenal’in doğusunda, AP/26 3);is made of;bronz;;1;thing.material;
+329;183;CEB kodlu sikke;is find of kind;sikke;;1;thing.type;
+330;183;CEB kodlu sikke;has find code;CEB;;1;identifier;
+331;183;CEB kodlu sikke;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+332;183;CEB kodlu sikke;was found in grid square;AK/34-2;;1;find_context.found_in, place of kind square;
+333;183;CEB kodlu sikke;was found at location;giriş kapısının batısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+334;183;CEB kodlu sikke;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+335;183;CEB kodlu sikke;is made of;bakır;;3;thing.material;own code for the material
+336;183;CEC kodlu aksam;is find of kind;aksam;;3;thing.type;own code for the kind
+337;183;CEC kodlu aksam;has find code;CEC;;1;identifier;
+338;183;CEC kodlu aksam;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+339;183;CEC kodlu aksam;was found in grid square;AB/29-4;;1;find_context.found_in, place of kind square;
+340;183;CEC kodlu aksam;was found at location;tonozlu sarnıcın kuzeyinde;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+341;183;CEC kodlu aksam;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+342;183;CEC kodlu aksam;is made of;demir;;1;thing.material;
+343;183;CED kodlu sikke;is find of kind;sikke;;1;thing.type;
+344;183;CED kodlu sikke;has find code;CED;;1;identifier;
+345;183;CED kodlu sikke;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+346;183;CED kodlu sikke;was found in grid square;AY/29-1;;1;find_context.found_in, place of kind square;
+347;183;CED kodlu sikke;was found at location;ana kaya sunağının batısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+348;183;CED kodlu sikke;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+349;183;CED kodlu sikke;is made of;bronz;;1;thing.material;
+350;183;CEG kodlu sikke;is find of kind;sikke;;1;thing.type;
+351;183;CEG kodlu sikke;has find code;CEG;;1;identifier;
+352;183;CEG kodlu sikke;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+353;183;CEG kodlu sikke;was found in grid square;AS/28-3;;1;find_context.found_in, place of kind square;
+354;183;CEG kodlu sikke;was found at location;kilisenin batısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+355;183;CEG kodlu sikke;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+356;183;CEG kodlu sikke;is made of;bronz;;1;thing.material;
+357;183;CEH kodlu bilezik parçaları;is find of kind;bilezik parçaları;;3;thing.type;own code for the kind
+358;183;CEH kodlu bilezik parçaları;has find code;CEH;;1;identifier;
+359;183;CEH kodlu bilezik parçaları;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+360;183;CEH kodlu bilezik parçaları;was found in grid square;AR/28-2;;1;find_context.found_in, place of kind square;
+361;183;CEH kodlu bilezik parçaları;was found at location;Arsenal’in güneydoğusunda;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+362;183;CEH kodlu bilezik parçaları;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+363;183;CEH kodlu bilezik parçaları;number of pieces;2 adet;;1;dimension, kind count;
+364;183;CEH kodlu bilezik parçaları;is made of;cam;;1;thing.material;
+365;183;CEF kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+366;183;CEF kodlu ok ucu;has find code;CEF;;1;identifier;
+367;183;CEF kodlu ok ucu;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+368;183;CEF kodlu ok ucu;was found in grid square;AH/28-3;;1;find_context.found_in, place of kind square;
+369;183;CEF kodlu ok ucu;was found at location;Özel Konut yapısının batısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+370;183;CEF kodlu ok ucu;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+371;183;CEF kodlu ok ucu;is made of;demir;;1;thing.material;
+372;183;CEF kodlu boncuk;is find of kind;boncuk;;1;thing.type;
+373;183;CEF kodlu boncuk;has find code;CEF;;1;identifier;
+374;183;CEF kodlu boncuk;was found during;alan temizliği ve yapı temizliği;;1;find_context.found_by;
+375;183;CEF kodlu boncuk;was found in grid square;AH/28-3;;1;find_context.found_in, place of kind square;
+376;183;CEF kodlu boncuk;was found at location;Özel Konut yapısının batısında;;4;find_context.remark;A position relative to a building. Direction and building are not data.
+377;183;CEF kodlu boncuk;was found on;yüzeyde;;3;find_context.method;own code for 'yüzeyde'
+378;183;CEF kodlu boncuk;is made of;cam;;1;thing.material;
+379;183;Mithras Kutsal Alanı Kazı Çalışmaları;is part of;KAZI VE ÇEVRE DÜZENLEME ÇALIŞMALARI;;X;;Structure of the printed document. No place, and not fieldwork data.
+380;183;Mithras Kutsal Alanı kazı çalışmaları;took place in season;2024 yılı Zerzevan Kalesi kazı sezonu;;1;activity.part_of;
+381;183;Mithras Kutsal Alanı;cites publication;Coşkun, 2021a;;1;about;The source is tied to the thing, not to the sentence that cites it.
+382;183;Mithras Kutsal Alanı;cites publication;Coşkun, 2021b;;1;about;The source is tied to the thing, not to the sentence that cites it.
+383;183;Mithras Kutsal Alanı;cites publication;Coşkun, 2022;;1;about;The source is tied to the thing, not to the sentence that cites it.
+384;183;Mithras Kutsal Alanı kazı çalışmaları;took place in grid square;T23/2-3-4;;1;relation also_at;'T23/2-3-4' is stored as one place. It is not resolved into three squares.
+385;183;Mithras Kutsal Alanı kazı çalışmaları;took place in grid square;T24/1-4;;1;relation also_at;'T23/2-3-4' is stored as one place. It is not resolved into three squares.
+386;183;Mithras Kutsal Alanı kazı çalışmaları;took place in grid square;T25/1-4;;1;relation also_at;'T23/2-3-4' is stored as one place. It is not resolved into three squares.
+387;183;Mithras Kutsal Alanı kazı çalışmaları;took place in grid square;U23/1-2-4;;1;relation also_at;'T23/2-3-4' is stored as one place. It is not resolved into three squares.
+388;183;Mithras Kutsal Alanı kazı çalışmaları;took place in grid square;U24/1-4;;1;relation also_at;'T23/2-3-4' is stored as one place. It is not resolved into three squares.
+389;183;Mithras Kutsal Alanı kazı çalışmaları;took place in grid square;U25/1;;1;relation also_at;'T23/2-3-4' is stored as one place. It is not resolved into three squares.
+390;183;Mithras Kutsal Alanı kazı çalışmaları;took place in grid square;S25/4;;1;relation also_at;'T23/2-3-4' is stored as one place. It is not resolved into three squares.
+391;183;Mithras Kutsal Alanı kazı çalışmaları;is shown in figure;Çizim: 2;;1;about;
+392;183;Mithras Kutsal Alanı kazı çalışmaları;is shown in figure;Resim: 1-4;;1;about;
+393;183;P11 poligon noktası;has elevation;894.068;;3;own attribute 'kot';Refused as a measurement: dimension.entity: the entity must be of class S15. A place cannot carry a measurement.
+394;183;P11 poligon noktası;was used as reference for;seviye indirme çalışmaları;;4;entity.remark;A reference point for levelling. 'Used' needs a thing, and a place is not a thing.
+395;183;P12 poligon noktası;has elevation;895.776;;3;own attribute 'kot';Refused as a measurement: dimension.entity: the entity must be of class S15. A place cannot carry a measurement.
+396;183;P12 poligon noktası;was used as reference for;seviye indirme çalışmaları;;4;entity.remark;A reference point for levelling. 'Used' needs a thing, and a place is not a thing.
+397;183;P13 poligon noktası;has elevation;892.784;;3;own attribute 'kot';Refused as a measurement: dimension.entity: the entity must be of class S15. A place cannot carry a measurement.
+398;183;P13 poligon noktası;was used as reference for;seviye indirme çalışmaları;;4;entity.remark;A reference point for levelling. 'Used' needs a thing, and a place is not a thing.
+399;183;Mithras Kutsal Alanı kazı alanı;highest elevation;892.444 m;;1;dimension, kind elevation;Highest and lowest are two statements. They share one row as a range.
+400;183;Mithras Kutsal Alanı kazı alanı;lowest elevation;889.444 m;;1;dimension, kind elevation;Highest and lowest are two statements. They share one row as a range.
+401;183;ana kaya;was reached in area measuring;14,10x12,40 m;;3;dimension, own kinds;The paper gives 'a x b' and does not say which is length and which is width.
+402;183;oyuklar;were found on;ana kaya;;1;relation lies_in;
+403;183;kanallar;were found on;ana kaya;;1;relation lies_in;
+404;183;kanallar;is interpreted as;drenaj sistemleri;düşünülmektedir;1;assertion interpreted_as, text with a claim;
+405;183;kanallar;is interpreted as designed in accordance with;eğimli yapı;düşünülmektedir;1;assertion interpreted_as, text with a claim;
+406;183;Drenaj sistemi;was documented in grid square;T25/4-2;;1;thing.location;
+407;183;Drenaj sistemi;lies between elevations;891.876–889.716 m;;1;dimension, kind elevation;
+408;183;Drenaj sistemi;runs in direction;kuzey-güney;;3;own attribute 'doğrultu';No place for an orientation.
+409;183;Drenaj sistemi;measures (length);8.70 m;;1;dimension;
+410;183;Kanal (drenaj);measures (width);0.20x0.35 m;;3;dimension, own kinds;The paper gives 'a x b' and does not say which is length and which is width.
+411;183;Kanal (drenaj);depth varies according to;eğim;;4;entity.remark;
+412;183;Kanal (drenaj);measures (depth in the north);0.17 m;;3;dimension, own kind;A measurement taken at a named point of a thing needed an own code.
+413;183;Kanal (drenaj);measures (depth in the south);0.65 m;;3;dimension, own kind;A measurement taken at a named point of a thing needed an own code.
+414;183;Drenaj;more extensive trenches are planned for;başlangıç ve bitiş noktalarının belirlenmesi;;3;source of class E29 with about;own code for the kind: a plan of work
+415;184;alan içerisindeki yapılar;were numbered;numaralandırılmıştır;;4;entity.remark;
+416;184;1 numaralı merdiven;is located in grid square;S25/4;;1;thing.location;
+417;184;1 numaralı merdiven;is located in grid square;S26/3;;3;relation with the raw property P53;A thing has one column for its place. The second place needed a property taken from the ontology.
+418;184;2 numaralı merdiven;is located in grid square;S25/1-3–T24/2;;1;thing.location;
+419;184;merdiven (11 basamağı açığa çıkarılan);number of steps uncovered;11 basamak;;3;dimension, own kind;own code: number of steps
+420;184;merdiven (11 basamağı açığa çıkarılan);measures (total height);3.02 m;;1;dimension;
+421;184;merdiven (11 basamağı açığa çıkarılan);has elevation;889.956 m;;1;dimension, kind elevation;
+422;184;1 numaralı kapı;is located in grid square;S26/3;;1;thing.location;
+423;184;2 numaralı kapı;is located in grid square;S25/4;;1;thing.location;
+424;184;2 numaralı kapı;is located in grid square;T25/2;;3;relation with the raw property P53;A thing has one column for its place. The second place needed a property taken from the ontology.
+425;184;2 numaralı kapı;has elevation;892.576 m;;1;dimension, kind elevation;
+426;184;Kapı;measures (entrance dimensions);1.31x1.28 m;;3;dimension, own kinds;The paper gives 'a x b' and does not say which is length and which is width.
+427;184;Kapı lentosu;measures;0.18x0.18 m;;3;dimension, own kinds;The paper gives 'a x b' and does not say which is length and which is width.
+428;184;hol;is located behind;kapı;;4;entity.remark;A position of one built thing relative to another has no declared relation.
+429;184;hol;measures;2.95x1.75 m;;3;dimension, own kinds;The paper gives 'a x b' and does not say which is length and which is width.
+430;184;hol;is covered with;beşik tonoz;;3;thing.part_of;Stored as a vault that is part of the hall. own code for the kind of vault.
+431;184;tonoz;preserved part;yalnızca 1 m’lik kemer kısmı;;3;dimension, own kind;own code: preserved length
+432;184;hatıl yuvaları;lie below;hol zemini;;1;relation overlies;Stored in the other direction: the floor overlies the sockets.
+433;184;hatıl yuvaları;measures (height);0.52 m;;1;dimension;
+434;184;huni biçimli çanak;was found in grid square;U25/1;;1;find_context.found_in, place of kind square;
+435;184;huni biçimli çanak;was found in position within grid square;A1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+436;184;huni biçimli çanak;was found at elevation;891.256 m;;1;dimension, kind elevation;
+437;184;huni biçimli çanak;number of pieces;bir adet;;1;dimension, kind count;
+438;184;huni biçimli çanak;measures (diameter);0.27 m;;1;dimension;
+439;184;huni biçimli çanak;measures (depth);0.21 m;;1;dimension;
+440;184;özellikli mimari bloklar;were uncovered in grid square;U23/2;;1;find_context.found_in;
+441;184;özellikli mimari bloklar;were uncovered in grid square;U23/4;;1;find_context.found_in;
+442;184;özellikli mimari bloklar;were uncovered in grid square;U24/1;;1;find_context.found_in;
+443;184;özellikli mimari bloklar;were uncovered in grid square;U24/2;;1;find_context.found_in;
+444;184;özellikli mimari bloklar;were uncovered in grid square;U24/3;;1;find_context.found_in;
+445;184;özellikli mimari bloklar;were uncovered in grid square;T23/4;;1;find_context.found_in;
+446;184;özellikli mimari bloklar;were uncovered in grid square;T24/1;;1;find_context.found_in;
+447;184;özellikli mimari bloklar;were uncovered in grid square;T24/3;;1;find_context.found_in;
+448;184;özellikli mimari bloklar;were uncovered in grid square;T24/4;;1;find_context.found_in;
+449;184;özellikli mimari bloklar;were uncovered in grid square;T25/1;;1;find_context.found_in;
+450;184;özellikli mimari bloklar;were uncovered in grid square;T25/2;;1;find_context.found_in;
+451;184;özellikli mimari bloklar;were uncovered in grid square;T25/3;;1;find_context.found_in;
+452;184;özellikli mimari bloklar;were uncovered in grid square;T25/4;;1;find_context.found_in;
+453;184;özellikli mimari bloklar;were uncovered in grid square;S25/4;;1;find_context.found_in;
+454;184;özellikli mimari bloklar;were uncovered in year;2024 yılı;;1;find_context.found_by;Through the excavation work, which is part of the season of 2024.
+455;184;özellikli mimari bloklar;number of unit numbers given;toplam 56 ünit numarası;;1;dimension, kind count;
+456;184;özellikli mimari bloklar;were moved to;taş rezerv alanı;;1;thing.location;
+457;184;özellikli mimari bloklar;were documented;belgelenen bloklar;;1;relation worked_on;
+458;184;Ünitler;are numbered in range;284-339;;3;identifier, own kind;A range of numbers for 56 blocks is stored as one text.
+459;184;CEJ kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+460;184;CEJ kodlu ok ucu;has find code;CEJ;;1;identifier;
+461;184;CEJ kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+462;184;CEJ kodlu ok ucu;was found in grid square;T24/4;;1;find_context.found_in, place of kind square;
+463;184;CEJ kodlu ok ucu;was found in position within grid square;C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+464;184;CEJ kodlu ok ucu;was found at elevation;891.668 m;;1;dimension, kind elevation;
+465;184;CEJ kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+466;184;CEJ kodlu ok ucu;is made of;demir;;1;thing.material;
+467;184;CEK kodlu sikke;is find of kind;sikke;;1;thing.type;
+468;184;CEK kodlu sikke;has find code;CEK;;1;identifier;
+469;184;CEK kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+470;184;CEK kodlu sikke;was found in grid square;T24/4;;1;find_context.found_in, place of kind square;
+471;184;CEK kodlu sikke;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+472;184;CEK kodlu sikke;was found at elevation;891.498 m;;1;dimension, kind elevation;
+473;184;CEK kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+474;184;CEK kodlu sikke;is made of;bronz;;1;thing.material;
+475;184;CEL kodlu boncuk;is find of kind;boncuk;;1;thing.type;
+476;184;CEL kodlu boncuk;has find code;CEL;;1;identifier;
+477;184;CEL kodlu boncuk;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+478;184;CEL kodlu boncuk;was found in grid square;T24/4;;1;find_context.found_in, place of kind square;
+479;184;CEL kodlu boncuk;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+480;184;CEL kodlu boncuk;was found at elevation;889.058 m;;1;dimension, kind elevation;
+481;184;CEL kodlu boncuk;number of pieces;bir adet;;1;dimension, kind count;
+482;184;CEL kodlu boncuk;is made of;cam;;1;thing.material;
+483;184;CEM kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+484;184;CEM kodlu cam parçaları;has find code;CEM;;1;identifier;
+485;184;CEM kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+486;184;CEM kodlu cam parçaları;was found in grid square;T24/4;;1;find_context.found_in, place of kind square;
+487;184;CEM kodlu cam parçaları;was found in position within grid square;B3-C3-D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+488;184;CEM kodlu cam parçaları;was found between elevations;895.138-890.468 m;;1;dimension, kind elevation, as a range;
+489;184;CEM kodlu cam parçaları;is made of;cam;;1;thing.material;
+490;184;CEN kodlu kandil;is find of kind;kandil;;1;thing.type;
+491;184;CEN kodlu kandil;has find code;CEN;;1;identifier;
+492;184;CEN kodlu kandil;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+493;184;CEN kodlu kandil;was found in grid square;T25/2;;1;find_context.found_in, place of kind square;
+494;184;CEN kodlu kandil;was found in position within grid square;E1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+495;184;CEN kodlu kandil;was found at elevation;891.478 m;;1;dimension, kind elevation;
+496;184;CEN kodlu kandil;number of pieces;bir adet;;1;dimension, kind count;
+497;184;CEN kodlu kandil;is made of;pişmiş toprak;;3;thing.material;own code for the material
+498;184;CEO kodlu cam parçası;is find of kind;cam parçası;;3;thing.type;own code for the kind
+499;184;CEO kodlu cam parçası;has find code;CEO;;1;identifier;
+500;184;CEO kodlu cam parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+501;184;CEO kodlu cam parçası;was found in grid square;T25/4;;1;find_context.found_in, place of kind square;
+502;184;CEO kodlu cam parçası;was found in position within grid square;B3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+503;184;CEO kodlu cam parçası;was found at elevation;891.378 m;;1;dimension, kind elevation;
+504;184;CEO kodlu cam parçası;number of pieces;bir adet;;1;dimension, kind count;
+505;184;CEO kodlu cam parçası;is made of;cam;;1;thing.material;
+506;184;CEP kodlu kandil;is find of kind;kandil;;1;thing.type;
+507;184;CEP kodlu kandil;has find code;CEP;;1;identifier;
+508;184;CEP kodlu kandil;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+509;184;CEP kodlu kandil;was found in grid square;T25/4;;1;find_context.found_in, place of kind square;
+510;184;CEP kodlu kandil;was found in position within grid square;B3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+511;184;CEP kodlu kandil;was found at elevation;891.358 m;;1;dimension, kind elevation;
+512;184;CEP kodlu kandil;number of pieces;bir adet;;1;dimension, kind count;
+513;184;CEP kodlu kandil;is made of;seramik;;3;thing.material;own code for the material
+514;184;CER kodlu seramik depolama kap parçaları;is find of kind;seramik depolama kap parçaları;;3;thing.type;own code for the kind
+515;184;CER kodlu seramik depolama kap parçaları;has find code;CER;;1;identifier;
+516;184;CER kodlu seramik depolama kap parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+517;184;CER kodlu seramik depolama kap parçaları;was found in grid square;T24/4;;1;find_context.found_in, place of kind square;
+518;184;CER kodlu seramik depolama kap parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+519;184;CER kodlu seramik depolama kap parçaları;was found between elevations;894.325-889.312 m;;1;dimension, kind elevation, as a range;
+520;184;CES kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+521;184;CES kodlu cam parçaları;has find code;CES;;1;identifier;
+522;184;CES kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+523;184;CES kodlu cam parçaları;was found in grid square;T25/4;;1;find_context.found_in, place of kind square;
+524;184;CES kodlu cam parçaları;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+525;184;CES kodlu cam parçaları;was found at elevation;891.878 m;;1;dimension, kind elevation;
+526;184;CES kodlu cam parçaları;is made of;cam;;1;thing.material;
+527;184;CET kodlu kandil;is find of kind;kandil;;1;thing.type;
+528;184;CET kodlu kandil;has find code;CET;;1;identifier;
+529;184;CET kodlu kandil;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+530;184;CET kodlu kandil;was found in grid square;T25/4;;1;find_context.found_in, place of kind square;
+531;184;CET kodlu kandil;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+532;184;CET kodlu kandil;was found at elevation;891.824 m;;1;dimension, kind elevation;
+533;184;CET kodlu kandil;number of pieces;bir adet;;1;dimension, kind count;
+534;184;CET kodlu kandil;is made of;pişmiş toprak;;3;thing.material;own code for the material
+535;184;CEU kodlu kandil parçaları;is find of kind;kandil parçaları;;3;thing.type;own code for the kind
+536;184;CEU kodlu kandil parçaları;has find code;CEU;;1;identifier;
+537;184;CEU kodlu kandil parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+538;184;CEU kodlu kandil parçaları;was found in grid square;T 25/4;;1;find_context.found_in, place of kind square;
+539;184;CEU kodlu kandil parçaları;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+540;184;CEU kodlu kandil parçaları;was found at elevation;891.648 m;;1;dimension, kind elevation;
+541;184;CEU kodlu kandil parçaları;is made of;pişmiş toprak;;3;thing.material;own code for the material
+542;184;CEY kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+543;184;CEY kodlu ok ucu;has find code;CEY;;1;identifier;
+544;184;CEY kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+545;184;CEY kodlu ok ucu;was found in grid square;T25/2;;1;find_context.found_in, place of kind square;
+546;184;CEY kodlu ok ucu;was found in position within grid square;D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+547;184;CEY kodlu ok ucu;was found at elevation;891.298 m;;1;dimension, kind elevation;
+548;184;CEY kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+549;184;CEY kodlu ok ucu;is made of;demir;;1;thing.material;
+550;184;CEZ 1-2 kodlu kandil;is find of kind;kandil;;1;thing.type;
+551;184;CEZ 1-2 kodlu kandil;has find code;CEZ 1-2;;1;identifier;
+552;184;CEZ 1-2 kodlu kandil;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+553;184;CEZ 1-2 kodlu kandil;was found in grid square;T25/2;;1;find_context.found_in, place of kind square;
+554;184;CEZ 1-2 kodlu kandil;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+555;184;CEZ 1-2 kodlu kandil;was found at elevation;891.008 m;;1;dimension, kind elevation;
+556;184;CEZ 1-2 kodlu kandil;number of pieces;iki adet;;1;dimension, kind count;
+557;184;CEZ 1-2 kodlu kandil;is made of;pişmiş toprak;;3;thing.material;own code for the material
+558;184;CEZ 1-2 kodlu kandil;is shown in figure;Resim: 8;;1;about;
+559;184;CFA kodlu insan kemikleri;is find of kind;insan kemikleri;;3;thing.type;own code for the kind
+560;184;CFA kodlu insan kemikleri;has find code;CFA;;1;identifier;
+561;184;CFA kodlu insan kemikleri;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+562;184;CFA kodlu insan kemikleri;was found in grid square;T25/2;;1;find_context.found_in, place of kind square;
+563;184;CFA kodlu insan kemikleri;was found in position within grid square;D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+564;184;CFA kodlu insan kemikleri;was found at elevation;891.088 m;;1;dimension, kind elevation;
+565;184;CFA kodlu insan kemikleri;is in condition;dağınık şekilde;;3;assertion condition;own code
+566;184;CFB kodlu yüzük;is find of kind;yüzük;;3;thing.type;own code for the kind
+567;184;CFB kodlu yüzük;has find code;CFB;;1;identifier;
+568;184;CFB kodlu yüzük;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+569;184;CFB kodlu yüzük;was found in grid square;T25/2;;1;find_context.found_in, place of kind square;
+570;184;CFB kodlu yüzük;was found in position within grid square;D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+571;184;CFB kodlu yüzük;was found at elevation;890.918 m;;1;dimension, kind elevation;
+572;184;CFB kodlu yüzük;number of pieces;bir adet;;1;dimension, kind count;
+573;184;CFB kodlu yüzük;is made of;bronz;;1;thing.material;
+574;184;CFC kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+575;184;CFC kodlu cam parçaları;has find code;CFC;;1;identifier;
+576;184;CFC kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+577;184;CFC kodlu cam parçaları;was found in grid square;T25/4;;1;find_context.found_in, place of kind square;
+578;184;CFC kodlu cam parçaları;was found in position within grid square;A4-B4-C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+579;184;CFC kodlu cam parçaları;was found at elevation;891.298 m;;1;dimension, kind elevation;
+580;184;CFC kodlu cam parçaları;is made of;cam;;1;thing.material;
+581;184;CFD kodlu kandil;is find of kind;kandil;;1;thing.type;
+582;184;CFD kodlu kandil;has find code;CFD;;1;identifier;
+583;184;CFD kodlu kandil;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+584;184;CFD kodlu kandil;was found in grid square;T25/2;;1;find_context.found_in, place of kind square;
+585;184;CFD kodlu kandil;was found in position within grid square;D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+586;184;CFD kodlu kandil;was found at elevation;890.918 m;;1;dimension, kind elevation;
+587;184;CFD kodlu kandil;number of pieces;bir adet;;1;dimension, kind count;
+588;184;CFD kodlu kandil;is made of;pişmiş toprak;;3;thing.material;own code for the material
+589;184;CFE kodlu kandil;is find of kind;kandil;;1;thing.type;
+590;184;CFE kodlu kandil;has find code;CFE;;1;identifier;
+591;184;CFE kodlu kandil;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+592;184;CFE kodlu kandil;was found in grid square;T 25/4;;1;find_context.found_in, place of kind square;
+593;184;CFE kodlu kandil;was found in position within grid square;B4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+594;184;CFE kodlu kandil;was found at elevation;890.978 m;;1;dimension, kind elevation;
+595;184;CFE kodlu kandil;number of pieces;bir adet;;1;dimension, kind count;
+596;184;CFE kodlu kandil;is made of;pişmiş toprak;;3;thing.material;own code for the material
+597;184;CFE kodlu kandil;is shown in figure;Resim: 8;;1;about;
+598;184;CFF kodlu insan kemikleri;is find of kind;insan kemikleri;;3;thing.type;own code for the kind
+599;184;CFF kodlu insan kemikleri;has find code;CFF;;1;identifier;
+600;184;CFF kodlu insan kemikleri;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+601;184;CFF kodlu insan kemikleri;was found in grid square;T25/2;;1;find_context.found_in, place of kind square;
+602;184;CFF kodlu insan kemikleri;was found in position within grid square;D1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+603;184;CFF kodlu insan kemikleri;was found at elevation;890.948 m;;1;dimension, kind elevation;
+604;184;CFF kodlu insan kemikleri;is in condition;dağınık şekilde;;3;assertion condition;own code
+605;184;CFG kodlu bilezik parçaları;is find of kind;bilezik parçaları;;3;thing.type;own code for the kind
+606;184;CFG kodlu bilezik parçaları;has find code;CFG;;1;identifier;
+607;184;CFG kodlu bilezik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+608;184;CFG kodlu bilezik parçaları;was found in grid square;T25/2;;1;find_context.found_in, place of kind square;
+609;184;CFG kodlu bilezik parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+610;184;CFG kodlu bilezik parçaları;was found at elevation;890.945 m;;1;dimension, kind elevation;
+611;184;CFG kodlu bilezik parçaları;is made of;cam;;1;thing.material;
+612;184;CFG kodlu bilezik parçaları;is shown in figure;Resim: 10;;1;about;
+613;184;CFH kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+614;184;CFH kodlu seramik parçaları;has find code;CFH;;1;identifier;
+615;184;CFH kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+616;184;CFH kodlu seramik parçaları;was found in grid square;T25/4;;1;find_context.found_in, place of kind square;
+617;184;CFH kodlu seramik parçaları;was found in position within grid square;D3-D4-D5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+618;184;CFH kodlu seramik parçaları;was found at elevation;890.550 m;;1;dimension, kind elevation;
+619;184;CFH kodlu kandil parçaları;is find of kind;kandil parçaları;;3;thing.type;own code for the kind
+620;184;CFH kodlu kandil parçaları;has find code;CFH;;1;identifier;
+621;184;CFH kodlu kandil parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+622;184;CFH kodlu kandil parçaları;was found in grid square;T25/4;;1;find_context.found_in, place of kind square;
+623;184;CFH kodlu kandil parçaları;was found in position within grid square;D3-D4-D5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+624;184;CFH kodlu kandil parçaları;was found at elevation;890.550 m;;1;dimension, kind elevation;
+625;184;CFJ kodlu halka;is find of kind;halka;;3;thing.type;own code for the kind
+626;184;CFJ kodlu halka;has find code;CFJ;;1;identifier;
+627;184;CFJ kodlu halka;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+628;184;CFJ kodlu halka;was found in grid square;T24/2;;1;find_context.found_in, place of kind square;
+629;184;CFJ kodlu halka;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+630;184;CFJ kodlu halka;was found at elevation;892.138 m;;1;dimension, kind elevation;
+631;184;CFJ kodlu halka;number of pieces;bir adet;;1;dimension, kind count;
+632;184;CFJ kodlu halka;is made of;bronz;;1;thing.material;
+633;184;CFL kodlu kaide parçası;is find of kind;kaide parçası;;3;thing.type;own code for the kind
+634;184;CFL kodlu kaide parçası;has find code;CFL;;1;identifier;
+635;184;CFL kodlu kaide parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+636;184;CFL kodlu kaide parçası;was found in grid square;T25/3;;1;find_context.found_in, place of kind square;
+637;184;CFL kodlu kaide parçası;was found in position within grid square;B1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+638;184;CFL kodlu kaide parçası;was found at elevation;891.118 m;;1;dimension, kind elevation;
+639;184;CFL kodlu kaide parçası;number of pieces;bir adet;;1;dimension, kind count;
+640;184;CFL kodlu kaide parçası;is made of;cam;;1;thing.material;
+641;184;CFM kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+642;184;CFM kodlu ok ucu;has find code;CFM;;1;identifier;
+643;184;CFM kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+644;184;CFM kodlu ok ucu;was found in grid square;T24/2;;1;find_context.found_in, place of kind square;
+645;184;CFM kodlu ok ucu;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+646;184;CFM kodlu ok ucu;was found at elevation;892.198 m;;1;dimension, kind elevation;
+647;184;CFM kodlu ok ucu;is made of;demir;;1;thing.material;
+648;184;CFM kodlu ok ucu;is in condition;kırık ve iki parça halinde;;3;assertion condition;own code
+649;184;CFN kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+650;184;CFN kodlu ok ucu;has find code;CFN;;1;identifier;
+651;184;CFN kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+652;184;CFN kodlu ok ucu;was found in grid square;T25/3;;1;find_context.found_in, place of kind square;
+653;184;CFN kodlu ok ucu;was found in position within grid square;E1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+654;184;CFN kodlu ok ucu;was found at elevation;893.128 m;;1;dimension, kind elevation;
+655;184;CFN kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+656;184;CFN kodlu ok ucu;is made of;demir;;1;thing.material;
+657;184;CFO kodlu aplik parçaları;is find of kind;aplik parçaları;;3;thing.type;own code for the kind
+658;184;CFO kodlu aplik parçaları;has find code;CFO;;1;identifier;
+659;184;CFO kodlu aplik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+660;184;CFO kodlu aplik parçaları;was found in grid square;T24/1;;1;find_context.found_in, place of kind square;
+661;184;CFO kodlu aplik parçaları;was found in position within grid square;E2-E3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+662;184;CFO kodlu aplik parçaları;was found at elevation;892.898 m;;1;dimension, kind elevation;
+663;184;CFO kodlu aplik parçaları;number of pieces;iki adet;;1;dimension, kind count;
+664;184;CFP kodlu kandil parçası;is find of kind;kandil parçası;;3;thing.type;own code for the kind
+665;184;CFP kodlu kandil parçası;has find code;CFP;;1;identifier;
+666;184;CFP kodlu kandil parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+667;184;CFP kodlu kandil parçası;was found in grid square;T24/2;;1;find_context.found_in, place of kind square;
+668;184;CFP kodlu kandil parçası;was found in position within grid square;D4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+669;184;CFP kodlu kandil parçası;was found at elevation;892.898 m;;1;dimension, kind elevation;
+670;184;CFP kodlu kandil parçası;is made of;pişmiş toprak;;3;thing.material;own code for the material
+671;184;CFR kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+672;184;CFR kodlu cam parçaları;has find code;CFR;;1;identifier;
+673;184;CFR kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+674;184;CFR kodlu cam parçaları;was found in grid square;T25/3;;1;find_context.found_in, place of kind square;
+675;184;CFR kodlu cam parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+676;184;CFR kodlu cam parçaları;was found at elevation;892.898 m;;1;dimension, kind elevation;
+677;184;CFR kodlu cam parçaları;is made of;cam;;1;thing.material;
+678;184;CFS kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+679;184;CFS kodlu ok ucu;has find code;CFS;;1;identifier;
+680;184;CFS kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+681;184;CFS kodlu ok ucu;was found in grid square;T24/1;;1;find_context.found_in, place of kind square;
+682;184;CFS kodlu ok ucu;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+683;184;CFS kodlu ok ucu;was found at elevation;892.538 m;;1;dimension, kind elevation;
+684;184;CFS kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+685;184;CFS kodlu ok ucu;is made of;demir;;1;thing.material;
+686;184;CGC kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+687;184;CGC kodlu ok ucu;has find code;CGC;;1;identifier;
+688;184;CGC kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+689;184;CGC kodlu ok ucu;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+690;184;CGC kodlu ok ucu;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+691;184;CGC kodlu ok ucu;was found at elevation;892.258 m;;1;dimension, kind elevation;
+692;184;CGC kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+693;184;CGC kodlu ok ucu;is made of;demir;;1;thing.material;
+694;184;CGD kodlu halka;is find of kind;halka;;3;thing.type;own code for the kind
+695;184;CGD kodlu halka;has find code;CGD;;1;identifier;
+696;184;CGD kodlu halka;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+697;184;CGD kodlu halka;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+698;184;CGD kodlu halka;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+699;184;CGD kodlu halka;was found at elevation;892.158 m;;1;dimension, kind elevation;
+700;184;CGD kodlu halka;is made of;demir;;1;thing.material;
+701;184;CGD kodlu aksam;is find of kind;aksam;;3;thing.type;own code for the kind
+702;184;CGD kodlu aksam;has find code;CGD;;1;identifier;
+703;184;CGD kodlu aksam;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+704;184;CGD kodlu aksam;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+705;184;CGD kodlu aksam;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+706;184;CGD kodlu aksam;was found at elevation;892.158 m;;1;dimension, kind elevation;
+707;184;CGD kodlu aksam;is made of;demir;;1;thing.material;
+708;184;CGE kodlu yüzük;is find of kind;yüzük;;3;thing.type;own code for the kind
+709;184;CGE kodlu yüzük;has find code;CGE;;1;identifier;
+710;184;CGE kodlu yüzük;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+711;184;CGE kodlu yüzük;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+712;184;CGE kodlu yüzük;was found in position within grid square;B5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+713;184;CGE kodlu yüzük;was found at elevation;892.108 m;;1;dimension, kind elevation;
+714;184;CGE kodlu yüzük;number of pieces;bir adet;;1;dimension, kind count;
+715;184;CGE kodlu yüzük;is made of;bronz;;1;thing.material;
+716;185;CGF kodlu taş alet;is find of kind;taş alet;?;3;assertion identified_as, with a claim;own code for the kind
+717;185;CGF kodlu taş alet;has find code;CGF;;1;identifier;
+718;185;CGF kodlu taş alet;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+719;185;CGF kodlu taş alet;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+720;185;CGF kodlu taş alet;was found in position within grid square;B4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+721;185;CGF kodlu taş alet;was found at elevation;892.098 m;;1;dimension, kind elevation;
+722;185;CGF kodlu taş alet;number of pieces;bir adet;;1;dimension, kind count;
+723;185;CGG kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+724;185;CGG kodlu ok ucu;has find code;CGG;;1;identifier;
+725;185;CGG kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+726;185;CGG kodlu ok ucu;was found in grid square;T25/1;;1;find_context.found_in, place of kind square;
+727;185;CGG kodlu ok ucu;was found in position within grid square;D2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+728;185;CGG kodlu ok ucu;was found at elevation;891.678 m;;1;dimension, kind elevation;
+729;185;CGG kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+730;185;CGG kodlu ok ucu;is made of;demir;;1;thing.material;
+731;185;CGH kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+732;185;CGH kodlu seramik parçaları;has find code;CGH;;1;identifier;
+733;185;CGH kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+734;185;CGH kodlu seramik parçaları;was found in grid square;T24/3-4;;1;find_context.found_in, place of kind square;
+735;185;CGH kodlu seramik parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+736;185;CGH kodlu seramik parçaları;was found between elevations;892.448-892.128 m;;1;dimension, kind elevation, as a range;
+737;185;CGH kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+738;185;CGH kodlu cam parçaları;has find code;CGH;;1;identifier;
+739;185;CGH kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+740;185;CGH kodlu cam parçaları;was found in grid square;T24/3-4;;1;find_context.found_in, place of kind square;
+741;185;CGH kodlu cam parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+742;185;CGH kodlu cam parçaları;was found between elevations;892.448-892.128 m;;1;dimension, kind elevation, as a range;
+743;185;CGH kodlu cam parçaları;is made of;cam;;1;thing.material;
+744;185;CGI kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+745;185;CGI kodlu ok ucu;has find code;CGI;;1;identifier;
+746;185;CGI kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+747;185;CGI kodlu ok ucu;was found in grid square;T24/4;;1;find_context.found_in, place of kind square;
+748;185;CGI kodlu ok ucu;was found in position within grid square;B2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+749;185;CGI kodlu ok ucu;was found at elevation;892.128 m;;1;dimension, kind elevation;
+750;185;CGI kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+751;185;CGI kodlu ok ucu;is made of;demir;;1;thing.material;
+752;185;CGK kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+753;185;CGK kodlu ok ucu;has find code;CGK;;1;identifier;
+754;185;CGK kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+755;185;CGK kodlu ok ucu;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+756;185;CGK kodlu ok ucu;was found in position within grid square;D4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+757;185;CGK kodlu ok ucu;was found at elevation;892.528 m;;1;dimension, kind elevation;
+758;185;CGK kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+759;185;CGK kodlu ok ucu;is made of;demir;;1;thing.material;
+760;185;CGL kodlu sikke;is find of kind;sikke;;1;thing.type;
+761;185;CGL kodlu sikke;has find code;CGL;;1;identifier;
+762;185;CGL kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+763;185;CGL kodlu sikke;was found in grid square;T25/3;;1;find_context.found_in, place of kind square;
+764;185;CGL kodlu sikke;was found in position within grid square;C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+765;185;CGL kodlu sikke;was found at elevation;890.678 m;;1;dimension, kind elevation;
+766;185;CGL kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+767;185;CGL kodlu sikke;is made of;bronz;;1;thing.material;
+768;185;CGN kodlu cam bilezik;is find of kind;cam bilezik;;3;thing.type;own code for the kind
+769;185;CGN kodlu cam bilezik;has find code;CGN;;1;identifier;
+770;185;CGN kodlu cam bilezik;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+771;185;CGN kodlu cam bilezik;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+772;185;CGN kodlu cam bilezik;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+773;185;CGN kodlu cam bilezik;was found at elevation;893.438 m;;1;dimension, kind elevation;
+774;185;CGN kodlu cam bilezik;is made of;cam;;1;thing.material;
+775;185;CGN kodlu cam kap parçaları;is find of kind;cam kap parçaları;;3;thing.type;own code for the kind
+776;185;CGN kodlu cam kap parçaları;has find code;CGN;;1;identifier;
+777;185;CGN kodlu cam kap parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+778;185;CGN kodlu cam kap parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+779;185;CGN kodlu cam kap parçaları;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+780;185;CGN kodlu cam kap parçaları;was found at elevation;893.438 m;;1;dimension, kind elevation;
+781;185;CGN kodlu cam kap parçaları;is made of;cam;;1;thing.material;
+782;185;CGN kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+783;185;CGN kodlu seramik parçaları;has find code;CGN;;1;identifier;
+784;185;CGN kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+785;185;CGN kodlu seramik parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+786;185;CGN kodlu seramik parçaları;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+787;185;CGN kodlu seramik parçaları;was found at elevation;893.438 m;;1;dimension, kind elevation;
+788;185;CGO kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+789;185;CGO kodlu seramik parçaları;has find code;CGO;;1;identifier;
+790;185;CGO kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+791;185;CGO kodlu seramik parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+792;185;CGO kodlu seramik parçaları;was found in position within grid square;B2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+793;185;CGO kodlu seramik parçaları;was found between elevations;894.288-893.768 m;;1;dimension, kind elevation, as a range;
+794;185;CGP kodlu obje;is find of kind;obje;;3;thing.type;own code for the kind
+795;185;CGP kodlu obje;has find code;CGP;;1;identifier;
+796;185;CGP kodlu obje;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+797;185;CGP kodlu obje;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+798;185;CGP kodlu obje;was found in position within grid square;B2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+799;185;CGP kodlu obje;was found at elevation;893.838 m;;1;dimension, kind elevation;
+800;185;CGP kodlu obje;number of pieces;bir adet;;1;dimension, kind count;
+801;185;CGP kodlu obje;is made of;bronz;;1;thing.material;
+802;185;CGP kodlu obje;is in condition;kırık durumda;;3;assertion condition;own code
+803;185;CGR kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+804;185;CGR kodlu ok ucu;has find code;CGR;;1;identifier;
+805;185;CGR kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+806;185;CGR kodlu ok ucu;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+807;185;CGR kodlu ok ucu;was found in position within grid square;B2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+808;185;CGR kodlu ok ucu;was found at elevation;893.788 m;;1;dimension, kind elevation;
+809;185;CGR kodlu ok ucu;is made of;demir;;1;thing.material;
+810;185;CGS kodlu çanak(?) parçaları;is find of kind;çanak(?) parçaları;?;3;assertion identified_as, with a claim;own code for the kind
+811;185;CGS kodlu çanak(?) parçaları;has find code;CGS;;1;identifier;
+812;185;CGS kodlu çanak(?) parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+813;185;CGS kodlu çanak(?) parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+814;185;CGS kodlu çanak(?) parçaları;was found in position within grid square;B2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+815;185;CGS kodlu çanak(?) parçaları;was found at elevation;893.768 m;;1;dimension, kind elevation;
+816;185;CGT kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+817;185;CGT kodlu seramik parçaları;has find code;CGT;;1;identifier;
+818;185;CGT kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+819;185;CGT kodlu seramik parçaları;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+820;185;CGT kodlu seramik parçaları;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+821;185;CGT kodlu seramik parçaları;was found between elevations;893.475-893.473 m;;1;dimension, kind elevation, as a range;
+822;185;CGT kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+823;185;CGT kodlu cam parçaları;has find code;CGT;;1;identifier;
+824;185;CGT kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+825;185;CGT kodlu cam parçaları;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+826;185;CGT kodlu cam parçaları;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+827;185;CGT kodlu cam parçaları;was found between elevations;893.475-893.473 m;;1;dimension, kind elevation, as a range;
+828;185;CGT kodlu cam parçaları;is made of;cam;;1;thing.material;
+829;185;CGU kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+830;185;CGU kodlu seramik parçaları;has find code;CGU;;1;identifier;
+831;185;CGU kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+832;185;CGU kodlu seramik parçaları;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+833;185;CGU kodlu seramik parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+834;185;CGU kodlu seramik parçaları;was found between elevations;893.478-893.178 m;;1;dimension, kind elevation, as a range;
+835;185;CGU kodlu kandil parçaları;is find of kind;kandil parçaları;;3;thing.type;own code for the kind
+836;185;CGU kodlu kandil parçaları;has find code;CGU;;1;identifier;
+837;185;CGU kodlu kandil parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+838;185;CGU kodlu kandil parçaları;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+839;185;CGU kodlu kandil parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+840;185;CGU kodlu kandil parçaları;was found between elevations;893.478-893.178 m;;1;dimension, kind elevation, as a range;
+841;185;CGV kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+842;185;CGV kodlu cam parçaları;has find code;CGV;;1;identifier;
+843;185;CGV kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+844;185;CGV kodlu cam parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+845;185;CGV kodlu cam parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+846;185;CGV kodlu cam parçaları;was found between elevations;893.868-893.188 m;;1;dimension, kind elevation, as a range;
+847;185;CGV kodlu cam parçaları;is made of;cam;;1;thing.material;
+848;185;CGV kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+849;185;CGV kodlu seramik parçaları;has find code;CGV;;1;identifier;
+850;185;CGV kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+851;185;CGV kodlu seramik parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+852;185;CGV kodlu seramik parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+853;185;CGV kodlu seramik parçaları;was found between elevations;893.868-893.188 m;;1;dimension, kind elevation, as a range;
+854;185;CGY kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+855;185;CGY kodlu seramik parçaları;has find code;CGY;;1;identifier;
+856;185;CGY kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+857;185;CGY kodlu seramik parçaları;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+858;185;CGY kodlu seramik parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+859;185;CGY kodlu seramik parçaları;was found between elevations;893.228-892.818 m;;1;dimension, kind elevation, as a range;
+860;185;CGZ kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+861;185;CGZ kodlu seramik parçaları;has find code;CGZ;;1;identifier;
+862;185;CGZ kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+863;185;CGZ kodlu seramik parçaları;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+864;185;CGZ kodlu seramik parçaları;was found in position within grid square;C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+865;185;CGZ kodlu seramik parçaları;was found at elevation;892.848 m;;1;dimension, kind elevation;
+866;185;CGZ kodlu seramik parçaları;is in condition;tamamlanabilir;;3;assertion condition;own code
+867;185;CHA kodlu aplik parçası;is find of kind;aplik parçası;;3;thing.type;own code for the kind
+868;185;CHA kodlu aplik parçası;has find code;CHA;;1;identifier;
+869;185;CHA kodlu aplik parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+870;185;CHA kodlu aplik parçası;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+871;185;CHA kodlu aplik parçası;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+872;185;CHA kodlu aplik parçası;was found at elevation;892.828 m;;1;dimension, kind elevation;
+873;185;CHA kodlu aplik parçası;number of pieces;bir adet;;1;dimension, kind count;
+874;185;CHA kodlu aplik parçası;is made of;bronz;;1;thing.material;
+875;185;CHB kodlu ağırşak;is find of kind;ağırşak;;3;thing.type;own code for the kind
+876;185;CHB kodlu ağırşak;has find code;CHB;;1;identifier;
+877;185;CHB kodlu ağırşak;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+878;185;CHB kodlu ağırşak;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+879;185;CHB kodlu ağırşak;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+880;185;CHB kodlu ağırşak;was found at elevation;892.178 m;;1;dimension, kind elevation;
+881;185;CHB kodlu ağırşak;number of pieces;bir adet;;1;dimension, kind count;
+882;185;CHB kodlu ağırşak;is made of;klorit;;3;thing.material;own code for the material
+883;185;CHE kodlu sikke;is find of kind;sikke;;1;thing.type;
+884;185;CHE kodlu sikke;has find code;CHE;;1;identifier;
+885;185;CHE kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+886;185;CHE kodlu sikke;was found in grid square;T23/3;;1;find_context.found_in, place of kind square;
+887;185;CHE kodlu sikke;was found in position within grid square;D2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+888;185;CHE kodlu sikke;was found at elevation;892.898 m;;1;dimension, kind elevation;
+889;185;CHE kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+890;185;CHE kodlu sikke;is made of;bronz;;1;thing.material;
+891;185;CHF kodlu ağırşak;is find of kind;ağırşak;;3;thing.type;own code for the kind
+892;185;CHF kodlu ağırşak;has find code;CHF;;1;identifier;
+893;185;CHF kodlu ağırşak;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+894;185;CHF kodlu ağırşak;was found in grid square;T24/3;;1;find_context.found_in, place of kind square;
+895;185;CHF kodlu ağırşak;was found in position within grid square;D2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+896;185;CHF kodlu ağırşak;was found at elevation;892.858 m;;1;dimension, kind elevation;
+897;185;CHF kodlu ağırşak;number of pieces;bir adet;;1;dimension, kind count;
+898;185;CHF kodlu ağırşak;is made of;klorit;;3;thing.material;own code for the material
+899;185;CHF kodlu ağırşak;is shown in figure;Resim: 11;;1;about;
+900;185;CHH kodlu haç motifli fibula;is find of kind;haç motifli fibula;;3;thing.type;own code for the kind
+901;185;CHH kodlu haç motifli fibula;has find code;CHH;;1;identifier;
+902;185;CHH kodlu haç motifli fibula;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+903;185;CHH kodlu haç motifli fibula;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+904;185;CHH kodlu haç motifli fibula;was found in position within grid square;E4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+905;185;CHH kodlu haç motifli fibula;was found at elevation;892.848 m;;1;dimension, kind elevation;
+906;185;CHH kodlu haç motifli fibula;number of pieces;birer adet;;1;dimension, kind count;
+907;185;CHH kodlu haç motifli fibula;is made of;bronz;;1;thing.material;
+908;185;CHH kodlu haç motifli fibula;is shown in figure;Resim: 5;;1;about;
+909;185;CHH kodlu sikke;is find of kind;sikke;;1;thing.type;
+910;185;CHH kodlu sikke;has find code;CHH;;1;identifier;
+911;185;CHH kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+912;185;CHH kodlu sikke;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+913;185;CHH kodlu sikke;was found in position within grid square;E4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+914;185;CHH kodlu sikke;was found at elevation;892.848 m;;1;dimension, kind elevation;
+915;185;CHH kodlu sikke;number of pieces;birer adet;;1;dimension, kind count;
+916;185;CHH kodlu sikke;is made of;bronz;;1;thing.material;
+917;185;CHH kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+918;185;CHH kodlu seramik parçaları;has find code;CHH;;1;identifier;
+919;185;CHH kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+920;185;CHH kodlu seramik parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+921;185;CHH kodlu seramik parçaları;was found in position within grid square;E4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+922;185;CHH kodlu seramik parçaları;was found at elevation;892.848 m;;1;dimension, kind elevation;
+923;185;CHI kodlu ok ucu parçası;is find of kind;ok ucu parçası;;3;thing.type;own code for the kind
+924;185;CHI kodlu ok ucu parçası;has find code;CHI;;1;identifier;
+925;185;CHI kodlu ok ucu parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+926;185;CHI kodlu ok ucu parçası;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+927;185;CHI kodlu ok ucu parçası;was found in position within grid square;E4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+928;185;CHI kodlu ok ucu parçası;was found at elevation;892.948 m;;1;dimension, kind elevation;
+929;185;CHI kodlu ok ucu parçası;number of pieces;bir adet;;1;dimension, kind count;
+930;185;CHI kodlu ok ucu parçası;is made of;demir;;1;thing.material;
+931;185;CHJ kodlu obje parçası;is find of kind;obje parçası;;3;thing.type;own code for the kind
+932;185;CHJ kodlu obje parçası;has find code;CHJ;;1;identifier;
+933;185;CHJ kodlu obje parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+934;185;CHJ kodlu obje parçası;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+935;185;CHJ kodlu obje parçası;was found in position within grid square;A3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+936;185;CHJ kodlu obje parçası;was found at elevation;892.728 m;;1;dimension, kind elevation;
+937;185;CHJ kodlu obje parçası;number of pieces;bir adet;;1;dimension, kind count;
+938;185;CHJ kodlu obje parçası;is made of;bronz;;1;thing.material;
+939;185;CHK kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+940;185;CHK kodlu cam parçaları;has find code;CHK;;1;identifier;
+941;185;CHK kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+942;185;CHK kodlu cam parçaları;was found in grid square;T24/1;;1;find_context.found_in, place of kind square;
+943;185;CHK kodlu cam parçaları;was found in position within grid square;D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+944;185;CHK kodlu cam parçaları;was found at elevation;892.338 m;;1;dimension, kind elevation;
+945;185;CHK kodlu cam parçaları;is made of;cam;;1;thing.material;
+946;185;CHL kodlu unguentarium parçası;is find of kind;unguentarium parçası;;3;thing.type;own code for the kind
+947;185;CHL kodlu unguentarium parçası;has find code;CHL;;1;identifier;
+948;185;CHL kodlu unguentarium parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+949;185;CHL kodlu unguentarium parçası;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+950;185;CHL kodlu unguentarium parçası;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+951;185;CHL kodlu unguentarium parçası;was found at elevation;892.308 m;;1;dimension, kind elevation;
+952;185;CHL kodlu unguentarium parçası;number of pieces;bir adet;;1;dimension, kind count;
+953;185;CHL kodlu unguentarium parçası;is made of;cam;;1;thing.material;
+954;185;CHL kodlu unguentarium parçası;is shown in figure;Resim: 9;;1;about;
+955;185;CHN kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+956;185;CHN kodlu ok ucu;has find code;CHN;;1;identifier;
+957;185;CHN kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+958;185;CHN kodlu ok ucu;was found in grid square;T23/2;;1;find_context.found_in, place of kind square;
+959;185;CHN kodlu ok ucu;was found in position within grid square;C5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+960;185;CHN kodlu ok ucu;was found at elevation;892.309 m;;1;dimension, kind elevation;
+961;185;CHN kodlu ok ucu;number of pieces;birer adet;;1;dimension, kind count;
+962;185;CHN kodlu ok ucu;is made of;demir;;1;thing.material;
+963;185;CHN kodlu aplik parçası;is find of kind;aplik parçası;;3;thing.type;own code for the kind
+964;185;CHN kodlu aplik parçası;has find code;CHN;;1;identifier;
+965;185;CHN kodlu aplik parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+966;185;CHN kodlu aplik parçası;was found in grid square;T23/2;;1;find_context.found_in, place of kind square;
+967;185;CHN kodlu aplik parçası;was found in position within grid square;C5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+968;185;CHN kodlu aplik parçası;was found at elevation;892.309 m;;1;dimension, kind elevation;
+969;185;CHN kodlu aplik parçası;number of pieces;birer adet;;1;dimension, kind count;
+970;185;CHN kodlu aplik parçası;is made of;bronz;;1;thing.material;
+971;185;CHO kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+972;185;CHO kodlu ok ucu;has find code;CHO;;1;identifier;
+973;185;CHO kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+974;185;CHO kodlu ok ucu;was found in grid square;T23/2;;1;find_context.found_in, place of kind square;
+975;185;CHO kodlu ok ucu;was found in position within grid square;D5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+976;185;CHO kodlu ok ucu;was found at elevation;892.279 m;;1;dimension, kind elevation;
+977;185;CHO kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+978;185;CHO kodlu ok ucu;is made of;demir;;1;thing.material;
+979;185;CHP kodlu ok ucu parçası;is find of kind;ok ucu parçası;;3;thing.type;own code for the kind
+980;185;CHP kodlu ok ucu parçası;has find code;CHP;;1;identifier;
+981;185;CHP kodlu ok ucu parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+982;185;CHP kodlu ok ucu parçası;was found in grid square;T25/3;;1;find_context.found_in, place of kind square;
+983;185;CHP kodlu ok ucu parçası;was found in position within grid square;D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+984;185;CHP kodlu ok ucu parçası;was found at elevation;897.656 m;;1;dimension, kind elevation;
+985;185;CHP kodlu ok ucu parçası;number of pieces;birer adet;;1;dimension, kind count;
+986;185;CHP kodlu ok ucu parçası;is made of;demir;;1;thing.material;
+987;185;CHP kodlu aplik parçası;is find of kind;aplik parçası;;3;thing.type;own code for the kind
+988;185;CHP kodlu aplik parçası;has find code;CHP;;1;identifier;
+989;185;CHP kodlu aplik parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+990;185;CHP kodlu aplik parçası;was found in grid square;T25/3;;1;find_context.found_in, place of kind square;
+991;185;CHP kodlu aplik parçası;was found in position within grid square;D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+992;185;CHP kodlu aplik parçası;was found at elevation;897.656 m;;1;dimension, kind elevation;
+993;185;CHP kodlu aplik parçası;number of pieces;birer adet;;1;dimension, kind count;
+994;185;CHP kodlu aplik parçası;is made of;taş;;1;thing.material;
+995;185;CHR kodlu kilit aksamı;is find of kind;kilit aksamı;;3;thing.type;own code for the kind
+996;185;CHR kodlu kilit aksamı;has find code;CHR;;1;identifier;
+997;185;CHR kodlu kilit aksamı;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+998;185;CHR kodlu kilit aksamı;was found in grid square;T23/2;;1;find_context.found_in, place of kind square;
+999;185;CHR kodlu kilit aksamı;was found in position within grid square;C2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1000;185;CHR kodlu kilit aksamı;was found at elevation;893.436 m;;1;dimension, kind elevation;
+1001;185;CHR kodlu kilit aksamı;number of pieces;bir adet;;1;dimension, kind count;
+1002;185;CHR kodlu kilit aksamı;is made of;demir;;1;thing.material;
+1003;185;CHU kodlu boncuk;is find of kind;boncuk;;1;thing.type;
+1004;185;CHU kodlu boncuk;has find code;CHU;;1;identifier;
+1005;185;CHU kodlu boncuk;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1006;185;CHU kodlu boncuk;was found in grid square;T23/4;;1;find_context.found_in, place of kind square;
+1007;185;CHU kodlu boncuk;was found in position within grid square;C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1008;185;CHU kodlu boncuk;was found at elevation;893.846 m;;1;dimension, kind elevation;
+1009;185;CHU kodlu boncuk;number of pieces;bir adet;;1;dimension, kind count;
+1010;185;CHU kodlu boncuk;is made of;cam;;1;thing.material;
+1011;185;CHV kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+1012;185;CHV kodlu seramik parçaları;has find code;CHV;;1;identifier;
+1013;185;CHV kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1014;185;CHV kodlu seramik parçaları;was found in grid square;T23/4;;1;find_context.found_in, place of kind square;
+1015;185;CHV kodlu seramik parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1016;185;CHV kodlu seramik parçaları;was found between elevations;893.856-893.446 m;;1;dimension, kind elevation, as a range;
+1017;185;CHV kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+1018;185;CHV kodlu cam parçaları;has find code;CHV;;1;identifier;
+1019;185;CHV kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1020;185;CHV kodlu cam parçaları;was found in grid square;T23/4;;1;find_context.found_in, place of kind square;
+1021;185;CHV kodlu cam parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1022;185;CHV kodlu cam parçaları;was found between elevations;893.856-893.446 m;;1;dimension, kind elevation, as a range;
+1023;185;CHV kodlu cam parçaları;is made of;cam;;1;thing.material;
+1024;185;CHY kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+1025;185;CHY kodlu seramik parçaları;has find code;CHY;;1;identifier;
+1026;185;CHY kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1027;185;CHY kodlu seramik parçaları;was found in grid square;T24/3-4;;1;find_context.found_in, place of kind square;
+1028;185;CHY kodlu seramik parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1029;185;CHY kodlu seramik parçaları;was found between elevations;892.196-891.746 m;;1;dimension, kind elevation, as a range;
+1030;185;CHY kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+1031;185;CHY kodlu cam parçaları;has find code;CHY;;1;identifier;
+1032;185;CHY kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1033;185;CHY kodlu cam parçaları;was found in grid square;T24/3-4;;1;find_context.found_in, place of kind square;
+1034;185;CHY kodlu cam parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1035;185;CHY kodlu cam parçaları;was found between elevations;892.196-891.746 m;;1;dimension, kind elevation, as a range;
+1036;185;CHY kodlu cam parçaları;is made of;cam;;1;thing.material;
+1037;185;CHZ kodlu çuvaldız;is find of kind;çuvaldız;;3;thing.type;own code for the kind
+1038;185;CHZ kodlu çuvaldız;has find code;CHZ;;1;identifier;
+1039;185;CHZ kodlu çuvaldız;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1040;185;CHZ kodlu çuvaldız;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1041;185;CHZ kodlu çuvaldız;was found in position within grid square;C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1042;185;CHZ kodlu çuvaldız;was found at elevation;894.106 m;;1;dimension, kind elevation;
+1043;185;CHZ kodlu çuvaldız;number of pieces;bir adet;;1;dimension, kind count;
+1044;185;CHZ kodlu çuvaldız;is made of;demir;;1;thing.material;
+1045;185;CIB kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+1046;185;CIB kodlu seramik parçaları;has find code;CIB;;1;identifier;
+1047;185;CIB kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1048;185;CIB kodlu seramik parçaları;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1049;185;CIB kodlu seramik parçaları;was found in position within grid square;A4-5/B4-5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1050;185;CIB kodlu seramik parçaları;was found between elevations;894.596-893.756 m;;1;dimension, kind elevation, as a range;
+1051;185;CIC kodlu bilezik parçaları;is find of kind;bilezik parçaları;;3;thing.type;own code for the kind
+1052;185;CIC kodlu bilezik parçaları;has find code;CIC;;1;identifier;
+1053;185;CIC kodlu bilezik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1054;185;CIC kodlu bilezik parçaları;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1055;185;CIC kodlu bilezik parçaları;was found in position within grid square;B4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1056;185;CIC kodlu bilezik parçaları;was found at elevation;893.996 m;;1;dimension, kind elevation;
+1057;185;CIC kodlu bilezik parçaları;number of pieces;3 adet;;1;dimension, kind count;
+1058;185;CIC kodlu bilezik parçaları;is made of;cam;;1;thing.material;
+1059;185;CID kodlu kandil parçası;is find of kind;kandil parçası;;3;thing.type;own code for the kind
+1060;185;CID kodlu kandil parçası;has find code;CID;;1;identifier;
+1061;185;CID kodlu kandil parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1062;185;CID kodlu kandil parçası;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1063;185;CID kodlu kandil parçası;was found in position within grid square;B4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1064;185;CID kodlu kandil parçası;was found at elevation;893.856 m;;1;dimension, kind elevation;
+1065;185;CID kodlu kandil parçası;number of pieces;bir adet;;1;dimension, kind count;
+1066;185;CID kodlu kandil parçası;is made of;pişmiş toprak;;3;thing.material;own code for the material
+1067;185;CID kodlu kandil parçası;is in condition;büyük kısmı korunmuş;;3;assertion condition;own code
+1068;185;CIF kodlu amulet parçaları;is find of kind;amulet parçaları;;3;thing.type;own code for the kind
+1069;185;CIF kodlu amulet parçaları;has find code;CIF;;1;identifier;
+1070;185;CIF kodlu amulet parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1071;185;CIF kodlu amulet parçaları;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1072;185;CIF kodlu amulet parçaları;was found in position within grid square;E3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1073;185;CIF kodlu amulet parçaları;was found at elevation;893.916 m;;1;dimension, kind elevation;
+1074;185;CIF kodlu amulet parçaları;is made of;kemik;;1;thing.material;
+1075;185;CIG kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+1076;185;CIG kodlu seramik parçaları;has find code;CIG;;1;identifier;
+1077;185;CIG kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1078;185;CIG kodlu seramik parçaları;was found in grid square;U23/4;;1;find_context.found_in, place of kind square;
+1079;185;CIG kodlu seramik parçaları;was found in position within grid square;A3-A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1080;185;CIG kodlu seramik parçaları;was found between elevations;893.956-893.586 m;;1;dimension, kind elevation, as a range;
+1081;185;CIG kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+1082;185;CIG kodlu cam parçaları;has find code;CIG;;1;identifier;
+1083;185;CIG kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1084;185;CIG kodlu cam parçaları;was found in grid square;U23/4;;1;find_context.found_in, place of kind square;
+1085;185;CIG kodlu cam parçaları;was found in position within grid square;A3-A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1086;185;CIG kodlu cam parçaları;was found between elevations;893.956-893.586 m;;1;dimension, kind elevation, as a range;
+1087;185;CIG kodlu cam parçaları;is made of;cam;;1;thing.material;
+1088;185;CIH kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+1089;185;CIH kodlu ok ucu;has find code;CIH;;1;identifier;
+1090;185;CIH kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1091;185;CIH kodlu ok ucu;was found in grid square;U23/4;;1;find_context.found_in, place of kind square;
+1092;185;CIH kodlu ok ucu;was found in position within grid square;A4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1093;185;CIH kodlu ok ucu;was found at elevation;893.596 m;;1;dimension, kind elevation;
+1094;185;CIH kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+1095;185;CIH kodlu ok ucu;is made of;demir;;1;thing.material;
+1096;185;CII kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+1097;185;CII kodlu seramik parçaları;has find code;CII;;1;identifier;
+1098;185;CII kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1099;185;CII kodlu seramik parçaları;was found in grid square;U23/4;;1;find_context.found_in, place of kind square;
+1100;185;CII kodlu seramik parçaları;was found in position within grid square;C3-C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1101;185;CII kodlu seramik parçaları;was found between elevations;893.616-893.636 m;;1;dimension, kind elevation, as a range;
+1102;185;CIJ kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+1103;185;CIJ kodlu cam parçaları;has find code;CIJ;;1;identifier;
+1104;185;CIJ kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1105;185;CIJ kodlu cam parçaları;was found in grid square;T23/2;;1;find_context.found_in, place of kind square;
+1106;185;CIJ kodlu cam parçaları;was found in position within grid square;D5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1107;185;CIJ kodlu cam parçaları;was found at elevation;893.136 m;;1;dimension, kind elevation;
+1108;185;CIJ kodlu cam parçaları;is made of;cam;;1;thing.material;
+1109;185;CIK kodlu halka;is find of kind;halka;;3;thing.type;own code for the kind
+1110;185;CIK kodlu halka;has find code;CIK;;1;identifier;
+1111;185;CIK kodlu halka;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1112;185;CIK kodlu halka;was found in grid square;U23/4;;1;find_context.found_in, place of kind square;
+1113;185;CIK kodlu halka;was found in position within grid square;C4-C5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1114;185;CIK kodlu halka;was found at elevation;893.976 m;;1;dimension, kind elevation;
+1115;185;CIK kodlu halka;number of pieces;bir adet;;1;dimension, kind count;
+1116;185;CIK kodlu halka;is made of;demir;;1;thing.material;
+1117;185;CIM kodlu ağırşak;is find of kind;ağırşak;;3;thing.type;own code for the kind
+1118;185;CIM kodlu ağırşak;has find code;CIM;;1;identifier;
+1119;185;CIM kodlu ağırşak;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1120;185;CIM kodlu ağırşak;was found in grid square;T23/2;;1;find_context.found_in, place of kind square;
+1121;185;CIM kodlu ağırşak;was found in position within grid square;E4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1122;185;CIM kodlu ağırşak;was found at elevation;893.126 m;;1;dimension, kind elevation;
+1123;185;CIM kodlu ağırşak;number of pieces;bir adet;;1;dimension, kind count;
+1124;185;CIM kodlu ağırşak;is made of;kemik;;1;thing.material;
+1125;185;CIN kodlu sikke;is find of kind;sikke;;1;thing.type;
+1126;185;CIN kodlu sikke;has find code;CIN;;1;identifier;
+1127;185;CIN kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1128;185;CIN kodlu sikke;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+1129;185;CIN kodlu sikke;was found in position within grid square;D4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1130;185;CIN kodlu sikke;was found at elevation;893.056 m;;1;dimension, kind elevation;
+1131;185;CIN kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+1132;185;CIN kodlu sikke;is made of;bronz;;1;thing.material;
+1133;185;CIP kodlu sikke;is find of kind;sikke;;1;thing.type;
+1134;185;CIP kodlu sikke;has find code;CIP;;1;identifier;
+1135;185;CIP kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1136;185;CIP kodlu sikke;was found in grid square;T23/3;;1;find_context.found_in, place of kind square;
+1137;185;CIP kodlu sikke;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1138;185;CIP kodlu sikke;was found at elevation;890.176 m;;1;dimension, kind elevation;
+1139;185;CIP kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+1140;185;CIP kodlu sikke;is made of;bronz;;1;thing.material;
+1141;185;CIS kodlu sikke;is find of kind;sikke;;1;thing.type;
+1142;185;CIS kodlu sikke;has find code;CIS;;1;identifier;
+1143;185;CIS kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1144;185;CIS kodlu sikke;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1145;185;CIS kodlu sikke;was found in position within grid square;C2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1146;185;CIS kodlu sikke;was found at elevation;893.546 m;;1;dimension, kind elevation;
+1147;185;CIS kodlu sikke;number of pieces;birer adet;;1;dimension, kind count;
+1148;185;CIS kodlu sikke;is made of;bronz;;1;thing.material;
+1149;185;CIS kodlu çivi;is find of kind;çivi;;3;thing.type;own code for the kind
+1150;185;CIS kodlu çivi;has find code;CIS;;1;identifier;
+1151;185;CIS kodlu çivi;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1152;185;CIS kodlu çivi;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1153;185;CIS kodlu çivi;was found in position within grid square;C2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1154;185;CIS kodlu çivi;was found at elevation;893.546 m;;1;dimension, kind elevation;
+1155;185;CIS kodlu çivi;number of pieces;birer adet;;1;dimension, kind count;
+1156;185;CIS kodlu çivi;is made of;demir;;1;thing.material;
+1157;185;CIT kodlu aplik parçası;is find of kind;aplik parçası;;3;thing.type;own code for the kind
+1158;185;CIT kodlu aplik parçası;has find code;CIT;;1;identifier;
+1159;185;CIT kodlu aplik parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1160;185;CIT kodlu aplik parçası;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1161;185;CIT kodlu aplik parçası;was found in position within grid square;C2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1162;185;CIT kodlu aplik parçası;was found at elevation;893.246 m;;1;dimension, kind elevation;
+1163;185;CIT kodlu aplik parçası;number of pieces;bir adet;;1;dimension, kind count;
+1164;185;CIT kodlu aplik parçası;is made of;bronz;;1;thing.material;
+1165;185;CIU kodlu aksam;is find of kind;aksam;;3;thing.type;own code for the kind
+1166;185;CIU kodlu aksam;has find code;CIU;;1;identifier;
+1167;185;CIU kodlu aksam;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1168;185;CIU kodlu aksam;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+1169;185;CIU kodlu aksam;was found in position within grid square;E3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1170;185;CIU kodlu aksam;was found at elevation;893.036 m;;1;dimension, kind elevation;
+1171;185;CIU kodlu aksam;number of pieces;birer adet;;1;dimension, kind count;
+1172;185;CIU kodlu aksam;is made of;demir;;1;thing.material;
+1173;185;CIU kodlu iğne parçası;is find of kind;iğne parçası;;3;thing.type;own code for the kind
+1174;185;CIU kodlu iğne parçası;has find code;CIU;;1;identifier;
+1175;185;CIU kodlu iğne parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1176;185;CIU kodlu iğne parçası;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+1177;185;CIU kodlu iğne parçası;was found in position within grid square;E3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1178;185;CIU kodlu iğne parçası;was found at elevation;893.036 m;;1;dimension, kind elevation;
+1179;185;CIU kodlu iğne parçası;number of pieces;birer adet;;1;dimension, kind count;
+1180;185;CIU kodlu iğne parçası;is made of;demir;;1;thing.material;
+1181;186;CIV 1-2 kodlu sikke;is find of kind;sikke;;1;thing.type;
+1182;186;CIV 1-2 kodlu sikke;has find code;CIV 1-2;;1;identifier;
+1183;186;CIV 1-2 kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1184;186;CIV 1-2 kodlu sikke;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1185;186;CIV 1-2 kodlu sikke;was found in position within grid square;D3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1186;186;CIV 1-2 kodlu sikke;was found at elevation;893.326 m;;1;dimension, kind elevation;
+1187;186;CIV 1-2 kodlu sikke;number of pieces;iki adet;;1;dimension, kind count;
+1188;186;CIV 1-2 kodlu sikke;is made of;bronz;;1;thing.material;
+1189;186;CIY kodlu ok ucu;is find of kind;ok ucu;;3;thing.type;own code for the kind
+1190;186;CIY kodlu ok ucu;has find code;CIY;;1;identifier;
+1191;186;CIY kodlu ok ucu;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1192;186;CIY kodlu ok ucu;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1193;186;CIY kodlu ok ucu;was found in position within grid square;C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1194;186;CIY kodlu ok ucu;was found at elevation;893.206 m;;1;dimension, kind elevation;
+1195;186;CIY kodlu ok ucu;number of pieces;bir adet;;1;dimension, kind count;
+1196;186;CIY kodlu ok ucu;is made of;demir;;1;thing.material;
+1197;186;CIZ kodlu bilezik parçası;is find of kind;bilezik parçası;;3;thing.type;own code for the kind
+1198;186;CIZ kodlu bilezik parçası;has find code;CIZ;;1;identifier;
+1199;186;CIZ kodlu bilezik parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1200;186;CIZ kodlu bilezik parçası;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+1201;186;CIZ kodlu bilezik parçası;was found in position within grid square;E2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1202;186;CIZ kodlu bilezik parçası;was found at elevation;893.036 m;;1;dimension, kind elevation;
+1203;186;CIZ kodlu bilezik parçası;number of pieces;bir adet;;1;dimension, kind count;
+1204;186;CIZ kodlu bilezik parçası;is made of;cam;;1;thing.material;
+1205;186;CJA kodlu sikke parçası;is find of kind;sikke parçası;;3;thing.type;own code for the kind
+1206;186;CJA kodlu sikke parçası;has find code;CJA;;1;identifier;
+1207;186;CJA kodlu sikke parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1208;186;CJA kodlu sikke parçası;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+1209;186;CJA kodlu sikke parçası;was found in position within grid square;D1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1210;186;CJA kodlu sikke parçası;was found at elevation;892.996 m;;1;dimension, kind elevation;
+1211;186;CJA kodlu sikke parçası;number of pieces;bir adet;;1;dimension, kind count;
+1212;186;CJA kodlu sikke parçası;is made of;bronz;;1;thing.material;
+1213;186;CJC kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+1214;186;CJC kodlu cam parçaları;has find code;CJC;;1;identifier;
+1215;186;CJC kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1216;186;CJC kodlu cam parçaları;was found in grid square;T24/1;;1;find_context.found_in, place of kind square;
+1217;186;CJC kodlu cam parçaları;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1218;186;CJC kodlu cam parçaları;was found between elevations;892.866-892.536 m;;1;dimension, kind elevation, as a range;
+1219;186;CJC kodlu cam parçaları;is made of;cam;;1;thing.material;
+1220;186;CJD kodlu sikke;is find of kind;sikke;;1;thing.type;
+1221;186;CJD kodlu sikke;has find code;CJD;;1;identifier;
+1222;186;CJD kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1223;186;CJD kodlu sikke;was found in grid square;T24/1;;1;find_context.found_in, place of kind square;
+1224;186;CJD kodlu sikke;was found in position within grid square;E3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1225;186;CJD kodlu sikke;was found at elevation;892.666 m;;1;dimension, kind elevation;
+1226;186;CJD kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+1227;186;CJD kodlu sikke;is made of;bronz;;1;thing.material;
+1228;186;CJE kodlu bilezik;is find of kind;bilezik;;3;thing.type;own code for the kind
+1229;186;CJE kodlu bilezik;has find code;CJE;;1;identifier;
+1230;186;CJE kodlu bilezik;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1231;186;CJE kodlu bilezik;was found in grid square;T24/1;;1;find_context.found_in, place of kind square;
+1232;186;CJE kodlu bilezik;was found in position within grid square;C3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1233;186;CJE kodlu bilezik;was found at elevation;892.596 m;;1;dimension, kind elevation;
+1234;186;CJE kodlu bilezik;number of pieces;bir adet;;1;dimension, kind count;
+1235;186;CJE kodlu bilezik;is made of;demir;;1;thing.material;
+1236;186;CJF kodlu sikke;is find of kind;sikke;;1;thing.type;
+1237;186;CJF kodlu sikke;has find code;CJF;;1;identifier;
+1238;186;CJF kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1239;186;CJF kodlu sikke;was found in grid square;T23/2;;1;find_context.found_in, place of kind square;
+1240;186;CJF kodlu sikke;was found in position within grid square;B4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1241;186;CJF kodlu sikke;was found at elevation;893.016 m;;1;dimension, kind elevation;
+1242;186;CJF kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+1243;186;CJF kodlu sikke;is made of;bronz;;1;thing.material;
+1244;186;CJG kodlu sikke;is find of kind;sikke;;1;thing.type;
+1245;186;CJG kodlu sikke;has find code;CJG;;1;identifier;
+1246;186;CJG kodlu sikke;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1247;186;CJG kodlu sikke;was found in grid square;U24/3;;1;find_context.found_in, place of kind square;
+1248;186;CJG kodlu sikke;was found in position within grid square;C4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1249;186;CJG kodlu sikke;was found at elevation;892.596 m;;1;dimension, kind elevation;
+1250;186;CJG kodlu sikke;number of pieces;bir adet;;1;dimension, kind count;
+1251;186;CJG kodlu sikke;is made of;bronz;;1;thing.material;
+1252;186;CJH kodlu kulp parçası;is find of kind;kulp parçası;;3;thing.type;own code for the kind
+1253;186;CJH kodlu kulp parçası;has find code;CJH;;1;identifier;
+1254;186;CJH kodlu kulp parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1255;186;CJH kodlu kulp parçası;was found in grid square;U24/3;;1;find_context.found_in, place of kind square;
+1256;186;CJH kodlu kulp parçası;was found in position within grid square;C5;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1257;186;CJH kodlu kulp parçası;was found at elevation;892.526 m;;1;dimension, kind elevation;
+1258;186;CJH kodlu kulp parçası;number of pieces;bir adet;;1;dimension, kind count;
+1259;186;CJH kodlu kulp parçası;is made of;demir;;1;thing.material;
+1260;186;CJI kodlu tıkaç;is find of kind;tıkaç;;3;thing.type;own code for the kind
+1261;186;CJI kodlu tıkaç;has find code;CJI;;1;identifier;
+1262;186;CJI kodlu tıkaç;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1263;186;CJI kodlu tıkaç;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1264;186;CJI kodlu tıkaç;was found in position within grid square;E2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1265;186;CJI kodlu tıkaç;was found at elevation;893.090 m;;1;dimension, kind elevation;
+1266;186;CJI kodlu tıkaç;number of pieces;bir adet;;1;dimension, kind count;
+1267;186;CJI kodlu tıkaç;is made of;pişmiş toprak;;3;thing.material;own code for the material
+1268;186;CJJ kodlu kandil parçası;is find of kind;kandil parçası;;3;thing.type;own code for the kind
+1269;186;CJJ kodlu kandil parçası;has find code;CJJ;;1;identifier;
+1270;186;CJJ kodlu kandil parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1271;186;CJJ kodlu kandil parçası;was found in grid square;U 23/2;;1;find_context.found_in, place of kind square;
+1272;186;CJJ kodlu kandil parçası;was found in position within grid square;D2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1273;186;CJJ kodlu kandil parçası;was found at elevation;893.088 m;;1;dimension, kind elevation;
+1274;186;CJJ kodlu kandil parçası;number of pieces;bir adet;;1;dimension, kind count;
+1275;186;CJJ kodlu kandil parçası;is made of;pişmiş toprak;;3;thing.material;own code for the material
+1276;186;CJK kodlu boncuk/ağırşak;is find of kind;boncuk/ağırşak;/;3;assertion identified_as, with a claim;own code for the kind
+1277;186;CJK kodlu boncuk/ağırşak;has find code;CJK;;1;identifier;
+1278;186;CJK kodlu boncuk/ağırşak;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1279;186;CJK kodlu boncuk/ağırşak;was found in grid square;U24/2;;1;find_context.found_in, place of kind square;
+1280;186;CJK kodlu boncuk/ağırşak;was found in position within grid square;E1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1281;186;CJK kodlu boncuk/ağırşak;was found at elevation;892.756 m;;1;dimension, kind elevation;
+1282;186;CJK kodlu boncuk/ağırşak;number of pieces;bir adet;;1;dimension, kind count;
+1283;186;CJK kodlu boncuk/ağırşak;is made of;pişmiş toprak;;3;thing.material;own code for the material
+1284;186;CJL kodlu seramik parçaları;is find of kind;seramik parçaları;;3;thing.type;own code for the kind
+1285;186;CJL kodlu seramik parçaları;has find code;CJL;;1;identifier;
+1286;186;CJL kodlu seramik parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1287;186;CJL kodlu seramik parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+1288;186;CJL kodlu seramik parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1289;186;CJL kodlu seramik parçaları;was found between elevations;893.026-892.546 m;;1;dimension, kind elevation, as a range;
+1290;186;CJL kodlu cam parçaları;is find of kind;cam parçaları;;3;thing.type;own code for the kind
+1291;186;CJL kodlu cam parçaları;has find code;CJL;;1;identifier;
+1292;186;CJL kodlu cam parçaları;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1293;186;CJL kodlu cam parçaları;was found in grid square;U24/1;;1;find_context.found_in, place of kind square;
+1294;186;CJL kodlu cam parçaları;was found in position within grid square;çalışılan alanın genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1295;186;CJL kodlu cam parçaları;was found between elevations;893.026-892.546 m;;1;dimension, kind elevation, as a range;
+1296;186;CJL kodlu cam parçaları;is made of;cam;;1;thing.material;
+1297;186;CJM kodlu küpe parçası;is find of kind;küpe parçası;;3;thing.type;own code for the kind
+1298;186;CJM kodlu küpe parçası;has find code;CJM;;1;identifier;
+1299;186;CJM kodlu küpe parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1300;186;CJM kodlu küpe parçası;was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1301;186;CJM kodlu küpe parçası;was found in position within grid square;C1;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1302;186;CJM kodlu küpe parçası;was found at elevation;892.826 m;;1;dimension, kind elevation;
+1303;186;CJM kodlu küpe parçası;number of pieces;bir adet;;1;dimension, kind count;
+1304;186;CJM kodlu küpe parçası;is made of;altın;;1;thing.material;
+1305;186;CJM kodlu küpe parçası;is shown in figure;Resim: 7;;1;about;
+1306;186;CJN kodlu ok ucu parçası;is find of kind;ok ucu parçası;;3;thing.type;own code for the kind
+1307;186;CJN kodlu ok ucu parçası;has find code;CJN;;1;identifier;
+1308;186;CJN kodlu ok ucu parçası;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1309;186;CJN kodlu ok ucu parçası;was found in grid square;T23/4;;1;find_context.found_in, place of kind square;
+1310;186;CJN kodlu ok ucu parçası;was found in position within grid square;A3;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1311;186;CJN kodlu ok ucu parçası;was found at elevation;892.446 m;;1;dimension, kind elevation;
+1312;186;CJN kodlu ok ucu parçası;number of pieces;bir adet;;1;dimension, kind count;
+1313;186;CJN kodlu ok ucu parçası;is made of;demir;;1;thing.material;
+1314;186;CJO kodlu kapı aksamı;is find of kind;kapı aksamı;;3;thing.type;own code for the kind
+1315;186;CJO kodlu kapı aksamı;has find code;CJO;;1;identifier;
+1316;186;CJO kodlu kapı aksamı;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1317;186;CJO kodlu kapı aksamı;was found in grid square;T24/2;;1;find_context.found_in, place of kind square;
+1318;186;CJO kodlu kapı aksamı;was found in position within grid square;C2;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1319;186;CJO kodlu kapı aksamı;was found at elevation;891.246 m;;1;dimension, kind elevation;
+1320;186;CJO kodlu kapı aksamı;number of pieces;bir adet;;1;dimension, kind count;
+1321;186;CJO kodlu kapı aksamı;is made of;demir;;1;thing.material;
+1322;186;CJP kodlu hayvan kemikleri;is find of kind;hayvan kemikleri;;3;thing.type;own code for the kind
+1323;186;CJP kodlu hayvan kemikleri;has find code;CJP;;1;identifier;
+1324;186;CJP kodlu hayvan kemikleri;was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1325;186;CJP kodlu hayvan kemikleri;was found in grid square;T24/2-4;;1;find_context.found_in, place of kind square;
+1326;186;CJP kodlu hayvan kemikleri;was found in position within grid square;çalışılan alanı genelinde;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1327;186;CJP kodlu hayvan kemikleri;was found between elevations;891.246-890.916 m;;1;dimension, kind elevation, as a range;
+1328;186;sikke (U23/2, E4);is find of kind;sikke;;1;thing.type;
+1329;186;sikke (U23/2, E4);was found during;Mithras Kutsal Alanı kazı çalışmaları;;1;find_context.found_by;
+1330;186;sikke (U23/2, E4);was found in grid square;U23/2;;1;find_context.found_in, place of kind square;
+1331;186;sikke (U23/2, E4);was found in position within grid square;E4;;1;find_context.found_in, place inside the square;Stored as a place with a name. The database has no kind of place for it.
+1332;186;sikke (U23/2, E4);was found at elevation;892.366 m;;1;dimension, kind elevation;
+1333;186;sikke (U23/2, E4);number of pieces;bir adet;;1;dimension, kind count;
+1334;186;sikke (U23/2, E4);is made of;bronz;;1;thing.material;
+1335;186;Zerzevan askeri yerleşimi;was founded in;MS 2.-3. yüzyıllarda;;1;dating, event making;Worked only because the site was given a second class. A site alone cannot have a making.
+1336;186;Zerzevan askeri yerleşimi;is located at;antik yol ağına hâkim stratejik bir nokta;;4;entity.remark;
+1337;186;Zerzevan askeri yerleşimi;was founded in an arrangement to meet;askeri ihtiyaçlar;;4;entity.remark;
+1338;186;Zerzevan askeri yerleşimi;conforms at minimum level with;Roma lejyoner kalesi standartları;;4;entity.remark;
+1339;186;Zerzevan askeri yerleşimi;hosts many structures reflecting;pagan Roma unsurları;;4;entity.remark;
+1340;186;Zerzevan askeri yerleşimi;hosts many structures reflecting;Hristiyan Roma unsurları;;4;entity.remark;
+1341;186;en çok dikkat çeken yapı grubu;is concentrated in;kuzey sektör;şimdilik ... anlaşılmaktadır;1;assertion interpreted_as, text with a claim;
+1342;186;en çok dikkat çeken yapı grubu;is notable in terms of;inşa şekilleri ve hizmet ettikleri amaçlar;;4;entity.remark;
+1343;186;tapınak;is located in;Garnizonun kuzey ucu;;1;thing.location;
+1344;186;tapınak;was uncovered by;kazılar;;1;relation worked_on;
+1345;186;yeraltı yapısı;is located in;Garnizonun kuzey ucu;;1;thing.location;
+1346;186;yeraltı yapısı;was uncovered by;kazılar;;1;relation worked_on;
+1347;186;tapınak ve yeraltı yapısı;form;bir kompleks;görünmektedir;1;assertion interpreted_as, text with a claim;
+1348;186;tapınak ve yeraltı yapısı;complement each other;birbirlerini tamamlar;görünmektedir;1;assertion interpreted_as, text with a claim;
+1349;186;tapınak;was built with technique;ana kayaya oyularak;;3;own attribute;No place for a building technique.
+1350;186;tapınak;was recorded as;Roma İmparatorluğu’nun Sasanilerle sıklıkla karşılaştığı doğu sınırları boyundaki ilk Mithraeum;;1;assertion interpreted_as, text with a claim;
+1351;186;Roma İmparatorluğu;frequently encountered at its eastern borders;Sasaniler;;X;;History in general. Its subject is not part of the fieldwork.
+1352;186;Tapınak ve yeraltı yapısının başlıca özellikleri;is described as;özgün;;4;entity.remark;
+1353;186;tapınak ve yeraltı yapısının birbiriyle olan bağlantısı;is described as unique in terms of;fiziksel yakınlıkları;;4;entity.remark;
+1354;186;tapınak ve yeraltı yapısının birbiriyle olan bağlantısı;is described as unique in terms of;arekeolojik-kültsel işlevleri;;4;entity.remark;
+1355;186;kutsal alan;is interpreted as;Roma’nın en erken Mithraeumlarından biri;şimdilik ... değerlendirilmektedir;1;assertion interpreted_as, text with a claim;
+1356;186;kutsal alan;is evaluated on the basis of;coğrafi konumu;şimdilik ... değerlendirilmektedir;4;claim.remark;The basis of a claim must be an entity or another claim. 'Its plan' is neither.
+1357;186;kutsal alan;is evaluated on the basis of;planı;şimdilik ... değerlendirilmektedir;4;claim.remark;The basis of a claim must be an entity or another claim. 'Its plan' is neither.
+1358;186;kutsal alan;is evaluated on the basis of;in situ vaziyetteki mimari unsurları;şimdilik ... değerlendirilmektedir;4;claim.remark;The basis of a claim must be an entity or another claim. 'Its plan' is neither.
+1359;186;kutsal alan (Roma’nın en erken Mithraeumlarından biri);cites publication;Coşkun ve Kırca 2022;;1;claim_basis;
+1360;186;kutsal alan (Roma’nın en erken Mithraeumlarından biri);cites publication;Coşkun, 2023;;1;claim_basis;
+1361;186;kutsal alan (Roma’nın en erken Mithraeumlarından biri);cites publication;Coşkun ve Kırca 2023;;1;claim_basis;
+1362;186;Eser Deposu Çalışmaları;is part of;KAZI EVİ FAALİYETLERİ;;X;;Structure of the printed document. No place, and not fieldwork data.
+1363;186;Zerzevan Kalesi kazı evi eser deposunda muhafaza edilen eserler;were evaluated in detail in;2024 yılı çalışmaları;;1;relation worked_on;
+1364;186;eserler;are kept in;Zerzevan Kalesi kazı evi eser deposu;;1;thing.location;
+1365;186;seramikler;have a wide range in terms of;form;;4;entity.remark;
+1366;186;seramikler;have a wide range in terms of;teknik;;4;entity.remark;
+1367;186;seramikler;have a wide range in terms of;bezeme;;4;entity.remark;
+1368;186;seramikler;were grouped by;üretildikleri dönemler;;4;entity.remark;
+1369;186;seramikler;were grouped by;kullanım amaçları;;4;entity.remark;
+1370;186;çömlek;is a kind of;pişirme kapları;;3;code.parent, between two own codes;A statement about the vocabulary. Both terms are missing from the list.
+1371;186;çömlek;shows;is izleri;;4;entity.remark;
+1372;186;çömlek;shows;farklı pişirme tonları;;4;entity.remark;
+1373;186;güveç;is a kind of;pişirme kapları;;3;code.parent, between two own codes;A statement about the vocabulary. Both terms are missing from the list.
+1374;186;güveç;shows;is izleri;;4;entity.remark;
+1375;186;güveç;shows;farklı pişirme tonları;;4;entity.remark;
+1376;186;testi;is a kind of;dökme kapları;;3;code.parent, between two own codes;A statement about the vocabulary. Both terms are missing from the list.
+1377;186;testi;has functional details such as;parmak izi;;4;entity.remark;
+1378;186;şişe;is a kind of;dökme kapları;;3;code.parent, between two own codes;A statement about the vocabulary. Both terms are missing from the list.
+1379;186;şişe;has functional details such as;parmak izi;;4;entity.remark;
+1380;186;tabak;is a kind of;servis kapları;;3;code.parent, between two own codes;A statement about the vocabulary. Both terms are missing from the list.
+1381;186;kâse;is a kind of;servis kapları;;3;code.parent, between two own codes;A statement about the vocabulary. Both terms are missing from the list.
+1382;186;sosluk;is a kind of;servis kapları;;3;code.parent, between two own codes;A statement about the vocabulary. Both terms are missing from the list.
+1383;186;servis kapları;show variety suited to;kullanım amacı;;4;entity.remark;
+1384;186;ok uçları;is among important metal finds;Metal buluntular;;1;thing.part_of;'Important' is lost.
+1385;186;çiviler;is among important metal finds;Metal buluntular;;1;thing.part_of;'Important' is lost.
+1386;186;bronz yüzükler;is among important metal finds;Metal buluntular;;1;thing.part_of;'Important' is lost.
+1387;186;altın küpeler;is among important metal finds;Metal buluntular;;1;thing.part_of;'Important' is lost.
+1388;186;bronz yüzükler;is made of;bronz;;1;thing.material;
+1389;186;altın küpeler;is made of;altın;;1;thing.material;
+1390;187;haç motifli fibulalar;is among important metal finds;Metal buluntular;;1;thing.part_of;'Important' is lost.
+1391;187;Eserler (metal buluntular);was made with technique;döküm;;3;own attribute;No place for a technique of making.
+1392;187;Eserler (metal buluntular);was made with technique;dövme;;3;own attribute;No place for a technique of making.
+1393;187;Eserler (metal buluntular);was made with technique;perçinleme;;3;own attribute;No place for a technique of making.
+1394;187;Eserler (metal buluntular);was made with technique;telkâri;;3;own attribute;No place for a technique of making.
+1395;187;cam eserler;is dated to;MS 1.-7. yüzyıllar;;1;dating;
+1396;187;cam eserler;include form;şişe;genellikle;3;thing.type and thing.part_of;own code for the form The hedge 'genellikle' is lost.
+1397;187;cam eserler;include form;kâse;genellikle;3;thing.type and thing.part_of;own code for the form The hedge 'genellikle' is lost.
+1398;187;cam eserler;include form;kadeh;genellikle;3;thing.type and thing.part_of;own code for the form The hedge 'genellikle' is lost.
+1399;187;cam eserler;has use;günlük yaşam;;3;assertion function;own code. The list of functions is empty.
+1400;187;cam eserler;has use;süs eşyası;;3;assertion function;own code. The list of functions is empty.
+1401;187;boncuk;was documented;belgelenmiştir;;X;;Says only that a kind of find was recorded. No entity to attach it to.
+1402;187;kandil;was documented;belgelenmiştir;;X;;Says only that a kind of find was recorded. No entity to attach it to.
+1403;187;unguentarium;was documented;belgelenmiştir;;X;;Says only that a kind of find was recorded. No entity to attach it to.
+1404;187;bilezik;was documented;belgelenmiştir;;X;;Says only that a kind of find was recorded. No entity to attach it to.
+1405;187;hayvan kemik kalıntıları;were examined in;2024 yılı Arkeozoolojik çalışmalar;;1;analysis and relation observed;
+1406;187;koyun;species was identified among animal bones;tespit edilmiştir;;3;assertion taxon, with a claim taken from a source;own code. The list of species is empty.
+1407;187;keçi;species was identified among animal bones;tespit edilmiştir;;3;assertion taxon, with a claim taken from a source;own code. The list of species is empty.
+1408;187;sığır;species was identified among animal bones;tespit edilmiştir;;3;assertion taxon, with a claim taken from a source;own code. The list of species is empty.
+1409;187;at;species was identified among animal bones;tespit edilmiştir;;3;assertion taxon, with a claim taken from a source;own code. The list of species is empty.
+1410;187;domuz;species was identified among animal bones;tespit edilmiştir;;3;assertion taxon, with a claim taken from a source;own code. The list of species is empty.
+1411;187;tavuk;species was identified among animal bones;tespit edilmiştir;;3;assertion taxon, with a claim taken from a source;own code. The list of species is empty.
+1412;187;hayvan kemik kalıntıları;provide important data about;hayvancılık;;4;entity.remark;
+1413;187;hayvan kemik kalıntıları;provide important data about;beslenme;;4;entity.remark;
+1414;187;hayvan kemik kalıntıları;provide important data about;yerel ekonomi;;4;entity.remark;
+1415;187;hayvan kemik kalıntıları;contribute to understanding of;sürü yönetimi;;4;entity.remark;
+1416;187;hayvan kemik kalıntıları;contribute to understanding of;kültürel roller;;4;entity.remark;
+1417;187;hayvan kemik kalıntıları;cites publication;Gündem 2023, 82-101;;1;claim_basis;
+1418;187;Laboratuvar Çalışmaları;is part of;KAZI EVİ FAALİYETLERİ;;X;;Structure of the printed document. No place, and not fieldwork data.
+1419;187;Kazı evi deposunda bulunan eserler;was restored;restorasyon ve konservasyon çalışmaları yapılmıştır;;1;relation modified;
+1420;187;kazı çalışmaları esnasında ortaya çıkan eserler;was restored;restorasyon ve konservasyon çalışmaları yapılmıştır;;1;relation modified;
+1421;187;eserler (laboratuvar);show on surface;toprak kalıntısı;;3;assertion condition, with a claim;own code for the kind of damage
+1422;187;eserler (laboratuvar);show on surface;toprağa yapışan taş parçacıkları;;3;assertion condition, with a claim;own code for the kind of damage
+1423;187;eserler (laboratuvar);show on surface;demir oksitlenme bozulmaları;;3;assertion condition, with a claim;own code for the kind of damage
+1424;187;eserler (laboratuvar);show on surface;paratakamit;;3;assertion condition, with a claim;own code for the kind of damage
+1425;187;eserler (laboratuvar);show on surface;malahit;;3;assertion condition, with a claim;own code for the kind of damage
+1426;187;eserler (laboratuvar);show on surface;azurit;;3;assertion condition, with a claim;own code for the kind of damage
+1427;187;eserler (laboratuvar);show on surface;cuprit;;3;assertion condition, with a claim;own code for the kind of damage
+1428;187;eserler (laboratuvar);were measured (weight);ağırlıkları ölçülmüştür;;4;entity.remark;Says that something was measured or done. No value is given.
+1429;187;eserler (laboratuvar);were measured (dimensions);boyutları ölçülmüştür;;4;entity.remark;Says that something was measured or done. No value is given.
+1430;187;toprak ve diğer kalıntılar (eserlerin üzerinde);were softened with;%50 oranında alkol;;3;relation used, and dimension of an own kind;own code: concentration. One substance with three concentrations for three uses cannot be told apart.
+1431;187;toprak ve diğer kalıntılar (eserlerin üzerinde);were softened with;%50 oranında aseton;;3;relation used, and dimension of an own kind;own code: concentration. One substance with three concentrations for three uses cannot be told apart.
+1432;187;toprak ve diğer kalıntılar (eserlerin üzerinde);were mechanically cleaned with;ahşap kazıyıcılar;;1;relation used;Which tool was used on which material is lost.
+1433;187;toprak ve diğer kalıntılar (eserlerin üzerinde);were mechanically cleaned with;dişçi aletleri;;1;relation used;Which tool was used on which material is lost.
+1434;187;Demir eserler;have on them;demir oksit tabakaları;;3;assertion condition, with a claim;own code for the kind of damage
+1435;187;demir oksit tabakaları (demir eserler);were treated mechanically in;koruma kabini;;1;relation used;Which tool was used on which material is lost.
+1436;187;demir oksit tabakaları (demir eserler);were treated with;bisturi;;1;relation used;Which tool was used on which material is lost.
+1437;187;demir oksit tabakaları (demir eserler);were treated with;dişçi motorunun çeşitli başlıkları;;1;relation used;Which tool was used on which material is lost.
+1438;187;dişçi motoru;could not clean some places;temizleyemediği yerler;;4;entity.remark;A negative statement about a tool. A claim with the belief false needs a relation to deny.
+1439;187;kavitron;was used where;dişçi motorunun temizleyemediği yerler;;1;relation used;Which tool was used on which material is lost.
+1440;187;Bronz eserler;show;korozyon tabakaları;;3;assertion condition, with a claim;own code for the kind of damage
+1441;187;korozyon tabakaları (bronz eserler);were cleaned under;mikroskop;;1;relation used;Which tool was used on which material is lost.
+1442;187;korozyon tabakaları (bronz eserler);were mechanically cleaned with;bisturi;;1;relation used;Which tool was used on which material is lost.
+1443;187;korozyon tabakaları (bronz eserler);were mechanically cleaned with;bambu çubuğu;;1;relation used;Which tool was used on which material is lost.
+1444;187;toz kalıntıları (metal eserler);were removed with;alkollü pamuk;;1;relation used;Which tool was used on which material is lost.
+1445;187;Kırık olan ve parçaları tespit edilen buluntular;were joined with;Paroloid B72 %45-50 oranında;;3;relation used, and dimension of an own kind;own code: concentration. One substance with three concentrations for three uses cannot be told apart.
+1446;187;Paraloid B72 (%3);was prepared at concentration;%3 oranında;;3;relation used, and dimension of an own kind;own code: concentration. One substance with three concentrations for three uses cannot be told apart.
+1447;187;Paraloid B72 (%3);was prepared after;birleştirme işlemi;;4;entity.remark;
+1448;187;Paraloid B72 (%3);has purpose;eserlerin havayla temasını kesmek;;4;entity.remark;
+1449;187;Paraloid B72 (%3);has purpose;tekrar bozulmasını önlemek;;4;entity.remark;
+1450;187;eser;was immersed in;Aseton ve Paraloid B72 karışımı;;1;relation used;Which tool was used on which material is lost.
+1451;187;restorasyon ve konservasyon işlemleri;were completed;tamamlanmıştır;;4;entity.remark;
+1452;187;İşlemleri biten diğer eserler;were measured again (weight);ağırlık tekrar ölçülmüştür;;4;entity.remark;Says that something was measured or done. No value is given.
+1453;187;İşlemleri biten diğer eserler;were measured again (dimensions);boyutları tekrar ölçülmüştür;;4;entity.remark;Says that something was measured or done. No value is given.
+1454;187;cam eserler (depoda yer alan ve kazı çalışmalarında bulunan);show on surface;toprak kalıntısı;genelinin;3;assertion condition, with a claim;own code for the kind of damage
+1455;187;cam eserler (depoda yer alan ve kazı çalışmalarında bulunan);show on surface;pul pul dökülmeler;genelinin;3;assertion condition, with a claim;own code for the kind of damage
+1456;187;cam eserler (depoda yer alan ve kazı çalışmalarında bulunan);show on surface;irizasyon bozulma;genelinin;3;assertion condition, with a claim;own code for the kind of damage
+1457;187;cam eserler (depoda yer alan ve kazı çalışmalarında bulunan);show on surface;çatlaklar;genelinin;3;assertion condition, with a claim;own code for the kind of damage
+1458;187;cam eserler (temizliği biten);were measured again (weight);ağırlık tekrar ölçülüp;;4;entity.remark;Says that something was measured or done. No value is given.
+1459;187;cam eserler (temizliği biten);were measured again (dimensions);boyutları tekrar ölçülüp;;4;entity.remark;Says that something was measured or done. No value is given.
+1460;187;cam eserler (temizliği biten);surface is coated with;%1 oranında hazırlanan Paroloid B72;;3;relation used, and dimension of an own kind;own code: concentration. One substance with three concentrations for three uses cannot be told apart.
+1461;187;Paroloid B72 (%1);has purpose;hava ile temasını kesip koruma altına almak;;4;entity.remark;
+1462;187;Seramik eserler;were treated according to;konservasyon ilkeleri;;4;entity.remark;
+1463;187;kemik eserler;were treated according to;konservasyon ilkeleri;;4;entity.remark;
+1464;187;amorf buluntular (kazı deposunda yer alan);conservation was completed;konservasyon çalışmaları tamamlanmıştır;;1;relation modified;
+1465;187;2024 yılı kazı sezonunda ortaya çıkarılan eserler;conservation was completed;konservasyon çalışmaları tamamlanmıştır;;1;relation modified;
+1466;188;Coşkun, A. (2016). Zerzevan Kalesi 2014 Yılı Kazı Çalışmaları: İlk Sezon, Kazı Sonuçları Toplantısı 37, 1, s.101-128.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1467;188;Coşkun, A. (2017a). Zerzevan Kalesi 2015 Yılı Kazı Çalışmaları: 2. Sezon, Kazı Sonuçları Toplantısı 38, s.125-150.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1468;188;Coşkun A. (2017b). Zerzevan Castle in the Light of Recent Archeological Researches, Anadolu / Anatolia 43, s. 91-110.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1469;188;Coşkun, A. (2019a). Zerzevan Kalesi 2018 Yılı Kazı Çalışmaları, Kazı Sonuçları Toplantısı 41, 1, s.567-586.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1470;188;Coşkun, A. (2019b). Zerzevan Kalesi-Roma’nın Sınır Garnizonu / Zerzevan Castle - Roman Border Garrison, Diyarbakır Valiliği.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1471;188;Coşkun, A. (2021a). Diyarbakır’da Roma’nın Gizem Dini Mithras İnancı, Diyarbakır, 2, s. 109-111.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1472;188;Coşkun, A. (2021b). Roma’dan Bugüne Zerzevan Kalesi”, Diyarbakır, 1, s. 88-97.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1473;188;Coşkun, A. (2022). Diyarbakır Zerzevan Kalesi’nde Bulunan Mithras Kültü Üzerine Değerlendirmeler, Diyarbakır’ın Portresi, ed. M. Bulut, Detay Yayıncılık, Ankara, s. 167-175.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1474;188;Coşkun, A., Oğuz Kırca, E.D. (2022). Beyond The Roman East: An Archaeological Evaluation Of The Mithraeum Based On Its Architectural Authenticity At Castrum Zerzevan (Diyarbakır, Turkey), Journal of Ancient History and Archaeology, 9.2, s. 94-104.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1475;188;Coşkun, A. (2023). “Zerzevan Kalesi Kazılarının Dünü ve Bugünü / The Past and Present of Zerzevan Castle Excavations”, Roma’nın Sınır Garnizonu Zerzevan Kalesi-Geçmişten Geleceğe / Roman Border Garrison Zerzevan Castle – From Past to the Future, ed. A. Coşkun, Orient Yayınları, Ankara, 2-26.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1476;188;Coşkun, A., Oğuz Kırca, E.D. (2023), “Benzersiz Bir Kaya Oygu Yapılar Kompleksi Olarak Zerezevan Kalesi’ndeki Mithraeum / The Mithraeum At Castrum Zerzevan as a Unique Complex of Rock Hewn Structures, Roma’nın Sınır Garnizonu Zerzevan Kalesi-Geçmişten Geleceğe / Roman Border Garrison Zerzevan Castle – From Past to the Future, ed. A. Coşkun, Orient Yayınları, Ankara, 2023, 46-76.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1477;188;Coşkun, A., Ayus, Ş., Durma, F. (2023). Zerzevan Kalesi 2022 Yılı Çalışmaları, Kazı Sonuçları Toplantısı 43, 1, s. 161-173.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1478;188;Coşkun, A., Ayus, Ş., Durma, F. (2024). Zerzevan Kalesi 2023 Yılı Kazı Çalışmaları, Kazı Sonuçları Toplantısı 43, 1, s. 247-262.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1479;188;Coşkun, A., Oğuz Kırca, E.D., Demirciler, V. (2025). Cultural Heritage-Wise Analysis Based on Multilateral Comparanda Attesting to The Uniqueness of Castrum Zerzevan and its Mithraeum, Oannes, s. 39-63.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1480;189;Dursun, F., Coşkun, A. (2020). A Preliminary study on material properties of the Zerzevan Castle, Turkey, Materials Science and Engineering 949, s. 1-8.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1481;189;Dursun, F., Oğuz-Kırca, E. D., Toprak, V., Coşkun, A. (2023). Reconstruction of an ancient hill used as an On-Site quarry: Castrum Zerzevan (SE-Türkiye). International Journal of Architectural Heritage, s. 1-19.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1482;189;Gündem, C.Y. (2023). Zerzevan Kalesi’nin İlk Arkeozoolojik Çalışmalar Sonrası Sürü ve Besin Ekonomisi/ Herd and Food Economy of Zerzevan Castle After The First Archaeozoological Studies, Roma’nın Sınır Garnizonu Zerzevan Kalesi-Geçmişten Geleceğe / Roman Border Garrison Zerzevan Castle – From Past to the Future, Orient Yayınları, Ankara, 2023, 82-101.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1483;189;Karadoğan, S., A. Coşkun (2017). Çevresel Koşulları ve Konumu Açısından Zerzevan Kalesi (Diyarbakır), Uluslararası Diyarbakır Sempozyumu, s. 115-134.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1484;189;Karadoğan, S., A. Coşkun (2018). Zerzevan Kalesi ve Çevresinde Jeomorfoloji Araştırmaları, Diyarbakır, Mekan, Toplum, Ekonomi, İstanbul, s. 1-15.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1485;189;Karadoğan, S., A. Coşkun (2022). Güneydoğu Anadolu’da Önemli Bir Kültürel Peyzaj Alanı: Zerzevan Kalesi ve Mithraeum, Ayhan Sür ve Özdoğan Sür Anısına Paleocoğrafya ve Jeoarkeoloji Araştırmaları I, ed. E. Öner, Ege Üniversitesi Yayınları, İzmir, s. 407-416.;is listed in the bibliography;KAYNAKÇA;;1;source.citation;
+1486;190;EKLER;section contains;Çizim 1-2, Resim 1-11;;X;;Structure of the printed document. No place, and not fieldwork data.
+1487;190;Çizim 1;figure shows;Zerzevan Kalesi, topoğrafik plan 2024;;1;entity.label of the media item;
+1488;190;Çizim 1;is dated to;2024;;4;entity.remark;A drawing has no year of its own.
+1489;191;Çizim 2;figure shows;Mithras Kutsal Alanı;;1;entity.label of the media item;
+1490;192;Resim 1;figure shows;Zerzevan Kalesi havadan görünüm;;1;entity.label of the media item;
+1491;192;Resim 2;figure shows;Mithras Kutsal Alanı kazı sonrası;;1;entity.label of the media item;
+1492;193;Resim 3;figure shows;Mithras Tapınağı;;1;entity.label of the media item;
+1493;193;Resim 4;figure shows;Yeraltı Yapısı;;1;entity.label of the media item;
+1494;194;Resim 5;figure shows;Haç biçimli fibula;;1;entity.label of the media item;
+1495;194;Resim 6;figure shows;Yüzük;;1;entity.label of the media item;
+1496;194;Resim 7;figure shows;Küpe;;1;entity.label of the media item;
+1497;195;Resim 8;figure shows;Kandiller;;1;entity.label of the media item;
+1498;195;Resim 9;figure shows;Unguentarium;;1;entity.label of the media item;
+1499;195;Resim 10;figure shows;Bilezik;;1;entity.label of the media item;
+1500;195;Resim 11;figure shows;Ağırşak;;1;entity.label of the media item;

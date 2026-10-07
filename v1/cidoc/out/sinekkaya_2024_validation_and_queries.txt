@@ -1,0 +1,439 @@
+out/sinekkaya_2024.ttl: 5028 triples
+SHACL: conforms (0 violations, 2 warnings)
+  warning: R1 (warning): the paper gives no date for this activity -> Konaklama ve destek
+  warning: R1 (warning): the paper gives no date for this activity -> Mağaranın korunması
+
+=== cq01_finds_by_activity: CQ1  What was found, by which activity, where, and in what quantity?
+activity                                       find                                                          type                       count  place                       page
+---------------------------------------------  ------------------------------------------------------------  -------------------------  -----  --------------------------  ----
+A, B ve C alanlarında 1. tabaka kazısı (2024)  2024 hayvan kemik kalıntıları (toplam)                        animal bone                       Sinekkaya Mağarası (konum)  198 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  2024 yontma taş buluntuları (toplam)                          chipped stone assemblage   677.0  Sinekkaya Mağarası (konum)  198 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Ambalaj parçaları, sigara ağızlıkları gibi plastik malzeme    modern debris                     Sinekkaya Mağarası (konum)  202 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Benekli mağara sırtlanı alt çenesi                            mandible                          Sinekkaya Mağarası (konum)  201 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Buzul dönemi faunası                                          animal bone                       Sinekkaya Mağarası (konum)  201 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  F1-3 biriminden geometrik mikrolit (üçgen, düzeltili)         geometric microlith        1.0    B alanı (konum)             199 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  F1-4 biriminden geometrik mikrolit (üçgen, düzeltili)         geometric microlith        1.0    A alanı (konum)             199 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  F1-7 biriminden mikro Levallois çekirdek                      micro Levallois core              A alanı (konum)             205 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  F1-9 biriminden Levallois uç                                  Levallois point                   C alanı (konum)             199 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Gravettien uç                                                 Gravettian point           1.0    Sinekkaya Mağarası (konum)  199 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Günümüzde de yaşayan diğer türler                             animal bone                       Sinekkaya Mağarası (konum)  201 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Kunduz çenesi                                                 mandible                          Sinekkaya Mağarası (konum)  201 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Küçükbaş hayvan dışkı kalıntıları                             animal dung                       Sinekkaya Mağarası (konum)  198 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Levallois dilgi (OP)                                          Levallois blade            5.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Levallois uç (OP)                                             Levallois point            2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Levallois yonga (OP)                                          Levallois flake            21.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Levallois yonga (OP?)                                         Levallois flake            1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Mağara ayısı kalıntıları (dişler, çene parçaları, parmak ve   animal bone                       Sinekkaya Mağarası (konum)  202 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Neolitik Dönem seramiği                                       pottery sherds                    Sinekkaya Mağarası (konum)  198 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          animal bone                       Sinekkaya Mağarası (konum)  201 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Tür tayini yapılamayan hayvan kalıntıları                     animal bone                       Sinekkaya Mağarası (konum)  201 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  Vurgaçlar                                                     hammerstone                2.0    Sinekkaya Mağarası (konum)  201 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  X biriminden düzeltili dilgi                                  retouched blade                   Sinekkaya Mağarası (konum)  206 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  belirsiz (belirsiz)                                           indeterminate piece        1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (Epipaleolitik?)                                        blade                      1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (Neo-ÜP?)                                               blade                      2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (Neolitik)                                              blade                      64.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (Neolitik?)                                             blade                      30.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (OP)                                                    blade                      4.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (OP?)                                                   blade                      1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (belirsiz)                                              blade                      52.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (ÜP)                                                    blade                      1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgi (ÜP?)                                                   blade                      1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgicik (Epipaleolitik?)                                     bladelet                   5.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgicik (Neolitik)                                           bladelet                   1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgicik (Neolitik?)                                          bladelet                   1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgicik (belirsiz)                                           bladelet                   1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgicik (ÜP)                                                 bladelet                   3.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  dilgicik (ÜP-Epi?)                                            bladelet                   2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  doğal parça (belirsiz)                                        natural piece              2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  doğal parça (doğal)                                           natural piece              1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  düzeltili doğal parça (Neolitik)                              retouched natural piece    1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  iki yüzeyli/çekirdek (OP)                                     biface or core             1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  korteksli yonga (Neolitik)                                    cortical flake             1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  korteksli yonga (Neolitik?)                                   cortical flake             2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  korteksli yonga (OP)                                          cortical flake             9.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  korteksli yonga (belirsiz)                                    cortical flake             84.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  korteksli yonga (ÜP?)                                         cortical flake             2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  litik? (belirsiz)                                             possible lithic            2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  litik? (doğal)                                                possible lithic            2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  manuport (belirsiz)                                           manuport                   1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  mikrolit (Epipaleolitik?)                                     microlith                  2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  parça (Neolitik)                                              fragment                   1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  parça (belirsiz)                                              fragment                   33.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  pseudo Levallois uç (OP)                                      pseudo-Levallois point     2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  uzun Levallois uç (ÜP?)                                       elongated Levallois point  1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  vurgaç (belirsiz)                                             hammerstone                2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yarı omurgalı dilgi (Neolitik)                                semi-crested blade         2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yarı omurgalı dilgi (Neolitik?)                               semi-crested blade         1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yarı omurgalı dilgi (OP)                                      semi-crested blade         1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yonga (Neolitik)                                              flake                      11.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yonga (Neolitik?)                                             flake                      18.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yonga (OP)                                                    flake                      28.0   Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yonga (OP-ÜP?)                                                flake                      1.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yonga (OP?)                                                   flake                      6.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  yonga (belirsiz)                                              flake                      245.0  Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  çekirdek (Neolitik)                                           core                       3.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  çekirdek (OP)                                                 core                       2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  çekirdek (belirsiz)                                           core                       2.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  éclat débordant (OP)                                          éclat débordant            4.0    Sinekkaya Mağarası (konum)  200 
+A, B ve C alanlarında 1. tabaka kazısı (2024)  éclat siret (belirsiz)                                        éclat siret                4.0    Sinekkaya Mağarası (konum)  200 
+(71 rows)
+
+=== cq02_periods_by_thing: CQ2  Which periods are attested, through which finds or features, and who says so?
+period                                  thing                                                       dated_by       how                            
+--------------------------------------  ----------------------------------------------------------  -------------  -------------------------------
+Cumhuriyet Dönemi                       Ambalaj parçaları, sigara ağızlıkları gibi plastik malzeme                                                
+Neolitik Dönem                          Neolitik Dönem seramiği                                                                                   
+Neolitik Dönem                          dilgi (Neolitik)                                            Berkay Dinçer  authors' assessment            
+Neolitik Dönem                          dilgi (Neolitik)                                            Eylem Tuğutlu  authors' assessment            
+Neolitik Dönem                          dilgi (Neolitik)                                            Serkan Şahin   authors' assessment            
+Neolitik Dönem                          dilgi (Neolitik)                                            Zeynep İçel    authors' assessment            
+Neolitik Dönem                          dilgicik (Neolitik)                                         Berkay Dinçer  authors' assessment            
+Neolitik Dönem                          dilgicik (Neolitik)                                         Eylem Tuğutlu  authors' assessment            
+Neolitik Dönem                          dilgicik (Neolitik)                                         Serkan Şahin   authors' assessment            
+Neolitik Dönem                          dilgicik (Neolitik)                                         Zeynep İçel    authors' assessment            
+Neolitik Dönem                          düzeltili doğal parça (Neolitik)                            Berkay Dinçer  authors' assessment            
+Neolitik Dönem                          düzeltili doğal parça (Neolitik)                            Eylem Tuğutlu  authors' assessment            
+Neolitik Dönem                          düzeltili doğal parça (Neolitik)                            Serkan Şahin   authors' assessment            
+Neolitik Dönem                          düzeltili doğal parça (Neolitik)                            Zeynep İçel    authors' assessment            
+Neolitik Dönem                          korteksli yonga (Neolitik)                                  Berkay Dinçer  authors' assessment            
+Neolitik Dönem                          korteksli yonga (Neolitik)                                  Eylem Tuğutlu  authors' assessment            
+Neolitik Dönem                          korteksli yonga (Neolitik)                                  Serkan Şahin   authors' assessment            
+Neolitik Dönem                          korteksli yonga (Neolitik)                                  Zeynep İçel    authors' assessment            
+Neolitik Dönem                          parça (Neolitik)                                            Berkay Dinçer  authors' assessment            
+Neolitik Dönem                          parça (Neolitik)                                            Eylem Tuğutlu  authors' assessment            
+Neolitik Dönem                          parça (Neolitik)                                            Serkan Şahin   authors' assessment            
+Neolitik Dönem                          parça (Neolitik)                                            Zeynep İçel    authors' assessment            
+Neolitik Dönem                          yarı omurgalı dilgi (Neolitik)                              Berkay Dinçer  authors' assessment            
+Neolitik Dönem                          yarı omurgalı dilgi (Neolitik)                              Eylem Tuğutlu  authors' assessment            
+Neolitik Dönem                          yarı omurgalı dilgi (Neolitik)                              Serkan Şahin   authors' assessment            
+Neolitik Dönem                          yarı omurgalı dilgi (Neolitik)                              Zeynep İçel    authors' assessment            
+Neolitik Dönem                          yonga (Neolitik)                                            Berkay Dinçer  authors' assessment            
+Neolitik Dönem                          yonga (Neolitik)                                            Eylem Tuğutlu  authors' assessment            
+Neolitik Dönem                          yonga (Neolitik)                                            Serkan Şahin   authors' assessment            
+Neolitik Dönem                          yonga (Neolitik)                                            Zeynep İçel    authors' assessment            
+Neolitik Dönem                          çekirdek (Neolitik)                                         Berkay Dinçer  authors' assessment            
+Neolitik Dönem                          çekirdek (Neolitik)                                         Eylem Tuğutlu  authors' assessment            
+Neolitik Dönem                          çekirdek (Neolitik)                                         Serkan Şahin   authors' assessment            
+Neolitik Dönem                          çekirdek (Neolitik)                                         Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   F1-9 biriminden Levallois uç                                Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   F1-9 biriminden Levallois uç                                Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   F1-9 biriminden Levallois uç                                Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   F1-9 biriminden Levallois uç                                Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   Levallois dilgi (OP)                                        Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   Levallois dilgi (OP)                                        Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   Levallois dilgi (OP)                                        Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   Levallois dilgi (OP)                                        Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   Levallois uç (OP)                                           Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   Levallois uç (OP)                                           Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   Levallois uç (OP)                                           Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   Levallois uç (OP)                                           Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   Levallois yonga (OP)                                        Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   Levallois yonga (OP)                                        Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   Levallois yonga (OP)                                        Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   Levallois yonga (OP)                                        Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   dilgi (OP)                                                  Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   dilgi (OP)                                                  Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   dilgi (OP)                                                  Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   dilgi (OP)                                                  Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   iki yüzeyli/çekirdek (OP)                                   Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   iki yüzeyli/çekirdek (OP)                                   Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   iki yüzeyli/çekirdek (OP)                                   Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   iki yüzeyli/çekirdek (OP)                                   Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   korteksli yonga (OP)                                        Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   korteksli yonga (OP)                                        Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   korteksli yonga (OP)                                        Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   korteksli yonga (OP)                                        Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   pseudo Levallois uç (OP)                                    Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   pseudo Levallois uç (OP)                                    Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   pseudo Levallois uç (OP)                                    Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   pseudo Levallois uç (OP)                                    Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   yarı omurgalı dilgi (OP)                                    Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   yarı omurgalı dilgi (OP)                                    Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   yarı omurgalı dilgi (OP)                                    Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   yarı omurgalı dilgi (OP)                                    Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   yonga (OP)                                                  Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   yonga (OP)                                                  Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   yonga (OP)                                                  Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   yonga (OP)                                                  Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   çekirdek (OP)                                               Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   çekirdek (OP)                                               Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   çekirdek (OP)                                               Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   çekirdek (OP)                                               Zeynep İçel    authors' assessment            
+Orta Paleolitik Dönem                   éclat débordant (OP)                                        Berkay Dinçer  authors' assessment            
+Orta Paleolitik Dönem                   éclat débordant (OP)                                        Eylem Tuğutlu  authors' assessment            
+Orta Paleolitik Dönem                   éclat débordant (OP)                                        Serkan Şahin   authors' assessment            
+Orta Paleolitik Dönem                   éclat débordant (OP)                                        Zeynep İçel    authors' assessment            
+Paleolitik Çağ                          Buzul dönemi faunası                                        Berkay Dinçer  extinction range of the species
+Paleolitik Çağ                          Buzul dönemi faunası                                        Eylem Tuğutlu  extinction range of the species
+Paleolitik Çağ                          Buzul dönemi faunası                                        Serkan Şahin   extinction range of the species
+Paleolitik Çağ                          Buzul dönemi faunası                                        Zeynep İçel    extinction range of the species
+Yakın dönem (olasılıkla son 50-60 yıl)  Küçükbaş hayvan dışkı kalıntıları                                                                         
+Üst Paleolitik Dönem                    Gravettien uç                                               Berkay Dinçer  authors' assessment            
+Üst Paleolitik Dönem                    Gravettien uç                                               Eylem Tuğutlu  authors' assessment            
+Üst Paleolitik Dönem                    Gravettien uç                                               Serkan Şahin   authors' assessment            
+Üst Paleolitik Dönem                    Gravettien uç                                               Zeynep İçel    authors' assessment            
+Üst Paleolitik Dönem                    dilgi (ÜP)                                                  Berkay Dinçer  authors' assessment            
+Üst Paleolitik Dönem                    dilgi (ÜP)                                                  Eylem Tuğutlu  authors' assessment            
+Üst Paleolitik Dönem                    dilgi (ÜP)                                                  Serkan Şahin   authors' assessment            
+Üst Paleolitik Dönem                    dilgi (ÜP)                                                  Zeynep İçel    authors' assessment            
+Üst Paleolitik Dönem                    dilgicik (ÜP)                                               Berkay Dinçer  authors' assessment            
+Üst Paleolitik Dönem                    dilgicik (ÜP)                                               Eylem Tuğutlu  authors' assessment            
+Üst Paleolitik Dönem                    dilgicik (ÜP)                                               Serkan Şahin   authors' assessment            
+Üst Paleolitik Dönem                    dilgicik (ÜP)                                               Zeynep İçel    authors' assessment            
+(99 rows)
+
+=== cq03_roles: CQ3  Who took part in the reported campaign, its parts and its support, in which role?
+activity                        actor                             role         
+------------------------------  --------------------------------  -------------
+Konaklama ve destek             Orhaneli Belediye Başkanlığı      accommodation
+Konaklama ve destek             Orhaneli Kaymakamlığı             support      
+Konaklama ve destek             Orhaneli/Beyce Kadın Kooperatifi  support      
+Sinekkaya Mağarası 2024 kazısı  Berkay Dinçer                     author       
+Sinekkaya Mağarası 2024 kazısı  Eylem Tuğutlu                     author       
+Sinekkaya Mağarası 2024 kazısı  Serkan Şahin                      author       
+Sinekkaya Mağarası 2024 kazısı  Zeynep İçel                       author       
+Sinekkaya Mağarası 2024 kazısı  A. Sena Akman                     team member  
+Sinekkaya Mağarası 2024 kazısı  Aleyna Bekçi                      team member  
+Sinekkaya Mağarası 2024 kazısı  Beyza N. Çapar                    team member  
+Sinekkaya Mağarası 2024 kazısı  Büşra Kılıçtaş                    team member  
+Sinekkaya Mağarası 2024 kazısı  Canan R. Yaşar                    team member  
+Sinekkaya Mağarası 2024 kazısı  Dilber Sağdıç                     team member  
+Sinekkaya Mağarası 2024 kazısı  Elif Ç. Doğu                      team member  
+Sinekkaya Mağarası 2024 kazısı  Ezgi Takcı                        team member  
+Sinekkaya Mağarası 2024 kazısı  Göknur Karahan                    team member  
+Sinekkaya Mağarası 2024 kazısı  Sude N. Dilmen                    team member  
+Sinekkaya Mağarası 2024 kazısı  Yaren N. Arslan                   team member  
+Sinekkaya Mağarası 2024 kazısı  Z. Rüveyda Arslan                 team member  
+Sinekkaya Mağarası 2024 kazısı  Özlem Kaya                        team member  
+(20 rows)
+
+=== cq04_research_history: CQ4  Which earlier work does the reported campaign continue, when was it (if the paper says), and who ran it?
+earlier                         begin  end   by                              
+------------------------------  -----  ----  --------------------------------
+Sinekkaya Mağarası 2023 kazısı  2023   2023  Bursa Arkeoloji Müzesi Müdürlüğü
+(1 rows)
+
+=== cq05_figures: CQ5  What does each figure show?
+figure                                                        page  depicts                                                     
+------------------------------------------------------------  ----  ------------------------------------------------------------
+Tablo 1: Sinekkaya Mağarası'nda 2024 yılı stratigrafik birim  199   F1.1: En üstteki sıvalı gibi sertleşmiş birim.; F1.2: En üst
+Tablo 2: Sinekkaya Mağarası 2024 yontma taş buluntuları.      200   2024 yontma taş buluntuları (toplam)                        
+Resim 1: Sinekkaya Mağarası 2024 çalışmalarından bir 3B mode  204   Sinekkaya Mağarası                                          
+Resim 2: Sinekkaya Mağarası kazı çalışmalarında C (solda) ve  204   B alanı; C alanı                                            
+Resim 3: F1-5 birimindeki ocak (üst solda), tespit edilmiş y  205   F1-5 birimindeki ocak; Vurgaçlar; F1.5: A alanında sertleşmi
+Resim 4: F1-7 birimindeki kanal (sağ altta), mikro Levallois  205   F1-7 biriminden mikro Levallois çekirdek; F1.7: Kanal.      
+Resim 5: F1-9 birimindeki sertleşmiş dolgu (alt ortada), Lev  206   F1-9 biriminden Levallois uç; Neolitik Dönem seramiği; F1.9:
+Resim 6: X biriminden düzeltili dilgi (solda), Gravettien uç  206   Gravettien uç; X biriminden düzeltili dilgi                 
+Resim 7: F1-3 (sağda) ve F1-4 birimlerinden iki düzeltili mi  207   F1-3 biriminden geometrik mikrolit (üçgen, düzeltili); F1-4 
+Resim 8: Mağara ayısına (Ursus spelaeus) ait kalıntılar.      207   Mağara ayısı kalıntıları (dişler, çene parçaları, parmak ve 
+Resim 10: Kunduz (Castor) türüne ait çene.                    208   Kunduz çenesi                                               
+Resim 9: Benekli mağara sırtlanına (Crocuta crocuta spelaea)  208   Benekli mağara sırtlanı alt çenesi                          
+(12 rows)
+
+=== cq06_interpretations: CQ6  Which statements are interpretations rather than observations, and on what basis?
+about                                                         interpretation                                                basis                                                         page
+------------------------------------------------------------  ------------------------------------------------------------  ------------------------------------------------------------  ----
+Sinekkaya Mağarası                                            Orta Paleolitik'ten Üst Paleolitik ve Neolitik'e kadar insan  Gerekçe: 2023'te elenen defineci dolgularından gelen arkeolo  197 
+Sinekkaya Mağarası                                            Orta ve Üst Paleolitik'e ait kronolojik ve kültürel boşluğu   Gerekçe: İlk kazının sonuçları; buluntuların iyi korunmuş ol  197 
+1. Tabaka                                                     Holosen'de depolanmış, içinde Pleyistosen buluntuları olan t  Gerekçe: Genel değerlendirme ('söylenebilir').                198 
+1. Tabaka                                                     karışık dolgu                                                 Gerekçe: Orta ve Üst Paleolitik malzeme, soyu tükenmiş hayva  198 
+2024 hayvan kemik kalıntıları (toplam)                        diş fazlalığı korunum farkından kaynaklanmış olabilir         Gerekçe: Dişlerin kemik dokusuna kıyasla daha yüksek korunum  201 
+2024 yontma taş buluntuları (toplam)                          yanmanın zamanı belirsiz                                      Gerekçe: Dolgular karışmış olduğu için Orta Paleolitik bir y  201 
+Buzul dönemi faunası                                          Orta Paleolitik'te mağara büyük mağara faunası tarafından da  Gerekçe: Hayvan kalıntılarına ait veriler.                    201 
+Sinekkaya Mağarası                                            yıl içinde kısa süreli iskân amaçlı kullanım                  Gerekçe: Elenen toprak miktarına oranla buluntu sayısının gö  201 
+Mağara ayısı kalıntıları (dişler, çene parçaları, parmak ve   kemikler ayı kürkleri içinde mağaraya taşınmış olabilir       Gerekçe: Yalnızca diş, çene, parmak ve bilek kemikleri var;   202 
+Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          dönemin insan toplulukları bu hayvanlardan gıda temini amacı                                                                202 
+(10 rows)
+
+=== cq07_finds_in_deposits: CQ7  Which finds come from a recorded deposit, and which activity removed or used that deposit?
+find                                                          deposit                                                       handled_by                                   
+------------------------------------------------------------  ------------------------------------------------------------  ---------------------------------------------
+2024 hayvan kemik kalıntıları (toplam)                        1. Tabaka                                                                                                  
+2024 yontma taş buluntuları (toplam)                          1. Tabaka                                                                                                  
+Ambalaj parçaları, sigara ağızlıkları gibi plastik malzeme    1. Tabaka                                                                                                  
+Benekli mağara sırtlanı alt çenesi                            1. Tabaka                                                                                                  
+Buzul dönemi faunası                                          1. Tabaka                                                                                                  
+Günümüzde de yaşayan diğer türler                             1. Tabaka                                                                                                  
+Kunduz çenesi                                                 1. Tabaka                                                                                                  
+Küçükbaş hayvan dışkı kalıntıları                             1. Tabaka                                                                                                  
+Levallois dilgi (OP)                                          1. Tabaka                                                                                                  
+Levallois uç (OP)                                             1. Tabaka                                                                                                  
+Levallois yonga (OP)                                          1. Tabaka                                                                                                  
+Levallois yonga (OP?)                                         1. Tabaka                                                                                                  
+Mağara ayısı kalıntıları (dişler, çene parçaları, parmak ve   1. Tabaka                                                                                                  
+Neolitik Dönem seramiği                                       1. Tabaka                                                                                                  
+Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          1. Tabaka                                                                                                  
+Tür tayini yapılamayan hayvan kalıntıları                     1. Tabaka                                                                                                  
+Vurgaçlar                                                     1. Tabaka                                                                                                  
+belirsiz (belirsiz)                                           1. Tabaka                                                                                                  
+dilgi (Epipaleolitik?)                                        1. Tabaka                                                                                                  
+dilgi (Neo-ÜP?)                                               1. Tabaka                                                                                                  
+dilgi (Neolitik)                                              1. Tabaka                                                                                                  
+dilgi (Neolitik?)                                             1. Tabaka                                                                                                  
+dilgi (OP)                                                    1. Tabaka                                                                                                  
+dilgi (OP?)                                                   1. Tabaka                                                                                                  
+dilgi (belirsiz)                                              1. Tabaka                                                                                                  
+dilgi (ÜP)                                                    1. Tabaka                                                                                                  
+dilgi (ÜP?)                                                   1. Tabaka                                                                                                  
+dilgicik (Epipaleolitik?)                                     1. Tabaka                                                                                                  
+dilgicik (Neolitik)                                           1. Tabaka                                                                                                  
+dilgicik (Neolitik?)                                          1. Tabaka                                                                                                  
+dilgicik (belirsiz)                                           1. Tabaka                                                                                                  
+dilgicik (ÜP)                                                 1. Tabaka                                                                                                  
+dilgicik (ÜP-Epi?)                                            1. Tabaka                                                                                                  
+doğal parça (belirsiz)                                        1. Tabaka                                                                                                  
+doğal parça (doğal)                                           1. Tabaka                                                                                                  
+düzeltili doğal parça (Neolitik)                              1. Tabaka                                                                                                  
+iki yüzeyli/çekirdek (OP)                                     1. Tabaka                                                                                                  
+korteksli yonga (Neolitik)                                    1. Tabaka                                                                                                  
+korteksli yonga (Neolitik?)                                   1. Tabaka                                                                                                  
+korteksli yonga (OP)                                          1. Tabaka                                                                                                  
+korteksli yonga (belirsiz)                                    1. Tabaka                                                                                                  
+korteksli yonga (ÜP?)                                         1. Tabaka                                                                                                  
+litik? (belirsiz)                                             1. Tabaka                                                                                                  
+litik? (doğal)                                                1. Tabaka                                                                                                  
+manuport (belirsiz)                                           1. Tabaka                                                                                                  
+mikrolit (Epipaleolitik?)                                     1. Tabaka                                                                                                  
+parça (Neolitik)                                              1. Tabaka                                                                                                  
+parça (belirsiz)                                              1. Tabaka                                                                                                  
+pseudo Levallois uç (OP)                                      1. Tabaka                                                                                                  
+uzun Levallois uç (ÜP?)                                       1. Tabaka                                                                                                  
+vurgaç (belirsiz)                                             1. Tabaka                                                                                                  
+yarı omurgalı dilgi (Neolitik)                                1. Tabaka                                                                                                  
+yarı omurgalı dilgi (Neolitik?)                               1. Tabaka                                                                                                  
+yarı omurgalı dilgi (OP)                                      1. Tabaka                                                                                                  
+yonga (Neolitik)                                              1. Tabaka                                                                                                  
+yonga (Neolitik?)                                             1. Tabaka                                                                                                  
+yonga (OP)                                                    1. Tabaka                                                                                                  
+yonga (OP-ÜP?)                                                1. Tabaka                                                                                                  
+yonga (OP?)                                                   1. Tabaka                                                                                                  
+yonga (belirsiz)                                              1. Tabaka                                                                                                  
+çekirdek (Neolitik)                                           1. Tabaka                                                                                                  
+çekirdek (OP)                                                 1. Tabaka                                                                                                  
+çekirdek (belirsiz)                                           1. Tabaka                                                                                                  
+éclat débordant (OP)                                          1. Tabaka                                                                                                  
+éclat siret (belirsiz)                                        1. Tabaka                                                                                                  
+F1-3 biriminden geometrik mikrolit (üçgen, düzeltili)         F1.3: En üstteki yanık, küllü alan.                           A, B ve C alanlarında 1. tabaka kazısı (2024)
+F1-4 biriminden geometrik mikrolit (üçgen, düzeltili)         F1.4: F1.1 altında yer alan sıvalı gibi sertleşmiş birim.     A, B ve C alanlarında 1. tabaka kazısı (2024)
+F1-7 biriminden mikro Levallois çekirdek                      F1.7: Kanal.                                                  A, B ve C alanlarında 1. tabaka kazısı (2024)
+F1-9 biriminden Levallois uç                                  F1.9: F1-2'nin altındaki 'sıvalı' sertleşmiş dolgunun üst sı  A, B ve C alanlarında 1. tabaka kazısı (2024)
+Gravettien uç                                                 X birimi (defineci atık toprağı)                              Defineci dolgularının elenmesi (2023)        
+Gravettien uç                                                 X birimi (defineci atık toprağı)                              X biriminin kaldırılması (2023)              
+X biriminden düzeltili dilgi                                  X birimi (defineci atık toprağı)                              Defineci dolgularının elenmesi (2023)        
+X biriminden düzeltili dilgi                                  X birimi (defineci atık toprağı)                              X biriminin kaldırılması (2023)              
+(73 rows)
+
+=== cq08_place_hierarchy: CQ8  Which named places does the report use, and how do they nest?
+place                       type           within      
+--------------------------  -------------  ------------
+Batı Anadolu                region                     
+Bursa                       province       Batı Anadolu
+Orhaneli                    district       Bursa       
+Girencik                    neighbourhood  Orhaneli    
+Kusumlar                    neighbourhood  Orhaneli    
+Sinekkaya Mağarası (konum)  cave location  Orhaneli    
+(6 rows)
+
+=== cq09_radiocarbon: CQ9  Which contexts are dated by radiocarbon, on which samples, with what result?
+context  code  from  to  samples  page
+-------  ----  ----  --  -------  ----
+(0 rows)
+
+=== cq10_stratigraphic_relations: CQ10 Which stratigraphic relations between contexts does the report state, and how certain are they?
+later                                           relation  earlier                                                       certainty  page
+----------------------------------------------  --------  ------------------------------------------------------------  ---------  ----
+X birimi (defineci atık toprağı)                overlies  1. Tabaka                                                                198 
+F1.1: En üstteki sıvalı gibi sertleşmiş birim.  overlies  F1.4: F1.1 altında yer alan sıvalı gibi sertleşmiş birim.                199 
+F1.2: En üstteki sıvalı gibi sertleşmiş birim.  overlies  F1.9: F1-2'nin altındaki 'sıvalı' sertleşmiş dolgunun üst sı             199 
+(3 rows)
+
+=== cq11_taxa_by_context: CQ11 Which plant and animal taxa were identified, in which context, and who identified them?
+taxon                    remains                                                       context                     identified_by
+-----------------------  ------------------------------------------------------------  --------------------------  -------------
+Aves                     Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Bos taurus               Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          Sinekkaya Mağarası (konum)               
+Canis lupus              Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          Sinekkaya Mağarası (konum)               
+Castor fiber             Kunduz çenesi                                                 Sinekkaya Mağarası (konum)               
+Castor fiber             Günümüzde de yaşayan diğer türler                             Sinekkaya Mağarası (konum)               
+Cervus elaphus           Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          Sinekkaya Mağarası (konum)               
+Crocuta crocuta spelaea  Benekli mağara sırtlanı alt çenesi                            Sinekkaya Mağarası (konum)               
+Crocuta crocuta spelaea  Buzul dönemi faunası                                          Sinekkaya Mağarası (konum)               
+Dama dama                Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          Sinekkaya Mağarası (konum)               
+Dinaromys                Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Equus caballus           Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          Sinekkaya Mağarası (konum)               
+Felis rufus              Günümüzde de yaşayan diğer türler                             Sinekkaya Mağarası (konum)               
+Gerbillus                Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Lepus                    Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Lynx                     Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Martes                   Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Mesocricetus             Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Microtus                 Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Mustela                  Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Ovis aries               Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          Sinekkaya Mağarası (konum)               
+Panthera spelaea         Buzul dönemi faunası                                          Sinekkaya Mağarası (konum)               
+Paradipus                Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Pisces                   Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Spalax                   Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Suidae                   Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Testudae                 Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Ursus spelaeus           Mağara ayısı kalıntıları (dişler, çene parçaları, parmak ve   Sinekkaya Mağarası (konum)               
+Ursus spelaeus           Buzul dönemi faunası                                          Sinekkaya Mağarası (konum)               
+Vespertlio               Tür tayini yapılamayan hayvan kalıntıları                     Sinekkaya Mağarası (konum)               
+Vulpes vulpes            Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          Sinekkaya Mağarası (konum)               
+(30 rows)
+
+=== cq12_dating_conflicts: CQ12 Where do the radiocarbon range of a context and the period of a find from that context not overlap?
+context  c14_from  c14_to  find  period  period_from  period_to
+-------  --------  ------  ----  ------  -----------  ---------
+(0 rows)
+
+=== cq13_plans: CQ13 What work does the report announce for the future, and what does it concern?
+plan  year  concerns
+----  ----  --------
+(0 rows)
+
+=== cq14_hedged_datings: CQ14 Which datings are hedged, how sure are the authors, and which periods are the alternatives?
+thing                                                         certainty  periods                                     
+------------------------------------------------------------  ---------  --------------------------------------------
+F1-3 biriminden geometrik mikrolit (üçgen, düzeltili)         one of     Epipaleolitik Dönem / Üst Paleolitik Dönem  
+F1-4 biriminden geometrik mikrolit (üçgen, düzeltili)         one of     Epipaleolitik Dönem / Üst Paleolitik Dönem  
+F1-5 birimindeki ocak                                         uncertain  Yakın dönem (olasılıkla son 50-60 yıl)      
+F1.8: A'nın kuzey kenarındaki nispeten sertleşmiş, açık kahv  uncertain  Holosen                                     
+Levallois yonga (OP?)                                         uncertain  Orta Paleolitik Dönem                       
+Neolitik Dönem'e tarihlenebilecek hayvan kalıntıları          uncertain  Neolitik Dönem                              
+dilgi (Epipaleolitik?)                                        uncertain  Epipaleolitik Dönem                         
+dilgi (Neo-ÜP?)                                               one of     Neolitik Dönem / Üst Paleolitik Dönem       
+dilgi (Neolitik?)                                             uncertain  Neolitik Dönem                              
+dilgi (OP?)                                                   uncertain  Orta Paleolitik Dönem                       
+dilgi (ÜP?)                                                   uncertain  Üst Paleolitik Dönem                        
+dilgicik (Epipaleolitik?)                                     uncertain  Epipaleolitik Dönem                         
+dilgicik (Neolitik?)                                          uncertain  Neolitik Dönem                              
+dilgicik (ÜP-Epi?)                                            one of     Epipaleolitik Dönem / Üst Paleolitik Dönem  
+korteksli yonga (Neolitik?)                                   uncertain  Neolitik Dönem                              
+korteksli yonga (ÜP?)                                         uncertain  Üst Paleolitik Dönem                        
+mikrolit (Epipaleolitik?)                                     uncertain  Epipaleolitik Dönem                         
+uzun Levallois uç (ÜP?)                                       uncertain  Üst Paleolitik Dönem                        
+yarı omurgalı dilgi (Neolitik?)                               uncertain  Neolitik Dönem                              
+yonga (Neolitik?)                                             uncertain  Neolitik Dönem                              
+yonga (OP-ÜP?)                                                one of     Orta Paleolitik Dönem / Üst Paleolitik Dönem
+yonga (OP?)                                                   uncertain  Orta Paleolitik Dönem                       
+(22 rows)
+
+=== cq15_excavated_amounts: CQ15 How much was excavated by which unit, and what documentation did the work produce?
+work                                           what               value                                      unit  
+---------------------------------------------  -----------------  -----------------------------------------  ------
+A, B ve C alanlarında 1. tabaka kazısı (2024)  mass               0.871                                      t     
+A, B ve C alanlarında 1. tabaka kazısı (2024)  number of buckets  871.0                                      bucket
+A, B ve C alanlarında 1. tabaka kazısı (2024)  volume per bucket  10.0                                       l     
+Elle çizim yöntemiyle plan çizimi              documentation      Mağaranın planı                                  
+Fotogrametri ile üç boyutlu belgeleme          documentation      Mağaranın fotogrametrik üç boyutlu modeli        
+(5 rows)
+
+=== cq16_cited_literature: CQ16 Which statements rest on cited literature, and on which pages?
+entity                          cited                                                       
+------------------------------  ------------------------------------------------------------
+Mağaranın tespiti (2009)        dincer-2010, s. 10                                          
+Mağaranın tespiti (2009)        sahin-2011, s. 105                                          
+Sinekkaya Mağarası 2023 kazısı  Dinçer, B., Durakoğlu, Ç., Şahin, S., Çilingiroğlu, Ç., Arca
+(3 rows)

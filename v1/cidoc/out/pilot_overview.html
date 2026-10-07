@@ -1,0 +1,320 @@
+<title>Excavation Data Pilot</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* layout: one column, four real steps of a process; one example carried through all of them by colour */
+:root {
+  --bg: #f2f5f4; --surface: #ffffff; --ink: #15211f; --muted: #55645f; --rule: #cdd6d2; --accent: #0e6657;
+  --ctx-bg: #f5e6b3; --ctx-fg: #6d4a00;
+  --find-bg: #d8e5f7; --find-fg: #173f78;
+  --who-bg: #f0daea; --who-fg: #6c2560;
+  --lab-bg: #d6ecdb; --lab-fg: #185a30;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Source Serif 4", Georgia, serif;
+  --data: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #111917; --surface: #18221f; --ink: #e6ecea; --muted: #9aaaa5; --rule: #2e3b37; --accent: #5cc9b4;
+  --ctx-bg: #4a3a0c; --ctx-fg: #f3d98a; --find-bg: #1b3358; --find-fg: #b5d0f5;
+  --who-bg: #47203f; --who-fg: #efbfe4; --lab-bg: #173d25; --lab-fg: #aee0bc; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #111917; --surface: #18221f; --ink: #e6ecea; --muted: #9aaaa5; --rule: #2e3b37; --accent: #5cc9b4;
+  --ctx-bg: #4a3a0c; --ctx-fg: #f3d98a; --find-bg: #1b3358; --find-fg: #b5d0f5;
+  --who-bg: #47203f; --who-fg: #efbfe4; --lab-bg: #173d25; --lab-fg: #aee0bc; color-scheme: dark }
+
+body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.55; }
+.page { max-width: 920px; margin-inline: auto; padding-inline: 20px; padding-block: 40px 72px; display: flex; flex-direction: column; gap: 44px; }
+h1, h2, h3 { font-family: var(--display); text-wrap: balance; margin: 0; line-height: 1.15; }
+h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 700; letter-spacing: -0.01em; }
+h2 { font-size: 24px; font-weight: 600; }
+h3 { font-size: 15px; font-weight: 600; }
+p { margin: 0; max-width: 66ch; }
+.lede { font-size: 20px; color: var(--muted); }
+.eyebrow { font-family: var(--display); font-size: 12px; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent); }
+header { display: flex; flex-direction: column; gap: 14px; }
+
+.chain { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid var(--rule); background: var(--surface); }
+.chain a { padding: 14px 16px; border-right: 1px solid var(--rule); text-decoration: none; color: var(--ink); display: flex; flex-direction: column; gap: 2px; }
+.chain a:last-child { border-right: 0; }
+.chain a:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+.chain b { font-family: var(--display); font-size: 16px; }
+.chain span { font-size: 14px; color: var(--muted); line-height: 1.35; }
+.chain i { font-family: var(--data); font-style: normal; font-size: 12px; color: var(--accent); }
+@media (max-width: 640px) { .chain { grid-template-columns: 1fr 1fr; } .chain a:nth-child(2) { border-right: 0; } .chain a:nth-child(-n+2) { border-bottom: 1px solid var(--rule); } }
+
+section { display: flex; flex-direction: column; gap: 16px; }
+.step-head { display: flex; flex-direction: column; gap: 6px; border-top: 2px solid var(--ink); padding-top: 14px; }
+
+mark { padding: 1px 3px; border-radius: 2px; color: inherit; }
+.ctx { background: var(--ctx-bg); color: var(--ctx-fg); }
+.find { background: var(--find-bg); color: var(--find-fg); }
+.who { background: var(--who-bg); color: var(--who-fg); }
+.lab { background: var(--lab-bg); color: var(--lab-fg); }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 14px; font-family: var(--display); font-size: 13px; }
+.legend mark { padding: 2px 8px; }
+
+blockquote { margin: 0; background: var(--surface); border: 1px solid var(--rule); padding: 20px 22px; display: flex; flex-direction: column; gap: 12px; }
+blockquote p { font-size: 18px; line-height: 1.75; max-width: none; }
+blockquote .en { font-size: 15px; line-height: 1.6; color: var(--muted); font-style: italic; border-top: 1px solid var(--rule); padding-top: 12px; }
+cite { font-family: var(--display); font-style: normal; font-size: 13px; color: var(--muted); }
+
+.tables { display: grid; grid-template-columns: 1fr; gap: 18px; }
+.tbl { min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.tbl h3 { font-family: var(--data); font-weight: 500; font-size: 14px; }
+.scroll { overflow-x: auto; border: 1px solid var(--rule); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-family: var(--data); font-size: 13px; font-variant-numeric: tabular-nums; }
+th, td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--rule); white-space: nowrap; vertical-align: top; }
+th { font-weight: 500; color: var(--muted); font-size: 12px; }
+tr:last-child td { border-bottom: 0; }
+td.wrap { white-space: normal; min-width: 220px; }
+.path { font-family: var(--data); font-size: 12px; color: var(--muted); line-height: 1.5; }
+.path b { color: var(--ink); font-weight: 500; }
+
+.plain table { font-family: var(--body); font-size: 15px; }
+.plain th { font-family: var(--display); font-size: 12px; letter-spacing: 0.05em; text-transform: uppercase; }
+.plain td { white-space: normal; }
+.plain td.n { font-family: var(--data); font-size: 14px; white-space: nowrap; text-align: right; }
+.plain th.n { text-align: right; }
+
+svg { display: block; }
+svg text { font-family: var(--display); font-size: 12px; fill: var(--ink); }
+svg .cls { font-family: var(--data); font-size: 10px; fill: var(--muted); }
+svg .edge { stroke: var(--muted); stroke-width: 1.2; fill: none; }
+svg .elabel { font-family: var(--data); font-size: 10px; fill: var(--muted); }
+svg .box { stroke: var(--rule); stroke-width: 1; }
+svg .axis { stroke: var(--rule); stroke-width: 1; }
+svg .tick { font-family: var(--data); font-size: 11px; fill: var(--muted); }
+
+.refused { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 0; border: 1px solid var(--rule); background: var(--surface); }
+.refused li { padding: 10px 14px; border-bottom: 1px solid var(--rule); font-size: 15px; display: flex; gap: 10px; align-items: baseline; }
+.refused li::before { content: "refused"; font-family: var(--data); font-size: 11px; color: var(--who-fg); background: var(--who-bg); padding: 1px 6px; border-radius: 2px; flex: none; }
+
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px; }
+.two > div { min-width: 0; display: flex; flex-direction: column; gap: 10px; }
+ul.notes { margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 6px; max-width: 66ch; }
+footer { border-top: 1px solid var(--rule); padding-top: 16px; font-size: 14px; color: var(--muted); }
+</style>
+
+<div class="page">
+
+<header>
+  <span class="eyebrow">Pilot on the 45th Kazı Sonuçları Toplantısı volume</span>
+  <h1>From an excavation report to data that can be asked questions</h1>
+  <p class="lede">An excavator fills familiar tables. The tables only accept what CIDOC CRM allows. The knowledge graph is generated from them by fixed rules. This page follows one paragraph of one report through every step.</p>
+  <nav class="chain" aria-label="Steps">
+    <a href="#report"><i>step 1</i><b>Report</b><span>What the excavator wrote</span></a>
+    <a href="#tables"><i>step 2</i><b>Tables</b><span>What a person fills and checks</span></a>
+    <a href="#graph"><i>step 3</i><b>Graph</b><span>Generated, never hand-built</span></a>
+    <a href="#answer"><i>step 4</i><b>Answer</b><span>What nobody could ask before</span></a>
+  </nav>
+</header>
+
+<section id="report">
+  <div class="step-head">
+    <span class="eyebrow">Step 1 · Report</span>
+    <h2>One paragraph about one oven</h2>
+    <p>Yumuktepe Höyük, 2024 season. The paragraph holds seven separate facts. In the printed volume they can only be found by reading.</p>
+  </div>
+  <div class="legend" aria-label="Colour key">
+    <mark class="ctx">context and stratigraphy</mark>
+    <mark class="find">find and its period</mark>
+    <mark class="who">who says so</mark>
+    <mark class="lab">sample and laboratory result</mark>
+  </div>
+  <blockquote>
+    <p lang="tr">At nalı biçimli ve taş temelli <mark class="ctx">BX olarak adlandırılan fırının</mark> önemli bir kısmı kuzey profilin içinde (AA 15-BB 15 arası) yer alırken […] <mark class="ctx">Ocak seviyesinde</mark> <mark class="find">Beyrut üretimi Britille Ware, Port St. Simeon kökenli renkli sırlı ve kazıma bezemeli 13. yy. seramikleri</mark> ele geçmiştir <mark class="who">(G. Köroğlu kişisel görüşme)</mark>. <mark class="ctx">B2ç1 çukuru tarafından tahrip edilen</mark> BX fırınından alınan <mark class="lab">arpanın (Hordeum vulgare) karbon 14 yaş aralığı MS 1387-1476 cal.</mark> uzanmaktadır.</p>
+    <p class="en">A large part of the horseshoe-shaped, stone-founded oven called BX lies inside the north section. At the hearth level, Beirut-made Brittle Ware and 13th-century glazed and incised pottery of Port St. Simeon origin were recovered (G. Köroğlu, personal communication). Barley taken from the BX oven, which was destroyed by pit B2ç1, gave a calibrated radiocarbon range of AD 1387 to 1476.</p>
+    <cite>Ulaş and Evgen, Yumuktepe Höyük “Geleceğe Miras Projesi” 2024 Kazı Çalışmaları, 45. Kazı Sonuçları Toplantısı, vol. 1, p. 269. Spelling as printed.</cite>
+  </blockquote>
+</section>
+
+<section id="tables">
+  <div class="step-head">
+    <span class="eyebrow">Step 2 · Tables</span>
+    <h2>The same paragraph as rows</h2>
+    <p>These are the actual rows in the database. The column names are plain words. The line under each table shows the fixed CIDOC CRM path that stands behind one of its columns. The person filling the table never sees it.</p>
+  </div>
+  <div class="tables">
+    <div class="tbl">
+      <h3>context</h3>
+      <div class="scroll"><table>
+        <tr><th>id</th><th>kind</th><th>label</th><th>identifier</th><th>type</th><th>part_of</th><th>at_feature</th></tr>
+        <tr><td><mark class="ctx">bx-oven</mark></td><td>feature</td><td>BX fırını</td><td>BX</td><td>oven</td><td>trench-bb15</td><td></td></tr>
+        <tr><td><mark class="ctx">bx-hearth-level</mark></td><td>stratum</td><td>BX fırını ocak seviyesi</td><td></td><td></td><td></td><td>bx-oven</td></tr>
+      </table></div>
+      <p class="path"><b>identifier</b> becomes E18 Physical Thing . P1 is identified by . E42 Identifier</p>
+    </div>
+    <div class="tbl">
+      <h3>relation</h3>
+      <div class="scroll"><table>
+        <tr><th>id</th><th>from_context</th><th>type</th><th>to_context</th><th>page</th></tr>
+        <tr><td>rel-b2c1-bx</td><td><mark class="ctx">pit-b2c1</mark></td><td>destroys</td><td><mark class="ctx">bx-oven</mark></td><td>269</td></tr>
+      </table></div>
+      <p class="path"><b>type</b> becomes A8 Stratigraphic Unit . AP11 has physical relation to . A8 Stratigraphic Unit</p>
+    </div>
+    <div class="tbl">
+      <h3>find, with dating and attribution</h3>
+      <div class="scroll"><table>
+        <tr><th>id</th><th>label</th><th>type</th><th>found_by</th><th>at_feature</th><th>from_stratum</th><th>period</th><th>dated by</th><th>via</th></tr>
+        <tr><td><mark class="find">brittle-ware-bx</mark></td><td>Beyrut üretimi Brittle Ware</td><td>pottery sherds</td><td>exc-bb15</td><td>bx-oven</td><td>bx-hearth-level</td><td><mark class="find">c13</mark></td><td><mark class="who">koroglu-gulgun</mark></td><td><mark class="who">personal communication</mark></td></tr>
+        <tr><td><mark class="find">port-st-simeon-bx</mark></td><td>Port St. Simeon kökenli […] seramik</td><td>pottery sherds</td><td>exc-bb15</td><td>bx-oven</td><td>bx-hearth-level</td><td><mark class="find">c13</mark></td><td><mark class="who">koroglu-gulgun</mark></td><td><mark class="who">personal communication</mark></td></tr>
+      </table></div>
+      <p class="path"><b>from_stratum</b> becomes E19 . AP18i is embedded . A7 Embedding . AP19 is embedding in . A2 Stratigraphic Volume Unit<br><b>dated by</b> becomes E13 Attribute Assignment . P14 carried out by . E39 Actor</p>
+    </div>
+    <div class="tbl">
+      <h3>period</h3>
+      <div class="scroll"><table>
+        <tr><th>id</th><th>label</th><th>begin_year</th><th>end_year</th></tr>
+        <tr><td><mark class="find">c13</mark></td><td>MS 13. yüzyıl</td><td>1200</td><td>1299</td></tr>
+      </table></div>
+      <p class="path"><b>begin_year</b> becomes E4 Period . P4 has time-span . E52 Time-Span . P82a begin of the begin</p>
+    </div>
+    <div class="tbl">
+      <h3>sample and analysis</h3>
+      <div class="scroll"><table>
+        <tr><th>id</th><th>label</th><th>material_type</th><th>taken_from</th><th>taken_during</th></tr>
+        <tr><td><mark class="lab">s-barley-bx</mark></td><td>Arpa (BX fırını)</td><td>seed</td><td>bx-oven</td><td>exc-bb15</td></tr>
+      </table></div>
+      <div class="scroll"><table>
+        <tr><th>id</th><th>type</th><th>sample</th><th>result_begin</th><th>result_end</th><th>dates</th><th>page</th></tr>
+        <tr><td><mark class="lab">c14-bx</mark></td><td>radiocarbon dating (calibrated)</td><td>s-barley-bx</td><td><mark class="lab">1387</mark></td><td><mark class="lab">1476</mark></td><td>bx-oven</td><td>269</td></tr>
+      </table></div>
+      <p class="path"><b>sample</b> becomes S4 Single Observation . O8 observed . S13 Sample<br><b>result_begin</b> becomes S4 . O16 observed value . E52 Time-Span . P82a begin of the begin</p>
+    </div>
+  </div>
+
+  <h3>What the tables refuse</h3>
+  <p>The database checks every entry at the moment it is made. Twelve kinds of wrong entry were tried. All twelve were refused. Some of them:</p>
+  <ul class="refused">
+    <li>A find from a trench that does not exist</li>
+    <li>A find with no unit that found it</li>
+    <li>A class that is not in the ontologies</li>
+    <li>A find recorded as a person</li>
+    <li>A period that ends before it begins</li>
+    <li>A context that cuts itself</li>
+    <li>A relation type nobody defined</li>
+    <li>A field the tables have no column for</li>
+  </ul>
+</section>
+
+<section id="graph">
+  <div class="step-head">
+    <span class="eyebrow">Step 3 · Graph</span>
+    <h2>The rows as a CIDOC CRM graph</h2>
+    <p>A program writes the graph from the tables. The same column always gives the same path, so graphs from different excavations can be queried together. The drawing shows the part that comes from the paragraph above, simplified.</p>
+  </div>
+  <div class="scroll" style="padding:12px">
+    <svg viewBox="0 0 860 380" width="860" height="380" role="img" aria-label="Graph of the BX oven, its deposit, finds, sample, laboratory result and the person who dated the pottery">
+      <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" style="fill:var(--muted)"/></marker></defs>
+      <!-- edges -->
+      <path class="edge" marker-end="url(#arr)" d="M150 60 L340 150"/>
+      <text class="elabel" x="186" y="96">AP11 destroys</text>
+      <path class="edge" marker-end="url(#arr)" d="M150 190 L340 182"/>
+      <text class="elabel" x="176" y="178">lies in</text>
+      <path class="edge" marker-end="url(#arr)" d="M150 320 L150 222"/>
+      <text class="elabel" x="158" y="276">AP19 embedded in</text>
+      <path class="edge" marker-end="url(#arr)" d="M270 330 L400 330"/>
+      <text class="elabel" x="284" y="322">P10 falls within</text>
+      <path class="edge" marker-end="url(#arr)" d="M640 330 L530 330"/>
+      <text class="elabel" x="548" y="322">P141 assigned</text>
+      <path class="edge" marker-end="url(#arr)" d="M760 250 L760 300"/>
+      <text class="elabel" x="768" y="280">P14 by</text>
+      <path class="edge" marker-end="url(#arr)" d="M640 60 L470 150"/>
+      <text class="elabel" x="540" y="96">O3 sampled from</text>
+      <path class="edge" marker-end="url(#arr)" d="M760 140 L760 80"/>
+      <text class="elabel" x="768" y="114">O8 observed</text>
+      <path class="edge" marker-end="url(#arr)" d="M640 165 L472 172"/>
+      <text class="elabel" x="524" y="160">dates</text>
+      <!-- nodes -->
+      <g><rect class="box" x="30" y="30" width="240" height="46" style="fill:var(--ctx-bg)"/><text x="42" y="50" style="fill:var(--ctx-fg)">B2ç1 pit</text><text class="cls" x="42" y="66">E25 Human-Made Feature · A8</text></g>
+      <g><rect class="box" x="340" y="140" width="132" height="58" style="fill:var(--ctx-bg)"/><text x="352" y="164" style="fill:var(--ctx-fg);font-size:15px;font-weight:600">BX oven</text><text class="cls" x="352" y="182">E25 · A8</text></g>
+      <g><rect class="box" x="30" y="166" width="240" height="46" style="fill:var(--ctx-bg)"/><text x="42" y="186" style="fill:var(--ctx-fg)">BX hearth level</text><text class="cls" x="42" y="202">A2 Stratigraphic Volume Unit</text></g>
+      <g><rect class="box" x="30" y="306" width="240" height="46" style="fill:var(--find-bg)"/><text x="42" y="326" style="fill:var(--find-fg)">Brittle Ware, Port St. Simeon ware</text><text class="cls" x="42" y="342">E22 Human-Made Object</text></g>
+      <g><rect class="box" x="400" y="306" width="130" height="46" style="fill:var(--find-bg)"/><text x="412" y="326" style="fill:var(--find-fg)">13th century</text><text class="cls" x="412" y="342">E4 Period 1200 to 1299</text></g>
+      <g><rect class="box" x="640" y="306" width="200" height="46" style="fill:var(--who-bg)"/><text x="652" y="326" style="fill:var(--who-fg)">Dating claim</text><text class="cls" x="652" y="342">E13 Attribute Assignment</text></g>
+      <g><rect class="box" x="640" y="204" width="200" height="46" style="fill:var(--who-bg)"/><text x="652" y="224" style="fill:var(--who-fg)">Gülgün Köroğlu</text><text class="cls" x="652" y="240">E21 · personal communication</text></g>
+      <g><rect class="box" x="640" y="30" width="200" height="46" style="fill:var(--lab-bg)"/><text x="652" y="50" style="fill:var(--lab-fg)">Barley sample</text><text class="cls" x="652" y="66">S13 Sample</text></g>
+      <g><rect class="box" x="640" y="140" width="200" height="58" style="fill:var(--lab-bg)"/><text x="652" y="160" style="fill:var(--lab-fg)">Radiocarbon result</text><text class="cls" x="652" y="176">S4 Single Observation</text><text class="cls" x="652" y="190">AD 1387 to 1476</text></g>
+    </svg>
+  </div>
+  <p>The pottery date is stored as a claim by a named person. The radiocarbon range is stored as a laboratory observation. The graph keeps them apart, so a reader can always tell what was measured from what was judged.</p>
+</section>
+
+<section id="answer">
+  <div class="step-head">
+    <span class="eyebrow">Step 4 · Answer</span>
+    <h2>Where does the laboratory date disagree with the finds?</h2>
+    <p>One question, asked of every loaded report at once. It returned two rows, both from this oven. The report states both dates in the same paragraph and does not comment on the gap there.</p>
+  </div>
+  <div class="scroll" style="padding:12px">
+    <svg viewBox="0 0 860 170" width="860" height="170" role="img" aria-label="Timeline: pottery period 1200 to 1299, radiocarbon range 1387 to 1476, gap of 88 years">
+      <!-- scale: x = 60 + (year - 1150) * 2.2 , 1150..1500 -->
+      <line class="axis" x1="60" y1="130" x2="830" y2="130"/>
+      <g class="tick">
+        <line class="axis" x1="170" y1="126" x2="170" y2="134"/><text x="170" y="152" text-anchor="middle">1200</text>
+        <line class="axis" x1="390" y1="126" x2="390" y2="134"/><text x="390" y="152" text-anchor="middle">1300</text>
+        <line class="axis" x1="610" y1="126" x2="610" y2="134"/><text x="610" y="152" text-anchor="middle">1400</text>
+        <line class="axis" x1="830" y1="126" x2="830" y2="134"/><text x="830" y="152" text-anchor="middle">1500</text>
+      </g>
+      <rect x="170" y="30" width="217.8" height="30" style="fill:var(--find-bg)" class="box"/>
+      <text x="178" y="50" style="fill:var(--find-fg)">Pottery from the hearth level, 1200 to 1299</text>
+      <rect x="581.4" y="78" width="195.8" height="30" style="fill:var(--lab-bg)" class="box"/>
+      <text x="589" y="98" style="fill:var(--lab-fg)">Barley, 1387 to 1476 cal.</text>
+      <line class="edge" x1="387.8" y1="69" x2="581.4" y2="69" stroke-dasharray="4 4"/>
+      <text class="tick" x="484" y="63" text-anchor="middle">88 years apart</text>
+    </svg>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>context</th><th>lab_from</th><th>lab_to</th><th>find</th><th>period</th><th>period_from</th><th>period_to</th></tr>
+    <tr><td>BX fırını</td><td>1387</td><td>1476</td><td>Beyrut üretimi Brittle Ware</td><td>MS 13. yüzyıl</td><td>1200</td><td>1299</td></tr>
+    <tr><td>BX fırını</td><td>1387</td><td>1476</td><td>Port St. Simeon kökenli […] seramik</td><td>MS 13. yüzyıl</td><td>1200</td><td>1299</td></tr>
+  </table></div>
+  <p>The system does not say who is right. It shows the excavator where to look. With every paper of the volume loaded, the same question runs over all excavations of a season.</p>
+</section>
+
+<section>
+  <div class="step-head">
+    <span class="eyebrow">State of the pilot</span>
+    <h2>What has been built and tested</h2>
+  </div>
+  <div class="scroll plain"><table>
+    <tr><th>What</th><th class="n">Result</th><th>What it shows</th></tr>
+    <tr><td>Papers split from the volume</td><td class="n">26 of 26</td><td>Matches the printed table of contents</td></tr>
+    <tr><td>Papers loaded into the tables</td><td class="n">3</td><td>Seleukeia Sidera, Yumuktepe and Sinekkaya, entered by close reading</td></tr>
+    <tr><td>Tables an excavator would fill</td><td class="n">34</td><td>Contexts, finds, samples, analyses, people, sources</td></tr>
+    <tr><td>Columns with a fixed CIDOC CRM path</td><td class="n">129</td><td>No column is left unmapped</td></tr>
+    <tr><td>Classes and properties the database knows</td><td class="n">114 and 445</td><td>Read from the official files of CIDOC CRM 7.1.3, CRMarchaeo 2.1.1, CRMsci 3.2</td></tr>
+    <tr><td>Rows stored</td><td class="n">2,400</td><td>432 of 459 entries carry the printed page where they are stated</td></tr>
+    <tr><td>Statements in the three graphs</td><td class="n">1,802, 3,667 and 5,028</td><td>Generated from the tables</td></tr>
+    <tr><td>Statements lost between record and graph</td><td class="n">0</td><td>Every stored field reaches the graph</td></tr>
+    <tr><td>Wrong entries refused</td><td class="n">12 of 12</td><td>Errors stop at entry, not at publication</td></tr>
+    <tr><td>Validation rules passed</td><td class="n">18 of 18</td><td>Six warnings, all for work the papers leave undated</td></tr>
+    <tr><td>Test questions answered</td><td class="n">8, 13 and 13 of 16</td><td>A question stays empty when the paper reports nothing of that kind</td></tr>
+  </table></div>
+</section>
+
+<section class="two">
+  <div>
+    <span class="eyebrow">Next</span>
+    <h3>What comes after the pilot</h3>
+    <ul class="notes">
+      <li>Load the remaining 23 papers of the volume. A language model fills the tables and a person checks them. The model never chooses classes.</li>
+      <li>Count how many table changes each new paper forces. That number is the test of the design. The third paper forced four new tables and three new columns.</li>
+      <li>Add coordinates and geometry, which no table holds yet.</li>
+      <li>Move from reports to real excavation files, starting with one excavation database.</li>
+    </ul>
+  </div>
+  <div>
+    <span class="eyebrow">Limits</span>
+    <h3>What this does not show yet</h3>
+    <ul class="notes">
+      <li>A report is a summary of an excavation. It is not the excavation's data. The pilot shows the method, not the full record.</li>
+      <li>Three papers are too few to claim the tables are complete.</li>
+      <li>People, places and periods are not yet matched across papers.</li>
+      <li>Web addresses in the graph are placeholders.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>Source: 45. Kazı Sonuçları Toplantısı Bildirileri, vol. 1, Ankara 2026. Ontologies: CIDOC CRM 7.1.3, CRMarchaeo 2.1.1, CRMsci 3.2.</footer>
+
+</div>

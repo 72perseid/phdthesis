@@ -1,0 +1,16 @@
+# CQ12 Where do the radiocarbon range of a context and the period of a find from that context not overlap?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?context ?c14_from ?c14_to ?find ?period ?period_from ?period_to WHERE {
+  ?use crm:P12_occurred_in_the_presence_of ?c ; crm:P4_has_time_span ?ts .
+  ?ts crm:P2_has_type type:calibrated-radiocarbon-range ; kst:beginYear ?c14_from ; kst:endYear ?c14_to .
+  ?c rdfs:label ?context ; crm:P53_has_former_or_current_location ?pl .
+  ?f crm:P53_has_former_or_current_location ?pl ; crmsci:O19i_was_object_encountered_at ?enc ; rdfs:label ?find ;
+     crm:P108i_was_produced_by/crm:P10_falls_within ?per .
+  ?per rdfs:label ?period ; crm:P4_has_time_span ?pts . ?pts kst:beginYear ?period_from ; kst:endYear ?period_to .
+  FILTER (?period_to < ?c14_from || ?period_from > ?c14_to)
+} ORDER BY ?context ?find

@@ -1,0 +1,600 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script>function neighbourhoodHighlight(params) {
+  // console.log("in nieghbourhoodhighlight");
+  allNodes = nodes.get({ returnType: "Object" });
+  // originalNodes = JSON.parse(JSON.stringify(allNodes));
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    highlightActive = true;
+    var i, j;
+    var selectedNode = params.nodes[0];
+    var degrees = 2;
+
+    // mark all nodes as hard to read.
+    for (let nodeId in allNodes) {
+      // nodeColors[nodeId] = allNodes[nodeId].color;
+      allNodes[nodeId].color = "rgba(200,200,200,0.5)";
+      if (allNodes[nodeId].hiddenLabel === undefined) {
+        allNodes[nodeId].hiddenLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+    var connectedNodes = network.getConnectedNodes(selectedNode);
+    var allConnectedNodes = [];
+
+    // get the second degree nodes
+    for (i = 1; i < degrees; i++) {
+      for (j = 0; j < connectedNodes.length; j++) {
+        allConnectedNodes = allConnectedNodes.concat(
+          network.getConnectedNodes(connectedNodes[j])
+        );
+      }
+    }
+
+    // all second degree nodes get a different color and their label back
+    for (i = 0; i < allConnectedNodes.length; i++) {
+      // allNodes[allConnectedNodes[i]].color = "pink";
+      allNodes[allConnectedNodes[i]].color = "rgba(150,150,150,0.75)";
+      if (allNodes[allConnectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[allConnectedNodes[i]].label =
+          allNodes[allConnectedNodes[i]].hiddenLabel;
+        allNodes[allConnectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // all first degree nodes get their own color and their label back
+    for (i = 0; i < connectedNodes.length; i++) {
+      // allNodes[connectedNodes[i]].color = undefined;
+      allNodes[connectedNodes[i]].color = nodeColors[connectedNodes[i]];
+      if (allNodes[connectedNodes[i]].hiddenLabel !== undefined) {
+        allNodes[connectedNodes[i]].label =
+          allNodes[connectedNodes[i]].hiddenLabel;
+        allNodes[connectedNodes[i]].hiddenLabel = undefined;
+      }
+    }
+
+    // the main node gets its own color and its label back.
+    // allNodes[selectedNode].color = undefined;
+    allNodes[selectedNode].color = nodeColors[selectedNode];
+    if (allNodes[selectedNode].hiddenLabel !== undefined) {
+      allNodes[selectedNode].label = allNodes[selectedNode].hiddenLabel;
+      allNodes[selectedNode].hiddenLabel = undefined;
+    }
+  } else if (highlightActive === true) {
+    // console.log("highlightActive was true");
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      // allNodes[nodeId].color = "purple";
+      allNodes[nodeId].color = nodeColors[nodeId];
+      // delete allNodes[nodeId].color;
+      if (allNodes[nodeId].hiddenLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].hiddenLabel;
+        allNodes[nodeId].hiddenLabel = undefined;
+      }
+    }
+    highlightActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    // console.log("Nothing was selected");
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        // console.log(allNodes[nodeId]);
+        // allNodes[nodeId].color = {};
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function filterHighlight(params) {
+  allNodes = nodes.get({ returnType: "Object" });
+  // if something is selected:
+  if (params.nodes.length > 0) {
+    filterActive = true;
+    let selectedNodes = params.nodes;
+
+    // hiding all nodes and saving the label
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = true;
+      if (allNodes[nodeId].savedLabel === undefined) {
+        allNodes[nodeId].savedLabel = allNodes[nodeId].label;
+        allNodes[nodeId].label = undefined;
+      }
+    }
+
+    for (let i=0; i < selectedNodes.length; i++) {
+      allNodes[selectedNodes[i]].hidden = false;
+      if (allNodes[selectedNodes[i]].savedLabel !== undefined) {
+        allNodes[selectedNodes[i]].label = allNodes[selectedNodes[i]].savedLabel;
+        allNodes[selectedNodes[i]].savedLabel = undefined;
+      }
+    }
+
+  } else if (filterActive === true) {
+    // reset all nodes
+    for (let nodeId in allNodes) {
+      allNodes[nodeId].hidden = false;
+      if (allNodes[nodeId].savedLabel !== undefined) {
+        allNodes[nodeId].label = allNodes[nodeId].savedLabel;
+        allNodes[nodeId].savedLabel = undefined;
+      }
+    }
+    filterActive = false;
+  }
+
+  // transform the object into an array
+  var updateArray = [];
+  if (params.nodes.length > 0) {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  } else {
+    for (let nodeId in allNodes) {
+      if (allNodes.hasOwnProperty(nodeId)) {
+        updateArray.push(allNodes[nodeId]);
+      }
+    }
+    nodes.update(updateArray);
+  }
+}
+
+function selectNode(nodes) {
+  network.selectNodes(nodes);
+  neighbourhoodHighlight({ nodes: nodes });
+  return nodes;
+}
+
+function selectNodes(nodes) {
+  network.selectNodes(nodes);
+  filterHighlight({nodes: nodes});
+  return nodes;
+}
+
+function highlightFilter(filter) {
+  let selectedNodes = []
+  let selectedProp = filter['property']
+  if (filter['item'] === 'node') {
+    let allNodes = nodes.get({ returnType: "Object" });
+    for (let nodeId in allNodes) {
+      if (allNodes[nodeId][selectedProp] && filter['value'].includes((allNodes[nodeId][selectedProp]).toString())) {
+        selectedNodes.push(nodeId)
+      }
+    }
+  }
+  else if (filter['item'] === 'edge'){
+    let allEdges = edges.get({returnType: 'object'});
+    // check if the selected property exists for selected edge and select the nodes connected to the edge
+    for (let edge in allEdges) {
+      if (allEdges[edge][selectedProp] && filter['value'].includes((allEdges[edge][selectedProp]).toString())) {
+        selectedNodes.push(allEdges[edge]['from'])
+        selectedNodes.push(allEdges[edge]['to'])
+      }
+    }
+  }
+  selectNodes(selectedNodes)
+}</script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+            
+            
+            
+            
+            
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/css/tom-select.min.css" integrity="sha512-43fHB3GLgZfz8QXl1RPQ8O66oIgv3po9cJ5erMt1c4QISq9dYb195T3vr5ImnJPXuVroKcGBPXBFKETW8jrPNQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/tom-select/2.0.0-rc.4/js/tom-select.complete.js" integrity="sha512-jeF9CfnvzDiw9G9xiksVjxR2lib44Gnovvkv+3CgCG6NXCD4gqlA5nDAVW5WjpA+i+/zKsUWV5xNEbW1X/HH0Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+
+        
+<center>
+<h1></h1>
+</center>
+
+<!--
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 900px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+                <div id="select-menu" class="card-header">
+                    <div class="row no-gutters">
+                        <div class="col-10 pb-2">
+                            <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="selectNode([value]);"
+                            id="select-node"
+                            placeholder="Select node..."
+                            >
+                                <option selected>Select a Node by ID</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024">https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024">https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2">https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/site">https://example.org/kst45/seleukeia-sidera-2024/feature/site</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/document/report">https://example.org/kst45/seleukeia-sidera-2024/document/report</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4">https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium">https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium">https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/theatre">https://example.org/kst45/seleukeia-sidera-2024/feature/theatre</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3">https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building">https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic">https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993">https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group">https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos">https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos">https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom">https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/actor/atay">https://example.org/kst45/seleukeia-sidera-2024/actor/atay</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/place/of-site">https://example.org/kst45/seleukeia-sidera-2024/place/of-site</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024">https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra-floor">https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra-floor</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87">https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe">https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1">https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building">https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin">https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre">https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-south-vomitorium">https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-south-vomitorium</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/north-cavea">https://example.org/kst45/seleukeia-sidera-2024/feature/north-cavea</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma">https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/place/of-north-analemma">https://example.org/kst45/seleukeia-sidera-2024/place/of-north-analemma</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22">https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu">https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/actor/togan">https://example.org/kst45/seleukeia-sidera-2024/actor/togan</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs">https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion">https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra">https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6">https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6</option>
+                                
+                                    <option value="https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra">https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-2 pb-2">
+                            <button type="button" class="btn btn-primary btn-block" onclick="neighbourhoodHighlight({nodes: []});">Reset Selection</button>
+                        </div>
+                    </div>
+                </div>
+            
+            
+              <div id="filter-menu" class="card-header">
+                <div class="row no-gutters">
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'item')"
+                            id="select-item"
+                        >
+                        <option value="">Select a network item</option>
+                        <option value="edge">edge</option>
+                        <option value="node">node</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            onchange="updateFilter(value, 'property')"
+                            id="select-property"
+                        >
+                        <option value="">Select a property...</option>
+                    </select>
+                  </div>
+                  <div class="col-3 pb-2">
+                    <select
+                            class="form-select"
+                            aria-label="Default select example"
+                            id="select-value"
+                        >
+                        <option value="">Select value(s)...</option>
+                    </select>
+                  </div>
+                  <div class="col-1 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="highlightFilter(filter);">Filter</button>
+                  </div>
+                  <div class="col-2 pb-2">
+                    <button type="button" class="btn btn-primary btn-block" onclick="clearFilter(true)">Reset Selection</button>
+                  </div>
+                </div>
+              </div>
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+                  new TomSelect("#select-node",{
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      }
+                  });
+              
+
+              
+                  // explicitly using onItemAdd and this function as we need to save multiple values
+                  let updateValueFilter = function() {
+                      return function () {
+                      filter['value'].push(arguments[0])
+                      }
+                  }
+
+                  let valueControl = new TomSelect("#select-value",{
+                      maxItems: null,
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: updateValueFilter()
+                  });
+
+                  let addValues = function() {
+                      return function () {
+                          // clear the current value options and add the selected attribute values
+                          // tom-select handles duplicates
+                          let selectedProperty = arguments[0];
+                          valueControl.clear();
+                          valueControl.clearOptions();
+                          filter['value'] = []
+                          if (filter['item'] === 'node') {
+                              for (let each in allNodes) {
+                                  valueControl.addOption({
+                                      id:allNodes[each][selectedProperty],
+                                      title:allNodes[each][selectedProperty]
+                                  })
+                              }
+                          }
+                          else if (filter['item'] === 'edge') {
+                              for (let each in allEdges) {
+                                  valueControl.addOption({
+                                      id:allEdges[each][selectedProperty],
+                                      title:allEdges[each][selectedProperty]
+                                  })
+                              }
+                          }
+                      }
+                  };
+
+                  let propControl = new TomSelect("#select-property",{
+                      valueField: 'id',
+                      labelField: 'title',
+                      searchField: 'title',
+                      create: false,
+                      sortField: {
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addValues()
+                  });
+
+                  let addProperties = function() {
+                      return function () {
+                          // loops through the selected network item and adds the attributes to dropdown
+                          // tom-select handles duplicates
+                          clearFilter(false)
+                          if (arguments[0] === 'edge') {
+                              for (let each in allEdges) {
+                                  if (allEdges.hasOwnProperty(each)) {
+                                      for (let eachProp in allEdges[each]) {
+                                          if (allEdges[each].hasOwnProperty(eachProp)) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                          else if (arguments[0] === 'node') {
+                              for (let each in allNodes) {
+                                  if (allNodes.hasOwnProperty(each)) {
+                                      for (let eachProp in allNodes[each]) {
+                                          if (allNodes[each].hasOwnProperty(eachProp)
+                                              && (eachProp !== 'hidden' && eachProp !== 'savedLabel'
+                                                  && eachProp !== 'hiddenLabel')) {
+                                              propControl.addOption({id: eachProp, title: eachProp})
+
+                                          }
+                                      }
+                                  }
+                              }
+                          }
+                      }
+                  };
+
+                  let itemControl = new TomSelect("#select-item",{
+                      create: false,
+                      sortField:{
+                          field: "text",
+                          direction: "asc"
+                      },
+                      onItemAdd: addProperties()
+                  });
+
+                  function clearFilter(reset) {
+                      // utility function to clear all the selected filter options
+                      // if reset is set to true, the existing filter will be removed
+                      // else, only the dropdown options are cleared
+                      propControl.clear();
+                      propControl.clearOptions();
+                      valueControl.clear();
+                      valueControl.clearOptions();
+                      filter = {
+                          item : '',
+                          property : '',
+                          value : []
+                      }
+                      if (reset) {
+                          itemControl.clear();
+                          filterHighlight({nodes: []})
+                      }
+                  }
+
+                  function updateFilter(value, key) {
+                      // key could be 'item' or 'property' and value is as selected in dropdown
+                      filter[key] = value
+                  }
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "#222222"}, "group": "activity", "id": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "Seleukeia Sidera 2024 y\u0131l\u0131 \u00e7al\u0131\u015fmalar\u0131", "shape": "box", "size": 22, "title": "\u003cb\u003eSeleukeia Sidera 2024 y\u0131l\u0131 \u00e7al\u0131\u015fmalar\u0131\u003c/b\u003e\nclass: E7_Activity, A9_Archaeological_Excavation\nuri: campaign-2024\ntype: excavation campaign\nP3 has note: Kaz\u0131, temizlik, d\u00fczenleme ve belgeleme \u00e7al\u0131\u015fmalar\u0131; G\u00fcney Yamac\u0131 Yap\u0131 Gruplar\u0131 ile Tiyatro ve Sahne Binas\u0131\u0027nda yo\u011funla\u015fm\u0131\u015ft\u0131r.\ntime-span: MS 2024 \u2013 MS 2024\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "activity", "id": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024", "label": "Sahne binas\u0131 kuzey y\u00f6n\u00fc kaz\u0131 ve belgelem\u2026", "shape": "box", "size": 22, "title": "\u003cb\u003eSahne binas\u0131 kuzey y\u00f6n\u00fc kaz\u0131 ve belgeleme \u00e7al\u0131\u015fmalar\u0131 2024\u003c/b\u003e\nclass: E7_Activity, A1_Excavation_Processing_Unit\nuri: exc-stage-north-2024\nP3 has note: Yap\u0131n\u0131n ana hatlar\u0131n\u0131n belgelenmesi ve nymphaion ile yap\u0131sal b\u00fct\u00fcnl\u00fc\u011f\u00fcn\u00fcn incelenmesi ama\u00e7lanm\u0131\u015ft\u0131r.\ntime-span: MS 2024 \u2013 MS 2024\nsourcePage: 211"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2", "label": "Resim 2: Hisar Tepe, Seleukeia Sidera.", "shape": "square", "size": 18, "title": "\u003cb\u003eResim 2: Hisar Tepe, Seleukeia Sidera.\u003c/b\u003e\nclass: E36_Visual_Item\nuri: resim-2\ntype: figure\ntype: Resim\nsourcePage: 218"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/site", "label": "Seleukeia Sidera Antik Kenti", "shape": "star", "size": 16, "title": "\u003cb\u003eSeleukeia Sidera Antik Kenti\u003c/b\u003e\nclass: E27_Site\nuri: site\ntype: ancient city\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "Seleukeia Sidera Antik Kenti 2024 Y\u0131l\u0131 \u00c7\u2026", "shape": "box", "size": 18, "title": "\u003cb\u003eSeleukeia Sidera Antik Kenti 2024 Y\u0131l\u0131 \u00c7al\u0131\u015fmalar\u0131\u003c/b\u003e\nclass: E31_Document, E33_Linguistic_Object\nuri: report\nsource: kst_paper_split/14_SELEUKEIA_SIDERA_ANTIK_KENTI_2024_YILI_CALISMALARI.pdf\ntype: excavation report\nlanguage: tr\nprintedPages: 209-224"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4", "label": "Resim 4: Seleukeia Sidera Tiyatro ve Sah\u2026", "shape": "square", "size": 18, "title": "\u003cb\u003eResim 4: Seleukeia Sidera Tiyatro ve Sahne Binas\u0131 plan.\u003c/b\u003e\nclass: E36_Visual_Item\nuri: resim-4\ntype: figure\ntype: Resim\nsourcePage: 219"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium", "label": "Tiyatro kuzey vomitoriumu", "shape": "dot", "size": 16, "title": "\u003cb\u003eTiyatro kuzey vomitoriumu\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: theatre-north-vomitorium\ntype: vomitorium\nsourcePage: 210"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium", "label": "Tiyatro kuzey vomitoriumu (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eTiyatro kuzey vomitoriumu (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-theatre-north-vomitorium"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "Tiyatro", "shape": "dot", "size": 16, "title": "\u003cb\u003eTiyatro\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: theatre\ntype: theatre\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3", "label": "Resim 3: Seleukeia Sidera Tiyatro, Sahne\u2026", "shape": "square", "size": 18, "title": "\u003cb\u003eResim 3: Seleukeia Sidera Tiyatro, Sahne Binas\u0131, Vomitorium.\u003c/b\u003e\nclass: E36_Visual_Item\nuri: resim-3\ntype: figure\ntype: Resim\nsourcePage: 218"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building", "label": "Sahne Binas\u0131", "shape": "dot", "size": 16, "title": "\u003cb\u003eSahne Binas\u0131\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: stage-building\ntype: stage building\nsourcePage: 210\nsourcePage: 211"}, {"font": {"color": "#222222"}, "group": "interpretation", "id": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic", "label": "Helenistik D\u00f6nem\u0027den itibaren farkl\u0131 d\u00f6n\u2026", "shape": "diamond", "size": 18, "title": "\u003cb\u003eHelenistik D\u00f6nem\u0027den itibaren farkl\u0131 d\u00f6nemlerde de\u011fi\u015ferek kullan\u0131m\u003c/b\u003e\nclass: E13_Attribute_Assignment\nuri: int-stage-hellenistic\nassigned: Helenistik D\u00f6nem\u0027den itibaren farkl\u0131 d\u00f6nemlerde de\u011fi\u015ferek kullan\u0131m\ntype: interpretation\nP3 has note: Gerek\u00e7e: Farkl\u0131 d\u00f6nemlere ait seramik par\u00e7alar\u0131\nsourcePage: 211"}, {"font": {"color": "#222222"}, "group": "activity", "id": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993", "label": "Orhan Bing\u00f6l ba\u015fkanl\u0131\u011f\u0131nda 1993 kaz\u0131lar\u0131", "shape": "box", "size": 22, "title": "\u003cb\u003eOrhan Bing\u00f6l ba\u015fkanl\u0131\u011f\u0131nda 1993 kaz\u0131lar\u0131\u003c/b\u003e\nclass: E7_Activity, A9_Archaeological_Excavation\nuri: campaign-1993\ntype: excavation campaign\nP3 has note: G\u00fcney Yama\u00e7 Yap\u0131 Grubu ilk kez a\u00e7\u0131\u011fa \u00e7\u0131kar\u0131lm\u0131\u015f; do\u011fu ve bat\u0131 y\u00f6nlerinde d\u00f6rt mek\u00e2n belirlenmi\u015ftir (Bing\u00f6l 1994, 2012).\ntime-span: MS 1993 \u2013 MS 1993\nsourcePage: 209\nsourcePage: 212"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group", "label": "G\u00fcney Yama\u00e7 Yap\u0131 Grubu", "shape": "dot", "size": 16, "title": "\u003cb\u003eG\u00fcney Yama\u00e7 Yap\u0131 Grubu\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: south-slope-group\ntype: building group\nP3 has note: K\u0131smen ana kayaya oturtulmu\u015f teraslar halinde; esas olarak 5 ayr\u0131 mek\u00e2n; ana kayaya oyulmu\u015f merdiven sistemiyle ili\u015fkili.\ndimension: length 18 m\ndimension: width 12 m\nsourcePage: 212"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos", "label": "Kuzey parodos", "shape": "dot", "size": 16, "title": "\u003cb\u003eKuzey parodos\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: north-parodos\ntype: parodos\nsourcePage: 210"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos", "label": "Kuzey parodos (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eKuzey parodos (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-north-parodos"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom", "label": "Kuzey vomitoriumdaki Ge\u00e7 Roma duvar kal\u0131\u2026", "shape": "dot", "size": 16, "title": "\u003cb\u003eKuzey vomitoriumdaki Ge\u00e7 Roma duvar kal\u0131nt\u0131s\u0131\u003c/b\u003e\nclass: E25_Human-Made_Feature\nuri: late-roman-wall-north-vom\ntype: wall\nsourcePage: 210"}, {"font": {"color": "#222222"}, "group": "actor", "id": "https://example.org/kst45/seleukeia-sidera-2024/actor/atay", "label": "Alper Atay", "shape": "dot", "size": 16, "title": "\u003cb\u003eAlper Atay\u003c/b\u003e\nclass: E21_Person\nuri: atay\nidentifier: 0009-0006-5725-5831\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/seleukeia-sidera-2024/place/of-site", "label": "Seleukeia Sidera Antik Kenti (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eSeleukeia Sidera Antik Kenti (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-site"}, {"font": {"color": "#222222"}, "group": "activity", "id": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024", "label": "Tiyatro kuzeyi (kuzey vomitorium, analem\u2026", "shape": "box", "size": 22, "title": "\u003cb\u003eTiyatro kuzeyi (kuzey vomitorium, analemma duvar\u0131, kuzey parodos) kaz\u0131s\u0131 2024\u003c/b\u003e\nclass: E7_Activity, A1_Excavation_Processing_Unit\nuri: exc-theatre-north-2024\ntime-span: MS 2024 \u2013 MS 2024\nsourcePage: 210"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra-floor", "label": "Cavea oturma s\u0131ralar\u0131n\u0131 ta\u015f\u0131yan bloklar\u0131\u2026", "shape": "dot", "size": 16, "title": "\u003cb\u003eCavea oturma s\u0131ralar\u0131n\u0131 ta\u015f\u0131yan bloklar\u0131n zemini\u003c/b\u003e\nclass: E25_Human-Made_Feature\nuri: orchestra-floor\ntype: floor\nP3 has note: Nehir \u00e7ak\u0131llar\u0131 ve amorf ta\u015flardan, aralar\u0131 har\u00e7la g\u00fc\u00e7lendirilmi\u015f.\nsourcePage: 211"}, {"font": {"color": "#222222"}, "group": "activity", "id": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87", "label": "Isparta M\u00fczesi tiyatro kaz\u0131lar\u0131 1985-198\u2026", "shape": "box", "size": 22, "title": "\u003cb\u003eIsparta M\u00fczesi tiyatro kaz\u0131lar\u0131 1985-1987\u003c/b\u003e\nclass: E7_Activity, A9_Archaeological_Excavation\nuri: campaign-1985-87\ntype: excavation campaign\nP3 has note: G\u00fcney parados, cavea, sahne binas\u0131 ve Nymphaion\u0027un bir k\u0131sm\u0131 a\u00e7\u0131\u011fa \u00e7\u0131kar\u0131lm\u0131\u015ft\u0131r (Kaya 1999a, 1999b).\ntime-span: MS 1985 \u2013 MS 1987\nsourcePage: 209\nsourcePage: 210"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe", "label": "Hisar Tepe", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eHisar Tepe\u003c/b\u003e\nclass: E53_Place\nuri: hisar-tepe\ntype: hill\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1", "label": "Resim 1: Seleukeia Sidera yerle\u015fim alanl\u2026", "shape": "square", "size": 18, "title": "\u003cb\u003eResim 1: Seleukeia Sidera yerle\u015fim alanlar\u0131.\u003c/b\u003e\nclass: E36_Visual_Item\nuri: resim-1\ntype: figure\ntype: Resim\nsourcePage: 217"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building", "label": "Sahne Binas\u0131 (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eSahne Binas\u0131 (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-stage-building"}, {"font": {"color": "#222222"}, "group": "actor", "id": "https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin", "label": "Mustafa Sar\u0131\u015fahin", "shape": "dot", "size": 16, "title": "\u003cb\u003eMustafa Sar\u0131\u015fahin\u003c/b\u003e\nclass: E21_Person\nuri: sarisahin\nidentifier: 0009-0005-6079-9293\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre", "label": "Tiyatro (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eTiyatro (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-theatre"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-south-vomitorium", "label": "Tiyatro g\u00fcney vomitoriumu", "shape": "dot", "size": 16, "title": "\u003cb\u003eTiyatro g\u00fcney vomitoriumu\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: theatre-south-vomitorium\ntype: vomitorium\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-cavea", "label": "Kuzey cavea", "shape": "dot", "size": 16, "title": "\u003cb\u003eKuzey cavea\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: north-cavea\ntype: cavea\nsourcePage: 210"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma", "label": "Kuzey analemma duvar\u0131", "shape": "dot", "size": 16, "title": "\u003cb\u003eKuzey analemma duvar\u0131\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: north-analemma\ntype: analemma wall\nP3 has note: Bat\u0131 k\u0131sm\u0131 b\u00fcy\u00fck kyklopik ta\u015flarla in\u015fa edilmi\u015ftir.\nsourcePage: 210"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/seleukeia-sidera-2024/place/of-north-analemma", "label": "Kuzey analemma duvar\u0131 (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eKuzey analemma duvar\u0131 (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-north-analemma"}, {"font": {"color": "#222222"}, "group": "activity", "id": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22", "label": "Sahne binas\u0131 kuzey kesimi kaz\u0131lar\u0131 2010-\u2026", "shape": "box", "size": 22, "title": "\u003cb\u003eSahne binas\u0131 kuzey kesimi kaz\u0131lar\u0131 2010-2022\u003c/b\u003e\nclass: E7_Activity, A9_Archaeological_Excavation\nuri: campaign-2010-22\ntype: excavation campaign\nP3 has note: G\u00fcney cephedeki ni\u015f serisinin kuzeyde de devam etti\u011fi ortaya konmu\u015ftur.\ntime-span: MS 2010 \u2013 MS 2022\nsourcePage: 210"}, {"font": {"color": "#222222"}, "group": "actor", "id": "https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu", "label": "Bilge H\u00fcrm\u00fczl\u00fc (Kortholt)", "shape": "dot", "size": 16, "title": "\u003cb\u003eBilge H\u00fcrm\u00fczl\u00fc (Kortholt)\u003c/b\u003e\nclass: E21_Person\nuri: hurmuzlu\nidentifier: 0000-0002-3676-7436\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "actor", "id": "https://example.org/kst45/seleukeia-sidera-2024/actor/togan", "label": "Semih Togan", "shape": "dot", "size": 16, "title": "\u003cb\u003eSemih Togan\u003c/b\u003e\nclass: E21_Person\nuri: togan\nidentifier: 0000-0001-6767-0939\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "interpretation", "id": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs", "label": "Sel\u00e7uklu D\u00f6nemi\u0027nde g\u00fcmr\u00fck yap\u0131s\u0131 olarak\u2026", "shape": "diamond", "size": 18, "title": "\u003cb\u003eSel\u00e7uklu D\u00f6nemi\u0027nde g\u00fcmr\u00fck yap\u0131s\u0131 olarak isk\u00e2n (olas\u0131)\u003c/b\u003e\nclass: E13_Attribute_Assignment\nuri: int-theatre-customs\nassigned: Sel\u00e7uklu D\u00f6nemi\u0027nde g\u00fcmr\u00fck yap\u0131s\u0131 olarak isk\u00e2n (olas\u0131)\ntype: interpretation\nP3 has note: Gerek\u00e7e: G\u00fcney vomitoriumdaki Sel\u00e7uklu sikke definesi (Bing\u00f6l 1994) ve 2021 bulgular\u0131\nsourcePage: 209"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion", "label": "Nymphaion", "shape": "dot", "size": 16, "title": "\u003cb\u003eNymphaion\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: nymphaion\ntype: nymphaeum\nP3 has note: Sahne binas\u0131na MS 4.-6. y\u00fczy\u0131llarda entegre edilmi\u015f \u00e7e\u015fme yap\u0131s\u0131; aedicula bi\u00e7imli yar\u0131m ni\u015fler, \u00e7ay ta\u015f\u0131 ve pi\u015fmi\u015f toprak malzeme; s\u0131va izleri ve har\u00e7l\u0131 zemin in situ.\nsourcePage: 211"}, {"font": {"color": "#222222"}, "group": "thing", "id": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra", "label": "Orkestra", "shape": "dot", "size": 16, "title": "\u003cb\u003eOrkestra\u003c/b\u003e\nclass: E22_Human-Made_Object\nuri: orchestra\ntype: orchestra\nsourcePage: 211"}, {"font": {"color": "#222222"}, "group": "document", "id": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6", "label": "Resim 6: Seleukeia Sidera Tiyatro ve Sah\u2026", "shape": "square", "size": 18, "title": "\u003cb\u003eResim 6: Seleukeia Sidera Tiyatro ve Sahne Binas\u0131, Orkestra, kuzey Analemna Duvar\u0131, Nymphaion.\u003c/b\u003e\nclass: E36_Visual_Item\nuri: resim-6\ntype: figure\ntype: Resim\nsourcePage: 220"}, {"font": {"color": "#222222"}, "group": "place", "id": "https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra", "label": "Orkestra (konum)", "shape": "hexagon", "size": 16, "title": "\u003cb\u003eOrkestra (konum)\u003c/b\u003e\nclass: E53_Place\nuri: of-orchestra"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P9 consists of", "title": "P9_consists_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P106 is composed of", "title": "P106_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993", "label": "AP3 investigated", "title": "AP3_investigated", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P106 is composed of", "title": "P106_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-2"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/atay"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P9 consists of", "title": "P9_consists_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra-floor"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P106 is composed of", "title": "P106_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/site", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/site", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/south-slope-group"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/site", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-4", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/atay"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-south-vomitorium"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P129 is about", "title": "P129_is_about", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-cavea"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P134 continued", "title": "P134_continued", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1993"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-north-analemma"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P134 continued", "title": "P134_continued", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-theatre-north-vomitorium"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/togan"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-north-analemma"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/site", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/hisar-tepe"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic", "label": "P140 assigned attribute to", "title": "P140_assigned_attribute_to", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-south-vomitorium"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/atay"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/stage-building"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-cavea"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P106 is composed of", "title": "P106_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-stage-north-2024", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-stage-building"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/sarisahin"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs", "label": "P140 assigned attribute to", "title": "P140_assigned_attribute_to", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra", "label": "P53 has former or current location", "title": "P53_has_former_or_current_location", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-orchestra"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/nymphaion"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre-north-vomitorium"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "AP3 investigated", "title": "AP3_investigated", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/atay"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P106 is composed of", "title": "P106_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-3"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87", "label": "AP3 investigated", "title": "AP3_investigated", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/theatre", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-parodos"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-theatre-customs", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/togan"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-1", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024", "label": "P7 took place at", "title": "P7_took_place_at", "to": "https://example.org/kst45/seleukeia-sidera-2024/place/of-north-parodos"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/figure/resim-6", "label": "P138 represents", "title": "P138_represents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2024", "label": "P134 continued", "title": "P134_continued", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-1985-87"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra", "label": "P46 is composed of", "title": "P46_is_composed_of", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra-floor"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/orchestra"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/late-roman-wall-north-vom"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/north-analemma"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/activity/exc-theatre-north-2024"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/interpretation/int-stage-hellenistic", "label": "P14 carried out by", "title": "P14_carried_out_by", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/togan"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/hurmuzlu"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/activity/campaign-2010-22", "label": "AP3 investigated", "title": "AP3_investigated", "to": "https://example.org/kst45/seleukeia-sidera-2024/feature/site"}, {"arrows": "to", "from": "https://example.org/kst45/seleukeia-sidera-2024/document/report", "label": "P70 documents", "title": "P70_documents", "to": "https://example.org/kst45/seleukeia-sidera-2024/actor/togan"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"physics": {"solver": "forceAtlas2Based", "forceAtlas2Based": {"gravitationalConstant": -60, "springLength": 120, "springConstant": 0.04}, "stabilization": {"iterations": 200}}, "edges": {"arrows": {"to": {"enabled": true, "scaleFactor": 0.6}}, "smooth": {"type": "dynamic"}, "font": {"size": 9, "color": "#666666", "align": "middle"}, "color": {"color": "#b0b0b0"}}, "nodes": {"font": {"size": 12}}, "interaction": {"hover": true, "tooltipDelay": 100, "navigationButtons": true}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+                    network.on("selectNode", neighbourhoodHighlight);
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

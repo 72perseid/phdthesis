@@ -1,0 +1,491 @@
+                                                                45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1
+
+
+
+
+      ANTALYA İLİ ELMALI İLÇESİ HACIMUSALAR HÖYÜK KAZISI 2024 YILI
+                              ÇALIŞMALARI
+                                                                                          Bülent ARIKAN*
+
+    1. GİRİŞ
+    T.C. Kültür ve Turizm Bakanlığı (KTB) ile T.C. İstanbul Teknik Üniversitesi (İTÜ)
+adına 07.07.2022 tarih ve 5777 sayılı Cumhurbaşkanlığı Kararnamesiyle Hacımusalar Hö-
+yük’te başkanlığımda yürütülmekte olan arkeolojik araştırmalar 01.07–27.09.2024 tarih-
+leri arasında gerçekleştirilmiştir. Üç aya yayılan kazı sezonunda Dr. Öğr. Üy. Selda Baybo
+(Çanakkale On Sekiz Mart Üniversitesi), Ergin Tatar (Ege Üniversitesi), Fatih Mehmet
+Çongur (İstanbul Üniversitesi) ve Onur Kaya (İstanbul Üniversitesi) kazı başkanı yardım-
+cıları olarak, Erzurum Müzesi uzmanlarından Selma Akgül de Kültür ve Turizm Bakanlığı
+temsilcisi olarak yer almıştır. 2024 sezonu çalışmalarına toplam 41 kişi katılmıştır. Bunlar-
+dan 22’si lisans öğrencisi, 6’sı lisansüstü öğrencisi, 4’ü öğretim üyesi, 9’u ise uzman (ar-
+keolog ve jeofizik mühendisi) olarak yer almıştır. Yürütülen çalışmalar aşağıdaki başlıklar
+altında özetlenmiştir.
+
+    2-KARELAJ ÇALIŞMASI:
+    Hacımusalar Höyük’te 1993 yılında Antalya Müzesi uzmanlarından Sabri Aydal tara-
+fından hazırlanan karelajın dijital hali bulunmadığından Höyüğün karelajı 1993 yılındaki
+plana sadık kalınarak dijital hale getirilmiştir. Böylece açma kodlarında birlik sağlanmıştır.
+Ayrıca, Höyüğün 1993 yılında ölçülen kotları ile modern ölçümler arasında yaklaşık 30
+metre farklılık olduğu tespit edilmiştir. Önceki kazı sezonlarının verisiyle uyumu sağlamak
+açısından 1993 kotları kullanılmaya devam edilmektedir.
+
+    3-JEOFİZİK ETÜTLERİ:
+
+    Başkanlığım altında yürütülen kazıların ilk sezonu olan 2022 yılından beri Höyüğün
+üst düzlüğünde İTÜ Jeofizik Mühendisliği Bölümü öğretim üyeleri ve öğrencileri tarafın-
+dan yürütülen yer radarı çalışmalarında; 2022 sezonunda Merkezi Kilise ile Kuzey Yamaç
+açmaları arası, 2023 sezonunda ise Merkezi Kilise ile Batı Kilise arası taranmıştı. Bu ça-
+lışmaların sonucunda Merkezi Kilise’nin kuzey ve batısında Manastır olarak kullanılan bu
+yapıya ait binaların kalıntıları yüzeyin yaklaşık bir metre altında, 1,5 metre derinliğe kadar
+uzandığı tespit edilmiştir (Resim: 1).
+
+
+
+
+*   Prof. Dr. Bülent ARIKAN; İstanbul Teknik Üniversitesi, Avrasya Yer Bilimleri Enstitüsü, Evrim ve Ekosistem
+    ABD, Maslak, Sarıyer-İstanbul/TÜRKİYE, E-posta: bulent.arikan@gmail.com, ORCID: 0000-0003-2734-843X
+
+
+
+                                                                                                           279
+KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ
+
+
+
+
+    2024 sezonu çalışma programımızda belirttiğimiz yer radarı çalışması Merkezi Kili-
+se’nin güneyini kapsayacak şekilde gerçekleştirilmiştir. Böylece, Merkezi Kilise olarak
+adlandırılan ve Erken Bizans’tan başlayarak Orta Bizans Dönemi sonuna kadar kullanımda
+kalan bu manastır yapısının çevresi yer radarı ile neredeyse tamamen taranmıştır. Arazide
+yapılan ön çalışmalar sonucunda Resim 1’de görülen yapıların batı ve güney yönlerinde de
+devam ettiği tespit edilmiştir. Manastır’ın faaliyette olduğu dönemlerde bu yapının çevre-
+sinde birçok mekânın da Manastır’a hizmet verdiği yer radarı sonuçlarından anlaşılmakta-
+dır. 2024 sezonunda gerçekleştirilen yer radarı çalışmalarıyla Höyük düzlüğünün neredey-
+se tamamı taranmıştır. Yer radarı yönteminin doğası gereği, eğimli alanlarda sağlıklı sonuç
+alınamaması ve yer radarının yüzeyin sadece birkaç metre altına etki etmesi nedeniyle
+farklı bir yöntem kullanılması gündeme gelmiştir.
+    1994 yılından beri sürdürülen kazılarda yaklaşık 12 metre kültür dolgusu olduğu tes-
+pit edilen Hacımusalar Höyük’te hem kültür dolgusunun kalınlığını ve kültürel-jeolojik
+tabaka ayrımlarını tespit etmek hem de Höyüğün tabanındaki jeolojik yapıyı açığa çıkar-
+mak için Elektrik Rezistivite (Özdirenç) Tomografi (ERT) yönteminin kullanılmasına karar
+verilmiştir. KTB ödeneğimizden yapılan hizmet alımıyla gerçekleştirilen ERT çalışması
+Höyüğün tamamını farklı yönlerden kesen 10 profil (hat) üzerinde gerçekleştirilmiştir
+(Resim: 2). Uzunlukları yaklaşık 10 metre ile 240 metre arasında değişen hatlar üzerinde
+birer metre arayla yerleştirilen elektrodlardan verilip alınan elektrik akımı sonuçlarına da-
+yanan bu çalışmada yukarıda amaçlanan tüm hedeflere ulaşılmıştır.
+    ERT çalışmasının sonuçlarına göre (Resim: 3): (1) yaklaşık 1081 m rakımda olan Ha-
+cımusalar Höyük yukarı düzlüğünden itibaren 40 metrelik bir kesit taranmış ve haritalan-
+mıştır, (2) örnek olarak ele alınabilecek birinci profildeki sonuçlar arkeolojik ve jeolojik
+olarak toplam yedi stratigrafik birime işaret etmektedir, (3) Höyük yüzeyinden itibaren 6
+metre derinliğe kadar elektriğe yüksek dirençli (arkeolojik) katmanların varlığı tespit edil-
+miştir, (4) bu tabakanın altında elektriğe orta direnç gösteren katmanların arkeolojik veya
+jeolojik (kil, ıslak kil, vb.) olabileceği, yüzeyden 15 metre derinlikten itibaren ise elektriğe
+çok düşük direnç gösteren jeolojik katmanların (su, kil) bulunduğu tespit edilmiştir, (5)
+Höyüğün Ova tabanı ile buluştuğu alanlarda yapılan ölçümlerde herhangi bir arkeolojik
+katmana rastlanmamıştır.
+    ERT çalışmasının sonuçlarına göre; Hacımusalar Höyük’teki arkeolojik katmanlar yak-
+laşık olarak 11 metre derinliğe kadar ulaşmakta olup bunun ilk altı metresi elektriğe karşı
+çok yüksek direnç göstermektedir. Bu nedenle 0-6 metre aralığındaki arkeolojik katman-
+ların taş gibi malzemelerden oluşması beklenmektedir. 6-12 metre arasındaki katmanların
+niteliği elektriğe gösterdikleri orta direnç nedeniyle tam belirlenememiştir. 12 metreden
+sonraki çok düşük direnç seviyelerine kıyasla, 6-12 metre arasındaki katmanların direnç
+seviyeleri hem arkeolojik (kerpiç, vb.) hem de jeolojik (ıslak kil, vb.) olguların birlikte
+bulunduğu seviyeler olabileceği değerlendirilmektedir. Yüzeyden 12 metre derinlikten iti-
+baren elektriğe çok düşük dirençli katmanların (su, kil) varlığı nedeniyle arkeolojik kat-
+
+
+280
+                                                       45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1
+
+
+
+
+manların bulunmadığı düşünülmektedir. Bu sonuçlara dayanarak, Höyük üzerinde sağlam
+ele geçirilebilecek arkeolojik katmanların yüzeyden 8-9 metre derinlikte olabileceği, bu
+seviyeden sonra bulunacak arkeolojik katmanların korunmasının alttaki ıslak jeolojik yapı
+nedeniyle sorunlu olabileceği, yüzeyin 12 metre altından itibaren Höyüğün bulunduğu ko-
+numda sadece su kaynağı ve bununla ilişkili jeolojik katmanların bulunabileceği ortaya
+çıkmıştır. ERT çalışmasının sonucu aynı zamanda Hacımusalar Höyüğün ilk yerleşildi-
+ği dönemde konum tercihinin, şu andaki bulgulara dayanarak Geç Kalkolitik Dönem’de
+(y. MÖ 3500), su kaynağı yakınında olma isteğine dayandırılabileceğini göstermektedir.
+Önümüzdeki yıllarda, Elmalı Ovası genelinde yürütülecek paleo-coğrafya çalışmalarında
+Höyük civarındaki göllerin arkeolojik dönemlerdeki konumları ortaya çıkarıldığında,
+Höyüğün iskân gördüğü dönemlerde su tablasının ne kadar yüksek olduğu, 1970’lerde
+kurutulan göllerin arkeolojik dönemlerde Höyük ile olan ilişkileri açıklığa kavuşacaktır.
+     Resim 3b’de gösterilen birinci ERT hattının 20. ve 40. metreleri arasında elektriğe karşı
+çok yüksek direnç gösteren 1 No.lu katman işaretlenmiştir. Höyük’te önceki kazı dönem-
+lerinde Güney Yamaç’ta yapılan sondajlardan bu hattın hemen batısında ve doğusunda
+Helenistik/Roma dönemlerine ait olabilecek poligonal şekilde işlenerek yüzeyi düzeltil-
+miş kireçtaşından duvarlar ve dikdörtgen prizma şeklinde duvar blokları tespit edilmiş-
+tir. Hatta, 2023 sezonunda Güney Yamaç’taki açmada bu duvarın bir kısmı daha açığa
+çıkarılmıştır. Bu nedenle Höyüğün güney yamacını doğudan batıya çevreleyen ve yapı
+üslubu açısından Helenistik/Roma dönemlerine tarihlenebilecek bir savunma sisteminin
+varlığı bilinmektedir. ERT sonucunda bu sistemin Höyüğün güney yamacından kuzeye
+doğru 20 metre daha uzandığı tespit edilmiştir. Bu alan, Höyüğün en düşük kotta olduğu,
+yaya olarak Höyüğün yukarı düzlüğüne rahatça ulaşılabilecek noktadır. Bugün bile Höyü-
+ğün üstüne çıkmak için kullanılan yol burada yer almaktadır. Ayrıca, Höyük düzlüğünden
+bakıldığında Höyüğün güney kısmında yükselen bir topografya karşımıza çıkmaktadır.
+Hem Höyük topografyası hem de güney yamaçta açığa çıkarılan Helenistik/Roma Dönemi
+savunma sistemi, ERT verisi ile birlikte değerlendirildiğinde Hacımusalar Höyüğün güney
+yamacında yaklaşık 20 metre uzunluğa sahip ve olasılıkla taş malzemeden oluşan bir giriş
+alanı veya anıtsal kapı yapısının bulunabileceğini düşündürmektedir.
+    ERT çalışması sonrasında yapılan değerlendirmelerde güney yamacın batısındaki yük-
+seltinin ardında, Höyük yukarı düzlüğüne doğru inildiği noktada, olasılıkla anıtsal girişin
+ardında, herhangi bir yapı bulunup bulunmadığına ilişkin sorular cevaplandırmak için çift
+yöntemli jeofizik (yer radarı ve yer manyetik ölçümleri) hizmeti alınmıştır. Bu amaçla se-
+çilen yaklaşım 2000 m2 alanın eğimli bir topografyaya sahip olması nedeniyle, ayrıca farklı
+yapı malzemelerinin tanınabilmesi amacıyla bu iki yöntemin birlikte kullanılması tercih
+edilmiştir. Her iki yöntemle taranan bu alanda yüzeyin 0.5 metre altından itibaren plan ve-
+ren arkeolojik yapı kalıntılarına rastlanmıştır. Bu alan içinde tespit edilen bazı yapı kalın-
+tılarının yer manyetik yöntemle tarandığında verdiği sonuçlar yapılardan bazılarının fırın
+veya ocak gibi yoğun ateş kullanımı gösteren mekanlar olabileceği değerlendirilmiştir.
+
+
+
+                                                                                                  281
+KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ
+
+
+
+
+   4- ARKEOLOJİK KAZILAR:
+   Hacımusalar Höyük’te 2024 sezonunda gerçekleştirilen arkeolojik kazı çalışmaları Ku-
+zey Yamaç alanında beş arkeolog, öğrenciler ve TYP bünyesinde çalıştırılan iki işçi ile
+16.07.2024–26.08.2024 tarihleri arasında gerçekleştirilmiştir. Merkezi Kilise 1. Etap 333
+m2 alanda yapılan ve 120 m3 hafriyat kaldırılan arkeolojik kazı ise GMP bünyesinde iki
+arkeolog, bir mimar ve altı işçinin katılımıyla 29.08.2024–27.09.2024 tarihleri arasında
+gerçekleştirilmiştir.
+
+   4.1 KUZEY YAMAÇ
+    Bu alandaki P2 noktasında Höyük yüzeyi 1055.37 m kottadır. Önceki sezonlarda C4a8
+açmasında yapılan çalışmalarda taş temel üzerinde kerpiçle inşa edilen Demir Çağı sur
+duvarı beş metrelik bir hat boyunca kaldırılmış ve bunun altında yapılan kazılarda Erken
+Tunç Çağı’na (ETÇ) ait yapı kalıntılarına (yaklaşık 1049 m kotta) çok dar bir alanda (2x2
+metre) ulaşılmıştır. 1994 yılından beri Kuzey Yamaç’ta açılan bir düzineden fazla açmada
+yeterince derinleşilmediğinden ETÇ seviyelerine inilememiştir. 2024 sezonundan itibaren
+Kuzey Yamaç kazılarında amaç; 2023 sezonunda başlatılan C4a7-C4b7 açmalarında derin-
+leşerek ETÇ seviyelerine doğru devam ederken en yüksek kotta bırakılan C5b1 ve C5b2
+açmalarında derinleşerek bunları C4b10 ve C4c10 açmalarının bulunduğu kotlara indir-
+mektir. Yakın gelecekte C4b9 ile birlikte, yedi açmanın tamamı, C4b8 seviyesine indirile-
+cektir. C4b8 açmasının şu anki seviyesinden yaklaşık 1.5 metre aşağıda C4a8 açmasındaki
+ETÇ katlarının devamının yakalanacağı değerlendirilmektedir (Resim: 4).
+    Kuzey Yamaç’ta 2023 sezonunda açılan C4a7-C4b7 açmalarında arkeolojik kazı 2023
+sezonunda tespit edilen, belgelenen dağınık duvar kalıntısı ve çöp çukurunun kaldırılma-
+sıyla başlamıştır. Bu alandaki kazılar sırasında açmanın C4b7’nin güneyine doğru 30 cm
+genişletilmesine karar verilmiş ve burada oldukça düzgün, iki sıra genişliğinde tek sıra
+yüksekliğinde bir duvar 4.3 metre uzunlukta yakalanmıştır. Açmanın genişlemesiyle ne-
+redeyse 5x8 metre boyutlarına gelen bu alan içinde iş gücü ve zamandan tasarruf etmek
+amacıyla sadece C4a7 içinde (5x5 m) kazı yapılmıştır. 2023 yılında bu açmada oldukça
+sert, Demir Çağı sur duvarından döküldüğü değerlendirilen ve neredeyse C4b7 açma sını-
+rına kadar uzayan kerpiç dolgu kazılamaya başlanmıştı. 2024 sezonunda bu açmadaki ka-
+zılarda kerpiç dolgunun kaldırılması işlemine devam edilmiştir. 2024 kazılarında yaklaşık
+1.3 metre derinleşilmiş olup kerpiç dolgunun dağınık halde devam ettiği gözlemlenmiştir.
+Demir Çağı sur duvarının genişliğinin 3 metreyi aşkın olduğu düşünüldüğünde bunun üze-
+rindeki kerpiç üst yapının duvarın iç kısmına (güneyine) yıkıldığı düşünülmektedir. Bu
+nedenle, C4a7 açmasında yaklaşık 1.5 metre daha kerpiç duvar enkazı kazılacağı düşünül-
+mektedir. Bu kerpiç üst yapı enkazının kazısı sırasında iyi korunmuş bir kerpiç parçasının
+ele geçmemesi nedeniyle ve aynı zamanda kerpiç üst yapı enkazının uzantısının tespit
+edilebilmesi için C4a6 açmasına kuzeybatı açma sınırından 2 metre uzunluğunda ve 1 met-
+re genişliğinde bir sondaj açılmıştır. Bu sondajın kazısı sırasında kayda değer bir buluntu
+
+
+282
+                                                      45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1
+
+
+
+
+ele geçmemesine karşın iki unsur gözlemlenmiştir. Birincisi yaklaşık boyutları 35x3x12
+cm olan bir kerpiç blok in situ (yerinde) ve iyi korunmuş olarak yüzeyin yaklaşık 1 metre
+altında tespit edilmiştir (Resim: 5). C4a6’daki sondajda sürdürülen kazı çalışmaları sonu-
+cunda bu kerpiç bloğun yaklaşık bir metre doğusunda ve birkaç santimetre altında in situ
+durumda bir öküze ait kafatası ile bir boynuz bulunmuştur.
+    C4a7 açmasında sürdürülen kazı çalışmalarında Demir Çağı’na ait kerpiç üst yapı en-
+kazının kaldırılmasına devam edilmiş ve bu enkazın daha sonraki dönemlerde üç çöp çu-
+kuru tarafından kesildiği tespit edilmiştir (Resim: 6). Bu açmada bulunan çöp çukurlarının
+ikisi, Kuzey Yamaç’ta daha önceki kazılarda açığa çıkarılanlarla benzerdir. Çöp çukurla-
+rının çapı bir metreyi aşmakta, içindeki küllü ve kireçli dolgudan çok sayıda profile veren
+ve vermeyen Demir Çağı seramik parçaları, insan ve hayvan kemiği parçaları çıkmaktadır.
+Çöp çukurlarından birisi, genel kurala uygun olarak kireç kaplı tabana sahipken bu açmada
+sadece kuzey yarısı kazılan çöp çukurunun tabanında çakıl taşı kaplama tespit edilmiştir.
+Çöp çukurlarının derinlikleri farklılık göstermekte olup en derini bir metre en sığ olanı ise
+10 santimetre derinliğe sahiptir.
+    C4a7 açmasında kerpiç üst yapı enkazının kazısı sırasında, daha önceki yıllarda Kuzey
+Yamaç kazılarında tüm veya parça halinde ele geçen at figürinlerinden bulunmuştur. Bu
+figürinlerin baş veya gövde kısımlarının olduğu, gövdelerin ayak veya baş kısımlarının
+kopartılmış/kopmuş olduğu, ele geçen figürinlerin baş kısımlarının detaylı olarak işlendiği
+ve olasılıkla boyandığı gözlemlenmiştir.
+    Kuzey Yamaç açmalarındaki kazı çalışmaları, bu alanda en az kazılmış olan C5b1-
+C5b2 açmalarında devam etmiştir. Bu açmalar, Kuzey Yamaç alanının en doğusundaki
+açmaları temsil etmekte olup bu alanlarda derinleşilmesi, ETÇ tabakalarının daha geniş
+bir alanda açığa çıkarılması açısından önemlidir. Kazısı yapılan C5b1-C5b2 açmaları 2024
+sezonu kazısı başında 1055.31 m kottaki poligon noktasından yaklaşık bir metre aşağı-
+daydı. Her iki açmada da 2024 kazıları Locus 70’den başlatılmıştır. C5b1 açmasında baş-
+latılan kazılarda açmanın son kazısının yapıldığı tarihte oldukça geniş (yaklaşık 3 metre
+çapında) ve dairesel formda bir çöp çukurunun kazıldığı anlaşılmaktadır (Resim: 7). Bu
+çukurun zamanla formunu kaybettiği açmada çukurun etrafı taban seviyesine indirilerek
+açma içindeki seviye eşitlendikten sonra C5b1 açmasında tüm karenin kazılmasına devam
+edilmiştir. Bununla eş zamanda, C5b2 açmasının kazısı yürütülmüş olup aynı zamanda
+C5b1 açmasından toprak tahliyesi için iki rampa hazırlanmıştır. Her iki açmada da derin-
+leştikçe ele geçen malzeme ETÇ-Demir Çağı arasında dağılım gösteren seramik parçaları
+ve Kuzey Yamaç’ta Demir Çağı’na tarihlenen basit (iki sıra genişliğinde ve birkaç sıra
+yüksekliğinde) orta boy taşlardan oluşan duvarlar tespit edilmiştir. Bu duvarlar belirgin
+bir plan vermediği için kazı ekibi tarafından fotoğraflanarak kaldırılmıştır. Özellikle bu
+açma grubunun batısında kalan C4c10 açmasının kesitine bakıldığında bu açmalardaki du-
+varların benzerlerinin önceki sezonlarda yapılan kazı çalışmalarında da tespit edildiği ve
+kaldırıldığı anlaşılmaktadır. Her iki açmada da Kuzey Yamaç açmalarına özgü olan geniş
+
+
+                                                                                                 283
+KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ
+
+
+
+
+çöp çukurlarından ikisi kazılmış olup bunlar alandaki diğer çöp çukurlarına kıyasla daha
+küçüktür. Ancak, tabanlarının kireç sıvalı olduğu dikkat çekmiştir. Alandaki tüm çöp çu-
+kurları gibi, bunlar da kırık seramik parçaları ve hayvan kemikleri, kül dolgu içermektedir.
+    C5b1 ve C5b2 açmalarının kazısı sırasında Kuzey Yamaç’taki önceki kazılardan bil-
+diğimiz at figürinleri, heykelcikler, ağırşaklar ve diğer küçük buluntulardan örnekler ele
+geçirilmiştir. Bunlar arasında Helenistik/Roma Dönemi’ne tarihlenebilecek olan ve küçük
+bir heykelciğin baş tarafına ait olan parça, kazılan dolgu içinden ele geçirilmiştir. C5b2
+açmasının kazısı sırasında açmanın doğu sınırına yakın, oval formda ve yaklaşık olarak
+1.5 metre derinlikte bir çöp çukuru tespit edilmiştir (Resim: 6). Bu çöp çukurunun kazısı
+sırasında buna bitişik ve çok daha küçük, belirgin bir forma sahip olmayan ve çok sığ ikinci
+bir çöp çukurunun da varlığı tespit edilmiştir. Her iki çöp çukurundan çok sayıda kemik
+ve seramik parçası ele geçirilmiştir. Özellikle oval çöp çukurunun içinde kalın ve birkaç
+farklı seviyede kül dolgunun homojen olmayarak dolduğu tespit edilmiştir. C5b1 ve C5b2
+açmalarında 2024 sezonu kazıları tamamlandığında Höyük yüzeyinden yaklaşık 2.4 metre
+aşağıdadır ve toplam 5 Locus kazılmıştır.
+    C4b10 açması Kuzey Yamaç’ta en derin açmalardan olup 2024 sezonunda yaklaşık se-
+kiz gün süren bir kazı çalışmasına sahne olmuştur. Açılış kotları yüzeydeki 1055.31 metre
+kotuna kıyasla iki metre derinlik göstermektedir. Açmanın son kazıldığı sezonda batısın-
+daki C4b9 açmasıyla olan sınırında geniş ve dairesel formda bir çöp çukuru olduğu anla-
+şılmaktadır. 2024 kazıları bu açmada Locus 60’dan başlatılmıştır. Önce açmanın çöp çuku-
+runun taban seviyesine indirilmesi, sonra da tüm açma yüzeyinde kazı çalışması yapılması
+sonucunda tüm kazı süresi sonucunda yaklaşık 40 santimetre derinleşilmiştir. Açma mer-
+kezinde kapanış kotu 1052.803 metre olup Höyük yüzeyinden 2.5 metre inilmiştir (Resim:
+8). Bu açmanın kazısı sırasında daha önce civardaki açmalarda tespit edilmeyen ETÇ III,
+Orta ve Geç Tunç çağlarına ait seramik parçalarının ele geçirildiği tespit edilmiştir. Yine bu
+alanda yüzeyde bulunan küçük bir tezgâh ağırlığı envanterlik olarak kaydedilmiştir.
+    Kuzey Yamaç’ta 2024 sezonunda kazısı yapılan son açma C4c10’dur. Sadece iki gün
+çalışılan bu açmada, kenarlardan ve kesitten düşerek açma yüzeyinde biriken taşlar toplan-
+mış ve açma dışına çıkarılmıştır. Bu işlemi takiben, açmadaki son kazı sezonunda açığa çı-
+karılan, fotoğraflanarak çizimi yapılan Demir Devri duvarların kaldırılmasına başlanmıştır.
+Duvarlar kaldırıldıktan sonra yapılan kazı çalışmasında oldukça sert bir dolgu yaklaşık 20
+santimetre kazılmıştır. Bu açmalarda kazı çalışmaları 2025 sezonunda devam edecek ve bu
+alanın da diğer açmaların kotuna indirilmesi için çalışılacaktır.
+   Kuzey Yamaç açmalarında 1994 yılından beri yürütülen kazı çalışmalarının ve Hö-
+yük genelinde uygulanan ERT yönteminin sonuçlarıyla birlikte ele alındığında, bu alan-
+da yaklaşık 4-5 metre kalınlığında bir Tunç Çağı sonrası (Demir Devri, Arkaik, Klasik,
+Helenistik/Roma, Bizans) katmanı olduğu ortaya çıkmıştır. Ancak, bu kalın dolgu şu ana
+kadar Kuzey Yamaç’ta (yaklaşık 20x30 metre alanda) sağlam mimari planlar veren, somut
+maddi kültür kalıntısı sağlayan stratigrafiye rastlanmamıştır. Tam aksine, bu kalın ‘dolgu’
+
+
+284
+                                                        45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1
+
+
+
+
+tamamen kırık seramik parçaları, figürin parçaları ve diğer küçük buluntulardan oluşan,
+sıklıkla çöp çukurları tarafından tahrip edilmiş bir stratigrafik karaktere sahiptir. Bu neden-
+le, Kuzey Yamaç’ta Tunç Çağları tabakalarına ulaşıncaya kadar sağlam mimari ve maddi
+kültür kalıntısı bulma ihtimali oldukça zayıftır. Kuzey Yamaç’ta C4a8 açmasında yaklaşık
+1049 metre kotta erişilen yapı katlarının ETÇ’ye tarihlendiği, bu katların mimari ve küçük
+buluntu açısından oldukça sağlam bulgular sunduğu göz önüne alındığında tüm açmalarda
+1049 metre kota erişilinceye kadar bu karışık ve sağlam mimari plan/buluntu vermeyen
+dolgunun sonlanmayacağı açıktır.
+
+   4.2 MERKEZİ KİLİSE (Geleceğe Miras Projesi ödeneğiyle)
+    2024 yılında Kültür Varlıkları ve Müzeler Genel Müdürlüğünün Geleceğe Miras Proje-
+si kapsamında Hacımusalar Höyük’te “Merkezi Kilise 1. Etap 333 m2 Alan İçerisinde El İle
+Kazı” çalışması kapsamında 29.08.2024–27.09.2024 tarihleri arasında, yedi adet 5x5 met-
+re açmada toplam 120 m3 hafriyat kaldırılmıştır (Tablo: 1, Resim: 9). Bu alandaki kazıların
+amacı Merkezi Kilise (Manastır) yapısının çevresini genişleterek ileriki yıllarda yapılacak
+restitüsyon ve restorasyon projelerine yeterli zemini ve alanı sağlamaktır.
+
+Açma           Açılış tarihi      Açılış kotu    Kapanış tarihi      Kapanış kotu         Kazılan m3
+
+E4d9           29.08.2024         1052.52        01.09.2024          1051.25              11.7
+E4d10          03.09.2024         1052.27        05.09.2024          1050.72              11.02
+E5d1           05.09.2024         1052.16        10.09.2024          1050.00              17.75
+E5c3           07.09.2024         1051.79        12.09.2024          1049.93              12.2
+E5c4           08.09.2024         1051.85        14.09.2024          1050.13              21.41
+E5c5           12.08.2024         1051.79        17.09.2024          1050.13              12.89
+E5b6           17.09.2024         1051.76        26.09.2024          1050.08              33.81
+
+TOPLAM         29.08.2024                        27.09.2024                               120.78
+
+Tablo 1: Merkezi Kilise’de 2024 sezonunda kazı yapılan açmalar, açılış-kapanış tarihleri,
+                 açılış-kapanış kotları ve toplam hafriyat miktarı (m3).
+    Bu alanda yapılan çalışmaya ait ayrıntılı rapor T.C. Antalya Valiliği, İl Kültür ve Tu-
+rizm Müdürlüğüne sunulduğundan burada detaylı bir şekilde aktarılmayacaktır. Bununla
+beraber, Merkezi Kilise’nin GMP kapsamında 1. Etap kazılarında elde edilen en önemli
+bulgu Manastır yapısının güney sınırı boyunca açılan tüm açmalarda bu yapıya ait olan
+farklı mekanların duvarlarının sağlam olarak ele geçirilmesidir. Merkezi Kilise’nin inşa-
+sında sıklıkla kullanılan ikincil malzeme (spolia) Manastır yapısını çevreleyen mekanlarda
+da gözlemlenmiştir (Resim: 10).
+
+
+
+
+                                                                                                   285
+KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ
+
+
+
+
+    Manastır yapısının parçası olan büyük sarnıç ve onu çevreleyen yapıların da ortaya
+çıkarıldığı kazılarda, ayrıca taban döşemesi olan bir yol da bulunmuştur (Resim: 11). Bu
+alanın kuzeyine, Kilise’nin apsis yapısına doğru ise çok Manastır yapısını çevreleyen yapı-
+ların çok evreli planlarıyla karşılaşılmıştır. GMP bünyesinde yürütülen kazıların son günü
+olan 27.09.2024 tarihi itibarıyla Merkezi Kilise’de kazı yapılan alanların görünümü Resim
+12’de verilmiştir.
+    Merkezi Kilise kazılarında ele geçen işli mimari parçalar ya Höyük üzerindeki taş ha-
+vuzuna konmuş ya da kazı deposuna getirtilmiştir. Kazılardan çıkan küçük buluntular ara-
+sında oldukça korozyona uğramış bakır sikkeler ve takı (bilezik?), demirden imal edilmiş
+liturji (ayin) objeleri, pişmiş topraktan boncuk gibi etütlük sayılacak buluntular vardır.
+
+   5- KAMU YARARINA FAALİYETLER:
+    Hacımusalar Höyük Kazısı kapsamında yürütülen disiplinler arası araştırmaların gün-
+cel sorunların (iklim değişikliği, tarımsal üretimde verim kaybı, erozyon, ani ve şiddet-
+li meteorolojik olaylar, vb.) çözümüne ve Elmalı Ovası’ndaki refahın artırılmasına katkı
+sağlaması amacıyla her yıl ilçenin yöneticileri, kamu görevlileri ve halkı için düzenlenen
+etkinliklerde çalışmalarımızdan kesitler sunmaktayız. Bu amaçla, 12.10.2024 tarihinde El-
+malı Belediyesi ve Elmalı Vakfı tarafından düzenlenen Elmalı Bölgesel İklim Değişikliği
+ve Çevre Sorunları Sempozyumu’nda “Elmalı Ovası’nın Geçmiş İklimi ve Kültür Tarihi”
+başlıklı bir konuşma ile hem bölgedeki arkeolojik kültürlere hem de geçmiş insanların
+yaşadıkları çevresel sorunlara dikkat çekilmiştir.
+
+
+
+
+286
+                                                  45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1
+
+
+
+
+                                        EKLER
+
+
+
+
+Resim 1: Merkezi Kilise’nin kuzey ve batısındaki alanlarda 2022, 2023 ve 2024 sezonla-
+              rında gerçekleştirilen yer radarı çalışmalarının sonuçları.
+
+
+
+
+    Resim 2: Hacımusalar Höyük’te gerçekleştirilen Elektrik Rezistivite (Özdirenç)
+     Tomografi (ERT) çalışmasında taranan 10 profilin konumunu gösteren harita.
+
+
+
+                                                                                             287
+KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ
+
+
+
+
+   Resim 3: (a) Resim 2’de gösterilen 240 metre uzunluktaki birinci ERT profiline ait
+ölçüm haritaları, (b) topoğrafik düzeltmesi yapılmış olan hat haritası üzerinde işaretlenen
+                     arkeolojik (1,4,5,6) ve jeolojik (2,3,7) katmanlar.
+
+
+
+
+ Resim 4: Önceki kazı sezonlarında kısmen kazılan, her biri farklı seviyelerde bırakılan
+    açmalar. 2024 kazı sezonunda kazısı yapılan açmalar C4b10, C4c10, C5b1, C5b2
+  olmuştur. Bu fotoğraf aynı zamanda 2024 sezonu sonunda Kuzey Yamaç açmalarının
+                           kapanış durumunu göstermektedir.
+
+
+288
+                                                45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1
+
+
+
+
+Resim 5: C4a6 açmasında yüzeyin 1 metre altında tespit edilen in situ kerpiç blok
+                             (35x35x12 cm).
+
+
+                                                                                           289
+KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ
+
+
+
+
+   Resim 6: C4a6-C4a7-C4b7 açmalarının İHA görüntüsü. C4a6’daki 2x1 m sondajda
+bulunan kerpiç bloğu korumak üzere naylon örtü vardır. C4a7 açmasını C4b7 açmasından
+ayıran eşiğin hemen altında naylon örtü altında dairesel formda bir çöp çukurunun kuzey
+yarısı, açmanın ortasında ise dairesel formda diğer bir çöp çukuru görülmektedir. Üçüncü
+     çöp çukuru açmanın güneydoğu köşesinde birkaç santimetre aşağıda çıkacaktır.
+
+
+
+
+  Resim 7: C4b10 açmasının 2024 kazı sezonu sonundaki görünümü. Fotoğrafın sol alt
+  köşesine (batıya) doğru C4b9 açması yer almaktadır; bu Kuzey Yamaç’taki en derin
+                                      açmadır.
+
+
+
+290
+                                                   45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1
+
+
+
+
+   Resim 8: Merkezi Kilise’nin karelajlarını gösteren harita. Bu İHA görüntüsü 2024
+kazıları başlamadan önce alınmış olup Merkezi Kilise’nin güney sınırı boyunca (kabaca
+  A4 ve A3 noktaları arasında) kazı yapılan açmaları göstermektedir. Kazılan açmalar
+                             kırmızı okun üst kısmındadır.
+
+
+
+
+Resim 9: E4d10 açmasında kazı sırasında ortaya çıkarılan kapı eşiği ve dikmesi; tüm yapı
+                          malzemesi ikincil kullanımdır.
+
+
+                                                                                              291
+KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ
+
+
+
+
+Resim 10: E5c4 açmasında sarnıcın hemen solunda (kuzeydoğusunda) taban döşemesi ve
+                   üzerindeki duvar örgüsünü gösteren fotoğraf.
+
+
+
+
+ Resim 11: E5b6 açmasında Merkezi Kilise yapısının çevresinde bulunan yapının birden
+                   fazla evresine ait duvarları gösteren fotoğraf.
+
+
+
+292
+                                                  45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1
+
+
+
+
+Resim 12: Merkezi Kilise’nin güney sınırı boyunca kazılan yedi 5x5 metre boyutlarında-
+ ki açmanın kapanış günündeki durumunu gösteren İHA fotoğrafı. Kazı yapılan açmalar
+                            kırmızı okun üst kısmındadır.
+
+
+
+
+                                                                                             293
+KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ
+
+
+
+
+294
+

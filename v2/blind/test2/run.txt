@@ -1,0 +1,52 @@
+
+all statements: 563 statements
+   A typed, complete    196   34.8 %
+   B typed, part lost    56    9.9 %
+   C own term            96   17.1 %
+   D own structure       52    9.2 %
+   E text only          144   25.6 %
+   F not stored          19    3.4 %
+
+core scope: 516 statements
+   A typed, complete    193   37.4 %
+   B typed, part lost    54   10.5 %
+   C own term            91   17.6 %
+   D own structure       48    9.3 %
+   E text only          130   25.2 %
+   F not stored           0    0.0 %
+
+per group      n     A     B     C     D     E     F
+   WORK      155    45    32     8     6    64     0
+   BUILT      87    24     7    21     9    26     0
+   FIND       80    25     4    34     7    10     0
+   PLACE      41     6     1    14     4    16     0
+   MEASURE    37    16     3     3    11     4     0
+   FIGURE     33    31     0     0     0     2     0
+   INTERP     32    22     1     3     0     6     0
+   PEOPLE     29    11     0     7    11     0     0
+   ADMIN      20     3     2     5     4     6     0   outside the core
+   STRUCT     19     0     0     0     0     0    19   outside the core
+   DATE       18    11     6     1     0     0     0
+   DESCR       7     0     0     0     0     7     0   outside the core
+   LAB         2     0     0     0     0     2     0
+   DOC         2     2     0     0     0     0     0
+   HISTORY     1     0     0     0     0     1     0   outside the core
+
+hedges 63: kept 51, lost 0, text only or not stored 12
+denials 14: kept as a claim 1, text only or not stored 12
+
+own codes by list
+     30  thing_type
+     10  material
+      8  condition
+      7  dimension_kind
+      7  role
+      3  activity_type
+      3  unit
+      1  collection_method
+      1  function
+      1  reasoning_method
+      1  taxon
+
+refusals by the database
+     27  Refused: dimension

@@ -1,0 +1,9 @@
+# CQ14 Which datings are hedged, how sure are the authors, and which periods are the alternatives?
+PREFIX crm:  <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX type: <https://example.org/kst45/type/>
+SELECT ?thing ?certainty (GROUP_CONCAT(DISTINCT ?period; separator=" / ") AS ?periods) WHERE {
+  ?a crm:P2_has_type type:dating ; crm:P2_has_type ?c ; crm:P140_assigned_attribute_to ?prod ; crm:P141_assigned ?per .
+  ?c crm:P127_has_broader_term type:certainty ; rdfs:label ?certainty .
+  ?prod crm:P108_has_produced ?t . ?t rdfs:label ?thing . ?per rdfs:label ?period .
+} GROUP BY ?thing ?certainty ORDER BY ?thing

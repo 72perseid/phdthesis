@@ -1,0 +1,147 @@
+﻿own number;name;class;second class;location;date of existence;date of use;stated: had the function;stated: consists of;material;measure: genişlik;link: overlies;measure: kot;date of formation;stated: formed earlier than;stated: is or contains remains of;measure: kalınlık;measure: derinlik;shown or described in;stated: is interpreted as;measure: adet;own: elektrik direnci;own: işçilik;date of making;own: biçim;measure: uzunluk;type;part_of;measure: yükseklik;stated: is in the condition;measure: boyut 1;measure: boyut 2;measure: boyut 3;own: buluntu durumu;found by;stated: is of the species;measure: çap;link: cuts;stated: shows features of;link: fills;found in;own: korunan kısım;own: yüzey işlemi;link: abuts;attribute: envanterlik;link: ontology: P53;stated: is identified as;own: sınıf;remark
+;Hacımusalar Höyük;E27;;Elmalı;Geç Kalkolitik Dönem (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Höyüğün Ova tabanı ile buluştuğu alanlar contain arkeolojik katman: arkeolojik katman | göller is located: Höyük civarında | göller were drained in: 1970’ler | savunma sisteminin uzandığı alan is: Höyüğün en düşük kotta olduğu nokta | savunma sisteminin uzandığı alan is: yaya olarak Höyüğün yukarı düzlüğüne rahatça ulaşılabilecek nokta | Höyüğün üstüne çıkmak için kullanılan yol is located in: bu alan (güney yamaç) | Höyüğün güney kısmı topography: yükselen bir topografya
+;Merkezi Kilise;E25;;;;"Erken Bizans; Orta Bizans Dönemi sonu";Manastır;ikincil malzeme (spolia) (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Manastır yapısı;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Demir Çağı sur duvarı;E25;A8;C4a8;;;;;kerpiç;3.0 to  m;ETÇ yapı kalıntıları (C4a8);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;ETÇ yapı kalıntıları (C4a8);E25;A8;;;;;;;;;about 1049 m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;C4a8 açmasındaki çalışmalar took place in: önceki sezonlar
+;Kerpiç üst yapı enkazı (C4a7);A2;;;;;;;;;;;Demir Çağı;çöp çukurları (C4a7);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;kerpiç dolgu (C4a7) extends to: C4b7 açma sınırı | kerpiç dolgu (C4a7) continues: dağınık halde | iyi korunmuş kerpiç parçası (kerpiç üst yapı enkazı) was found: iyi korunmuş bir kerpiç parçası
+;Kalın dolgu (Kuzey Yamaç);A2;;;;;;;;;;;;;"kırık seramik parçaları; figürin parçaları; diğer küçük buluntular";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;kalın dolgu (Kuzey Yamaç) contains stratigraphy with sound architectural plans: sağlam mimari planlar veren, somut maddi kültür kalıntısı sağlayan stratigrafi | C4a8 açmasındaki ETÇ yapı katları is judged as: mimari ve küçük buluntu açısından oldukça sağlam bulgular sunan
+;Kültür dolgusu;A2;;;;;;;;;;;;;;about 12 m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;6-12 metre arasındaki katmanlar nature determined: niteliği
+;Manastır'a ait binaların kalıntıları;E25;;;;;;;;;;;;;;;"about 1 m; 1.5 m";Resim 1: Merkezi Kilise’nin kuzey ve batısındaki alanlarda 2022, 2023 ve 2024 sezonlarında gerçekleştirilen yer radarı çalışmalarının sonuçları.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Manastır'a ait binaların kalıntıları lie (direction from Merkezi Kilise): kuzey | Manastır'a ait binaların kalıntıları lie (direction from Merkezi Kilise): batı
+;Resim 1’de görülen yapılar;E25;;;;;;;;;;;;;;;;Resim 1: Merkezi Kilise’nin kuzey ve batısındaki alanlarda 2022, 2023 ve 2024 sezonlarında gerçekleştirilen yer radarı çalışmalarının sonuçları.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Resim 1’de görülen yapılar continue toward: batı | Resim 1’de görülen yapılar continue toward: güney
+;Manastır çevresindeki birçok mekân;E25;;;;;;;;;;;;;;;;;is interpreted as: Manastır’a hizmet veren mekânlar (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;birinci profildeki stratigrafik birimler;A2;;;;;;;;;;;;;;;;;;7 adet;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;elektriğe yüksek dirençli (arkeolojik) katmanlar;A2;;;;;;;;;;;;;;;6 m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;elektriğe orta direnç gösteren katmanlar;A2;;;;;;;;;;;;;;;;;is interpreted as: arkeolojik veya jeolojik (kil, ıslak kil, vb.) (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;yüksek dirençli (arkeolojik) tabaka;A2;;;;;;;;;elektriğe orta direnç gösteren katmanlar;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;elektriğe çok düşük direnç gösteren jeolojik katmanlar (su, kil);A2;;;;;;;;;;;;;;;15 m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;arkeolojik katmanlar;A2;;;;;;;;;;;;;;;about 11 m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;arkeolojik katmanların ilk altı metresi;A2;;;;;;;;;;;;;;;;;;;çok yüksek direnç;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;0-6 metre aralığındaki arkeolojik katmanlar;A2;;;;;;taş gibi malzemeler (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;6-12 metre arasındaki katmanlar;A2;;;;;;;;;;;;;;;;;is interpreted as: arkeolojik (kerpiç, vb.) ve jeolojik (ıslak kil, vb.) olguların birlikte bulunduğu seviyeler (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;yüzeyden 12 metre derinlikten sonraki katmanlar;A2;;;;;;;;;;;;;;;;;contain arkeolojik katman: arkeolojik katmanlar (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;sağlam ele geçirilebilecek arkeolojik katmanlar;A2;;;;;;;;;;;;;;;;;depth below surface: 8-9 metre (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;8-9 metreden sonra bulunacak arkeolojik katmanların korunması;A2;;;;;;;;;;;;;;;;;is judged as: sorunlu (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;yüzeyin 12 metre altından itibaren;E25;;;;;;;;;;;;;;;;;contains only: su kaynağı ve bununla ilişkili jeolojik katmanlar (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;ilk yerleşimde konum tercihi;E25;;;;;;;;;;;;;;;;;is interpreted as: su kaynağı yakınında olma isteği (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;1 No.lu katman;A2;;;;;;;;;;;;;;;;;;;çok yüksek direnç;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;duvarlar (Güney Yamaç);E25;;;;;;;kireçtaşı;;;;;;;;;;;;;poligonal şekilde işlenerek yüzeyi düzeltilmiş;Helenistik/Roma dönemleri (probable);;;;;;;;;;;;;;;;;;;;;;;;;duvarlar (Güney Yamaç) position: birinci ERT hattının hemen batısında ve doğusunda
+;duvar blokları (Güney Yamaç);E25;;;;;;;;;;;;;;;;;;;;;;dikdörtgen prizma;;;;;;;;;;;;;;;;;;;;;;;;
+;savunma sistemi;E25;;;;;;;;;;;;;;;;;;;;;Helenistik/Roma dönemleri (probable);;20 m;;;;;;;;;;;;;;;;;;;;;;;savunma sistemi position: Höyüğün güney yamacını doğudan batıya çevreleyen
+;Hacımusalar Höyüğün güney yamacındaki yapı;E25;;;;;;;;;;;;;;;;;is interpreted as: giriş alanı veya anıtsal kapı yapısı (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;giriş alanı veya anıtsal kapı yapısı;E25;;;;;;taş malzeme (probable);;;;;;;;;;;;;;;;;about 20 m;;;;;;;;;;;;;;;;;;;;;;;
+;giriş alanı / anıtsal kapı yorumu;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;giriş alanı / anıtsal kapı yorumu is based on: Höyük topografyası, Helenistik/Roma Dönemi savunma sistemi ve ERT verisi
+;arkeolojik yapı kalıntıları (taranan alan);E25;;;;;;;;;;;;;;;0.5 m;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;arkeolojik yapı kalıntıları (taranan alan) give a plan: plan veren
+;yapılardan bazıları (taranan alan);E25;;;;;;;;;;;;;;;;;is interpreted as: fırın veya ocak gibi yoğun ateş kullanımı gösteren mekanlar (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;fırın veya ocak yorumu;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;fırın veya ocak yorumu is based on: yer manyetik yöntem sonuçları
+;Sur duvarı temeli;E25;;;;;;;taş;;;;;;;;;;;;;;;;;temel;Demir Çağı sur duvarı;;;;;;;;;;;;;;;;;;;;;
+;sur duvarı;E25;;;;;;;;;;;;;;;;;;;;;Demir Çağı;;;;;;;;;;;;;;;;;;;;;;;;;
+;yapı kalıntıları (C4a8);E25;;;;;;;;;;;;;;;;;;;;;Erken Tunç Çağı (ETÇ);;;;;;;;;;;;;;;;;;;;;;;;;
+;ETÇ seviyeleri;A2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;C4a8 açmasındaki ETÇ katlarının devamı;E25;;;;;;;;;;;;;;;;;expected depth below current level of C4b8: yaklaşık 1.5 metre aşağıda (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;dağınık duvar kalıntısı (C4a7-C4b7);E25;A8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;çöp çukuru (C4a7-C4b7);E25;A8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;duvar (C4b7 güney genişletmesi);E25;;;;;;;;2 sıra;;;;;;;;;;;;;;;4.3 m;duvar;;1 sıra;oldukça düzgün;;;;;;;;;;;;;;;;;;;
+;kerpiç dolgu (C4a7);A2;;;;;;;;;;;;;;;;;is interpreted as: Demir Çağı sur duvarından dökülmüş (probable);;;;;;;kerpiç dolgu;;;oldukça sert;;;;;;;;;;;;;;;;;;;
+;kerpiç üst yapı (sur duvarı üzerindeki);E25;;;;;;;;;;;;;;;;;is interpreted as: duvarın iç kısmına (güneyine) yıkılmış (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;C4a7 açmasında kazılacak kerpiç duvar enkazı;E25;;;;;;;;;;;;;;;;;expected further depth: yaklaşık 1.5 metre daha (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;kerpiç blok;E22;;;;;;;;;;;;;;;about 1 m;Resim 5: C4a6 açmasında yüzeyin 1 metre altında tespit edilen in situ kerpiç blok (35x35x12 cm).;;1 adet;;;;;;kerpiç blok;;;iyi korunmuş;"about 35 cm; 35 cm";"about 3 cm; 35 cm";"about 12 cm; 12 cm";in situ (yerinde);C4a6 sondajı;;;;;;;;;;;;;;
+;öküze ait kafatası;E20;;;;;;;;;;;;;;;;;;;;;;;;kafatası;;;;;;;in situ;C4a6 sondajı;öküz;;;;;;;;;;;;;öküze ait kafatası position (horizontal): kerpiç bloğun yaklaşık bir metre doğusunda | öküze ait kafatası position (vertical): kerpiç bloğun birkaç santimetre altında
+;boynuz;E20;;;;;;;;;;;;;;;;;;1 adet;;;;;;boynuz;;;;;;;;C4a6 sondajı;;;;;;;;;;;;;;boynuz was found with: öküze ait kafatası
+;çöp çukurları (C4a7);E25;A8;;;;;;;;;;;;;;"to 1.0 m; 0.1 to  m";Resim 6: C4a6-C4a7-C4b7 açmalarının İHA görüntüsü. C4a6’daki 2x1 m sondajda bulunan kerpiç bloğu korumak üzere naylon örtü vardır. [...];;3 adet;;;;;;;;;;;;;;;;1.0 to  m;Kerpiç üst yapı enkazı (C4a7);;;;;;;;;;;
+;çöp çukurlarının ikisi (C4a7);E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Kuzey Yamaç’ta daha önceki kazılarda açığa çıkarılanlar;;;;;;;;;;
+;Kuzey Yamaç’ta daha önceki kazılarda açığa çıkarılanlar;E22;;;;;;;;;;;;;;;;;;;;;;;;buluntu topluluğu;;;;;;;;;;;;;;;;;;;;;;
+;küllü ve kireçli dolgu (255);A2;;;;;;;;;;;;;;;;;;;;;;;;küllü ve kireçli dolgu;;;;;;;;;;;;;çöp çukurları (C4a7);;;;;;;;;
+;seramik parçaları (C4a7 çöp çukurları);E22;;;;;;;;;;;;;;;;;;;;;Demir Çağı;;;seramik parçaları;;;profile veren ve vermeyen;;;;;;;;;;;küllü ve kireçli dolgu (255);;;;;;;;seramik parçaları (C4a7 çöp çukurları) count: çok sayıda
+;insan kemiği parçaları (C4a7 çöp çukurları);E20;;;;;;;;;;;;;;;;;;;;;;;;insan kemiği parçaları;;;;;;;;;;;;;;küllü ve kireçli dolgu (255);;;;;;;;
+;hayvan kemiği parçaları (C4a7 çöp çukurları);E20;;;;;;;;;;;;;;;;;;;;;;;;hayvan kemiği parçaları;;;;;;;;;;;;;;küllü ve kireçli dolgu (255);;;;;;;;
+;çöp çukurlarından birisi (C4a7);E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;taban (265);E25;;;;;;;kireç kaplı taban;;;;;;;;;;;;;;;;;taban;çöp çukurlarından birisi (C4a7);;;;;;;;;;;;;;;;;;;;;
+;kireç kaplı taban;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;kireç kaplı taban is compared to: genel kural
+;çöp çukuru (çakıl taşı tabanlı, C4a7);E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;çöp çukuru (çakıl taşı tabanlı, C4a7) part excavated: sadece kuzey yarısı
+;çöp çukuru (kuzey yarısı kazılan, C4a7);E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;taban (268);E25;;;;;;;çakıl taşı kaplama;;;;;;;;;;;;;;;;;taban;çöp çukuru (kuzey yarısı kazılan, C4a7);;;;;;;;;;;;;;;;;;;;;
+;at figürinleri (C4a7);E22;;;;;;;;;;;;;;;;;;;;;;;;at figürini;;;;;;;;;;;;daha önceki yıllarda Kuzey Yamaç kazılarında tüm veya parça halinde ele geçen at figürinleri;;Kerpiç üst yapı enkazı (C4a7);baş veya gövde kısımları;;;;;;;
+;daha önceki yıllarda Kuzey Yamaç kazılarında tüm veya parça halinde ele geçen at figürinleri;E22;;;;;;;;;;;;;;;;;;;;;;;;buluntu topluluğu;;;;;;;;;;;;;;;;;;;;;;
+;at figürinleri (C4a7): gövdeler;E22;;;;;;;;;;;;;;;;;;;;;;;;;;;ayak veya baş kısımları kopartılmış/kopmuş;;;;;;;;;;;;;;;;;;;
+;at figürinleri (C4a7): baş kısımları;E22;;;;;;;;;;;;;;;;;;;;detaylı olarak işlenmiş;;;;;;;;;;;;;;;;;;;;boyanmış (probable);;;;;;
+;çöp çukuru (C5b1);E25;;;;;;;;;;;;;;;;"Resim 7: C4b10 açmasının 2024 kazı sezonu sonundaki görünümü. Fotoğrafın sol alt köşesine (batıya) doğru C4b9 açması yer almaktadır; bu Kuzey Yamaç’taki en derin açmadır.";;;;;;dairesel form;;çöp çukuru;;;zamanla formunu kaybetmiş;;;;;;;about 3 m;;;;;;;;;;;;çöp çukuru (C5b1) was excavated at: açmanın son kazısının yapıldığı tarih
+;rampa (toprak tahliyesi için);E25;;;;;;;;;;;;;;;;;;2 adet;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;seramik parçaları (C5b1 ve C5b2);E22;;;;;;;;;;;;;;;;;;;;;ETÇ-Demir Çağı arasında dağılım gösteren;;;seramik parçaları;;;;;;;;;;;;;;"C5b1; C5b2";;;;;;;;
+;duvarlar (C5b1 ve C5b2);E25;A8;;;;;;orta boy taşlar;2 sıra;;;;;;;;;;;;;Demir Çağı;;;basit duvarlar;;;;;;;;;;;;;;;;;;;;;;duvarlar (C5b1 ve C5b2) measures (height): birkaç sıra | duvarlar (C5b1 ve C5b2) give a plan: belirgin bir plan
+;duvarların benzerleri;E25;;;;;;;;;;;;;;;;;were found and removed in: önceki sezonlarda yapılan kazı çalışmaları (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;C4c10 açmasının kesiti;A3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;çöp çukurları (C5b1 ve C5b2, kazılan);E25;A8;;;;;;;;;;;;;;;;;2 adet;;;;;;;;;;;;;;;;;;;;;;;;;;;;çöp çukurları (C5b1 ve C5b2, kazılan) size compared to other pits: daha küçük
+;taban (310);E25;;;;;;;kireç sıvalı;;;;;;;;;;;;;;;;;taban;çöp çukurları (C5b1 ve C5b2, kazılan);;;;;;;;;;;;;;;;;;;;;
+;kırık seramik parçaları (C5b1-C5b2 çöp çukurları);E22;;;;;;;;;;;;;;;;;;;;;;;;kırık seramik parçaları;;;;;;;;;;;;;;;;;;;;;;
+;hayvan kemikleri (C5b1-C5b2 çöp çukurları);E20;;;;;;;;;;;;;;;;;;;;;;;;hayvan kemikleri;;;;;;;;;;;;;;;;;;;;;;
+;kül dolgu (313);A2;;;;;;;;;;;;;;;;;;;;;;;;kül dolgu;;;;;;;;;;;;;çöp çukurları (C5b1 ve C5b2, kazılan);;;;;;;;;
+;alandaki tüm çöp çukurları;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;alandaki tüm çöp çukurları contents: kırık seramik parçaları, hayvan kemikleri, kül dolgu
+;at figürinleri (C5b1 ve C5b2);E22;;;;;;;;;;;;;;;;;;;;;;;;at figürinleri;;;;;;;;;;;;;;C5b1;;;;;;;;
+;heykelcikler (C5b1 ve C5b2);E22;;;;;;;;;;;;;;;;;;;;;;;;heykelcikler;;;;;;;;;;;;;;C5b1;;;;;;;;
+;ağırşaklar (C5b1 ve C5b2);E22;;;;;;;;;;;;;;;;;;;;;;;;ağırşaklar;;;;;;;;;;;;;;C5b1;;;;;;;;
+;diğer küçük buluntular (C5b1 ve C5b2);E22;;;;;;;;;;;;;;;;;;;;;;;;diğer küçük buluntular;;;;;;;;;;;;;;C5b1;;;;;;;;
+;C5b1 ve C5b2 küçük buluntuları;E22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Kuzey Yamaç’taki önceki kazılardan bilinenler;;;;;;;;;;
+;Kuzey Yamaç’taki önceki kazılardan bilinenler;E22;;;;;;;;;;;;;;;;;;;;;;;;buluntu topluluğu;;;;;;;;;;;;;;;;;;;;;;
+;heykelcik parçası;E22;;;;;;;;;;;;;;;;;;;;;Helenistik/Roma Dönemi (probable);;;küçük bir heykelciğin baş tarafına ait parça;;;;;;;;;;;;;;kazılan dolgu (C5b1 ve C5b2);;;;;;;;
+;kazılan dolgu (C5b1 ve C5b2);A2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;çöp çukuru (C5b2, oval);E25;A8;C5b2;;;;;;;;;;;;;about 1.5 m;Resim 6: C4a6-C4a7-C4b7 açmalarının İHA görüntüsü. C4a6’daki 2x1 m sondajda bulunan kerpiç bloğu korumak üzere naylon örtü vardır. [...];;;;;;oval form;;;;;;;;;;;;;;;;;;;;;;;;çöp çukuru (C5b2, oval) position: açmanın doğu sınırına yakın
+;ikinci çöp çukuru (C5b2);E25;A8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;çöp çukuru (C5b2, oval);;;;;ikinci çöp çukuru (C5b2) size: çok daha küçük | ikinci çöp çukuru (C5b2) has distinct shape: belirgin bir form | ikinci çöp çukuru (C5b2) depth: çok sığ
+;kemik parçaları (C5b2 çöp çukurları);E20;;;;;;;;;;;;;;;;;;;;;;;;kemik parçası;;;;;;;;;;;;;;çöp çukuru (C5b2, oval);;;;;;;;kemik parçaları (C5b2 çöp çukurları) count: çok sayıda
+;seramik parçaları (C5b2 çöp çukurları);E22;;;;;;;;;;;;;;;;;;;;;;;;seramik parçası;;;;;;;;;;;;;;çöp çukuru (C5b2, oval);;;;;;;;seramik parçaları (C5b2 çöp çukurları) count: çok sayıda
+;kalın ve birkaç farklı seviyede kül dolgu (338);A2;;;;;;;;;;;;;;;;;;;;;;;;kalın ve birkaç farklı seviyede kül dolgu;;;;;;;;;;;;;oval çöp çukuru (C5b2);;;;;;;;;
+;oval çöp çukuru (C5b2);E25;A8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;oval çöp çukurundaki kül dolgu;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;oval çöp çukurundaki kül dolgu is homogeneous: homojen
+;çöp çukuru (C4b10);E25;;;;;;;;;;;;;;;;;;;;;;geniş ve dairesel form (probable);;;;;;;;;;;;;;;;;;;;;;;;çöp çukuru (C4b10) position: C4b9 açmasıyla olan sınırında
+;seramik parçaları (C4b10);E22;;;;;;;;;;;;;;;;;;;;;"ETÇ III; Orta Tunç çağı; Geç Tunç çağı";;;seramik parçaları;;;;;;;;;;;;;;C4b10;;;;;;;;
+;ETÇ III, Orta ve Geç Tunç çağı seramik parçaları;E22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;ETÇ III, Orta ve Geç Tunç çağı seramik parçaları found before in nearby trenches: civardaki açmalar
+;tezgâh ağırlığı;E22;;;;;;;;;;;;;;;;;;1 adet;;;;;;tezgâh ağırlığı;;;;;;;;;;;;;;C4b10;;;;yes;;;;tezgâh ağırlığı size: küçük
+;Demir Devri duvarlar (C4c10);E25;A8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;duvarlar (C4c10);E25;;;;;;;;;;;;;;;;;;;;;Demir Devri;;;;;;;;;;;;;;;;;;;;;;;;;
+;dolgu (C4c10);A2;;;;;;;;;;;;;;;;;;;;;;;;;;;oldukça sert;;;;;;;;;;;;;;;;;;;
+;Demir Devri duvarlar;E25;A8;;;;;;;;sert dolgu (C4c10);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;sert dolgu (C4c10);E25;A8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Tunç Çağı sonrası katmanı (Kuzey Yamaç);A2;;;;;;;;;;;"Demir Devri; Arkaik; Klasik; Helenistik/Roma; Bizans";;;about 4.0 to 5.0 m;;;;;;;;;;Tunç Çağı sonrası katman;;;;;;;;;;;;;;;;;;;;;;
+;kırık seramik parçaları;E22;;;;;;;;;;;;;;;;;;;;;;;;buluntu topluluğu;;;;;;;;;;;;;;;;;;;;;;
+;figürin parçaları;E22;;;;;;;;;;;;;;;;;;;;;;;;buluntu topluluğu;;;;;;;;;;;;;;;;;;;;;;
+;diğer küçük buluntular;E22;;;;;;;;;;;;;;;;;;;;;;;;buluntu topluluğu;;;;;;;;;;;;;;;;;;;;;;
+;çöp çukurları (Kuzey Yamaç);E25;A8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Kalın dolgu (Kuzey Yamaç) (probable);;;;;;;;;;;
+;Kuzey Yamaç’ta Tunç Çağları tabakalarına kadar sağlam mimari ve maddi kültür kalıntısı bulma;E25;;;;;;;;;;;;;;;;;likelihood: oldukça zayıf (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;karışık ve sağlam mimari plan/buluntu vermeyen dolgu;A2;;;;;;;;;;;;;;;;;will not end until: tüm açmalarda 1049 metre kota erişilinceye kadar (probable);;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Manastır yapısına ait farklı mekanların duvarları;E25;;Manastır yapısının güney sınırı boyunca açılan tüm açmalar;;;;;;;;;;;;;;;;;;;;;;;;;sağlam;;;;;;;;;;;;;;;;;;;
+;Manastır yapısını çevreleyen mekanlar;E25;;;;;;ikincil malzeme (spolia);;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;ikincil malzeme (spolia);E22;;;;;;;;;;;;;;;;Resim 10: E5c4 açmasında sarnıcın hemen solunda (kuzeydoğusunda) taban döşemesi ve üzerindeki duvar örgüsünü gösteren fotoğraf.;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;büyük sarnıç;E25;;;;;;;;;;;;;;;;;;;;;;;;;Manastır yapısı;;;;;;;;;;;;;;;;;;;;;
+;sarnıcı çevreleyen yapılar;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;yol;E25;;;;;;;;;;;;;;;;Resim 11: E5b6 açmasında Merkezi Kilise yapısının çevresinde bulunan yapının birden fazla evresine ait duvarları gösteren fotoğraf.;;;;;;;;taban döşemesi olan bir yol;;;;;;;;;;;;;;;;;;;;;;
+;Manastır yapısını çevreleyen yapılar;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Manastır yapısını çevreleyen yapılar plan (unclear: sentence is garbled, 'ise çok Manastır yapısını'): çok evreli planlar
+;çok evreli yapılar;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;çok evreli yapılar position: bu alanın kuzeyine, Kilise’nin apsis yapısına doğru
+;apsis yapısı;E25;;;;;;;;;;;;;;;;;;;;;;;;;Merkezi Kilise;;;;;;;;;;;;;;;;;;;;;
+;işli mimari parçalar;E22;;Höyük üzerindeki taş havuzu;;;;;;;;;;;;;;;;;;;;;;işli mimari parçalar;;;;;;;;Merkezi Kilise 1. Etap 333 m2 Alan İçerisinde El İle Kazı;;;;;;;;;;;kazı deposu;;;
+;sikkeler;E22;;;;;;;bakır;;;;;;;;;;;;;;;;;sikke;;;oldukça korozyona uğramış;;;;;;;;;;;;;;;;;;;
+;takı;E22;;;;;;;bakır;;;;;;;;;;;;;;;;;takı;;;;;;;;;;;;;;;;;;;;bilezik (probable);;
+;liturji (ayin) objeleri;E22;;;;;;;demir;;;;;;;;;;;;;;;;;liturji (ayin) objeleri;;;;;;;;;;;;;;;;;;;;;;
+;boncuk;E22;;;;;;;pişmiş toprak;;;;;;;;;;;;;;;;;boncuk;;;;;;;;;;;;;;;;;;;;;;
+;küçük buluntular (Merkezi Kilise);E22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;etütlük (probable);
+;küçük buluntular (sikkeler, takı, liturji objeleri, boncuk);E22;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Merkezi Kilise 1. Etap 333 m2 Alan İçerisinde El İle Kazı;;;;;;;;;;;;;;
+;katmanlar 1, 4, 5, 6;A2;;;;;;;;;;;;;;;;;is interpreted as: arkeolojik;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;katmanlar 2, 3, 7;A2;;;;;;;;;;;;;;;;;is interpreted as: jeolojik;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;İHA;E22;;;;;;;;;;;;;;;;;;;;;;;;alet;;;;;;;;;;;;;;;;;;;;;;
+;kerpiç blok (C4a6 sondajı);E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;kerpiç blok (C4a6 sondajı) is protected by: naylon örtü
+;çöp çukuru (kuzey yarısı);E25;;;;;;;;;;;;;;;;;;;;;;dairesel form;;;;;;;;;;;;;;;;;;;;;;;;çöp çukuru (kuzey yarısı) position: C4a7 açmasını C4b7 açmasından ayıran eşiğin hemen altında | çöp çukuru (kuzey yarısı) is covered by: naylon örtü
+;eşik;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;eşik separates: C4a7 açması ile C4b7 açması
+;diğer çöp çukuru;E25;;;;;;;;;;;;;;;;;;;;;;dairesel form;;;;;;;;;;;;;;;;;;;;;;;;diğer çöp çukuru position: açmanın ortasında
+;üçüncü çöp çukuru;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;üçüncü çöp çukuru position: açmanın güneydoğu köşesinde | üçüncü çöp çukuru depth below current level: birkaç santimetre aşağıda
+;C4b9 açması;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;C4b9 açması position in the photograph: fotoğrafın sol alt köşesine (batıya) doğru
+;Resim 8 İHA görüntüsü;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Resim 8 İHA görüntüsü was taken: 2024 kazıları başlamadan önce
+;kapı eşiği;E25;;E4d10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;kapı dikmesi;E25;;E4d10;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;kapı eşiği ve dikmesi (E4d10);E25;;;;;;tüm yapı malzemesi ikincil kullanım;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;sarnıç;E25;;E5c4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;taban döşemesi (E5c4);E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;taban döşemesi (E5c4) position: sarnıcın hemen solunda (kuzeydoğusunda)
+;duvar örgüsü (E5c4);E25;A8;;;;;;;;taban döşemesi;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;taban döşemesi;E25;A8;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;duvarlar (E5b6);E25;;;;;;;;;;;;;;;;;;;;;;;;;Merkezi Kilise yapısının çevresinde bulunan yapının birden fazla evresi;;;;;;;;;;;;;;;;;;;;;
+;Merkezi Kilise yapısının çevresinde bulunan yapının birden fazla evresi;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;duvarlar (birden fazla evreli yapı);E25;;E5b6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;Resim 12 fotoğrafı;E25;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;Resim 12 fotoğrafı was taken on: kapanış günü

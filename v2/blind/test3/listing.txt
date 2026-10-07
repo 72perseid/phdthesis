@@ -1,0 +1,679 @@
+1 115 STRUCT p | sayfa üst başlığı | page header reads | 45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1 |  
+2 115 DOC p | bildiri | has title | İZNİK HİSARDERE NEKROPOLÜ 2024 YILI KAZI ÇALIŞMALARI |  
+3 115 DOC l | bildiri | has author | Aygün EKİN MERİÇ |  
+4 115 DOC l | bildiri | has author | Ali Kazım ÖZ |  
+5 115 DOC l | bildiri | has author | Tolga KOPARAL |  
+6 115 DOC l | bildiri | has author | Gülşen KUTBAY |  
+7 115 DOC l | bildiri | has author | Ruken Zeynep KÖSE |  
+8 115 ADMIN p | İznik Hisardere Nekropolü 2024 yılı kazı çalışmala | was permitted by | Kültür ve Turizm Bakanlığı |  
+9 115 ADMIN p | İznik Hisardere Nekropolü 2024 yılı kazı çalışmala | was financially supported by | Kültür ve Turizm Bakanlığı |  
+10 115 ADMIN p | İznik Hisardere Nekropolü 2024 yılı kazı çalışmala | was carried out under the presidency of | İznik Müzesi Müdürlüğü |  
+11 115 PEOPLE p | Aygün Ekin Meriç | role in the work | Bilimsel Koordinatör |  
+12 115 PEOPLE p | Aygün Ekin Meriç | title | Prof. Dr. |  
+13 115 PEOPLE p | Aygün Ekin Meriç | affiliation | Dokuz Eylül Üniversitesi |  
+14 115 WORK p | İznik Hisardere Nekropolü 2024 yılı kazı çalışmala | was carried out by | Bilimsel Koordinatörlüğünde oluşturulan bir ekip |  
+15 115 WORK p | İznik Hisardere Nekropolü 2024 yılı kazı çalışmala | took place between | 01.08.2024-27.12.2024 |  
+16 115 WORK p | İznik Hisardere Nekropolü 2024 yılı kazı çalışmala | manner of continuation | aralıklı olarak |  
+17 115 PEOPLE l | arkeolog | count in the team | bir |  
+18 115 PEOPLE l | antropolog | count in the team | bir |  
+19 115 ADMIN l | işçi | count in the team | dört |  
+20 115 PEOPLE l | gönüllü öğrenci | count in the team | sekiz |  
+21 115 WORK p | çalışmalar | number of work areas | beş alan |  
+22 115 WORK l | çalışmalar | had work area | Kazı Çalışmaları |  
+23 115 WORK l | çalışmalar | had work area | Seramik ve Küçük Buluntu Değerlendirme |  
+24 115 WORK l | çalışmalar | had work area | Antropoloji Çalışmaları |  
+25 115 WORK l | çalışmalar | had work area | Mimari Belgeleme ve Çizim |  
+26 115 WORK l | çalışmalar | had work area | Restorasyon ve Konservasyon |  
+27 115 STRUCT p | başlık | heading reads | KAZI ÇALIŞMALARI |  
+28 115 WORK p | alan | was scanned with | yeraltı görüntüleme sistemi |  
+29 115 WORK p | yeraltı görüntüleme sistemi taraması | took place in | 2020 yılı temmuz ayı |  
+30 115 WORK p | çalışma planı | was based on | jeoradar verileri |  
+31 115 WORK p | öncelikli kazılacak alanlar | were determined from | jeoradar tarama verileri |  
+32 115 WORK p | öncelikli kazılacak alanlar | were determined from | önceki yıllarda gerçekleştirilen kazı çalışmaları |  
+33 115 WORK p | 01.08.2024-30.08.2024 çalışmaları | took place between | 01.08.2024-30.08.2024 |  
+34 115 ADMIN p | 01.08.2024-30.08.2024 çalışmaları | was funded by | Kültür ve Turizm Bakanlığından sağlanan ödenek |  
+35 115 WORK p | 01.08.2024-30.08.2024 çalışmaları | took place in square | E-15 |  
+36 115 WORK p | 01.08.2024-30.08.2024 çalışmaları | took place in square | E-16 |  
+37 115 WORK p | 03.10.2024-29.11.2024 çalışmaları | took place between | 03.10.2024-29.11.2024 |  
+38 115 ADMIN p | 03.10.2024-29.11.2024 çalışmaları | was part of project | Geleceğe Miras Projesi |  
+39 115 ADMIN p | 03.10.2024-29.11.2024 çalışmaları | was funded by | Kültür ve Turizm Bakanlığından sağlanan ödenek yardımı |  
+40 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | J-17 |  
+41 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | J-18 |  
+42 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | J-K/18 |  
+43 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | K-16 |  
+44 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | K-17 |  
+45 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | K-18 |  
+46 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | K-L/15-16 |  
+47 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | L-17 |  
+48 115 WORK l | 03.10.2024-29.11.2024 çalışmaları | took place in square | L-18 |  
+49 115 FIGURE p | plankareler / kazı alanı | is shown in figure | Çizim: 1 |  
+50 115 PEOPLE l | Aygün Ekin Meriç | affiliation | Dokuz Eylül Üniversitesi, Edebiyat Fakültesi, Arkeoloji Bölümü |  
+51 115 PEOPLE l | Aygün Ekin Meriç | address of affiliation | Tınaztepe Kampüsü, 35390 Buca, İzmir, TÜRKIYE |  
+52 115 PEOPLE l | Aygün Ekin Meriç | identifier (ORCID) | 0000-0002-1343-847X |  
+53 115 PEOPLE l | Ali Kazım Öz | title | Prof. Dr. |  
+54 115 PEOPLE l | Ali Kazım Öz | affiliation | Dokuz Eylül Üniversitesi, Edebiyat Fakültesi, Arkeoloji Bölümü |  
+55 115 PEOPLE l | Ali Kazım Öz | address of affiliation | Tınaztepe Kampüsü, 35390 Buca, İzmir, TÜRKIYE |  
+56 115 PEOPLE l | Ali Kazım Öz | identifier (ORCID) | 0000-0002-3005-323X |  
+57 115 PEOPLE l | Tolga Koparal | title | Arkeolog |  
+58 115 PEOPLE l | Tolga Koparal | affiliation | İznik Müzesi Müdürlüğü |  
+59 115 PEOPLE l | Tolga Koparal | address of affiliation | 16860 İznik, Bursa, TÜRKIYE |  
+60 115 PEOPLE l | Gülşen Kutbay | title | Arkeolog Dr. |  
+61 115 PEOPLE l | Gülşen Kutbay | affiliation | Hisardere Nekropolü Kazıevi |  
+62 115 PEOPLE l | Gülşen Kutbay | address of affiliation | 16860 İznik, Bursa, TÜRKIYE |  
+63 115 PEOPLE l | Ruken Zeynep Köse | title | Antropolog |  
+64 115 PEOPLE l | Ruken Zeynep Köse | affiliation | Hisardere Nekropolü Kazıevi |  
+65 115 PEOPLE l | Ruken Zeynep Köse | address of affiliation | 16860 İznik, Bursa, TÜRKIYE |  
+66 116 STRUCT p | sayfa üst başlığı | page header reads | KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ |  
+67 116 STRUCT p | başlık | heading reads | E-15 Plankaresi |  
+68 116 BUILT p | bazilika | was built over | Nekropol alanı |  
+69 116 WORK p | E-15 plankaresi kazı çalışmaları | was planned because of | jeoradar taramaları sonucu |  
+70 116 WORK p | E-15 plankaresi kazı çalışmaları | had the aim | bazilikanın batı sınırını ortaya çıkarmak |  
+71 116 WORK p | E-15 açması | trench limits measure | 600x600 cm |  
+72 116 PLACE p | E-15 açması | work started at elevation | +96,82 m |  
+73 116 BUILT p | toprak tabakası (E-15) | lies in | alanın kuzey kesiti |  
+74 116 BUILT l | toprak tabakası (E-15) | has character | sert |  
+75 116 BUILT l | toprak tabakası (E-15) | has character | kuru |  
+76 116 BUILT l | toprak tabakası (E-15) | has character | sıkışmış |  
+77 116 FIND p | tessera (E-15) | kind | tessera |  
+78 116 FIND p | tessera (E-15) | was found in | kuzey kesitteki toprak tabakası |  
+79 116 FIND p | tessera (E-15) | position in place | öbekler halinde |  
+80 116 FIND p | mozaik parçaları (E-15) | kind | mozaik parçaları |  
+81 116 FIND p | mozaik parçaları (E-15) | was found in | kuzey kesitteki toprak tabakası |  
+82 116 FIND p | mozaik parçaları (E-15) | position in place | öbekler halinde |  
+83 116 WORK p | tesseralar (E-15) | was examined for | alanla organik bir bağının olup olmadığı |  
+84 116 BUILT p | statumen tabakası (E-15) | kind | statumen tabakası |  
+85 116 PLACE p | statumen tabakası (E-15) | elevation | 96,44 m |  
+86 116 BUILT p | statumen tabakası (E-15) | condition | tahrip olmuş |  
+87 116 BUILT p | mozaik harcı (E-15) | kind | mozaik harcı |  
+88 116 PLACE p | mozaik harcı (E-15) | elevation | 96,44 m |  
+89 116 INTERP p | alan (E-15) | is interpreted as covered with | mozaik taban döşemesi | işaret ettiğinden 
+90 116 WORK p | statumen tabakası ve mozaik harcı kalıntıları (E-1 | decision | korunmasına karar verilmiştir |  
+91 116 DESCR p | statumen tabakası ve mozaik harcı kalıntıları (E-1 | is judged | önemli |  
+92 116 WORK p | E-15 kazı çalışmaları | advanced towards | kuzey yönü |  
+93 116 BUILT p | duvar yapısı (E-15) | kind | duvar yapısı |  
+94 116 PLACE p | duvar yapısı (E-15) | elevation | +96,33 m |  
+95 116 MEASURE p | duvar yapısı (E-15) | measures | 67x120 cm |  
+96 116 BUILT p | duvar yapısı (E-15) | is built as | iki sıra taş örgülü |  
+97 116 BUILT p | duvar (E-15) | orientation | doğu-batı doğrultulu |  
+98 116 FIND p | pithos kalıntısı (E-15) | kind | pithos kalıntısı |  
+99 116 FIND p | pithos kalıntısı (E-15) | was found in | doğu-batı doğrultulu duvarın güneyinde yer alan bir alan |  
+100 116 FIND p | pithos kalıntısı (E-15) | condition | dibe yakın bölümü korunmuş |  
+101 116 FIND p | pithos kalıntısı (E-15) | contains | harç kalıntıları |  
+102 116 DESCR p | pithosun harç kalıntıları (E-15) | is judged to have potential to inform on | yapının kullanım amacı ve dönemin gömü pratikleri | potansiyeline sahipt 
+103 116 BUILT p | ÇM 1 (E-15) | kind | Çatkı Mezar |  
+104 116 BUILT p | ÇM 1 (E-15) | position | açmanın kuzey kesitinden 40 cm içeride |  
+105 116 PLACE p | ÇM 1 (E-15) | elevation | +96,00 m. |  
+106 116 BUILT p | ÇM 1 (E-15) | orientation | doğu-batı doğrultusunda |  
+107 116 MEASURE p | ÇM 1 (E-15) | measures (length) | 182 cm |  
+108 116 MEASURE p | ÇM 1 (E-15) | measures (width) | 50 cm |  
+109 116 BUILT p | ÇM 1 (E-15) | extends | bir kısmı doğu kesitin altına doğru |  
+110 116 BUILT p | ÇM 1 (E-15) mezar kapakları | are supported with | harç ve taşlar |  
+111 116 WORK p | ÇM 1 (E-15) | work done | belgeleme işlemleri tamamlandı |  
+112 116 WORK p | ÇM 1 (E-15) | work done | batı yönündeki iki kapak açıldı |  
+113 116 FIND p | kemik döküntüleri (E-15 ÇM 1) | kind | iskelete ait kemik döküntüleri |  
+114 116 FIND p | kemik döküntüleri (E-15 ÇM 1) | was found in | ÇM 1 mezar içi |  
+115 116 FIND p | iskelet (E-15 ÇM 1) | condition | neredeyse tamamen yok olmuş |  
+116 116 WORK p | kemik döküntüleri (E-15 ÇM 1) | work done | toplanarak kayıt altına alınmıştır |  
+117 116 WORK p | E-15 kazı çalışmaları | continued towards | güney yönü |  
+118 116 BUILT p | TPM 1 (E-15) | kind | terrakota plaka kapaklı mezar yapısı |  
+119 116 PLACE p | TPM 1 (E-15) kapakları ve tuğla sırası | elevation | +95,98 m |  
+120 116 BUILT p | TPM 1 (E-15) | has part | mezarın duvarına ait tuğla sırası |  
+121 116 BUILT p | TPM 1 (E-15) | orientation | doğu-batı doğrultusunda |  
+122 116 MEASURE p | TPM 1 (E-15) | measures | 71x213 cm |  
+123 116 BUILT p | TPM 1 (E-15) | is covered with | pişmiş toprak plaka |  
+124 116 BUILT p | TPM 1 (E-15) pişmiş toprak plakalar | count | üç adet |  
+125 116 MEASURE p | TPM 1 (E-15) pişmiş toprak plakalar | measures (thickness) | 8 cm |  
+126 116 MEASURE p | TPM 1 (E-15) pişmiş toprak plakalar | measures | 71x71 cm |  
+127 116 BUILT p | TPM 1 (E-15) | is surrounded by | tuğlalardan oluşan bir sıra |  
+128 116 MEASURE p | TPM 1 (E-15) tuğlalar | measures (length) | 32 cm |  
+129 116 MEASURE p | TPM 1 (E-15) tuğla sırası | measures (measurable total length) | 238 cm |  
+130 116 BUILT p | TPM 1 (E-15) | number of covers fit for opening | üç kapak |  
+131 116 WORK p | TPM 1 (E-15) | work done | doğu yönündeki iki kapak kaldırıldı |  
+132 116 MEASURE p | TPM 1 (E-15) mezar içi | measures (length) | 185 cm |  
+133 116 MEASURE p | TPM 1 (E-15) mezar içi | measures (width) | 38 cm |  
+134 116 FIND p | iskelet kalıntısı (E-15 TPM 1) | kind | iskelet kalıntısı |  
+135 116 FIND p | iskelet kalıntısı (E-15 TPM 1) | was found in | TPM 1 mezar içi |  
+136 116 FIND p | iskelet kalıntısı (E-15 TPM 1) | count of individuals | bir birey |  
+137 116 WORK p | TPM 1 (E-15) | work done | mezarın içi temizlenerek çalışmalar sonlandırılmıştır |  
+138 116 BUILT p | TPM 1 (E-15) mezar iç duvarları | are coated with | tuğla tozu içeren pembemsi bir sıva |  
+139 116 BUILT p | TPM 1 (E-15) zemini | is paved with | düzensiz biçimde alana uydurulmuş tuğlalar |  
+140 116 FIGURE p | TPM 1 (E-15) | is shown in figure | Resim: 1 |  
+141 116 LAB p | iskelet (E-15 TPM 1) | sex is | kadın | muhtemelen ... olabi 
+142 116 BUILT p | beş çatkı mezar (E-15) | position | Çatkı Mezar 1’in (ÇM 1) güney paralelinde |  
+143 116 BUILT p | beş çatkı mezar (E-15) | was found during work in | doğu kesit |  
+144 117 BUILT p | beş çatkı mezar (E-15) | kind | çatkı mezar |  
+145 117 BUILT p | beş çatkı mezar (E-15) | count | beş adet |  
+146 117 BUILT p | beş çatkı mezar (E-15) | orientation | doğu-batı doğrultusunda |  
+147 117 WORK p | E-15 mezarları | were evaluated by | korunma durumları |  
+148 117 BUILT l | ÇM 2 (E-15) | condition | korunma durumu oldukça kötü |  
+149 117 WORK l | ÇM 2 (E-15) | decision | kapalı konumda muhafaza edilmesi |  
+150 117 BUILT l | ÇM 3 (E-15) | condition | korunma durumu oldukça kötü |  
+151 117 WORK l | ÇM 3 (E-15) | decision | kapalı konumda muhafaza edilmesi |  
+152 117 BUILT l | ÇM 5 (E-15) | condition | korunma durumu oldukça kötü |  
+153 117 WORK l | ÇM 5 (E-15) | decision | kapalı konumda muhafaza edilmesi |  
+154 117 BUILT p | ÇM 4 (E-15) | condition | nispeten iyi durumda | nispeten 
+155 117 WORK p | ÇM 4 (E-15) | decision | açılarak incelenmesi |  
+156 117 INTERP p | ÇM 4 (E-15) mezar kapakları | compared with other simple çatkı graves  | daha kalın cidarlı ve özenli bir yapıya sahip |  
+157 117 BUILT p | ÇM 4 (E-15) kapaklarının iç yüzeyleri | bear | basit kazıma motifler |  
+158 117 MEASURE p | ÇM 4 (E-15) | measures (length) | 187 cm |  
+159 117 MEASURE p | ÇM 4 (E-15) | measures (width) | 45 cm |  
+160 117 WORK p | ÇM 4 (E-15) | work done | temizlik ve belgeleme çalışmaları tamamlanmış |  
+161 117 FIND p | iskelet (E-15 ÇM 4) | kind | iskelet |  
+162 117 WORK p | iskelet (E-15 ÇM 4) | work done | laboratuvar ortamında detaylı analiz için toplanmış |  
+163 117 WORK p | ÇM 4 (E-15) | work done | mezar içi temizlenerek çalışmalar sonlandırılmıştır |  
+164 117 BUILT p | bazilikanın batı sınırını oluşturan duvar sırası | was exposed in E-15 (extent) | bir bölümü |  
+165 117 BUILT p | odaları birbirinden ayıran duvarlar | was exposed in E-15 (extent) | bazı kısımları |  
+166 117 BUILT p | E-15 mezarları | count | toplam yedi mezar |  
+167 117 BUILT p | E-15 mezarları | type | beşik çatkı tipi |  
+168 117 BUILT p | E-15 mezarları | count with pişmiş toprak plaka cover | ikisi |  
+169 117 FIGURE p | E-15 mezarları | is shown in figure | Resim: 2 |  
+170 117 FIND p | seramik parçası (E-15) | kind | seramik parçası |  
+171 117 FIND p | seramik parçası (E-15) | count | az sayıda |  
+172 117 FIND p | seramik parçası (E-15) | was found in | E-15 plankaresi |  
+173 117 FIND p | bronz sikke (E-15) | kind | sikke |  
+174 117 FIND p | bronz sikke (E-15) | count | üç adet |  
+175 117 FIND p | bronz sikke (E-15) | is made of | bronz |  
+176 117 FIND p | bronz sikke (E-15) | was found in | E-15 plankaresi |  
+177 117 DESCR p | E-15 buluntuları | is judged | alanın mimari düzenini, kullanım amacını ve tarihi bağlamını anlamak a |  
+178 117 STRUCT p | başlık | heading reads | E-16 Plankaresi |  
+179 117 WORK p | E-16 açması | trench limits measure | 3,50x5,00 m |  
+180 117 PLACE p | E-16 açması | work started at elevation | +96,82 m |  
+181 117 BUILT p | ÇM 1 (E-16) | kind | basit formlu çatkı mezar |  
+182 117 PLACE p | ÇM 1 (E-16) | elevation | +96,15 m |  
+183 117 BUILT p | ÇM 1 (E-16) | orientation | doğu-batı doğrultulu |  
+184 117 BUILT p | ÇM 2 (E-16) | kind | basit formlu çatkı mezar |  
+185 117 PLACE p | ÇM 2 (E-16) | elevation | +96,15 m |  
+186 117 BUILT p | ÇM 2 (E-16) | orientation | doğu-batı doğrultulu |  
+187 117 BUILT p | ÇM 1 (E-16) mezar kapakları | bear | düzensiz kazıma motifler |  
+188 117 BUILT p | ÇM 1 (E-16) | condition | korunma durumu kötü |  
+189 117 BUILT p | ÇM 1 (E-16) | condition | kapaklardaki çökme sonucu içeriye fazlaca toprak dolmuş |  
+190 117 FIND p | iskelet kalıntısı (E-16 ÇM 1) | was found in situ | rastlanamamıştır |  |N
+191 117 STRUCT p | başlık | heading reads | K-17 Plankaresi |  
+192 117 ADMIN p | K-17 plankaresi kazı çalışmaları | was part of project | Kültür ve Turizm Bakanlığı, Geleceğe Miras Projesi |  
+193 117 PLACE p | K-17 plankaresi | is located in | nekropol alanının güneyi |  
+194 117 BUILT p | bazilikanın Narteks bölümüne ait güney duvarının d | kind | duvar (Narteks güney duvarının devamı) |  
+195 117 BUILT p | Narteks | is part of | bazilika |  
+196 117 PLACE p | Narteks güney duvarının devamı (K-17) | elevation | +97,63 m |  
+197 117 BUILT p | Narteks güney duvarının devamı (K-17) | orientation | doğu-batı doğrultulu |  
+198 117 MEASURE p | Narteks güney duvarının devamı (K-17) | measures (width) | 1,46 m |  
+199 117 MEASURE p | buna dik duvarlar (K-17) | measures (dimension not named) | [unclear] 72 cm |  
+200 117 BUILT p | dik duvarlar (K-17) | position | doğu-batı doğrultulu duvara dik |  
+201 117 BUILT p | Sanduka (K-17) | kind | Sanduka tipinde bir mezar |  
+202 117 PLACE p | Sanduka (K-17) | elevation | +97,22 m |  
+203 117 BUILT p | Sanduka (K-17) | position | doğu-batı doğrultulu duvara paralel |  
+204 117 BUILT p | Sanduka (K-17) | condition | modern atıklarla tamamen dolmuş |  
+205 117 HISTORY p | Sanduka (K-17) | was looted by | kaçak kazıcılar |  
+206 117 FIND p | iskelet kalıntısı (K-17 Sanduka) | was found in grave | rastlanmamıştır |  |N
+207 117 FIND p | buluntu niteliği taşıyan materyal (K-17 Sanduka) | was found in grave | rastlanmamıştır |  |N
+208 117 MEASURE l | Sanduka (K-17) | measures (length) | 220 cm |  
+209 117 MEASURE l | Sanduka (K-17) | measures (width) | 88 cm |  
+210 117 MEASURE l | Sanduka (K-17) | measures (depth) | 40 cm |  
+211 117 BUILT p | Sanduka (K-17) | is made of | monolit taş |  
+212 117 BUILT p | Sanduka (K-17) monolit taşlar | count | dört adet |  
+213 117 BUILT p | Sanduka (K-17) monolit taşlar | workmanship | oldukça düzgün yontulmuş |  
+214 118 STRUCT p | başlık | heading reads | K-16 Plankaresi |  
+215 118 BUILT p | Hipoje 1 (K-16) | kind | yeraltı mezar odası |  
+216 118 PLACE p | Hipoje 1 (K-16) tonozlu üst yapısı ve plaka kapağı | elevation | +97,10 m |  
+217 118 BUILT p | Hipoje 1 (K-16) | orientation | doğu-batı doğrultusunda |  
+218 118 BUILT p | Hipoje 1 (K-16) | has part | tonozlu üst yapı |  
+219 118 BUILT p | Hipoje 1 (K-16) | entrance is given by | terrakotta içbükey bir plaka kapak |  
+220 118 BUILT p | ÇM 1 (K-16) | kind | çatkı mezar |  
+221 118 PLACE p | ÇM 1 (K-16) | elevation | +96,92 m |  
+222 118 MEASURE p | ÇM 1 (K-16) | measures (length) | 174 cm |  
+223 118 MEASURE p | ÇM 1 (K-16) | measures (width) | 52 cm |  
+224 118 FIGURE p | ÇM 1 (K-16) | is shown in figure | Resim: 3 |  
+225 118 BUILT p | ÇM 1 (K-16) pişmiş toprak plakalar | consist of | dört parça |  
+226 118 FIND p | iskelet kalıntıları (K-16 ÇM 1) | kind | iskelet kalıntıları |  
+227 118 FIND p | iskelet kalıntıları (K-16 ÇM 1) | count of individuals | bir birey |  
+228 118 FIND p | iskelet kalıntıları (K-16 ÇM 1) | was found in | ÇM 1 |  
+229 118 FIND p | iskelet kalıntıları (K-16 ÇM 1) | position in place | pişmiş toprak plakaların üzerinde |  
+230 118 WORK p | iskelet (K-16 ÇM 1) | work done | laboratuvar ortamında incelenmek üzere toplanmıştır |  
+231 118 BUILT p | Hipoje 1 (K-16) özgün giriş kapısı | is located in | doğu lunette bölümü |  
+232 118 BUILT p | Hipoje 1 (K-16) özgün giriş kapısı | was closed with | tuğla duvar örgüsü |  
+233 118 DATE p | Hipoje 1 (K-16) giriş kapısının kapatılması | took place in | kendi döneminde |  
+234 118 HISTORY p | Hipoje 1 (K-16) giriş kapısının üst kısmı | was torn down by | kaçak kazıcılar |  
+235 118 MEASURE l | Hipoje 1 (K-16) | measures (inner length) | 192 cm |  
+236 118 MEASURE l | Hipoje 1 (K-16) | measures (width) | 81 cm |  
+237 118 MEASURE l | Hipoje 1 (K-16) | measures (height) | 156 cm |  
+238 118 BUILT p | Hipoje 1 (K-16) | is coated with | sıva (tüm bölümleri) |  
+239 118 BUILT p | Hipoje 1 (K-16) sıvası | colour | beyaz |  
+240 118 BUILT p | Hipoje 1 (K-16) sıvası | workmanship | incelikle uygulanmış |  
+241 118 BUILT p | Hipoje 1 (K-16) sıvası | has decoration | bezemesiz |  |N
+242 118 BUILT p | Hipoje 1 (K-16) | has part | havalandırma bacası (tavan kısmında) |  
+243 118 MEASURE p | Hipoje 1 (K-16) havalandırma bacası | measures (diameter) | 7 cm |  
+244 118 BUILT p | Hipoje 1 (K-16) alanı | is separated by | sonradan tuğlayla örülmüş bir kapı |  
+245 118 MEASURE p | bazilika duvarı ile mezar (Hipoje 1, K-16) arasınd | measures | 42 cm |  
+246 118 FIND p | iskelet kalıntıları (K-16 Hipoje 1 boşluğu) | kind | iskelet kalıntıları |  
+247 118 FIND p | iskelet kalıntıları (K-16 Hipoje 1 boşluğu) | was found in | bazilika duvarı ile mezar arasındaki boşluk |  
+248 118 FIGURE p | Hipoje 1 (K-16) | is shown in figure | Resim: 4 |  
+249 118 WORK p | Hipoje 2 (K-16) | was found | önceden |  
+250 118 WORK p | Hipoje 2 (K-16) | was entered by | pişmiş toprak kapağın çıkarılması |  
+251 118 BUILT p | Hipoje 2 (K-16) kapağının iç yüzü | bears | geometrik motifler |  
+252 118 BUILT p | Hipoje 2 (K-16) kapağındaki geometrik motifler | colour | kırmızımsı kahverengi tonlarda |  
+253 118 MEASURE l | Hipoje 2 (K-16) | measures (inner length) | 253 cm |  
+254 118 MEASURE l | Hipoje 2 (K-16) | measures (width) | 100 cm |  
+255 118 MEASURE l | Hipoje 2 (K-16) | measures (height) | 173 cm |  
+256 118 BUILT p | Hipoje 2 (K-16) | masonry | almaşık düzende örülmüş |  
+257 118 BUILT p | Hipoje 2 (K-16) | form | beşik tonoz formunda |  
+258 118 DESCR p | Hipoje 2 (K-16) | workmanship is judged | oldukça özenli bir şekilde |  
+259 118 FIGURE p | Hipoje 2 (K-16) | is shown in figure | Resim: 5 |  
+260 118 BUILT p | Hipoje 2 (K-16) tabanı | is paved with | tuğla plakalar |  
+261 118 BUILT p | Hipoje 2 (K-16) duvarları | has plaster | sıvasız |  |N
+262 118 BUILT p | Hipoje 2 (K-16) | has part | iki adet küçük niş |  
+263 118 BUILT p | kemerli kapı (K-16 Hipoje 2) | kind | kemerli bir kapı |  
+264 118 BUILT p | kemerli kapı (K-16 Hipoje 2) | is located in | Hipojenin kuzey duvarı |  
+265 118 MEASURE p | kemerli kapı (K-16 Hipoje 2) | measures (height above floor) | 39 cm |  
+266 118 MEASURE p | kemerli kapı (K-16 Hipoje 2) | measures (height) | 76 cm |  
+267 118 MEASURE p | kemerli kapı (K-16 Hipoje 2) | measures (width) | 90 cm |  
+268 118 BUILT p | kemerli kapı (K-16 Hipoje 2) | is filled with | tuğla (içi tuğla ile örülmüş) |  
+269 118 INTERP p | kemerli kapı alanı (K-16 Hipoje 2) | certain evidence of function | kesin bir bulgu olmamakla birlikte |  |N
+270 118 INTERP p | kemerli kapı alanı (K-16 Hipoje 2) | is interpreted as | diğer Hipojelerle ulaşmak amacıyla yapılmış ve işlevini yitirerek ipta | olabileceği düşünülm 
+271 118 FIND p | iskelet kalıntıları (K-16 Hipoje 2) | kind | iskelet kalıntıları | İlk incelemelere gör 
+272 118 FIND p | iskelet kalıntıları (K-16 Hipoje 2) | count of individuals | birden fazla birey | İlk incelemelere gör 
+273 118 FIND p | iskelet kalıntıları (K-16 Hipoje 2) | position in place | in situ halde |  
+274 118 FIND p | iskelet kalıntıları (K-16 Hipoje 2) | was found in | Hipoje 2 mezar içi |  
+275 118 FIND p | testi formunda kap (K-16 Hipoje 2) | kind | testi formunda kap |  
+276 118 FIND p | testi formunda kap (K-16 Hipoje 2) | count | bir adet |  
+277 118 FIND p | testi formunda kap (K-16 Hipoje 2) | was found in | Hipoje 2 mezar içi |  
+278 118 FIND p | cam boncuklar (K-16 Hipoje 2) | kind | boncuk |  
+279 118 FIND p | cam boncuklar (K-16 Hipoje 2) | is made of | cam |  
+280 118 FIND p | cam boncuklar (K-16 Hipoje 2) | position in place | dağınık halde |  
+281 118 FIND p | cam boncuklar (K-16 Hipoje 2) | was found in | Hipoje 2 mezar içi |  
+282 118 FIND p | altın küpe (K-16 Hipoje 2) | kind | küpe |  
+283 118 FIND p | altın küpe (K-16 Hipoje 2) | count | bir çift |  
+284 118 FIND p | altın küpe (K-16 Hipoje 2) | is made of | altın |  
+285 118 FIND p | altın küpe (K-16 Hipoje 2) | was found in | Hipoje 2 mezar içi |  
+286 118 WORK p | Hipoje 2 (K-16) iskeletleri ve buluntuları | work done | laboratuvar ortamında detaylı incelemeler yapılmak üzere ayrı kasalara |  
+287 118 WORK p | Hipoje 2 (K-16) | work done | belgeleme işlemleri tamamlandı |  
+288 118 INTERP p | Hipoje 3 (K-16) | was at first interpreted as | Hipojeler arası geçiş sağlayan bir koridor | Başlangıçta ... düşü 
+289 118 INTERP p | Hipoje 3 (K-16) | is interpreted as | bebek ve çocuklar için inşa edilmiş Hipoje yapısı |  
+290 118 BUILT p | Hipoje 3 (K-16) | has character | oldukça dar ve küçük |  
+291 118 FIND p | iskelet kalıntıları (K-16 Hipoje 3) | kind | bebeğe ait iskelet kalıntıları |  
+292 118 FIND p | iskelet kalıntıları (K-16 Hipoje 3) | count of individuals | dört bebek |  
+293 118 FIND p | iskelet kalıntıları (K-16 Hipoje 3) | was found in | Hipoje 3 |  
+294 118 LAB p | iskelet kalıntıları (K-16 Hipoje 3) | was examined by | Antropolog (detaylı antropolojik incelemeler) |  
+295 118 MEASURE l | Hipoje 3 (K-16) | measures (inner length) | 258 cm |  
+296 118 MEASURE l | Hipoje 3 (K-16) | measures (width) | 70 cm |  
+297 118 MEASURE l | Hipoje 3 (K-16) | measures (height) | 180 cm |  
+298 118 BUILT p | Hipoje 3 (K-16) duvarları | has plaster | bulunmamakla birlikte |  |N
+299 118 BUILT p | Hipoje 3 (K-16) duvarları | has decoration | bulunmamakla birlikte |  |N
+300 118 BUILT p | Hipoje 3 (K-16) doğu duvarı | masonry | tamamen tuğlayla örülmüş |  
+301 118 BUILT p | Hipoje 3 (K-16) batı duvarı | masonry | almaşık düzende |  
+302 119 DATE p | nekropol alanı | is dated to period | Roma Dönemi |  
+303 119 INTERP p | Hipoje 3 incelemesi | is interpreted as showing | farklı yaş gruplarına yönelik Hipoje yapılarının varlığı |  
+304 119 INTERP p | Hipoje 3 incelemesi | is interpreted as showing | gömü geleneklerindeki çeşitlilik |  
+305 119 STRUCT p | başlık | heading reads | J-17 Plankaresi |  
+306 119 BUILT p | tuğla zemin döşemesi (J-17) | kind | tuğla zemin döşemesi |  
+307 119 PLACE p | tuğla zemin döşemesi (J-17) | elevation | +97,31 m |  
+308 119 PLACE p | tuğla zemin döşemesi (J-17) | position | yüzeye oldukça yakın |  
+309 119 BUILT p | tuğla zemin döşemesi (J-17) | is made of | pişmiş toprak plakalar |  
+310 119 MEASURE p | tuğla zemin döşemesi (J-17) pişmiş toprak plakalar | measures | 40x40 cm |  
+311 119 BUILT p | tuğla zemin döşemesi (J-17) | condition | kırıklar ve çökmeler |  
+312 119 FIND p | demir çiviler (J-17) | kind | çivi |  
+313 119 FIND p | demir çiviler (J-17) | is made of | demir |  
+314 119 FIND p | demir çiviler (J-17) | count | yoğun miktarda |  
+315 119 FIND p | demir çiviler (J-17) | size | irili ufaklı |  
+316 119 FIND p | demir çiviler (J-17) | was found in | kül toprağı |  
+317 119 MEASURE p | tuğla zemin döşemesi (J-17) kazılan alan içindeki  | measures (north-south) | 4,90 m |  
+318 119 MEASURE p | tuğla zemin döşemesi (J-17) kazılan alan içindeki  | measures (east-west) | 3,04 m |  
+319 119 BUILT p | payeler (J-17) | kind | taş ve harçla örülmüş payeler |  
+320 119 BUILT p | payeler (J-17) | position | tuğla döşemenin batısında |  
+321 119 MEASURE p | payeler (J-17) | measures (distance between them) | 174 cm |  
+322 119 MEASURE p | paye (J-17), birinci | measures | 83x70 cm |  
+323 119 MEASURE p | paye (J-17), ikinci | measures | 59x75 cm |  
+324 119 BUILT p | payeler (J-17) | is made of | taş ve harç |  
+325 119 INTERP p | payeler (J-17) | is interpreted as | sütun kaidesi | olabilecek 
+326 119 INTERP p | tuğla döşeme (J-17) | is interpreted as | Bazilika’nın dışında yer alan atriuma (avlu) ait döşeme | muhtemelen ... olmal 
+327 119 INTERP p | payeler (J-17) | is interpreted as belonging to | Portiko | muhtemelen ... olmal 
+328 119 BUILT p | atrium | position | Bazilika’nın dışında |  
+329 119 BUILT p | Çatkı Mezar 1 (J-17) | kind | Çatkı Mezar |  
+330 119 BUILT p | Çatkı Mezar 1 (J-17) | condition | kuzey yönündeki ilk kapağı açılabilir |  
+331 119 BUILT p | Çatkı Mezar 2 (J-17) | kind | Çatkı Mezar |  
+332 119 BUILT p | Çatkı Mezar 2 (J-17) kapakları | lies below | zemin döşemesi (büyük çoğunluğu) |  
+333 119 WORK p | Çatkı Mezar 2 (J-17) | decision | [unclear] belgelenerek olduğu haliyle korunması (kararın ÇM 1'i de kap |  
+334 119 FIGURE p | tuğla döşeme ve payeler (J-17) | is shown in figure | Resim: 6 |  
+335 119 STRUCT p | başlık | heading reads | L-18 Plankaresi |  
+336 119 WORK p | L-18 plankaresi çalışmaları | advanced towards | plankarenin güney yönü |  
+337 119 BUILT p | Hipoje 1 (L-18) plaka kapağı | kind | terrakota içbükey plaka kapak |  
+338 119 MEASURE p | Hipoje 1 (L-18) plaka kapağı | measures | 64x64 cm |  
+339 119 WORK p | Hipoje 1 (L-18) plaka kapağı | was exposed (extent) | tamamı |  
+340 119 MEASURE l | Hipoje 1 (L-18) | measures (inner length) | 424 cm |  
+341 119 MEASURE l | Hipoje 1 (L-18) | measures (width) | 230 cm |  
+342 119 MEASURE l | Hipoje 1 (L-18) | measures (height) | 180 cm |  
+343 119 BUILT p | Hipoje 1 (L-18) tonoz bölümü | is made of | tuğla |  
+344 119 BUILT p | Hipoje 1 (L-18) duvarları | is made of | moloz taş |  
+345 119 BUILT p | Hipoje 1 (L-18) | is coated with | beyaz renkli bir sıva |  
+346 119 BUILT p | Hipoje 1 (L-18) orijinal girişi | count of entrance points | iki farklı nokta |  
+347 119 BUILT p | Hipoje 1 (L-18) ilk girişi | is located in | mezar tonozunun kuzeydoğu köşesi |  
+348 119 BUILT p | Hipoje 1 (L-18) ilk girişi | is closed with | terrakota içbükey bir plaka kapak |  
+349 119 INTERP p | Hipoje 1 (L-18) ikinci girişi | is interpreted as | güney lunette bölümünde yer alan bir kapı açıklığı | olduğu düşünülmekted 
+350 119 MEASURE p | Hipoje 1 (L-18) kapı açıklığı | measures | 80x48 cm |  
+351 119 BUILT p | kline (L-18 Hipoje 1) | kind | kline |  
+352 119 BUILT p | kline (L-18 Hipoje 1) | is located in | Hipojenin güney kısmı |  
+353 119 HISTORY p | kline (L-18 Hipoje 1) | was destroyed by | kaçak kazılar (tamamen yok edildi) |  
+354 119 DOC p | cümle: Hipojenin güney kısmında bir kline ... orta | subject of the sentence | [unclear] neyin ortaya koyduğu yazılmamış |  
+355 119 WORK p | kline (L-18 Hipoje 1) ölçüleri | were taken from | mevcut izler |  
+356 119 MEASURE l | kline (L-18 Hipoje 1) | measures (height) | yaklaşık 70 cm | yaklaşık 
+357 119 MEASURE l | kline (L-18 Hipoje 1) | measures (north-south) | 1,05 m |  
+358 119 MEASURE l | kline (L-18 Hipoje 1) | measures (east-west) | 2,30 m |  
+359 119 PLACE p | Hipoje 2 (L-18) | elevation | 97,87 metre |  
+360 119 BUILT p | Hipoje 2 (L-18) | kind | Hipoje |  
+361 119 HISTORY p | Hipoje 2 (L-18) | was damaged by | kaçak kazıcılar |  
+362 119 WORK p | Hipoje 2 (L-18) mezar içi çalışmaları | started after | plankare seviye çalışmalarının tamamlanması |  
+363 119 BUILT p | açıklık (L-18 Hipoje 2) | is located in | Hipojenin kuzey kısmı, tepe kısmı |  
+364 119 HISTORY p | açıklık (L-18 Hipoje 2) | was opened by | kaçak kazıcılar |  
+365 119 MEASURE p | açıklık (L-18 Hipoje 2) | measures | 30x50 cm |  
+366 119 WORK p | Hipoje 2 (L-18) | was entered through | kaçak kazıcıların açtığı açıklık |  
+367 119 BUILT p | Hipoje 2 (L-18) tonoz bölümü | is made of | tuğla |  
+368 119 BUILT p | Hipoje 2 (L-18) duvarları | is made of | taş |  
+369 119 BUILT p | Hipoje 2 (L-18) duvarları | is plastered with | duvarların inşasında kullanılan harç |  
+370 119 BUILT p | kline (L-18 Hipoje 2) | kind | kline |  
+371 119 BUILT p | kline (L-18 Hipoje 2) | is located in | kuzey cephesi |  
+372 119 HISTORY p | kline (L-18 Hipoje 2) | was destroyed by | kaçak kazıcılar (tamamen yok edildi) |  
+373 119 MEASURE l | kline (L-18 Hipoje 2) | measures (height) | 64 cm | değerlendirilmiştir 
+374 119 MEASURE l | kline (L-18 Hipoje 2) | measures (east-west) | 2,30 m | değerlendirilmiştir 
+375 120 MEASURE l | kline (L-18 Hipoje 2) | measures (north-south) | 1,05 m | değerlendirilmiştir 
+376 120 MEASURE l | Hipoje 2 (L-18) | measures (inner length) | 326 cm |  
+377 120 MEASURE l | Hipoje 2 (L-18) | measures (width) | 228 cm |  
+378 120 MEASURE l | Hipoje 2 (L-18) | measures (height) | 178 cm |  
+379 120 BUILT p | Hipoje 2 (L-18) orijinal giriş bölümü | has part | merdivenler |  
+380 120 HISTORY p | Hipoje 2 (L-18) merdiven basamakları | were removed by | kaçak kazıcılar (büyük çoğunluğu) |  
+381 120 STRUCT p | başlık | heading reads | MİMARİ BELGELEME VE KORUMA PROJELERİ |  
+382 120 WORK p | mimari belgeleme çalışmaları | had the aim | Nekropol alanının arkeolojik ve mimari özelliklerini detaylı bir şekil |  
+383 120 PEOPLE p | Neval Sarıtekin | role in the work | alanın mimari belgelerinin hazırlanması |  
+384 120 PEOPLE p | Doruk Bayrak | role in the work | alanın mimari belgelerinin hazırlanması |  
+385 120 WORK l | Nekropol | was documented with | üç boyutlu vaziyet görüntüleri |  
+386 120 WORK l | Nekropol | was documented with | plan rölöve çizimleri |  
+387 120 WORK l | Nekropol | was documented with | kesit rölöve çizimleri |  
+388 120 FIGURE p | mimari belgeleme | is shown in figure | Çizim: 2 |  
+389 120 STRUCT p | başlık | heading reads | Geçici Çatı Örtüsü |  
+390 120 DESCR p | arkeolojik kazı alanlarında yapılan çalışmalar | general statement | uygun koruma önlemlerini zorunlu kılar |  
+391 120 DESCR p | geçici çatı örtülerinin kullanılması | is judged | önemlidir (çevresel faktörlerin kazı alanına zarar vermesini önlemek a |  
+392 120 DESCR l | çevresel faktörler | includes | güneş |  
+393 120 DESCR l | çevresel faktörler | includes | yağmur |  
+394 120 DESCR l | çevresel faktörler | includes | rüzgar |  
+395 120 WORK p | mevcut çatı örtüleri | is made of | branda |  
+396 120 ADMIN p | mevcut branda ile yapılmış çatı örtüleri | was judged sufficient | yeterli olmadığı belirlenmiş |  |N
+397 120 ADMIN p | Kültür ve Turizm Bakanlığından gelen uzmanlar | role in the work | çatı örtülerini incelediler |  
+398 120 WORK p | çatı örtüleri | decision | yerine geçici ancak daha dayanıklı bir sistemin inşa edilmesi |  
+399 120 WORK p | yeni yapılan çatılar | is made of | çelik iskelet |  
+400 120 WORK p | yeni yapılan çatılar | is made of | trapez çatı örtüsü |  
+401 120 DESCR p | yeni yapılan çatılar | is judged | geçici fakat sağlam bir yapı |  
+402 120 WORK p | yeni yapılan çatılar | is supported by | taşınabilir beton ayaklar |  
+403 120 WORK p | beton ayaklar | intervene in the ground of the excavatio | müdahale etmeyen |  |N
+404 120 FIGURE p | geçici çatı | is shown in figure | Resim: 7 |  
+405 120 DESCR p | çatıların tasarımı | took into account | dayanıklılık, işlevsellik ve pratiklik |  
+406 120 WORK p | çatılar | provide | yeterli ışık ve hava sirkülasyonu |  
+407 120 DESCR p | kullanılan malzemeler | is judged | çevresel etkilere karşı dirençli; bakım maliyetlerini azaltmakta, uzun |  
+408 120 DESCR p | bu tür uygulamalar | is judged | kültürel mirasın zarar görmeden geleceğe aktarılmasına katkı sağlamakt |  
+409 120 DESCR p | geçici çatı sistemlerinin tasarımı | is judged | alanın özgünlüğünü koruyacak hassasiyetin gösterilmesi büyük önem taşı |  
+410 120 STRUCT p | başlık | heading reads | SERAMİK VE KÜÇÜK BULUNTU DEĞERLENDİRME ÇALIŞMALARI |  
+411 120 PEOPLE p | Gizem Sevinç Memiş | role in the work | seramik ve küçük buluntu çalışmaları |  
+412 120 PEOPLE p | Beyza Davdav | role in the work | seramik ve küçük buluntu çalışmaları |  
+413 120 FIND p | 2024 yılı seramikleri | count | 1.970 adet |  
+414 120 FIND l | 2024 yılı seramikleri | was found in trench | E-15 |  
+415 120 FIND l | 2024 yılı seramikleri | was found in trench | E-16 |  
+416 120 FIND l | 2024 yılı seramikleri | was found in trench | J-15 |  
+417 120 FIND l | 2024 yılı seramikleri | was found in trench | J-17 |  
+418 120 FIND l | 2024 yılı seramikleri | was found in trench | J-18 |  
+419 120 FIND l | 2024 yılı seramikleri | was found in trench | J-K-18 |  
+420 120 FIND l | 2024 yılı seramikleri | was found in trench | K-16 |  
+421 120 FIND l | 2024 yılı seramikleri | was found in trench | K-17 |  
+422 120 FIND l | 2024 yılı seramikleri | was found in trench | K-18 |  
+423 120 FIND l | 2024 yılı seramikleri | was found in trench | K-L-15-16 |  
+424 120 FIND l | 2024 yılı seramikleri | was found in trench | L-17 Kuzey Batı Kesit |  
+425 120 FIND l | 2024 yılı seramikleri | was found in trench | L-18 |  
+426 120 FIND p | analizi yapılıp alınan seramik | count | 559 adet |  
+427 120 FIND p | atılan seramik | count | 1.411 adettir |  
+428 121 DATE l | 2024 yılında ele geçen seramikler | share dated to Roma Dönemi | %68 (çoğunluğu) |  
+429 121 DATE l | 2024 yılında ele geçen seramikler | share dated to Helenistik Dönem | %31 |  
+430 121 DATE l | 2024 yılında ele geçen seramikler | share dated to Bizans Dönemi | %1 (çok az sayıda) |  
+431 121 FIGURE p | 2024 yılı seramikleri | is shown in figure | Çizim: 3 |  
+432 121 FIND l | E-15 açması analizi yapılan seramik | count (bags) | 17 poşet |  
+433 121 DATE l | E-15 açması seramikleri | general density belongs to period | Roma Dönemi |  
+434 121 DATE l | E-15 açması seramikleri | share of Roma Dönemi | %77 |  
+435 121 FIND l | Mermer Seramikleri (E-15 açması) | kind | Mermer Seramikleri |  
+436 121 FIND l | Mermer Seramikleri (E-15 açması) | was found in | E-15 açması |  
+437 121 FIND l | pişirme kapları (E-15 açması) | kind | pişirme kapları |  
+438 121 FIND l | pişirme kapları (E-15 açması) | was found in | E-15 açması |  
+439 121 FIND l | tam firnisli tabaklar (E-15 açması) | kind | tam firnisli tabaklar |  
+440 121 FIND l | tam firnisli tabaklar (E-15 açması) | was found in | E-15 açması |  
+441 121 DATE l | tam firnisli tabaklar (E-15 açması) | is dated to period | Helenistik Dönem |  
+442 121 FIND l | kırmızı hamurlu tabaklar (E-15 açması) | kind | kırmızı hamurlu tabaklar |  
+443 121 FIND l | kırmızı hamurlu tabaklar (E-15 açması) | was found in | E-15 açması |  
+444 121 DATE l | kırmızı hamurlu tabaklar (E-15 açması) | is dated to period | Bizans Dönemi |  
+445 121 FIND l | E-16 açması analizi yapılan seramik | count (bags) | 11 poşet |  
+446 121 DATE l | E-16 açması seramikleri | general density belongs to period | Roma Dönemi |  
+447 121 DATE l | E-16 açması seramikleri | share of Roma Dönemi | %61 |  
+448 121 FIND l | tabaklar (E-16 açması) | kind | tabaklar |  
+449 121 FIND l | tabaklar (E-16 açması) | was found in | E-16 açması |  
+450 121 DATE l | tabaklar (E-16 açması) | is dated to period | Roma Dönemi |  
+451 121 FIND l | J-15 açması analizi yapılan seramik | count (bags) | 1 poşet |  
+452 121 DATE l | J-15 açması seramikleri | general density belongs to period | Helenistik Dönem |  
+453 121 DATE l | J-15 açması seramikleri | share of Helenistik Dönem | %50 |  
+454 121 FIND l | Tam Firnisli tabaklar (J-15 açması) | kind | Tam Firnisli tabaklar |  
+455 121 FIND l | Tam Firnisli tabaklar (J-15 açması) | was found in | J-15 açması |  
+456 121 FIND l | J-17 açması analizi yapılan seramik | count (bags) | 8 poşet |  
+457 121 DATE l | J-17 açması seramikleri | general density belongs to period | Roma Dönemi |  
+458 121 DATE l | J-17 açması seramikleri | share of Roma Dönemi | %85 |  
+459 121 FIND l | pişirme kapları (J-17 açması) | kind | pişirme kapları |  
+460 121 FIND l | pişirme kapları (J-17 açması) | was found in | J-17 açması |  
+461 121 FIND l | yerel tip kandiller (J-17 açması) | kind | yerel tip kandiller |  
+462 121 FIND l | yerel tip kandiller (J-17 açması) | was found in | J-17 açması |  
+463 121 DATE l | yerel tip kandiller (J-17 açması) | is dated to | MS 4.-6. yy. |  
+464 121 FIND l | J-18 açması analizi yapılan seramik | count (bags) | 5 poşet |  
+465 121 DATE l | J-18 açması seramikleri | general density belongs to period | Roma Dönemi |  
+466 121 DATE l | J-18 açması seramikleri | share of Roma Dönemi | %58 |  
+467 121 FIND l | günlük kullanım kapları (J-18 açması) | kind | günlük kullanım kapları |  
+468 121 FIND l | günlük kullanım kapları (J-18 açması) | was found in | J-18 açması |  
+469 121 DATE l | günlük kullanım kapları (J-18 açması) | is dated to period | Roma Dönemi |  
+470 121 FIND l | J-K-18 açması analizi yapılan seramik | count (bags) | 5 poşet |  
+471 121 DATE l | J-K-18 açması seramikleri | general density belongs to period | Roma Dönemi |  
+472 121 DATE l | J-K-18 açması seramikleri | share of Roma Dönemi | %62 |  
+473 121 FIND l | amphoralar (J-K-18 açması) | kind | amphoralar |  
+474 121 FIND l | amphoralar (J-K-18 açması) | was found in | J-K-18 açması |  
+475 121 DATE l | amphoralar (J-K-18 açması) | is dated to period | Roma Dönemi |  
+476 121 FIND l | mermer seramikleri (J-K-18 açması) | kind | mermer seramikleri |  
+477 121 FIND l | mermer seramikleri (J-K-18 açması) | was found in | J-K-18 açması |  
+478 121 DATE l | mermer seramikleri (J-K-18 açması) | is dated to period | Roma Dönemi |  
+479 121 DATE l | mermer seramikleri (J-K-18 açması) | is dated to | MS 3.-4. yy. |  
+480 121 FIND l | K-16 açması analizi yapılan seramik | count (bags) | 10 poşet |  
+481 121 DATE l | K-16 açması seramikleri | general density belongs to period | Roma Dönemi |  
+482 121 DATE l | K-16 açması seramikleri | share of Roma Dönemi | %61 |  
+483 121 DATE l | K-16 açması seramikleri | share of Helenistik Dönem | %39 |  
+484 121 FIND l | günlük kullanım kapları (K-16 açması) | kind | günlük kullanım kapları |  
+485 121 FIND l | günlük kullanım kapları (K-16 açması) | was found in | K-16 açması |  
+486 121 DATE l | günlük kullanım kapları (K-16 açması) | is dated to period | Roma Dönemi |  
+487 121 FIND l | Megara kaseleri (K-16 açması) | kind | Megara kaseleri |  
+488 121 FIND l | Megara kaseleri (K-16 açması) | was found in | K-16 açması |  
+489 121 DATE l | Megara kaseleri (K-16 açması) | is dated to period | Helenistik Dönem |  
+490 121 FIND l | gri siyah tabaklar (K-16 açması) | kind | gri siyah tabaklar |  
+491 121 FIND l | gri siyah tabaklar (K-16 açması) | was found in | K-16 açması |  
+492 121 DATE l | gri siyah tabaklar (K-16 açması) | is dated to period | Helenistik Dönem |  
+493 121 FIND l | tam firnisli tabaklar (K-16 açması) | kind | tam firnisli tabaklar |  
+494 121 FIND l | tam firnisli tabaklar (K-16 açması) | was found in | K-16 açması |  
+495 121 DATE l | tam firnisli tabaklar (K-16 açması) | is dated to period | Helenistik Dönem |  
+496 121 FIND l | K-17 açması analizi yapılan seramik | count (bags) | 8 poşet |  
+497 121 DATE l | K-17 açması seramikleri | general density belongs to period | Roma Dönemi |  
+498 121 DATE l | K-17 açması seramikleri | share of Roma Dönemi | %77 |  
+499 121 FIND l | Filistin Amphorası (K-17 açması) | kind | Filistin Amphorası |  
+500 121 FIND l | Filistin Amphorası (K-17 açması) | was found in | K-17 açması |  
+501 121 DATE l | Filistin Amphorası (K-17 açması) | is dated to period | Roma Dönemi |  
+502 121 DATE l | Filistin Amphorası (K-17 açması) | is dated to | MS 5.-6. yy. |  
+503 121 FIND l | Yerel Tip Kandiller (K-17 açması) | kind | Yerel Tip Kandiller |  
+504 121 FIND l | Yerel Tip Kandiller (K-17 açması) | was found in | K-17 açması |  
+505 121 DATE l | Yerel Tip Kandiller (K-17 açması) | is dated to period | Roma Dönemi |  
+506 121 DATE l | Yerel Tip Kandiller (K-17 açması) | is dated to | MS 3.-4. yy. |  
+507 121 FIND l | Günlük Kullanım Kapları (K-17 açması) | kind | Günlük Kullanım Kapları |  
+508 121 FIND l | Günlük Kullanım Kapları (K-17 açması) | was found in | K-17 açması |  
+509 121 DATE l | Günlük Kullanım Kapları (K-17 açması) | is dated to period | Roma Dönemi |  
+510 121 FIND l | K-18 açması analizi yapılan seramik | count (bags) | 6 poşet |  
+511 121 DATE l | K-18 açması seramikleri | general density belongs to period | Roma Dönemi |  
+512 121 DATE l | K-18 açması seramikleri | share of Roma Dönemi | %67 |  
+513 121 DATE l | K-18 açması seramikleri | share of Helenistik Dönem | %33 |  
+514 121 FIND l | yerel tip kandiller (K-18 açması) | kind | yerel tip kandiller |  
+515 121 FIND l | yerel tip kandiller (K-18 açması) | was found in | K-18 açması |  
+516 121 DATE l | yerel tip kandiller (K-18 açması) | is dated to period | Roma Dönemi |  
+517 121 DATE l | yerel tip kandiller (K-18 açması) | is dated to | MS 4.-6. yy. |  
+518 121 FIND l | Günlük Kullanım kapları (K-18 açması) | kind | Günlük Kullanım kapları |  
+519 121 FIND l | Günlük Kullanım kapları (K-18 açması) | was found in | K-18 açması |  
+520 121 DATE l | Günlük Kullanım kapları (K-18 açması) | is dated to period | Roma Dönemi |  
+521 121 FIND l | basit firnisli tabaklar (K-18 açması) | kind | basit firnisli tabaklar |  
+522 121 FIND l | basit firnisli tabaklar (K-18 açması) | was found in | K-18 açması |  
+523 121 DATE l | basit firnisli tabaklar (K-18 açması) | is dated to period | Helenistik Dönem |  
+524 121 FIND l | tam firnisli tabaklar (K-18 açması) | kind | tam firnisli tabaklar |  
+525 121 FIND l | tam firnisli tabaklar (K-18 açması) | was found in | K-18 açması |  
+526 121 DATE l | tam firnisli tabaklar (K-18 açması) | is dated to period | Helenistik Dönem |  
+527 121 FIND l | K-L-15-16 açması analizi yapılan seramik | count (bags) | 4 poşet |  
+528 121 DATE l | K-L-15-16 açması seramikleri | general density belongs to period | Roma Dönemi |  
+529 121 DATE l | K-L-15-16 açması seramikleri | share of Roma Dönemi | %74 |  
+530 121 FIND l | Yerel Tip Kandiller (K-L-15-16 açması) | kind | Yerel Tip Kandiller |  
+531 121 FIND l | Yerel Tip Kandiller (K-L-15-16 açması) | was found in | K-L-15-16 açması |  
+532 121 DATE l | Yerel Tip Kandiller (K-L-15-16 açması) | is dated to period | Roma Dönemi |  
+533 121 DATE l | Yerel Tip Kandiller (K-L-15-16 açması) | is dated to | MS 4.-6. yy. |  
+534 121 FIND l | Günlük Kullanım Kapları (K-L-15-16 açması) | kind | Günlük Kullanım Kapları |  
+535 121 FIND l | Günlük Kullanım Kapları (K-L-15-16 açması) | was found in | K-L-15-16 açması |  
+536 121 DATE l | Günlük Kullanım Kapları (K-L-15-16 açması) | is dated to period | Roma Dönemi |  
+537 122 FIND l | L-17 Kuzey Batı Kesit açması analizi yapılan seram | count (bags) | 2 poşet |  
+538 122 DATE l | L-17 Kuzey Batı Kesit açması seramikleri | general density belongs to period | Roma Dönemi |  
+539 122 DATE l | L-17 Kuzey Batı Kesit açması seramikleri | share of Roma Dönemi | %74 |  
+540 122 FIND l | pişirme kapları (L-17 Kuzey Batı Kesit açması) | kind | pişirme kapları |  
+541 122 FIND l | pişirme kapları (L-17 Kuzey Batı Kesit açması) | was found in | L-17 Kuzey Batı Kesit açması |  
+542 122 DATE l | pişirme kapları (L-17 Kuzey Batı Kesit açması) | is dated to period | Roma Dönemi |  
+543 122 FIND l | kandil kulbu (L-17 Kuzey Batı Kesit açması) | kind | kandil kulbu |  
+544 122 FIND l | kandil kulbu (L-17 Kuzey Batı Kesit açması) | was found in | L-17 Kuzey Batı Kesit açması |  
+545 122 DATE l | kandil kulbu (L-17 Kuzey Batı Kesit açması) | is dated to period | Roma Dönemi |  
+546 122 FIND l | mermer seramikleri (L-17 Kuzey Batı Kesit açması) | kind | mermer seramikleri |  
+547 122 FIND l | mermer seramikleri (L-17 Kuzey Batı Kesit açması) | was found in | L-17 Kuzey Batı Kesit açması |  
+548 122 DATE l | mermer seramikleri (L-17 Kuzey Batı Kesit açması) | is dated to period | Roma Dönemi |  
+549 122 FIND l | L-18 açması analizi yapılan seramik | count (bags) | 6 poşet |  
+550 122 DATE l | L-18 açması seramikleri | general density belongs to period | Roma Dönemi |  
+551 122 DATE l | L-18 açması seramikleri | share of Roma Dönemi | %63 |  
+552 122 DATE l | L-18 açması seramikleri | share of Helenistik Dönem | %35 |  
+553 122 FIND l | pişirme kapları (L-18 açması) | kind | pişirme kapları |  
+554 122 FIND l | pişirme kapları (L-18 açması) | was found in | L-18 açması |  
+555 122 DATE l | pişirme kapları (L-18 açması) | is dated to period | Roma Dönemi |  
+556 122 FIND l | tabaklar (L-18 açması) | kind | tabaklar |  
+557 122 FIND l | tabaklar (L-18 açması) | was found in | L-18 açması |  
+558 122 DATE l | tabaklar (L-18 açması) | is dated to period | Roma Dönemi |  
+559 122 FIND l | Megara kaseleri (L-18 açması) | kind | Megara kaseleri |  
+560 122 FIND l | Megara kaseleri (L-18 açması) | was found in | L-18 açması |  
+561 122 DATE l | Megara kaseleri (L-18 açması) | is dated to period | Helenistik Dönem |  
+562 122 FIND l | basit firnisli tabaklar (L-18 açması) | kind | basit firnisli tabaklar |  
+563 122 FIND l | basit firnisli tabaklar (L-18 açması) | was found in | L-18 açması |  
+564 122 DATE l | basit firnisli tabaklar (L-18 açması) | is dated to period | Helenistik Dönem |  
+565 122 STRUCT p | başlık | heading reads | RESTORASYON VE KONSERVASYON ÇALIŞMALARI |  
+566 122 PEOPLE p | Tuğçe Güçlü | role in the work | konservasyon çalışmaları |  
+567 122 PEOPLE p | Tuğçe Güçlü | title | Arkeolog/Restoratör |  
+568 122 LAB l | pişmiş toprak testi | count received for conservation | 1 adet |  
+569 122 FIND l | pişmiş toprak testi | is made of | pişmiş toprak |  
+570 122 LAB l | metal obje | count received for conservation | 1 adet |  
+571 122 FIND l | metal obje | kind | metal obje |  
+572 122 FIND l | metal obje | is made of | metal |  
+573 122 LAB l | altın küpe | count received for conservation | bir çift |  
+574 122 LAB l | bronz sikke | count received for conservation | 6 adet |  
+575 122 LAB p | eserler | conservation step | öncelikle kayıt altına alınmış |  
+576 122 LAB p | metal eserlerin temizliği | substance used | %50 oranında saf su ve alkol karışımı |  
+577 122 LAB p | metal eserlerin temizliği | aim of the substance | yüzeydeki korozyonun yumuşatılması |  
+578 122 LAB p | metal eserler | conservation step | mikroskop altında mekanik temizlik |  
+579 122 LAB l | metal eserlerin mekanik temizliği | tool used | bisturi |  
+580 122 LAB l | metal eserlerin mekanik temizliği | tool used | bambu çubuk |  
+581 122 LAB l | metal eserlerin mekanik temizliği | tool used | çeşitli fırçalar |  
+582 122 LAB l | metal eserlerin mekanik temizliği | tool used | dişçi motoru |  
+583 122 LAB p | metal eser ve sikkeler | substance applied | %3 oranında Paraloid B72 çözeltisi |  
+584 122 LAB p | Paraloid B72 çözeltisi uygulaması | aim | koruma ve stabilizasyon |  
+585 122 LAB p | eserler | conservation step | uygun koşullarda muhafaza edilmek üzere kaldırılmıştır |  
+586 122 FIGURE p | konservasyonu yapılan eserler | is shown in figure | Resim: 8 |  
+587 122 FIND p | pişmiş toprak testi | condition | yüzeyde kalker tabakası |  
+588 122 LAB p | pişmiş toprak testinin temizliği | substance used | %50 oranında saf su ve alkol karışımı |  
+589 122 LAB p | pişmiş toprak testi | conservation step | paketleme yöntemiyle karışım içinde bekletilmiş |  
+590 122 LAB p | pişmiş toprak testi | conservation step | yumuşayan kalker tabakası mekanik yöntemlerle temizlenmiştir |  
+591 122 LAB p | pişmiş toprak testinin temizliği | tool used | çeşitli bisturi uçları |  
+592 122 LAB p | pişmiş toprak testi | conservation step | uygun şekilde muhafaza edilmek üzere teslim edilmiştir |  
+593 122 FIGURE p | pişmiş toprak testi | is shown in figure | Resim: 9 |  
+594 122 STRUCT p | başlık | heading reads | ANTROPOLOJİ ÇALIŞMALARI |  
+595 122 PEOPLE p | Ruken Zeynep Köse | role in the work | antropoloji çalışmaları |  
+596 122 WORK p | Hipoje 2022-1 | was exposed in | önceki yıllarda |  
+597 122 LAB p | Hipoje 2022-1 iskelet kalıntıları | work done | detaylı bir şekilde belgelenmiştir |  
+598 122 WORK p | Hipoje 2023-1 | was exposed in | önceki yıllarda |  
+599 122 LAB p | Hipoje 2023-1 iskelet kalıntıları | work done | detaylı bir şekilde belgelenmiştir |  
+600 122 LAB l | 2024 yılında bulunan Hipojeler, Sanduka Mezar ve Ç | was examined for | cinsiyet |  
+601 122 LAB l | 2024 yılında bulunan Hipojeler, Sanduka Mezar ve Ç | was examined for | yaş tayini |  
+602 122 LAB l | 2024 yılında bulunan Hipojeler, Sanduka Mezar ve Ç | was examined for | hastalıklar |  
+603 122 LAB p | cinsiyet belirleme | bones examined first | cranium ve pelvis kemikleri |  
+604 122 LAB l | cinsiyet belirleme | criterion used | craniumda bulunan mastoid çıkıntıların yapısı |  
+605 122 LAB l | cinsiyet belirleme | criterion used | kaş kemerleri ve glabellanın belirginliği |  
+606 122 LAB l | cinsiyet belirleme | criterion used | orbitaların şekli |  
+607 122 LAB l | cinsiyet belirleme | criterion used | mandibula kemiklerinin özellikleri |  
+608 122 LAB l | cinsiyet belirleme | criterion used | uzun kemiklerdeki kas tutunma izleri |  
+609 122 LAB p | yaş tayini | method | yaş grupları için farklı teknik ve yöntem |  
+610 122 LAB l | bebek ve çocukların yaş tayini | criterion used | diş sürme süreci |  
+611 122 LAB l | bebek ve çocukların yaş tayini | criterion used | sağlam olan uzun kemiklerden ölçüm |  
+612 123 LAB l | genç erişkinlerin yaş tayini | criterion used | epifiz kaynaşması |  
+613 123 LAB l | genç erişkinlerin yaş tayini | criterion used | diş köklerinin kapanma dereceleri |  
+614 123 LAB l | erişkin bireylerin yaş tayini | criterion used | cranium sütural kapanma dereceleri |  
+615 123 LAB l | erişkin bireylerin yaş tayini | criterion used | symphysial yaşlandırma |  
+616 123 LAB l | erişkin bireylerin yaş tayini | criterion used | dental aşınma derecesi |  
+617 123 LAB l | erişkin bireylerin yaş tayini | criterion used | clavicula kemiğinin uçları |  
+618 123 LAB l | antropolojik sonuç | observed | farklı mezar tipleri |  
+619 123 LAB l | antropolojik sonuç | observed | gömü türleri |  
+620 123 LAB l | antropolojik sonuç | observed | mezar içindeki yatış pozisyonları |  
+621 123 LAB l | antropolojik sonuç | observed | ritüeller |  
+622 123 DESCR p | antropolojik bulgular | is judged | dönemin sosyo-kültürel yapısı ve inanç sistemleri hakkında önemli bilg |  
+623 123 FIND p | bazı mezarların içerisinde yer alan iskeletler | condition | fazlasıyla zarar görmüş (çevresel, fiziksel ve toprak yapısı ile alaka |  
+624 123 HISTORY p | Hisardere alanı | was used earlier for | tarım |  
+625 123 INTERP p | iskeletlerin zarar görmesi | most important cause is | Hisardere alanının önceki zamanlarda tarım amaçlı kullanılması |  
+626 123 LAB p | kemikler (özellikle vertebralar) | disease observed | Schormol nodülü |  
+627 123 LAB p | kemikler (özellikle vertebralar) | disease observed | osteoartrit |  
+628 123 INTERP p | Schormol nodülü, osteoartrit gibi hastalıklar | is interpreted as showing | bireylerin ağır ve fiziksel işlerde çalıştığı |  
+629 123 LAB p | dişler | observed | aşınmalar ve kırıklar |  
+630 123 INTERP p | dişlerdeki aşınmalar ve kırıklar | is interpreted as showing | dişlerin günlük yaşamda bir alet ya da “üçüncü el” gibi kullanıldığı |  
+631 123 DESCR p | dişlerin alet gibi kullanılması | is judged to inform on | bireylerin sosyo-ekonomik koşulları |  
+632 123 LAB p | dişler | observed | hipoplaziler |  
+633 123 INTERP p | dişlerde gözlemlenen hipoplaziler | is interpreted as showing | çocukluk döneminde besin yetersizliğinin ve stres düzeyinin yüksek old |  
+634 123 LAB p | iskeletler | disease observed | metabolik hastalıklar |  
+635 123 LAB p | iskeletler | disease observed | enfeksiyonel hastalıklar |  
+636 123 LAB p | metabolik hastalıklar | observed especially in | çocuklar |  
+637 123 INTERP p | çocuklarda izlenen metabolik hastalıklar | give a clue about | beslenme yetersizliği | ipucu sağlamaktadır 
+638 123 INTERP p | çocuklarda izlenen metabolik hastalıklar | give a clue about | anne sütü bakımından eksiklik | ipucu sağlamaktadır 
+639 123 INTERP p | çocuklarda izlenen metabolik hastalıklar | give a clue about | hijyen koşulları | ipucu sağlamaktadır 
+640 123 DESCR p | antropoloji sonuçları | is judged to inform on | popülasyonun sosyo-kültürel durumu, beslenme pratikleri ve yaşam tarzl |  
+641 123 STRUCT p | başlık | heading reads | SONUÇ |  
+642 123 DESCR p | İznik Hisardere Nekropolü 2024 yılı kazı çalışmala | is judged | bölgenin Roma Dönemi’ne ait mimari yapısı ve gömü pratikleriyle ilgili |  
+643 123 DESCR p | kazı çalışmaları | is judged | titizlikle yürütülmüştür |  
+644 123 ADMIN p | E-15 ve E-16 plankarelerindeki çalışmalar | was part of project | Geleceğe Miras Projesi |  
+645 123 BUILT l | Hipoje (2024 kazıları) | count | 7 adet |  
+646 123 BUILT l | Çatkı Mezar (2024 kazıları) | count | 10 adet |  
+647 123 BUILT l | Taş Sanduka Mezar (2024 kazıları) | count | 1 adet |  
+648 123 BUILT l | Tuğla Plaka Mezar (2024 kazıları) | count | 2 adet |  
+649 123 FIND p | envanterlik eser | count | 7 tanesi |  
+650 123 FIND p | etütlük eser | count | 6 tanesi |  
+651 123 INTERP p | Nekropol alanı | is interpreted as | yalnızca bir mezarlık değil, aynı zamanda sosyal ve dini bağlamlarla b |  
+652 123 BUILT l | nekropol | yielded | mozaik taban döşemeleri |  
+653 123 BUILT l | nekropol | yielded | duvar kalıntıları |  
+654 123 BUILT l | nekropol | yielded | farklı gömü türlerini temsil eden mezar yapıları |  
+655 123 INTERP p | Bazilika ile Nekropol alanındaki mezarlar arasında | is noticeable especially in | Hipoje mezarlar |  
+656 123 FIND p | mezar hediyeleri (Hipojeler) | was found in | Hipojeler (iskelet kalıntıları ile beraber) |  
+657 123 FIND p | mezar hediyeleri (Hipojeler) | kind | çeşitli mezar hediyeleri |  
+658 123 INTERP p | Hipoje mezarlar | is interpreted as | yalnızca bireysel definler için değil, aile ya da topluluk mezarları o |  
+659 123 INTERP p | bölge (Nekropol alanı) | use in Roma Dönemi | gömü alanı |  
+660 123 INTERP p | bölge (Nekropol alanı) | in Erken Bizans Dönemi had | dini yapılarla bütünleşmiş bir düzenleme |  
+661 124 INTERP p | Bazilika | is interpreted as | Mezarlık Kilisesi (ölülerle yaşayanlar arasında manevi bir köprü görev | olabileceğini göster 
+662 124 INTERP p | Bazilika | is interpreted as | ibadet mekânı |  
+663 124 DESCR p | Hisardere Nekropolü Kazıları | is judged | Roma Dönemi Nekropol alanlarının mekânsal düzeni, dini ve toplumsal ba |  
+664 124 DESCR p | çalışmalar sırasında elde edilen bulgular | is judged | Roma Dönemi ölü gömme ritüelleri ve mimari planlama konusunda yeni sor |  
+665 124 DESCR p | alan | is judged to need | korunması ve daha ileri teknolojiyle incelenmesi |  
+666 125 STRUCT p | başlık | heading reads | EKLER |  
+667 125 FIGURE p | Çizim 1 | caption reads | İznik Hisardere Nekropolü Kazı Alanı. |  
+668 125 FIGURE p | Çizim 2 | caption reads | Kesit üzerinde mezarlar arasındaki ilişki. |  
+669 126 FIGURE p | Çizim 3 | caption reads | 2024 yılı seramik buluntu örnekleri. |  
+670 127 FIGURE l | Resim 1 | caption reads | Terrakota Plaka Kapaklı Mezar-1. |  
+671 127 FIGURE l | Resim 2 | caption reads | E-15 Plankaresi’nde ortaya çıkarılan mezarlar. |  
+672 128 FIGURE l | Resim 3 | caption reads | K-16 Plankaresi’nde ortaya çıkarılan Çatkı Mezar-1. |  
+673 128 FIGURE l | Resim 4 | caption reads | K-16 Plankaresi’nde ortaya çıkarılan Hipoje-2. |  
+674 129 FIGURE l | Resim 5 | caption reads | K-16 Plankaresi’nde ortaya çıkarılan Hipoje-1. |  
+675 129 FIGURE l | Resim 6 | caption reads | J-17 Plankaresi Tuğla Zemin Döşemesi. |  
+676 130 FIGURE l | Resim 7 | caption reads | Nekropol alanına yapılan Geçici Koruma Çatısı. |  
+677 130 FIGURE l | Resim 8 | caption reads | Konservasyonu yapılan altın küpeler. |  
+678 131 FIGURE l | Resim 9 | caption reads | K16 Plankaresi Hipoje-2 içinden çıkarılan pişmiş toprak testi. |  
+679 131 FIGURE l | Resim 10 | caption reads | Kemikler üzerinde gözlemlenen hastalıklar. |  

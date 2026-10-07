@@ -1,0 +1,47 @@
+code,label_en,label_tr,inverse_label,module,property,domain,range,subject_via,object_via,value_kind,code_list,conclusion
+overlies,overlies,üstünde,underlies,excavation,AP11,A8,A8,,,entity,,0
+cuts,cuts,keser,is cut by,excavation,AP11,A8,A8,,,entity,,0
+fills,fills,doldurur,is filled by,excavation,AP11,A8,A8,,,entity,,0
+abuts,abuts,yaslanır,is abutted by,excavation,AP11,A8,A8,,,entity,,0
+bonds_with,bonds with,bağlanır,bonds with,excavation,AP11,A8,A8,,,entity,,0
+destroys,destroys,tahrip eder,is destroyed by,excavation,AP11,A8,A8,,,entity,,0
+seals,seals,örter,is sealed by,excavation,AP11,A8,A8,,,entity,,0
+same_unit_as,is the same unit as,ile aynı birim,is the same unit as,excavation,AP11,A8,A8,,,entity,,0
+earlier_than,formed earlier than,daha erken,formed later than,excavation,AP28,A8,A8,AP7i_was_produced_by / A4_Stratigraphic_Genesis{formation@},AP7i_was_produced_by / A4_Stratigraphic_Genesis{formation@},entity,,1
+contemporary_with,formed at the same time as,çağdaş,formed at the same time as,excavation,AP22,A8,A8,AP7i_was_produced_by / A4_Stratigraphic_Genesis{formation@},AP7i_was_produced_by / A4_Stratigraphic_Genesis{formation@},entity,,1
+contains_remains_of,is or contains remains of,kalıntısını içerir,has remains in,excavation,AP15,A2,S10,,,entity,,1
+removed,removed part or all of,kazdı,was removed by,excavation,AP5,A1,A8,,,entity,,0
+investigated,investigated,araştırdı,was investigated by,excavation,AP3,A9,E27,,,entity,,0
+formed,led to the formation of,oluşturdu,was formed through,excavation,O13,E5,A8,,AP7i_was_produced_by / A4_Stratigraphic_Genesis{formation@},entity,,0
+also_at,also took place at,ayrıca şurada,also witnessed,core,P7,E4,E53,,,entity,,0
+worked_on,took place on or within,üzerinde çalıştı,was worked on in,core,P8,E4,E18,,,entity,,0
+used,used,kullandı,was used for,core,P16,E7,E70,,,entity,,0
+had_purpose,was done for,amacıyla yapıldı,was purpose of,core,P20,E7,E5,,,entity,,0
+motivated_by,was motivated by,nedeniyle yapıldı,motivated,core,P17,E7,E1,,,entity,,0
+modified,modified,değiştirdi,was modified by,core,P31,E11,E18,,,entity,,0
+borders,borders with,komşu,borders with,core,P122,E53,E53,,,entity,,0
+keeper,is kept by,koruyan,keeps,core,P50,E18,E39,,,entity,,0
+carries,carries,taşır,is carried by,core,P128,E18,E90,,,entity,,0
+same_as,is the same as,ile aynı,is the same as,core,owl:sameAs,E1,E1,,,entity,,0
+observed,observed,inceledi,was observed by,science,O8,S4,S15,,,entity,,0
+measured,measured,ölçtü,was measured by,science,O24,S21,S15,,,entity,,0
+identified_as,is identified as,olarak tanımlanır,,claims,P2,E1,E55,,,code,thing_type,1
+taxon,is of the species,türü,,claims,P2,S10,E55,,,code,taxon,1
+function,had the function,işlevi,,claims,P101,E70,E55,,,code,function,1
+culture,belongs to the culture,kültürü,,claims,P2,E1,E55,,,code,culture,1
+material_is,consists of,malzemesi,,claims,P45,E18,E57,,,code,material,1
+condition,is in the condition,korunma durumu,,claims,P2,E18,E55,,,code,condition,1
+depicts_motif,depicts,betimler,,claims,P62,E24,E55,,,code,motif,1
+depicts,depicts,betimler,is depicted on,claims,P62,E24,E1,,,entity,,1
+similar_to,shows features of,benzer,shows features of,claims,P130,E70,E70,,,entity,,1
+made_by,was made by,yapan,made,claims,P14,E24,E39,P108i_was_produced_by / E12_Production{making@},,entity,,1
+belongs_to_phase,belongs to the phase,evresine ait,includes,claims,P10,E18,E4,P12i_was_present_at / E5_Event{existence@},,entity,,1
+interpreted_as,is interpreted as,olarak yorumlanır,,claims,P3,E1,E1,,,text,,1
+continued,continued,devam ettirdi,was continued by,core,P134,E7,E7,,,entity,,0
+member,has the member,üyesi,is member of,core,P107,E74,E39,,,entity,,0
+authored_by,was written by,yazarı,wrote,sources,P14,E73,E39,P94i_was_created_by / E65_Creation{creation@},,entity,,0
+edited_by,was edited by,editörü,edited,sources,P14,E73,E39,P94i_was_created_by / E65_Creation{creation@},,entity,,0
+published_by,was published by,yayıncısı,published,sources,P14,E73,E39,P94i_was_created_by / E65_Creation{creation@},,entity,,0
+published_at,was published at,yayın yeri,place of publication of,sources,P7,E73,E53,P94i_was_created_by / E65_Creation{creation@},,entity,,0
+lies_in,lies in or on,içinde / üzerinde,holds,excavation,P53,E18,E18,,P156_occupies / E53_Place{extent@},entity,,0
+counted_with,is also counted in,ayrıca şunda sayıldı,also counts,core,P46i,E18,E18,,,entity,,0

@@ -1,0 +1,11 @@
+# CQ8  Which named places does the report use, and how do they nest?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?place ?type ?within WHERE {
+  ?p a crm:E53_Place ; rdfs:label ?place ; crm:P2_has_type/rdfs:label ?type .
+  OPTIONAL { ?p crm:P89_falls_within/rdfs:label ?within }
+} ORDER BY ?within ?place

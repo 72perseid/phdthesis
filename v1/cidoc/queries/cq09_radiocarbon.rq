@@ -1,0 +1,14 @@
+# CQ9  Which contexts are dated by radiocarbon, on which samples, with what result?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?context ?code ?from ?to (GROUP_CONCAT(DISTINCT ?s; separator="; ") AS ?samples) ?page WHERE {
+  ?obs a crmsci:S4_Single_Observation ; crmsci:O8_observed/rdfs:label ?s ; crmsci:O16_observed_value ?ts .
+  ?ts kst:beginYear ?from ; kst:endYear ?to .
+  ?use crm:P4_has_time_span ?ts ; crm:P12_occurred_in_the_presence_of ?c . ?c rdfs:label ?context .
+  OPTIONAL { ?c crm:P1_is_identified_by/rdfs:label ?code }
+  OPTIONAL { ?obs kst:sourcePage ?page }
+} GROUP BY ?context ?code ?from ?to ?page ORDER BY ?from

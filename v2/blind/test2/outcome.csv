@@ -1,0 +1,564 @@
+﻿n;page;group;core;subject;says;value;hedge;negative;outcome;where;note
+1;279;STRUCT;no;sayfa üst başlığı;page header reads;45. KAZI SONUÇLARI TOPLANTISI BİLDİRİLERİ/ CİLT 1;;;F;;Structure of the printed document. The database has no place for it.
+2;279;DOC;yes;bildiri;has title;ANTALYA İLİ ELMALI İLÇESİ HACIMUSALAR HÖYÜK KAZISI 2024 YILI ÇALIŞMALARI;;;A;entity.label;
+3;279;DOC;yes;bildiri;has author;Bülent ARIKAN;;;A;relation authored_by;
+4;279;PLACE;yes;Hacımusalar Höyük;is located in (il);Antalya;;;A;place.part_of;Stored as: Elmalı lies in Antalya.
+5;279;PLACE;yes;Hacımusalar Höyük;is located in (ilçe);Elmalı;;;A;thing.location;
+6;279;STRUCT;no;başlık;heading reads;1. GİRİŞ;;;F;;Structure of the printed document. The database has no place for it.
+7;279;ADMIN;no;arkeolojik araştırmalar;carried out on behalf of;T.C. Kültür ve Turizm Bakanlığı (KTB);;;C;participation;own code in the list role
+8;279;ADMIN;no;arkeolojik araştırmalar;carried out on behalf of;T.C. İstanbul Teknik Üniversitesi (İTÜ);;;C;participation;own code in the list role
+9;279;ADMIN;no;arkeolojik araştırmalar;permitted by;Cumhurbaşkanlığı Kararnamesi;;;B;relation motivated_by;'Permitted by' is stored as 'was motivated by'.
+10;279;ADMIN;no;Cumhurbaşkanlığı Kararnamesi;has date;07.07.2022;;;B;source.year;Years are whole numbers. Day and month are lost.
+11;279;ADMIN;no;Cumhurbaşkanlığı Kararnamesi;has number;5777;;;A;identifier;
+12;279;WORK;yes;arkeolojik araştırmalar;took place at;Hacımusalar Höyük;;;A;relation investigated;
+13;279;PEOPLE;yes;Bülent ARIKAN;role in the work;başkan (başkanlığımda);;;C;participation;own code in the list role
+14;279;WORK;yes;arkeolojik araştırmalar (2024);took place between;01.07–27.09.2024;;;B;"activity.begin; activity.end";Years are whole numbers. Day and month are lost.
+15;279;WORK;yes;kazı sezonu;duration;üç ay;;;C;dimension;own code in the list unit
+16;279;PEOPLE;yes;Selda Baybo;role in the work;kazı başkanı yardımcısı;;;C;participation;own code in the list role
+17;279;PEOPLE;yes;Selda Baybo;title;Dr. Öğr. Üy.;;;D;own attribute 'unvan';No column, relation or declared attribute for it.
+18;279;PEOPLE;yes;Selda Baybo;affiliation;Çanakkale On Sekiz Mart Üniversitesi;;;A;actor.member_of;
+19;279;PEOPLE;yes;Ergin Tatar;role in the work;kazı başkanı yardımcısı;;;C;participation;own code in the list role
+20;279;PEOPLE;yes;Ergin Tatar;affiliation;Ege Üniversitesi;;;A;actor.member_of;
+21;279;PEOPLE;yes;Fatih Mehmet Çongur;role in the work;kazı başkanı yardımcısı;;;C;participation;own code in the list role
+22;279;PEOPLE;yes;Fatih Mehmet Çongur;affiliation;İstanbul Üniversitesi;;;A;actor.member_of;
+23;279;PEOPLE;yes;Onur Kaya;role in the work;kazı başkanı yardımcısı;;;C;participation;own code in the list role
+24;279;PEOPLE;yes;Onur Kaya;affiliation;İstanbul Üniversitesi;;;A;actor.member_of;
+25;279;ADMIN;no;Selma Akgül;role in the work;Kültür ve Turizm Bakanlığı temsilcisi;;;C;participation;own code in the list role
+26;279;ADMIN;no;Selma Akgül;office;Erzurum Müzesi uzmanı;;;D;own attribute 'görev';No column, relation or declared attribute for it.
+27;279;PEOPLE;yes;2024 sezonu çalışmalarına katılanlar;count;toplam 41 kişi;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+28;279;PEOPLE;yes;katılanlar: lisans öğrencisi;count;22;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+29;279;PEOPLE;yes;katılanlar: lisansüstü öğrencisi;count;6;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+30;279;PEOPLE;yes;katılanlar: öğretim üyesi;count;4;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+31;279;PEOPLE;yes;katılanlar: uzman;count;9;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+32;279;PEOPLE;yes;uzmanlar;profession;arkeolog;;;C;participation;own code in the list role
+33;279;PEOPLE;yes;uzmanlar;profession;jeofizik mühendisi;;;C;participation;own code in the list role
+34;279;STRUCT;no;bildiri;summarises the work under headings;aşağıdaki başlıklar altında;;;F;;Structure of the printed document. The database has no place for it.
+35;279;STRUCT;no;başlık;heading reads;2-KARELAJ ÇALIŞMASI:;;;F;;Structure of the printed document. The database has no place for it.
+36;279;WORK;yes;karelaj;was prepared in (year);1993;;;A;activity.begin;
+37;279;WORK;yes;karelaj;was prepared by;Sabri Aydal;;;A;participation;
+38;279;ADMIN;no;Sabri Aydal;office;Antalya Müzesi uzmanı;;;D;own attribute 'görev';No column, relation or declared attribute for it.
+39;279;WORK;yes;karelaj (1993);has digital version;dijital hali;;yes;E;entity.remark;Free text. No structure fits.
+40;279;WORK;yes;Höyüğün karelajı;was digitised;dijital hale getirilmiştir;;;E;entity.remark;Free text. No structure fits.
+41;279;WORK;yes;karelajın dijitalleştirilmesi;method;1993 yılındaki plana sadık kalınarak;;;E;entity.remark;Free text. No structure fits.
+42;279;WORK;yes;açma kodları;result of digitising;birlik sağlanmıştır;;;E;entity.remark;Free text. No structure fits.
+43;279;PLACE;yes;1993 yılında ölçülen kotlar ile modern ölçümler;difference between;yaklaşık 30 metre;yaklaşık;;E;entity.remark;Free text. No structure fits.
+44;279;WORK;yes;1993 kotları;continue to be used;kullanılmaya devam edilmektedir;;;E;entity.remark;Free text. No structure fits.
+45;279;WORK;yes;1993 kotlarının kullanımı;reason;önceki kazı sezonlarının verisiyle uyumu sağlamak;;;E;entity.remark;Free text. No structure fits.
+46;279;STRUCT;no;başlık;heading reads;3-JEOFİZİK ETÜTLERİ:;;;F;;Structure of the printed document. The database has no place for it.
+47;279;WORK;yes;başkanlığım altında yürütülen kazılar;first season (year);2022;;;A;activity.begin;
+48;279;WORK;yes;yer radarı çalışmaları;took place at;Höyüğün üst düzlüğü;;;A;activity.place;
+49;279;WORK;yes;yer radarı çalışmaları;carried out since;2022;;;A;activity.begin;
+50;279;PEOPLE;yes;yer radarı çalışmaları;carried out by;İTÜ Jeofizik Mühendisliği Bölümü öğretim üyeleri;;;A;participation;
+51;279;PEOPLE;yes;yer radarı çalışmaları;carried out by;İTÜ Jeofizik Mühendisliği Bölümü öğrencileri;;;A;participation;
+52;279;WORK;yes;yer radarı çalışması (2022 sezonu);area scanned;Merkezi Kilise ile Kuzey Yamaç açmaları arası;;;B;relation also_at;An entity that holds only a name, with no kind from a list.
+53;279;WORK;yes;yer radarı çalışması (2023 sezonu);area scanned;Merkezi Kilise ile Batı Kilise arası;;;B;relation also_at;An entity that holds only a name, with no kind from a list.
+54;279;INTERP;yes;Merkezi Kilise;was used as;Manastır;;;C;"claim, belief true; assertion function";own code in the list function
+55;279;BUILT;yes;Manastır'a ait binaların kalıntıları;lie (direction from Merkezi Kilise);kuzey;;;E;entity.remark;Free text. No structure fits.
+56;279;BUILT;yes;Manastır'a ait binaların kalıntıları;lie (direction from Merkezi Kilise);batı;;;E;entity.remark;Free text. No structure fits.
+57;279;MEASURE;yes;Manastır'a ait binaların kalıntıları;depth below surface (top);yaklaşık bir metre;yaklaşık;;B;dimension, approx;'Top lies at' and 'extends to' are not told apart.
+58;279;MEASURE;yes;Manastır'a ait binaların kalıntıları;extend to depth;1,5 metre;;;B;dimension;'Top lies at' and 'extends to' are not told apart.
+59;279;FIGURE;yes;Manastır'a ait binaların kalıntıları;is shown in figure;Resim: 1;;;A;about;
+60;279;PEOPLE;yes;Bülent ARIKAN;title;Prof. Dr.;;;D;own attribute 'unvan';No column, relation or declared attribute for it.
+61;279;PEOPLE;yes;Bülent ARIKAN;affiliation (university);İstanbul Teknik Üniversitesi;;;A;actor.member_of;
+62;279;PEOPLE;yes;Bülent ARIKAN;affiliation (institute);Avrasya Yer Bilimleri Enstitüsü;;;A;actor.member_of;
+63;279;PEOPLE;yes;Bülent ARIKAN;affiliation (department);Evrim ve Ekosistem ABD;;;A;actor.member_of;
+64;279;PEOPLE;yes;Bülent ARIKAN;address;Maslak, Sarıyer-İstanbul/TÜRKİYE;;;D;own attribute 'adres';No column, relation or declared attribute for it.
+65;279;PEOPLE;yes;Bülent ARIKAN;identifier (ORCID);0000-0003-2734-843X;;;A;identifier;
+66;280;STRUCT;no;sayfa üst başlığı;page header reads;KÜLTÜR VARLIKLARI VE MÜZELER GENEL MÜDÜRLÜĞÜ;;;F;;Structure of the printed document. The database has no place for it.
+67;280;WORK;yes;yer radarı çalışması (2024 sezonu);area scanned;Merkezi Kilise’nin güneyi;;;B;relation also_at;An entity that holds only a name, with no kind from a list.
+68;280;WORK;yes;yer radarı çalışması (2024 sezonu);was announced in;2024 sezonu çalışma programı;;;E;entity.remark;Free text. No structure fits.
+69;280;DATE;yes;Merkezi Kilise;in use from;Erken Bizans;;;B;"claim, belief true; dating, event use";'From' and 'until' are lost. Both periods are stored alike.
+70;280;DATE;yes;Merkezi Kilise;in use until;Orta Bizans Dönemi sonu;;;B;"claim, belief true; dating, event use";'From' and 'until' are lost. Both periods are stored alike.
+71;280;WORK;yes;manastır yapısının çevresi;was scanned with yer radarı;neredeyse tamamen taranmıştır;neredeyse;;A;"claim, belief probable; relation worked_on";
+72;280;WORK;yes;arazide yapılan ön çalışmalar;were carried out;arazide;;;E;entity.remark;Free text. No structure fits.
+73;280;BUILT;yes;Resim 1’de görülen yapılar;continue toward;batı;;;E;entity.remark;Free text. No structure fits.
+74;280;BUILT;yes;Resim 1’de görülen yapılar;continue toward;güney;;;E;entity.remark;Free text. No structure fits.
+75;280;FIGURE;yes;yapılar;is shown in figure;Resim 1;;;A;about;
+76;280;INTERP;yes;Manastır çevresindeki birçok mekân;is interpreted as;Manastır’a hizmet veren mekânlar;anlaşılmaktadır;;A;"claim, belief probable; assertion interpreted_as";
+77;280;WORK;yes;yer radarı çalışmaları (2024 sezonu);area scanned;Höyük düzlüğünün neredeyse tamamı;neredeyse;;B;"claim, belief probable; relation also_at";An entity that holds only a name, with no kind from a list.
+78;280;WORK;yes;yer radarı yöntemi;gives sound results on sloped areas;eğimli alanlarda sağlıklı sonuç;;yes;E;entity.remark;Free text. No structure fits.
+79;280;WORK;yes;yer radarı;depth of effect;yüzeyin sadece birkaç metre altı;;;E;entity.remark;Free text. No structure fits.
+80;280;WORK;yes;farklı bir yöntem;came up for use;gündeme gelmiştir;;;E;entity.remark;Free text. No structure fits.
+81;280;WORK;yes;kazılar;carried on since;1994;;;A;activity.begin;
+82;280;MEASURE;yes;kültür dolgusu;thickness;yaklaşık 12 metre;yaklaşık;;A;dimension, approx;
+83;280;WORK;yes;ERT çalışması;method;Elektrik Rezistivite (Özdirenç) Tomografi (ERT);;;C;activity.type;own code in the list activity_type
+84;280;WORK;yes;ERT çalışması;aim;kültür dolgusunun kalınlığını tespit etmek;;;E;entity.remark;Free text. No structure fits.
+85;280;WORK;yes;ERT çalışması;aim;kültürel-jeolojik tabaka ayrımlarını tespit etmek;;;E;entity.remark;Free text. No structure fits.
+86;280;WORK;yes;ERT çalışması;aim;Höyüğün tabanındaki jeolojik yapıyı açığa çıkarmak;;;E;entity.remark;Free text. No structure fits.
+87;280;ADMIN;no;ERT çalışması;was paid from;KTB ödeneği;;;E;entity.remark;Free text. No structure fits.
+88;280;ADMIN;no;ERT çalışması;was obtained by;hizmet alımı;;;E;entity.remark;Free text. No structure fits.
+89;280;WORK;yes;ERT profilleri (hat);count;10;;;D;own attribute 'hat sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+90;280;WORK;yes;ERT profilleri (hat);position;Höyüğün tamamını farklı yönlerden kesen;;;E;entity.remark;Free text. No structure fits.
+91;280;FIGURE;yes;ERT profilleri;is shown in figure;Resim: 2;;;A;about;
+92;280;MEASURE;yes;ERT hatları;length (range);yaklaşık 10 metre ile 240 metre arasında;yaklaşık;;D;"claim, belief probable; own attribute 'hat uzunluğu'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+93;280;WORK;yes;elektrodlar;spacing;birer metre arayla;;;C;dimension;own code in the list dimension_kind
+94;280;WORK;yes;ERT çalışması;is based on;elektrodlardan verilip alınan elektrik akımı sonuçları;;;E;entity.remark;Free text. No structure fits.
+95;280;WORK;yes;ERT çalışması;reached its aims;amaçlanan tüm hedeflere ulaşılmıştır;;;E;entity.remark;Free text. No structure fits.
+96;280;FIGURE;yes;ERT çalışmasının sonuçları;is shown in figure;Resim: 3;;;A;about;
+97;280;PLACE;yes;Hacımusalar Höyük yukarı düzlüğü;elevation (rakım);yaklaşık 1081 m;yaklaşık;;D;"claim, belief probable; own attribute 'kot'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+98;280;WORK;yes;ERT kesiti;depth scanned and mapped;40 metrelik bir kesit;;;A;dimension;
+99;280;BUILT;yes;birinci profildeki stratigrafik birimler;count;toplam yedi;;;A;dimension;
+100;280;BUILT;yes;elektriğe yüksek dirençli (arkeolojik) katmanlar;extend to depth;Höyük yüzeyinden itibaren 6 metre;;;A;dimension;
+101;280;INTERP;yes;elektriğe orta direnç gösteren katmanlar;is interpreted as;arkeolojik veya jeolojik (kil, ıslak kil, vb.);olabileceği;;A;"claim, belief probable; assertion interpreted_as";
+102;280;BUILT;yes;elektriğe orta direnç gösteren katmanlar;lies below;yüksek dirençli (arkeolojik) tabaka;;;A;relation overlies;
+103;280;BUILT;yes;elektriğe çok düşük direnç gösteren jeolojik katmanlar (su, kil);begin at depth;yüzeyden 15 metre derinlikten itibaren;;;B;dimension;'Begins at' is lost.
+104;280;BUILT;yes;Höyüğün Ova tabanı ile buluştuğu alanlar;contain arkeolojik katman;arkeolojik katman;;yes;E;entity.remark;Free text. No structure fits.
+105;280;MEASURE;yes;arkeolojik katmanlar;reach depth;yaklaşık olarak 11 metre;yaklaşık olarak;;A;dimension, approx;
+106;280;BUILT;yes;arkeolojik katmanların ilk altı metresi;resistance to electricity;çok yüksek direnç;;;D;own attribute 'elektrik direnci';No column, relation or declared attribute for it.
+107;280;INTERP;yes;0-6 metre aralığındaki arkeolojik katmanlar;is made of;taş gibi malzemeler;beklenmektedir;;C;"claim, belief probable; assertion material_is";own code in the list material
+108;280;INTERP;yes;6-12 metre arasındaki katmanlar;nature determined;niteliği;;yes;E;entity.remark;Free text. No structure fits.
+109;280;INTERP;yes;6-12 metre arasındaki katmanlar;is interpreted as;arkeolojik (kerpiç, vb.) ve jeolojik (ıslak kil, vb.) olguların birlikte bulunduğu seviyeler;olabileceği değerlendirilmektedir;;A;"claim, belief probable; assertion interpreted_as";
+110;280;INTERP;yes;yüzeyden 12 metre derinlikten sonraki katmanlar;contain arkeolojik katman;arkeolojik katmanlar;düşünülmektedir;yes;B;"claim, belief probable; assertion interpreted_as";A statement that is both denied and hedged. The belief can hold one of the two. The denial is only in the text.
+111;281;INTERP;yes;sağlam ele geçirilebilecek arkeolojik katmanlar;depth below surface;8-9 metre;olabileceği;;A;"claim, belief probable; assertion interpreted_as";
+112;281;INTERP;yes;8-9 metreden sonra bulunacak arkeolojik katmanların korunması;is judged as;sorunlu;sorunlu olabileceği;;A;"claim, belief probable; assertion interpreted_as";
+113;281;INTERP;yes;yüzeyin 12 metre altından itibaren;contains only;su kaynağı ve bununla ilişkili jeolojik katmanlar;bulunabileceği;;A;"claim, belief probable; assertion interpreted_as";
+114;281;DATE;yes;Hacımusalar Höyüğün ilk yerleşildiği dönem;is dated to (period);Geç Kalkolitik Dönem;şu andaki bulgulara dayanarak;;B;"claim, belief probable; dating, event existence";'First settled' is stored as 'existed in'.
+115;281;DATE;yes;Geç Kalkolitik Dönem;is dated to (year);y. MÖ 3500;y.;;A;period.start_earliest, period.approx;
+116;281;INTERP;yes;ilk yerleşimde konum tercihi;is interpreted as;su kaynağı yakınında olma isteği;dayandırılabileceğini;;A;"claim, belief probable; assertion interpreted_as";
+117;281;WORK;yes;paleo-coğrafya çalışmaları;planned for;önümüzdeki yıllar;;;E;entity.remark;Free text. No structure fits.
+118;281;WORK;yes;paleo-coğrafya çalışmaları;planned area;Elmalı Ovası geneli;;;A;about;
+119;281;WORK;yes;paleo-coğrafya çalışmaları;expected result;Höyüğün iskân gördüğü dönemlerde su tablasının ne kadar yüksek olduğu;açıklığa kavuşacaktır;;E;entity.remark;Free text. No structure fits.
+120;281;WORK;yes;paleo-coğrafya çalışmaları;expected result;göllerin arkeolojik dönemlerde Höyük ile olan ilişkileri;açıklığa kavuşacaktır;;E;entity.remark;Free text. No structure fits.
+121;281;PLACE;yes;göller;is located;Höyük civarında;;;E;entity.remark;Free text. No structure fits.
+122;281;HISTORY;no;göller;were drained in;1970’ler;;;E;entity.remark;Free text. No structure fits.
+123;281;FIGURE;yes;birinci ERT hattı;is shown in figure;Resim 3b;;;A;about;
+124;281;BUILT;yes;1 No.lu katman;position on birinci ERT hattı;20. ve 40. metreleri arasında;;;E;entity.remark;Free text. No structure fits.
+125;281;BUILT;yes;1 No.lu katman;resistance to electricity;çok yüksek direnç;;;D;own attribute 'elektrik direnci';No column, relation or declared attribute for it.
+126;281;WORK;yes;sondajlar;took place at;Güney Yamaç;;;A;activity.place;
+127;281;WORK;yes;sondajlar (Güney Yamaç);took place in;önceki kazı dönemleri;;;E;entity.remark;Free text. No structure fits.
+128;281;BUILT;yes;duvarlar (Güney Yamaç);position;birinci ERT hattının hemen batısında ve doğusunda;;;E;entity.remark;Free text. No structure fits.
+129;281;BUILT;yes;duvarlar (Güney Yamaç);is made of;kireçtaşı;;;A;thing.material;
+130;281;BUILT;yes;duvarlar (Güney Yamaç);workmanship;poligonal şekilde işlenerek yüzeyi düzeltilmiş;;;D;own attribute 'işçilik';No column, relation or declared attribute for it.
+131;281;DATE;yes;duvarlar (Güney Yamaç);is dated to;Helenistik/Roma dönemleri;ait olabilecek;;B;"claim, belief probable; dating, event making";Several periods in one name. Stored as one period.
+132;281;BUILT;yes;duvar blokları (Güney Yamaç);shape;dikdörtgen prizma;;;D;own attribute 'biçim';No column, relation or declared attribute for it.
+133;281;WORK;yes;Güney Yamaç’taki açma (2023 sezonu);exposed;duvarın bir kısmı daha;;;B;relation worked_on;'A further part of the wall' is lost.
+134;281;BUILT;yes;savunma sistemi;position;Höyüğün güney yamacını doğudan batıya çevreleyen;;;E;entity.remark;Free text. No structure fits.
+135;281;DATE;yes;savunma sistemi;is dated to;Helenistik/Roma dönemleri;tarihlenebilecek;;B;"claim, belief probable; dating, event making";Several periods in one name. Stored as one period.
+136;281;DATE;yes;savunma sistemi;dating is based on;yapı üslubu;;;C;claim.method;own code in the list reasoning_method
+137;281;MEASURE;yes;savunma sistemi;extends north from güney yamaç (length);20 metre daha;;;B;dimension;'Further to the north' is lost.
+138;281;PLACE;yes;savunma sisteminin uzandığı alan;is;Höyüğün en düşük kotta olduğu nokta;;;E;entity.remark;Free text. No structure fits.
+139;281;PLACE;yes;savunma sisteminin uzandığı alan;is;yaya olarak Höyüğün yukarı düzlüğüne rahatça ulaşılabilecek nokta;;;E;entity.remark;Free text. No structure fits.
+140;281;PLACE;yes;Höyüğün üstüne çıkmak için kullanılan yol;is located in;bu alan (güney yamaç);;;E;entity.remark;Free text. No structure fits.
+141;281;PLACE;yes;Höyüğün güney kısmı;topography;yükselen bir topografya;;;E;entity.remark;Free text. No structure fits.
+142;281;INTERP;yes;Hacımusalar Höyüğün güney yamacındaki yapı;is interpreted as;giriş alanı veya anıtsal kapı yapısı;bulunabileceğini düşündürmektedir;;A;"claim, belief probable; assertion interpreted_as";
+143;281;MEASURE;yes;giriş alanı veya anıtsal kapı yapısı;measures (length);yaklaşık 20 metre;yaklaşık;;A;dimension, approx;
+144;281;INTERP;yes;giriş alanı veya anıtsal kapı yapısı;is made of;taş malzeme;olasılıkla;;C;"claim, belief probable; assertion material_is";own code in the list material
+145;281;INTERP;yes;giriş alanı / anıtsal kapı yorumu;is based on;Höyük topografyası, Helenistik/Roma Dönemi savunma sistemi ve ERT verisi;;;E;entity.remark;Free text. No structure fits.
+146;281;WORK;yes;çift yöntemli jeofizik;methods;yer radarı ve yer manyetik ölçümleri;;;C;activity.type;own code in the list activity_type
+147;281;ADMIN;no;çift yöntemli jeofizik;was obtained by;hizmet alımı;;;E;entity.remark;Free text. No structure fits.
+148;281;WORK;yes;çift yöntemli jeofizik;took place after;ERT çalışması;;;D;relation with the raw property P183;No declared relation. A property was taken from the ontology.
+149;281;WORK;yes;çift yöntemli jeofizik;area;güney yamacın batısındaki yükseltinin ardı, Höyük yukarı düzlüğüne doğru inildiği nokta;;;B;relation also_at;An entity that holds only a name, with no kind from a list.
+150;281;WORK;yes;çift yöntemli jeofizik;aim;herhangi bir yapı bulunup bulunmadığına ilişkin soruları cevaplandırmak;;;E;entity.remark;Free text. No structure fits.
+151;281;INTERP;yes;taranan alan;position;anıtsal girişin ardında;olasılıkla;;E;entity.remark;Free text. No structure fits.
+152;281;MEASURE;yes;taranan alan;area (unclear: text reads 'yaklaşım 2000 m2');2000 m2;;;D;own attribute 'alan';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+153;281;PLACE;yes;taranan alan;topography;eğimli;;;E;entity.remark;Free text. No structure fits.
+154;281;WORK;yes;iki yöntemin birlikte kullanılması;reason;farklı yapı malzemelerinin tanınabilmesi;;;E;entity.remark;Free text. No structure fits.
+155;281;BUILT;yes;arkeolojik yapı kalıntıları (taranan alan);begin at depth;yüzeyin 0.5 metre altından itibaren;;;B;dimension;'Begins at' is lost.
+156;281;BUILT;yes;arkeolojik yapı kalıntıları (taranan alan);give a plan;plan veren;;;E;entity.remark;Free text. No structure fits.
+157;281;INTERP;yes;yapılardan bazıları (taranan alan);is interpreted as;fırın veya ocak gibi yoğun ateş kullanımı gösteren mekanlar;olabileceği değerlendirilmiştir;;A;"claim, belief probable; assertion interpreted_as";
+158;281;INTERP;yes;fırın veya ocak yorumu;is based on;yer manyetik yöntem sonuçları;;;E;entity.remark;Free text. No structure fits.
+159;282;STRUCT;no;başlık;heading reads;4- ARKEOLOJİK KAZILAR:;;;F;;Structure of the printed document. The database has no place for it.
+160;282;WORK;yes;arkeolojik kazı çalışmaları (2024);took place at;Kuzey Yamaç alanı;;;A;activity.place;
+161;282;WORK;yes;Kuzey Yamaç kazısı;took place between;16.07.2024–26.08.2024;;;B;"activity.begin; activity.end";Years are whole numbers. Day and month are lost.
+162;282;PEOPLE;yes;Kuzey Yamaç kazısı: arkeolog;count;beş;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+163;282;PEOPLE;yes;Kuzey Yamaç kazısı: öğrenciler;took part;öğrenciler;;;A;participation;
+164;282;ADMIN;no;Kuzey Yamaç kazısı: işçi;count;iki;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+165;282;ADMIN;no;Kuzey Yamaç kazısı: işçiler;employed under;TYP;;;E;entity.remark;Free text. No structure fits.
+166;282;MEASURE;yes;Merkezi Kilise 1. Etap kazı alanı;area;333 m2;;;D;own attribute 'alan';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+167;282;WORK;yes;Merkezi Kilise 1. Etap kazısı;hafriyat removed;120 m3;;;A;dimension;
+168;282;ADMIN;no;Merkezi Kilise 1. Etap kazısı;carried out under;GMP;;;E;entity.remark;Free text. No structure fits.
+169;282;PEOPLE;yes;Merkezi Kilise 1. Etap kazısı: arkeolog;count;iki;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+170;282;PEOPLE;yes;Merkezi Kilise 1. Etap kazısı: mimar;count;bir;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+171;282;ADMIN;no;Merkezi Kilise 1. Etap kazısı: işçi;count;altı;;;D;own attribute 'kişi sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+172;282;WORK;yes;Merkezi Kilise 1. Etap kazısı;took place between;29.08.2024–27.09.2024;;;B;"activity.begin; activity.end";Years are whole numbers. Day and month are lost.
+173;282;STRUCT;no;başlık;heading reads;4.1 KUZEY YAMAÇ;;;F;;Structure of the printed document. The database has no place for it.
+174;282;PLACE;yes;P2 noktası;is located in;Kuzey Yamaç alanı;;;A;place.part_of;
+175;282;PLACE;yes;P2 noktası (Höyük yüzeyi);elevation (kot);1055.37 m;;;D;own attribute 'kot';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+176;282;BUILT;yes;Demir Çağı sur duvarı;is located in;C4a8 açması;;;A;thing.location;
+177;282;BUILT;yes;Demir Çağı sur duvarı;is made of;kerpiç;;;A;thing.material;
+178;282;BUILT;yes;Demir Çağı sur duvarı;foundation is made of;taş;;;C;"thing.material; thing.type";own code in the list thing_type
+179;282;DATE;yes;sur duvarı;is dated to;Demir Çağı;;;A;"claim, belief true; dating, event making";
+180;282;WORK;yes;Demir Çağı sur duvarı;was removed along;beş metrelik bir hat;;;B;relation removed;'Along a line of five metres' is lost. A relation cannot carry a measurement.
+181;282;WORK;yes;C4a8 açmasındaki çalışmalar;took place in;önceki sezonlar;;;E;entity.remark;Free text. No structure fits.
+182;282;BUILT;yes;ETÇ yapı kalıntıları (C4a8);lies below;Demir Çağı sur duvarı;;;A;relation overlies;
+183;282;DATE;yes;yapı kalıntıları (C4a8);is dated to;Erken Tunç Çağı (ETÇ);;;A;"claim, belief true; dating, event making";
+184;282;PLACE;yes;ETÇ yapı kalıntıları (C4a8);elevation (kot);yaklaşık 1049 m;yaklaşık;;A;dimension, approx;
+185;282;MEASURE;yes;ETÇ yapı kalıntılarına ulaşılan alan;measures;2x2 metre;;;D;"own attribute 'boyut'; own attribute 'boyut'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15 First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+186;282;WORK;yes;Kuzey Yamaç’ta açılan açmalar (1994’ten beri);count;bir düzineden fazla;;;E;entity.remark;Free text. No structure fits.
+187;282;WORK;yes;Kuzey Yamaç açmaları;opened since;1994;;;A;activity.begin;
+188;282;WORK;yes;Kuzey Yamaç açmaları;reached ETÇ seviyeleri;ETÇ seviyeleri;;yes;A;"claim, belief false; relation removed";
+189;282;WORK;yes;ETÇ seviyelerine inilememesi;reason;yeterince derinleşilmediğinden;;;E;entity.remark;Free text. No structure fits.
+190;282;WORK;yes;C4a7-C4b7 açmaları;were started in;2023 sezonu;;;A;activity.begin;
+191;282;WORK;yes;Kuzey Yamaç kazıları (2024 sezonundan itibaren);aim;C4a7-C4b7 açmalarında derinleşerek ETÇ seviyelerine doğru devam etmek;;;E;entity.remark;Free text. No structure fits.
+192;282;PLACE;yes;C5b1 ve C5b2 açmaları;level left at;en yüksek kot;;;E;entity.remark;Free text. No structure fits.
+193;282;WORK;yes;Kuzey Yamaç kazıları (2024 sezonundan itibaren);aim;C5b1 ve C5b2 açmalarını C4b10 ve C4c10 açmalarının bulunduğu kotlara indirmek;;;E;entity.remark;Free text. No structure fits.
+194;282;WORK;yes;yedi açma (C4b9 ile birlikte);planned to be lowered to;C4b8 seviyesi;Yakın gelecekte;;E;entity.remark;Free text. No structure fits.
+195;282;INTERP;yes;C4a8 açmasındaki ETÇ katlarının devamı;expected depth below current level of C4b8;yaklaşık 1.5 metre aşağıda;değerlendirilmektedir;;A;"claim, belief probable; assertion interpreted_as";
+196;282;FIGURE;yes;Kuzey Yamaç açmaları;is shown in figure;Resim: 4;;;A;about;
+197;282;PLACE;yes;C4a7-C4b7 açmaları;is located in;Kuzey Yamaç;;;A;place.part_of;
+198;282;WORK;yes;C4a7-C4b7 kazısı (2024);began with removal of;dağınık duvar kalıntısı;;;A;relation removed;
+199;282;WORK;yes;C4a7-C4b7 kazısı (2024);began with removal of;çöp çukuru;;;A;relation removed;
+200;282;WORK;yes;dağınık duvar kalıntısı ve çöp çukuru (C4a7-C4b7);were found and documented in;2023 sezonu;;;E;entity.remark;Free text. No structure fits.
+201;282;WORK;yes;C4b7 açması;was extended;güneyine doğru 30 cm;;;E;entity.remark;Free text. No structure fits.
+202;282;BUILT;yes;duvar (C4b7 güney genişletmesi);kind;duvar;;;A;thing.type;
+203;282;BUILT;yes;duvar (C4b7 güney genişletmesi);condition;oldukça düzgün;;;C;"claim, belief true; assertion condition";own code in the list condition
+204;282;MEASURE;yes;duvar (C4b7 güney genişletmesi);measures (width);iki sıra;;;C;dimension;own code in the list unit
+205;282;MEASURE;yes;duvar (C4b7 güney genişletmesi);measures (height);tek sıra;;;C;dimension;own code in the list unit
+206;282;MEASURE;yes;duvar (C4b7 güney genişletmesi);measures (length);4.3 metre;;;A;dimension;
+207;282;MEASURE;yes;C4a7-C4b7 alanı (genişleme sonrası);measures;5x8 metre;neredeyse;;D;"claim, belief probable; own attribute 'boyut'; claim, belief probable; own attribute 'boyut'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15 First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+208;282;WORK;yes;kazı (2024);was limited to;sadece C4a7;;;E;entity.remark;Free text. No structure fits.
+209;282;MEASURE;yes;C4a7 açması;measures;5x5 m;;;D;"own attribute 'boyut'; own attribute 'boyut'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15 First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+210;282;WORK;yes;sadece C4a7 içinde kazı yapılması;reason;iş gücü ve zamandan tasarruf etmek;;;E;entity.remark;Free text. No structure fits.
+211;282;BUILT;yes;kerpiç dolgu (C4a7);kind;kerpiç dolgu;;;C;thing.type;own code in the list thing_type
+212;282;BUILT;yes;kerpiç dolgu (C4a7);condition;oldukça sert;;;C;"claim, belief true; assertion condition";own code in the list condition
+213;282;INTERP;yes;kerpiç dolgu (C4a7);is interpreted as;Demir Çağı sur duvarından dökülmüş;değerlendirilen;;A;"claim, belief probable; assertion interpreted_as";
+214;282;BUILT;yes;kerpiç dolgu (C4a7);extends to;C4b7 açma sınırı;neredeyse;;E;entity.remark;Free text. No structure fits.
+215;282;WORK;yes;kerpiç dolgunun kazısı;was started in;2023;;;A;activity.begin;
+216;282;WORK;yes;kerpiç dolgunun kaldırılması;continued in;2024 sezonu;;;A;relation continued;
+217;282;MEASURE;yes;C4a7 kazısı (2024);depth excavated;yaklaşık 1.3 metre;yaklaşık;;A;dimension, approx;
+218;282;BUILT;yes;kerpiç dolgu (C4a7);continues;dağınık halde;;;E;entity.remark;Free text. No structure fits.
+219;282;MEASURE;yes;Demir Çağı sur duvarı;measures (width);3 metreyi aşkın;;;A;dimension;
+220;282;INTERP;yes;kerpiç üst yapı (sur duvarı üzerindeki);is interpreted as;duvarın iç kısmına (güneyine) yıkılmış;düşünülmektedir;;A;"claim, belief probable; assertion interpreted_as";
+221;282;INTERP;yes;C4a7 açmasında kazılacak kerpiç duvar enkazı;expected further depth;yaklaşık 1.5 metre daha;düşünülmektedir;;A;"claim, belief probable; assertion interpreted_as";
+222;282;FIND;yes;iyi korunmuş kerpiç parçası (kerpiç üst yapı enkazı);was found;iyi korunmuş bir kerpiç parçası;;yes;E;entity.remark;Free text. No structure fits.
+223;282;WORK;yes;sondaj;took place in;C4a6 açması;;;A;activity.place;
+224;282;WORK;yes;sondaj (C4a6);position;kuzeybatı açma sınırından;;;E;entity.remark;Free text. No structure fits.
+225;282;MEASURE;yes;sondaj (C4a6);measures (length);2 metre;;;A;dimension;
+226;282;MEASURE;yes;sondaj (C4a6);measures (width);1 metre;;;A;dimension;
+227;282;WORK;yes;sondaj (C4a6);aim;kerpiç üst yapı enkazının uzantısının tespit edilebilmesi;;;E;entity.remark;Free text. No structure fits.
+228;283;FIND;yes;kayda değer buluntu (C4a6 sondajı);was found;kayda değer bir buluntu;;yes;E;entity.remark;Free text. No structure fits.
+229;283;WORK;yes;C4a6 sondajı;elements observed (count);iki unsur;;;E;entity.remark;Free text. No structure fits.
+230;283;FIND;yes;kerpiç blok;kind;kerpiç blok;;;C;thing.type;own code in the list thing_type
+231;283;FIND;yes;kerpiç blok;count;bir;;;A;dimension;
+232;283;FIND;yes;kerpiç blok;measures (unclear: text 35x3x12 cm, caption of Resim 5 gives 35x35x12 cm);35x3x12 cm;yaklaşık;;C;"dimension, approx; dimension, approx; dimension, approx";own code in the list dimension_kind
+233;283;FIND;yes;kerpiç blok;position;in situ (yerinde);;;D;own attribute 'buluntu durumu';No column, relation or declared attribute for it.
+234;283;FIND;yes;kerpiç blok;condition;iyi korunmuş;;;C;"claim, belief true; assertion condition";own code in the list condition
+235;283;FIND;yes;kerpiç blok;depth below surface;yaklaşık 1 metre;yaklaşık;;A;dimension, approx;
+236;283;FIND;yes;kerpiç blok;was found in;C4a6’daki sondaj;;;A;find_context;
+237;283;FIGURE;yes;kerpiç blok;is shown in figure;Resim: 5;;;A;about;
+238;283;FIND;yes;öküze ait kafatası;kind;kafatası;;;C;thing.type;own code in the list thing_type
+239;283;FIND;yes;kafatası;belongs to animal;öküz;;;C;"claim, belief true; assertion taxon";own code in the list taxon
+240;283;FIND;yes;öküze ait kafatası;was found in;C4a6’daki sondaj;;;A;find_context;
+241;283;FIND;yes;öküze ait kafatası;position (horizontal);kerpiç bloğun yaklaşık bir metre doğusunda;yaklaşık;;E;entity.remark;Free text. No structure fits.
+242;283;FIND;yes;öküze ait kafatası;position (vertical);kerpiç bloğun birkaç santimetre altında;;;E;entity.remark;Free text. No structure fits.
+243;283;FIND;yes;öküze ait kafatası;position;in situ;;;D;own attribute 'buluntu durumu';No column, relation or declared attribute for it.
+244;283;FIND;yes;boynuz;kind;boynuz;;;C;thing.type;own code in the list thing_type
+245;283;FIND;yes;boynuz;count;bir;;;A;dimension;
+246;283;FIND;yes;boynuz;was found with;öküze ait kafatası;;;E;entity.remark;Free text. No structure fits.
+247;283;FIND;yes;boynuz;was found in;C4a6’daki sondaj;;;A;find_context;
+248;283;DATE;yes;kerpiç üst yapı enkazı (C4a7);is dated to;Demir Çağı;;;A;"claim, belief true; dating, event formation";
+249;283;BUILT;yes;kerpiç üst yapı enkazı (C4a7);is cut by;üç çöp çukuru;;;A;relation cuts;
+250;283;BUILT;yes;çöp çukurları (C4a7);count;üç;;;A;dimension;
+251;283;DATE;yes;çöp çukurları (C4a7);is dated relative to kerpiç üst yapı enkazı;daha sonraki dönemler;;;A;"claim, belief true; assertion earlier_than";
+252;283;FIGURE;yes;çöp çukurları (C4a7);is shown in figure;Resim: 6;;;A;about;
+253;283;INTERP;yes;çöp çukurlarının ikisi (C4a7);is compared to;Kuzey Yamaç’ta daha önceki kazılarda açığa çıkarılanlar;;;A;"claim, belief true; assertion similar_to";
+254;283;MEASURE;yes;çöp çukurları (C4a7);measures (diameter);bir metreyi aşmakta;;;A;dimension;
+255;283;BUILT;yes;çöp çukurları (C4a7);fill;küllü ve kireçli dolgu;;;C;"relation fills; thing.type";own code in the list thing_type
+256;283;FIND;yes;seramik parçaları (C4a7 çöp çukurları);kind;seramik parçaları;;;C;thing.type;own code in the list thing_type
+257;283;FIND;yes;seramik parçaları (C4a7 çöp çukurları);count;çok sayıda;;;E;entity.remark;Free text. No structure fits.
+258;283;FIND;yes;seramik parçaları (C4a7 çöp çukurları);condition;profile veren ve vermeyen;;;C;"claim, belief true; assertion condition";own code in the list condition
+259;283;FIND;yes;seramik parçaları (C4a7 çöp çukurları);period;Demir Çağı;;;A;"claim, belief true; dating, event making";
+260;283;FIND;yes;seramik parçaları (C4a7 çöp çukurları);was found in;çöp çukurlarının küllü ve kireçli dolgusu;;;A;find_context;
+261;283;FIND;yes;insan kemiği parçaları (C4a7 çöp çukurları);kind;insan kemiği parçaları;;;C;thing.type;own code in the list thing_type
+262;283;FIND;yes;insan kemiği parçaları (C4a7 çöp çukurları);was found in;çöp çukurlarının küllü ve kireçli dolgusu;;;A;find_context;
+263;283;FIND;yes;hayvan kemiği parçaları (C4a7 çöp çukurları);kind;hayvan kemiği parçaları;;;C;thing.type;own code in the list thing_type
+264;283;FIND;yes;hayvan kemiği parçaları (C4a7 çöp çukurları);was found in;çöp çukurlarının küllü ve kireçli dolgusu;;;A;find_context;
+265;283;BUILT;yes;çöp çukurlarından birisi (C4a7);floor;kireç kaplı taban;;;C;thing.material;own code in the list material
+266;283;INTERP;yes;kireç kaplı taban;is compared to;genel kural;;;E;entity.remark;Free text. No structure fits.
+267;283;WORK;yes;çöp çukuru (çakıl taşı tabanlı, C4a7);part excavated;sadece kuzey yarısı;;;E;entity.remark;Free text. No structure fits.
+268;283;BUILT;yes;çöp çukuru (kuzey yarısı kazılan, C4a7);floor;çakıl taşı kaplama;;;C;thing.material;own code in the list material
+269;283;MEASURE;yes;çöp çukurları (C4a7): en derini;measures (depth);bir metre;;;A;dimension;
+270;283;MEASURE;yes;çöp çukurları (C4a7): en sığ olanı;measures (depth);10 santimetre;;;A;dimension;
+271;283;FIND;yes;at figürinleri (C4a7);kind;at figürini;;;C;thing.type;own code in the list thing_type
+272;283;FIND;yes;at figürinleri (C4a7);was found in;C4a7 açması, kerpiç üst yapı enkazı;;;A;find_context;
+273;283;INTERP;yes;at figürinleri (C4a7);is compared to;daha önceki yıllarda Kuzey Yamaç kazılarında tüm veya parça halinde ele geçen at figürinleri;;;A;"claim, belief true; assertion similar_to";
+274;283;FIND;yes;at figürinleri (C4a7);parts preserved;baş veya gövde kısımları;;;D;own attribute 'korunan kısım';No column, relation or declared attribute for it.
+275;283;FIND;yes;at figürinleri (C4a7): gövdeler;condition;ayak veya baş kısımları kopartılmış/kopmuş;;;C;"claim, belief true; assertion condition";own code in the list condition
+276;283;FIND;yes;at figürinleri (C4a7): baş kısımları;workmanship;detaylı olarak işlenmiş;;;D;own attribute 'işçilik';No column, relation or declared attribute for it.
+277;283;FIND;yes;at figürinleri (C4a7): baş kısımları;surface treatment;boyanmış;olasılıkla;;D;"claim, belief probable; own attribute 'yüzey işlemi'";No column, relation or declared attribute for it.
+278;283;WORK;yes;C5b1-C5b2 açmaları;excavated so far;bu alanda en az kazılmış olan;;;E;entity.remark;Free text. No structure fits.
+279;283;PLACE;yes;C5b1-C5b2 açmaları;position;Kuzey Yamaç alanının en doğusundaki açmalar;;;E;entity.remark;Free text. No structure fits.
+280;283;DESCR;no;C5b1-C5b2 açmalarında derinleşilmesi;is judged as;ETÇ tabakalarının daha geniş bir alanda açığa çıkarılması açısından önemli;;;E;entity.remark;Free text. No structure fits.
+281;283;PLACE;yes;poligon noktası;elevation (kot);1055.31 m;;;D;own attribute 'kot';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+282;283;PLACE;yes;C5b1-C5b2 açmaları (2024 sezonu başında);level below poligon noktası;yaklaşık bir metre aşağıda;yaklaşık;;E;entity.remark;Free text. No structure fits.
+283;283;WORK;yes;C5b1 ve C5b2 kazıları (2024);started from;Locus 70;;;D;own attribute 'başlangıç Locus';No column, relation or declared attribute for it.
+284;283;BUILT;yes;çöp çukuru (C5b1);kind;çöp çukuru;;;C;thing.type;own code in the list thing_type
+285;283;BUILT;yes;çöp çukuru (C5b1);shape;dairesel form;;;D;own attribute 'biçim';No column, relation or declared attribute for it.
+286;283;MEASURE;yes;çöp çukuru (C5b1);measures (diameter);yaklaşık 3 metre;yaklaşık;;A;dimension, approx;
+287;283;WORK;yes;çöp çukuru (C5b1);was excavated at;açmanın son kazısının yapıldığı tarih;anlaşılmaktadır;;E;entity.remark;Free text. No structure fits.
+288;283;FIGURE;yes;çöp çukuru (C5b1);is shown in figure;Resim: 7;;;A;about;
+289;283;BUILT;yes;çöp çukuru (C5b1);condition;zamanla formunu kaybetmiş;;;C;"claim, belief true; assertion condition";own code in the list condition
+290;283;WORK;yes;C5b1 açması;step;çukurun etrafı taban seviyesine indirilerek açma içindeki seviye eşitlendi;;;E;entity.remark;Free text. No structure fits.
+291;283;WORK;yes;C5b1 açması;step;tüm karenin kazılmasına devam edilmiştir;;;E;entity.remark;Free text. No structure fits.
+292;283;WORK;yes;C5b2 açması kazısı;took place at the same time as;C5b1 açması kazısı;;;D;relation with the raw property P175;No declared relation. A property was taken from the ontology.
+293;283;WORK;yes;rampa (toprak tahliyesi için);count;iki;;;A;dimension;
+294;283;FIND;yes;seramik parçaları (C5b1 ve C5b2);kind;seramik parçaları;;;C;thing.type;own code in the list thing_type
+295;283;FIND;yes;seramik parçaları (C5b1 ve C5b2);period;ETÇ-Demir Çağı arasında dağılım gösteren;;;B;"claim, belief true; dating, event making";Several periods in one name. Stored as one period.
+296;283;FIND;yes;seramik parçaları (C5b1 ve C5b2);was found in;C5b1 ve C5b2 açmaları;;;A;"find_context; find_context";
+297;283;BUILT;yes;duvarlar (C5b1 ve C5b2);kind;basit duvarlar;;;C;thing.type;own code in the list thing_type
+298;283;BUILT;yes;duvarlar (C5b1 ve C5b2);is made of;orta boy taşlar;;;C;thing.material;own code in the list material
+299;283;MEASURE;yes;duvarlar (C5b1 ve C5b2);measures (width);iki sıra;;;C;dimension;own code in the list unit
+300;283;MEASURE;yes;duvarlar (C5b1 ve C5b2);measures (height);birkaç sıra;;;E;entity.remark;Free text. No structure fits.
+301;283;DATE;yes;duvarlar (C5b1 ve C5b2);is dated to;Demir Çağı;;;A;"claim, belief true; dating, event making";
+302;283;BUILT;yes;duvarlar (C5b1 ve C5b2);give a plan;belirgin bir plan;;yes;E;entity.remark;Free text. No structure fits.
+303;283;WORK;yes;duvarlar (C5b1 ve C5b2);were documented by;fotoğraflanarak;;;B;relation worked_on;The way of recording is only in a name.
+304;283;WORK;yes;duvarlar (C5b1 ve C5b2);were removed by;kazı ekibi;;;A;relation removed;
+305;283;PLACE;yes;C4c10 açması;position;bu açma grubunun (C5b1-C5b2) batısında;;;E;entity.remark;Free text. No structure fits.
+306;283;INTERP;yes;duvarların benzerleri;were found and removed in;önceki sezonlarda yapılan kazı çalışmaları;anlaşılmaktadır;;A;"claim, belief probable; assertion interpreted_as";
+307;283;INTERP;yes;duvarların benzerleri;is based on;C4c10 açmasının kesiti;;;A;claim_basis;
+308;284;BUILT;yes;çöp çukurları (C5b1 ve C5b2, kazılan);count;iki;;;A;dimension;
+309;284;MEASURE;yes;çöp çukurları (C5b1 ve C5b2, kazılan);size compared to other pits;daha küçük;;;E;entity.remark;Free text. No structure fits.
+310;284;BUILT;yes;çöp çukurları (C5b1 ve C5b2, kazılan);floor;kireç sıvalı;;;C;thing.material;own code in the list material
+311;284;FIND;yes;kırık seramik parçaları (C5b1-C5b2 çöp çukurları);kind;kırık seramik parçaları;;;C;thing.type;own code in the list thing_type
+312;284;FIND;yes;hayvan kemikleri (C5b1-C5b2 çöp çukurları);kind;hayvan kemikleri;;;C;thing.type;own code in the list thing_type
+313;284;BUILT;yes;çöp çukurları (C5b1 ve C5b2, kazılan);fill;kül dolgu;;;C;"relation fills; thing.type";own code in the list thing_type
+314;284;BUILT;yes;alandaki tüm çöp çukurları;contents;kırık seramik parçaları, hayvan kemikleri, kül dolgu;;;E;entity.remark;Free text. No structure fits.
+315;284;FIND;yes;at figürinleri (C5b1 ve C5b2);kind;at figürinleri;;;C;thing.type;own code in the list thing_type
+316;284;FIND;yes;heykelcikler (C5b1 ve C5b2);kind;heykelcikler;;;C;thing.type;own code in the list thing_type
+317;284;FIND;yes;ağırşaklar (C5b1 ve C5b2);kind;ağırşaklar;;;C;thing.type;own code in the list thing_type
+318;284;FIND;yes;diğer küçük buluntular (C5b1 ve C5b2);kind;diğer küçük buluntular;;;C;thing.type;own code in the list thing_type
+319;284;FIND;yes;at figürinleri, heykelcikler, ağırşaklar ve diğer küçük buluntular;was found in;C5b1 ve C5b2 açmaları;;;A;"find_context; find_context; find_context; find_context";
+320;284;INTERP;yes;C5b1 ve C5b2 küçük buluntuları;is compared to;Kuzey Yamaç’taki önceki kazılardan bilinenler;;;A;"claim, belief true; assertion similar_to";
+321;284;FIND;yes;heykelcik parçası;kind;küçük bir heykelciğin baş tarafına ait parça;;;C;thing.type;own code in the list thing_type
+322;284;FIND;yes;heykelcik parçası;period;Helenistik/Roma Dönemi;tarihlenebilecek;;B;"claim, belief probable; dating, event making";Several periods in one name. Stored as one period.
+323;284;FIND;yes;heykelcik parçası;was found in;kazılan dolgu;;;B;find_context;An entity that holds only a name, with no kind from a list.
+324;284;BUILT;yes;çöp çukuru (C5b2, oval);is located in;C5b2 açması;;;A;thing.location;
+325;284;BUILT;yes;çöp çukuru (C5b2, oval);position;açmanın doğu sınırına yakın;;;E;entity.remark;Free text. No structure fits.
+326;284;BUILT;yes;çöp çukuru (C5b2, oval);shape;oval form;;;D;own attribute 'biçim';No column, relation or declared attribute for it.
+327;284;MEASURE;yes;çöp çukuru (C5b2, oval);measures (depth);yaklaşık olarak 1.5 metre;yaklaşık olarak;;A;dimension, approx;
+328;284;FIGURE;yes;çöp çukuru (C5b2, oval);is shown in figure;Resim: 6;;;A;about;
+329;284;BUILT;yes;ikinci çöp çukuru (C5b2);position;oval çöp çukuruna bitişik;;;A;relation abuts;
+330;284;MEASURE;yes;ikinci çöp çukuru (C5b2);size;çok daha küçük;;;E;entity.remark;Free text. No structure fits.
+331;284;BUILT;yes;ikinci çöp çukuru (C5b2);has distinct shape;belirgin bir form;;yes;E;entity.remark;Free text. No structure fits.
+332;284;MEASURE;yes;ikinci çöp çukuru (C5b2);depth;çok sığ;;;E;entity.remark;Free text. No structure fits.
+333;284;FIND;yes;kemik parçaları (C5b2 çöp çukurları);kind;kemik parçası;;;C;thing.type;own code in the list thing_type
+334;284;FIND;yes;kemik parçaları (C5b2 çöp çukurları);count;çok sayıda;;;E;entity.remark;Free text. No structure fits.
+335;284;FIND;yes;seramik parçaları (C5b2 çöp çukurları);kind;seramik parçası;;;C;thing.type;own code in the list thing_type
+336;284;FIND;yes;seramik parçaları (C5b2 çöp çukurları);count;çok sayıda;;;E;entity.remark;Free text. No structure fits.
+337;284;FIND;yes;kemik ve seramik parçaları;was found in;her iki çöp çukuru (C5b2);;;A;"find_context; find_context";
+338;284;BUILT;yes;oval çöp çukuru (C5b2);fill;kalın ve birkaç farklı seviyede kül dolgu;;;C;"relation fills; thing.type";own code in the list thing_type
+339;284;BUILT;yes;oval çöp çukurundaki kül dolgu;is homogeneous;homojen;;yes;E;entity.remark;Free text. No structure fits.
+340;284;MEASURE;yes;C5b1 ve C5b2 açmaları (2024 sezonu sonu);level below Höyük yüzeyi;yaklaşık 2.4 metre;yaklaşık;;D;"claim, belief probable; own attribute 'kot veya derinlik'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+341;284;WORK;yes;C5b1 ve C5b2 açmaları (2024);Locus excavated (count);toplam 5 Locus;;;C;dimension;own code in the list dimension_kind
+342;284;PLACE;yes;C4b10 açması;is located in;Kuzey Yamaç;;;A;place.part_of;
+343;284;PLACE;yes;C4b10 açması;is;Kuzey Yamaç’ta en derin açmalardan;;;E;entity.remark;Free text. No structure fits.
+344;284;WORK;yes;C4b10 kazısı (2024);duration;yaklaşık sekiz gün;yaklaşık;;C;dimension, approx;own code in the list unit
+345;284;PLACE;yes;C4b10 açılış kotları;depth relative to yüzeydeki 1055.31 metre kotu;iki metre;;;E;entity.remark;Free text. No structure fits.
+346;284;BUILT;yes;çöp çukuru (C4b10);position;C4b9 açmasıyla olan sınırında;;;E;entity.remark;Free text. No structure fits.
+347;284;BUILT;yes;çöp çukuru (C4b10);shape;geniş ve dairesel form;anlaşılmaktadır;;D;"claim, belief probable; own attribute 'biçim'";No column, relation or declared attribute for it.
+348;284;PLACE;yes;C4b9 açması;position;C4b10 açmasının batısında;;;E;entity.remark;Free text. No structure fits.
+349;284;WORK;yes;C4b10 kazısı (2024);started from;Locus 60;;;D;own attribute 'başlangıç Locus';No column, relation or declared attribute for it.
+350;284;WORK;yes;C4b10 kazısı (2024);step (first);açmanın çöp çukurunun taban seviyesine indirilmesi;;;E;entity.remark;Free text. No structure fits.
+351;284;WORK;yes;C4b10 kazısı (2024);step (then);tüm açma yüzeyinde kazı çalışması yapılması;;;E;entity.remark;Free text. No structure fits.
+352;284;MEASURE;yes;C4b10 kazısı (2024);depth excavated;yaklaşık 40 santimetre;yaklaşık;;A;dimension, approx;
+353;284;PLACE;yes;C4b10 açma merkezi;closing elevation (kapanış kotu);1052.803 metre;;;D;own attribute 'kot veya derinlik';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+354;284;MEASURE;yes;C4b10 açması;depth reached below Höyük yüzeyi;2.5 metre;;;D;own attribute 'kot veya derinlik';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+355;284;FIGURE;yes;C4b10 açması;is shown in figure;Resim: 8;;;A;about;
+356;284;FIND;yes;seramik parçaları (C4b10);kind;seramik parçaları;;;C;thing.type;own code in the list thing_type
+357;284;FIND;yes;seramik parçaları (C4b10);period;ETÇ III;;;A;"claim, belief true; dating, event making";
+358;284;FIND;yes;seramik parçaları (C4b10);period;Orta Tunç çağı;;;A;"claim, belief true; dating, event making";
+359;284;FIND;yes;seramik parçaları (C4b10);period;Geç Tunç çağı;;;A;"claim, belief true; dating, event making";
+360;284;FIND;yes;seramik parçaları (C4b10);was found in;C4b10 açması;;;A;find_context;
+361;284;FIND;yes;ETÇ III, Orta ve Geç Tunç çağı seramik parçaları;found before in nearby trenches;civardaki açmalar;;yes;E;entity.remark;Free text. No structure fits.
+362;284;FIND;yes;tezgâh ağırlığı;kind;tezgâh ağırlığı;;;C;thing.type;own code in the list thing_type
+363;284;FIND;yes;tezgâh ağırlığı;count;bir;;;A;dimension;
+364;284;FIND;yes;tezgâh ağırlığı;size;küçük;;;E;entity.remark;Free text. No structure fits.
+365;284;FIND;yes;tezgâh ağırlığı;was found in;bu alanda yüzeyde;;;C;find_context;own code in the list collection_method
+366;284;FIND;yes;tezgâh ağırlığı;was registered as;envanterlik;;;A;declared attribute museum_grade;
+367;284;WORK;yes;C4c10 açması;is;Kuzey Yamaç’ta 2024 sezonunda kazısı yapılan son açma;;;E;entity.remark;Free text. No structure fits.
+368;284;WORK;yes;C4c10 kazısı (2024);duration;sadece iki gün;;;C;dimension;own code in the list unit
+369;284;WORK;yes;C4c10 açması;step;kenarlardan ve kesitten düşerek açma yüzeyinde biriken taşlar toplanmış ve açma dışına çıkarılmıştır;;;E;entity.remark;Free text. No structure fits.
+370;284;WORK;yes;Demir Devri duvarlar (C4c10);removal was started;kaldırılmasına başlanmıştır;;;B;relation removed;'Was started' is lost.
+371;284;DATE;yes;duvarlar (C4c10);is dated to;Demir Devri;;;A;"claim, belief true; dating, event making";
+372;284;WORK;yes;Demir Devri duvarlar (C4c10);were exposed in;açmadaki son kazı sezonu;;;E;entity.remark;Free text. No structure fits.
+373;284;WORK;yes;Demir Devri duvarlar (C4c10);were documented by;fotoğraflanarak;;;B;relation worked_on;The way of recording is only in a name.
+374;284;WORK;yes;Demir Devri duvarlar (C4c10);were documented by;çizim;;;B;relation worked_on;The way of recording is only in a name.
+375;284;BUILT;yes;dolgu (C4c10);condition;oldukça sert;;;C;"claim, belief true; assertion condition";own code in the list condition
+376;284;MEASURE;yes;dolgu (C4c10);depth excavated;yaklaşık 20 santimetre;yaklaşık;;A;dimension, approx;
+377;284;BUILT;yes;sert dolgu (C4c10);lies below;Demir Devri duvarlar;;;A;relation overlies;
+378;284;WORK;yes;bu açmalardaki kazı çalışmaları;will continue in;2025 sezonu;;;A;declared attribute planned_for;
+379;284;WORK;yes;bu alan;planned to be lowered to;diğer açmaların kotu;;;E;entity.remark;Free text. No structure fits.
+380;284;BUILT;yes;Tunç Çağı sonrası katmanı (Kuzey Yamaç);kind;Tunç Çağı sonrası katman;;;C;thing.type;own code in the list thing_type
+381;284;MEASURE;yes;Tunç Çağı sonrası katmanı (Kuzey Yamaç);thickness;yaklaşık 4-5 metre;yaklaşık;;A;dimension, approx;
+382;284;DATE;yes;Tunç Çağı sonrası katmanı (Kuzey Yamaç);includes period;Demir Devri;;;A;"claim, belief true; dating, event formation";
+383;284;DATE;yes;Tunç Çağı sonrası katmanı (Kuzey Yamaç);includes period;Arkaik;;;A;"claim, belief true; dating, event formation";
+384;284;DATE;yes;Tunç Çağı sonrası katmanı (Kuzey Yamaç);includes period;Klasik;;;A;"claim, belief true; dating, event formation";
+385;284;DATE;yes;Tunç Çağı sonrası katmanı (Kuzey Yamaç);includes period;Helenistik/Roma;;;B;"claim, belief true; dating, event formation";Several periods in one name. Stored as one period.
+386;284;DATE;yes;Tunç Çağı sonrası katmanı (Kuzey Yamaç);includes period;Bizans;;;A;"claim, belief true; dating, event formation";
+387;284;INTERP;yes;Tunç Çağı sonrası katmanının tespiti;is based on;1994 yılından beri yürütülen kazı çalışmaları ve ERT yönteminin sonuçları;;;E;entity.remark;Free text. No structure fits.
+388;284;MEASURE;yes;Kuzey Yamaç’ta kazılan alan;measures;yaklaşık 20x30 metre;yaklaşık;;D;"claim, belief probable; own attribute 'boyut'; claim, belief probable; own attribute 'boyut'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15 First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+389;284;BUILT;yes;kalın dolgu (Kuzey Yamaç);contains stratigraphy with sound architectural plans;sağlam mimari planlar veren, somut maddi kültür kalıntısı sağlayan stratigrafi;;yes;E;entity.remark;Free text. No structure fits.
+390;285;BUILT;yes;kalın ‘dolgu’ (Kuzey Yamaç);consists of;kırık seramik parçaları;;;A;"claim, belief true; assertion contains_remains_of";
+391;285;BUILT;yes;kalın ‘dolgu’ (Kuzey Yamaç);consists of;figürin parçaları;;;A;"claim, belief true; assertion contains_remains_of";
+392;285;BUILT;yes;kalın ‘dolgu’ (Kuzey Yamaç);consists of;diğer küçük buluntular;;;A;"claim, belief true; assertion contains_remains_of";
+393;285;BUILT;yes;kalın ‘dolgu’ (Kuzey Yamaç);is disturbed by;çöp çukurları;sıklıkla;;A;"claim, belief probable; relation cuts";
+394;285;INTERP;yes;Kuzey Yamaç’ta Tunç Çağları tabakalarına kadar sağlam mimari ve maddi kültür kalıntısı bulma;likelihood;oldukça zayıf;ihtimali oldukça zayıftır;;A;"claim, belief probable; assertion interpreted_as";
+395;285;DESCR;no;C4a8 açmasındaki ETÇ yapı katları;is judged as;mimari ve küçük buluntu açısından oldukça sağlam bulgular sunan;;;E;entity.remark;Free text. No structure fits.
+396;285;INTERP;yes;karışık ve sağlam mimari plan/buluntu vermeyen dolgu;will not end until;tüm açmalarda 1049 metre kota erişilinceye kadar;açıktır;;A;"claim, belief probable; assertion interpreted_as";
+397;285;STRUCT;no;başlık;heading reads;4.2 MERKEZİ KİLİSE (Geleceğe Miras Projesi ödeneğiyle);;;F;;Structure of the printed document. The database has no place for it.
+398;285;ADMIN;no;Merkezi Kilise kazısı;was funded by;Geleceğe Miras Projesi ödeneği;;;A;participation;
+399;285;ADMIN;no;Geleceğe Miras Projesi;belongs to body;Kültür Varlıkları ve Müzeler Genel Müdürlüğü;;;A;actor.member_of;
+400;285;WORK;yes;Merkezi Kilise kazısı (2024);name of the work;Merkezi Kilise 1. Etap 333 m2 Alan İçerisinde El İle Kazı;;;A;entity.label;
+401;285;WORK;yes;Merkezi Kilise kazısı (2024);method;el ile kazı;;;C;activity.type;own code in the list activity_type
+402;285;WORK;yes;Merkezi Kilise açmaları;count;yedi adet;;;D;own attribute 'açma sayısı';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+403;285;MEASURE;yes;Merkezi Kilise açmaları;measures;5x5 metre;;;D;"own attribute 'boyut'; own attribute 'boyut'";No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15 First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+404;285;FIGURE;yes;Merkezi Kilise kazısı (2024);is shown in table;Tablo: 1;;;A;about;
+405;285;FIGURE;yes;Merkezi Kilise kazısı (2024);is shown in figure;Resim: 9;;;A;about;
+406;285;WORK;yes;Merkezi Kilise kazıları;aim;Merkezi Kilise (Manastır) yapısının çevresini genişleterek restitüsyon ve restorasyon projelerine yeterli zemini ve alanı sağlamak;;;E;entity.remark;Free text. No structure fits.
+407;285;WORK;yes;restitüsyon projesi (Merkezi Kilise);planned for;ileriki yıllar;;;E;entity.remark;Free text. No structure fits.
+408;285;WORK;yes;restorasyon projesi (Merkezi Kilise);planned for;ileriki yıllar;;;E;entity.remark;Free text. No structure fits.
+409;285;STRUCT;no;Tablo 1;has column heading;Açma;;;F;;Structure of the printed document. The database has no place for it.
+410;285;STRUCT;no;Tablo 1;has column heading;Açılış tarihi;;;F;;Structure of the printed document. The database has no place for it.
+411;285;STRUCT;no;Tablo 1;has column heading;Açılış kotu;;;F;;Structure of the printed document. The database has no place for it.
+412;285;STRUCT;no;Tablo 1;has column heading;Kapanış tarihi;;;F;;Structure of the printed document. The database has no place for it.
+413;285;STRUCT;no;Tablo 1;has column heading;Kapanış kotu;;;F;;Structure of the printed document. The database has no place for it.
+414;285;STRUCT;no;Tablo 1;has column heading;Kazılan m3;;;F;;Structure of the printed document. The database has no place for it.
+415;285;WORK;yes;Tablo 1 satırı;trench (Açma);E4d9;;;A;place, kind trench;
+416;285;WORK;yes;E4d9 açması;opening date (Açılış tarihi);29.08.2024;;;B;activity.begin;Years are whole numbers. Day and month are lost.
+417;285;PLACE;yes;E4d9 açması;opening elevation (Açılış kotu);1052.52;;;C;dimension;own code in the list dimension_kind
+418;285;WORK;yes;E4d9 açması;closing date (Kapanış tarihi);01.09.2024;;;B;activity.end;Years are whole numbers. Day and month are lost.
+419;285;PLACE;yes;E4d9 açması;closing elevation (Kapanış kotu);1051.25;;;C;dimension;own code in the list dimension_kind
+420;285;WORK;yes;E4d9 açması;volume excavated (Kazılan m3);11.7;;;A;dimension;
+421;285;WORK;yes;Tablo 1 satırı;trench (Açma);E4d10;;;A;place, kind trench;
+422;285;WORK;yes;E4d10 açması;opening date (Açılış tarihi);03.09.2024;;;B;activity.begin;Years are whole numbers. Day and month are lost.
+423;285;PLACE;yes;E4d10 açması;opening elevation (Açılış kotu);1052.27;;;C;dimension;own code in the list dimension_kind
+424;285;WORK;yes;E4d10 açması;closing date (Kapanış tarihi);05.09.2024;;;B;activity.end;Years are whole numbers. Day and month are lost.
+425;285;PLACE;yes;E4d10 açması;closing elevation (Kapanış kotu);1050.72;;;C;dimension;own code in the list dimension_kind
+426;285;WORK;yes;E4d10 açması;volume excavated (Kazılan m3);11.02;;;A;dimension;
+427;285;WORK;yes;Tablo 1 satırı;trench (Açma);E5d1;;;A;place, kind trench;
+428;285;WORK;yes;E5d1 açması;opening date (Açılış tarihi);05.09.2024;;;B;activity.begin;Years are whole numbers. Day and month are lost.
+429;285;PLACE;yes;E5d1 açması;opening elevation (Açılış kotu);1052.16;;;C;dimension;own code in the list dimension_kind
+430;285;WORK;yes;E5d1 açması;closing date (Kapanış tarihi);10.09.2024;;;B;activity.end;Years are whole numbers. Day and month are lost.
+431;285;PLACE;yes;E5d1 açması;closing elevation (Kapanış kotu);1050.00;;;C;dimension;own code in the list dimension_kind
+432;285;WORK;yes;E5d1 açması;volume excavated (Kazılan m3);17.75;;;A;dimension;
+433;285;WORK;yes;Tablo 1 satırı;trench (Açma);E5c3;;;A;place, kind trench;
+434;285;WORK;yes;E5c3 açması;opening date (Açılış tarihi);07.09.2024;;;B;activity.begin;Years are whole numbers. Day and month are lost.
+435;285;PLACE;yes;E5c3 açması;opening elevation (Açılış kotu);1051.79;;;C;dimension;own code in the list dimension_kind
+436;285;WORK;yes;E5c3 açması;closing date (Kapanış tarihi);12.09.2024;;;B;activity.end;Years are whole numbers. Day and month are lost.
+437;285;PLACE;yes;E5c3 açması;closing elevation (Kapanış kotu);1049.93;;;C;dimension;own code in the list dimension_kind
+438;285;WORK;yes;E5c3 açması;volume excavated (Kazılan m3);12.2;;;A;dimension;
+439;285;WORK;yes;Tablo 1 satırı;trench (Açma);E5c4;;;A;place, kind trench;
+440;285;WORK;yes;E5c4 açması;opening date (Açılış tarihi);08.09.2024;;;B;activity.begin;Years are whole numbers. Day and month are lost.
+441;285;PLACE;yes;E5c4 açması;opening elevation (Açılış kotu);1051.85;;;C;dimension;own code in the list dimension_kind
+442;285;WORK;yes;E5c4 açması;closing date (Kapanış tarihi);14.09.2024;;;B;activity.end;Years are whole numbers. Day and month are lost.
+443;285;PLACE;yes;E5c4 açması;closing elevation (Kapanış kotu);1050.13;;;C;dimension;own code in the list dimension_kind
+444;285;WORK;yes;E5c4 açması;volume excavated (Kazılan m3);21.41;;;A;dimension;
+445;285;WORK;yes;Tablo 1 satırı;trench (Açma);E5c5;;;A;place, kind trench;
+446;285;WORK;yes;E5c5 açması;opening date (Açılış tarihi) (unclear: earlier than the start date 29.08.2024 given for the whole work);12.08.2024;;;B;activity.begin;Years are whole numbers. Day and month are lost.
+447;285;PLACE;yes;E5c5 açması;opening elevation (Açılış kotu);1051.79;;;C;dimension;own code in the list dimension_kind
+448;285;WORK;yes;E5c5 açması;closing date (Kapanış tarihi);17.09.2024;;;B;activity.end;Years are whole numbers. Day and month are lost.
+449;285;PLACE;yes;E5c5 açması;closing elevation (Kapanış kotu);1050.13;;;C;dimension;own code in the list dimension_kind
+450;285;WORK;yes;E5c5 açması;volume excavated (Kazılan m3);12.89;;;A;dimension;
+451;285;WORK;yes;Tablo 1 satırı;trench (Açma);E5b6;;;A;place, kind trench;
+452;285;WORK;yes;E5b6 açması;opening date (Açılış tarihi);17.09.2024;;;B;activity.begin;Years are whole numbers. Day and month are lost.
+453;285;PLACE;yes;E5b6 açması;opening elevation (Açılış kotu);1051.76;;;C;dimension;own code in the list dimension_kind
+454;285;WORK;yes;E5b6 açması;closing date (Kapanış tarihi);26.09.2024;;;B;activity.end;Years are whole numbers. Day and month are lost.
+455;285;PLACE;yes;E5b6 açması;closing elevation (Kapanış kotu);1050.08;;;C;dimension;own code in the list dimension_kind
+456;285;WORK;yes;E5b6 açması;volume excavated (Kazılan m3);33.81;;;A;dimension;
+457;285;STRUCT;no;Tablo 1;has row label;TOPLAM;;;F;;Structure of the printed document. The database has no place for it.
+458;285;WORK;yes;TOPLAM (Tablo 1);opening date (Açılış tarihi);29.08.2024;;;B;activity.begin;The same day as in statement 172. Years are whole numbers.
+459;285;WORK;yes;TOPLAM (Tablo 1);closing date (Kapanış tarihi);27.09.2024;;;B;activity.end;The same day as in statement 478. Years are whole numbers.
+460;285;WORK;yes;TOPLAM (Tablo 1);volume excavated (Kazılan m3);120.78;;;A;dimension;
+461;285;FIGURE;yes;Tablo 1;caption;Merkezi Kilise’de 2024 sezonunda kazı yapılan açmalar, açılış-kapanış tarihleri, açılış-kapanış kotları ve toplam hafriyat miktarı (m3).;;;A;entity.label of the media item;
+462;285;ADMIN;no;Merkezi Kilise çalışmasına ait ayrıntılı rapor;was submitted to;T.C. Antalya Valiliği, İl Kültür ve Turizm Müdürlüğü;;;E;entity.remark;Free text. No structure fits.
+463;285;STRUCT;no;Merkezi Kilise çalışması;is reported in detail here;detaylı bir şekilde;;yes;F;;Structure of the printed document. The database has no place for it.
+464;285;BUILT;yes;Manastır yapısına ait farklı mekanların duvarları;condition;sağlam;;;C;"claim, belief true; assertion condition";own code in the list condition
+465;285;BUILT;yes;Manastır yapısına ait farklı mekanların duvarları;was found in;Manastır yapısının güney sınırı boyunca açılan tüm açmalar;;;B;thing.location;An entity that holds only a name, with no kind from a list.
+466;285;DESCR;no;mekan duvarlarının sağlam ele geçirilmesi;is judged as;1. Etap kazılarında elde edilen en önemli bulgu;;;E;entity.remark;Free text. No structure fits.
+467;285;BUILT;yes;Merkezi Kilise;is built with;ikincil malzeme (spolia);sıklıkla;;C;"claim, belief probable; assertion material_is";own code in the list material
+468;285;BUILT;yes;Manastır yapısını çevreleyen mekanlar;is built with;ikincil malzeme (spolia);;;C;"claim, belief true; assertion material_is";own code in the list material
+469;285;FIGURE;yes;ikincil malzeme (spolia);is shown in figure;Resim: 10;;;A;about;
+470;286;BUILT;yes;büyük sarnıç;is part of;Manastır yapısı;;;A;thing.part_of;
+471;286;BUILT;yes;büyük sarnıç;was exposed;ortaya çıkarıldığı;;;B;relation worked_on;'Was exposed' is stored as 'was worked on'.
+472;286;BUILT;yes;sarnıcı çevreleyen yapılar;was exposed;ortaya çıkarıldığı;;;B;relation worked_on;'Was exposed' is stored as 'was worked on'.
+473;286;BUILT;yes;yol;kind;taban döşemesi olan bir yol;;;C;thing.type;own code in the list thing_type
+474;286;FIGURE;yes;yol / sarnıç;is shown in figure;Resim: 11;;;A;about;
+475;286;BUILT;yes;Manastır yapısını çevreleyen yapılar;plan (unclear: sentence is garbled, 'ise çok Manastır yapısını');çok evreli planlar;;;E;entity.remark;Free text. No structure fits.
+476;286;BUILT;yes;çok evreli yapılar;position;bu alanın kuzeyine, Kilise’nin apsis yapısına doğru;;;E;entity.remark;Free text. No structure fits.
+477;286;BUILT;yes;Kilise;has part;apsis yapısı;;;B;thing.part_of;An entity that holds only a name, with no kind from a list.
+478;286;WORK;yes;GMP bünyesinde yürütülen kazılar;last day;27.09.2024;;;B;activity.end;Years are whole numbers. Day and month are lost.
+479;286;FIGURE;yes;Merkezi Kilise’de kazı yapılan alanların görünümü;is shown in figure;Resim 12;;;A;about;
+480;286;FIND;yes;işli mimari parçalar;kind;işli mimari parçalar;;;C;thing.type;own code in the list thing_type
+481;286;FIND;yes;işli mimari parçalar;was found in;Merkezi Kilise kazıları;;;A;find_context;
+482;286;FIND;yes;işli mimari parçalar;was stored in (either);Höyük üzerindeki taş havuzu;;;B;thing.location;'Either ... or' is lost.
+483;286;FIND;yes;işli mimari parçalar;was stored in (or);kazı deposu;;;D;relation with the raw property P53;No declared relation. A property was taken from the ontology. 'Either ... or' is lost.
+484;286;FIND;yes;sikkeler;kind;sikke;;;A;thing.type;
+485;286;FIND;yes;sikkeler;is made of;bakır;;;C;thing.material;own code in the list material
+486;286;FIND;yes;sikkeler;condition;oldukça korozyona uğramış;;;C;"claim, belief true; assertion condition";own code in the list condition
+487;286;FIND;yes;takı;kind;takı;;;C;thing.type;own code in the list thing_type
+488;286;FIND;yes;takı;is identified as;bilezik;?;;C;"claim, belief probable; assertion identified_as";own code in the list thing_type
+489;286;FIND;yes;takı;is made of (unclear: whether 'bakır' and 'korozyona uğramış' also apply to takı);bakır;;;C;thing.material;own code in the list material
+490;286;FIND;yes;liturji (ayin) objeleri;kind;liturji (ayin) objeleri;;;C;thing.type;own code in the list thing_type
+491;286;FIND;yes;liturji (ayin) objeleri;is made of;demir;;;A;thing.material;
+492;286;FIND;yes;boncuk;kind;boncuk;;;A;thing.type;
+493;286;FIND;yes;boncuk;is made of;pişmiş toprak;;;C;thing.material;own code in the list material
+494;286;FIND;yes;küçük buluntular (Merkezi Kilise);is classed as;etütlük;sayılacak;;D;"claim, belief probable; own attribute 'sınıf'";No column, relation or declared attribute for it.
+495;286;FIND;yes;küçük buluntular (sikkeler, takı, liturji objeleri, boncuk);was found in;Merkezi Kilise kazıları;;;A;find_context;
+496;286;STRUCT;no;başlık;heading reads;5- KAMU YARARINA FAALİYETLER:;;;F;;Structure of the printed document. The database has no place for it.
+497;286;WORK;yes;Hacımusalar Höyük Kazısı;includes;disiplinler arası araştırmalar;;;E;entity.remark;Free text. No structure fits.
+498;286;WORK;yes;disiplinler arası araştırmalar;aim;güncel sorunların çözümüne katkı sağlamak;;;E;entity.remark;Free text. No structure fits.
+499;286;DESCR;no;güncel sorunlar;example named;iklim değişikliği;;;E;entity.remark;Free text. No structure fits.
+500;286;DESCR;no;güncel sorunlar;example named;tarımsal üretimde verim kaybı;;;E;entity.remark;Free text. No structure fits.
+501;286;DESCR;no;güncel sorunlar;example named;erozyon;;;E;entity.remark;Free text. No structure fits.
+502;286;DESCR;no;güncel sorunlar;example named;ani ve şiddetli meteorolojik olaylar;;;E;entity.remark;Free text. No structure fits.
+503;286;WORK;yes;disiplinler arası araştırmalar;aim;Elmalı Ovası’ndaki refahın artırılmasına katkı sağlamak;;;E;entity.remark;Free text. No structure fits.
+504;286;WORK;yes;etkinlikler;frequency;her yıl;;;E;entity.remark;Free text. No structure fits.
+505;286;WORK;yes;etkinlikler;audience;ilçenin yöneticileri;;;E;entity.remark;Free text. No structure fits.
+506;286;WORK;yes;etkinlikler;audience;kamu görevlileri;;;E;entity.remark;Free text. No structure fits.
+507;286;WORK;yes;etkinlikler;audience;halk;;;E;entity.remark;Free text. No structure fits.
+508;286;WORK;yes;etkinlikler;content;çalışmalarımızdan kesitler;;;E;entity.remark;Free text. No structure fits.
+509;286;WORK;yes;Elmalı Bölgesel İklim Değişikliği ve Çevre Sorunları Sempozyumu;date;12.10.2024;;;B;activity.begin;Years are whole numbers. Day and month are lost.
+510;286;ADMIN;no;Elmalı Bölgesel İklim Değişikliği ve Çevre Sorunları Sempozyumu;was organised by;Elmalı Belediyesi;;;C;participation;own code in the list role
+511;286;ADMIN;no;Elmalı Bölgesel İklim Değişikliği ve Çevre Sorunları Sempozyumu;was organised by;Elmalı Vakfı;;;C;participation;own code in the list role
+512;286;WORK;yes;konuşma;was given at;Elmalı Bölgesel İklim Değişikliği ve Çevre Sorunları Sempozyumu;;;A;activity.part_of;
+513;286;WORK;yes;konuşma;has title;Elmalı Ovası’nın Geçmiş İklimi ve Kültür Tarihi;;;A;entity.label;
+514;286;WORK;yes;konuşma;topic;bölgedeki arkeolojik kültürler;;;E;entity.remark;Free text. No structure fits.
+515;286;WORK;yes;konuşma;topic;geçmiş insanların yaşadıkları çevresel sorunlar;;;E;entity.remark;Free text. No structure fits.
+516;287;STRUCT;no;başlık;heading reads;EKLER;;;F;;Structure of the printed document. The database has no place for it.
+517;287;FIGURE;yes;Resim 1;caption;Merkezi Kilise’nin kuzey ve batısındaki alanlarda 2022, 2023 ve 2024 sezonlarında gerçekleştirilen yer radarı çalışmalarının sonuçları.;;;A;entity.label of the media item;
+518;287;FIGURE;yes;Resim 2;caption;Hacımusalar Höyük’te gerçekleştirilen Elektrik Rezistivite (Özdirenç) Tomografi (ERT) çalışmasında taranan 10 profilin konumunu gösteren harita.;;;A;entity.label of the media item;
+519;288;FIGURE;yes;Resim 3;caption;(a) Resim 2’de gösterilen 240 metre uzunluktaki birinci ERT profiline ait ölçüm haritaları, (b) topoğrafik düzeltmesi yapılmış olan hat haritası üzerinde işaretlenen arkeolojik (1,4,5,6) ve jeolojik (2,3,7) katmanlar.;;;A;entity.label of the media item;
+520;288;MEASURE;yes;birinci ERT profili;measures (length);240 metre;;;D;own attribute 'hat uzunluğu';No column, relation or declared attribute for it. First tried as a measurement. Refused: dimension.entity: the entity must be of class S15
+521;288;FIGURE;yes;birinci ERT profili;is shown in figure;Resim 2;;;A;about;
+522;288;WORK;yes;hat haritası;processing;topoğrafik düzeltmesi yapılmış;;;E;entity.remark;Free text. No structure fits.
+523;288;INTERP;yes;katmanlar 1, 4, 5, 6;is interpreted as;arkeolojik;;;A;"claim, belief true; assertion interpreted_as";
+524;288;INTERP;yes;katmanlar 2, 3, 7;is interpreted as;jeolojik;;;A;"claim, belief true; assertion interpreted_as";
+525;288;FIGURE;yes;Resim 4;caption;Önceki kazı sezonlarında kısmen kazılan, her biri farklı seviyelerde bırakılan açmalar. 2024 kazı sezonunda kazısı yapılan açmalar C4b10, C4c10, C5b1, C5b2 olmuştur. Bu fotoğraf aynı zamanda 2024 sezonu sonunda Kuzey Yamaç açmalarının kapanış durumunu göstermektedir.;;;A;entity.label of the media item;
+526;288;WORK;yes;Kuzey Yamaç açmaları;state after previous seasons;kısmen kazılan, her biri farklı seviyelerde bırakılan;;;E;entity.remark;Free text. No structure fits.
+527;288;WORK;yes;2024 kazı sezonunda kazısı yapılan açmalar;are;C4b10, C4c10, C5b1, C5b2;;;A;"relation also_at; relation also_at; relation also_at; relation also_at";
+528;288;FIGURE;yes;Resim 4;shows;2024 sezonu sonunda Kuzey Yamaç açmalarının kapanış durumu;;;A;about;
+529;289;FIGURE;yes;Resim 5;caption;C4a6 açmasında yüzeyin 1 metre altında tespit edilen in situ kerpiç blok (35x35x12 cm).;;;A;entity.label of the media item;
+530;289;FIND;yes;kerpiç blok;measures (unclear: caption 35x35x12 cm, text gives 35x3x12 cm);35x35x12 cm;;;C;"dimension; dimension; dimension";own code in the list dimension_kind
+531;290;FIGURE;yes;Resim 6;caption;C4a6-C4a7-C4b7 açmalarının İHA görüntüsü. C4a6’daki 2x1 m sondajda bulunan kerpiç bloğu korumak üzere naylon örtü vardır. [...];;;A;entity.label of the media item;
+532;290;WORK;yes;Resim 6 görüntüsü;was taken with;İHA;;;A;relation used;
+533;290;LAB;yes;kerpiç blok (C4a6 sondajı);is protected by;naylon örtü;;;E;entity.remark;Free text. No structure fits.
+534;290;BUILT;yes;çöp çukuru (kuzey yarısı);position;C4a7 açmasını C4b7 açmasından ayıran eşiğin hemen altında;;;E;entity.remark;Free text. No structure fits.
+535;290;BUILT;yes;çöp çukuru (kuzey yarısı);shape;dairesel form;;;D;own attribute 'biçim';No column, relation or declared attribute for it.
+536;290;LAB;yes;çöp çukuru (kuzey yarısı);is covered by;naylon örtü;;;E;entity.remark;Free text. No structure fits.
+537;290;BUILT;yes;eşik;separates;C4a7 açması ile C4b7 açması;;;E;entity.remark;Free text. No structure fits.
+538;290;BUILT;yes;diğer çöp çukuru;position;açmanın ortasında;;;E;entity.remark;Free text. No structure fits.
+539;290;BUILT;yes;diğer çöp çukuru;shape;dairesel form;;;D;own attribute 'biçim';No column, relation or declared attribute for it.
+540;290;BUILT;yes;üçüncü çöp çukuru;position;açmanın güneydoğu köşesinde;çıkacaktır;;E;entity.remark;Free text. No structure fits.
+541;290;BUILT;yes;üçüncü çöp çukuru;depth below current level;birkaç santimetre aşağıda;çıkacaktır;;E;entity.remark;Free text. No structure fits.
+542;290;FIGURE;yes;Resim 7;caption;"C4b10 açmasının 2024 kazı sezonu sonundaki görünümü. Fotoğrafın sol alt köşesine (batıya) doğru C4b9 açması yer almaktadır; bu Kuzey Yamaç’taki en derin açmadır.";;;A;entity.label of the media item;
+543;290;FIGURE;yes;C4b9 açması;position in the photograph;fotoğrafın sol alt köşesine (batıya) doğru;;;E;entity.remark;Free text. No structure fits.
+544;290;PLACE;yes;'bu' (unclear: C4b9 or C4b10);is (unclear: referent of 'bu' not certain);Kuzey Yamaç’taki en derin açma;;;E;entity.remark;Free text. No structure fits.
+545;291;FIGURE;yes;Resim 8;caption;Merkezi Kilise’nin karelajlarını gösteren harita. Bu İHA görüntüsü 2024 kazıları başlamadan önce alınmış olup Merkezi Kilise’nin güney sınırı boyunca (kabaca A4 ve A3 noktaları arasında) kazı yapılan açmaları göstermektedir. Kazılan açmalar kırmızı okun üst kısmındadır.;;;A;entity.label of the media item;
+546;291;WORK;yes;Resim 8 İHA görüntüsü;was taken;2024 kazıları başlamadan önce;;;E;entity.remark;Free text. No structure fits.
+547;291;PLACE;yes;kazı yapılan açmalar (Merkezi Kilise);position;Merkezi Kilise’nin güney sınırı boyunca;;;B;place.part_of;An entity that holds only a name, with no kind from a list.
+548;291;PLACE;yes;kazı yapılan açmalar (Merkezi Kilise);lie between points;A4 ve A3 noktaları arasında;kabaca;;E;entity.remark;Free text. No structure fits.
+549;291;FIGURE;yes;kazılan açmalar;position in the image;kırmızı okun üst kısmında;;;E;entity.remark;Free text. No structure fits.
+550;291;FIGURE;yes;Resim 9;caption;"E4d10 açmasında kazı sırasında ortaya çıkarılan kapı eşiği ve dikmesi; tüm yapı malzemesi ikincil kullanımdır.";;;A;entity.label of the media item;
+551;291;BUILT;yes;kapı eşiği;was found in;E4d10 açması;;;A;thing.location;
+552;291;BUILT;yes;kapı dikmesi;was found in;E4d10 açması;;;A;thing.location;
+553;291;BUILT;yes;kapı eşiği ve dikmesi (E4d10);building material;tüm yapı malzemesi ikincil kullanım;;;C;"claim, belief true; assertion material_is";own code in the list material
+554;292;FIGURE;yes;Resim 10;caption;E5c4 açmasında sarnıcın hemen solunda (kuzeydoğusunda) taban döşemesi ve üzerindeki duvar örgüsünü gösteren fotoğraf.;;;A;entity.label of the media item;
+555;292;BUILT;yes;sarnıç;is located in;E5c4 açması;;;A;thing.location;
+556;292;BUILT;yes;taban döşemesi (E5c4);position;sarnıcın hemen solunda (kuzeydoğusunda);;;E;entity.remark;Free text. No structure fits.
+557;292;BUILT;yes;duvar örgüsü (E5c4);lies above;taban döşemesi;;;A;relation overlies;
+558;292;FIGURE;yes;Resim 11;caption;E5b6 açmasında Merkezi Kilise yapısının çevresinde bulunan yapının birden fazla evresine ait duvarları gösteren fotoğraf.;;;A;entity.label of the media item;
+559;292;BUILT;yes;duvarlar (E5b6);belong to;Merkezi Kilise yapısının çevresinde bulunan yapının birden fazla evresi;;;B;thing.part_of;An entity that holds only a name, with no kind from a list.
+560;292;BUILT;yes;duvarlar (birden fazla evreli yapı);is located in;E5b6 açması;;;A;thing.location;
+561;293;FIGURE;yes;Resim 12;caption;Merkezi Kilise’nin güney sınırı boyunca kazılan yedi 5x5 metre boyutlarındaki açmanın kapanış günündeki durumunu gösteren İHA fotoğrafı. Kazı yapılan açmalar kırmızı okun üst kısmındadır.;;;A;entity.label of the media item;
+562;293;WORK;yes;Resim 12 fotoğrafı;was taken with;İHA;;;A;relation used;
+563;293;WORK;yes;Resim 12 fotoğrafı;was taken on;kapanış günü;;;E;entity.remark;Free text. No structure fits.

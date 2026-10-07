@@ -1,0 +1,68 @@
+
+all statements: 679 statements
+   A typed, complete    240   35.3 %
+   B typed, part lost    58    8.5 %
+   C own term           190   28.0 %
+   D own structure       41    6.0 %
+   E text only          134   19.7 %
+   F not stored          16    2.4 %
+
+core scope: 622 statements
+   A typed, complete    235   37.8 %
+   B typed, part lost    50    8.0 %
+   C own term           186   29.9 %
+   D own structure       41    6.6 %
+   E text only          110   17.7 %
+   F not stored           0    0.0 %
+
+core scope, list: 270 statements
+   A typed, complete    115   42.6 %
+   B typed, part lost    40   14.8 %
+   C own term            92   34.1 %
+   D own structure        9    3.3 %
+   E text only           14    5.2 %
+   F not stored           0    0.0 %
+
+core scope, prose: 352 statements
+   A typed, complete    120   34.1 %
+   B typed, part lost    10    2.8 %
+   C own term            94   26.7 %
+   D own structure       32    9.1 %
+   E text only           96   27.3 %
+   F not stored           0    0.0 %
+
+per group      n     A     B     C     D     E     F
+   FIND      154    63    10    67     6     8     0
+   BUILT     121    12     4    51    17    37     0
+   WORK       72    11    12     7     2    40     0
+   DATE       64    33    12    18     0     1     0
+   MEASURE    54    28     7    17     2     0     0
+   LAB        53     6     3    22     1    21     0
+   PEOPLE     29    12     2     4    11     0     0
+   INTERP     26    26     0     0     0     0     0
+   FIGURE     25    25     0     0     0     0     0
+   DESCR      22     0     0     0     0    22     0   outside the core
+   PLACE      17    13     0     0     2     2     0
+   STRUCT     16     0     0     0     0     0    16   outside the core
+   ADMIN      11     4     2     3     0     2     0   outside the core
+   HISTORY     8     1     6     1     0     0     0   outside the core
+   DOC         7     6     0     0     0     1     0
+
+hedges 20: kept 14, lost 4, text only or not stored 2
+denials 10: kept as a claim 1, text only or not stored 9
+
+own codes by list
+     50  thing_type
+     19  condition
+     16  dimension_kind
+      9  material
+      9  reasoning_method
+      3  analysis_method
+      3  media_type
+      3  motif
+      3  role
+      2  unit
+      1  function
+
+refusals by the database
+      4  Refused: dimension

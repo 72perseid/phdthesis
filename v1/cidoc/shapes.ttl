@@ -1,0 +1,194 @@
+@prefix sh:         <http://www.w3.org/ns/shacl#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix crm:        <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/> .
+@prefix crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/> .
+@prefix kst:        <https://example.org/kst45/vocab/> .
+@prefix type:       <https://example.org/kst45/type/> .
+@prefix :           <https://example.org/kst45/shapes/> .
+
+# ---------------------------------------------------------------------------
+# Modelling rules for KST excavation-report graphs (version 3).
+# Violations mean the record or the builder broke a rule.
+# Warnings mean the PAPER did not give the information (e.g. an earlier
+# campaign mentioned without dates); they are reported, not failed.
+# ---------------------------------------------------------------------------
+
+# R1  Every activity has a label and is traced to the report.
+#     A missing time-span is a warning: papers cite earlier work without dates.
+:ActivityShape a sh:NodeShape ;
+    sh:targetClass crm:E7_Activity ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ; sh:message "R1: activity without label" ] ;
+    sh:property [ sh:path crm:P70i_is_documented_in ; sh:minCount 1 ; sh:class crm:E31_Document ;
+                  sh:message "R1: activity not traced to the report" ] ;
+    sh:property [ sh:path crm:P4_has_time_span ; sh:minCount 1 ; sh:severity sh:Warning ;
+                  sh:message "R1 (warning): the paper gives no date for this activity" ] .
+
+# R1b The campaign the report is about must be dated.
+:ReportedCampaignShape a sh:NodeShape ;
+    sh:targetObjectsOf crm:P129_is_about ;
+    sh:property [ sh:path crm:P4_has_time_span ; sh:minCount 1 ; sh:class crm:E52_Time-Span ;
+                  sh:message "R1b: the reported campaign has no time-span" ] .
+
+# R2  An excavation processing unit is also an E7 Activity, has a place, belongs to a campaign and is dated.
+:ExcavationShape a sh:NodeShape ;
+    sh:targetClass crmarchaeo:A1_Excavation_Processing_Unit ;
+    sh:class crm:E7_Activity ;
+    sh:property [ sh:path crm:P7_took_place_at ; sh:minCount 1 ; sh:class crm:E53_Place ;
+                  sh:message "R2: excavation unit without place" ] ;
+    sh:property [ sh:path crm:P9i_forms_part_of ; sh:minCount 1 ;
+                  sh:message "R2: excavation unit not part of a campaign" ] ;
+    sh:property [ sh:path crm:P4_has_time_span ; sh:minCount 1 ;
+                  sh:message "R2: excavation unit without (inherited) time-span" ] .
+
+# R3  Every find was discovered in exactly one S19 Encounter Event.
+:EncounterShape a sh:NodeShape ;
+    sh:targetClass crmsci:S19_Encounter_Event ;
+    sh:property [ sh:path crmsci:O19_encountered_object ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:message "R3: encounter without exactly one object" ] ;
+    sh:property [ sh:path crm:P9i_forms_part_of ; sh:minCount 1 ; sh:class crm:E7_Activity ;
+                  sh:message "R3: encounter not part of an activity" ] ;
+    sh:property [ sh:path crm:P7_took_place_at ; sh:minCount 1 ;
+                  sh:message "R3: encounter without place" ] .
+
+:FindShape a sh:NodeShape ;
+    sh:targetObjectsOf crmsci:O19_encountered_object ;
+    sh:property [ sh:path crm:P2_has_type ; sh:minCount 1 ; sh:class crm:E55_Type ;
+                  sh:message "R3: find without E55 type" ] ;
+    sh:property [ sh:path crmsci:O19i_was_object_encountered_at ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:message "R3: find must have exactly one encounter" ] .
+
+# R4  Dating goes through an E12 Production that falls within an E4 Period.
+#     v3: a hedged dating has no plain P10; it must then exist as a claim (E13).
+:ProductionShape a sh:NodeShape ;
+    sh:targetClass crm:E12_Production ;
+    sh:property [ sh:path crm:P108_has_produced ; sh:minCount 1 ; sh:message "R4: production without product" ] ;
+    sh:or ( [ sh:path crm:P10_falls_within ; sh:minCount 1 ]
+            [ sh:path ( [ sh:inversePath crm:P140_assigned_attribute_to ] crm:P141_assigned ) ; sh:minCount 1 ] ) ;
+    sh:property [ sh:path crm:P10_falls_within ; sh:class crm:E4_Period ;
+                  sh:message "R4: production placed in something that is not a period" ] .
+
+# R5  Time-spans are well formed.  Order is checked on integer years because
+#     BC dates cannot be compared as xsd:dateTime by the tools.  For the same
+#     reason the lexical form is checked by pattern instead of sh:datatype:
+#     rdflib/pySHACL flag every BC xsd:dateTime as ill-typed although it is valid XSD.
+:TimeSpanShape a sh:NodeShape ;
+    sh:targetClass crm:E52_Time-Span ;
+    sh:property [ sh:path crm:P82a_begin_of_the_begin ; sh:nodeKind sh:Literal ; sh:maxCount 1 ;
+                  sh:pattern "^-?\\d{4,}-\\d{2}-\\d{2}T" ; sh:message "R5: begin is not a four-digit-year dateTime" ] ;
+    sh:property [ sh:path crm:P82b_end_of_the_end ; sh:nodeKind sh:Literal ; sh:maxCount 1 ;
+                  sh:pattern "^-?\\d{4,}-\\d{2}-\\d{2}T" ; sh:message "R5: end is not a four-digit-year dateTime" ] ;
+    sh:property [ sh:path kst:beginYear ; sh:datatype xsd:integer ; sh:maxCount 1 ;
+                  sh:lessThanOrEquals kst:endYear ; sh:message "R5: begin year after end year" ] ;
+    sh:property [ sh:path kst:endYear ; sh:datatype xsd:integer ; sh:maxCount 1 ] .
+
+# R6  Roles use the PC14 property-class pattern, fully specified.
+:RoleShape a sh:NodeShape ;
+    sh:targetClass crm:PC14_carried_out_by ;
+    sh:property [ sh:path crm:P01_has_domain ; sh:minCount 1 ; sh:maxCount 1 ; sh:class crm:E7_Activity ] ;
+    sh:property [ sh:path crm:P02_has_range ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:or ( [ sh:class crm:E21_Person ] [ sh:class crm:E74_Group ] [ sh:class crm:E39_Actor ] ) ;
+                  sh:message "R6: role holder is not a person or group" ] ;
+    sh:property [ sh:path crm:P14.1_in_the_role_of ; sh:minCount 1 ; sh:maxCount 1 ; sh:class crm:E55_Type ] .
+
+# R7  Every attribute assignment (interpretation, dating, identification,
+#     stratigraphic relation) names its target, its value, its kind and its author.
+:AssignmentShape a sh:NodeShape ;
+    sh:targetClass crm:E13_Attribute_Assignment ;
+    sh:property [ sh:path crm:P140_assigned_attribute_to ; sh:minCount 1 ; sh:maxCount 1 ; sh:message "R7: assignment without a single target" ] ;
+    sh:property [ sh:path crm:P141_assigned ; sh:minCount 1 ; sh:message "R7: assignment without assigned value" ] ;
+    sh:property [ sh:path crm:P177_assigned_property_of_type ; sh:minCount 1 ; sh:message "R7: assignment without property type" ] ;
+    sh:property [ sh:path crm:P2_has_type ; sh:minCount 1 ; sh:message "R7: assignment without kind" ] ;
+    sh:property [ sh:path crm:P14_carried_out_by ; sh:minCount 1 ; sh:message "R7: assignment without author" ] .
+
+# R8  Physical things carry a label and are traced to the report.
+:PhysicalShape a sh:NodeShape ;
+    sh:targetClass crm:E22_Human-Made_Object, crm:E25_Human-Made_Feature, crm:E27_Site,
+                   crm:E20_Biological_Object, crmarchaeo:A2_Stratigraphic_Volume_Unit, crmsci:S13_Sample ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ] ;
+    sh:property [ sh:path crm:P70i_is_documented_in ; sh:minCount 1 ; sh:message "R8: physical thing not traced to the report" ] .
+
+# R9  Persons have a label; ORCID identifiers are well formed.
+:PersonShape a sh:NodeShape ;
+    sh:targetClass crm:E21_Person ;
+    sh:property [ sh:path rdfs:label ; sh:minCount 1 ] .
+
+:OrcidShape a sh:NodeShape ;
+    sh:targetNode type:orcid ;
+    sh:property [ sh:path ( [ sh:inversePath crm:P2_has_type ] rdfs:label ) ;
+                  sh:pattern "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]$" ;
+                  sh:message "R9: malformed ORCID" ] .
+
+# R10 Figures belong to the report and represent at least one entity.
+:FigureShape a sh:NodeShape ;
+    sh:targetClass crm:E36_Visual_Item ;
+    sh:property [ sh:path crm:P106i_forms_part_of ; sh:minCount 1 ; sh:class crm:E31_Document ] ;
+    sh:property [ sh:path crm:P138_represents ; sh:minCount 1 ; sh:message "R10: figure represents nothing" ] .
+
+# R11 Embedding: an A7 links exactly one find to exactly one deposit.
+:EmbeddingShape a sh:NodeShape ;
+    sh:targetClass crmarchaeo:A7_Embedding ;
+    sh:property [ sh:path crmarchaeo:AP18_is_embedding_of ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path crmarchaeo:AP19_is_embedding_in ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:class crmarchaeo:A2_Stratigraphic_Volume_Unit ; sh:message "R11: embedding without a deposit" ] .
+
+# R12 A campaign (A9) investigated a site.
+:CampaignShape a sh:NodeShape ;
+    sh:targetClass crmarchaeo:A9_Archaeological_Excavation ;
+    sh:class crm:E7_Activity ;
+    sh:property [ sh:path crmarchaeo:AP3_investigated ; sh:minCount 1 ; sh:class crm:E27_Site ;
+                  sh:message "R12: campaign without an investigated site" ] .
+
+# R13 A sample was removed by exactly one sample taking, which names its source.
+:SampleShape a sh:NodeShape ;
+    sh:targetClass crmsci:S13_Sample ;
+    sh:property [ sh:path crmsci:O5i_was_removed_by ; sh:minCount 1 ; sh:maxCount 1 ; sh:class crmsci:S2_Sample_Taking ;
+                  sh:message "R13: sample without exactly one sample taking" ] ;
+    sh:property [ sh:path crm:P2_has_type ; sh:minCount 1 ; sh:message "R13: sample without material type" ] .
+
+:SampleTakingShape a sh:NodeShape ;
+    sh:targetClass crmsci:S2_Sample_Taking ;
+    sh:property [ sh:path crmsci:O3_sampled_from ; sh:minCount 1 ; sh:message "R13: sample taking without a source" ] .
+
+# R14 An analysis observed at least one sample and has exactly one result value.
+:ObservationShape a sh:NodeShape ;
+    sh:targetClass crmsci:S4_Single_Observation ;
+    sh:property [ sh:path crmsci:O8_observed ; sh:minCount 1 ; sh:class crmsci:S13_Sample ;
+                  sh:message "R14: analysis without a sample" ] ;
+    sh:property [ sh:path crmsci:O9_observed_property_type ; sh:minCount 1 ; sh:maxCount 1 ] ;
+    sh:property [ sh:path crmsci:O16_observed_value ; sh:minCount 1 ; sh:maxCount 1 ;
+                  sh:message "R14: analysis without exactly one result" ] .
+
+# R15 Physical relations hold between stratigraphic units.
+:PhysicalRelationShape a sh:NodeShape ;
+    sh:targetSubjectsOf crmarchaeo:AP11_has_physical_relation_to ;
+    sh:class crmarchaeo:A8_Stratigraphic_Unit ;
+    sh:property [ sh:path crmarchaeo:AP11_has_physical_relation_to ; sh:class crmarchaeo:A8_Stratigraphic_Unit ;
+                  sh:message "R15: physical relation to something that is not a stratigraphic unit" ] .
+
+# R16 A plan refers to something and is never an activity.
+:PlanShape a sh:NodeShape ;
+    sh:targetClass crm:E29_Design_or_Procedure ;
+    sh:not [ sh:class crm:E7_Activity ] ;
+    sh:property [ sh:path crm:P67_refers_to ; sh:minCount 1 ; sh:message "R16: plan refers to nothing" ] .
+
+# R17 (v3) A hedged dating never appears as a plain statement as well.
+:HedgedDatingShape a sh:NodeShape ;
+    sh:targetClass crm:E13_Attribute_Assignment ;
+    sh:sparql [ sh:message "R17: a dating marked uncertain is also stated as a fact" ;
+        sh:select """
+            PREFIX crm: <http://www.cidoc-crm.org/cidoc-crm/>
+            SELECT $this WHERE {
+                $this crm:P2_has_type ?c ; crm:P140_assigned_attribute_to ?prod ; crm:P141_assigned ?per .
+                ?c crm:P127_has_broader_term ?b . ?b <http://www.w3.org/2000/01/rdf-schema#label> "certainty"@en .
+                ?prod crm:P10_falls_within ?per .
+            }""" ] .
+
+# R18 (v3) Documentation made on site names what it shows and the work that made it.
+:DocumentationShape a sh:NodeShape ;
+    sh:targetClass crm:E73_Information_Object ;
+    sh:property [ sh:path crm:P67_refers_to ; sh:minCount 1 ; sh:message "R18: documentation refers to nothing" ] ;
+    sh:property [ sh:path crm:P94i_was_created_by ; sh:minCount 1 ; sh:severity sh:Warning ;
+                  sh:message "R18 (warning): the paper does not say which work produced this documentation" ] .

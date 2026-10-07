@@ -1,0 +1,12 @@
+# CQ15 How much was excavated by which unit, and what documentation did the work produce?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?work ?what ?value ?unit WHERE {
+  { ?w crmarchaeo:AP1_produced ?m ; rdfs:label ?work . ?m crm:P43_has_dimension ?d .
+    ?d crm:P2_has_type/rdfs:label ?what ; crm:P90_has_value ?value ; crm:P91_has_unit/rdfs:label ?unit .
+    FILTER (?what != "approximate") }
+  UNION
+  { ?doc a crm:E73_Information_Object ; rdfs:label ?value ; crm:P94i_was_created_by/crm:P9i_forms_part_of ?w .
+    ?w rdfs:label ?work . BIND ("documentation" AS ?what) BIND ("" AS ?unit) }
+} ORDER BY ?work ?what

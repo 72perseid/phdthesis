@@ -1,0 +1,10 @@
+# CQ5  What does each figure show?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?figure ?page (GROUP_CONCAT(DISTINCT ?d; separator="; ") AS ?depicts) WHERE {
+  ?fig a crm:E36_Visual_Item ; rdfs:label ?figure ; kst:sourcePage ?page ; crm:P138_represents/rdfs:label ?d .
+} GROUP BY ?figure ?page ORDER BY ?page ?figure

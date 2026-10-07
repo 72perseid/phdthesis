@@ -1,0 +1,13 @@
+# CQ11 Which plant and animal taxa were identified, in which context, and who identified them?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?taxon ?remains ?context ?identified_by WHERE {
+  ?f crm:P2_has_type ?t . ?t crm:P127_has_broader_term type:taxon ; rdfs:label ?taxon . ?f rdfs:label ?remains .
+  FILTER NOT EXISTS { ?f a crmsci:S13_Sample }
+  OPTIONAL { ?f crm:P53_has_former_or_current_location/rdfs:label ?context }
+  OPTIONAL { ?id crm:P140_assigned_attribute_to ?f ; crm:P141_assigned ?t ; crm:P14_carried_out_by/rdfs:label ?identified_by }
+} ORDER BY ?taxon ?context

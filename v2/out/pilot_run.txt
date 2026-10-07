@@ -1,0 +1,127 @@
+== build
+tables            37
+ontology classes  154
+ontology props    553
+mapping rows      233
+code lists        27, codes 255
+relation types    46
+attributes        25
+templates         5
+generated checks  68
+note  CRMarchaeo writes S4_Observation. Read as S27, which is the class of that name
+== load the three papers
+
+seleukeia-sidera-2024: 409 statements tried, 0 refused, 0 without a place, 47 own codes made
+
+yumuktepe-2024: 811 statements tried, 0 refused, 0 without a place, 88 own codes made
+
+sinekkaya-2024: 944 statements tried, 0 refused, 0 without a place, 81 own codes made
+== check
+mapping 0  data 0  graph 0
+   note  yumuktepe-2024: 'BX fırını' is dated 1387 to 1476, the find 'Beyrut üretimi Brittle Ware' from it 1200 to 1299
+   note  yumuktepe-2024: 'BX fırını' is dated 1387 to 1476, the find 'Port St. Simeon kökenli renkli sırlı ve kazıma bezemeli seramik' from it 1200 to 1299
+   note  sinekkaya-2024: '2024 yontma taş buluntuları (toplam)': the printed total is 677, the parts sum to 676
+== audit
+columns with data 100  silent 5
+   dataset_actor.role: steers other paths only
+   dataset_actor.position: steers other paths only
+   entity.table_name: steers other paths only
+   entity.class: steers other paths only
+   entity.class2: steers other paths only
+== levels, own codes not linked
+
+seleukeia-sidera-2024: 747 statements
+   level 1 typed        664   88.9 %
+   level 2 template       1    0.1 %
+   level 3 own           58    7.8 %
+   level 4 text          24    3.2 %
+   levels 1 and 2          665   89.0 %
+
+sinekkaya-2024: 1520 statements
+   level 1 typed       1282   84.3 %
+   level 2 template       0    0.0 %
+   level 3 own          131    8.6 %
+   level 4 text         107    7.0 %
+   levels 1 and 2         1282   84.3 %
+
+yumuktepe-2024: 1404 statements
+   level 1 typed       1183   84.3 %
+   level 2 template       4    0.3 %
+   level 3 own          146   10.4 %
+   level 4 text          71    5.1 %
+   levels 1 and 2         1187   84.5 %
+== levels, after linking own codes to standard codes
+27 own codes linked to a standard code
+
+seleukeia-sidera-2024: 743 statements
+   level 1 typed        672   90.4 %
+   level 2 template       1    0.1 %
+   level 3 own           46    6.2 %
+   level 4 text          24    3.2 %
+   levels 1 and 2          673   90.6 %
+
+sinekkaya-2024: 1519 statements
+   level 1 typed       1292   85.1 %
+   level 2 template       0    0.0 %
+   level 3 own          120    7.9 %
+   level 4 text         107    7.0 %
+   levels 1 and 2         1292   85.1 %
+
+yumuktepe-2024: 1387 statements
+   level 1 typed       1194   86.1 %
+   level 2 template       4    0.3 %
+   level 3 own          118    8.5 %
+   level 4 text          71    5.1 %
+   levels 1 and 2         1198   86.4 %
+== graphs and views
+statements 2365  path errors 0  against the ontology 0
+   out/view/seleukeia-sidera-2024_actor.csv: 17 rows, 9 columns
+   out/view/seleukeia-sidera-2024_place.csv: 9 rows, 8 columns
+   out/view/seleukeia-sidera-2024_period.csv: 9 rows, 9 columns
+   out/view/seleukeia-sidera-2024_activity.csv: 14 rows, 20 columns
+   out/view/seleukeia-sidera-2024_thing.csv: 44 rows, 21 columns
+   out/view/seleukeia-sidera-2024_source.csv: 2 rows, 16 columns
+   out/view/seleukeia-sidera-2024_passage.csv: 17 rows, 7 columns
+   out/view/seleukeia-sidera-2024_media.csv: 14 rows, 7 columns
+statements 4490  path errors 0  against the ontology 0
+   out/view/yumuktepe-2024_actor.csv: 41 rows, 9 columns
+   out/view/yumuktepe-2024_place.csv: 10 rows, 8 columns
+   out/view/yumuktepe-2024_period.csv: 19 rows, 11 columns
+   out/view/yumuktepe-2024_activity.csv: 28 rows, 22 columns
+   out/view/yumuktepe-2024_thing.csv: 79 rows, 37 columns
+   out/view/yumuktepe-2024_source.csv: 7 rows, 18 columns
+   out/view/yumuktepe-2024_passage.csv: 18 rows, 7 columns
+   out/view/yumuktepe-2024_media.csv: 8 rows, 7 columns
+statements 5195  path errors 0  against the ontology 0
+   out/view/sinekkaya-2024_actor.csv: 30 rows, 9 columns
+   out/view/sinekkaya-2024_place.csv: 7 rows, 8 columns
+   out/view/sinekkaya-2024_period.csv: 9 rows, 7 columns
+   out/view/sinekkaya-2024_activity.csv: 12 rows, 23 columns
+   out/view/sinekkaya-2024_thing.csv: 87 rows, 23 columns
+   out/view/sinekkaya-2024_source.csv: 5 rows, 18 columns
+   out/view/sinekkaya-2024_passage.csv: 15 rows, 7 columns
+   out/view/sinekkaya-2024_media.csv: 14 rows, 10 columns
+== tests on a fresh copy
+part 1: 42 of 42 wrong entries refused
+   ok     the conflict between the oven and its pottery is listed
+   ok     revising the laboratory date reaches the wall and the interpretation
+   ok     the graph has no statement against the ontology (417 statements)
+   ok     the negative statement is in the graph as a claim and not as a fact
+   ok     the probable period of the sherd is not written as a fact
+   ok     the possible find place of the bone is not written as a fact
+   ok     a loop in the stratigraphy is reported
+   ok     an empty sheet is written
+   ok     a filled sheet with an unknown column and an unknown term is stored
+   ok     the unknown term became an own code
+   ok     the unknown column became an own attribute with two values
+   ok     'Roma Dönemi?' became a possible date
+   ok     a sheet that names an unknown context is refused as a whole
+   ok     a count table is stored
+   ok     the row and the column whose printed totals do not match are reported, and nothing else
+         'dilgi': the printed total is 15, the parts sum to 14
+         'Neolitik?': the printed total is 5, the parts sum to 4
+   ok     a survey sheet with coordinates is stored
+   ok     the check finds nothing wrong
+   ok     every column with data reaches the graph
+   ok     the view shows the own attribute, the negative statement and the hedged date
+part 2: 19 of 19 passed

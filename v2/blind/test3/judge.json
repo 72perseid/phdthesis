@@ -1,0 +1,902 @@
+[
+ {
+  "n": 5,
+  "outcome": "A",
+  "where": "relation authored_by (source E31 -> actor E21)",
+  "why": "Declared relation holds author; nothing lost."
+ },
+ {
+  "n": 13,
+  "outcome": "A",
+  "where": "actor.member_of -> E74",
+  "why": "Affiliation fits the column member_of with an institution entity."
+ },
+ {
+  "n": 24,
+  "outcome": "B",
+  "where": "activity.part_of; activity entity with label only",
+  "why": "Work area is a work entity linked by part_of but holds only a name, no kind from the list."
+ },
+ {
+  "n": 39,
+  "outcome": "B",
+  "where": "participation.role = role/funder, actor = ministry (E74)",
+  "why": "Funder is stored typed; the qualifier \"ödenek yardımı\" is lost."
+ },
+ {
+  "n": 41,
+  "outcome": "A",
+  "where": "relation also_at (activity -> place E53, place.type square)",
+  "why": "Declared relation to a grid square with standard place type."
+ },
+ {
+  "n": 48,
+  "outcome": "A",
+  "where": "relation also_at (activity -> place E53, place.type square)",
+  "why": "Declared relation to a grid square with standard place type."
+ },
+ {
+  "n": 50,
+  "outcome": "B",
+  "where": "actor.member_of -> E74 with one name",
+  "why": "University, faculty and department are kept in one name (case of 4.3)."
+ },
+ {
+  "n": 51,
+  "outcome": "D",
+  "where": "relation.property P74 raw (E74 -> place E53)",
+  "why": "No column or declared relation for the address of an institution; raw ontology property needed."
+ },
+ {
+  "n": 60,
+  "outcome": "D",
+  "where": "attribute_value with own attribute \"title\" on E21",
+  "why": "No column or declared attribute for a title of a person."
+ },
+ {
+  "n": 61,
+  "outcome": "A",
+  "where": "actor.member_of -> E74",
+  "why": "Affiliation fits the column member_of with an institution entity."
+ },
+ {
+  "n": 62,
+  "outcome": "D",
+  "where": "relation.property P74 raw (E74 -> place E53)",
+  "why": "No column or declared relation for the address of an institution; raw ontology property needed."
+ },
+ {
+  "n": 63,
+  "outcome": "D",
+  "where": "attribute_value with own attribute \"title\" on E21",
+  "why": "No column or declared attribute for a title of a person."
+ },
+ {
+  "n": 64,
+  "outcome": "A",
+  "where": "actor.member_of -> E74",
+  "why": "Affiliation fits the column member_of with an institution entity."
+ },
+ {
+  "n": 65,
+  "outcome": "D",
+  "where": "relation.property P74 raw (E74 -> place E53)",
+  "why": "No column or declared relation for the address of an institution; raw ontology property needed."
+ },
+ {
+  "n": 67,
+  "outcome": "E",
+  "where": "remark of the source / passage",
+  "why": "A heading is only text; no typed place for headings."
+ },
+ {
+  "n": 71,
+  "outcome": "D",
+  "where": "own attribute on place E53 (dimension refused)",
+  "why": "dimension.entity refuses class E53 (must be S15); only an own attribute takes the size of the trench."
+ },
+ {
+  "n": 72,
+  "outcome": "D",
+  "where": "own attribute on place E53 (dimension refused)",
+  "why": "R27 puts the opening level on the trench, dimension refuses E53; own attribute needed."
+ },
+ {
+  "n": 75,
+  "outcome": "D",
+  "where": "attribute_value with own attribute on A2",
+  "why": "Declared soil attributes are colour, texture, compaction, inclusions; dryness needs an own attribute."
+ },
+ {
+  "n": 80,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "\"mozaik parçaları\" matches no thing_type code exactly."
+ },
+ {
+  "n": 83,
+  "outcome": "E",
+  "where": "entity.remark of the examination activity",
+  "why": "What was asked in the examination is a question in words; group WORK so free text is E."
+ },
+ {
+  "n": 84,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "\"statumen tabakası\" is not in thing_type."
+ },
+ {
+  "n": 85,
+  "outcome": "A",
+  "where": "dimension kind elevation, unit m",
+  "why": "Elevation of a thing (S15) stored as a typed measurement."
+ },
+ {
+  "n": 89,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim belief probable/possible",
+  "why": "INTERP statement in the declared text relation; hedge stored in the claim."
+ },
+ {
+  "n": 93,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "\"duvar yapısı\" is not exactly \"duvar\" (R17)."
+ },
+ {
+  "n": 96,
+  "outcome": "D",
+  "where": "attribute_value with own attribute (building technique)",
+  "why": "No declared attribute for the masonry technique."
+ },
+ {
+  "n": 97,
+  "outcome": "D",
+  "where": "attribute_value with own attribute (orientation)",
+  "why": "No column or declared attribute for orientation."
+ },
+ {
+  "n": 100,
+  "outcome": "C",
+  "where": "assertion condition / attribute preservation, own code",
+  "why": "Condition term is not in the list condition."
+ },
+ {
+  "n": 106,
+  "outcome": "D",
+  "where": "attribute_value with own attribute (orientation)",
+  "why": "No column or declared attribute for orientation."
+ },
+ {
+  "n": 120,
+  "outcome": "C",
+  "where": "thing.part_of; part entity with thing.type own code",
+  "why": "Part link is typed but the named kind \"tuğla sırası\" becomes an own code (R28)."
+ },
+ {
+  "n": 121,
+  "outcome": "D",
+  "where": "attribute_value with own attribute (orientation)",
+  "why": "No column or declared attribute for orientation."
+ },
+ {
+  "n": 127,
+  "outcome": "D",
+  "where": "relation.property AP11 raw (class2 A8)",
+  "why": "No declared relation for \"surrounded by\"; raw ontology property."
+ },
+ {
+  "n": 129,
+  "outcome": "B",
+  "where": "dimension kind length, unit cm",
+  "why": "Value typed; qualifier \"ölçülebilen toplam\" is lost."
+ },
+ {
+  "n": 133,
+  "outcome": "B",
+  "where": "dimension kind width on the grave",
+  "why": "Value typed; that it is the inside of the grave is lost."
+ },
+ {
+  "n": 137,
+  "outcome": "E",
+  "where": "entity.remark of an activity",
+  "why": "A step described in a sentence is not an entity (R25); text only."
+ },
+ {
+  "n": 141,
+  "outcome": "A",
+  "where": "attribute_value sex (declared, E20) with claim",
+  "why": "Declared attribute with claim carrying the hedge."
+ },
+ {
+  "n": 148,
+  "outcome": "C",
+  "where": "assertion condition / attribute preservation, own code",
+  "why": "\"oldukça kötü\" is not in the list condition."
+ },
+ {
+  "n": 150,
+  "outcome": "C",
+  "where": "assertion condition / attribute preservation, own code",
+  "why": "\"oldukça kötü\" is not in the list condition."
+ },
+ {
+  "n": 155,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "A decision described in words; no typed place."
+ },
+ {
+  "n": 156,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim",
+  "why": "INTERP statement in the declared text relation with a claim (R26)."
+ },
+ {
+  "n": 169,
+  "outcome": "A",
+  "where": "media (E36) + identifier figure_number + about -> thing",
+  "why": "Figure mention stored as media item about the thing."
+ },
+ {
+  "n": 171,
+  "outcome": "D",
+  "where": "attribute_value with own attribute (text)",
+  "why": "dimension needs a number; \"az sayıda\" fits only an own attribute."
+ },
+ {
+  "n": 173,
+  "outcome": "A",
+  "where": "thing.type = thing_type/coin",
+  "why": "\"sikke\" equals the Turkish label of coin."
+ },
+ {
+  "n": 181,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "Grave kind \"çatkı mezar\" is not in thing_type."
+ },
+ {
+  "n": 185,
+  "outcome": "A",
+  "where": "dimension kind elevation, unit m",
+  "why": "Elevation of a thing (S15) stored as a typed measurement."
+ },
+ {
+  "n": 186,
+  "outcome": "D",
+  "where": "attribute_value with own attribute (orientation)",
+  "why": "No column or declared attribute for orientation."
+ },
+ {
+  "n": 187,
+  "outcome": "C",
+  "where": "assertion depicts_motif with own code (attribute decoration refused for E25)",
+  "why": "List motif has no such code; declared attribute decoration applies to E22 only."
+ },
+ {
+  "n": 193,
+  "outcome": "B",
+  "where": "place.part_of",
+  "why": "Containment stored; \"in the south\" is lost."
+ },
+ {
+  "n": 211,
+  "outcome": "C",
+  "where": "thing.material own code",
+  "why": "\"monolit taş\" is not exactly \"taş\" (R17, R18)."
+ },
+ {
+  "n": 220,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "Grave kind \"çatkı mezar\" is not in thing_type."
+ },
+ {
+  "n": 224,
+  "outcome": "A",
+  "where": "media (E36) + identifier figure_number + about -> thing",
+  "why": "Figure mention stored as media item about the thing."
+ },
+ {
+  "n": 227,
+  "outcome": "C",
+  "where": "dimension kind count with own unit code",
+  "why": "Number is typed but \"birey\"/\"bebek\" as what is counted is not in the unit list."
+ },
+ {
+  "n": 229,
+  "outcome": "C",
+  "where": "relation lies_in -> plate entity with own thing.type",
+  "why": "Relation declared; the plates need an own kind code."
+ },
+ {
+  "n": 237,
+  "outcome": "A",
+  "where": "dimension kind width/height, unit cm",
+  "why": "Named measurement with standard kind and unit on a built feature."
+ },
+ {
+  "n": 238,
+  "outcome": "C",
+  "where": "thing.part_of; plaster entity with thing.type own code",
+  "why": "\"sıva\" is a material code, not a thing_type; coating entity needs an own kind."
+ },
+ {
+  "n": 239,
+  "outcome": "D",
+  "where": "attribute_value with own attribute (colour)",
+  "why": "soil_colour applies to A8 only; colour of plaster needs an own attribute."
+ },
+ {
+  "n": 247,
+  "outcome": "C",
+  "where": "find_context.found_in -> place with place.type own code \"boşluk\"",
+  "why": "The gap is a measured place; its kind is not in place_type."
+ },
+ {
+  "n": 250,
+  "outcome": "E",
+  "where": "entity.remark of an activity",
+  "why": "A step described in a sentence is not an entity (R25); text only."
+ },
+ {
+  "n": 254,
+  "outcome": "A",
+  "where": "dimension kind width/height, unit cm",
+  "why": "Named measurement with standard kind and unit on a built feature."
+ },
+ {
+  "n": 255,
+  "outcome": "A",
+  "where": "dimension kind width/height, unit cm",
+  "why": "Named measurement with standard kind and unit on a built feature."
+ },
+ {
+  "n": 270,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim belief probable/possible",
+  "why": "INTERP statement in the declared text relation; hedge stored in the claim."
+ },
+ {
+  "n": 277,
+  "outcome": "A",
+  "where": "find_context.found_in -> grave (E25)",
+  "why": "Find place is a known thing of class E18."
+ },
+ {
+  "n": 285,
+  "outcome": "A",
+  "where": "find_context.found_in -> grave (E25)",
+  "why": "Find place is a known thing of class E18."
+ },
+ {
+  "n": 286,
+  "outcome": "E",
+  "where": "entity.remark of an activity",
+  "why": "A step described in a sentence is not an entity (R25); text only."
+ },
+ {
+  "n": 289,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim",
+  "why": "INTERP statement in the declared text relation with a claim (R26)."
+ },
+ {
+  "n": 292,
+  "outcome": "C",
+  "where": "dimension kind count with own unit code",
+  "why": "Number is typed but \"birey\"/\"bebek\" as what is counted is not in the unit list."
+ },
+ {
+  "n": 295,
+  "outcome": "C",
+  "where": "dimension.kind own code \"iç uzunluk\"",
+  "why": "\"iç uzunluk\" is not exactly \"uzunluk\" (R17)."
+ },
+ {
+  "n": 297,
+  "outcome": "A",
+  "where": "dimension kind width/height, unit cm",
+  "why": "Named measurement with standard kind and unit on a built feature."
+ },
+ {
+  "n": 307,
+  "outcome": "A",
+  "where": "dimension kind elevation, unit m",
+  "why": "Elevation of a thing (S15) stored as a typed measurement."
+ },
+ {
+  "n": 308,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "A position described in words (R25)."
+ },
+ {
+  "n": 316,
+  "outcome": "C",
+  "where": "find_context.found_in -> deposit A2 with thing.type own code",
+  "why": "Deposit \"kül toprağı\" needs an own kind code."
+ },
+ {
+  "n": 318,
+  "outcome": "C",
+  "where": "dimension.kind own code \"doğu-batı\"",
+  "why": "Direction of measurement is no standard dimension kind."
+ },
+ {
+  "n": 322,
+  "outcome": "C",
+  "where": "dimension.kind own code, two values",
+  "why": "\"a x b\" without names; no standard kind fits without guessing."
+ },
+ {
+  "n": 327,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim belief probable/possible",
+  "why": "INTERP statement in the declared text relation; hedge stored in the claim."
+ },
+ {
+  "n": 332,
+  "outcome": "B",
+  "where": "relation overlies (turned), class2 A8",
+  "why": "Relation stored; \"büyük çoğunluğu\" is lost."
+ },
+ {
+  "n": 349,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim belief probable/possible",
+  "why": "INTERP statement in the declared text relation; hedge stored in the claim."
+ },
+ {
+  "n": 351,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "\"kline\" is not in thing_type."
+ },
+ {
+  "n": 352,
+  "outcome": "B",
+  "where": "thing.part_of / lies_in -> hypogeum",
+  "why": "Link stored; the part \"south side\"/\"north face\" is lost."
+ },
+ {
+  "n": 356,
+  "outcome": "A",
+  "where": "dimension kind height, approx = 1",
+  "why": "\"yaklaşık\" is stored as the approximate flag."
+ },
+ {
+  "n": 359,
+  "outcome": "A",
+  "where": "dimension kind elevation, unit m",
+  "why": "Elevation of a thing (S15) stored as a typed measurement."
+ },
+ {
+  "n": 364,
+  "outcome": "A",
+  "where": "assertion made_by (E25 -> E74) with claim",
+  "why": "Declared conclusion relation with claim."
+ },
+ {
+  "n": 368,
+  "outcome": "A",
+  "where": "thing.material = material/stone",
+  "why": "\"taş\" equals the label of stone."
+ },
+ {
+  "n": 371,
+  "outcome": "B",
+  "where": "thing.part_of / lies_in -> hypogeum",
+  "why": "Link stored; the part \"south side\"/\"north face\" is lost."
+ },
+ {
+  "n": 375,
+  "outcome": "C",
+  "where": "dimension.kind own code; no claim on dimension",
+  "why": "Kind north-south is an own code, and the hedge cannot be stored on a dimension."
+ },
+ {
+  "n": 379,
+  "outcome": "C",
+  "where": "thing.part_of; stairs entity with thing.type own code",
+  "why": "\"merdiven\" is not in thing_type."
+ },
+ {
+  "n": 382,
+  "outcome": "E",
+  "where": "entity.remark of the activity",
+  "why": "An aim is not an entity (R25); text only."
+ },
+ {
+  "n": 390,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "Judgement or general description; group DESCR so free text is E (R26)."
+ },
+ {
+  "n": 396,
+  "outcome": "E",
+  "where": "entity.remark (claim cannot attach)",
+  "why": "Judgement with denial and attribution; group ADMIN, only free text possible."
+ },
+ {
+  "n": 401,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "Judgement or general description; group DESCR so free text is E (R26)."
+ },
+ {
+  "n": 405,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "Judgement or general description; group DESCR so free text is E (R26)."
+ },
+ {
+  "n": 407,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "Judgement or general description; group DESCR so free text is E (R26)."
+ },
+ {
+  "n": 408,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "Judgement or general description; group DESCR so free text is E (R26)."
+ },
+ {
+  "n": 412,
+  "outcome": "B",
+  "where": "participation (actor, activity) without role; activity with name only",
+  "why": "Link typed; the work holds only a compound name without a kind from the list."
+ },
+ {
+  "n": 426,
+  "outcome": "A",
+  "where": "dimension kind count, unit piece",
+  "why": "Count with standard kind and unit."
+ },
+ {
+  "n": 429,
+  "outcome": "B",
+  "where": "dating (period, claim) + dimension count with unit percent",
+  "why": "Share is stored only as a count in percent; \"share\"/\"çok az\" is weakened."
+ },
+ {
+  "n": 430,
+  "outcome": "B",
+  "where": "dating (period, claim) + dimension count with unit percent",
+  "why": "Share is stored only as a count in percent; \"share\"/\"çok az\" is weakened."
+ },
+ {
+  "n": 432,
+  "outcome": "C",
+  "where": "dimension count with unit own code \"poşet\"",
+  "why": "\"poşet\" is not in the unit list."
+ },
+ {
+  "n": 435,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "Kind term matches no thing_type code or label exactly."
+ },
+ {
+  "n": 438,
+  "outcome": "A",
+  "where": "find_context.found_in -> trench (E53)",
+  "why": "Find place is a place entity of allowed class."
+ },
+ {
+  "n": 441,
+  "outcome": "A",
+  "where": "dating.period with claim",
+  "why": "Period entity and claim stored."
+ },
+ {
+  "n": 445,
+  "outcome": "C",
+  "where": "dimension count with unit own code \"poşet\"",
+  "why": "\"poşet\" is not in the unit list."
+ },
+ {
+  "n": 457,
+  "outcome": "B",
+  "where": "dating.period with claim on the assemblage",
+  "why": "Period stored; qualifier \"genel yoğunluğu\" is lost."
+ },
+ {
+  "n": 460,
+  "outcome": "A",
+  "where": "find_context.found_in -> trench (E53)",
+  "why": "Find place is a place entity of allowed class."
+ },
+ {
+  "n": 465,
+  "outcome": "B",
+  "where": "dating.period with claim on the assemblage",
+  "why": "Period stored; qualifier \"genel yoğunluğu\" is lost."
+ },
+ {
+  "n": 468,
+  "outcome": "A",
+  "where": "find_context.found_in -> trench (E53)",
+  "why": "Find place is a place entity of allowed class."
+ },
+ {
+  "n": 473,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "Kind term matches no thing_type code or label exactly."
+ },
+ {
+  "n": 477,
+  "outcome": "A",
+  "where": "find_context.found_in -> trench (E53)",
+  "why": "Find place is a place entity of allowed class."
+ },
+ {
+  "n": 486,
+  "outcome": "A",
+  "where": "dating.period with claim",
+  "why": "Period entity and claim stored."
+ },
+ {
+  "n": 497,
+  "outcome": "B",
+  "where": "dating.period with claim on the assemblage",
+  "why": "Period stored; qualifier \"genel yoğunluğu\" is lost."
+ },
+ {
+  "n": 501,
+  "outcome": "A",
+  "where": "dating.period with claim",
+  "why": "Period entity and claim stored."
+ },
+ {
+  "n": 506,
+  "outcome": "A",
+  "where": "dating.begin/end, scale CE, with claim",
+  "why": "Centuries stored as bounds in years."
+ },
+ {
+  "n": 507,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "Kind term matches no thing_type code or label exactly."
+ },
+ {
+  "n": 509,
+  "outcome": "A",
+  "where": "dating.period with claim",
+  "why": "Period entity and claim stored."
+ },
+ {
+  "n": 520,
+  "outcome": "A",
+  "where": "dating.period with claim",
+  "why": "Period entity and claim stored."
+ },
+ {
+  "n": 525,
+  "outcome": "A",
+  "where": "find_context.found_in -> trench (E53)",
+  "why": "Find place is a place entity of allowed class."
+ },
+ {
+  "n": 538,
+  "outcome": "B",
+  "where": "dating.period with claim on the assemblage",
+  "why": "Period stored; qualifier \"genel yoğunluğu\" is lost."
+ },
+ {
+  "n": 545,
+  "outcome": "A",
+  "where": "dating.period with claim",
+  "why": "Period entity and claim stored."
+ },
+ {
+  "n": 546,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "Kind term matches no thing_type code or label exactly."
+ },
+ {
+  "n": 549,
+  "outcome": "C",
+  "where": "dimension count with unit own code \"poşet\"",
+  "why": "\"poşet\" is not in the unit list."
+ },
+ {
+  "n": 554,
+  "outcome": "A",
+  "where": "find_context.found_in -> trench (E53)",
+  "why": "Find place is a place entity of allowed class."
+ },
+ {
+  "n": 561,
+  "outcome": "A",
+  "where": "dating.period with claim",
+  "why": "Period entity and claim stored."
+ },
+ {
+  "n": 565,
+  "outcome": "E",
+  "where": "remark of the source / passage",
+  "why": "A heading is only text; no typed place for headings."
+ },
+ {
+  "n": 571,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "Kind term matches no thing_type code or label exactly."
+ },
+ {
+  "n": 572,
+  "outcome": "A",
+  "where": "thing.material = material/metal",
+  "why": "\"metal\" equals the code."
+ },
+ {
+  "n": 574,
+  "outcome": "A",
+  "where": "dimension count, unit piece; relation modified from conservation",
+  "why": "Count typed and link to conservation declared."
+ },
+ {
+  "n": 578,
+  "outcome": "C",
+  "where": "activity (E11) type own code",
+  "why": "The step is named as a technique; not in activity_type."
+ },
+ {
+  "n": 580,
+  "outcome": "C",
+  "where": "relation used -> tool entity with thing.type own code",
+  "why": "Relation declared; tool kind is an own code."
+ },
+ {
+  "n": 585,
+  "outcome": "E",
+  "where": "entity.remark of the activity",
+  "why": "A step described in a sentence (R25); text only."
+ },
+ {
+  "n": 587,
+  "outcome": "C",
+  "where": "assertion condition, own code",
+  "why": "Condition term not in the list."
+ },
+ {
+  "n": 589,
+  "outcome": "E",
+  "where": "entity.remark of the activity",
+  "why": "A step described in a sentence (R25); text only."
+ },
+ {
+  "n": 591,
+  "outcome": "C",
+  "where": "relation used -> tool entity with thing.type own code",
+  "why": "Relation declared; tool kind is an own code."
+ },
+ {
+  "n": 596,
+  "outcome": "E",
+  "where": "entity.remark of an earlier-work activity",
+  "why": "\"önceki yıllarda\" cannot be stored as years; value is only text."
+ },
+ {
+  "n": 597,
+  "outcome": "E",
+  "where": "entity.remark of the activity",
+  "why": "A step described in a sentence (R25); text only."
+ },
+ {
+  "n": 600,
+  "outcome": "D",
+  "where": "own attribute on the analysis activity",
+  "why": "No column or declared relation for what an analysis examined."
+ },
+ {
+  "n": 602,
+  "outcome": "D",
+  "where": "own attribute on the analysis activity",
+  "why": "No column or declared relation for what an analysis examined."
+ },
+ {
+  "n": 603,
+  "outcome": "C",
+  "where": "relation observed -> bones; attribute skeletal_element own code",
+  "why": "List skeletal_element has no codes; \"first\" also lost."
+ },
+ {
+  "n": 618,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "General result in words; group LAB so free text is E."
+ },
+ {
+  "n": 621,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "General result in words; group LAB so free text is E."
+ },
+ {
+  "n": 630,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim",
+  "why": "INTERP statement in the declared text relation with a claim (R26)."
+ },
+ {
+  "n": 636,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "General result in words; group LAB so free text is E."
+ },
+ {
+  "n": 637,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim belief probable/possible",
+  "why": "INTERP statement in the declared text relation; hedge stored in the claim."
+ },
+ {
+  "n": 640,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "Judgement or general description; group DESCR so free text is E (R26)."
+ },
+ {
+  "n": 643,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "Judgement or general description; group DESCR so free text is E (R26)."
+ },
+ {
+  "n": 646,
+  "outcome": "A",
+  "where": "dimension count, unit piece on the group of graves",
+  "why": "Count with standard kind and unit."
+ },
+ {
+  "n": 648,
+  "outcome": "A",
+  "where": "dimension count, unit piece on the group of graves",
+  "why": "Count with standard kind and unit."
+ },
+ {
+  "n": 657,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "Kind term matches no thing_type code or label exactly."
+ },
+ {
+  "n": 663,
+  "outcome": "E",
+  "where": "entity.remark",
+  "why": "Judgement or general description; group DESCR so free text is E (R26)."
+ },
+ {
+  "n": 667,
+  "outcome": "A",
+  "where": "media entity.label + identifier figure_number",
+  "why": "Caption is the name of the image; figure number typed."
+ },
+ {
+  "n": 670,
+  "outcome": "A",
+  "where": "media entity.label + identifier figure_number",
+  "why": "Caption is the name of the image; figure number typed."
+ },
+ {
+  "n": 674,
+  "outcome": "A",
+  "where": "media entity.label + identifier figure_number",
+  "why": "Caption is the name of the image; figure number typed."
+ },
+ {
+  "n": 678,
+  "outcome": "A",
+  "where": "media entity.label + identifier figure_number",
+  "why": "Caption is the name of the image; figure number typed."
+ }
+]

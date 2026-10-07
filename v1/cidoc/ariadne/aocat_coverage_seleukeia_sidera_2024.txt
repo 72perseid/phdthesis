@@ -1,0 +1,33 @@
+AO-Cat coverage for: Seleukeia Sidera Antik Kenti 2024 Yılı Çalışmaları
+
+AO-Cat property                         obligation                           status     note
+------------------------------------------------------------------------------------------------------------------------------------------
+has_title                               mandatory                            have       Seleukeia Sidera Antik Kenti 2024 Yılı Çalışmaları
+has_description                         optional                             derivable  no abstract in the record; could be generated from the campaign note
+has_type                                mandatory                            derivable  'excavation report' is recorded; must be one AO_Concept
+has_original_id                         mandatory                            have       https://example.org/kst45/seleukeia-sidera-2024/document/report
+has_identifier                          optional                             have       ISBN of the volume; the paper has no DOI
+has_language                            mandatory                            have       tr
+has_creator                             mandatory                            have       4 authors
+has_publisher                           mandatory                            have       kvmgm
+has_contributor                         mandatory                            derivable  in ARIADNE this is the body supplying the record; not in the paper
+has_owner                               mandatory                            derivable  rights holder; KST states copyright passes to KVMGM, not recorded by us
+has_responsible                         mandatory                            derivable  scientifically responsible person; director if the paper names one
+was_issued / was_modified               mandatory                            derivable  dates of the catalogue record, set at aggregation time
+was_created_on                          mandatory                            have       2026
+has_access_rights                       mandatory                            MISSING    licence / access statement is not recorded
+has_landing_page                        optional                             MISSING    no URL of the published paper recorded
+has_ARIADNE_subject                     mandatory                            derivable  one of the ARIADNE categories, e.g. 'Fieldwork report'
+has_native_subject                      mandatory                            have       32 local type terms (coin, oven, pithos ...)
+has_derived_subject (Getty AAT)         mandatory                            MISSING    no term is mapped to AAT; all types are local labels
+has_spatial_coverage                    mandatory                            have       8 named places
+  has_place_name                        mandatory                            have       Isparta ili
+  has_country_code                      mandatory                            MISSING    country never recorded (papers assume Türkiye)
+  has_latitude / has_longitude (WGS84)  needed for map search                MISSING    no coordinates anywhere in the record
+has_temporal_coverage                   optional but drives 'When' search    have       9 period labels
+  has_native_period                     mandatory                            have       Helenistik Dönem, Roma İmparatorluk Dönemi, Severuslar Dönemi ...
+  has_period (PeriodO)                  needed for cross-collection search   MISSING    no period is linked to a PeriodO definition
+  from / until (xsd:gYear)              optional                             have       3 of 9 periods carry years
+
+mandatory fields: 10 held, 6 derivable, 3 missing, of 19
+not mandatory but required for the portal's map and period search: coordinates, PeriodO links

@@ -1,0 +1,248 @@
+out/yumuktepe_2024.ttl: 3667 triples
+SHACL: conforms (0 violations, 4 warnings)
+  warning: R1 (warning): the paper gives no date for this activity -> GYA kazıları (Eric Jean ve Isabella Caneva)
+  warning: R1 (warning): the paper gives no date for this activity -> Garstang kazıları
+  warning: R1 (warning): the paper gives no date for this activity -> Yumuktepe Arkeopark ve Çevre Düzenlemesi Projesi
+  warning: R1 (warning): the paper gives no date for this activity -> İtalyan Kazı Heyeti kazıları (Caneva kazıları)
+
+=== cq01_finds_by_activity: CQ1  What was found, by which activity, where, and in what quantity?
+activity                                             find                                                          type            count  place                                                     page
+---------------------------------------------------  ------------------------------------------------------------  --------------  -----  --------------------------------------------------------  ----
+AA 15 açması kazısı 2024                             A701 el yapımı, kaba hamurlu, kırmızı astarlı çanak çömlek    pottery sherds         A701 yapı katı (konum)                                    267 
+AA 15 açması kazısı 2024                             A701 kül dolgusundan bitki kalıntıları                        plant remains          A701 at nalı biçimli ocak (konum)                         267 
+BB 15 açması kazısı 2024                             B2X ocağı demir cürufları                                     slag                   B2X ocağı (konum)                                         269 
+BB 15 açması kazısı 2024                             B3 ocağındaki hayvan kemikleri                                animal bone            B3 ocağı (konum)                                          270 
+BB 15 açması kazısı 2024                             BX fırınından bitki kalıntıları                               plant remains          BX fırını (konum)                                         269 
+BB 15 açması kazısı 2024                             Beyrut üretimi Brittle Ware                                   pottery sherds         BX fırını (konum)                                         269 
+BB 15 açması kazısı 2024                             Patika boyunca Orta Çağ çömlek parçaları, küçük taşlar ve ca  mixed finds            Orta Çağ patikası (konum)                                 270 
+BB 15 açması kazısı 2024                             Port St. Simeon kökenli renkli sırlı ve kazıma bezemeli sera  pottery sherds         BX fırını (konum)                                         269 
+BB 15 açması kazısı 2024                             Suriye menşeli mavi sırlı ithal seramik parçaları             pottery sherds         B3 yapısı (kerpiç bloklardan) (konum)                     270 
+BB 15 açması kazısı 2024                             Çukurdaki tilki, keçi/koyun ve kuş kemikleri                  animal bone            B2X ocağını tahrip eden çukur (konum)                     269 
+DD 15 açması kazısı 2024                             M1 çanak çömleği                                              pottery sherds         Mekân 1 (M1) (konum)                                      270 
+DD 15 açması kazısı 2024                             Tezgâh ağırlığı                                               loom weight            Mekân 1 (M1) (konum)                                      270 
+DD 15 açması kazısı 2024                             Tunç ok ucu                                                   arrowhead              Mekân 1 (M1) (konum)                                      270 
+EE 18 açması kazısı 2024                             D1 birimindeki büyükbaş hayvan kemikleri                      animal bone            D1 (özensiz taşlarla çevrili kare birim) (konum)          271 
+EE 18 açması kazısı 2024                             DFBW çömlek parçası                                           pottery sherds  1.0    EE 18 açması (konum)                                      271 
+EE 18 açması kazısı 2024                             Güney profilinden Port St. Simeon renkli sır akıtmalı ve kaz  pottery sherds         EE 18 güney profili dağınık tek sıralı taş grubu (konum)  271 
+EE 18 açması kazısı 2024                             In situ pithos                                                pithos          1.0    EE 18 açması (konum)                                      271 
+EE 18 açması kazısı 2024                             Kiremit parçaları                                             roof tile              EE 18 açması (konum)                                      271 
+EE 18 açması kazısı 2024                             Mermer parçası                                                stone fragment  1.0    EE 18 açması (konum)                                      271 
+EE 18 açması kazısı 2024                             Modern cam şişe parçası                                       glass fragment  1.0    EE 18 kesme taştan hazne (konum)                          271 
+EE 18 açması kazısı 2024                             Neolitik'ten Orta Çağ'a değişik dönemlere ait kap parçaları   pottery sherds         EE 18 açması (konum)                                      271 
+EE 18 açması kazısı 2024                             Pithos içi ve çevresinden Port St. Simeon mal grubu çanak pa  pottery sherds         EE 18 açması (konum)                                      271 
+EE 18 açması kazısı 2024                             Pithos içindeki siyez taneleri                                plant remains          EE 18 açması (konum)                                      271 
+EE 18 açması kazısı 2024                             Tuğla parçaları                                               brick                  EE 18 tek sıra dizilmiş taşlar (kuzeybatı) (konum)        271 
+Yumuktepe \Geleceğe Miras Projesi\ 2024 kazı sezonu  GYA Orta Çağ buluntuları: seramik, metal objeler, cam bilezi  mixed finds            Yumuktepe Höyüğü (konum)                                  272 
+(25 rows)
+
+=== cq02_periods_by_thing: CQ2  Which periods are attested, through which finds or features, and who says so?
+period              thing                                                         dated_by        how                                                 
+------------------  ------------------------------------------------------------  --------------  ----------------------------------------------------
+13. yüzyıl sonrası  Orta Çağ patikası                                                                                                                 
+Bizans Dönemi       In situ pithos                                                                                                                    
+ETÇ I               B6 teras yerleşme katı                                                                                                            
+ETÇ II              A701 yapı katı                                                Burhan Ulaş     architecture, pottery, archaeobotany and radiocarbon
+ETÇ II              A701 yapı katı                                                Gamze Evgen     architecture, pottery, archaeobotany and radiocarbon
+Erken Tunç Çağı     Erken Tunç Çağı savunma (sur) duvarı                                                                                              
+Erken Tunç Çağı     GYA sektöründeki Erken Tunç Çağı mezarları                                                                                        
+Erken Tunç Çağı     Garstang X trenci XII A tabakaları                                                                                                
+Geç Tunç (Hitit)    Geç Tunç Hitit sur duvarı                                                                                                         
+Helenistik Dönem    Tunç ok ucu                                                                                                                       
+Kalkolitik          XV tabakası                                                                                                                       
+Kalkolitik          XVI tabakası                                                                                                                      
+MS 10.-13. yüzyıl   EE 18 açması                                                  Burhan Ulaş     authors' assessment                                 
+MS 10.-13. yüzyıl   EE 18 açması                                                  Gamze Evgen     authors' assessment                                 
+MS 10.-13. yüzyıl   Kiremit parçaları                                             Gülgün Köroğlu  personal communication                              
+MS 11.-13. yüzyıl   Mezar şapeli                                                                                                                      
+MS 11.-13. yüzyıl   Zirve güneyindeki konutların yer aldığı yapı katları                                                                              
+MS 11.-13. yüzyıl   Zirvedeki kilise                                                                                                                  
+MS 11.-15. yüzyıl   AA 15 Orta Çağ çöp çukurları                                                                                                      
+MS 11.-15. yüzyıl   GYA Orta Çağ buluntuları: seramik, metal objeler, cam bilezi                                                                      
+MS 12.-13. yüzyıl   B3 yapısı (kerpiç bloklardan)                                 Burhan Ulaş     radiocarbon                                         
+MS 12.-13. yüzyıl   B3 yapısı (kerpiç bloklardan)                                 Gamze Evgen     radiocarbon                                         
+MS 12.-13. yüzyıl   Güney profilinden Port St. Simeon renkli sır akıtmalı ve kaz  Gülgün Köroğlu  personal communication                              
+MS 12.-13. yüzyıl   Pithos içi ve çevresinden Port St. Simeon mal grubu çanak pa  Gülgün Köroğlu  personal communication                              
+MS 12.-13. yüzyıl   Suriye menşeli mavi sırlı ithal seramik parçaları             Gülgün Köroğlu  personal communication                              
+MS 12.-13. yüzyıl   Tuğla parçaları                                               Gülgün Köroğlu  personal communication                              
+MS 13. yüzyıl       Beyrut üretimi Brittle Ware                                   Gülgün Köroğlu  personal communication                              
+MS 13. yüzyıl       Port St. Simeon kökenli renkli sırlı ve kazıma bezemeli sera  Gülgün Köroğlu  personal communication                              
+Modern dönem        Modern cam şişe parçası                                                                                                           
+Modern dönem        Modern dönem teraslamaları                                                                                                        
+Neolitik Çağ        Neolitik'ten Orta Çağ'a değişik dönemlere ait kap parçaları                                                                       
+Orta Çağ            Mekân 1 (M1)                                                                                                                      
+Orta Çağ            Mekân 2 (M2)                                                                                                                      
+Orta Çağ            Neolitik'ten Orta Çağ'a değişik dönemlere ait kap parçaları                                                                       
+Orta Çağ            Patika boyunca Orta Çağ çömlek parçaları, küçük taşlar ve ca                                                                      
+Roma Dönemi         Tezgâh ağırlığı                                                                                                                   
+(36 rows)
+
+=== cq03_roles: CQ3  Who took part in the reported campaign, its parts and its support, in which role?
+activity                                                      actor                                               role                            
+------------------------------------------------------------  --------------------------------------------------  --------------------------------
+2024 çalışmaları için izin ve destek                          Kültür Varlıkları ve Müzeler Genel Müdürlüğü        permitting authority            
+2024 çalışmaları için izin ve destek                          T.C. Kültür ve Turizm Bakanlığı                     permitting authority            
+2024 çalışmaları için izin ve destek                          Giulio Palumbi                                      supporter                       
+2024 çalışmaları için izin ve destek                          Isabella Caneva                                     supporter                       
+2024 çalışmaları için izin ve destek                          Mersin Büyükşehir Belediyesi                        supporting institution          
+2024 çalışmaları için izin ve destek                          Mersin Müze Müdürlüğü                               supporting institution          
+2024 çalışmaları için izin ve destek                          Mersin Valiliği                                     supporting institution          
+2024 çalışmaları için izin ve destek                          Mersin İl Kültür ve Turizm Müdürlüğü                supporting institution          
+2024 çalışmaları için izin ve destek                          Toroslar Belediyesi                                 supporting institution          
+2024 çalışmaları için izin ve destek                          Geleceğe Miras Projesi Daire Başkanlığı             supporting unit                 
+2024 çalışmaları için izin ve destek                          KVMGM Kazılar ve Araştırmalar Daire Başkanlığı      supporting unit                 
+Mersin Üniversitesi ile ortak projeler için iş birliklerinin  Mersin Üniversitesi Biyoloji Bölümü                 partner                         
+Mersin Üniversitesi ile ortak projeler için iş birliklerinin  Mersin Üniversitesi Harita Mühendisliği Bölümü      partner                         
+Yumuktepe \Geleceğe Miras Projesi\ 2024 kazı sezonu           Burhan Ulaş                                         author and project team         
+Yumuktepe \Geleceğe Miras Projesi\ 2024 kazı sezonu           Gamze Evgen                                         author and project team         
+Yumuktepe \Geleceğe Miras Projesi\ 2024 kazı sezonu           \Geleceğe Miras Projesi\ Yumuktepe Koordinatörlüğü  coordinating body               
+Yumuktepe \Geleceğe Miras Projesi\ 2024 kazı sezonu           Giulio Palumbi                                      excavation director (supporting)
+Yumuktepe \Geleceğe Miras Projesi\ 2024 kazı sezonu           \Geleceğe Miras Projesi\ Yumuktepe 2024 ekibi       team                            
+Çanak çömlek analizleri                                       Fatih Yılmaz                                        analyst                         
+(19 rows)
+
+=== cq04_research_history: CQ4  Which earlier work does the reported campaign continue, when was it (if the paper says), and who ran it?
+earlier                                         begin  end   by                                                          
+----------------------------------------------  -----  ----  ------------------------------------------------------------
+GYA kazıları (Eric Jean ve Isabella Caneva)                  Isabella Caneva; Eric Jean                                  
+Garstang kazıları                                            John Garstang                                               
+İtalyan Kazı Heyeti kazıları (Caneva kazıları)               Isabella Caneva; İtalyan Kazı Heyeti (Yumuktepe); Giulio Pal
+GYA sektöründeki ilk kazılar (1990'lı yıllar)   1990   1999  Kemalettin Köroğlu                                          
+G. Köroğlu Orta Çağ kazıları 1993-2010          1993   2010  Gülgün Köroğlu                                              
+(5 rows)
+
+=== cq05_figures: CQ5  What does each figure show?
+figure                                                        page  depicts                                                     
+------------------------------------------------------------  ----  ------------------------------------------------------------
+Resim 1: Yumuktepe Höyüğü'nün havadan görünümü.               274   Yumuktepe Höyüğü                                            
+Şekil 1: 2024 yılında kazısı gerçekleştirilen plankareleri v  275   AA 15 açması; BB 15 açması; DD 15 açması; EE 18 açması      
+Resim 2: Kazı çalışması gerçekleştirilen AA15, BB15, DD15 ve  276   AA 15 açması; BB 15 açması; DD 15 açması; EE 18 açması      
+Resim 3: AA15 açmasındaki A 701 yapı katı.                    276   A701 yapı katı                                              
+Resim 4: Bademağacı (Duru 2008) ve Yumuktepe el yapımı siyah  277   A701 el yapımı, kaba hamurlu, kırmızı astarlı çanak çömlek  
+Resim 5: BB15 açmasında tespit edilen yapı katları.           277   B2X ocağı; B3 yapısı (kerpiç bloklardan); BX fırını; BB 15 a
+Resim 6: DD15 açmasında ortaya çıkarılan yapı katları.        278   Mekân 1 (M1); M1 ve M2'yi bölen ortak duvar; Mekân 2 (M2)   
+Resim 7: EE18 plankaresinde tespit edilen Orta Çağ 13.-14. y  278   D1 (özensiz taşlarla çevrili kare birim); EE 18 açması      
+(8 rows)
+
+=== cq06_interpretations: CQ6  Which statements are interpretations rather than observations, and on what basis?
+about                                                         interpretation                                                basis                                                     page
+------------------------------------------------------------  ------------------------------------------------------------  --------------------------------------------------------  ----
+A701 yapı katı                                                Oval planlı yapı (olası)                                      Gerekçe: Taş temellerin yönelimi                          267 
+A701 yapı katı                                                Yumuktepe'de ETÇ II evresinin belgelenen ilk mimari yapı kat  Gerekçe: Karbon 14 sonuçları MÖ 2580-2141 cal.            268 
+A701 yapı katı                                                ETÇ II evresine ait bitkisel kaynakları depolama ve pişirme   Gerekçe: Mimari, seramik ve arkeobotanik veriler          268 
+A701 yapı katı                                                XVI tabakayı keserek yamaca oturtulan teras yerleşmesi                                                                  268 
+Yumuktepe Höyüğü                                              MÖ V. binyıl sonunda terk, III. binyıl başında Erken Tunç Ça  Gerekçe: Caneva 2025; Novák vd. 2017                      268 
+B2X ocağı                                                     Demir eritme amaçlı ocak                                      Gerekçe: Ocak içinde elde edilen demir cürufları          269 
+Orta Çağ patikası                                             Zirveye ulaşım için yapılmış iki evreli patika (muhtemelen)                                                             269 
+Çukurdaki tilki, keçi/koyun ve kuş kemikleri                  Düzenli bir şekilde gömülmüş hayvanlar                                                                                  269 
+B1YA içindeki tek sıralı destek duvarı                        Höyüğün üst kısmına çıkan patikanın parçası (muhtemelen)                                                                270 
+B3 kerpiç blokları üzerindeki sert 'harç' (küçük kireç taşı   Kerpiç blokların üzerine sıvanmış sert harç                   Gerekçe: Harç kaldırıldığında kerpiç bloklar görünmüştür  270 
+DD 15 açması                                                  M1 ve M2 arasında işlevsel ayrım; işlevler henüz belirlenemi  Gerekçe: Farklı zeminler ve duvar kalınlıkları            270 
+M1 ve M2'yi bölen ortak duvar                                 Alanın ikincil kullanımına işaret eden duvar                                                                            270 
+EE 18 tek sıra dizilmiş taşlar (kuzeybatı)                    Basit bir Orta Çağ teraslama işlemi (olası)                                                                             271 
+In situ pithos                                                Siyez tanelerinin depolanması için kullanılmış; kaplıca buğd  Gerekçe: Pithos içi toprağın arkeobotanik analizi         271 
+(14 rows)
+
+=== cq07_finds_in_deposits: CQ7  Which finds come from a recorded deposit, and which activity removed or used that deposit?
+find                                                          deposit                                                       handled_by              
+------------------------------------------------------------  ------------------------------------------------------------  ------------------------
+A701 kül dolgusundan bitki kalıntıları                        A701 ocağının güneyindeki kül dolgu                                                   
+Suriye menşeli mavi sırlı ithal seramik parçaları             B3 kerpiç blokları üzerindeki sert 'harç' (küçük kireç taşı   BB 15 açması kazısı 2024
+Beyrut üretimi Brittle Ware                                   BX fırını ocak seviyesi                                                               
+Port St. Simeon kökenli renkli sırlı ve kazıma bezemeli sera  BX fırını ocak seviyesi                                                               
+DFBW çömlek parçası                                           EE 18 kuzeybatı sarımsı/açık kahverengi sıkıştırılmış sert a                          
+Mermer parçası                                                EE 18 kuzeybatı sarımsı/açık kahverengi sıkıştırılmış sert a                          
+Neolitik'ten Orta Çağ'a değişik dönemlere ait kap parçaları   EE 18 kuzeybatı sarımsı/açık kahverengi sıkıştırılmış sert a                          
+Pithos içindeki siyez taneleri                                Pithosun içindeki toprak                                                              
+(8 rows)
+
+=== cq08_place_hierarchy: CQ8  Which named places does the report use, and how do they nest?
+place                                                         type               within                          
+------------------------------------------------------------  -----------------  --------------------------------
+Mersin                                                        city                                               
+Z 15 plankaresi                                               grid square        Güney Yamaç Açması (GYA) sektörü
+Müftü Deresi                                                  stream             Mersin                          
+Yumuktepe                                                     mound              Mersin                          
+Güney Yamaç Açması (GYA) sektörü                              excavation sector  Yumuktepe                       
+Höyüğün kuzeybatısındaki eski AKUT binası (eski Truva Atı) y  locality           Yumuktepe                       
+Kuzeybatı sektörü                                             excavation sector  Yumuktepe                       
+Kuzeydoğu sektörü                                             excavation sector  Yumuktepe                       
+Yumuktepe zirvesi                                             summit             Yumuktepe                       
+(9 rows)
+
+=== cq09_radiocarbon: CQ9  Which contexts are dated by radiocarbon, on which samples, with what result?
+context                        code  from   to     samples                                                       page
+-----------------------------  ----  -----  -----  ------------------------------------------------------------  ----
+A701 yapı katı                 A701  -2580  -2141  Mercimek tohumları (A701 ocağının güneyi); Zeytin çekirdeği   268 
+B3 yapısı (kerpiç bloklardan)  B3    1147   1280   Kömürleşmiş odun kalıntıları (B3 ocağı)                       270 
+In situ pithos                       1299   1425   Siyez tohum örnekleri (pithos içi)                            271 
+BX fırını                      BX    1387   1476   Arpa (BX fırını)                                              269 
+(4 rows)
+
+=== cq10_stratigraphic_relations: CQ10 Which stratigraphic relations between contexts does the report state, and how certain are they?
+later                                                         relation           earlier                            certainty    page
+------------------------------------------------------------  -----------------  ---------------------------------  -----------  ----
+A701 at nalı biçimli ocak                                     contemporary with  A701 yuvarlak planlı tandır fırın  possible     267 
+AA 15 Orta Çağ çöp çukurları                                  cuts               A701 üç sıralı taş duvar (temel)                267 
+A701 yapı katı                                                cuts               XVI tabakası                       interpreted  268 
+B2X ocağını tahrip eden çukur                                 destroys           B2X ocağı                                       269 
+B2ç1 çukuru                                                   destroys           BX fırını                                       269 
+Orta Çağ patikası                                             cuts               B2X ocağı                                       269 
+B1YA dolgusu                                                  destroys           A700                                            270 
+B1YA dolgusu                                                  destroys           B2X ocağı                                       270 
+B1YA dolgusu                                                  destroys           B3 yapısı (kerpiç bloklardan)                   270 
+B3 kerpiç blokları üzerindeki sert 'harç' (küçük kireç taşı   overlies           B3 yapısı (kerpiç bloklardan)                   270 
+Modern dönem teraslamaları                                    destroys           EE 18 kesme taştan hazne                        271 
+GYA sektöründeki Erken Tunç Çağı mezarları                    cuts               Geç Tunç Hitit sur duvarı                       272 
+(12 rows)
+
+=== cq11_taxa_by_context: CQ11 Which plant and animal taxa were identified, in which context, and who identified them?
+taxon                    remains                                       context                                           identified_by
+-----------------------  --------------------------------------------  ------------------------------------------------  -------------
+Avena sp.                BX fırınından bitki kalıntıları               BX fırını (konum)                                              
+Fabaceae                 A701 kül dolgusundan bitki kalıntıları        A701 at nalı biçimli ocak (konum)                              
+Hordeum vulgare          BX fırınından bitki kalıntıları               BX fırını (konum)                                              
+Lolium sp.               BX fırınından bitki kalıntıları               BX fırını (konum)                                              
+Olea europaea            A701 kül dolgusundan bitki kalıntıları        A701 at nalı biçimli ocak (konum)                              
+Pistacia terebinthus     A701 kül dolgusundan bitki kalıntıları        A701 at nalı biçimli ocak (konum)                              
+Pisum sativum            BX fırınından bitki kalıntıları               BX fırını (konum)                                              
+Triticum durum/aestivum  BX fırınından bitki kalıntıları               BX fırını (konum)                                              
+Triticum monococcum      BX fırınından bitki kalıntıları               BX fırını (konum)                                              
+Triticum monococcum      Pithos içindeki siyez taneleri                EE 18 açması (konum)                                           
+Triticum sp.             A701 kül dolgusundan bitki kalıntıları        A701 at nalı biçimli ocak (konum)                              
+büyükbaş hayvan          D1 birimindeki büyükbaş hayvan kemikleri      D1 (özensiz taşlarla çevrili kare birim) (konum)               
+keçi/koyun               Çukurdaki tilki, keçi/koyun ve kuş kemikleri  B2X ocağını tahrip eden çukur (konum)             V. Onar      
+kuş                      Çukurdaki tilki, keçi/koyun ve kuş kemikleri  B2X ocağını tahrip eden çukur (konum)             V. Onar      
+tilki                    Çukurdaki tilki, keçi/koyun ve kuş kemikleri  B2X ocağını tahrip eden çukur (konum)             V. Onar      
+(15 rows)
+
+=== cq12_dating_conflicts: CQ12 Where do the radiocarbon range of a context and the period of a find from that context not overlap?
+context    c14_from  c14_to  find                                                          period         period_from  period_to
+---------  --------  ------  ------------------------------------------------------------  -------------  -----------  ---------
+BX fırını  1387      1476    Beyrut üretimi Brittle Ware                                   MS 13. yüzyıl  1200         1299     
+BX fırını  1387      1476    Port St. Simeon kökenli renkli sırlı ve kazıma bezemeli sera  MS 13. yüzyıl  1200         1299     
+(2 rows)
+
+=== cq13_plans: CQ13 What work does the report announce for the future, and what does it concern?
+plan                                                          year  concerns                                                    
+------------------------------------------------------------  ----  ------------------------------------------------------------
+Zirvedeki yapıların restorasyon ve konservasyonu                    Mezar şapeli; Zirvedeki kilise; Zirve güneyindeki konutların
+Bilgi tabelaları, QR kodları ve web sayfası                   2025  Yumuktepe Höyüğü                                            
+I. Caneva onuruna çalıştay                                    2025  Yumuktepe Höyüğü                                            
+Kuzeydoğu sektöründe yeni kazılarla alanın ilk defa araştırı  2025  Yumuktepe Höyüğü; Kuzeydoğu sektörü                         
+Z 15 plankaresinde kazı                                       2025  A701 yapı katı; Z 15 plankaresi; XVI tabakası               
+(5 rows)
+
+=== cq14_hedged_datings: CQ14 Which datings are hedged, how sure are the authors, and which periods are the alternatives?
+thing  certainty  periods
+-----  ---------  -------
+(0 rows)
+
+=== cq15_excavated_amounts: CQ15 How much was excavated by which unit, and what documentation did the work produce?
+work  what  value  unit
+----  ----  -----  ----
+(0 rows)
+
+=== cq16_cited_literature: CQ16 Which statements rest on cited literature, and on which pages?
+entity  cited
+------  -----
+(0 rows)

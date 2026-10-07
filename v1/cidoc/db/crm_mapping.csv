@@ -1,0 +1,130 @@
+table_name,column_name,meaning,crm_path
+report,title,Title of the report,E31 Document . rdfs:label
+report,language,Language the report is written in,E33 Linguistic Object . P72 has language . E55 Type
+report,printed_pages,Page range in the printed volume,E31 Document . kst:printedPages
+report,published,Year of publication,E31 . P94i was created by . E65 Creation . P4 has time-span . E52 Time-Span
+report,source_file,File the record was read from,E31 Document . dcterms:source
+report,reports_on,The campaign the report is about,E31 Document . P129 is about . A9 Archaeological Excavation
+report,volume_id,Volume the report belongs to,E31 Document . P106i forms part of . E31 Document
+report_author,actor,Author of the report,E31 . P94i was created by . E65 Creation . P14 carried out by . E39 Actor
+volume,title,Title of the volume,E31 Document . rdfs:label
+volume,editor,Editor of the volume,E31 Document . dcterms:contributor . E39 Actor
+volume,publisher,Publisher of the volume,E31 Document . dcterms:publisher . E39 Actor
+volume,isbn,ISBN of the volume,E31 Document . P1 is identified by . E42 Identifier . P2 has type . E55 Type "ISBN"
+volume,place,Place of publication,not in the graph yet
+volume,published,Year the volume appeared,not in the graph yet
+source_page,page,Printed page where the row is stated,any entity . P70i is documented in . E31 Document ; kst:sourcePage
+actor,class,Person or group,rdf:type E21 Person / E74 Group
+actor,label,Name as printed,E39 Actor . rdfs:label
+actor,orcid,ORCID of the person,E21 Person . P1 is identified by . E42 Identifier . P2 has type . E55 Type "ORCID"
+actor,member_of,Institution or team the actor belongs to,E39 Actor . P107i is current or former member of . E74 Group
+actor,note,Free remark,E39 Actor . P3 has note
+place,label,Name of the place,E53 Place . rdfs:label
+place,type,Kind of place,E53 Place . P2 has type . E55 Type
+place,within,Larger place that contains it,E53 Place . P89 falls within . E53 Place
+place,note,Free remark,E53 Place . P3 has note
+period,label,Name of the period as the excavator uses it,E4 Period . rdfs:label
+period,begin_year,First year of the period (BC negative),E4 Period . P4 has time-span . E52 Time-Span . P82a begin of the begin
+period,end_year,Last year of the period (BC negative),E4 Period . P4 has time-span . E52 Time-Span . P82b end of the end
+period,approx,The years are approximate,E52 Time-Span . P2 has type . E55 Type "approximate"
+period,within,Longer period it is part of,E4 Period . P9i forms part of . E4 Period
+context,kind,Built feature or deposit,chooses the class family
+context,class,Site / built thing / deposit,rdf:type E27 Site / E22 Human-Made Object / E25 Human-Made Feature / A2 Stratigraphic Volume Unit
+context,label,Name of the context,E18 Physical Thing . rdfs:label
+context,identifier,Code used on site,E18 Physical Thing . P1 is identified by . E42 Identifier . P2 has type . E55 Type "context code"
+context,type,Kind of context (wall / oven / fill),E18 Physical Thing . P2 has type . E55 Type
+context,part_of,Larger context it belongs to,E18 Physical Thing . P46i forms part of . E18 Physical Thing
+context,location,Named place where it lies,E18 Physical Thing . P53 has former or current location . E53 Place
+context,at_feature,Feature in which the deposit lies,A2 Stratigraphic Volume Unit . P53 has former or current location . E53 Place . P53i . E18 Physical Thing
+context,count,How many (for repeated features),E18 Physical Thing . P43 has dimension . E54 Dimension (type count) . P90 has value
+context,note,Free remark,E18 Physical Thing . P3 has note
+relation,from_context,The later unit,E13 Attribute Assignment . P140 assigned attribute to . A8 Stratigraphic Unit
+relation,type,Cuts / overlies / fills / abuts,A8 . AP11 has physical relation to . A8 ; E13 . P2 has type . E55 Type
+relation,to_context,The earlier unit,E13 Attribute Assignment . P141 assigned . A8 Stratigraphic Unit
+relation,certainty,How sure the excavator is,E13 Attribute Assignment . P2 has type . E55 Type (broader: certainty)
+relation,note,Free remark,E13 Attribute Assignment . P3 has note
+activity,class,Campaign / trench or area / other work,rdf:type A9 Archaeological Excavation / A1 Excavation Processing Unit / E7 Activity
+activity,type,Kind of work,E7 Activity . P2 has type . E55 Type
+activity,label,Name of the work,E7 Activity . rdfs:label
+activity,begin_year,Year the work began,E7 Activity . P4 has time-span . E52 Time-Span . P82a begin of the begin
+activity,end_year,Year the work ended,E7 Activity . P4 has time-span . E52 Time-Span . P82b end of the end
+activity,approx,The years are approximate,E52 Time-Span . P2 has type . E55 Type "approximate"
+activity,part_of,Larger work it belongs to,E7 Activity . P9i forms part of . E7 Activity
+activity,at_feature,Context where the work took place,E7 Activity . P7 took place at . E53 Place . P53i . E18 Physical Thing
+activity,investigated,Site or context the excavation investigated,A9 Archaeological Excavation . AP3 investigated . E27 Site
+activity,purpose_of,Work this one was done for,E7 Activity . P20 had specific purpose . E7 Activity
+activity,identifier,Project or permit number,E7 Activity . P1 is identified by . E42 Identifier . P2 has type . E55 Type "project number"
+activity,note,Free remark,E7 Activity . P3 has note
+activity_actor,actor,Who did the work,E7 Activity . P14 carried out by . E39 Actor
+activity_actor,role,In which role,PC14 carried out by . P14.1 in the role of . E55 Type
+activity_link,link,Which of the six links below,produced: A4 Stratigraphic Genesis . AP7 produced . A8 Stratigraphic Unit ; took_place_at: P7 took place at . E53 Place ; also_at: P7 . E53 . P53i . E18 ; continued: P134 continued . E7 ; removed: AP5 removed part or all of . A8 ; used: P16 used specific object . E70
+activity_link,target,The place / context / earlier work linked to,see activity_link.link
+plan,label,Work announced for the future,E29 Design or Procedure . rdfs:label
+plan,planned_for,Year it is planned for,E29 Design or Procedure . kst:plannedFor
+plan,place,Place it concerns,E29 Design or Procedure . P67 refers to . E53 Place
+plan,note,Free remark,E29 Design or Procedure . P3 has note
+plan_about,target,Context the plan concerns,E29 Design or Procedure . P67 refers to . E1 CRM Entity
+find,class,Made object or biological remain,rdf:type E22 Human-Made Object / E20 Biological Object
+find,label,Name of the find or assemblage,E19 Physical Object . rdfs:label
+find,type,Kind of find,E19 Physical Object . P2 has type . E55 Type
+find,count,Number of pieces when printed,E19 Physical Object . P43 has dimension . E54 Dimension (type count) . P90 has value
+find,material,Material,E19 Physical Object . P45 consists of . E57 Material
+find,found_by,Excavation unit that found it,S19 Encounter Event . O19 encountered object . E19 ; S19 . P9i forms part of . A1 Excavation Processing Unit
+find,at_feature,Context it was found in,S19 Encounter Event . P7 took place at . E53 Place . P53i . E18 Physical Thing
+find,from_stratum,Deposit it was embedded in,E19 . AP18i is embedded . A7 Embedding . AP19 is embedding in . A2 Stratigraphic Volume Unit
+find,condition,State of preservation,E19 Physical Object . P44 has condition . E3 Condition State . P2 has type . E55 Type
+find,depicts,What it shows,E24 Physical Human-Made Thing . P62 depicts . E55 Type
+find,inscribed,It carries an inscription,E24 Physical Human-Made Thing . P128 carries . E34 Inscription
+find,note,Free remark,E19 Physical Object . P3 has note
+sample,class,Always a sample,rdf:type S13 Sample
+sample,label,Name of the sample,S13 Sample . rdfs:label
+sample,material_type,Kind of material sampled,S13 Sample . P2 has type . E55 Type
+sample,taken_from,Context or find it was taken from,S2 Sample Taking . O3 sampled from . S10 Material Substantial ; S2 . O5 removed . S13 Sample
+sample,taken_during,Excavation unit in which it was taken,S2 Sample Taking . P9i forms part of . A1 Excavation Processing Unit
+sample,note,Free remark,S13 Sample . P3 has note
+analysis,type,Kind of analysis,S4 Single Observation . O9 observed property type . E55 Type
+analysis,label,Name of the analysis,S4 Single Observation . rdfs:label
+analysis,result_begin,Earliest year of the result (BC negative),S4 . O16 observed value . E52 Time-Span . P82a begin of the begin
+analysis,result_end,Latest year of the result (BC negative),S4 . O16 observed value . E52 Time-Span . P82b end of the end
+analysis,dates,Context or object the result dates,E13 Attribute Assignment . P17 was motivated by . S4 ; E13 . P140 . E5 Event (use phase) . P12 occurred in the presence of . E18
+analysis,note,Free remark,S4 Single Observation . P3 has note
+analysis_sample,sample,Sample that was analysed,S4 Single Observation . O8 observed . S13 Sample
+analysis_actor,part,Did the analysis or drew the conclusion,chooses between the two paths of analysis_actor.actor
+analysis_actor,actor,Who,by: S4 Single Observation . P14 carried out by . E39 ; concluded_by: E13 Attribute Assignment . P14 carried out by . E39
+dating,period,Period the thing is dated to,E18 . P108i was produced by . E12 Production . P10 falls within . E4 Period
+dimension,type,What was measured,E54 Dimension . P2 has type . E55 Type ; on an excavation unit: A1 . AP1 produced . S11 Amount of Matter . P43 has dimension
+dimension,value,Single measured value,E18 . P43 has dimension . E54 Dimension . P90 has value
+dimension,min,Lower end of a range,E54 Dimension . P90a has lower value limit
+dimension,max,Upper end of a range,E54 Dimension . P90b has upper value limit
+dimension,unit,Unit,E54 Dimension . P91 has unit . E58 Measurement Unit
+dimension,approx,The value is approximate,E54 Dimension . P2 has type . E55 Type "approximate"
+taxon,name,Plant or animal name as printed,E20 Biological Object . P2 has type . E55 Type (broader: taxon)
+comparandum,label,Similar material elsewhere,E18 . P130 shows features of . E55 Type (broader: comparandum)
+comparandum,refs,Literature cited for it,E18 . P3 has note
+attribution,about,A dating or an identification,E13 Attribute Assignment . P2 has type . E55 Type "dating" / "identification"
+attribution,via,How they know,E13 Attribute Assignment . P2 has type . E55 Type (broader: source of knowledge)
+attribution_actor,about,A dating or an identification,see attribution.about
+attribution_actor,actor,Who dated or identified it,E13 Attribute Assignment . P14 carried out by . E39 Actor
+interpretation,about,Context or find the claim is about,E13 Attribute Assignment . P140 assigned attribute to . E1 CRM Entity
+interpretation,assigned,What is claimed,E13 Attribute Assignment . P141 assigned . E55 Type ; P177 assigned property of type . P2 has type
+interpretation,basis,Why,E13 Attribute Assignment . P3 has note
+interpretation_actor,actor,Who claims it,E13 Attribute Assignment . P14 carried out by . E39 Actor
+figure,kind,Resim / Şekil / Plan / Harita,E36 Visual Item . P2 has type . E55 Type (broader: figure)
+figure,number,Number as printed,E36 Visual Item . rdfs:label
+figure,caption,Caption as printed,E36 Visual Item . rdfs:label
+figure,page,Printed page,E36 Visual Item . kst:sourcePage ; E36 . P106i forms part of . E31 Document
+figure_depicts,target,What the figure shows,E36 Visual Item . P138 represents . E1 CRM Entity
+illustrated_by,figure,Figure that shows the row,E1 CRM Entity . P138i has representation . E36 Visual Item
+find,part_of,Counted assemblage the find belongs to,E19 Physical Object . P46i forms part of . E19 Physical Object
+dating,certainty,Empty = stated as fact; uncertain; one of several periods,E13 Attribute Assignment . P2 has type . E55 Type (broader: certainty) ; no plain P10 is written
+reference,citation,Publication as printed in the bibliography,E31 Document . rdfs:label
+reference,year,Year of the publication,E31 . P94i was created by . E65 Creation . P4 has time-span . E52 Time-Span
+reference,note,Free remark,E31 Document . P3 has note
+cited_for,reference,Publication cited for the row,E31 Document . P70 documents . E1 CRM Entity
+cited_for,pages,Pages cited,E31 Document (cited passage) . P106i forms part of . E31 Document
+documentation,type,Plan / drawing / 3D model / photograph,E73 Information Object . P2 has type . E55 Type (broader: documentation)
+documentation,label,Name of the document,E73 Information Object . rdfs:label
+documentation,scale,Scale as written,E73 Information Object . P2 has type . E55 Type (broader: scale)
+documentation,made_by,Work that produced it,E73 . P94i was created by . E65 Creation . P9i forms part of . E7 Activity
+documentation,note,Free remark,E73 Information Object . P3 has note
+documentation_depicts,target,What the document shows,E73 Information Object . P67 refers to . E1 CRM Entity

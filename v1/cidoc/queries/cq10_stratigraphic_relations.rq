@@ -1,0 +1,14 @@
+# CQ10 Which stratigraphic relations between contexts does the report state, and how certain are they?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?later ?relation ?earlier ?certainty ?page WHERE {
+  ?r a crm:E13_Attribute_Assignment ; crm:P2_has_type type:stratigraphic-relation ;
+     crm:P140_assigned_attribute_to/rdfs:label ?later ; crm:P141_assigned/rdfs:label ?earlier ;
+     crm:P2_has_type ?rt . ?rt crm:P127_has_broader_term type:stratigraphic-relation-type ; rdfs:label ?relation .
+  OPTIONAL { ?r crm:P2_has_type ?c . ?c crm:P127_has_broader_term type:certainty ; rdfs:label ?certainty }
+  OPTIONAL { ?r kst:sourcePage ?page }
+} ORDER BY ?page ?later

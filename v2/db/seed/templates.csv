@@ -1,0 +1,34 @@
+template,label_en,label_tr,layout,base_table,base_class,extension,position,kind,column_name,attribute,dimension_kind,axis,field_en,field_tr
+finds,Finds,Buluntular,list,thing,E22,,1,column,source_id,,,,Find number,Buluntu no
+finds,,,,,,,2,column,label,,,,Name,Tanım
+finds,,,,,,,3,column,type,,,,Kind,Tür
+finds,,,,,,,4,column,material,,,,Material,Malzeme
+finds,,,,,,,5,found_in,,,,,Context,Birim
+finds,,,,,,,6,dimension,,,dimension_kind/count,,Count,Adet
+finds,,,,,,,7,dating,making,,,,Period,Dönem
+finds,,,,,,,8,attribute,,preservation,,,Preservation,Korunma durumu
+finds,,,,,,,9,attribute,,museum_grade,,,Museum grade,Envanterlik
+finds,,,,,,,10,column,remark,,,,Remark,Açıklama
+contexts,Contexts,Birimler,list,thing,A2,context,1,column,source_id,,,,Context code,Birim kodu
+contexts,,,,,,,2,column,label,,,,Name,Tanım
+contexts,,,,,,,3,column,type,,,,Kind,Tür
+contexts,,,,,,,4,column,location,,,,Trench,Açma
+contexts,,,,,,,5,column,formation,,,,Formation,Oluşum
+contexts,,,,,,,6,attribute,,soil_colour,,,Soil colour,Toprak rengi
+contexts,,,,,,,7,attribute,,soil_texture,,,Soil texture,Toprak dokusu
+contexts,,,,,,,8,dating,formation,,,,Period,Dönem
+contexts,,,,,,,9,column,remark,,,,Remark,Açıklama
+survey_units,Survey units,Yüzey araştırması birimleri,list,place,E53,,1,column,source_id,,,,Unit number,Birim no
+survey_units,,,,,,,2,column,label,,,,Name,Ad
+survey_units,,,,,,,3,column,type,,,,Kind,Tür
+survey_units,,,,,,,4,column,part_of,,,,Within,İçinde
+survey_units,,,,,,,5,geometry,EPSG:4326,,,,Coordinates (WKT),Koordinatlar (WKT)
+survey_units,,,,,,,6,attribute,,visibility,,,Visibility,Görünürlük
+survey_units,,,,,,,7,attribute,,land_use,,,Land use,Arazi kullanımı
+survey_units,,,,,,,8,column,remark,,,,Remark,Açıklama
+count_by_period,Counts by kind and period,Tür ve döneme göre sayım,matrix,thing,E22,,1,column,type,,,row,Kind,Tür
+count_by_period,,,,,,,2,dating,making,,,column,Period,Dönem
+count_by_period,,,,,,,3,dimension,,,dimension_kind/count,cell,Count,Adet
+count_by_material,Counts by kind and material,Tür ve malzemeye göre sayım,matrix,thing,E22,,1,column,type,,,row,Kind,Tür
+count_by_material,,,,,,,2,column,material,,,column,Material,Malzeme
+count_by_material,,,,,,,3,dimension,,,dimension_kind/count,cell,Count,Adet

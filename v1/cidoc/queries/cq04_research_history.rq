@@ -1,0 +1,12 @@
+# CQ4  Which earlier work does the reported campaign continue, when was it (if the paper says), and who ran it?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?earlier ?begin ?end (GROUP_CONCAT(DISTINCT ?who; separator="; ") AS ?by) WHERE {
+  ?report crm:P129_is_about ?campaign . ?campaign crm:P134_continued ?e . ?e rdfs:label ?earlier .
+  OPTIONAL { ?e crm:P4_has_time_span ?ts . ?ts kst:beginYear ?begin ; kst:endYear ?end }
+  OPTIONAL { ?e crm:P14_carried_out_by/rdfs:label ?who }
+} GROUP BY ?earlier ?begin ?end ORDER BY ?begin ?earlier

@@ -1,0 +1,15 @@
+# CQ1  What was found, by which activity, where, and in what quantity?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?activity ?find ?type ?count ?place ?page WHERE {
+  ?enc a crmsci:S19_Encounter_Event ; crmsci:O19_encountered_object ?f ; crm:P9i_forms_part_of ?a .
+  ?f rdfs:label ?find . ?a rdfs:label ?activity .
+  { SELECT ?f (SAMPLE(?t) AS ?type) WHERE { ?f crm:P2_has_type ?ty . ?ty rdfs:label ?t . FILTER NOT EXISTS { ?ty crm:P127_has_broader_term type:taxon } } GROUP BY ?f }
+  OPTIONAL { ?enc crm:P7_took_place_at/rdfs:label ?place }
+  OPTIONAL { ?f crm:P43_has_dimension ?d . ?d crm:P2_has_type type:count ; crm:P90_has_value ?count }
+  OPTIONAL { SELECT ?f (MIN(?pg) AS ?page) WHERE { ?f kst:sourcePage ?pg } GROUP BY ?f }
+} ORDER BY ?activity ?find

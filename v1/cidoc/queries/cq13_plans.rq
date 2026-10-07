@@ -1,0 +1,11 @@
+# CQ13 What work does the report announce for the future, and what does it concern?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?plan ?year (GROUP_CONCAT(DISTINCT ?t; separator="; ") AS ?concerns) WHERE {
+  ?p a crm:E29_Design_or_Procedure ; rdfs:label ?plan ; crm:P67_refers_to/rdfs:label ?t .
+  OPTIONAL { ?p kst:plannedFor ?year }
+} GROUP BY ?plan ?year ORDER BY ?year ?plan

@@ -1,0 +1,20 @@
+﻿own number;name;class;second class;part_of;start_earliest;end_latest;scale;shown or described in;approx;remark
+neolithic;Neolitik Çağ;E4;;;;;;;;
+chalcolithic;Kalkolitik;E4;;;;;;;;
+eba;Erken Tunç Çağı;E4;;;;;;;;
+eba-1;ETÇ I;E4;;Erken Tunç Çağı;;;;;;
+eba-2;ETÇ II;E4;;Erken Tunç Çağı;;;;;;
+lba-hittite;Geç Tunç (Hitit);E4;;;;;;;;
+iron-age;Demir Çağı;E4;;;;;;;;
+hellenistic;Helenistik Dönem;E4;;;;;;;;
+roman;Roma Dönemi;E4;;;;;;;;
+byzantine;Bizans Dönemi;E4;;;;;;;;
+medieval;Orta Çağ;E4;;;;;;;;
+c10-13;MS 10.-13. yüzyıl;E4;;Orta Çağ;900;1299;CE;s. 271;;
+c11-13;MS 11.-13. yüzyıl;E4;;Orta Çağ;1000;1299;CE;s. 266;;
+c11-15;MS 11.-15. yüzyıl;E4;;Orta Çağ;1000;1499;CE;"s. 269; s. 272";1;
+c12-13;MS 12.-13. yüzyıl;E4;;Orta Çağ;1100;1299;CE;"s. 270; s. 271";;
+c13;MS 13. yüzyıl;E4;;Orta Çağ;1200;1299;CE;s. 269;;
+post-c13;13. yüzyıl sonrası;E4;;;1300;;CE;s. 270;;
+c13-14;Orta Çağ 13.-14. yüzyıl;E4;;Orta Çağ;1200;1399;CE;s. 278;;
+modern;Modern dönem;E4;;;;;;;;

@@ -1,0 +1,2949 @@
+@prefix crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/> .
+@prefix crmgeo: <http://www.cidoc-crm.org/extensions/crmgeo/> .
+@prefix crminf: <http://www.cidoc-crm.org/extensions/crminf/> .
+@prefix crmpropertyc: <http://www.cidoc-crm.org/cidoc-crm/> .
+@prefix crmsci: <http://www.cidoc-crm.org/extensions/crmsci/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix fw: <urn:fieldwork:term:> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<urn:fieldwork:attribute_value:069bbed5-a326-4fb6-a455-665fa5a4c444> a crmsci:S4_Single_Observation ;
+    crmsci:O16_observed_value <urn:fieldwork:attribute_value:069bbed5-a326-4fb6-a455-665fa5a4c444:value> ;
+    crmsci:O8_observed <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones> ;
+    crmsci:O9_observed_property_type <urn:fieldwork:attribute:inscribed> .
+
+<urn:fieldwork:claim:00ff2c86-ce27-4780-b40d-7e9381778b6c> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:00ff2c86-ce27-4780-b40d-7e9381778b6c:belief> .
+
+<urn:fieldwork:claim:0f742893-27fd-457d-abc3-7a4b171606c8> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:0f742893-27fd-457d-abc3-7a4b171606c8:belief> .
+
+<urn:fieldwork:claim:1c4e62a4-2d34-4591-b69e-82a3e40d5701> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:1c4e62a4-2d34-4591-b69e-82a3e40d5701:belief> .
+
+<urn:fieldwork:claim:3c0e013e-62ee-42ae-9cf6-a78157a2c99d> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:3c0e013e-62ee-42ae-9cf6-a78157a2c99d:belief> .
+
+<urn:fieldwork:claim:3fdf5301-5eda-49f8-b65e-efe991769f2c> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:3fdf5301-5eda-49f8-b65e-efe991769f2c:belief> .
+
+<urn:fieldwork:claim:514367b6-7ab5-4562-8e9f-a0c92074a07e> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:514367b6-7ab5-4562-8e9f-a0c92074a07e:belief> .
+
+<urn:fieldwork:claim:51863e86-95e1-4cde-a5e1-79445566f2ae> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:51863e86-95e1-4cde-a5e1-79445566f2ae:belief> .
+
+<urn:fieldwork:claim:556c906e-4bb1-453d-94ca-08f9838d0756> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:556c906e-4bb1-453d-94ca-08f9838d0756:belief> .
+
+<urn:fieldwork:claim:5a2a9af6-83ce-4a5c-9931-7ba6435ad205> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:5a2a9af6-83ce-4a5c-9931-7ba6435ad205:belief> .
+
+<urn:fieldwork:claim:5e758d66-f89c-4962-bf04-b7b13cf681f3> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:5e758d66-f89c-4962-bf04-b7b13cf681f3:belief> .
+
+<urn:fieldwork:claim:667e149f-9cd9-4207-86b8-61d906bd2ea1> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:667e149f-9cd9-4207-86b8-61d906bd2ea1:belief> .
+
+<urn:fieldwork:claim:98f1df1d-a21d-4bfd-a33a-cfabcec7dd28> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:98f1df1d-a21d-4bfd-a33a-cfabcec7dd28:belief> .
+
+<urn:fieldwork:claim:bebb5ff3-abfa-4010-8746-978007a2d4b2> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:bebb5ff3-abfa-4010-8746-978007a2d4b2:belief> .
+
+<urn:fieldwork:claim:c593cd25-d5f3-43ca-b829-3c72e13c63f3> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:c593cd25-d5f3-43ca-b829-3c72e13c63f3:belief> .
+
+<urn:fieldwork:claim:ca82efe5-868c-4083-93f1-0a6cc1722f01> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:ca82efe5-868c-4083-93f1-0a6cc1722f01:belief> .
+
+<urn:fieldwork:claim:d8318ade-8504-4929-a538-d3b8bdc6f3cd> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:d8318ade-8504-4929-a538-d3b8bdc6f3cd:belief> .
+
+<urn:fieldwork:claim:e93979ee-26d4-48e3-89b6-d6b9f0c2a58b> a crminf:I1_Argumentation ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:e93979ee-26d4-48e3-89b6-d6b9f0c2a58b:belief> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1:creation> a crmpropertyc:E65_Creation ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatesogullari>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm> ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1:published> ;
+    crmpropertyc:P7_took_place_at <urn:fieldwork:entity:36de1703-b746-4a82-9687-0c0e9986c99a> ;
+    crmpropertyc:P94_has_created <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Freport:creation> a crmpropertyc:E65_Creation ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport:published> ;
+    crmpropertyc:P94_has_created <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport> .
+
+<urn:fieldwork:find_context:319284e8-7226-434b-82e7-4406e92f5312:embedding> a crmarchaeo:A7_Embedding ;
+    crmarchaeo:AP17_is_found_by <urn:fieldwork:find_context:319284e8-7226-434b-82e7-4406e92f5312> ;
+    crmarchaeo:AP18_is_embedding_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill> ;
+    crmarchaeo:AP19_is_embedding_in <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> .
+
+<urn:fieldwork:find_context:54179d0e-f32e-4984-a116-e504c083446e:embedding> a crmarchaeo:A7_Embedding ;
+    crmarchaeo:AP17_is_found_by <urn:fieldwork:find_context:54179d0e-f32e-4984-a116-e504c083446e> ;
+    crmarchaeo:AP18_is_embedding_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus> ;
+    crmarchaeo:AP19_is_embedding_in <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom> .
+
+<urn:fieldwork:find_context:8e3a082c-85c6-40b3-871d-e2cdc7b32a6e:embedding> a crmarchaeo:A7_Embedding ;
+    crmarchaeo:AP17_is_found_by <urn:fieldwork:find_context:8e3a082c-85c6-40b3-871d-e2cdc7b32a6e> ;
+    crmarchaeo:AP18_is_embedding_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbones-1993-fill> ;
+    crmarchaeo:AP19_is_embedding_in <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> .
+
+<urn:fieldwork:find_context:9d025b41-7a3a-4be1-adc8-2f92afa3fc99:embedding> a crmarchaeo:A7_Embedding ;
+    crmarchaeo:AP17_is_found_by <urn:fieldwork:find_context:9d025b41-7a3a-4be1-adc8-2f92afa3fc99> ;
+    crmarchaeo:AP18_is_embedding_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Farch-blocks-north-vom> ;
+    crmarchaeo:AP19_is_embedding_in <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom> .
+
+<urn:fieldwork:find_context:9ec6257e-baf3-4012-ab08-c006c379b98b:embedding> a crmarchaeo:A7_Embedding ;
+    crmarchaeo:AP17_is_found_by <urn:fieldwork:find_context:9ec6257e-baf3-4012-ab08-c006c379b98b> ;
+    crmarchaeo:AP18_is_embedding_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoins-1993-fill> ;
+    crmarchaeo:AP19_is_embedding_in <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> .
+
+<urn:fieldwork:find_context:ef184ec8-1116-4f73-93bf-aece6e82aaa4:embedding> a crmarchaeo:A7_Embedding ;
+    crmarchaeo:AP17_is_found_by <urn:fieldwork:find_context:ef184ec8-1116-4f73-93bf-aece6e82aaa4> ;
+    crmarchaeo:AP18_is_embedding_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fslag-1993-fill> ;
+    crmarchaeo:AP19_is_embedding_in <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> .
+
+<urn:fieldwork:participation:16dbb089-3181-4ae7-9bdd-c875d44888ab> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbingol> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fexcavation%20director> .
+
+<urn:fieldwork:participation:1729759d-cccd-4249-8409-644420dc7ee6> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fsupporting%20institution> .
+
+<urn:fieldwork:participation:20922768-fc87-49cd-9a8e-229bc81cc94e> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta-muze> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Finstitution> .
+
+<urn:fieldwork:participation:2fee476d-e75e-4518-94fe-f6b4a974dcfa> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fteam_member> .
+
+<urn:fieldwork:participation:332b6e50-efa9-474b-a501-d225408dca5a> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fgelecege-miras> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fsupporting%20unit> .
+
+<urn:fieldwork:participation:6e24fea9-5f7d-43f7-ad8f-7f3a5541d42b> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fspeaker> .
+
+<urn:fieldwork:participation:768a6b1a-6b18-4024-8ce6-73f9433e5c57> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fteam_member> .
+
+<urn:fieldwork:participation:8232f19f-8f7a-4627-8a60-f4f2eb17dab5> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fyavuz> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fministry_representative> .
+
+<urn:fieldwork:participation:842a3bc6-8273-46ba-81cb-787124bf9d62> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Finstitution> .
+
+<urn:fieldwork:participation:8af6febb-1931-48c2-8583-0f70ab97f249> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fdeputy_director> .
+
+<urn:fieldwork:participation:a48682c8-f462-46b5-b84f-ed7a1465c62f> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffunding-bap-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-bap> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Ffunder> .
+
+<urn:fieldwork:participation:a75f250e-ef54-4a64-a800-89401722d9f0> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbakir> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fteam%20leader> .
+
+<urn:fieldwork:participation:abe9ea73-d0bf-4201-bd9b-2139d0495982> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fspeaker> .
+
+<urn:fieldwork:participation:d57fb6be-c44c-49f9-9135-d039a6f4ce3b> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Finstitution> .
+
+<urn:fieldwork:participation:e2fd6f0e-35bf-488c-b228-51d6bae52a20> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkazi-ekibi-2024> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fteam> .
+
+<urn:fieldwork:participation:e587c7a0-b44c-4153-9f9f-5144e46f6b9b> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fpermitting%20authority> .
+
+<urn:fieldwork:participation:e7f8a07e-05fd-405b-b80f-eb6261a32ecf> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fexcavation%20director> .
+
+<urn:fieldwork:participation:ec427ba5-5002-4adc-a65b-5197d0763a79> a crmpropertyc:PC14_carried_out_by ;
+    crmpropertyc:P01_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024> ;
+    crmpropertyc:P02_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fktb> ;
+    crmpropertyc:P14.1_in_the_role_of <urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fpermitting%20authority> .
+
+<urn:fieldwork:relation:0020d7f8-200e-48fb-a253-99f553c7ba38> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:00aa1123-9951-4c0c-8875-82483686aa36> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsieving-1993-fill> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:used> .
+
+<urn:fieldwork:relation:05fbd8c3-183c-4a4e-aa35-a11b98fdf6e5> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:lies_in> .
+
+<urn:fieldwork:relation:0bafb9e2-3c53-44c0-9ec4-65738d97cdb1> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:member> .
+
+<urn:fieldwork:relation:0fbd09b0-52dd-40b5-98aa-0cf8463ba182> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatesogullari> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:edited_by> .
+
+<urn:fieldwork:relation:15f95b3a-23e3-44fe-8c2e-c3c143649123> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1> ;
+    crminf:J31_has_range <urn:fieldwork:entity:36de1703-b746-4a82-9687-0c0e9986c99a> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:published_at> .
+
+<urn:fieldwork:relation:2728d69c-26c3-498c-be81-9672f03e4720> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsieving-1993-fill> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:28343fb7-e574-4e7e-8b7e-26ebfe70cadd> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:member> .
+
+<urn:fieldwork:relation:30e77d92-04e5-4c30-9212-4bdf244f20ee> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:authored_by> .
+
+<urn:fieldwork:relation:332ba477-dd49-48f9-ace3-caf827d5b230> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-orchestra-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:3ff738fd-6f15-4e03-b28f-38d8d89346c3> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:authored_by> .
+
+<urn:fieldwork:relation:425853c5-8998-4758-868f-c59a77bf8f81> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:474a2c7f-c366-412d-b13e-5b9a2d608237> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:investigated> .
+
+<urn:fieldwork:relation:4e0b12a0-f234-4d17-9f40-b06ef803eeea> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:4f10698e-b255-4719-a612-86115eb14ff8> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:investigated> .
+
+<urn:fieldwork:relation:5f655127-fc15-489e-ac17-afa304acfa36> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:published_by> .
+
+<urn:fieldwork:relation:6bd5e61f-c2c6-48e0-8ee1-99dcb460f52f> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhard-floor-layers> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:lies_in> .
+
+<urn:fieldwork:relation:70777c99-1bbf-4486-a482-cdc27873c9fa> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:731861a8-ab84-4340-8281-72f6fdc256fb> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcleaning-south-slope-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:73abc22d-d0e6-4cf9-abf9-211bbd14fb88> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:member> .
+
+<urn:fieldwork:relation:7ac058ee-25f2-4e97-ba85-3820113d27b5> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fmortar-layer-north-vom> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:lies_in> .
+
+<urn:fieldwork:relation:8299511e-f348-428b-861b-6ca754af281f> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:845210c1-9d68-49da-bc19-7a15c7c4436e> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:authored_by> .
+
+<urn:fieldwork:relation:8b1782a4-0024-4b99-854e-c06db05fb666> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:continued> .
+
+<urn:fieldwork:relation:8f08cc31-476c-4185-81bb-b4de70e202ff> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:continued> .
+
+<urn:fieldwork:relation:a4c24ef8-a53d-476f-828a-4330ef2650af> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:authored_by> .
+
+<urn:fieldwork:relation:a754e0e4-0834-4853-ab8b-88d9d11b166e> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:investigated> .
+
+<urn:fieldwork:relation:af23c04b-ce2b-4e01-843f-e3dd15b44335> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:member> .
+
+<urn:fieldwork:relation:af885e2e-9fd3-4d36-9164-d3e0e72fe412> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:investigated> .
+
+<urn:fieldwork:relation:bd3d1e4b-18a6-422d-aeaa-80122067c588> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:c07d5593-6b42-413d-b725-16854c97fc54> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-south-slope-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:c3b026e4-2b5f-4d9e-a142-889778bc3247> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-south-slope-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhard-floor-layers> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:removed> .
+
+<urn:fieldwork:relation:cb36a6d2-0148-450b-91b7-d65e2812ebee> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:had_purpose> .
+
+<urn:fieldwork:relation:cc6fe0ee-d7d7-4fb0-844e-ab76905192c5> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:removed> .
+
+<urn:fieldwork:relation:d85a770e-8a57-4df2-88c5-3fad56964dae> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:ddb88e40-cdfa-4a8c-af07-70dd56b9325f> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:de214340-2c0f-44e9-9f58-a04c20ca6ef3> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-analemma> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:dfedc127-b814-4e49-ba39-9c33f41373e3> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:worked_on> .
+
+<urn:fieldwork:relation:e5ff8b3a-c27c-4114-b38b-0024614825c4> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:lies_in> .
+
+<urn:fieldwork:relation:e807eda8-3942-4aa9-8443-7928e46c6cdb> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:continued> .
+
+<urn:fieldwork:relation:f3f0baf7-2c9a-421a-be2e-19e0f16bd41f> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffunding-bap-2024> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:had_purpose> .
+
+<urn:fieldwork:assertion:3c0725fa-6881-4ac9-b8e0-044d3b56676b> a crminf:I17_One-Proposition_Set ;
+    crminf:J25_is_encoded_by "Yapının zeminine ait harç tabakası" ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fmortar-layer-north-vom> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:interpreted_as> .
+
+<urn:fieldwork:assertion:3e626885-abae-48f4-a481-65865c3d51de> a crminf:I17_One-Proposition_Set ;
+    crminf:J25_is_encoded_by "Helenistik Dönem'den itibaren farklı dönemlerde değişerek kullanım" ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:interpreted_as> .
+
+<urn:fieldwork:assertion:5ab7d50b-cdc9-474c-920f-5fa71a483013> a crminf:I17_One-Proposition_Set ;
+    crminf:J25_is_encoded_by "Perge örneğiyle özdeş, MS 4.-6. yüzyılda eklenmiş çeşme yapısı" ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:interpreted_as> .
+
+<urn:fieldwork:assertion:649127c8-3cf2-40d8-a5ae-49a07cf94e39> a crminf:I17_One-Proposition_Set ;
+    crminf:J25_is_encoded_by "Selçuklu, Erken Beylikler ve Osmanlı dönemleri (kesin tarihleme için kazı planlanmaktadır)" ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:interpreted_as> .
+
+<urn:fieldwork:assertion:c6db3e03-33b8-406f-a9fa-191ae3d96ef6> a crminf:I17_One-Proposition_Set ;
+    crminf:J25_is_encoded_by "Mozaikli ve sıvalı-boyalı duvarlı mekânların varlığı" ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:interpreted_as> .
+
+<urn:fieldwork:assertion:ce37f9c0-2e87-40b2-ae77-8608f1f19b1e> a crminf:I17_One-Proposition_Set ;
+    crminf:J25_is_encoded_by "Severuslar Dönemi (MS 193-235) tiyatro üst yapısı" ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:interpreted_as> .
+
+<urn:fieldwork:assertion:d2177427-51e8-4316-8066-c79417a58b98> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus> ;
+    crminf:J31_has_range <urn:fieldwork:code:condition%2Fseleukeia-sidera-2024%2Fdamaged> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:condition> .
+
+<urn:fieldwork:assertion:dd6e768c-a962-40b5-9ada-9918935a87ba> a crminf:I17_One-Proposition_Set ;
+    crminf:J25_is_encoded_by "Üretim ve ticaret odaklı, çok işlevli, uzun süreli kullanım; kamusal işlev" ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:interpreted_as> .
+
+<urn:fieldwork:assertion:f255b5c0-df80-4176-818f-37199d1e219c> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus> ;
+    crminf:J31_has_range <urn:fieldwork:code:motif%2Fseleukeia-sidera-2024%2FZeus> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:depicts_motif> .
+
+<urn:fieldwork:assertion:ff67fc79-ff8f-4134-9feb-206fd2d79aea> a crminf:I17_One-Proposition_Set ;
+    crminf:J25_is_encoded_by "Selçuklu Dönemi'nde gümrük yapısı olarak iskân (olası)" ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre> ;
+    crminf:J32_has_property_type <urn:fieldwork:relation_type:interpreted_as> .
+
+<urn:fieldwork:attribute:inscribed> a crmsci:S9_Property_Type ;
+    rdfs:label "carries an inscription"@en,
+        "yazıtlı"@tr .
+
+<urn:fieldwork:attribute_value:069bbed5-a326-4fb6-a455-665fa5a4c444:value> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P90_has_value 1 .
+
+<urn:fieldwork:claim:00ff2c86-ce27-4780-b40d-7e9381778b6c:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:f255b5c0-df80-4176-818f-37199d1e219c> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:0b5dbc64-538f-4c7a-82bc-167183728ae3> a crminf:I5_Inference_Making ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbakir> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:0b5dbc64-538f-4c7a-82bc-167183728ae3:belief> .
+
+<urn:fieldwork:claim:0b5dbc64-538f-4c7a-82bc-167183728ae3:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:649127c8-3cf2-40d8-a5ae-49a07cf94e39> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:0f742893-27fd-457d-abc3-7a4b171606c8:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:b299b3b9-38c5-4b07-94eb-64500cf8d042:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:16c53380-4bcc-4aff-8a9e-7f2b90a99f07> a crminf:I5_Inference_Making ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crmpropertyc:P3_has_note "Güney vomitoriumdaki Selçuklu sikke definesi (Bingöl 1994) ve 2021 bulguları" ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:16c53380-4bcc-4aff-8a9e-7f2b90a99f07:belief> .
+
+<urn:fieldwork:claim:16c53380-4bcc-4aff-8a9e-7f2b90a99f07:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:ff67fc79-ff8f-4134-9feb-206fd2d79aea> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:1730275d-823e-435a-9f35-fb6502575651> a crminf:I5_Inference_Making ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crmpropertyc:P3_has_note "Farklı dönemlere ait seramik parçaları" ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:1730275d-823e-435a-9f35-fb6502575651:belief> .
+
+<urn:fieldwork:claim:1730275d-823e-435a-9f35-fb6502575651:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:3e626885-abae-48f4-a481-65865c3d51de> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:1c4e62a4-2d34-4591-b69e-82a3e40d5701:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:b4f53407-3eb5-4566-ba24-30d12ac6e9e2:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:3c0e013e-62ee-42ae-9cf6-a78157a2c99d:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:1a864966-3ac9-4798-b9cd-dd207489983c:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:3fdf5301-5eda-49f8-b65e-efe991769f2c:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:06847dc9-4037-4e86-9737-87f00085addd:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:514367b6-7ab5-4562-8e9f-a0c92074a07e:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:8216e3c3-9515-4b14-b387-7161ca644f7a:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:51863e86-95e1-4cde-a5e1-79445566f2ae:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:51fdf524-4daf-4c93-bd8b-9250ab2e4ba7:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:556c906e-4bb1-453d-94ca-08f9838d0756:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:409776ee-4856-463d-b5e7-7fde954a67cb:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:5a2a9af6-83ce-4a5c-9931-7ba6435ad205:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:6849ae16-9747-4c65-993d-2856e1582295:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:5e758d66-f89c-4962-bf04-b7b13cf681f3:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:d2177427-51e8-4316-8066-c79417a58b98> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:667e149f-9cd9-4207-86b8-61d906bd2ea1:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:a7e52002-5c53-4ebf-8529-705f4b4126c1:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:7a470af9-a5d4-4f6f-95de-718bc2345a51> a crminf:I5_Inference_Making ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crmpropertyc:P3_has_note "Ağırlık, terazi kolu, kefeler, bronz sikkeler; sütun ve kaideler; macellum ve Agora'ya yakınlık" ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:7a470af9-a5d4-4f6f-95de-718bc2345a51:belief> .
+
+<urn:fieldwork:claim:7a470af9-a5d4-4f6f-95de-718bc2345a51:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:dd6e768c-a962-40b5-9ada-9918935a87ba> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:98f1df1d-a21d-4bfd-a33a-cfabcec7dd28:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:c32dee46-7f8e-449a-9562-a13860272a3d:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:a0e7a65c-6270-49bf-aedc-fea448190e22> a crminf:I5_Inference_Making ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:a0e7a65c-6270-49bf-aedc-fea448190e22:belief> .
+
+<urn:fieldwork:claim:a0e7a65c-6270-49bf-aedc-fea448190e22:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:3c0725fa-6881-4ac9-b8e0-044d3b56676b> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:bebb5ff3-abfa-4010-8746-978007a2d4b2:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:5c11ea9d-cc7f-4845-8697-f1029c3bea59:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:c593cd25-d5f3-43ca-b829-3c72e13c63f3:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:6d28e113-d8f1-4414-9d6e-0dee01fb5044:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:ca82efe5-868c-4083-93f1-0a6cc1722f01:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:af15b9ed-813a-4374-bf02-67427d5e41ca:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:d8318ade-8504-4929-a538-d3b8bdc6f3cd:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:99c83f67-91da-4343-8086-9dd3d8b10def:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:e1b1a142-4ece-485a-9814-e472ebc9611c> a crminf:I5_Inference_Making ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crmpropertyc:P3_has_note "Tessera, fresk parçaları ve harç kalıntıları" ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:e1b1a142-4ece-485a-9814-e472ebc9611c:belief> .
+
+<urn:fieldwork:claim:e1b1a142-4ece-485a-9814-e472ebc9611c:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:c6db3e03-33b8-406f-a9fa-191ae3d96ef6> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:e4084af5-4af2-47c9-be5e-73b0b21fa890> a crminf:I5_Inference_Making ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:e4084af5-4af2-47c9-be5e-73b0b21fa890:belief> .
+
+<urn:fieldwork:claim:e4084af5-4af2-47c9-be5e-73b0b21fa890:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:ce37f9c0-2e87-40b2-ae77-8608f1f19b1e> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:e806702c-500b-4ac6-8cf1-a3a8d82a9cab> a crminf:I5_Inference_Making ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> ;
+    crmpropertyc:P3_has_note "Mimari analiz; Italica ve Regina tiyatrolarıyla benzerlik" ;
+    crminf:J2_concluded_that <urn:fieldwork:claim:e806702c-500b-4ac6-8cf1-a3a8d82a9cab:belief> .
+
+<urn:fieldwork:claim:e806702c-500b-4ac6-8cf1-a3a8d82a9cab:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:assertion:5ab7d50b-cdc9-474c-920f-5fa71a483013> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:claim:e93979ee-26d4-48e3-89b6-d6b9f0c2a58b:belief> a crminf:I2_Belief ;
+    crminf:J4_that <urn:fieldwork:dating:be67a53a-a2d5-465d-9b23-7c0fbb354f86:period> ;
+    crminf:J5_holds_to_be "true" .
+
+<urn:fieldwork:code:activity_type%2Fcleaning> a crmpropertyc:E55_Type ;
+    rdfs:label "cleaning"@en,
+        "temizlik"@tr .
+
+<urn:fieldwork:code:activity_type%2Fdocumentation> a crmpropertyc:E55_Type ;
+    rdfs:label "documentation"@en,
+        "belgeleme"@tr .
+
+<urn:fieldwork:code:activity_type%2Fseason> a crmpropertyc:E55_Type ;
+    rdfs:label "excavation season"@en,
+        "kazı sezonu"@tr .
+
+<urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fcleaning%20and%20arrangement> a crmpropertyc:E55_Type ;
+    rdfs:label "cleaning and arrangement"@tr ;
+    skos:broadMatch <urn:fieldwork:code:activity_type%2Fcleaning> .
+
+<urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fdocumentation%20survey> a crmpropertyc:E55_Type ;
+    rdfs:label "documentation survey"@tr ;
+    skos:narrowMatch <urn:fieldwork:code:activity_type%2Fdocumentation> .
+
+<urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Ffunding> a crmpropertyc:E55_Type ;
+    rdfs:label "funding"@tr .
+
+<urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fpermission%20and%20support> a crmpropertyc:E55_Type ;
+    rdfs:label "permission and support"@tr .
+
+<urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fpublic%20outreach%20conference> a crmpropertyc:E55_Type ;
+    rdfs:label "public outreach conference"@tr .
+
+<urn:fieldwork:code:activity_type%2Fsieving> a crmpropertyc:E55_Type ;
+    rdfs:label "sieving"@en,
+        "eleme"@tr .
+
+<urn:fieldwork:code:identifier_type%2Fisbn> a crmpropertyc:E55_Type ;
+    rdfs:label "ISBN"@en,
+        "ISBN"@tr .
+
+<urn:fieldwork:code:identifier_type%2Fproject_number> a crmpropertyc:E55_Type ;
+    rdfs:label "project number"@en,
+        "proje numarası"@tr .
+
+<urn:fieldwork:code:identifier_type%2Furl> a crmpropertyc:E55_Type ;
+    rdfs:label "web address"@en,
+        "web adresi"@tr .
+
+<urn:fieldwork:code:material%2Fbronze> a crmpropertyc:E57_Material ;
+    rdfs:label "bronze"@en,
+        "bronz"@tr ;
+    crmpropertyc:P127_has_broader_term <urn:fieldwork:code:material%2Fmetal> .
+
+<urn:fieldwork:code:material%2Fceramic> a crmpropertyc:E57_Material ;
+    rdfs:label "ceramic"@en,
+        "seramik / pişmiş toprak"@tr .
+
+<urn:fieldwork:code:material%2Firon> a crmpropertyc:E57_Material ;
+    rdfs:label "iron"@en,
+        "demir"@tr ;
+    crmpropertyc:P127_has_broader_term <urn:fieldwork:code:material%2Fmetal> .
+
+<urn:fieldwork:code:place_type%2Fdistrict> a crmpropertyc:E55_Type ;
+    rdfs:label "district"@en,
+        "ilçe"@tr .
+
+<urn:fieldwork:code:place_type%2Fprovince> a crmpropertyc:E55_Type ;
+    rdfs:label "province"@en,
+        "il"@tr .
+
+<urn:fieldwork:code:place_type%2Fseleukeia-sidera-2024%2Fhill> a crmpropertyc:E55_Type ;
+    rdfs:label "hill"@tr .
+
+<urn:fieldwork:code:place_type%2Fseleukeia-sidera-2024%2Flocality> a crmpropertyc:E55_Type ;
+    rdfs:label "locality"@tr .
+
+<urn:fieldwork:code:place_type%2Fseleukeia-sidera-2024%2Fschool> a crmpropertyc:E55_Type ;
+    rdfs:label "school"@tr .
+
+<urn:fieldwork:code:place_type%2Fseleukeia-sidera-2024%2Fslope> a crmpropertyc:E55_Type ;
+    rdfs:label "slope"@tr .
+
+<urn:fieldwork:code:role%2Fdeputy_director> a crmpropertyc:E55_Type ;
+    rdfs:label "deputy director"@en,
+        "başkan yardımcısı"@tr .
+
+<urn:fieldwork:code:role%2Fdirector> a crmpropertyc:E55_Type ;
+    rdfs:label "director"@en,
+        "kazı başkanı"@tr .
+
+<urn:fieldwork:code:role%2Fministry_representative> a crmpropertyc:E55_Type ;
+    rdfs:label "ministry representative"@en,
+        "bakanlık temsilcisi"@tr .
+
+<urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fsupporting%20institution> a crmpropertyc:E55_Type ;
+    rdfs:label "supporting institution"@tr ;
+    skos:closeMatch <urn:fieldwork:code:role%2Ffunder> .
+
+<urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fsupporting%20unit> a crmpropertyc:E55_Type ;
+    rdfs:label "supporting unit"@tr .
+
+<urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fteam> a crmpropertyc:E55_Type ;
+    rdfs:label "team"@tr ;
+    skos:closeMatch <urn:fieldwork:code:role%2Fteam_member> .
+
+<urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fteam%20leader> a crmpropertyc:E55_Type ;
+    rdfs:label "team leader"@tr .
+
+<urn:fieldwork:code:source_type%2Fexcavation_report> a crmpropertyc:E55_Type ;
+    rdfs:label "excavation report"@en,
+        "kazı raporu"@tr .
+
+<urn:fieldwork:code:source_type%2Fproceedings> a crmpropertyc:E55_Type ;
+    rdfs:label "proceedings volume"@en,
+        "bildiri kitabı"@tr .
+
+<urn:fieldwork:code:thing_type%2Fanimal_bone> a crmpropertyc:E55_Type ;
+    rdfs:label "animal bone"@en,
+        "hayvan kemiği"@tr ;
+    crmpropertyc:P127_has_broader_term <urn:fieldwork:code:thing_type%2Fbone> .
+
+<urn:fieldwork:code:thing_type%2Fbone> a crmpropertyc:E55_Type ;
+    rdfs:label "bone"@en,
+        "kemik"@tr .
+
+<urn:fieldwork:code:thing_type%2Ffloor> a crmpropertyc:E55_Type ;
+    rdfs:label "floor"@en,
+        "taban"@tr .
+
+<urn:fieldwork:code:thing_type%2Fgrave> a crmpropertyc:E55_Type ;
+    rdfs:label "grave"@en,
+        "mezar"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fanalemma%20wall> a crmpropertyc:E55_Type ;
+    rdfs:label "analemma wall"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fancient%20city> a crmpropertyc:E55_Type ;
+    rdfs:label "ancient city"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fbuilding%20group> a crmpropertyc:E55_Type ;
+    rdfs:label "building group"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fcavea> a crmpropertyc:E55_Type ;
+    rdfs:label "cavea"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fcemetery> a crmpropertyc:E55_Type ;
+    rdfs:label "cemetery"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fkeystone> a crmpropertyc:E55_Type ;
+    rdfs:label "keystone"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fnymphaeum> a crmpropertyc:E55_Type ;
+    rdfs:label "nymphaeum"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Forchestra> a crmpropertyc:E55_Type ;
+    rdfs:label "orchestra"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fparodos> a crmpropertyc:E55_Type ;
+    rdfs:label "parodos"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Freused%20architectural%20element> a crmpropertyc:E55_Type ;
+    rdfs:label "reused architectural element"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Froof%20tile> a crmpropertyc:E55_Type ;
+    rdfs:label "roof tile"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fslag> a crmpropertyc:E55_Type ;
+    rdfs:label "slag"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fsmall%20find> a crmpropertyc:E55_Type ;
+    rdfs:label "small find"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fstage%20building> a crmpropertyc:E55_Type ;
+    rdfs:label "stage building"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fstaircase> a crmpropertyc:E55_Type ;
+    rdfs:label "staircase"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fterracotta%20building%20element> a crmpropertyc:E55_Type ;
+    rdfs:label "terracotta building element"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Ftessera> a crmpropertyc:E55_Type ;
+    rdfs:label "tessera"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Ftheatre> a crmpropertyc:E55_Type ;
+    rdfs:label "theatre"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Ftombstone> a crmpropertyc:E55_Type ;
+    rdfs:label "tombstone"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Ftrench> a crmpropertyc:E55_Type ;
+    rdfs:label "trench"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fwall%20painting%20fragment> a crmpropertyc:E55_Type ;
+    rdfs:label "wall painting fragment"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fwater%20pipe> a crmpropertyc:E55_Type ;
+    rdfs:label "water pipe"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fweighing%20instrument> a crmpropertyc:E55_Type ;
+    rdfs:label "weighing instrument"@tr .
+
+<urn:fieldwork:code:thing_type%2Fwall> a crmpropertyc:E55_Type ;
+    rdfs:label "wall"@en,
+        "duvar"@tr .
+
+<urn:fieldwork:code:unit%2Fseleukeia-sidera-2024%2Ftrench> a crmpropertyc:E58_Measurement_Unit ;
+    rdfs:label "trench"@tr .
+
+<urn:fieldwork:dating:06847dc9-4037-4e86-9737-87f00085addd:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseljuk> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:1a864966-3ac9-4798-b9cd-dd207489983c:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman-wall-north-vom:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:409776ee-4856-463d-b5e7-7fde954a67cb:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:51fdf524-4daf-4c93-bd8b-9250ab2e4ba7:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:5c11ea9d-cc7f-4845-8697-f1029c3bea59:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc4-6-ad> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:6849ae16-9747-4c65-993d-2856e1582295:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc18-20> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:6d28e113-d8f1-4414-9d6e-0dee01fb5044:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:8216e3c3-9515-4b14-b387-7161ca644f7a:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoin-seljuk-north:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseljuk> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:99c83f67-91da-4343-8086-9dd3d8b10def:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fearly-beylik> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:a7e52002-5c53-4ebf-8529-705f4b4126c1:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:af15b9ed-813a-4374-bf02-67427d5e41ca:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhellenistic> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:b299b3b9-38c5-4b07-94eb-64500cf8d042:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseveran> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:b4f53407-3eb5-4566-ba24-30d12ac6e9e2:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:be67a53a-a2d5-465d-9b23-7c0fbb354f86:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dating:c32dee46-7f8e-449a-9562-a13860272a3d:period> a crminf:I17_One-Proposition_Set ;
+    crminf:J30_has_domain <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill:making> ;
+    crminf:J31_has_range <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman> ;
+    crminf:J32_has_property_type <urn:fieldwork:property_type:P10> .
+
+<urn:fieldwork:dimension:29e9be11-4bcc-4dba-b8a4-d86adce64efc> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Fcount> ;
+    crmpropertyc:P90_has_value 13 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fseleukeia-sidera-2024%2Ftrench> .
+
+<urn:fieldwork:dimension:8a43a31d-ceac-4d12-9264-788c388dd834> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Flength> ;
+    crmpropertyc:P90_has_value 18 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fm> .
+
+<urn:fieldwork:dimension:8e656fbe-add6-4e80-9331-2560188feee0> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Fcount> ;
+    crmpropertyc:P90_has_value 1 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fpiece> .
+
+<urn:fieldwork:dimension:bdceea60-9db4-488a-a130-b13e5a20a7c5> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Fcount> ;
+    crmpropertyc:P90_has_value 134 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fpiece> .
+
+<urn:fieldwork:dimension:c761486a-78b3-4e6d-83c5-26eb42e54297> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Fcount> ;
+    crmpropertyc:P90_has_value 1 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fpiece> .
+
+<urn:fieldwork:dimension:dc11e660-1a77-447d-a42a-24f97f2dad03> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Fwidth> ;
+    crmpropertyc:P90_has_value 10 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fm> .
+
+<urn:fieldwork:dimension:dc1c4697-2452-4dc9-9640-7c9b051bd72c> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Flength> ;
+    crmpropertyc:P90_has_value 10 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fm> .
+
+<urn:fieldwork:dimension:e0004b93-3244-489c-a42f-e312d5e6d7c1> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Fcount> ;
+    crmpropertyc:P90_has_value 11 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fpiece> .
+
+<urn:fieldwork:dimension:f755fc2a-d611-4ae9-a17c-751263a5752e> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Fwidth> ;
+    crmpropertyc:P90_has_value 12 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fm> .
+
+<urn:fieldwork:dimension:f998cb3f-f050-4de5-b8f6-0b8e9d299d78> a crmpropertyc:E54_Dimension ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:dimension_kind%2Fcount> ;
+    crmpropertyc:P90_has_value 1 ;
+    crmpropertyc:P91_has_unit <urn:fieldwork:code:unit%2Fpiece> .
+
+<urn:fieldwork:entity:008a1a3f-e796-4c82-93ef-bb49a77e4e23> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 215" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:008a1a3f-e796-4c82-93ef-bb49a77e4e23:locator> ;
+    crmpropertyc:P70_documents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkazi-ekibi-2024> .
+
+<urn:fieldwork:entity:008a1a3f-e796-4c82-93ef-bb49a77e4e23:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "215" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:47a7ad59-584a-446b-bedf-2c5b4ede30d9> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 219" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P165_incorporates <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-4>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-5> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:47a7ad59-584a-446b-bedf-2c5b4ede30d9:locator> .
+
+<urn:fieldwork:entity:47a7ad59-584a-446b-bedf-2c5b4ede30d9:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "219" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:5c22170c-b92e-423b-afdb-9d380390e2eb> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 221" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P165_incorporates <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-8>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-9> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:5c22170c-b92e-423b-afdb-9d380390e2eb:locator> .
+
+<urn:fieldwork:entity:5c22170c-b92e-423b-afdb-9d380390e2eb:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "221" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:79d966f5-3944-44b7-8b88-8540361329f8> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 211" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:79d966f5-3944-44b7-8b88-8540361329f8:locator> ;
+    crmpropertyc:P67_refers_to <urn:fieldwork:claim:1730275d-823e-435a-9f35-fb6502575651>,
+        <urn:fieldwork:claim:e4084af5-4af2-47c9-be5e-73b0b21fa890>,
+        <urn:fieldwork:claim:e806702c-500b-4ac6-8cf1-a3a8d82a9cab> ;
+    crmpropertyc:P70_documents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc4-6-ad>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoffer-orchestra>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-orchestra-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra-floor>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseveran>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fterracotta-elements-stage> .
+
+<urn:fieldwork:entity:79d966f5-3944-44b7-8b88-8540361329f8:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "211" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:7a3fc7d6-7ad2-4c54-ae7a-c84bffffa890> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 220" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P165_incorporates <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-6>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-7> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:7a3fc7d6-7ad2-4c54-ae7a-c84bffffa890:locator> .
+
+<urn:fieldwork:entity:7a3fc7d6-7ad2-4c54-ae7a-c84bffffa890:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "220" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:82c94710-0677-41a6-b8db-70f0310166ed> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 218" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P165_incorporates <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-2>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-3> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:82c94710-0677-41a6-b8db-70f0310166ed:locator> .
+
+<urn:fieldwork:entity:82c94710-0677-41a6-b8db-70f0310166ed:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "218" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:84174449-bae1-439a-97fd-1f7d94ae61c7> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 223" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P165_incorporates <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-12> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:84174449-bae1-439a-97fd-1f7d94ae61c7:locator> .
+
+<urn:fieldwork:entity:84174449-bae1-439a-97fd-1f7d94ae61c7:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "223" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:847eb2f5-c2a0-4181-8864-a8d641ea4a33> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 209" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:847eb2f5-c2a0-4181-8864-a8d641ea4a33:locator> ;
+    crmpropertyc:P67_refers_to <urn:fieldwork:claim:16c53380-4bcc-4aff-8a9e-7f2b90a99f07> ;
+    crmpropertyc:P70_documents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbingol>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta-muze>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-south-vomitorium>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> .
+
+<urn:fieldwork:entity:847eb2f5-c2a0-4181-8864-a8d641ea4a33:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "209" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:8c843c3d-4686-4b08-8283-fee2188f0a1a> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 222" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P165_incorporates <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-10>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-11> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:8c843c3d-4686-4b08-8283-fee2188f0a1a:locator> .
+
+<urn:fieldwork:entity:8c843c3d-4686-4b08-8283-fee2188f0a1a:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "222" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:8f8d1bfd-fe14-4d7b-8221-3726e0055fb1> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 213" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:8f8d1bfd-fe14-4d7b-8221-3726e0055fb1:locator> ;
+    crmpropertyc:P67_refers_to <urn:fieldwork:claim:e1b1a142-4ece-485a-9814-e472ebc9611c> ;
+    crmpropertyc:P70_documents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbakir>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbronze-coins-trenches>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcolumns-trenches>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-south-slope-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffresco-trenches>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhard-floor-layers>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpipe-system>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Freused-mortar>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Froof-tiles-trenches>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsmall-objects-trenches>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftesserae-trenches>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fweighing-set> .
+
+<urn:fieldwork:entity:8f8d1bfd-fe14-4d7b-8221-3726e0055fb1:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "213" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:936991a9-a706-4c8d-bab9-af74ba101052> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 213, 214" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:936991a9-a706-4c8d-bab9-af74ba101052:locator> ;
+    crmpropertyc:P67_refers_to <urn:fieldwork:claim:0b5dbc64-538f-4c7a-82bc-167183728ae3> .
+
+<urn:fieldwork:entity:936991a9-a706-4c8d-bab9-af74ba101052:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "213, 214" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:a4dcc506-187e-4822-8f71-00c5f32bd4bd> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 224" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P165_incorporates <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-13>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-14> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:a4dcc506-187e-4822-8f71-00c5f32bd4bd:locator> .
+
+<urn:fieldwork:entity:a4dcc506-187e-4822-8f71-00c5f32bd4bd:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "224" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:b617eb07-1e58-403e-b809-4d4dd16e59f0> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 214" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:b617eb07-1e58-403e-b809-4d4dd16e59f0:locator> ;
+    crmpropertyc:P70_documents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey-lisesi>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc18-20>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffunding-bap-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fgelecege-miras>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fktb>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-bap>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fyavuz> .
+
+<urn:fieldwork:entity:b617eb07-1e58-403e-b809-4d4dd16e59f0:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "214" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:df4ced76-4e61-4a80-8f40-fba6bde2119b> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 212, 213" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:df4ced76-4e61-4a80-8f40-fba6bde2119b:locator> ;
+    crmpropertyc:P67_refers_to <urn:fieldwork:claim:7a470af9-a5d4-4f6f-95de-718bc2345a51> .
+
+<urn:fieldwork:entity:df4ced76-4e61-4a80-8f40-fba6bde2119b:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "212, 213" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:e031cb3f-6447-4273-97d6-3c363ad5d935> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 210" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:e031cb3f-6447-4273-97d6-3c363ad5d935:locator> ;
+    crmpropertyc:P67_refers_to <urn:fieldwork:claim:a0e7a65c-6270-49bf-aedc-fea448190e22> ;
+    crmpropertyc:P70_documents <urn:fieldwork:entity:seleukeia-sidera-2024%2Farch-blocks-north-vom>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoin-seljuk-north>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fdiazoma-block>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman-wall-north-vom>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fmortar-layer-north-vom>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-analemma>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-cavea>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium> .
+
+<urn:fieldwork:entity:e031cb3f-6447-4273-97d6-3c363ad5d935:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "210" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:e52edada-4396-4cd2-97fd-bf37586a3652> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 217" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P165_incorporates <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-1> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:e52edada-4396-4cd2-97fd-bf37586a3652:locator> .
+
+<urn:fieldwork:entity:e52edada-4396-4cd2-97fd-bf37586a3652:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "217" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:fb218cad-f11d-46a8-80e5-7313fff9e199> a crmpropertyc:E31_Document ;
+    rdfs:label "s. 212" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:fb218cad-f11d-46a8-80e5-7313fff9e199:locator> ;
+    crmpropertyc:P70_documents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbingol>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbones-1993-fill>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcleaning-south-slope-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoins-1993-fill>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe-south-slope>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Frock-cut-stairs>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsieving-1993-fill>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fslag-1993-fill>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> .
+
+<urn:fieldwork:entity:fb218cad-f11d-46a8-80e5-7313fff9e199:locator> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "212" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Farch-blocks-north-vom:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "arch-blocks-north-vom" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey-lisesi:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "atabey-lisesi" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "atabey" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "atay" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fatesogullari:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "atesogullari" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbakir:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "bakir" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbayat> a crmpropertyc:E53_Place ;
+    rdfs:label "Bayat köyü" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbayat:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:place_type%2Fvillage> ;
+    crmpropertyc:P89_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbayat:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "bayat" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbingol:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "bingol" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbones-1993-fill:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "bones-1993-fill" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbronze-coins-trenches:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "bronze-coins-trenches" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fc18-20:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "c18-20" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fc18-20:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 1700 ;
+    crmpropertyc:P82b_end_of_the_end 1999 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fc4-6-ad:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "c4-6-ad" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fc4-6-ad:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 300 ;
+    crmpropertyc:P82b_end_of_the_end 599 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "campaign-1985-87" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 1985 ;
+    crmpropertyc:P82b_end_of_the_end 1987 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "campaign-1993" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 1993 ;
+    crmpropertyc:P82b_end_of_the_end 1993 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "campaign-2010-22" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 2010 ;
+    crmpropertyc:P82b_end_of_the_end 2022 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "campaign-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 2024 ;
+    crmpropertyc:P82b_end_of_the_end 2024 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseveran> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "capital-coffer-architrave" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "cemetery-survey-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "ceramics-1993-fill" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "ceramics-stage-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "ceramics-trenches-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcleaning-south-slope-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "cleaning-south-slope-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoffer-orchestra:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "coffer-orchestra" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoin-seljuk-north:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoin-seljuk-north> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseljuk> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoin-seljuk-north:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "coin-seljuk-north" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoins-1993-fill:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "coins-1993-fill" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcolumns-trenches:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "columns-trenches" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "conference-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 2024 ;
+    crmpropertyc:P82b_end_of_the_end 2024 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fdiazoma-block:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "diazoma-block" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fearly-beylik:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "early-beylik" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-orchestra-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "exc-orchestra-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-south-slope-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "exc-south-slope-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "exc-stage-north-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "exc-theatre-north-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "fill-1993" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "fill-north-vom" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffresco-trenches:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "fresco-trenches" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffunding-bap-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "funding-bap-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffunding-bap-2024:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 2024 ;
+    crmpropertyc:P82b_end_of_the_end 2024 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fgelecege-miras:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "gelecege-miras" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhard-floor-layers:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "hard-floor-layers" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhellenistic:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "hellenistic" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "hidirlik-cemetery" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "hidirlik-graves" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "hidirlik" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe-south-slope:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "hisar-tepe-south-slope" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "hisar-tepe" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "hurmuzlu" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fislamkoy> a crmpropertyc:E53_Place ;
+    rdfs:label "İslamköy köyü" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fislamkoy:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:place_type%2Fvillage> ;
+    crmpropertyc:P89_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fislamkoy:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "islamkoy" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta> a crmpropertyc:E53_Place ;
+    rdfs:label "Isparta ili" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:place_type%2Fprovince> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta-muze:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "isparta-muze" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "isparta" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkazi-ekibi-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "kazi-ekibi-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "keystone-zeus" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1:published> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 2026 ;
+    crmpropertyc:P82b_end_of_the_end 2026 .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "kst45-1" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fktb:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "ktb" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "kvmgm" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman-wall-north-vom:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman-wall-north-vom> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman-wall-north-vom:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "late-roman-wall-north-vom" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "late-roman" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fmortar-layer-north-vom:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "mortar-layer-north-vom" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-analemma:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "north-analemma" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-cavea:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "north-cavea" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "north-parodos" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc4-6-ad> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "nymphaion" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra-floor:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "orchestra-floor" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "orchestra" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc18-20> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "ottoman-tombstones" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "ottoman" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "permit-2024" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 2024 ;
+    crmpropertyc:P82b_end_of_the_end 2024 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fpipe-system:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "pipe-system" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Freport:published> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 2026 ;
+    crmpropertyc:P82b_end_of_the_end 2026 .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Freport:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "report" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Freport:url> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "kst_paper_split/14_SELEUKEIA_SIDERA_ANTIK_KENTI_2024_YILI_CALISMALARI.pdf" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Furl> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-1> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera yerleşim alanları." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-1:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-10> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera Güney Yamaç Yapıları, Devşirme Mortar parçası ve Su Sistemleri." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpipe-system>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Freused-mortar> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-10:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-10:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 10" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-11> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Hıdırlık Mevkii Türk İslam Dönemi Mezarlığı." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-11:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-11:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 11" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-12> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Hıdırlık Mevkii Türk İslam Dönemi Mezarlığı." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-12:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-12:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 12" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-13> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Toplumsal Arkeoloji ve Kültürel Miras farkındalık çalışmaları." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-13:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-13:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 13" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-14> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Toplumsal Arkeoloji ve Kültürel Miras farkındalık çalışmaları." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-14:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-14:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 14" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-1:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 1" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-2> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Hisar Tepe, Seleukeia Sidera." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-2:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-2:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 2" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-3> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera Tiyatro, Sahne Binası, Vomitorium." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-3:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-3:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 3" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-4> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera Tiyatro ve Sahne Binası plan." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-4:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-4:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 4" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-5> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera Tiyatro Sahne Binası, Nymphaion." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-5:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-5:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 5" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-6> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera Tiyatro ve Sahne Binası, Orkestra, kuzey Analemna Duvarı, Nymphaion." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoffer-orchestra>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-orchestra-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-analemma>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-6:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-6:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 6" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-7> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera Güney Yamaç Yapıları." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-7:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-7:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 7" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-8> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera Güney Yamaç Yapıları, 1993 ve 2024 yılı kazılarının gerçekleştiği alan." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcleaning-south-slope-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsieving-1993-fill>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-8:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-8:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 8" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-9> a crmpropertyc:E36_Visual_Item ;
+    rdfs:label "Seleukeia Sidera Güney Yamaç Yapıları." ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P138_represents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-south-slope-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-9:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:media_type%2Fphotograph> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fresim-9:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "Resim 9" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Freused-mortar:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "reused-mortar" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Frock-cut-stairs:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "rock-cut-stairs" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "roman-imperial" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Froof-tiles-trenches:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "roof-tiles-trenches" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "sarisahin" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "sdu-arkeoloji" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-bap:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "sdu-bap" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "sdu" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fseljuk:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "seljuk" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fseveran:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "severan" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fseveran:span> a crmgeo:SP10_DeclarativeTime-Span ;
+    crmpropertyc:P82a_begin_of_the_begin 193 ;
+    crmpropertyc:P82b_end_of_the_end 235 ;
+    crmgeo:Q15_time_is_expressed_in_terms_of <urn:fieldwork:code:time_scale%2FCE> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsieving-1993-fill:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "sieving-1993-fill" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "site" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fslag-1993-fill:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "slag-1993-fill" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsmall-objects-trenches:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "small-objects-trenches" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "south-slope-group" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "south-slope-trenches" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "stage-building" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fterracotta-elements-stage:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "terracotta-elements-stage" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftesserae-trenches:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "tesserae-trenches" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "theatre-north-vomitorium" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-south-vomitorium:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "theatre-south-vomitorium" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "theatre" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "togan" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fweighing-set:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "weighing-set" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fyavuz:sourceid> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "yavuz" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fsource_system> .
+
+<urn:fieldwork:find_context:05253fe4-8bcb-4323-a24e-a34a3a732f17> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbronze-coins-trenches> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> .
+
+<urn:fieldwork:find_context:0f647400-f38c-4a54-b903-4a6485b2d7c6> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building:extent> .
+
+<urn:fieldwork:find_context:35ae5435-89cf-4cf9-a6e3-151c77fdf995> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fdiazoma-block> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos:extent> .
+
+<urn:fieldwork:find_context:3a34e469-dfd9-4c57-82b8-5443f6c546cb> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fterracotta-elements-stage> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building:extent> .
+
+<urn:fieldwork:find_context:469f0204-e62f-4016-996f-acb169d7a15b> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery> .
+
+<urn:fieldwork:find_context:4aee1b25-ec4a-4a66-92e9-7d7d8cd985bf> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffresco-trenches> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> .
+
+<urn:fieldwork:find_context:4f576202-891a-422b-ae76-70ba40ef08f6> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftesserae-trenches> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> .
+
+<urn:fieldwork:find_context:53f0e912-e309-487f-a0c2-06df0f0ba9c2> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fslag-1993-fill> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> .
+
+<urn:fieldwork:find_context:5daf5478-e066-405c-aa18-011349085cb8> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoins-1993-fill> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> .
+
+<urn:fieldwork:find_context:64794c30-05a1-4464-be27-17fa2232fd75> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbones-1993-fill> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> .
+
+<urn:fieldwork:find_context:7fcce4ac-a935-4735-881a-38c6846f1d60> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> .
+
+<urn:fieldwork:find_context:875d8d24-acd1-4e30-9c36-b00b63e9532f> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Freused-mortar> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> .
+
+<urn:fieldwork:find_context:9254bcca-09fd-41b4-b13f-bb085caacfb8> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Farch-blocks-north-vom> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:extent> .
+
+<urn:fieldwork:find_context:9701b835-8c8d-46f5-a66f-2ccb967eaa6f> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Froof-tiles-trenches> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> .
+
+<urn:fieldwork:find_context:b35ef8c7-4948-4692-a089-84e5f82c81a1> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsmall-objects-trenches> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> .
+
+<urn:fieldwork:find_context:b71125fd-07eb-4c67-b568-d264fd57be5a> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:extent> .
+
+<urn:fieldwork:find_context:c8dfc94c-a364-452a-a4e0-730bcdddff98> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building:extent> .
+
+<urn:fieldwork:find_context:dd7de447-d2c3-4f9c-9059-e861fc0be657> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> .
+
+<urn:fieldwork:find_context:dde5a914-cb9f-4861-a63c-71497d9aa4bb> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcolumns-trenches> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> .
+
+<urn:fieldwork:find_context:e524a9e0-05f0-49be-aaca-5d91447ef866> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fweighing-set> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> .
+
+<urn:fieldwork:find_context:ead14f95-af09-4892-8fbd-597e23ed0572> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoffer-orchestra> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra:extent> .
+
+<urn:fieldwork:find_context:fc97ab76-aaf4-45c3-a2db-0f7ab69d4f2c> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoin-seljuk-north> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:extent> .
+
+<urn:fieldwork:identifier:6bb60daa-7a78-4b2d-8300-afa93d1a0c46> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "978-975-17-6634-2" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fisbn> .
+
+<urn:fieldwork:identifier:7f3cb08b-b87b-44e2-8b20-ae7c14fe8f85> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "0009-0005-6079-9293" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Forcid> .
+
+<urn:fieldwork:identifier:8bc1b1f1-126d-46ab-94e1-6db444a50135> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "0000-0001-6767-0939" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Forcid> .
+
+<urn:fieldwork:identifier:96bb7bce-be89-4331-8c33-7489cc093bfe> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "0000-0002-3676-7436" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Forcid> .
+
+<urn:fieldwork:identifier:b2711ec9-aaf6-4b9c-b6c2-888f040165ed> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "0009-0006-5725-5831" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Forcid> .
+
+<urn:fieldwork:identifier:da552bf6-5886-475c-aaf9-40da4fde578f> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "SKP-2024-9404" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Fproject_number> .
+
+<urn:fieldwork:identifier:e8a9b326-49c9-4a45-85b6-8c07ff80f88a> a crmpropertyc:E42_Identifier ;
+    crmpropertyc:P190_has_symbolic_content "209-224" ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:identifier_type%2Flocator> .
+
+<urn:fieldwork:relation_type:condition> a crmpropertyc:E55_Type ;
+    rdfs:label "is in the condition"@en ;
+    skos:broadMatch crmpropertyc:P2_has_type .
+
+<urn:fieldwork:relation_type:depicts_motif> a crmpropertyc:E55_Type ;
+    rdfs:label "depicts"@en ;
+    skos:broadMatch crmpropertyc:P62_depicts .
+
+<urn:fieldwork:relation_type:edited_by> a crmpropertyc:E55_Type ;
+    rdfs:label "was edited by"@en ;
+    skos:broadMatch crmpropertyc:P14_carried_out_by .
+
+<urn:fieldwork:relation_type:published_at> a crmpropertyc:E55_Type ;
+    rdfs:label "was published at"@en ;
+    skos:broadMatch crmpropertyc:P7_took_place_at .
+
+<urn:fieldwork:relation_type:published_by> a crmpropertyc:E55_Type ;
+    rdfs:label "was published by"@en ;
+    skos:broadMatch crmpropertyc:P14_carried_out_by .
+
+<urn:fieldwork:relation_type:used> a crmpropertyc:E55_Type ;
+    rdfs:label "used"@en ;
+    skos:broadMatch crmpropertyc:P16_used_specific_object .
+
+<urn:fieldwork:code:condition%2Fseleukeia-sidera-2024%2Fdamaged> a crmpropertyc:E55_Type ;
+    rdfs:label "damaged"@tr .
+
+<urn:fieldwork:code:dimension_kind%2Flength> a crmpropertyc:E55_Type ;
+    rdfs:label "length"@en,
+        "uzunluk"@tr .
+
+<urn:fieldwork:code:dimension_kind%2Fwidth> a crmpropertyc:E55_Type ;
+    rdfs:label "width"@en,
+        "genişlik"@tr .
+
+<urn:fieldwork:code:language%2Ftr> a crmpropertyc:E56_Language ;
+    rdfs:label "Turkish"@en,
+        "Türkçe"@tr .
+
+<urn:fieldwork:code:material%2Fmetal> a crmpropertyc:E57_Material ;
+    rdfs:label "metal"@en,
+        "metal"@tr .
+
+<urn:fieldwork:code:material%2Fseleukeia-sidera-2024%2Fterracotta> a crmpropertyc:E57_Material ;
+    rdfs:label "terracotta"@tr ;
+    skos:narrowMatch <urn:fieldwork:code:material%2Fceramic> .
+
+<urn:fieldwork:code:motif%2Fseleukeia-sidera-2024%2FZeus> a crmpropertyc:E55_Type ;
+    rdfs:label "Zeus"@tr .
+
+<urn:fieldwork:code:place_type%2Fvillage> a crmpropertyc:E55_Type ;
+    rdfs:label "village"@en,
+        "köy / mahalle"@tr .
+
+<urn:fieldwork:code:role%2Ffunder> a crmpropertyc:E55_Type ;
+    rdfs:label "funder"@en,
+        "destekleyen kurum"@tr .
+
+<urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fexcavation%20director> a crmpropertyc:E55_Type ;
+    rdfs:label "excavation director"@tr ;
+    skos:exactMatch <urn:fieldwork:code:role%2Fdirector> .
+
+<urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fpermitting%20authority> a crmpropertyc:E55_Type ;
+    rdfs:label "permitting authority"@tr .
+
+<urn:fieldwork:code:role%2Fseleukeia-sidera-2024%2Fspeaker> a crmpropertyc:E55_Type ;
+    rdfs:label "speaker"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Farchitectural%20block> a crmpropertyc:E55_Type ;
+    rdfs:label "architectural block"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fvomitorium> a crmpropertyc:E55_Type ;
+    rdfs:label "vomitorium"@tr .
+
+<urn:fieldwork:entity:36de1703-b746-4a82-9687-0c0e9986c99a> a crmpropertyc:E53_Place ;
+    rdfs:label "Ankara" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey-lisesi> a crmpropertyc:E53_Place ;
+    rdfs:label "Atabey Anadolu Lisesi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey-lisesi:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:place_type%2Fseleukeia-sidera-2024%2Fschool> ;
+    crmpropertyc:P89_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fatesogullari> a crmpropertyc:E21_Person ;
+    rdfs:label "Soner Ateşoğulları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatesogullari:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbronze-coins-trenches> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Çok sayıda bronz sikke" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbronze-coins-trenches:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fcoin> ;
+    crmpropertyc:P45_consists_of <urn:fieldwork:code:material%2Fbronze> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcolumns-trenches> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Sütun parçaları, kaideler ve mimari elemanlar" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcolumns-trenches:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Farchitectural_element> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fdiazoma-block> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Diazoma duvar hattına ait olabilecek mimari blok" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fdiazoma-block:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Farchitectural%20block> ;
+    crmpropertyc:P43_has_dimension <urn:fieldwork:dimension:8e656fbe-add6-4e80-9331-2560188feee0> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fearly-beylik> a crmpropertyc:E4_Period ;
+    rdfs:label "Erken Beylikler Dönemi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fearly-beylik:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffresco-trenches> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Fresk parçaları ve harç kalıntıları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffresco-trenches:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fwall%20painting%20fragment> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhellenistic> a crmpropertyc:E4_Period ;
+    rdfs:label "Helenistik Dönem" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhellenistic:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-cavea> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Kuzey cavea" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-cavea:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fcavea> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos:extent> a crmpropertyc:E53_Place .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra-floor> a crmpropertyc:E25_Human-Made_Feature ;
+    rdfs:label "Cavea oturma sıralarını taşıyan blokların zemini" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra-floor:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Ffloor> ;
+    crmpropertyc:P3_has_note "Nehir çakılları ve amorf taşlardan, araları harçla güçlendirilmiş." .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra:extent> a crmpropertyc:E53_Place .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman> a crmpropertyc:E4_Period ;
+    rdfs:label "Osmanlı Dönemi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Frock-cut-stairs> a crmpropertyc:E25_Human-Made_Feature ;
+    rdfs:label "Ana kayaya oyulmuş merdiven sistemi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Frock-cut-stairs:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fstaircase> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Froof-tiles-trenches> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Pişmiş toprak çatı kiremitleri ve zemin kaplama parçaları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Froof-tiles-trenches:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Froof%20tile> ;
+    crmpropertyc:P45_consists_of <urn:fieldwork:code:material%2Fseleukeia-sidera-2024%2Fterracotta> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsmall-objects-trenches> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Metal, cam ve kemik objeler" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsmall-objects-trenches:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fsmall%20find> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fterracotta-elements-stage> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Sahne binası pişmiş toprak yapı elemanları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fterracotta-elements-stage:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fterracotta%20building%20element> ;
+    crmpropertyc:P45_consists_of <urn:fieldwork:code:material%2Fseleukeia-sidera-2024%2Fterracotta> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftesserae-trenches> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Mozaik döşemelerine ait tessera örnekleri" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftesserae-trenches:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Ftessera> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-south-vomitorium> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Tiyatro güney vomitoriumu" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-south-vomitorium:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fvomitorium> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fweighing-set> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Ağırlık, titanbulum (terazi kolu) ve terazi kefeleri" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fweighing-set:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fweighing%20instrument> .
+
+<urn:fieldwork:find_context:319284e8-7226-434b-82e7-4406e92f5312> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> .
+
+<urn:fieldwork:find_context:54179d0e-f32e-4984-a116-e504c083446e> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom> .
+
+<urn:fieldwork:find_context:8e3a082c-85c6-40b3-871d-e2cdc7b32a6e> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbones-1993-fill> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> .
+
+<urn:fieldwork:find_context:9d025b41-7a3a-4be1-adc8-2f92afa3fc99> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Farch-blocks-north-vom> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom> .
+
+<urn:fieldwork:find_context:9ec6257e-baf3-4012-ab08-c006c379b98b> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoins-1993-fill> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> .
+
+<urn:fieldwork:find_context:ef184ec8-1116-4f73-93bf-aece6e82aaa4> a crmsci:S19_Encounter_Event ;
+    crmsci:O19_encountered_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Fslag-1993-fill> ;
+    crmsci:O21_encountered_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> .
+
+<urn:fieldwork:relation_type:had_purpose> a crmpropertyc:E55_Type ;
+    rdfs:label "was done for"@en ;
+    skos:broadMatch crmpropertyc:P20_had_specific_purpose .
+
+<urn:fieldwork:relation_type:removed> a crmpropertyc:E55_Type ;
+    rdfs:label "removed part or all of"@en ;
+    skos:broadMatch crmarchaeo:AP5_removed_part_or_all_of .
+
+<urn:fieldwork:code:role%2Finstitution> a crmpropertyc:E55_Type ;
+    rdfs:label "responsible institution"@en,
+        "sorumlu kurum"@tr .
+
+<urn:fieldwork:code:role%2Fteam_member> a crmpropertyc:E55_Type ;
+    rdfs:label "team member"@en,
+        "ekip üyesi"@tr .
+
+<urn:fieldwork:code:thing_type%2Farchitectural_element> a crmpropertyc:E55_Type ;
+    rdfs:label "architectural element"@en,
+        "mimari eleman"@tr .
+
+<urn:fieldwork:code:thing_type%2Fcoin> a crmpropertyc:E55_Type ;
+    rdfs:label "coin"@en,
+        "sikke"@tr .
+
+<urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fpottery%20sherds> a crmpropertyc:E55_Type ;
+    rdfs:label "pottery sherds"@tr .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey> a crmpropertyc:E53_Place ;
+    rdfs:label "Atabey ilçesi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:place_type%2Fdistrict> ;
+    crmpropertyc:P89_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fc18-20> a crmpropertyc:E4_Period ;
+    rdfs:label "18.-20. yüzyıl" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc18-20:sourceid> ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc18-20:span> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fc4-6-ad> a crmpropertyc:E4_Period ;
+    rdfs:label "MS 4.-6. yüzyıl" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc4-6-ad:sourceid> ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fc4-6-ad:span> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma, sınırlı Helenistik)" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fpottery%20sherds> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-stage-2024> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhellenistic>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Açma seramik parçaları (Roma İmparatorluk ve Geç Roma)" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-trenches-2024:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fpottery%20sherds> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoffer-orchestra> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Orkestra kaset parçaları ve mimari unsurlar" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoffer-orchestra:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Farchitectural_element> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoin-seljuk-north> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Selçuklu Dönemi sikkesi (tiyatro kuzeyi)" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoin-seljuk-north:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fcoin> ;
+    crmpropertyc:P43_has_dimension <urn:fieldwork:dimension:f998cb3f-f050-4de5-b8f6-0b8e9d299d78> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffunding-bap-2024> a crmpropertyc:E7_Activity ;
+    rdfs:label "SDÜ BAP projesi SKP-2024-9404" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-bap> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffunding-bap-2024:sourceid>,
+        <urn:fieldwork:identifier:da552bf6-5886-475c-aaf9-40da4fde578f> ;
+    crmpropertyc:P20_had_specific_purpose <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Ffunding> ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffunding-bap-2024:span> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik> a crmpropertyc:E53_Place ;
+    rdfs:label "Hıdırlık Mevkii" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:place_type%2Fseleukeia-sidera-2024%2Flocality> ;
+    crmpropertyc:P89_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fislamkoy> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves:making> a crmpropertyc:E12_Production ;
+    crmpropertyc:P108_has_produced <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves> ;
+    crmpropertyc:P10_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fearly-beylik>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseljuk> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe-south-slope> a crmpropertyc:E53_Place ;
+    rdfs:label "Hisar Tepe güney yamacı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe-south-slope:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:place_type%2Fseleukeia-sidera-2024%2Fslope> ;
+    crmpropertyc:P89_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta-muze> a crmpropertyc:E74_Group ;
+    rdfs:label "Isparta Müze Müdürlüğü" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta-muze:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkazi-ekibi-2024> a crmpropertyc:E74_Group ;
+    rdfs:label "Seleukeia Sidera 2024 kazı ve araştırma ekibi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkazi-ekibi-2024:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fktb> a crmpropertyc:E74_Group ;
+    rdfs:label "T.C. Kültür ve Turizm Bakanlığı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P107_has_current_or_former_member <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fyavuz> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fktb:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman-wall-north-vom> a crmpropertyc:E25_Human-Made_Feature ;
+    rdfs:label "Kuzey vomitoriumdaki Geç Roma duvar kalıntısı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman-wall-north-vom:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fwall> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fmortar-layer-north-vom> a crmarchaeo:A2_Stratigraphic_Volume_Unit ;
+    rdfs:label "Kuzey vomitorium zemin harç tabakası" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fmortar-layer-north-vom:sourceid> ;
+    crmpropertyc:P3_has_note "Yapının zeminine ait harç tabakası",
+        "Yapının zeminine ait olduğu düşünülmektedir." ;
+    crmpropertyc:P53_has_former_or_current_location <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:extent> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fpipe-system> a crmpropertyc:E25_Human-Made_Feature ;
+    rdfs:label "Künk sistemleri" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpipe-system:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fwater%20pipe> ;
+    crmpropertyc:P3_has_note "Su tahliyesi veya su teminine yönelik altyapı." .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Freused-mortar> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Duvarlarda devşirme kullanılan mortar parçaları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Freused-mortar:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Freused%20architectural%20element> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fseveran> a crmpropertyc:E4_Period ;
+    rdfs:label "Severuslar Dönemi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseveran:sourceid> ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseveran:span> .
+
+<urn:fieldwork:relation_type:continued> a crmpropertyc:E55_Type ;
+    rdfs:label "continued"@en ;
+    skos:broadMatch crmpropertyc:P134_continued .
+
+<urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fexcavation%20campaign> a crmpropertyc:E55_Type ;
+    rdfs:label "excavation campaign"@tr ;
+    skos:exactMatch <urn:fieldwork:code:activity_type%2Fseason> .
+
+<urn:fieldwork:code:identifier_type%2Forcid> a crmpropertyc:E55_Type ;
+    rdfs:label "ORCID"@en,
+        "ORCID"@tr .
+
+<urn:fieldwork:code:unit%2Fm> a crmpropertyc:E58_Measurement_Unit ;
+    rdfs:label "metre"@en,
+        "m"@tr .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Farch-blocks-north-vom> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Kuzey vomitorium mimari blokları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Farch-blocks-north-vom:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Farchitectural%20block> ;
+    crmpropertyc:P3_has_note "Vomitoriumun kemerli yapılarında kullanıldığını gösterir." .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbakir> a crmpropertyc:E21_Person ;
+    rdfs:label "Abdullah Bakır" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbakir:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbingol> a crmpropertyc:E21_Person ;
+    rdfs:label "Orhan Bingöl" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbingol:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fbones-1993-fill> a crmpropertyc:E20_Biological_Object ;
+    rdfs:label "Hayvan kemiği parçaları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbones-1993-fill:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fanimal_bone> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Sütun başlığı, kaset ve arşitrav parçaları (tiyatro üst yapısı)" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcapital-coffer-architrave:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Farchitectural_element> ;
+    crmpropertyc:P3_has_note "Severuslar Dönemi (MS 193-235) tiyatro üst yapısı",
+        "Tiyatronun üst yapısına ait; Severuslar Dönemi'ne (MS 193-235) tarihlendirilebileceği düşünülmektedir." .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcleaning-south-slope-2024> a crmpropertyc:E7_Activity ;
+    rdfs:label "Güney Yamaç Yapı Grubu temizlik, düzenleme ve eleme çalışmaları 2024" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcleaning-south-slope-2024:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fcleaning%20and%20arrangement> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoins-1993-fill> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "1993 dolgusundan elenen sikkeler" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcoins-1993-fill:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fcoin> ;
+    crmpropertyc:P3_has_note "Etütlük ve envanterlik nitelikte toplam 134 adet." ;
+    crmpropertyc:P43_has_dimension <urn:fieldwork:dimension:bdceea60-9db4-488a-a130-b13e5a20a7c5> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-orchestra-2024> a crmarchaeo:A1_Excavation_Processing_Unit ;
+    rdfs:label "Orkestra güneydoğusu kazısı 2024" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-orchestra-2024:sourceid> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra> ;
+    crmpropertyc:P9_consists_of <urn:fieldwork:find_context:ead14f95-af09-4892-8fbd-597e23ed0572> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fgelecege-miras> a crmpropertyc:E74_Group ;
+    rdfs:label "Geleceğe Miras Daire Başkanlığı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fgelecege-miras:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhard-floor-layers> a crmarchaeo:A2_Stratigraphic_Volume_Unit ;
+    rdfs:label "Pişmiş toprak malzemeli sert zemin tabakaları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhard-floor-layers:sourceid> ;
+    crmpropertyc:P53_has_former_or_current_location <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves> a crmpropertyc:E25_Human-Made_Feature ;
+    rdfs:label "Hıdırlık Mezarlığı mezarları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fgrave> ;
+    crmpropertyc:P3_has_note "Büyük ve küçük şahide taşlı çok sayıda mezar; Selçuklu ve Erken Beylikler tarihlemesi kesin değildir.",
+        "Selçuklu, Erken Beylikler ve Osmanlı dönemleri (kesin tarihleme için kazı planlanmaktadır)" .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe> a crmpropertyc:E53_Place ;
+    rdfs:label "Hisar Tepe" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:place_type%2Fseleukeia-sidera-2024%2Fhill> ;
+    crmpropertyc:P89_falls_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbayat> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1> a crmpropertyc:E31_Document ;
+    rdfs:label "45. Kazı Sonuçları Toplantısı Bildirileri, Cilt 1" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P106_is_composed_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkst45-1:sourceid>,
+        <urn:fieldwork:identifier:6bb60daa-7a78-4b2d-8300-afa93d1a0c46> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:source_type%2Fproceedings> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Kuzey parodos" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P156_occupies <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos:extent> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fparodos> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu> a crmpropertyc:E74_Group ;
+    rdfs:label "Süleyman Demirel Üniversitesi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P107_has_current_or_former_member <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-bap> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-bap> a crmpropertyc:E74_Group ;
+    rdfs:label "Süleyman Demirel Üniversitesi Bilimsel Araştırma Projeleri" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-bap:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fseljuk> a crmpropertyc:E4_Period ;
+    rdfs:label "Selçuklu Dönemi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fseljuk:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fslag-1993-fill> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Demir cüruflar" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fslag-1993-fill:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fslag> ;
+    crmpropertyc:P45_consists_of <urn:fieldwork:code:material%2Firon> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building:extent> a crmpropertyc:E53_Place .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fyavuz> a crmpropertyc:E21_Person ;
+    rdfs:label "Hanife Yavuz" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fyavuz:sourceid> .
+
+<urn:fieldwork:relation_type:authored_by> a crmpropertyc:E55_Type ;
+    rdfs:label "was written by"@en ;
+    skos:broadMatch crmpropertyc:P14_carried_out_by .
+
+<urn:fieldwork:relation_type:investigated> a crmpropertyc:E55_Type ;
+    rdfs:label "investigated"@en ;
+    skos:broadMatch crmarchaeo:AP3_investigated .
+
+<urn:fieldwork:relation_type:lies_in> a crmpropertyc:E55_Type ;
+    rdfs:label "lies in or on"@en ;
+    skos:broadMatch crmpropertyc:P53_has_former_or_current_location .
+
+<urn:fieldwork:relation_type:member> a crmpropertyc:E55_Type ;
+    rdfs:label "has the member"@en ;
+    skos:broadMatch crmpropertyc:P107_has_current_or_former_member .
+
+<urn:fieldwork:code:unit%2Fpiece> a crmpropertyc:E58_Measurement_Unit ;
+    rdfs:label "piece"@en,
+        "adet"@tr .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "1993 dolgusundan seramik parçaları ve pithos kırıkları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fceramics-1993-fill:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fpottery%20sherds> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-south-slope-2024> a crmarchaeo:A1_Excavation_Processing_Unit ;
+    rdfs:label "Güney yamaç açma kazıları 2024 (13 açma)" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-south-slope-2024:sourceid> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches> ;
+    crmpropertyc:P9_consists_of <urn:fieldwork:find_context:05253fe4-8bcb-4323-a24e-a34a3a732f17>,
+        <urn:fieldwork:find_context:4aee1b25-ec4a-4a66-92e9-7d7d8cd985bf>,
+        <urn:fieldwork:find_context:4f576202-891a-422b-ae76-70ba40ef08f6>,
+        <urn:fieldwork:find_context:7fcce4ac-a935-4735-881a-38c6846f1d60>,
+        <urn:fieldwork:find_context:875d8d24-acd1-4e30-9c36-b00b63e9532f>,
+        <urn:fieldwork:find_context:9701b835-8c8d-46f5-a66f-2ccb967eaa6f>,
+        <urn:fieldwork:find_context:b35ef8c7-4948-4692-a089-84e5f82c81a1>,
+        <urn:fieldwork:find_context:dde5a914-cb9f-4861-a63c-71497d9aa4bb>,
+        <urn:fieldwork:find_context:e524a9e0-05f0-49be-aaca-5d91447ef866> ;
+    crmarchaeo:AP5_removed_part_or_all_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhard-floor-layers> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-analemma> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Kuzey analemma duvarı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-analemma:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fanalemma%20wall> ;
+    crmpropertyc:P3_has_note "Batı kısmı büyük kyklopik taşlarla inşa edilmiştir." .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Orkestra" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P156_occupies <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra:extent> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Forchestra> ;
+    crmpropertyc:P46_is_composed_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra-floor> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsieving-1993-fill> a crmpropertyc:E7_Activity ;
+    rdfs:label "1993 dolgu toprağının elenmesi 2024" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P16_used_specific_object <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsieving-1993-fill:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fsieving> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crmpropertyc:P9_consists_of <urn:fieldwork:find_context:319284e8-7226-434b-82e7-4406e92f5312>,
+        <urn:fieldwork:find_context:53f0e912-e309-487f-a0c2-06df0f0ba9c2>,
+        <urn:fieldwork:find_context:5daf5478-e066-405c-aa18-011349085cb8>,
+        <urn:fieldwork:find_context:64794c30-05a1-4464-be27-17fa2232fd75>,
+        <urn:fieldwork:find_context:8e3a082c-85c6-40b3-871d-e2cdc7b32a6e>,
+        <urn:fieldwork:find_context:9ec6257e-baf3-4012-ab08-c006c379b98b>,
+        <urn:fieldwork:find_context:dd7de447-d2c3-4f9c-9059-e861fc0be657>,
+        <urn:fieldwork:find_context:ef184ec8-1116-4f73-93bf-aece6e82aaa4> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches> a crmpropertyc:E25_Human-Made_Feature ;
+    rdfs:label "Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m)" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P156_occupies <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Ftrench> ;
+    crmpropertyc:P43_has_dimension <urn:fieldwork:dimension:29e9be11-4bcc-4dba-b8a4-d86adce64efc>,
+        <urn:fieldwork:dimension:dc11e660-1a77-447d-a42a-24f97f2dad03>,
+        <urn:fieldwork:dimension:dc1c4697-2452-4dc9-9640-7c9b051bd72c> ;
+    crmpropertyc:P53_has_former_or_current_location <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe-south-slope> .
+
+<urn:fieldwork:code:dimension_kind%2Fcount> a crmpropertyc:E55_Type ;
+    rdfs:label "count"@en,
+        "adet"@tr .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22> a crmarchaeo:A9_Archaeological_Excavation ;
+    rdfs:label "Sahne binası kuzey kesimi kazıları 2010-2022" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fexcavation%20campaign> ;
+    crmpropertyc:P3_has_note "Güney cephedeki niş serisinin kuzeyde de devam ettiği ortaya konmuştur." ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22:span> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building> ;
+    crmarchaeo:AP3_investigated <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024> a crmarchaeo:A1_Excavation_Processing_Unit ;
+    rdfs:label "Sahne binası kuzey yönü kazı ve belgeleme çalışmaları 2024" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024:sourceid> ;
+    crmpropertyc:P3_has_note "Yapının ana hatlarının belgelenmesi ve nymphaion ile yapısal bütünlüğünün incelenmesi amaçlanmıştır." ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building> ;
+    crmpropertyc:P9_consists_of <urn:fieldwork:find_context:0f647400-f38c-4a54-b903-4a6485b2d7c6>,
+        <urn:fieldwork:find_context:3a34e469-dfd9-4c57-82b8-5443f6c546cb>,
+        <urn:fieldwork:find_context:c8dfc94c-a364-452a-a4e0-730bcdddff98> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery> a crmpropertyc:E27_Site ;
+    rdfs:label "İslamköy Hıdırlık Mezarlığı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fcemetery> ;
+    crmpropertyc:P46_is_composed_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-graves> ;
+    crmpropertyc:P53_has_former_or_current_location <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Zeus kabartmalı kilit taşı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkeystone-zeus:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:condition%2Fseleukeia-sidera-2024%2Fdamaged>,
+        <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fkeystone> ;
+    crmpropertyc:P3_has_note "Dolgu toprağı içinde ele geçmiştir." ;
+    crmpropertyc:P43_has_dimension <urn:fieldwork:dimension:c761486a-78b3-4e6d-83c5-26eb42e54297> ;
+    crmpropertyc:P62_depicts <urn:fieldwork:code:motif%2Fseleukeia-sidera-2024%2FZeus> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm> a crmpropertyc:E74_Group ;
+    rdfs:label "Kültür Varlıkları ve Müzeler Genel Müdürlüğü" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P107_has_current_or_former_member <urn:fieldwork:entity:seleukeia-sidera-2024%2Fgelecege-miras> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Osmanlıca mezar taşları (11 adet, 18.-20. yüzyıl)" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fottoman-tombstones:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Ftombstone> ;
+    crmpropertyc:P3_has_note "Günümüz Türkçesine çevrilmiştir." ;
+    crmpropertyc:P43_has_dimension <urn:fieldwork:dimension:e0004b93-3244-489c-a42f-e312d5e6d7c1> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024> a crmpropertyc:E7_Activity ;
+    rdfs:label "2024 çalışmaları için izin ve destek" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fgelecege-miras>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fktb>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkvmgm>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024:sourceid> ;
+    crmpropertyc:P20_had_specific_purpose <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fpermission%20and%20support> ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpermit-2024:span> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Freport> a crmpropertyc:E31_Document,
+        crmpropertyc:E33_Linguistic_Object ;
+    rdfs:label "Seleukeia Sidera Antik Kenti 2024 Yılı Çalışmaları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P106_is_composed_of <urn:fieldwork:entity:008a1a3f-e796-4c82-93ef-bb49a77e4e23>,
+        <urn:fieldwork:entity:47a7ad59-584a-446b-bedf-2c5b4ede30d9>,
+        <urn:fieldwork:entity:5c22170c-b92e-423b-afdb-9d380390e2eb>,
+        <urn:fieldwork:entity:79d966f5-3944-44b7-8b88-8540361329f8>,
+        <urn:fieldwork:entity:7a3fc7d6-7ad2-4c54-ae7a-c84bffffa890>,
+        <urn:fieldwork:entity:82c94710-0677-41a6-b8db-70f0310166ed>,
+        <urn:fieldwork:entity:84174449-bae1-439a-97fd-1f7d94ae61c7>,
+        <urn:fieldwork:entity:847eb2f5-c2a0-4181-8864-a8d641ea4a33>,
+        <urn:fieldwork:entity:8c843c3d-4686-4b08-8283-fee2188f0a1a>,
+        <urn:fieldwork:entity:8f8d1bfd-fe14-4d7b-8221-3726e0055fb1>,
+        <urn:fieldwork:entity:936991a9-a706-4c8d-bab9-af74ba101052>,
+        <urn:fieldwork:entity:a4dcc506-187e-4822-8f71-00c5f32bd4bd>,
+        <urn:fieldwork:entity:b617eb07-1e58-403e-b809-4d4dd16e59f0>,
+        <urn:fieldwork:entity:df4ced76-4e61-4a80-8f40-fba6bde2119b>,
+        <urn:fieldwork:entity:e031cb3f-6447-4273-97d6-3c363ad5d935>,
+        <urn:fieldwork:entity:e52edada-4396-4cd2-97fd-bf37586a3652>,
+        <urn:fieldwork:entity:fb218cad-f11d-46a8-80e5-7313fff9e199> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport:sourceid>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Freport:url>,
+        <urn:fieldwork:identifier:e8a9b326-49c9-4a45-85b6-8c07ff80f88a> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:source_type%2Fexcavation_report> ;
+    crmpropertyc:P70_documents <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> ;
+    crmpropertyc:P72_has_language <urn:fieldwork:code:language%2Ftr> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial> a crmpropertyc:E4_Period ;
+    rdfs:label "Roma İmparatorluk Dönemi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Froman-imperial:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji> a crmpropertyc:E74_Group ;
+    rdfs:label "Süleyman Demirel Üniversitesi, İnsan ve Toplum Bilimleri Fakültesi, Arkeoloji Bölümü" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P107_has_current_or_former_member <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Tiyatro kuzey vomitoriumu" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P156_occupies <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:extent> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fvomitorium> ;
+    crmpropertyc:P46_is_composed_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman-wall-north-vom> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:extent> a crmpropertyc:E53_Place .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87> a crmarchaeo:A9_Archaeological_Excavation ;
+    rdfs:label "Isparta Müzesi tiyatro kazıları 1985-1987" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fisparta-muze> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fexcavation%20campaign> ;
+    crmpropertyc:P3_has_note "Güney parados, cavea, sahne binası ve Nymphaion'un bir kısmı açığa çıkarılmıştır (Kaya 1999a, 1999b)." ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87:span> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre> ;
+    crmarchaeo:AP3_investigated <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024> a crmpropertyc:E7_Activity ;
+    rdfs:label "Hıdırlık Mevkii Türk-İslam Dönemi mezarlık belgeleme çalışmaları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbakir> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fdocumentation%20survey> ;
+    crmpropertyc:P3_has_note "Mezar ve mezar taşları tespit edilip belgelenmiş; Osmanlıca mezar taşları günümüz Türkçesine çevrilmiştir. Kesin tarihleme için bilimsel kazı planlanmaktadır." ;
+    crmpropertyc:P7_took_place_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhidirlik-cemetery> ;
+    crmpropertyc:P9_consists_of <urn:fieldwork:find_context:469f0204-e62f-4016-996f-acb169d7a15b> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024> a crmpropertyc:E7_Activity ;
+    rdfs:label "Atabey ve Çevresinde Kültürel Miraslar ve Seleukeia Sidera Antik Kenti'nin Tanıtımı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fyavuz> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fpublic%20outreach%20conference> ;
+    crmpropertyc:P3_has_note "Toplumsal arkeoloji ve kültürel miras farkındalık etkinliği; yasa dışı kazıların zararları, sit alanı statüleri ve yerel halkın rolü ele alınmıştır." ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024:span> ;
+    crmpropertyc:P7_took_place_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatabey-lisesi> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024> a crmarchaeo:A1_Excavation_Processing_Unit ;
+    rdfs:label "Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey parodos) kazısı 2024" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024:sourceid> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-analemma>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium> ;
+    crmpropertyc:P9_consists_of <urn:fieldwork:find_context:35ae5435-89cf-4cf9-a6e3-151c77fdf995>,
+        <urn:fieldwork:find_context:54179d0e-f32e-4984-a116-e504c083446e>,
+        <urn:fieldwork:find_context:9254bcca-09fd-41b4-b13f-bb085caacfb8>,
+        <urn:fieldwork:find_context:9d025b41-7a3a-4be1-adc8-2f92afa3fc99>,
+        <urn:fieldwork:find_context:b71125fd-07eb-4c67-b568-d264fd57be5a>,
+        <urn:fieldwork:find_context:fc97ab76-aaf4-45c3-a2db-0f7ab69d4f2c> ;
+    crmarchaeo:AP5_removed_part_or_all_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Tiyatro" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Ftheatre> ;
+    crmpropertyc:P3_has_note "Selçuklu Dönemi'nde gümrük yapısı olarak iskân (olası)" ;
+    crmpropertyc:P46_is_composed_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-analemma>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-cavea>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnorth-parodos>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Forchestra>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-south-vomitorium> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993> a crmarchaeo:A9_Archaeological_Excavation ;
+    rdfs:label "Orhan Bingöl başkanlığında 1993 kazıları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fbingol> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fexcavation%20campaign> ;
+    crmpropertyc:P3_has_note "Güney Yamaç Yapı Grubu ilk kez açığa çıkarılmış; doğu ve batı yönlerinde dört mekân belirlenmiştir (Bingöl 1994, 2012)." ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993:span> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> ;
+    crmarchaeo:AP3_investigated <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom> a crmarchaeo:A2_Stratigraphic_Volume_Unit ;
+    rdfs:label "Kuzey vomitorium dolgu toprağı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-north-vom:sourceid> ;
+    crmpropertyc:P53_has_former_or_current_location <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre-north-vomitorium:extent> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman> a crmpropertyc:E4_Period ;
+    rdfs:label "Geç Roma İmparatorluk Dönemi" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Flate-roman:sourceid> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Nymphaion" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fnymphaeum> ;
+    crmpropertyc:P3_has_note "Perge örneğiyle özdeş, MS 4.-6. yüzyılda eklenmiş çeşme yapısı",
+        "Sahne binasına MS 4.-6. yüzyıllarda entegre edilmiş çeşme yapısı; aedicula biçimli yarım nişler, çay taşı ve pişmiş toprak malzeme; sıva izleri ve harçlı zemin in situ." .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-trenches:extent> a crmpropertyc:E53_Place .
+
+<urn:fieldwork:relation_type:interpreted_as> a crmpropertyc:E55_Type ;
+    rdfs:label "is interpreted as"@en ;
+    skos:broadMatch crmpropertyc:P3_has_note .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay> a crmpropertyc:E21_Person ;
+    rdfs:label "Alper Atay" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay:sourceid>,
+        <urn:fieldwork:identifier:b2711ec9-aaf6-4b9c-b6c2-888f040165ed> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin> a crmpropertyc:E21_Person ;
+    rdfs:label "Mustafa Sarışahin" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin:sourceid>,
+        <urn:fieldwork:identifier:7f3cb08b-b87b-44e2-8b20-ae7c14fe8f85> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> a crmpropertyc:E53_Place .
+
+<urn:fieldwork:code:time_scale%2FCE> a crmgeo:SP11_Temporal_Reference_System ;
+    rdfs:label "calendar years"@en,
+        "takvim yılı"@tr .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Sahne Binası" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P156_occupies <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building:extent> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fstage-building:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fstage%20building> ;
+    crmpropertyc:P3_has_note "Helenistik Dönem'den itibaren farklı dönemlerde değişerek kullanım" ;
+    crmpropertyc:P46_is_composed_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fnymphaion> .
+
+<urn:fieldwork:entity:5fbcbc15-4967-4be7-acb7-c6e2ce471b73> a crmpropertyc:E74_Group ;
+    rdfs:label "Alper Atay, Bilge Hürmüzlü (Kortholt), Mustafa Sarışahin, Semih Togan" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P107_has_current_or_former_member <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu> a crmpropertyc:E21_Person ;
+    rdfs:label "Bilge Hürmüzlü (Kortholt)" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu:sourceid>,
+        <urn:fieldwork:identifier:96bb7bce-be89-4331-8c33-7489cc093bfe> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> a crmpropertyc:E21_Person ;
+    rdfs:label "Semih Togan" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan:sourceid>,
+        <urn:fieldwork:identifier:8bc1b1f1-126d-46ab-94e1-6db444a50135> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993> a crmarchaeo:A2_Stratigraphic_Volume_Unit ;
+    rdfs:label "1993 kazılarında açığa çıkarılan dolgu toprağı" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Ffill-1993:sourceid> ;
+    crmpropertyc:P53_has_former_or_current_location <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> a crmpropertyc:E27_Site ;
+    rdfs:label "Seleukeia Sidera Antik Kenti" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fancient%20city> ;
+    crmpropertyc:P46_is_composed_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftheatre> ;
+    crmpropertyc:P53_has_former_or_current_location <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe> .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group> a crmpropertyc:E22_Human-Made_Object ;
+    rdfs:label "Güney Yamaç Yapı Grubu" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P156_occupies <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:extent> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsouth-slope-group:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:thing_type%2Fseleukeia-sidera-2024%2Fbuilding%20group> ;
+    crmpropertyc:P3_has_note "Kısmen ana kayaya oturtulmuş teraslar halinde; esas olarak 5 ayrı mekân; ana kayaya oyulmuş merdiven sistemiyle ilişkili.",
+        "Mozaikli ve sıvalı-boyalı duvarlı mekânların varlığı",
+        "Üretim ve ticaret odaklı, çok işlevli, uzun süreli kullanım; kamusal işlev" ;
+    crmpropertyc:P43_has_dimension <urn:fieldwork:dimension:8a43a31d-ceac-4d12-9264-788c388dd834>,
+        <urn:fieldwork:dimension:f755fc2a-d611-4ae9-a17c-751263a5752e> ;
+    crmpropertyc:P46_is_composed_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fpipe-system>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Frock-cut-stairs> ;
+    crmpropertyc:P53_has_former_or_current_location <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe-south-slope> .
+
+<urn:fieldwork:code:media_type%2Fphotograph> a crmpropertyc:E55_Type ;
+    rdfs:label "photograph"@en,
+        "fotoğraf"@tr .
+
+<urn:fieldwork:relation_type:worked_on> a crmpropertyc:E55_Type ;
+    rdfs:label "took place on or within"@en ;
+    skos:broadMatch crmpropertyc:P8_took_place_on_or_within .
+
+<urn:fieldwork:property_type:P10> a crmpropertyc:E55_Type ;
+    skos:exactMatch crmpropertyc:P10_falls_within .
+
+<urn:fieldwork:code:identifier_type%2Flocator> a crmpropertyc:E55_Type ;
+    rdfs:label "page or figure"@en,
+        "sayfa veya resim"@tr .
+
+<urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024> a crmarchaeo:A9_Archaeological_Excavation ;
+    rdfs:label "Seleukeia Sidera 2024 yılı çalışmaları" ;
+    dcterms:isPartOf <urn:fieldwork:dataset:seleukeia-sidera-2024> ;
+    crmpropertyc:P134_continued <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1985-87>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-1993>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2010-22> ;
+    crmpropertyc:P14_carried_out_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fkazi-ekibi-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsdu-arkeoloji>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> ;
+    crmpropertyc:P1_is_identified_by <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024:sourceid> ;
+    crmpropertyc:P2_has_type <urn:fieldwork:code:activity_type%2Fseleukeia-sidera-2024%2Fexcavation%20campaign> ;
+    crmpropertyc:P3_has_note "Kazı, temizlik, düzenleme ve belgeleme çalışmaları; Güney Yamacı Yapı Grupları ile Tiyatro ve Sahne Binası'nda yoğunlaşmıştır." ;
+    crmpropertyc:P4_has_time-span <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcampaign-2024:span> ;
+    crmpropertyc:P7_took_place_at <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhisar-tepe> ;
+    crmpropertyc:P8_took_place_on_or_within <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> ;
+    crmpropertyc:P9_consists_of <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcemetery-survey-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fcleaning-south-slope-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fconference-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-orchestra-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-south-slope-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-stage-north-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fexc-theatre-north-2024>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsieving-1993-fill> ;
+    crmarchaeo:AP3_investigated <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsite> .
+
+<urn:fieldwork:code:identifier_type%2Fsource_system> a crmpropertyc:E55_Type ;
+    rdfs:label "identifier in the source system"@en,
+        "kaynak sistemdeki numara"@tr .
+
+<urn:fieldwork:dataset:seleukeia-sidera-2024> a crmpropertyc:E73_Information_Object ;
+    rdfs:label "Seleukeia Sidera Antik Kenti 2024 Yılı Çalışmaları" ;
+    dcterms:accessRights "open" ;
+    dcterms:contributor <urn:fieldwork:entity:seleukeia-sidera-2024%2Fatay>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fhurmuzlu>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Fsarisahin>,
+        <urn:fieldwork:entity:seleukeia-sidera-2024%2Ftogan> ;
+    dcterms:language <urn:fieldwork:code:language%2Ftr> ;
+    dcterms:subject "Seleukeia Sidera Antik Kenti" ;
+    dcterms:temporal "2024" ;
+    owl:versionInfo "1" ;
+    fw:method "Read from the published report. See the report of version 1." .
+

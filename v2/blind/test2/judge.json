@@ -1,0 +1,902 @@
+[
+ {
+  "n": 12,
+  "outcome": "A",
+  "where": "activity.place -> site (E27)",
+  "why": "Work and its place fit the column; E27 passes the E53 check"
+ },
+ {
+  "n": 21,
+  "outcome": "C",
+  "where": "participation.role",
+  "why": "'kazı başkanı yardımcısı' is not exactly 'başkan yardımcısı', becomes own role code"
+ },
+ {
+  "n": 31,
+  "outcome": "C",
+  "where": "dimension on the season activity, own dimension_kind",
+  "why": "Dimension on a group (E74) is refused (not S15); count needs an own kind on the activity"
+ },
+ {
+  "n": 32,
+  "outcome": "C",
+  "where": "participation.role own code",
+  "why": "'arkeolog' is not in the role list"
+ },
+ {
+  "n": 34,
+  "outcome": "E",
+  "where": "entity.remark of the source",
+  "why": "No checkable fact, only text"
+ },
+ {
+  "n": 36,
+  "outcome": "A",
+  "where": "activity.begin/end 1993",
+  "why": "Preparing the grid is a work with a year"
+ },
+ {
+  "n": 38,
+  "outcome": "B",
+  "where": "actor.member_of -> Antalya Müzesi",
+  "why": "Affiliation stored, 'uzmanı' part of the office is lost (alt. own attribute D)"
+ },
+ {
+  "n": 39,
+  "outcome": "D",
+  "where": "relation.property (raw) with claim belief=false, or own yes/no attribute",
+  "why": "No declared relation or attribute for 'has digital version'"
+ },
+ {
+  "n": 40,
+  "outcome": "C",
+  "where": "activity.type own code",
+  "why": "'dijital hale getirme' is not in activity_type"
+ },
+ {
+  "n": 42,
+  "outcome": "E",
+  "where": "remark on the activity",
+  "why": "Result of a work has no typed place"
+ },
+ {
+  "n": 43,
+  "outcome": "C",
+  "where": "dimension, own dimension_kind, approx=1",
+  "why": "No kind for a difference of elevations; approx is kept"
+ },
+ {
+  "n": 48,
+  "outcome": "B",
+  "where": "activity.place -> place with name only",
+  "why": "Place 'üst düzlük' has no kind from the list"
+ },
+ {
+  "n": 50,
+  "outcome": "B",
+  "where": "participation.actor (E74)",
+  "why": "University, department and staff group in one name"
+ },
+ {
+  "n": 51,
+  "outcome": "B",
+  "where": "participation.actor (E74)",
+  "why": "University, department and student group in one name"
+ },
+ {
+  "n": 60,
+  "outcome": "D",
+  "where": "own attribute 'title' on E21",
+  "why": "No column or declared attribute for a title"
+ },
+ {
+  "n": 61,
+  "outcome": "A",
+  "where": "actor.member_of",
+  "why": "Affiliation fits the column"
+ },
+ {
+  "n": 62,
+  "outcome": "A",
+  "where": "relation member (institute has member person)",
+  "why": "Second affiliation by declared relation, direction turned"
+ },
+ {
+  "n": 64,
+  "outcome": "D",
+  "where": "relation.property P74 to a place",
+  "why": "Address needs a raw property of the ontology"
+ },
+ {
+  "n": 65,
+  "outcome": "A",
+  "where": "identifier type orcid",
+  "why": "Standard identifier type"
+ },
+ {
+  "n": 67,
+  "outcome": "B",
+  "where": "activity.place -> place with name only",
+  "why": "'Merkezi Kilise’nin güneyi' is a name without kind, direction kept only in the name"
+ },
+ {
+  "n": 71,
+  "outcome": "B",
+  "where": "activity.place / relation also_at",
+  "why": "'neredeyse tamamen' cannot be stored as a degree of coverage"
+ },
+ {
+  "n": 72,
+  "outcome": "B",
+  "where": "activity with place name only",
+  "why": "'arazi' is a place without kind"
+ },
+ {
+  "n": 75,
+  "outcome": "A",
+  "where": "about (media -> thing), identifier figure_number",
+  "why": "Figure link fits"
+ },
+ {
+  "n": 78,
+  "outcome": "E",
+  "where": "remark on the activity",
+  "why": "A general judgement on a method has no typed place; denial only in text"
+ },
+ {
+  "n": 84,
+  "outcome": "B",
+  "where": "relation had_purpose -> entity with name only",
+  "why": "Aim is kept as an entity that holds only a name"
+ },
+ {
+  "n": 85,
+  "outcome": "B",
+  "where": "relation had_purpose -> entity with name only",
+  "why": "Aim is kept as an entity that holds only a name"
+ },
+ {
+  "n": 86,
+  "outcome": "B",
+  "where": "relation had_purpose -> entity with name only",
+  "why": "Aim is kept as an entity that holds only a name"
+ },
+ {
+  "n": 87,
+  "outcome": "B",
+  "where": "participation role funder, actor KTB",
+  "why": "'ödeneği' (the budget line) is lost"
+ },
+ {
+  "n": 89,
+  "outcome": "C",
+  "where": "dimension on the ERT activity, own dimension_kind",
+  "why": "Profiles are places (E53), dimension refused there; count needs an own kind on the activity"
+ },
+ {
+  "n": 91,
+  "outcome": "A",
+  "where": "about (media -> place)",
+  "why": "Figure link fits"
+ },
+ {
+  "n": 93,
+  "outcome": "C",
+  "where": "dimension own kind 'aralık' 1 m",
+  "why": "No dimension kind for spacing; walker_spacing does not apply"
+ },
+ {
+  "n": 97,
+  "outcome": "D",
+  "where": "own attribute on E53 (decimal) with claim",
+  "why": "Dimension on a place is refused (E53 is not S15); no declared attribute"
+ },
+ {
+  "n": 100,
+  "outcome": "A",
+  "where": "dimension depth 6 m on the layers (A2)",
+  "why": "Typed measurement"
+ },
+ {
+  "n": 106,
+  "outcome": "D",
+  "where": "own attribute text on A2",
+  "why": "No declared attribute for electrical resistance"
+ },
+ {
+  "n": 112,
+  "outcome": "A",
+  "where": "assertion interpreted_as with claim belief=possible",
+  "why": "Judgement and hedge both stored"
+ },
+ {
+  "n": 119,
+  "outcome": "B",
+  "where": "relation had_purpose -> entity with name only, claim",
+  "why": "Expected result is an entity with only a name"
+ },
+ {
+  "n": 121,
+  "outcome": "B",
+  "where": "relation borders (place - site)",
+  "why": "'civarında' is weakened to borders"
+ },
+ {
+  "n": 127,
+  "outcome": "B",
+  "where": "activity.part_of -> earlier seasons, name only",
+  "why": "No years given, the earlier seasons are an entity with only a name"
+ },
+ {
+  "n": 137,
+  "outcome": "B",
+  "where": "dimension length 20 m",
+  "why": "Direction 'kuzeye doğru' and 'daha' are lost"
+ },
+ {
+  "n": 139,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim",
+  "why": "Identification stored by declared relation (alt. E)"
+ },
+ {
+  "n": 143,
+  "outcome": "A",
+  "where": "dimension length, approx=1",
+  "why": "Typed, hedge kept in approx"
+ },
+ {
+  "n": 146,
+  "outcome": "C",
+  "where": "activity.type own code",
+  "why": "Compound method term is not in the list; analysis.method refused for E7"
+ },
+ {
+  "n": 148,
+  "outcome": "D",
+  "where": "relation.property P183",
+  "why": "No declared relation for 'after'; raw property works"
+ },
+ {
+  "n": 154,
+  "outcome": "B",
+  "where": "relation had_purpose -> entity with name only",
+  "why": "Reason kept as an entity with only a name"
+ },
+ {
+  "n": 155,
+  "outcome": "A",
+  "where": "dimension depth value_min 0.5 m",
+  "why": "Typed measurement, 'itibaren' as lower limit"
+ },
+ {
+  "n": 159,
+  "outcome": "E",
+  "where": "remark / label of a passage",
+  "why": "A heading is text only"
+ },
+ {
+  "n": 161,
+  "outcome": "B",
+  "where": "activity.begin/end",
+  "why": "Days stored as year 2024"
+ },
+ {
+  "n": 175,
+  "outcome": "D",
+  "where": "own attribute on E53",
+  "why": "Dimension on a point (E53) is refused"
+ },
+ {
+  "n": 176,
+  "outcome": "A",
+  "where": "thing.location -> trench (place_type açma)",
+  "why": "Fits the column"
+ },
+ {
+  "n": 178,
+  "outcome": "B",
+  "where": "part entity 'temel' with material taş, part_of wall",
+  "why": "The foundation is an entity with only a name"
+ },
+ {
+  "n": 180,
+  "outcome": "B",
+  "where": "relation removed (wall with A8) + dimension length 5 m on the activity",
+  "why": "'hat boyunca' is lost"
+ },
+ {
+  "n": 182,
+  "outcome": "A",
+  "where": "relation overlies, turned; class2 A8 by R20",
+  "why": "Direction turned is no loss"
+ },
+ {
+  "n": 184,
+  "outcome": "A",
+  "where": "dimension elevation approx=1 on E25",
+  "why": "Typed, hedge kept"
+ },
+ {
+  "n": 185,
+  "outcome": "D",
+  "where": "own attribute text on the place",
+  "why": "a x b on a place: dimension refused on E53 and no kind for unnamed pair"
+ },
+ {
+  "n": 186,
+  "outcome": "C",
+  "where": "dimension on activity, own kind, value_min 12",
+  "why": "Trenches are places; count needs own kind (alt. E for the wording)"
+ },
+ {
+  "n": 193,
+  "outcome": "B",
+  "where": "relation had_purpose -> entity with name only",
+  "why": "Aim as name only, compound of trenches"
+ },
+ {
+  "n": 195,
+  "outcome": "B",
+  "where": "dimension depth 1.5 m approx=1",
+  "why": "'değerlendirilmektedir' cannot be stored on a dimension; reference level lost"
+ },
+ {
+  "n": 198,
+  "outcome": "B",
+  "where": "relation worked_on",
+  "why": "'removed' refused (E25 without A8, R20 does not apply); weaker relation used"
+ },
+ {
+  "n": 201,
+  "outcome": "C",
+  "where": "dimension on the activity, own kind",
+  "why": "Dimension on trench refused; 'genişletme' is an own kind, direction lost"
+ },
+ {
+  "n": 204,
+  "outcome": "C",
+  "where": "dimension width 2, unit own code 'sıra'",
+  "why": "Unit is not in the list"
+ },
+ {
+  "n": 206,
+  "outcome": "A",
+  "where": "dimension length 4.3 m",
+  "why": "Typed"
+ },
+ {
+  "n": 211,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'kerpiç dolgu' is not exactly 'dolgu'"
+ },
+ {
+  "n": 213,
+  "outcome": "A",
+  "where": "assertion contains_remains_of / interpreted_as with claim probable",
+  "why": "Interpretation and hedge stored"
+ },
+ {
+  "n": 215,
+  "outcome": "A",
+  "where": "activity.begin 2023",
+  "why": "Year fits"
+ },
+ {
+  "n": 216,
+  "outcome": "A",
+  "where": "relation continued / activity year 2024",
+  "why": "Declared relation"
+ },
+ {
+  "n": 220,
+  "outcome": "A",
+  "where": "assertion interpreted_as with claim probable",
+  "why": "Interpretation and hedge stored"
+ },
+ {
+  "n": 221,
+  "outcome": "B",
+  "where": "dimension depth 1.5 m approx=1",
+  "why": "'düşünülmektedir' cannot be stored on a dimension"
+ },
+ {
+  "n": 227,
+  "outcome": "B",
+  "where": "relation had_purpose -> entity with name only",
+  "why": "Aim as name only"
+ },
+ {
+  "n": 229,
+  "outcome": "C",
+  "where": "dimension on activity, own kind",
+  "why": "No kind for 'unsur' counted"
+ },
+ {
+  "n": 230,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'kerpiç blok' not in thing_type"
+ },
+ {
+  "n": 234,
+  "outcome": "C",
+  "where": "assertion condition / attribute preservation, own code",
+  "why": "'iyi korunmuş' not in condition list"
+ },
+ {
+  "n": 237,
+  "outcome": "A",
+  "where": "about (media -> thing)",
+  "why": "Figure link fits"
+ },
+ {
+  "n": 243,
+  "outcome": "D",
+  "where": "own attribute text on the find",
+  "why": "No place for position 'in situ'"
+ },
+ {
+  "n": 247,
+  "outcome": "A",
+  "where": "find_context.found_in / found_by",
+  "why": "Fits"
+ },
+ {
+  "n": 250,
+  "outcome": "A",
+  "where": "dimension count 3 on E25",
+  "why": "Typed count"
+ },
+ {
+  "n": 251,
+  "outcome": "A",
+  "where": "assertion earlier_than (turned) with claim; pits A8 by R20",
+  "why": "Relative date by declared relation"
+ },
+ {
+  "n": 253,
+  "outcome": "A",
+  "where": "assertion similar_to with claim",
+  "why": "Declared relation"
+ },
+ {
+  "n": 254,
+  "outcome": "A",
+  "where": "dimension diameter value_min 1 m",
+  "why": "Lower limit stored"
+ },
+ {
+  "n": 255,
+  "outcome": "B",
+  "where": "relation fills, fill entity with name only",
+  "why": "Fill held by name, no kind ('küllü ve kireçli dolgu' not exact)"
+ },
+ {
+  "n": 263,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'hayvan kemiği parçaları' is not exactly 'hayvan kemiği'"
+ },
+ {
+  "n": 269,
+  "outcome": "A",
+  "where": "dimension depth 1 m",
+  "why": "Typed"
+ },
+ {
+  "n": 282,
+  "outcome": "B",
+  "where": "dimension depth approx=1 on the excavation activity",
+  "why": "Reference point and compound of trenches lost"
+ },
+ {
+  "n": 286,
+  "outcome": "A",
+  "where": "dimension diameter approx=1",
+  "why": "Typed, hedge kept"
+ },
+ {
+  "n": 294,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'seramik parçaları' not in list"
+ },
+ {
+  "n": 295,
+  "outcome": "B",
+  "where": "dating with period entity, claim",
+  "why": "Range 'ETÇ-Demir Çağı arasında' stored as one period name"
+ },
+ {
+  "n": 296,
+  "outcome": "A",
+  "where": "find_context.found_in, one row per trench",
+  "why": "Both places typed as açma"
+ },
+ {
+  "n": 297,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'basit duvarlar' not exactly 'duvar'"
+ },
+ {
+  "n": 305,
+  "outcome": "B",
+  "where": "relation borders",
+  "why": "Direction 'batısında' is lost"
+ },
+ {
+  "n": 307,
+  "outcome": "A",
+  "where": "claim_basis.basis_entity",
+  "why": "Basis of a claim has a column"
+ },
+ {
+  "n": 312,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'hayvan kemikleri' is not exactly 'hayvan kemiği'"
+ },
+ {
+  "n": 313,
+  "outcome": "B",
+  "where": "relation fills, fill entity with name only",
+  "why": "'kül dolgu' held by name without kind"
+ },
+ {
+  "n": 316,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'heykelcikler' not in list"
+ },
+ {
+  "n": 322,
+  "outcome": "B",
+  "where": "dating period + claim belief=possible",
+  "why": "'Helenistik/Roma Dönemi' compound stored as one period"
+ },
+ {
+  "n": 332,
+  "outcome": "D",
+  "where": "own attribute text",
+  "why": "'çok sığ' is not a number, dimension needs a value"
+ },
+ {
+  "n": 341,
+  "outcome": "C",
+  "where": "dimension on activity, own kind 'Locus'",
+  "why": "No kind for loci counted"
+ },
+ {
+  "n": 343,
+  "outcome": "A",
+  "where": "assertion interpreted_as (text) with claim",
+  "why": "Stored by declared relation (alt. E)"
+ },
+ {
+  "n": 349,
+  "outcome": "B",
+  "where": "relation removed -> Locus 60",
+  "why": "'started from' is weakened"
+ },
+ {
+  "n": 350,
+  "outcome": "B",
+  "where": "activity.part_of, sub-activity with name only",
+  "why": "Order 'first' lost, step has only a name"
+ },
+ {
+  "n": 356,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'seramik parçaları' not in list"
+ },
+ {
+  "n": 357,
+  "outcome": "A",
+  "where": "dating period ETÇ III with claim",
+  "why": "Fits"
+ },
+ {
+  "n": 360,
+  "outcome": "A",
+  "where": "find_context.found_in",
+  "why": "Fits"
+ },
+ {
+  "n": 362,
+  "outcome": "C",
+  "where": "thing.type own code",
+  "why": "'tezgâh ağırlığı' not in list"
+ },
+ {
+  "n": 367,
+  "outcome": "B",
+  "where": "activity.part_of season 2024, place",
+  "why": "'last' is lost"
+ },
+ {
+  "n": 371,
+  "outcome": "A",
+  "where": "dating period with claim",
+  "why": "Fits"
+ },
+ {
+  "n": 374,
+  "outcome": "A",
+  "where": "media.type drawing, about",
+  "why": "'çizim' is a standard code"
+ },
+ {
+  "n": 375,
+  "outcome": "A",
+  "where": "attribute compaction (text)",
+  "why": "Declared attribute for A8"
+ },
+ {
+  "n": 379,
+  "outcome": "B",
+  "where": "activity.type planned, place name only",
+  "why": "Target level kept only in the name"
+ },
+ {
+  "n": 382,
+  "outcome": "A",
+  "where": "dating formation period with claim",
+  "why": "Fits"
+ },
+ {
+  "n": 388,
+  "outcome": "D",
+  "where": "own attribute text on the place",
+  "why": "a x b on a place: dimension refused, approx not typed"
+ },
+ {
+  "n": 392,
+  "outcome": "A",
+  "where": "attribute inclusions (text) on A2",
+  "why": "Declared attribute"
+ },
+ {
+  "n": 394,
+  "outcome": "E",
+  "where": "remark",
+  "why": "Subject is a proposition, no entity to attach to"
+ },
+ {
+  "n": 405,
+  "outcome": "A",
+  "where": "about (media -> activity)",
+  "why": "Fits"
+ },
+ {
+  "n": 407,
+  "outcome": "B",
+  "where": "activity.type planned / E29",
+  "why": "'ileriki yıllar' is not a year, planned_for cannot hold it"
+ },
+ {
+  "n": 409,
+  "outcome": "E",
+  "where": "remark on the table (media)",
+  "why": "Column heading is structure only"
+ },
+ {
+  "n": 419,
+  "outcome": "B",
+  "where": "dimension elevation on the A1 excavation of the trench",
+  "why": "Refused on the place; 'kapanış' lost with standard kind (alt. own kind C)"
+ },
+ {
+  "n": 420,
+  "outcome": "A",
+  "where": "dimension removed_volume m3 on activity",
+  "why": "Standard kind and unit"
+ },
+ {
+  "n": 421,
+  "outcome": "A",
+  "where": "place.type açma, about (table -> place)",
+  "why": "Fits"
+ },
+ {
+  "n": 428,
+  "outcome": "B",
+  "where": "activity.begin",
+  "why": "Day stored as year"
+ },
+ {
+  "n": 429,
+  "outcome": "B",
+  "where": "dimension elevation on the A1 activity",
+  "why": "Refused on the place; 'açılış' lost"
+ },
+ {
+  "n": 430,
+  "outcome": "B",
+  "where": "activity.end",
+  "why": "Day stored as year"
+ },
+ {
+  "n": 431,
+  "outcome": "B",
+  "where": "dimension elevation on the A1 activity",
+  "why": "Refused on the place; 'kapanış' lost"
+ },
+ {
+  "n": 435,
+  "outcome": "B",
+  "where": "dimension elevation on the A1 activity",
+  "why": "Refused on the place; 'açılış' lost"
+ },
+ {
+  "n": 438,
+  "outcome": "A",
+  "where": "dimension removed_volume",
+  "why": "Standard kind and unit"
+ },
+ {
+  "n": 445,
+  "outcome": "A",
+  "where": "place.type açma, about",
+  "why": "Fits"
+ },
+ {
+  "n": 449,
+  "outcome": "B",
+  "where": "dimension elevation on the A1 activity",
+  "why": "Refused on the place; 'kapanış' lost"
+ },
+ {
+  "n": 465,
+  "outcome": "B",
+  "where": "thing.location -> place with name only",
+  "why": "'tüm açmalar' stored as one place"
+ },
+ {
+  "n": 476,
+  "outcome": "B",
+  "where": "thing.location -> place with name only",
+  "why": "Direction kept only in a name"
+ },
+ {
+  "n": 477,
+  "outcome": "A",
+  "where": "thing.part_of",
+  "why": "Fits"
+ },
+ {
+  "n": 478,
+  "outcome": "B",
+  "where": "activity.end",
+  "why": "Day stored as year"
+ },
+ {
+  "n": 489,
+  "outcome": "C",
+  "where": "assertion material_is own code, claim possible",
+  "why": "'bakır' not in material list"
+ },
+ {
+  "n": 494,
+  "outcome": "C",
+  "where": "assertion identified_as own code with claim",
+  "why": "'etütlük' matches no code; museum_grade is another term"
+ },
+ {
+  "n": 503,
+  "outcome": "B",
+  "where": "relation had_purpose -> entity with name only",
+  "why": "Aim as name only"
+ },
+ {
+  "n": 504,
+  "outcome": "D",
+  "where": "own attribute text on the activity",
+  "why": "No place for frequency"
+ },
+ {
+  "n": 506,
+  "outcome": "B",
+  "where": "participation without role",
+  "why": "'audience' is lost"
+ },
+ {
+  "n": 507,
+  "outcome": "B",
+  "where": "participation without role",
+  "why": "'audience' is lost"
+ },
+ {
+  "n": 509,
+  "outcome": "B",
+  "where": "activity.begin/end",
+  "why": "Day stored as year"
+ },
+ {
+  "n": 515,
+  "outcome": "D",
+  "where": "own attribute text on the activity",
+  "why": "No place for the topic of a talk"
+ },
+ {
+  "n": 520,
+  "outcome": "D",
+  "where": "own attribute on E53",
+  "why": "Profile is a place, dimension refused (alt. on the activity)"
+ },
+ {
+  "n": 533,
+  "outcome": "B",
+  "where": "activity E11, relation modified + used",
+  "why": "'protects' weakened, cover has only a name"
+ },
+ {
+  "n": 535,
+  "outcome": "D",
+  "where": "own attribute text on E25",
+  "why": "Attribute form applies to E22 only"
+ },
+ {
+  "n": 537,
+  "outcome": "B",
+  "where": "thing.location -> compound place",
+  "why": "'separates' lost, two trenches as one"
+ },
+ {
+  "n": 542,
+  "outcome": "A",
+  "where": "media entity.label, identifier figure_number, media.type fotoğraf",
+  "why": "Caption stored in a column (alt. E)"
+ },
+ {
+  "n": 543,
+  "outcome": "B",
+  "where": "about (media -> place)",
+  "why": "Position inside the photograph lost"
+ },
+ {
+  "n": 544,
+  "outcome": "E",
+  "where": "remark",
+  "why": "Referent unclear, cannot be tied to an entity without guessing"
+ },
+ {
+  "n": 549,
+  "outcome": "B",
+  "where": "about (media -> places)",
+  "why": "Position inside the image lost"
+ },
+ {
+  "n": 555,
+  "outcome": "A",
+  "where": "thing.location -> trench",
+  "why": "Fits"
+ },
+ {
+  "n": 556,
+  "outcome": "B",
+  "where": "thing.location -> place with name only",
+  "why": "Relative position kept only as a name"
+ },
+ {
+  "n": 558,
+  "outcome": "A",
+  "where": "media entity.label, identifier, type fotoğraf",
+  "why": "Caption stored in a column"
+ },
+ {
+  "n": 561,
+  "outcome": "A",
+  "where": "media entity.label, identifier, type fotoğraf",
+  "why": "Caption stored in a column"
+ },
+ {
+  "n": 563,
+  "outcome": "B",
+  "where": "media.made_by -> activity, part_of 'kapanış günü'",
+  "why": "Day is an entity with only a name"
+ }
+]

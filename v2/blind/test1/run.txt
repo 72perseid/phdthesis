@@ -1,0 +1,114 @@
+statements 1500
+   1 typed        1084   72.3 %
+   2 template        0    0.0 %
+   3 own           317   21.1 %
+   4 text only      87    5.8 %
+   X not stored     12    0.8 %
+find list: 1029  1=858  2=0  3=153  4=18  X=0
+all other statements: 471  1=226  2=0  3=164  4=69  X=12
+
+not stored, by reason
+      5  is part of: Structure of the printed document. No place, and not fieldwork data.
+      4  was documented: Says only that a kind of find was recorded. No entity to attach it to.
+      1  is named in page header of volume: Structure of the printed document. No place, and not fieldwork data.
+      1  frequently encountered at its eastern borders: History in general. Its subject is not part of the fieldwork.
+      1  section contains: Structure of the printed document. No place, and not fieldwork data.
+
+text only, by kind of statement
+     18  was found at location: A position relative to a building. Direction and building are not data.
+      4  shows: 
+      3  is described as: 
+      3  was used as reference for: A reference point for levelling. 'Used' needs a thing, and a place is not a thing.
+      3  is evaluated on the basis of: The basis of a claim must be an entity or another claim. 'Its plan' is neither.
+      3  have a wide range in terms of: 
+      3  provide important data about: 
+      3  has purpose: 
+      2  are continuously employed by: Employment has no place.
+      2  is located at: 
+      2  hosts many structures reflecting: 
+      2  is described as unique in terms of: 
+      2  were grouped by: 
+      2  has functional details such as: 
+      2  contribute to understanding of: 
+      2  were measured again (weight): Says that something was measured or done. No value is given.
+      2  were measured again (dimensions): Says that something was measured or done. No value is given.
+      2  were treated according to: 
+      1  distance to Çınar ilçesi: A distance between two places has no place.
+      1  distance to Demirölçek Mahallesi: A distance between two places has no place.
+      1  took place from: Years are whole numbers. The year 2024 is stored. Day and month are text only.
+      1  took place until: Years are whole numbers. The year 2024 is stored. Day and month are text only.
+      1  is a special project of: 
+      1  were taken as service procurement under: Employment has no place.
+      1  were employed through: Employment has no place.
+      1  were employed by: Employment has no place.
+      1  thanked for: 
+      1  continues for duration: 
+      1  is used for purpose: 
+      1  were added to: 
+      1  has purpose: A purpose given as text has no place.
+      1  vegetation was cleaned around and inside: 
+      1  depth varies according to: 
+      1  were numbered: 
+      1  is located behind: A position of one built thing relative to another has no declared relation.
+      1  was founded in an arrangement to meet: 
+      1  conforms at minimum level with: 
+      1  is notable in terms of: 
+      1  show variety suited to: 
+      1  were measured (weight): Says that something was measured or done. No value is given.
+      1  were measured (dimensions): Says that something was measured or done. No value is given.
+      1  could not clean some places: A negative statement about a tool. A claim with the belief false needs a relation to deny.
+      1  was prepared after: 
+      1  were completed: 
+      1  is dated to: A drawing has no year of its own.
+
+own, by reason
+    108  thing.type: own code for the kind
+     34  participation.role: own code: a person or body that is thanked
+     23  participation.role: own code for the role
+     21  own attribute 'görev': An office held in an institution. No place for it. The institution inside the office name 
+     19  find_context.method: own code for 'yüzeyde'
+     16  thing.material: own code for the material
+     13  assertion condition, with a claim: own code for the kind of damage
+     11  own attribute 'unvan': No place for an academic title.
+      9  media with about: own code for the kind of record
+      7  code.parent, between two own codes: A statement about the vocabulary. Both terms are missing from the list.
+      6  assertion condition: own code
+      6  assertion taxon, with a claim taken from a source: own code. The list of species is empty.
+      5  dimension, own kinds: The paper gives 'a x b' and does not say which is length and which is width.
+      5  relation used, and dimension of an own kind: own code: concentration. One substance with three concentrations for three uses cannot be 
+      4  assertion identified_as, with a claim: own code for the kind
+      4  own attribute: No place for a technique of making.
+      3  assertion function: own code. The list of functions is empty.
+      3  relation with the raw property P53: A thing has one column for its place. The second place needed a property taken from the on
+      3  own attribute 'kot': Refused as a measurement: dimension.entity: the entity must be of class S15. A place canno
+      3  thing.type and thing.part_of: own code for the form The hedge 'genellikle' is lost.
+      2  dimension, own kind: A measurement taken at a named point of a thing needed an own code.
+      1  dimension: own code for the unit month
+      1  activity with an own kind, relation worked_on: own code for the kind of work
+      1  own attribute: No place for the running number of a season.
+      1  relation with the raw property P183: 'Before the excavation': order in time between two works has no declared relation.
+      1  identifier, own kind: An entity has one name. A second name needed an own code.
+      1  own attribute 'doğrultu': No place for an orientation.
+      1  source of class E29 with about: own code for the kind: a plan of work
+      1  dimension, own kind: own code: number of steps
+      1  thing.part_of: Stored as a vault that is part of the hall. own code for the kind of vault.
+      1  dimension, own kind: own code: preserved length
+      1  identifier, own kind: A range of numbers for 56 blocks is stored as one text.
+      1  own attribute: No place for a building technique.
+
+hedges lost: 3 of 20
+
+own codes made, by list
+     58  thing_type
+     17  condition
+     10  role
+      7  dimension_kind
+      6  taxon
+      4  material
+      4  media_type
+      3  function
+      2  identifier_type
+      1  activity_type
+      1  collection_method
+      1  source_type
+      1  unit

@@ -1,0 +1,13 @@
+# CQ2  Which periods are attested, through which finds or features, and who says so?
+PREFIX crm:        <http://www.cidoc-crm.org/cidoc-crm/>
+PREFIX crmarchaeo: <http://www.cidoc-crm.org/extensions/crmarchaeo/>
+PREFIX crmsci:     <http://www.cidoc-crm.org/extensions/crmsci/>
+PREFIX rdfs:       <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kst:        <https://example.org/kst45/vocab/>
+PREFIX type:       <https://example.org/kst45/type/>
+SELECT ?period ?thing ?dated_by ?how WHERE {
+  ?prod a crm:E12_Production ; crm:P108_has_produced ?t ; crm:P10_falls_within ?per .
+  ?per rdfs:label ?period . ?t rdfs:label ?thing .
+  OPTIONAL { ?as crm:P140_assigned_attribute_to ?prod ; crm:P141_assigned ?per ; crm:P14_carried_out_by/rdfs:label ?dated_by ;
+                 crm:P2_has_type ?v . ?v crm:P127_has_broader_term type:source-of-knowledge ; rdfs:label ?how }
+} ORDER BY ?period ?thing ?dated_by

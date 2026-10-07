@@ -1,0 +1,292 @@
+{
+ "material": {
+  "bakır": [
+   "Q10737376",
+   "Q421787",
+   "Q740324",
+   "Q75207963",
+   "Q753"
+  ],
+  "branda": [
+   "Q104622561",
+   "Q36938110"
+  ],
+  "ikincil malzeme (spolia)": [],
+  "kireç kaplı taban": [],
+  "kireç sıvalı": [],
+  "klorit": [
+   "Q593248"
+  ],
+  "moloz taş": [],
+  "monolit taş": [],
+  "orta boy taşlar": [],
+  "pişmiş toprak": [],
+  "pişmiş toprak plakalar": [],
+  "seramik": [
+   "Q136553525",
+   "Q45621"
+  ],
+  "taş gibi malzemeler": [],
+  "taş malzeme": [],
+  "taş ve harç": [],
+  "trapez çatı örtüsü": [],
+  "tuğla": [
+   "Q134588454",
+   "Q40089",
+   "Q7857306"
+  ],
+  "çakıl taşı kaplama": [],
+  "çelik iskelet": []
+ },
+ "taxon": {
+  "at": [
+   "Q136",
+   "Q21094242",
+   "Q37325465",
+   "Q6088945",
+   "Q726"
+  ],
+  "domuz": [
+   "Q10798",
+   "Q877261"
+  ],
+  "keçi": [
+   "Q12883634",
+   "Q21683021",
+   "Q2934",
+   "Q6398608",
+   "Q867696"
+  ],
+  "koyun": [
+   "Q22724",
+   "Q83368211",
+   "Q9645"
+  ],
+  "sığır": [
+   "Q830",
+   "Q97320240"
+  ],
+  "tavuk": [
+   "Q780"
+  ],
+  "öküz": [
+   "Q473194",
+   "Q5995211",
+   "Q599644"
+  ]
+ },
+ "thing_type": {
+  "Filistin Amphorası": [],
+  "Hipoje": [
+   "Q665247"
+  ],
+  "Megara kaseleri": [],
+  "Mermer Seramikleri": [],
+  "aksam": [],
+  "amphoralar": [],
+  "amulet parçaları": [],
+  "aplik parçaları": [],
+  "aplik parçası": [],
+  "at figürini": [],
+  "at figürinleri": [],
+  "ağırşak": [
+   "Q2474386"
+  ],
+  "ağırşaklar": [],
+  "basit duvarlar": [],
+  "basit firnisli tabaklar": [],
+  "beşik tonoz": [
+   "Q917098"
+  ],
+  "beşik çatkı tipi": [],
+  "bilezik": [
+   "Q201664",
+   "Q3537455"
+  ],
+  "bilezik parçaları": [],
+  "bilezik parçası": [],
+  "boncuk/ağırşak": [],
+  "boynuz": [
+   "Q82025"
+  ],
+  "cam bilezik": [],
+  "cam kap parçaları": [],
+  "cam parçaları": [],
+  "cam parçası": [],
+  "diğer küçük buluntular": [],
+  "duvar yapısı": [],
+  "dökme kapları": [],
+  "gri siyah tabaklar": [],
+  "günlük kullanım kapları": [],
+  "güveç": [
+   "Q118946249",
+   "Q21162481",
+   "Q342208",
+   "Q6501890",
+   "Q6685531"
+  ],
+  "halka": [
+   "Q161172",
+   "Q212804",
+   "Q2946423",
+   "Q37471871",
+   "Q5642506"
+  ],
+  "hayvan kemikleri": [],
+  "hayvan kemiği parçaları": [],
+  "haç motifli fibula": [],
+  "heykelcikler": [],
+  "insan kemikleri": [],
+  "insan kemiği parçaları": [],
+  "iskelet": [
+   "Q7881"
+  ],
+  "iskelet kalıntıları": [],
+  "iskelet kalıntısı": [],
+  "iğne parçası": [],
+  "işli mimari parçalar": [],
+  "kadeh": [
+   "Q135455519",
+   "Q210723"
+  ],
+  "kafatası": [
+   "Q13147",
+   "Q136429914",
+   "Q136430234",
+   "Q467875"
+  ],
+  "kaide parçası": [],
+  "kanallar": [],
+  "kandil kulbu": [],
+  "kandil parçaları": [],
+  "kandil parçası": [],
+  "kap parçası": [],
+  "kapı aksamı": [],
+  "kemer tokası": [],
+  "kemerli bir kapı": [],
+  "kemik parçası": [],
+  "kerpiç blok": [],
+  "kerpiç dolgu": [],
+  "kilit aksamı": [],
+  "kline": [
+   "Q1259903",
+   "Q2877463",
+   "Q3197875"
+  ],
+  "konservasyon malzemesi": [],
+  "kulp parçası": [],
+  "kâse": [],
+  "kül dolgu": [],
+  "küpe": [
+   "Q168456"
+  ],
+  "küpe parçası": [],
+  "küçük niş": [],
+  "kırmızı hamurlu tabaklar": [],
+  "kırık seramik parçaları": [],
+  "liturji (ayin) objeleri": [],
+  "lüle parçası": [],
+  "merdivenler": [
+   "Q6585720"
+  ],
+  "metal obje": [],
+  "mozaik harcı": [],
+  "mozaik parçaları": [],
+  "obje": [
+   "Q2011843",
+   "Q488383"
+  ],
+  "obje parçası": [],
+  "ok ucu": [],
+  "ok ucu parçası": [],
+  "pithos kalıntısı": [],
+  "pişirme kapları": [],
+  "pişmiş toprak plaka": [],
+  "seramik parçaları": [],
+  "seramik parçası": [],
+  "servis kapları": [],
+  "sikke parçası": [],
+  "site": [
+   "P856",
+   "Q107050634",
+   "Q1199068",
+   "Q13226383",
+   "Q1497375"
+  ],
+  "sosluk": [],
+  "statumen tabakası": [],
+  "sıva (tüm bölümleri)": [],
+  "tabak": [
+   "Q37316230",
+   "Q397493",
+   "Q57216",
+   "Q746549"
+  ],
+  "tabaklar": [
+   "Q10823648",
+   "Q109387120",
+   "Q136546266",
+   "Q2386252",
+   "Q4826662"
+  ],
+  "takı": [
+   "Q1065579",
+   "Q161439",
+   "Q3575260"
+  ],
+  "tam firnisli tabaklar": [],
+  "taş alet": [
+   "Q479257"
+  ],
+  "temel": [
+   "P1013",
+   "Q191360",
+   "Q2402536",
+   "Q46084925",
+   "Q6060398"
+  ],
+  "tessera": [
+   "Q104247400",
+   "Q2406309",
+   "Q2484793",
+   "Q3519009",
+   "Q9137136"
+  ],
+  "testi": [
+   "Q37447277"
+  ],
+  "testi formunda kap": [],
+  "tezgâh ağırlığı": [],
+  "tonozlu üst yapı": [],
+  "tuğla plakalar": [],
+  "tuğla zemin döşemesi": [],
+  "tıkaç": [],
+  "unguentarium parçası": [],
+  "yeraltı mezar odası": [],
+  "yerel tip kandiller": [],
+  "yüzük": [
+   "Q3202038",
+   "Q46847"
+  ],
+  "Çatkı Mezar": [],
+  "çanak parçaları": [],
+  "çatkı mezar": [],
+  "çeşitli mezar hediyeleri": [],
+  "çivi": [
+   "Q19163469",
+   "Q37077",
+   "Q4817145",
+   "Q4830184",
+   "Q5993026"
+  ],
+  "çuvaldız": [],
+  "çömlek": [
+   "Q3399907",
+   "Q3763788"
+  ],
+  "çöp çukuru": [],
+  "şişe": [
+   "Q80228"
+  ]
+ }
+}

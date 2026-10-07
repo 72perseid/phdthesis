@@ -1,0 +1,1419 @@
+{
+  "$comment": "Structured record extracted from: Hürmüzlü, Togan, Atay, Sarışahin (2026) 'Seleukeia Sidera Antik Kenti 2024 Yılı Çalışmaları', 45. Kazı Sonuçları Toplantısı Cilt 1, pp. 209-224. 'pages' are the printed page numbers of the volume. Split file: kst_paper_split/14_SELEUKEIA_SIDERA_ANTIK_KENTI_2024_YILI_CALISMALARI.pdf (volume PDF pages 211-226).",
+  "base_uri": "https://example.org/kst45/seleukeia-sidera-2024/",
+  "document": {
+    "id": "report",
+    "title": "Seleukeia Sidera Antik Kenti 2024 Yılı Çalışmaları",
+    "language": "tr",
+    "authors": [
+      "hurmuzlu",
+      "togan",
+      "atay",
+      "sarisahin"
+    ],
+    "pages": "209-224",
+    "published": "2026",
+    "documents": "campaign-2024",
+    "volume": {
+      "id": "kst45-1",
+      "title": "45. Kazı Sonuçları Toplantısı Bildirileri, Cilt 1",
+      "editor": "atesogullari",
+      "publisher": "kvmgm",
+      "isbn": "978-975-17-6634-2",
+      "place": "Ankara",
+      "published": "2026"
+    },
+    "source_file": "kst_paper_split/14_SELEUKEIA_SIDERA_ANTIK_KENTI_2024_YILI_CALISMALARI.pdf"
+  },
+  "actors": [
+    {
+      "id": "hurmuzlu",
+      "class": "E21_Person",
+      "label": "Bilge Hürmüzlü (Kortholt)",
+      "orcid": "0000-0002-3676-7436",
+      "member_of": "sdu-arkeoloji",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "togan",
+      "class": "E21_Person",
+      "label": "Semih Togan",
+      "orcid": "0000-0001-6767-0939",
+      "member_of": "sdu-arkeoloji",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "atay",
+      "class": "E21_Person",
+      "label": "Alper Atay",
+      "orcid": "0009-0006-5725-5831",
+      "member_of": "sdu-arkeoloji",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "sarisahin",
+      "class": "E21_Person",
+      "label": "Mustafa Sarışahin",
+      "orcid": "0009-0005-6079-9293",
+      "member_of": "sdu-arkeoloji",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "bingol",
+      "class": "E21_Person",
+      "label": "Orhan Bingöl",
+      "pages": [
+        209,
+        212
+      ]
+    },
+    {
+      "id": "bakir",
+      "class": "E21_Person",
+      "label": "Abdullah Bakır",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "yavuz",
+      "class": "E21_Person",
+      "label": "Hanife Yavuz",
+      "member_of": "ktb",
+      "pages": [
+        214
+      ]
+    },
+    {
+      "id": "atesogullari",
+      "class": "E21_Person",
+      "label": "Soner Ateşoğulları"
+    },
+    {
+      "id": "sdu",
+      "class": "E74_Group",
+      "label": "Süleyman Demirel Üniversitesi",
+      "pages": [
+        209,
+        214
+      ]
+    },
+    {
+      "id": "sdu-arkeoloji",
+      "class": "E74_Group",
+      "label": "Süleyman Demirel Üniversitesi, İnsan ve Toplum Bilimleri Fakültesi, Arkeoloji Bölümü",
+      "member_of": "sdu",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "sdu-bap",
+      "class": "E74_Group",
+      "label": "Süleyman Demirel Üniversitesi Bilimsel Araştırma Projeleri",
+      "member_of": "sdu",
+      "pages": [
+        214
+      ]
+    },
+    {
+      "id": "isparta-muze",
+      "class": "E74_Group",
+      "label": "Isparta Müze Müdürlüğü",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "ktb",
+      "class": "E74_Group",
+      "label": "T.C. Kültür ve Turizm Bakanlığı",
+      "pages": [
+        214
+      ]
+    },
+    {
+      "id": "kvmgm",
+      "class": "E74_Group",
+      "label": "Kültür Varlıkları ve Müzeler Genel Müdürlüğü",
+      "member_of": "ktb",
+      "pages": [
+        214
+      ]
+    },
+    {
+      "id": "gelecege-miras",
+      "class": "E74_Group",
+      "label": "Geleceğe Miras Daire Başkanlığı",
+      "member_of": "kvmgm",
+      "pages": [
+        214
+      ]
+    },
+    {
+      "id": "kazi-ekibi-2024",
+      "class": "E74_Group",
+      "label": "Seleukeia Sidera 2024 kazı ve araştırma ekibi",
+      "pages": [
+        215
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "isparta",
+      "label": "Isparta ili",
+      "type": "province"
+    },
+    {
+      "id": "atabey",
+      "label": "Atabey ilçesi",
+      "type": "district",
+      "within": "isparta"
+    },
+    {
+      "id": "bayat",
+      "label": "Bayat köyü",
+      "type": "village",
+      "within": "atabey"
+    },
+    {
+      "id": "islamkoy",
+      "label": "İslamköy köyü",
+      "type": "village",
+      "within": "atabey"
+    },
+    {
+      "id": "hisar-tepe",
+      "label": "Hisar Tepe",
+      "type": "hill",
+      "within": "bayat",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "hisar-tepe-south-slope",
+      "label": "Hisar Tepe güney yamacı",
+      "type": "slope",
+      "within": "hisar-tepe",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "hidirlik",
+      "label": "Hıdırlık Mevkii",
+      "type": "locality",
+      "within": "islamkoy",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "atabey-lisesi",
+      "label": "Atabey Anadolu Lisesi",
+      "type": "school",
+      "within": "atabey",
+      "pages": [
+        214
+      ]
+    }
+  ],
+  "periods": [
+    {
+      "id": "hellenistic",
+      "label": "Helenistik Dönem"
+    },
+    {
+      "id": "roman-imperial",
+      "label": "Roma İmparatorluk Dönemi"
+    },
+    {
+      "id": "severan",
+      "label": "Severuslar Dönemi",
+      "begin": "0193",
+      "end": "0235",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "late-roman",
+      "label": "Geç Roma İmparatorluk Dönemi"
+    },
+    {
+      "id": "c4-6-ad",
+      "label": "MS 4.-6. yüzyıl",
+      "begin": "0300",
+      "end": "0599",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "seljuk",
+      "label": "Selçuklu Dönemi"
+    },
+    {
+      "id": "early-beylik",
+      "label": "Erken Beylikler Dönemi"
+    },
+    {
+      "id": "ottoman",
+      "label": "Osmanlı Dönemi"
+    },
+    {
+      "id": "c18-20",
+      "label": "18.-20. yüzyıl",
+      "begin": "1700",
+      "end": "1999",
+      "pages": [
+        214
+      ]
+    }
+  ],
+  "features": [
+    {
+      "id": "site",
+      "class": "E27_Site",
+      "label": "Seleukeia Sidera Antik Kenti",
+      "type": "ancient city",
+      "location": "hisar-tepe",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "theatre",
+      "class": "E22_Human-Made_Object",
+      "label": "Tiyatro",
+      "type": "theatre",
+      "part_of": "site",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "theatre-north-vomitorium",
+      "class": "E22_Human-Made_Object",
+      "label": "Tiyatro kuzey vomitoriumu",
+      "type": "vomitorium",
+      "part_of": "theatre",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "theatre-south-vomitorium",
+      "class": "E22_Human-Made_Object",
+      "label": "Tiyatro güney vomitoriumu",
+      "type": "vomitorium",
+      "part_of": "theatre",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "north-analemma",
+      "class": "E22_Human-Made_Object",
+      "label": "Kuzey analemma duvarı",
+      "type": "analemma wall",
+      "part_of": "theatre",
+      "note": "Batı kısmı büyük kyklopik taşlarla inşa edilmiştir.",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "north-cavea",
+      "class": "E22_Human-Made_Object",
+      "label": "Kuzey cavea",
+      "type": "cavea",
+      "part_of": "theatre",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "north-parodos",
+      "class": "E22_Human-Made_Object",
+      "label": "Kuzey parodos",
+      "type": "parodos",
+      "part_of": "theatre",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "stage-building",
+      "class": "E22_Human-Made_Object",
+      "label": "Sahne Binası",
+      "type": "stage building",
+      "part_of": "theatre",
+      "pages": [
+        210,
+        211
+      ]
+    },
+    {
+      "id": "nymphaion",
+      "class": "E22_Human-Made_Object",
+      "label": "Nymphaion",
+      "type": "nymphaeum",
+      "part_of": "stage-building",
+      "period": "c4-6-ad",
+      "note": "Sahne binasına MS 4.-6. yüzyıllarda entegre edilmiş çeşme yapısı; aedicula biçimli yarım nişler, çay taşı ve pişmiş toprak malzeme; sıva izleri ve harçlı zemin in situ.",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "orchestra",
+      "class": "E22_Human-Made_Object",
+      "label": "Orkestra",
+      "type": "orchestra",
+      "part_of": "theatre",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "orchestra-floor",
+      "class": "E25_Human-Made_Feature",
+      "label": "Cavea oturma sıralarını taşıyan blokların zemini",
+      "type": "floor",
+      "part_of": "orchestra",
+      "note": "Nehir çakılları ve amorf taşlardan, araları harçla güçlendirilmiş.",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "late-roman-wall-north-vom",
+      "class": "E25_Human-Made_Feature",
+      "label": "Kuzey vomitoriumdaki Geç Roma duvar kalıntısı",
+      "type": "wall",
+      "part_of": "theatre-north-vomitorium",
+      "period": "late-roman",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "south-slope-group",
+      "class": "E22_Human-Made_Object",
+      "label": "Güney Yamaç Yapı Grubu",
+      "type": "building group",
+      "part_of": "site",
+      "location": "hisar-tepe-south-slope",
+      "dimensions": [
+        {
+          "type": "length",
+          "value": 18,
+          "unit": "m"
+        },
+        {
+          "type": "width",
+          "value": 12,
+          "unit": "m"
+        }
+      ],
+      "note": "Kısmen ana kayaya oturtulmuş teraslar halinde; esas olarak 5 ayrı mekân; ana kayaya oyulmuş merdiven sistemiyle ilişkili.",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "rock-cut-stairs",
+      "class": "E25_Human-Made_Feature",
+      "label": "Ana kayaya oyulmuş merdiven sistemi",
+      "type": "staircase",
+      "part_of": "south-slope-group",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "south-slope-trenches",
+      "class": "E25_Human-Made_Feature",
+      "label": "Güney yamaç 2024 açmaları (13 adet, her biri 10x10 m)",
+      "type": "trench",
+      "location": "hisar-tepe-south-slope",
+      "dimensions": [
+        {
+          "type": "count",
+          "value": 13,
+          "unit": "trench"
+        },
+        {
+          "type": "length",
+          "value": 10,
+          "unit": "m"
+        },
+        {
+          "type": "width",
+          "value": 10,
+          "unit": "m"
+        }
+      ],
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "pipe-system",
+      "class": "E25_Human-Made_Feature",
+      "label": "Künk sistemleri",
+      "type": "water pipe",
+      "part_of": "south-slope-group",
+      "note": "Su tahliyesi veya su teminine yönelik altyapı.",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "hidirlik-cemetery",
+      "class": "E27_Site",
+      "label": "İslamköy Hıdırlık Mezarlığı",
+      "type": "cemetery",
+      "location": "hidirlik",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "hidirlik-graves",
+      "class": "E25_Human-Made_Feature",
+      "label": "Hıdırlık Mezarlığı mezarları",
+      "type": "grave",
+      "part_of": "hidirlik-cemetery",
+      "periods": [
+        "seljuk",
+        "early-beylik",
+        "ottoman"
+      ],
+      "note": "Büyük ve küçük şahide taşlı çok sayıda mezar; Selçuklu ve Erken Beylikler tarihlemesi kesin değildir.",
+      "pages": [
+        213
+      ]
+    }
+  ],
+  "strata": [
+    {
+      "id": "fill-1993",
+      "class": "A2_Stratigraphic_Volume_Unit",
+      "label": "1993 kazılarında açığa çıkarılan dolgu toprağı",
+      "at_feature": "south-slope-group",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "fill-north-vom",
+      "class": "A2_Stratigraphic_Volume_Unit",
+      "label": "Kuzey vomitorium dolgu toprağı",
+      "at_feature": "theatre-north-vomitorium",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "mortar-layer-north-vom",
+      "class": "A2_Stratigraphic_Volume_Unit",
+      "label": "Kuzey vomitorium zemin harç tabakası",
+      "at_feature": "theatre-north-vomitorium",
+      "note": "Yapının zeminine ait olduğu düşünülmektedir.",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "hard-floor-layers",
+      "class": "A2_Stratigraphic_Volume_Unit",
+      "label": "Pişmiş toprak malzemeli sert zemin tabakaları",
+      "at_feature": "south-slope-trenches",
+      "pages": [
+        213
+      ]
+    }
+  ],
+  "activities": [
+    {
+      "id": "campaign-2024",
+      "class": "A9_Archaeological_Excavation",
+      "type": "excavation campaign",
+      "label": "Seleukeia Sidera 2024 yılı çalışmaları",
+      "timespan": {
+        "begin": "2024",
+        "end": "2024"
+      },
+      "carried_out_by": [
+        {
+          "actor": "hurmuzlu",
+          "role": "excavation director"
+        },
+        {
+          "actor": "togan",
+          "role": "deputy director"
+        },
+        {
+          "actor": "atay",
+          "role": "team member"
+        },
+        {
+          "actor": "sarisahin",
+          "role": "team member"
+        },
+        {
+          "actor": "kazi-ekibi-2024",
+          "role": "team"
+        },
+        {
+          "actor": "sdu-arkeoloji",
+          "role": "institution"
+        }
+      ],
+      "took_place_at": [
+        "hisar-tepe"
+      ],
+      "at_feature": "site",
+      "continued": [
+        "campaign-1985-87",
+        "campaign-1993",
+        "campaign-2010-22"
+      ],
+      "note": "Kazı, temizlik, düzenleme ve belgeleme çalışmaları; Güney Yamacı Yapı Grupları ile Tiyatro ve Sahne Binası'nda yoğunlaşmıştır.",
+      "figures": [
+        1,
+        2
+      ],
+      "pages": [
+        209
+      ],
+      "investigated": "site"
+    },
+    {
+      "id": "campaign-1985-87",
+      "class": "A9_Archaeological_Excavation",
+      "type": "excavation campaign",
+      "label": "Isparta Müzesi tiyatro kazıları 1985-1987",
+      "timespan": {
+        "begin": "1985",
+        "end": "1987"
+      },
+      "carried_out_by": [
+        {
+          "actor": "isparta-muze",
+          "role": "institution"
+        }
+      ],
+      "at_feature": "theatre",
+      "note": "Güney parados, cavea, sahne binası ve Nymphaion'un bir kısmı açığa çıkarılmıştır (Kaya 1999a, 1999b).",
+      "pages": [
+        209,
+        210
+      ],
+      "investigated": "site"
+    },
+    {
+      "id": "campaign-1993",
+      "class": "A9_Archaeological_Excavation",
+      "type": "excavation campaign",
+      "label": "Orhan Bingöl başkanlığında 1993 kazıları",
+      "timespan": {
+        "begin": "1993",
+        "end": "1993"
+      },
+      "carried_out_by": [
+        {
+          "actor": "bingol",
+          "role": "excavation director"
+        }
+      ],
+      "at_feature": "south-slope-group",
+      "note": "Güney Yamaç Yapı Grubu ilk kez açığa çıkarılmış; doğu ve batı yönlerinde dört mekân belirlenmiştir (Bingöl 1994, 2012).",
+      "figures": [
+        7
+      ],
+      "pages": [
+        209,
+        212
+      ],
+      "investigated": "site"
+    },
+    {
+      "id": "campaign-2010-22",
+      "class": "A9_Archaeological_Excavation",
+      "type": "excavation campaign",
+      "label": "Sahne binası kuzey kesimi kazıları 2010-2022",
+      "timespan": {
+        "begin": "2010",
+        "end": "2022"
+      },
+      "carried_out_by": [
+        {
+          "actor": "sdu-arkeoloji",
+          "role": "institution"
+        }
+      ],
+      "at_feature": "stage-building",
+      "note": "Güney cephedeki niş serisinin kuzeyde de devam ettiği ortaya konmuştur.",
+      "pages": [
+        210
+      ],
+      "investigated": "site"
+    },
+    {
+      "id": "exc-theatre-north-2024",
+      "class": "A1_Excavation_Processing_Unit",
+      "label": "Tiyatro kuzeyi (kuzey vomitorium, analemma duvarı, kuzey parodos) kazısı 2024",
+      "part_of": "campaign-2024",
+      "at_feature": "theatre-north-vomitorium",
+      "also_at": [
+        "north-analemma",
+        "north-parodos"
+      ],
+      "figures": [
+        4
+      ],
+      "pages": [
+        210
+      ],
+      "removed": [
+        "fill-north-vom"
+      ]
+    },
+    {
+      "id": "exc-stage-north-2024",
+      "class": "A1_Excavation_Processing_Unit",
+      "label": "Sahne binası kuzey yönü kazı ve belgeleme çalışmaları 2024",
+      "part_of": "campaign-2024",
+      "at_feature": "stage-building",
+      "also_at": [
+        "nymphaion"
+      ],
+      "note": "Yapının ana hatlarının belgelenmesi ve nymphaion ile yapısal bütünlüğünün incelenmesi amaçlanmıştır.",
+      "figures": [
+        4,
+        5
+      ],
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "exc-orchestra-2024",
+      "class": "A1_Excavation_Processing_Unit",
+      "label": "Orkestra güneydoğusu kazısı 2024",
+      "part_of": "campaign-2024",
+      "at_feature": "orchestra",
+      "figures": [
+        6
+      ],
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "exc-south-slope-2024",
+      "class": "A1_Excavation_Processing_Unit",
+      "label": "Güney yamaç açma kazıları 2024 (13 açma)",
+      "part_of": "campaign-2024",
+      "at_feature": "south-slope-trenches",
+      "figures": [
+        9
+      ],
+      "pages": [
+        213
+      ],
+      "removed": [
+        "hard-floor-layers"
+      ]
+    },
+    {
+      "id": "sieving-1993-fill",
+      "class": "E7_Activity",
+      "type": "sieving",
+      "label": "1993 dolgu toprağının elenmesi 2024",
+      "part_of": "campaign-2024",
+      "at_feature": "south-slope-group",
+      "used": [
+        "fill-1993"
+      ],
+      "figures": [
+        8
+      ],
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "cleaning-south-slope-2024",
+      "class": "E7_Activity",
+      "type": "cleaning and arrangement",
+      "label": "Güney Yamaç Yapı Grubu temizlik, düzenleme ve eleme çalışmaları 2024",
+      "part_of": "campaign-2024",
+      "at_feature": "south-slope-group",
+      "figures": [
+        8
+      ],
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "cemetery-survey-2024",
+      "class": "E7_Activity",
+      "type": "documentation survey",
+      "label": "Hıdırlık Mevkii Türk-İslam Dönemi mezarlık belgeleme çalışmaları",
+      "part_of": "campaign-2024",
+      "carried_out_by": [
+        {
+          "actor": "bakir",
+          "role": "team leader"
+        }
+      ],
+      "took_place_at": [
+        "hidirlik"
+      ],
+      "at_feature": "hidirlik-cemetery",
+      "note": "Mezar ve mezar taşları tespit edilip belgelenmiş; Osmanlıca mezar taşları günümüz Türkçesine çevrilmiştir. Kesin tarihleme için bilimsel kazı planlanmaktadır.",
+      "figures": [
+        11,
+        12
+      ],
+      "pages": [
+        213,
+        214
+      ]
+    },
+    {
+      "id": "conference-2024",
+      "class": "E7_Activity",
+      "type": "public outreach conference",
+      "label": "Atabey ve Çevresinde Kültürel Miraslar ve Seleukeia Sidera Antik Kenti'nin Tanıtımı",
+      "part_of": "campaign-2024",
+      "timespan": {
+        "begin": "2024",
+        "end": "2024"
+      },
+      "carried_out_by": [
+        {
+          "actor": "hurmuzlu",
+          "role": "speaker"
+        },
+        {
+          "actor": "togan",
+          "role": "speaker"
+        },
+        {
+          "actor": "yavuz",
+          "role": "ministry representative"
+        }
+      ],
+      "took_place_at": [
+        "atabey-lisesi"
+      ],
+      "note": "Toplumsal arkeoloji ve kültürel miras farkındalık etkinliği; yasa dışı kazıların zararları, sit alanı statüleri ve yerel halkın rolü ele alınmıştır.",
+      "figures": [
+        13,
+        14
+      ],
+      "pages": [
+        214
+      ]
+    },
+    {
+      "id": "funding-bap-2024",
+      "class": "E7_Activity",
+      "type": "funding",
+      "label": "SDÜ BAP projesi SKP-2024-9404",
+      "identifier": "SKP-2024-9404",
+      "carried_out_by": [
+        {
+          "actor": "sdu-bap",
+          "role": "funder"
+        }
+      ],
+      "purpose_of": "campaign-2024",
+      "pages": [
+        214
+      ],
+      "timespan": {
+        "begin": "2024",
+        "end": "2024"
+      }
+    },
+    {
+      "id": "permit-2024",
+      "class": "E7_Activity",
+      "type": "permission and support",
+      "label": "2024 çalışmaları için izin ve destek",
+      "carried_out_by": [
+        {
+          "actor": "ktb",
+          "role": "permitting authority"
+        },
+        {
+          "actor": "kvmgm",
+          "role": "permitting authority"
+        },
+        {
+          "actor": "gelecege-miras",
+          "role": "supporting unit"
+        },
+        {
+          "actor": "sdu",
+          "role": "supporting institution"
+        }
+      ],
+      "purpose_of": "campaign-2024",
+      "pages": [
+        214
+      ],
+      "timespan": {
+        "begin": "2024",
+        "end": "2024"
+      }
+    }
+  ],
+  "finds": [
+    {
+      "id": "coin-seljuk-north",
+      "class": "E22_Human-Made_Object",
+      "label": "Selçuklu Dönemi sikkesi (tiyatro kuzeyi)",
+      "type": "coin",
+      "count": 1,
+      "period": "seljuk",
+      "found_by": "exc-theatre-north-2024",
+      "at_feature": "theatre-north-vomitorium",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "keystone-zeus",
+      "class": "E22_Human-Made_Object",
+      "label": "Zeus kabartmalı kilit taşı",
+      "type": "keystone",
+      "count": 1,
+      "found_by": "exc-theatre-north-2024",
+      "at_feature": "theatre-north-vomitorium",
+      "condition": "damaged",
+      "depicts": "Zeus",
+      "note": "Dolgu toprağı içinde ele geçmiştir.",
+      "pages": [
+        210
+      ],
+      "from_stratum": "fill-north-vom"
+    },
+    {
+      "id": "arch-blocks-north-vom",
+      "class": "E22_Human-Made_Object",
+      "label": "Kuzey vomitorium mimari blokları",
+      "type": "architectural block",
+      "found_by": "exc-theatre-north-2024",
+      "at_feature": "theatre-north-vomitorium",
+      "note": "Vomitoriumun kemerli yapılarında kullanıldığını gösterir.",
+      "pages": [
+        210
+      ],
+      "from_stratum": "fill-north-vom"
+    },
+    {
+      "id": "diazoma-block",
+      "class": "E22_Human-Made_Object",
+      "label": "Diazoma duvar hattına ait olabilecek mimari blok",
+      "type": "architectural block",
+      "count": 1,
+      "found_by": "exc-theatre-north-2024",
+      "at_feature": "north-parodos",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "ceramics-stage-2024",
+      "class": "E22_Human-Made_Object",
+      "label": "Sahne binası seramik parçaları (Roma İmparatorluk, Geç Roma, sınırlı Helenistik)",
+      "type": "pottery sherds",
+      "periods": [
+        "roman-imperial",
+        "late-roman",
+        "hellenistic"
+      ],
+      "found_by": "exc-stage-north-2024",
+      "at_feature": "stage-building",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "terracotta-elements-stage",
+      "class": "E22_Human-Made_Object",
+      "label": "Sahne binası pişmiş toprak yapı elemanları",
+      "type": "terracotta building element",
+      "material": "terracotta",
+      "found_by": "exc-stage-north-2024",
+      "at_feature": "stage-building",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "capital-coffer-architrave",
+      "class": "E22_Human-Made_Object",
+      "label": "Sütun başlığı, kaset ve arşitrav parçaları (tiyatro üst yapısı)",
+      "type": "architectural element",
+      "period": "severan",
+      "found_by": "exc-stage-north-2024",
+      "at_feature": "stage-building",
+      "note": "Tiyatronun üst yapısına ait; Severuslar Dönemi'ne (MS 193-235) tarihlendirilebileceği düşünülmektedir.",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "coffer-orchestra",
+      "class": "E22_Human-Made_Object",
+      "label": "Orkestra kaset parçaları ve mimari unsurlar",
+      "type": "architectural element",
+      "found_by": "exc-orchestra-2024",
+      "at_feature": "orchestra",
+      "figures": [
+        6
+      ],
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "coins-1993-fill",
+      "class": "E22_Human-Made_Object",
+      "label": "1993 dolgusundan elenen sikkeler",
+      "type": "coin",
+      "count": 134,
+      "found_by": "sieving-1993-fill",
+      "from_stratum": "fill-1993",
+      "at_feature": "south-slope-group",
+      "note": "Etütlük ve envanterlik nitelikte toplam 134 adet.",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "ceramics-1993-fill",
+      "class": "E22_Human-Made_Object",
+      "label": "1993 dolgusundan seramik parçaları ve pithos kırıkları",
+      "type": "pottery sherds",
+      "periods": [
+        "roman-imperial",
+        "late-roman"
+      ],
+      "found_by": "sieving-1993-fill",
+      "from_stratum": "fill-1993",
+      "at_feature": "south-slope-group",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "slag-1993-fill",
+      "class": "E22_Human-Made_Object",
+      "label": "Demir cüruflar",
+      "type": "slag",
+      "material": "iron",
+      "found_by": "sieving-1993-fill",
+      "from_stratum": "fill-1993",
+      "at_feature": "south-slope-group",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "bones-1993-fill",
+      "class": "E20_Biological_Object",
+      "label": "Hayvan kemiği parçaları",
+      "type": "animal bone",
+      "found_by": "sieving-1993-fill",
+      "from_stratum": "fill-1993",
+      "at_feature": "south-slope-group",
+      "pages": [
+        212
+      ]
+    },
+    {
+      "id": "ceramics-trenches-2024",
+      "class": "E22_Human-Made_Object",
+      "label": "Açma seramik parçaları (Roma İmparatorluk ve Geç Roma)",
+      "type": "pottery sherds",
+      "periods": [
+        "roman-imperial",
+        "late-roman"
+      ],
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-trenches",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "small-objects-trenches",
+      "class": "E22_Human-Made_Object",
+      "label": "Metal, cam ve kemik objeler",
+      "type": "small find",
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-trenches",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "roof-tiles-trenches",
+      "class": "E22_Human-Made_Object",
+      "label": "Pişmiş toprak çatı kiremitleri ve zemin kaplama parçaları",
+      "type": "roof tile",
+      "material": "terracotta",
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-trenches",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "columns-trenches",
+      "class": "E22_Human-Made_Object",
+      "label": "Sütun parçaları, kaideler ve mimari elemanlar",
+      "type": "architectural element",
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-trenches",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "fresco-trenches",
+      "class": "E22_Human-Made_Object",
+      "label": "Fresk parçaları ve harç kalıntıları",
+      "type": "wall painting fragment",
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-trenches",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "tesserae-trenches",
+      "class": "E22_Human-Made_Object",
+      "label": "Mozaik döşemelerine ait tessera örnekleri",
+      "type": "tessera",
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-trenches",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "reused-mortar",
+      "class": "E22_Human-Made_Object",
+      "label": "Duvarlarda devşirme kullanılan mortar parçaları",
+      "type": "reused architectural element",
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-group",
+      "figures": [
+        10
+      ],
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "weighing-set",
+      "class": "E22_Human-Made_Object",
+      "label": "Ağırlık, titanbulum (terazi kolu) ve terazi kefeleri",
+      "type": "weighing instrument",
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-group",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "bronze-coins-trenches",
+      "class": "E22_Human-Made_Object",
+      "label": "Çok sayıda bronz sikke",
+      "type": "coin",
+      "material": "bronze",
+      "found_by": "exc-south-slope-2024",
+      "at_feature": "south-slope-group",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "ottoman-tombstones",
+      "class": "E22_Human-Made_Object",
+      "label": "Osmanlıca mezar taşları (11 adet, 18.-20. yüzyıl)",
+      "type": "tombstone",
+      "count": 11,
+      "period": "c18-20",
+      "found_by": "cemetery-survey-2024",
+      "at_feature": "hidirlik-cemetery",
+      "inscribed": true,
+      "note": "Günümüz Türkçesine çevrilmiştir.",
+      "figures": [
+        11,
+        12
+      ],
+      "pages": [
+        214
+      ]
+    }
+  ],
+  "interpretations": [
+    {
+      "id": "int-theatre-customs",
+      "about": "theatre",
+      "assigned": "Selçuklu Dönemi'nde gümrük yapısı olarak iskân (olası)",
+      "by": [
+        "hurmuzlu",
+        "togan",
+        "atay",
+        "sarisahin"
+      ],
+      "basis": "Güney vomitoriumdaki Selçuklu sikke definesi (Bingöl 1994) ve 2021 bulguları",
+      "pages": [
+        209
+      ]
+    },
+    {
+      "id": "int-mortar-floor",
+      "about": "mortar-layer-north-vom",
+      "assigned": "Yapının zeminine ait harç tabakası",
+      "by": [
+        "hurmuzlu",
+        "togan",
+        "atay",
+        "sarisahin"
+      ],
+      "pages": [
+        210
+      ]
+    },
+    {
+      "id": "int-stage-hellenistic",
+      "about": "stage-building",
+      "assigned": "Helenistik Dönem'den itibaren farklı dönemlerde değişerek kullanım",
+      "by": [
+        "hurmuzlu",
+        "togan",
+        "atay",
+        "sarisahin"
+      ],
+      "basis": "Farklı dönemlere ait seramik parçaları",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "int-severan-superstructure",
+      "about": "capital-coffer-architrave",
+      "assigned": "Severuslar Dönemi (MS 193-235) tiyatro üst yapısı",
+      "by": [
+        "hurmuzlu",
+        "togan",
+        "atay",
+        "sarisahin"
+      ],
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "int-nymphaion-perge",
+      "about": "nymphaion",
+      "assigned": "Perge örneğiyle özdeş, MS 4.-6. yüzyılda eklenmiş çeşme yapısı",
+      "by": [
+        "hurmuzlu",
+        "togan",
+        "atay",
+        "sarisahin"
+      ],
+      "basis": "Mimari analiz; Italica ve Regina tiyatrolarıyla benzerlik",
+      "pages": [
+        211
+      ]
+    },
+    {
+      "id": "int-south-slope-commercial",
+      "about": "south-slope-group",
+      "assigned": "Üretim ve ticaret odaklı, çok işlevli, uzun süreli kullanım; kamusal işlev",
+      "by": [
+        "hurmuzlu",
+        "togan",
+        "atay",
+        "sarisahin"
+      ],
+      "basis": "Ağırlık, terazi kolu, kefeler, bronz sikkeler; sütun ve kaideler; macellum ve Agora'ya yakınlık",
+      "pages": [
+        212,
+        213
+      ]
+    },
+    {
+      "id": "int-mosaic-rooms",
+      "about": "south-slope-group",
+      "assigned": "Mozaikli ve sıvalı-boyalı duvarlı mekânların varlığı",
+      "by": [
+        "hurmuzlu",
+        "togan",
+        "atay",
+        "sarisahin"
+      ],
+      "basis": "Tessera, fresk parçaları ve harç kalıntıları",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "id": "int-graves-dating",
+      "about": "hidirlik-graves",
+      "assigned": "Selçuklu, Erken Beylikler ve Osmanlı dönemleri (kesin tarihleme için kazı planlanmaktadır)",
+      "by": [
+        "bakir"
+      ],
+      "pages": [
+        213,
+        214
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "number": 1,
+      "caption": "Seleukeia Sidera yerleşim alanları.",
+      "depicts": [
+        "site"
+      ],
+      "page": 217
+    },
+    {
+      "number": 2,
+      "caption": "Hisar Tepe, Seleukeia Sidera.",
+      "depicts": [
+        "site"
+      ],
+      "page": 218
+    },
+    {
+      "number": 3,
+      "caption": "Seleukeia Sidera Tiyatro, Sahne Binası, Vomitorium.",
+      "depicts": [
+        "theatre",
+        "stage-building"
+      ],
+      "page": 218
+    },
+    {
+      "number": 4,
+      "caption": "Seleukeia Sidera Tiyatro ve Sahne Binası plan.",
+      "depicts": [
+        "theatre",
+        "stage-building"
+      ],
+      "page": 219
+    },
+    {
+      "number": 5,
+      "caption": "Seleukeia Sidera Tiyatro Sahne Binası, Nymphaion.",
+      "depicts": [
+        "nymphaion"
+      ],
+      "page": 219
+    },
+    {
+      "number": 6,
+      "caption": "Seleukeia Sidera Tiyatro ve Sahne Binası, Orkestra, kuzey Analemna Duvarı, Nymphaion.",
+      "depicts": [
+        "orchestra",
+        "north-analemma",
+        "nymphaion"
+      ],
+      "page": 220
+    },
+    {
+      "number": 7,
+      "caption": "Seleukeia Sidera Güney Yamaç Yapıları.",
+      "depicts": [
+        "south-slope-group"
+      ],
+      "page": 220
+    },
+    {
+      "number": 8,
+      "caption": "Seleukeia Sidera Güney Yamaç Yapıları, 1993 ve 2024 yılı kazılarının gerçekleştiği alan.",
+      "depicts": [
+        "south-slope-group"
+      ],
+      "page": 221
+    },
+    {
+      "number": 9,
+      "caption": "Seleukeia Sidera Güney Yamaç Yapıları.",
+      "depicts": [
+        "south-slope-trenches"
+      ],
+      "page": 221
+    },
+    {
+      "number": 10,
+      "caption": "Seleukeia Sidera Güney Yamaç Yapıları, Devşirme Mortar parçası ve Su Sistemleri.",
+      "depicts": [
+        "reused-mortar",
+        "pipe-system"
+      ],
+      "page": 222
+    },
+    {
+      "number": 11,
+      "caption": "Hıdırlık Mevkii Türk İslam Dönemi Mezarlığı.",
+      "depicts": [
+        "hidirlik-cemetery"
+      ],
+      "page": 222
+    },
+    {
+      "number": 12,
+      "caption": "Hıdırlık Mevkii Türk İslam Dönemi Mezarlığı.",
+      "depicts": [
+        "hidirlik-cemetery"
+      ],
+      "page": 223
+    },
+    {
+      "number": 13,
+      "caption": "Toplumsal Arkeoloji ve Kültürel Miras farkındalık çalışmaları.",
+      "depicts": [
+        "conference-2024"
+      ],
+      "page": 224
+    },
+    {
+      "number": 14,
+      "caption": "Toplumsal Arkeoloji ve Kültürel Miras farkındalık çalışmaları.",
+      "depicts": [
+        "conference-2024"
+      ],
+      "page": 224
+    }
+  ]
+}

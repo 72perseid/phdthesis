@@ -1,0 +1,54 @@
+digraph bx {
+  rankdir=LR; dpi=200; nodesep=0.25; ranksep=0.7;
+  node [shape=box, style="filled,rounded", fontname="DejaVu Sans", fontsize=10, margin="0.12,0.06"];
+  edge [fontname="DejaVu Sans", fontsize=8, color="#555555"];
+  n0 [label="P82a_begin_of_the_begin: 1387
+P82b_end_of_the_end: 1476
+SP10_DeclarativeTime-Span", fillcolor="#eeeeee"];
+  n1 [label="Örnek alma: Arpa (BX fırını)
+S2_Sample_Taking", fillcolor="#fad7a0"];
+  n2 [label="Beyrut üretimi Brittle Ware
+E22_Human-Made_Object", fillcolor="#aed6f1"];
+  n3 [label="brittle-ware-bx:making
+E12_Production", fillcolor="#fad7a0"];
+  n4 [label="BX fırını ocak seviyesi
+A2_Stratigraphic_Volume_Unit", fillcolor="#d7bfa6"];
+  n5 [label="BX fırını
+A8_Stratigraphic_Unit / E25_Human-Made_Feature", fillcolor="#aed6f1"];
+  n6 [label="bx-oven:use
+E7_Activity", fillcolor="#fad7a0"];
+  n7 [label="MS 13. yüzyıl
+E4_Period", fillcolor="#d7bde2"];
+  n8 [label="P82a_begin_of_the_begin: 1200
+P82b_end_of_the_end: 1299
+SP10_DeclarativeTime-Span", fillcolor="#eeeeee"];
+  n9 [label="BX fırını karbon 14 tarihi: MS
+1387-1476 cal.
+S4_Single_Observation", fillcolor="#f5b7b1"];
+  n10 [label="Port St. Simeon kökenli renkli
+sırlı ve kazıma bezemeli
+seramik
+E22_Human-Made_Object", fillcolor="#aed6f1"];
+  n11 [label="port-st-simeon-bx:making
+E12_Production", fillcolor="#fad7a0"];
+  n12 [label="Arpa (BX fırını)
+S13_Sample", fillcolor="#f5cba7"];
+  n13 [label="embedding
+A7_Embedding", fillcolor="#ead9c6"];
+  n14 [label="embedding
+A7_Embedding", fillcolor="#ead9c6"];
+  n1 -> n5 [label="O3_sampled_from"];
+  n1 -> n12 [label="O5_removed"];
+  n3 -> n2 [label="P108_has_produced"];
+  n3 -> n7 [label="P10_falls_within"];
+  n6 -> n5 [label="P16_used_specific_object"];
+  n6 -> n0 [label="P4_has_time-span"];
+  n7 -> n8 [label="P4_has_time-span"];
+  n9 -> n12 [label="O8_observed"];
+  n11 -> n10 [label="P108_has_produced"];
+  n11 -> n7 [label="P10_falls_within"];
+  n13 -> n10 [label="AP18_is_embedding_of"];
+  n13 -> n4 [label="AP19_is_embedding_in"];
+  n14 -> n2 [label="AP18_is_embedding_of"];
+  n14 -> n4 [label="AP19_is_embedding_in"];
+}

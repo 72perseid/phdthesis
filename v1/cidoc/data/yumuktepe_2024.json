@@ -1,0 +1,297 @@
+{
+  "$comment": "Structured record extracted from: Ulaş, Evgen (2026) 'Yumuktepe Höyük \"Geleceğe Miras Projesi\" 2024 Kazı Çalışmaları', 45. Kazı Sonuçları Toplantısı Cilt 1, pp. 265-278. 'pages' are printed page numbers. Years are historical years; BC years are negative (-2580 = 2580 BC). Record format v2 (see schema.md).",
+  "schema_version": 2,
+  "base_uri": "https://example.org/kst45/yumuktepe-2024/",
+  "shared_uri": "https://example.org/kst45/",
+
+  "document": {
+    "id": "report",
+    "title": "Yumuktepe Höyük \"Geleceğe Miras Projesi\" 2024 Kazı Çalışmaları",
+    "language": "tr",
+    "authors": ["ulas", "evgen"],
+    "pages": "265-278",
+    "published": "2026",
+    "documents": "campaign-2024",
+    "volume": {
+      "id": "kst45-1",
+      "title": "45. Kazı Sonuçları Toplantısı Bildirileri, Cilt 1",
+      "editor": "atesogullari",
+      "publisher": "kvmgm",
+      "isbn": "978-975-17-6634-2",
+      "place": "Ankara",
+      "published": "2026"
+    },
+    "source_file": "kst_paper_split/18_YUMUKTEPE_HOYUK_GELECEGE_MIRAS_PROJESI_2024_KAZI_CALISMALARI.pdf"
+  },
+
+  "actors": [
+    {"id": "ulas", "class": "E21_Person", "label": "Burhan Ulaş", "orcid": "0000-0002-0031-7222", "member_of": "inonu-arkeoloji", "pages": [265]},
+    {"id": "evgen", "class": "E21_Person", "label": "Gamze Evgen", "member_of": "gmp-ekibi-2024", "note": "Yazar dipnotunda kurum ve ORCID verilmemiştir.", "pages": [265, 272]},
+    {"id": "caneva", "class": "E21_Person", "label": "Isabella Caneva", "member_of": "italyan-heyeti", "pages": [266, 273]},
+    {"id": "palumbi", "class": "E21_Person", "label": "Giulio Palumbi", "member_of": "italyan-heyeti", "pages": [266, 273]},
+    {"id": "koroglu-gulgun", "class": "E21_Person", "label": "Gülgün Köroğlu", "member_of": "gmp-ekibi-2024", "note": "Metinde çoğunlukla 'G. Köroğlu' olarak geçer.", "pages": [266, 269, 270, 271, 272]},
+    {"id": "koroglu-kemalettin", "class": "E21_Person", "label": "Kemalettin Köroğlu", "note": "Metinde basıldığı gibi; verilen atıf 'Caneva ve Köroğlu 2010'dur.", "pages": [267]},
+    {"id": "jean", "class": "E21_Person", "label": "Eric Jean", "pages": [267]},
+    {"id": "garstang", "class": "E21_Person", "label": "John Garstang", "pages": [267, 268, 272]},
+    {"id": "yilmaz-fatih", "class": "E21_Person", "label": "Fatih Yılmaz", "member_of": "harran-arkeoloji", "pages": [267, 272, 273]},
+    {"id": "onar", "class": "E21_Person", "label": "V. Onar", "note": "Yalnızca baş harfle anılmıştır.", "pages": [269]},
+    {"id": "unlu-yasar", "class": "E21_Person", "label": "Yaşar Ünlü", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "torun", "class": "E21_Person", "label": "Hülya Torun", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "kaymaz", "class": "E21_Person", "label": "Berivan Kaymaz", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "seker", "class": "E21_Person", "label": "Seher Şeker", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "dundar", "class": "E21_Person", "label": "Sezer Dündar", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "asik", "class": "E21_Person", "label": "Ece Aşık", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "kose", "class": "E21_Person", "label": "Sefa Köse", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "sert", "class": "E21_Person", "label": "Abdullah Sert", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "aktan", "class": "E21_Person", "label": "Kübra Aktan", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "yazici", "class": "E21_Person", "label": "Zeynep İrem Yazıcı", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "budak", "class": "E21_Person", "label": "Ada Budak", "member_of": "gmp-ekibi-2024", "pages": [272]},
+    {"id": "atesogullari", "class": "E21_Person", "label": "Soner Ateşoğulları"},
+
+    {"id": "gmp-koordinatorlugu", "class": "E74_Group", "label": "\"Geleceğe Miras Projesi\" Yumuktepe Koordinatörlüğü", "pages": [265]},
+    {"id": "gmp-ekibi-2024", "class": "E74_Group", "label": "\"Geleceğe Miras Projesi\" Yumuktepe 2024 ekibi", "member_of": "gmp-koordinatorlugu", "pages": [266, 272]},
+    {"id": "italyan-heyeti", "class": "E74_Group", "label": "İtalyan Kazı Heyeti (Yumuktepe)", "pages": [265]},
+    {"id": "inonu", "class": "E74_Group", "label": "İnönü Üniversitesi", "pages": [265]},
+    {"id": "inonu-arkeoloji", "class": "E74_Group", "label": "İnönü Üniversitesi, Fen Edebiyat Fakültesi, Arkeoloji Bölümü", "member_of": "inonu", "pages": [265]},
+    {"id": "harran-arkeoloji", "class": "E74_Group", "label": "Harran Üniversitesi Arkeoloji Bölümü", "pages": [267, 272]},
+    {"id": "mersin-uni", "class": "E74_Group", "label": "Mersin Üniversitesi", "pages": [266]},
+    {"id": "mersin-uni-harita", "class": "E74_Group", "label": "Mersin Üniversitesi Harita Mühendisliği Bölümü", "member_of": "mersin-uni", "pages": [266]},
+    {"id": "mersin-uni-biyoloji", "class": "E74_Group", "label": "Mersin Üniversitesi Biyoloji Bölümü", "member_of": "mersin-uni", "pages": [266]},
+    {"id": "mersin-bb", "class": "E74_Group", "label": "Mersin Büyükşehir Belediyesi", "pages": [266, 272]},
+    {"id": "toroslar-belediyesi", "class": "E74_Group", "label": "Toroslar Belediyesi", "pages": [272]},
+    {"id": "mersin-valiligi", "class": "E74_Group", "label": "Mersin Valiliği", "pages": [272]},
+    {"id": "mersin-il-kultur", "class": "E74_Group", "label": "Mersin İl Kültür ve Turizm Müdürlüğü", "pages": [272]},
+    {"id": "mersin-muze", "class": "E74_Group", "label": "Mersin Müze Müdürlüğü", "pages": [272]},
+    {"id": "ktb", "class": "E74_Group", "label": "T.C. Kültür ve Turizm Bakanlığı", "pages": [272]},
+    {"id": "kvmgm", "class": "E74_Group", "label": "Kültür Varlıkları ve Müzeler Genel Müdürlüğü", "member_of": "ktb", "pages": [272]},
+    {"id": "gelecege-miras", "class": "E74_Group", "label": "Geleceğe Miras Projesi Daire Başkanlığı", "member_of": "kvmgm", "pages": [272]},
+    {"id": "kazilar-db", "class": "E74_Group", "label": "KVMGM Kazılar ve Araştırmalar Daire Başkanlığı", "member_of": "kvmgm", "pages": [272]}
+  ],
+
+  "places": [
+    {"id": "mersin", "label": "Mersin", "type": "city", "note": "Metin ili açıkça belirtmez; kurum adlarından ve kaynakçadan anlaşılır."},
+    {"id": "yumuktepe", "label": "Yumuktepe", "type": "mound", "within": "mersin", "pages": [265]},
+    {"id": "gya", "label": "Güney Yamaç Açması (GYA) sektörü", "type": "excavation sector", "within": "yumuktepe", "pages": [265, 267]},
+    {"id": "kuzeydogu-sektor", "label": "Kuzeydoğu sektörü", "type": "excavation sector", "within": "yumuktepe", "pages": [265]},
+    {"id": "kuzeybati-sektor", "label": "Kuzeybatı sektörü", "type": "excavation sector", "within": "yumuktepe", "pages": [272]},
+    {"id": "zirve", "label": "Yumuktepe zirvesi", "type": "summit", "within": "yumuktepe", "pages": [266]},
+    {"id": "muftu-deresi", "label": "Müftü Deresi", "type": "stream", "within": "mersin", "pages": [265]},
+    {"id": "akut-yani", "label": "Höyüğün kuzeybatısındaki eski AKUT binası (eski Truva Atı) yanı", "type": "locality", "within": "yumuktepe", "pages": [266]},
+    {"id": "plankare-z15", "label": "Z 15 plankaresi", "type": "grid square", "within": "gya", "pages": [272]}
+  ],
+
+  "periods": [
+    {"id": "neolithic", "label": "Neolitik Çağ"},
+    {"id": "chalcolithic", "label": "Kalkolitik"},
+    {"id": "eba", "label": "Erken Tunç Çağı"},
+    {"id": "eba-1", "label": "ETÇ I", "within": "eba"},
+    {"id": "eba-2", "label": "ETÇ II", "within": "eba"},
+    {"id": "lba-hittite", "label": "Geç Tunç (Hitit)"},
+    {"id": "iron-age", "label": "Demir Çağı"},
+    {"id": "hellenistic", "label": "Helenistik Dönem"},
+    {"id": "roman", "label": "Roma Dönemi"},
+    {"id": "byzantine", "label": "Bizans Dönemi"},
+    {"id": "medieval", "label": "Orta Çağ"},
+    {"id": "c10-13", "label": "MS 10.-13. yüzyıl", "begin": "900", "end": "1299", "within": "medieval", "pages": [271]},
+    {"id": "c11-13", "label": "MS 11.-13. yüzyıl", "begin": "1000", "end": "1299", "within": "medieval", "pages": [266]},
+    {"id": "c11-15", "label": "MS 11.-15. yüzyıl", "begin": "1000", "end": "1499", "within": "medieval", "approx": true, "pages": [269, 272]},
+    {"id": "c12-13", "label": "MS 12.-13. yüzyıl", "begin": "1100", "end": "1299", "within": "medieval", "pages": [270, 271]},
+    {"id": "c13", "label": "MS 13. yüzyıl", "begin": "1200", "end": "1299", "within": "medieval", "pages": [269]},
+    {"id": "post-c13", "label": "13. yüzyıl sonrası", "begin": "1300", "pages": [270]},
+    {"id": "c13-14", "label": "Orta Çağ 13.-14. yüzyıl", "begin": "1200", "end": "1399", "within": "medieval", "pages": [278]},
+    {"id": "modern", "label": "Modern dönem"}
+  ],
+
+  "features": [
+    {"id": "site", "class": "E27_Site", "label": "Yumuktepe Höyüğü", "type": "mound settlement", "location": "yumuktepe", "figures": ["resim-1"], "pages": [265]},
+
+    {"id": "trench-aa15", "class": "E25_Human-Made_Feature", "label": "AA 15 açması", "identifier": "AA15", "type": "trench", "part_of": "site", "location": "gya", "dimensions": [{"type": "length", "value": 5, "unit": "m"}, {"type": "width", "value": 5, "unit": "m"}], "figures": ["resim-2", "sekil-1"], "pages": [267, 272]},
+    {"id": "trench-bb15", "class": "E25_Human-Made_Feature", "label": "BB 15 açması", "identifier": "BB15", "type": "trench", "part_of": "site", "location": "gya", "dimensions": [{"type": "length", "value": 7, "unit": "m"}, {"type": "width", "value": 5, "unit": "m"}], "figures": ["resim-2", "resim-5", "sekil-1"], "pages": [269, 272]},
+    {"id": "trench-dd15", "class": "E25_Human-Made_Feature", "label": "DD 15 açması", "identifier": "DD15", "type": "trench", "part_of": "site", "location": "gya", "dimensions": [{"type": "length", "value": 5, "unit": "m"}, {"type": "width", "value": 5, "unit": "m"}], "figures": ["resim-2", "resim-6", "sekil-1"], "pages": [270, 272]},
+    {"id": "trench-ee18", "class": "E25_Human-Made_Feature", "label": "EE 18 açması", "identifier": "EE18", "type": "trench", "part_of": "site", "location": "gya", "period": "c10-13", "dating_by": {"by": ["ulas", "evgen"], "via": "authors' assessment"}, "dimensions": [{"type": "length", "value": 5, "unit": "m"}, {"type": "width", "value": 5, "unit": "m"}], "figures": ["resim-2", "resim-7", "sekil-1"], "pages": [271, 272]},
+
+    {"id": "a701", "class": "E25_Human-Made_Feature", "label": "A701 yapı katı", "identifier": "A701", "type": "building level", "part_of": "trench-aa15", "period": "eba-2", "dating_by": {"by": ["ulas", "evgen"], "via": "architecture, pottery, archaeobotany and radiocarbon"}, "note": "Sarımsı açık kahverengi toprak, ocak, tandır ve taş temeller çok evreli bir kullanıma işaret eder.", "figures": ["resim-3"], "pages": [267, 268, 272]},
+    {"id": "a701-foundation", "class": "E25_Human-Made_Feature", "label": "A701 üç sıralı taş duvar (temel)", "type": "stone foundation", "part_of": "a701", "note": "Orta Çağ çöp çukurlarının kesitlerinde gözlemlenmiştir.", "pages": [267]},
+    {"id": "a701-floor", "class": "E25_Human-Made_Feature", "label": "A701 tabanı (marn üzerine sıkıştırılmış toprak)", "type": "floor", "part_of": "a701", "note": "Bazı alanlarda kerpiç bloklara rastlanmıştır.", "pages": [267]},
+    {"id": "a701-hearth", "class": "E25_Human-Made_Feature", "label": "A701 at nalı biçimli ocak", "type": "hearth", "part_of": "a701", "note": "Tek sıralı yuvarlak taşlardan bir platforma oturur; çatı desteği için iki hatıl izi.", "pages": [267]},
+    {"id": "a701-tandir", "class": "E25_Human-Made_Feature", "label": "A701 yuvarlak planlı tandır fırın", "type": "tandır oven", "part_of": "a701", "pages": [267]},
+    {"id": "medieval-pits-aa15", "class": "E25_Human-Made_Feature", "label": "AA 15 Orta Çağ çöp çukurları", "type": "refuse pit", "part_of": "trench-aa15", "period": "c11-15", "pages": [267, 272]},
+    {"id": "a700", "class": "E25_Human-Made_Feature", "label": "A700", "identifier": "A700", "type": "context", "location": "gya", "note": "Yalnızca B1YA dolgusunun tahrip ettiği birimler arasında anılır; tanımı verilmemiştir.", "pages": [270]},
+
+    {"id": "bx-oven", "class": "E25_Human-Made_Feature", "label": "BX fırını", "identifier": "BX", "type": "oven", "part_of": "trench-bb15", "note": "At nalı biçimli, taş temelli; önemli kısmı kuzey profilin içinde (AA 15-BB 15 arası).", "figures": ["resim-5"], "pages": [269]},
+    {"id": "pit-b2c1", "class": "E25_Human-Made_Feature", "label": "B2ç1 çukuru", "identifier": "B2ç1", "type": "pit", "part_of": "trench-bb15", "pages": [269]},
+    {"id": "b2x-furnace", "class": "E25_Human-Made_Feature", "label": "B2X ocağı", "identifier": "B2X", "type": "smelting furnace", "part_of": "trench-bb15", "dimensions": [{"type": "width", "min": 10, "max": 12, "unit": "cm"}, {"type": "length", "min": 20, "max": 25, "unit": "cm"}, {"type": "depth below datum", "value": -25, "unit": "cm", "approx": true}], "note": "İç yüzeyi beyaz sıvalı. Ağır tahribat nedeniyle tarihlendirme henüz netleşmemiştir.", "figures": ["resim-5"], "pages": [269]},
+    {"id": "pit-over-b2x", "class": "E25_Human-Made_Feature", "label": "B2X ocağını tahrip eden çukur", "type": "pit", "part_of": "trench-bb15", "note": "Yaklaşık 20x40 'çapında' (birim belirtilmemiş); bir kısmı batı profilin içinde.", "figures": ["resim-5"], "pages": [269]},
+    {"id": "medieval-path", "class": "E25_Human-Made_Feature", "label": "Orta Çağ patikası", "type": "path", "part_of": "trench-bb15", "period": "post-c13", "note": "En az iki evreli.", "pages": [269, 270]},
+    {"id": "b3", "class": "E25_Human-Made_Feature", "label": "B3 yapısı (kerpiç bloklardan)", "identifier": "B3", "type": "mudbrick structure", "part_of": "trench-bb15", "period": "c12-13", "dating_by": {"by": ["ulas", "evgen"], "via": "radiocarbon"}, "dimensions": [{"type": "mudbrick block length", "value": 30, "unit": "cm", "approx": true}, {"type": "mudbrick block width", "value": 30, "unit": "cm", "approx": true}], "note": "G. Köroğlu'nun önceki Orta Çağ kazılarında zirvede ve yamaç teraslarında kerpiç kullanımına rastlanmamıştır.", "figures": ["resim-5"], "pages": [270, 272]},
+    {"id": "b3-hearth", "class": "E25_Human-Made_Feature", "label": "B3 ocağı", "type": "hearth", "part_of": "b3", "dimensions": [{"type": "length", "value": 50, "unit": "cm"}, {"type": "width", "value": 30, "unit": "cm"}], "pages": [270]},
+    {"id": "b1ya-wall", "class": "E25_Human-Made_Feature", "label": "B1YA içindeki tek sıralı destek duvarı", "type": "retaining wall", "part_of": "trench-bb15", "pages": [270]},
+
+    {"id": "m1", "class": "E25_Human-Made_Feature", "label": "Mekân 1 (M1)", "identifier": "M1", "type": "room", "part_of": "trench-dd15", "period": "medieval", "dimensions": [{"type": "wall length", "value": 215, "unit": "cm"}, {"type": "wall width", "value": 45, "unit": "cm"}], "note": "Üç blok taştan duvar; iç mekânda turuncu-kırmızı toprak, kül ve kuzeydoğuda çakıl zemin.", "figures": ["resim-6"], "pages": [270]},
+    {"id": "m2", "class": "E25_Human-Made_Feature", "label": "Mekân 2 (M2)", "identifier": "M2", "type": "room", "part_of": "trench-dd15", "period": "medieval", "dimensions": [{"type": "wall length", "value": 82, "unit": "cm"}, {"type": "wall width", "value": 31, "unit": "cm"}, {"type": "floor length", "value": 270, "unit": "cm"}, {"type": "floor width", "value": 192, "unit": "cm"}], "note": "İç mekânda kireç taban.", "figures": ["resim-6"], "pages": [270]},
+    {"id": "m1-m2-wall", "class": "E25_Human-Made_Feature", "label": "M1 ve M2'yi bölen ortak duvar", "type": "wall", "part_of": "trench-dd15", "dimensions": [{"type": "length", "value": 310, "unit": "cm", "approx": true}], "note": "Bloklar dere taşlarından örülme bir temel üzerine oturur.", "figures": ["resim-6"], "pages": [270]},
+
+    {"id": "ee18-terrace-stones", "class": "E25_Human-Made_Feature", "label": "EE 18 tek sıra dizilmiş taşlar (kuzeybatı)", "type": "stone row", "part_of": "trench-ee18", "dimensions": [{"type": "depth below datum", "value": -190, "unit": "cm"}], "note": "Güneybatı-kuzeydoğu doğrultusunda.", "pages": [271]},
+    {"id": "ee18-stone-group", "class": "E25_Human-Made_Feature", "label": "EE 18 güney profili dağınık tek sıralı taş grubu", "type": "stone row", "part_of": "trench-ee18", "dimensions": [{"type": "depth below datum", "value": -170, "unit": "cm"}], "pages": [271]},
+    {"id": "ee18-hazne", "class": "E25_Human-Made_Feature", "label": "EE 18 kesme taştan hazne", "type": "stone-built basin", "part_of": "trench-ee18", "note": "İşlevi henüz belirsizdir.", "pages": [271]},
+    {"id": "modern-terracing", "class": "E25_Human-Made_Feature", "label": "Modern dönem teraslamaları", "type": "terracing", "part_of": "trench-ee18", "period": "modern", "pages": [271]},
+    {"id": "d1", "class": "E25_Human-Made_Feature", "label": "D1 (özensiz taşlarla çevrili kare birim)", "identifier": "D1", "type": "stone-lined unit", "part_of": "trench-ee18", "figures": ["resim-7"], "pages": [271]},
+
+    {"id": "summit-church", "class": "E22_Human-Made_Object", "label": "Zirvedeki kilise", "type": "church", "part_of": "site", "location": "zirve", "period": "c11-13", "pages": [266]},
+    {"id": "grave-chapel", "class": "E22_Human-Made_Object", "label": "Mezar şapeli", "type": "funerary chapel", "part_of": "site", "location": "zirve", "period": "c11-13", "pages": [266]},
+    {"id": "summit-houses", "class": "E22_Human-Made_Object", "label": "Zirve güneyindeki konutların yer aldığı yapı katları", "type": "houses", "part_of": "site", "location": "zirve", "period": "c11-13", "pages": [266]},
+    {"id": "eba-fortification", "class": "E22_Human-Made_Object", "label": "Erken Tunç Çağı savunma (sur) duvarı", "type": "fortification wall", "part_of": "site", "period": "eba", "note": "Caneva (2025) kazılarında tespit edilmiştir; MÖ III. binyıl başı.", "pages": [268, 269]},
+    {"id": "b6-terrace", "class": "E25_Human-Made_Feature", "label": "B6 teras yerleşme katı", "identifier": "B6", "type": "terrace settlement level", "part_of": "site", "location": "kuzeybati-sektor", "period": "eba-1", "note": "Güçlü bir yangın geçirmiş, içinde ocak bulunan teras yerleşmesi (Caneva 2025).", "pages": [268, 272]},
+    {"id": "hittite-wall", "class": "E22_Human-Made_Object", "label": "Geç Tunç Hitit sur duvarı", "type": "fortification wall", "part_of": "site", "location": "gya", "period": "lba-hittite", "pages": [272]},
+    {"id": "eba-graves", "class": "E25_Human-Made_Feature", "label": "GYA sektöründeki Erken Tunç Çağı mezarları", "type": "grave", "part_of": "site", "location": "gya", "period": "eba", "pages": [268, 272]},
+    {"id": "containers", "class": "E22_Human-Made_Object", "label": "Üç adet taşınabilir konteyner (depo, laboratuvar, ofis)", "type": "portable container", "count": 3, "location": "akut-yani", "pages": [266]}
+  ],
+
+  "strata": [
+    {"id": "level-xvi", "class": "A2_Stratigraphic_Volume_Unit", "label": "XVI tabakası", "identifier": "XVI", "at_feature": "site", "period": "chalcolithic", "note": "Caneva kazılarınca GYA sektöründe belgelenmiştir (Palumbi ve Caneva 2019); A701'den yaklaşık 3 m yüksekte ve 5 m kuzeyde.", "pages": [267, 268, 272]},
+    {"id": "level-xv", "class": "A2_Stratigraphic_Volume_Unit", "label": "XV tabakası", "identifier": "XV", "at_feature": "site", "period": "chalcolithic", "pages": [267]},
+    {"id": "garstang-xiia", "class": "A2_Stratigraphic_Volume_Unit", "label": "Garstang X trenci XII A tabakaları", "identifier": "XII A", "at_feature": "site", "period": "eba", "note": "Garstang bu malzemeyi in situ mimari kontekstten değil, çukur gibi alanlardan tespit etmiştir.", "pages": [267, 268, 272]},
+    {"id": "a701-soil", "class": "A2_Stratigraphic_Volume_Unit", "label": "A701 sarımsı açık kahverengi toprak", "at_feature": "a701", "pages": [268]},
+    {"id": "a701-marl-between", "class": "A2_Stratigraphic_Volume_Unit", "label": "Ocak ile tandır arasındaki sarımsı-marn özellikli sıkıştırılmış toprak", "at_feature": "a701", "pages": [267]},
+    {"id": "a701-ash-fill", "class": "A2_Stratigraphic_Volume_Unit", "label": "A701 ocağının güneyindeki kül dolgu", "at_feature": "a701-hearth", "pages": [267]},
+    {"id": "bx-hearth-level", "class": "A2_Stratigraphic_Volume_Unit", "label": "BX fırını ocak seviyesi", "at_feature": "bx-oven", "pages": [269]},
+    {"id": "b3-mortar", "class": "A2_Stratigraphic_Volume_Unit", "label": "B3 kerpiç blokları üzerindeki sert 'harç' (küçük kireç taşı ve çömlek parçalı)", "at_feature": "b3", "pages": [270]},
+    {"id": "b1ya", "class": "A2_Stratigraphic_Volume_Unit", "label": "B1YA dolgusu", "identifier": "B1YA", "at_feature": "trench-bb15", "pages": [270]},
+    {"id": "pithos-fill", "class": "A2_Stratigraphic_Volume_Unit", "label": "Pithosun içindeki toprak", "at_feature": "trench-ee18", "pages": [271]},
+    {"id": "ee18-compact", "class": "A2_Stratigraphic_Volume_Unit", "label": "EE 18 kuzeybatı sarımsı/açık kahverengi sıkıştırılmış sert alan", "at_feature": "trench-ee18", "dimensions": [{"type": "depth below datum", "min": -175, "max": -50, "unit": "cm", "approx": true}], "pages": [271]}
+  ],
+
+  "relations": [
+    {"id": "rel-pits-a701", "from": "medieval-pits-aa15", "to": "a701-foundation", "type": "cuts", "pages": [267]},
+    {"id": "rel-a701-xvi", "from": "a701", "to": "level-xvi", "type": "cuts", "certainty": "interpreted", "note": "XVI tabakayı keserek yamaca oturtulan bir teras yerleşmesi olduğu değerlendirilmektedir.", "pages": [268]},
+    {"id": "rel-hearth-tandir", "from": "a701-hearth", "to": "a701-tandir", "type": "contemporary with", "certainty": "possible", "note": "Aradaki sıkıştırılmış toprak iki yapının çağdaş olabileceğini düşündürür.", "pages": [267]},
+    {"id": "rel-b2c1-bx", "from": "pit-b2c1", "to": "bx-oven", "type": "destroys", "pages": [269]},
+    {"id": "rel-pit-b2x", "from": "pit-over-b2x", "to": "b2x-furnace", "type": "destroys", "pages": [269]},
+    {"id": "rel-path-b2x", "from": "medieval-path", "to": "b2x-furnace", "type": "cuts", "note": "Batı, güney ve kuzey yönlerinden.", "pages": [269]},
+    {"id": "rel-b1ya-a700", "from": "b1ya", "to": "a700", "type": "destroys", "pages": [270]},
+    {"id": "rel-b1ya-b2x", "from": "b1ya", "to": "b2x-furnace", "type": "destroys", "pages": [270]},
+    {"id": "rel-b1ya-b3", "from": "b1ya", "to": "b3", "type": "destroys", "pages": [270]},
+    {"id": "rel-b3mortar-b3", "from": "b3-mortar", "to": "b3", "type": "overlies", "pages": [270]},
+    {"id": "rel-terracing-hazne", "from": "modern-terracing", "to": "ee18-hazne", "type": "destroys", "pages": [271]},
+    {"id": "rel-graves-hittite", "from": "eba-graves", "to": "hittite-wall", "type": "cuts", "note": "Metinde basıldığı gibi: 'Geç Tunç Hitit Sur duvarına kesecek şekilde'.", "pages": [272]}
+  ],
+
+  "activities": [
+    {"id": "programme-2024-28", "class": "E7_Activity", "type": "research programme", "label": "\"Geleceğe Miras Projesi\" Yumuktepe programı 2024-2028",
+     "timespan": {"begin": "2024", "end": "2028"}, "carried_out_by": [{"actor": "gmp-koordinatorlugu", "role": "coordinating body"}],
+     "took_place_at": ["yumuktepe"], "note": "Üç hedef: GYA ve Kuzeydoğu sektörlerinde kronolojik stratigrafik dizi; Kuzeydoğu sektörünün ilk kez araştırılması; Arkeopark projesinde yer almayan restorasyon, konservasyon ve restitüsyon çalışmaları.", "pages": [265]},
+
+    {"id": "campaign-2024", "class": "A9_Archaeological_Excavation", "type": "excavation campaign", "label": "Yumuktepe \"Geleceğe Miras Projesi\" 2024 kazı sezonu",
+     "timespan": {"begin": "2024", "end": "2024"}, "part_of": "programme-2024-28", "investigated": "site",
+     "carried_out_by": [{"actor": "ulas", "role": "author and project team"}, {"actor": "evgen", "role": "author and project team"}, {"actor": "gmp-ekibi-2024", "role": "team"}, {"actor": "gmp-koordinatorlugu", "role": "coordinating body"}, {"actor": "palumbi", "role": "excavation director (supporting)"}],
+     "took_place_at": ["gya"],
+     "continued": ["garstang-excavations", "gya-1990s", "koroglu-1993-2010", "gya-jean-caneva", "italian-mission"],
+     "note": "Yazarların projedeki unvanları metinde belirtilmemiştir. Kazı Başkanı G. Palumbi'dir.", "figures": ["resim-2", "sekil-1"], "pages": [265, 267, 272]},
+
+    {"id": "garstang-excavations", "class": "A9_Archaeological_Excavation", "type": "excavation campaign", "label": "Garstang kazıları", "investigated": "site", "carried_out_by": [{"actor": "garstang", "role": "excavation director"}], "note": "Metin tarih vermez; yayın: Garstang 1953.", "pages": [267, 268]},
+    {"id": "gya-1990s", "class": "A9_Archaeological_Excavation", "type": "excavation campaign", "label": "GYA sektöründeki ilk kazılar (1990'lı yıllar)", "timespan": {"begin": "1990", "end": "1999", "approx": true}, "investigated": "site", "took_place_at": ["gya"], "carried_out_by": [{"actor": "koroglu-kemalettin", "role": "excavator"}], "pages": [267]},
+    {"id": "koroglu-1993-2010", "class": "A9_Archaeological_Excavation", "type": "excavation campaign", "label": "G. Köroğlu Orta Çağ kazıları 1993-2010", "timespan": {"begin": "1993", "end": "2010"}, "investigated": "site", "took_place_at": ["zirve"], "carried_out_by": [{"actor": "koroglu-gulgun", "role": "excavator"}], "pages": [266, 270]},
+    {"id": "gya-jean-caneva", "class": "A9_Archaeological_Excavation", "type": "excavation campaign", "label": "GYA kazıları (Eric Jean ve Isabella Caneva)", "investigated": "site", "took_place_at": ["gya"], "carried_out_by": [{"actor": "jean", "role": "excavator"}, {"actor": "caneva", "role": "excavator"}], "note": "Metin tarih vermez; yayın: Caneva ve Jean 2016.", "pages": [267]},
+    {"id": "italian-mission", "class": "A9_Archaeological_Excavation", "type": "excavation campaign", "label": "İtalyan Kazı Heyeti kazıları (Caneva kazıları)", "investigated": "site", "carried_out_by": [{"actor": "italyan-heyeti", "role": "institution"}, {"actor": "caneva", "role": "former excavation director"}, {"actor": "palumbi", "role": "excavation director"}], "note": "Halihazırda yürütülmektedir; metin başlangıç tarihi vermez.", "pages": [265, 268, 273]},
+    {"id": "arkeopark", "class": "E7_Activity", "type": "archaeopark project", "label": "Yumuktepe Arkeopark ve Çevre Düzenlemesi Projesi", "carried_out_by": [{"actor": "caneva", "role": "initiator"}, {"actor": "mersin-bb", "role": "supporting institution"}], "took_place_at": ["yumuktepe"], "note": "Devam etmektedir; yalnızca Neolitik ve Kalkolitik dönemleri kapsar.", "pages": [265, 266]},
+
+    {"id": "exc-aa15", "class": "A1_Excavation_Processing_Unit", "label": "AA 15 açması kazısı 2024", "part_of": "campaign-2024", "at_feature": "trench-aa15", "also_at": ["a701"], "figures": ["resim-3"], "pages": [267, 268]},
+    {"id": "exc-bb15", "class": "A1_Excavation_Processing_Unit", "label": "BB 15 açması kazısı 2024", "part_of": "campaign-2024", "at_feature": "trench-bb15", "removed": ["b3-mortar"], "figures": ["resim-5"], "pages": [269, 270]},
+    {"id": "exc-dd15", "class": "A1_Excavation_Processing_Unit", "label": "DD 15 açması kazısı 2024", "part_of": "campaign-2024", "at_feature": "trench-dd15", "figures": ["resim-6"], "pages": [270, 271]},
+    {"id": "exc-ee18", "class": "A1_Excavation_Processing_Unit", "label": "EE 18 açması kazısı 2024", "part_of": "campaign-2024", "at_feature": "trench-ee18", "note": "Hazne çukurunda seviye inme çalışması yapılmıştır.", "figures": ["resim-7"], "pages": [271]},
+
+    {"id": "strat-correlation", "class": "E7_Activity", "type": "stratigraphic correlation", "label": "2024 verilerinin Caneva kazısı verileriyle stratigrafik karşılaştırması", "part_of": "campaign-2024", "took_place_at": ["gya"], "pages": [265]},
+    {"id": "pottery-analysis", "class": "E7_Activity", "type": "pottery analysis", "label": "Çanak çömlek analizleri", "part_of": "campaign-2024", "carried_out_by": [{"actor": "yilmaz-fatih", "role": "analyst"}], "at_feature": "a701", "pages": [267, 272]},
+    {"id": "archaeobotany-2024", "class": "E7_Activity", "type": "archaeobotanical analysis", "label": "2024 arkeobotanik gözlem ve analizleri", "part_of": "campaign-2024", "took_place_at": ["gya"], "note": "Analizi yapan kişi metinde belirtilmemiştir.", "pages": [267, 269, 271]},
+    {"id": "restoration-project-prep", "class": "E7_Activity", "type": "restoration project preparation", "label": "Zirvedeki Orta Çağ yapı katları için restorasyon projesinin hazırlanıp Bakanlığa teslimi", "part_of": "campaign-2024", "took_place_at": ["zirve"], "pages": [266]},
+    {"id": "infrastructure-2024", "class": "E7_Activity", "type": "infrastructure setup", "label": "Konteynerlerin yerleştirilmesi ve çalışma alanının panel çitle kapatılması", "part_of": "campaign-2024", "took_place_at": ["akut-yani"], "pages": [266]},
+    {"id": "collaboration-mersin-uni", "class": "E7_Activity", "type": "collaboration", "label": "Mersin Üniversitesi ile ortak projeler için iş birliklerinin başlatılması", "part_of": "campaign-2024", "carried_out_by": [{"actor": "mersin-uni-harita", "role": "partner"}, {"actor": "mersin-uni-biyoloji", "role": "partner"}], "took_place_at": ["mersin"], "pages": [266]},
+    {"id": "support-2024", "class": "E7_Activity", "type": "permission and support", "label": "2024 çalışmaları için izin ve destek", "timespan": {"begin": "2024", "end": "2024"},
+     "carried_out_by": [{"actor": "ktb", "role": "permitting authority"}, {"actor": "kvmgm", "role": "permitting authority"}, {"actor": "gelecege-miras", "role": "supporting unit"}, {"actor": "kazilar-db", "role": "supporting unit"}, {"actor": "mersin-valiligi", "role": "supporting institution"}, {"actor": "mersin-il-kultur", "role": "supporting institution"}, {"actor": "mersin-muze", "role": "supporting institution"}, {"actor": "mersin-bb", "role": "supporting institution"}, {"actor": "toroslar-belediyesi", "role": "supporting institution"}, {"actor": "palumbi", "role": "supporter"}, {"actor": "caneva", "role": "supporter"}],
+     "purpose_of": "campaign-2024", "pages": [272, 273]}
+  ],
+
+  "plans": [
+    {"id": "plan-northeast-2025", "label": "Kuzeydoğu sektöründe yeni kazılarla alanın ilk defa araştırılması", "planned_for": "2025", "about": ["site"], "place": "kuzeydogu-sektor", "note": "Müftü Deresi'nin Neolitik Çağ'dan Orta Çağ'a kadar yatağının aktığı düşünülen alan.", "pages": [265]},
+    {"id": "plan-z15-2025", "label": "Z 15 plankaresinde kazı", "planned_for": "2025", "about": ["a701", "level-xvi"], "place": "plankare-z15", "note": "XVI tabakası ile ETÇ II terasının stratigrafik ilişkisini anlamak için.", "pages": [272]},
+    {"id": "plan-summit-restoration", "label": "Zirvedeki yapıların restorasyon ve konservasyonu", "about": ["summit-church", "grave-chapel", "summit-houses"], "place": "zirve", "note": "Gerekli finansman sağlandığı takdirde başlanacaktır.", "pages": [266]},
+    {"id": "plan-information-2025", "label": "Bilgi tabelaları, QR kodları ve web sayfası", "planned_for": "2025", "about": ["site"], "pages": [266]},
+    {"id": "plan-workshop-2025", "label": "I. Caneva onuruna çalıştay", "planned_for": "2025", "about": ["site"], "note": "Kazı Başkanı G. Palumbi'nin destek ve iş birliğiyle.", "pages": [266]}
+  ],
+
+  "finds": [
+    {"id": "pottery-a701", "class": "E22_Human-Made_Object", "label": "A701 el yapımı, kaba hamurlu, kırmızı astarlı çanak çömlek", "type": "pottery sherds", "found_by": "exc-aa15", "at_feature": "a701",
+     "comparanda": [{"label": "Göller Bölgesi ETÇ I–II mal grupları", "refs": "Özsait-Türkteki 2014; Duru 2016; Duru ve Umurtak 2008; 2011"}, {"label": "Garstang X trenci XII A tabakası çanak çömleği", "refs": "Garstang 1953, bölüm 9, fig. 22"}],
+     "note": "Resim 4 alt yazısı 'siyah hamurlu' der; metin 'kırmızı astarlı' der.", "figures": ["resim-4"], "pages": [267, 268]},
+    {"id": "botanical-a701", "class": "E20_Biological_Object", "label": "A701 kül dolgusundan bitki kalıntıları", "type": "plant remains", "taxa": ["Triticum sp.", "Fabaceae", "Pistacia terebinthus", "Olea europaea"], "found_by": "exc-aa15", "at_feature": "a701-hearth", "from_stratum": "a701-ash-fill", "note": "Buğday, baklagil, menengiç, zeytin ve tahıl kırıntıları.", "pages": [267]},
+
+    {"id": "botanical-bx", "class": "E20_Biological_Object", "label": "BX fırınından bitki kalıntıları", "type": "plant remains", "taxa": ["Pisum sativum", "Avena sp.", "Triticum monococcum", "Triticum durum/aestivum", "Lolium sp.", "Hordeum vulgare"], "found_by": "exc-bb15", "at_feature": "bx-oven", "pages": [269]},
+    {"id": "brittle-ware-bx", "class": "E22_Human-Made_Object", "label": "Beyrut üretimi Brittle Ware", "type": "pottery sherds", "found_by": "exc-bb15", "at_feature": "bx-oven", "from_stratum": "bx-hearth-level", "period": "c13", "dating_by": {"by": ["koroglu-gulgun"], "via": "personal communication"}, "note": "Metinde 'Britille Ware' olarak yazılmıştır.", "pages": [269]},
+    {"id": "port-st-simeon-bx", "class": "E22_Human-Made_Object", "label": "Port St. Simeon kökenli renkli sırlı ve kazıma bezemeli seramik", "type": "pottery sherds", "found_by": "exc-bb15", "at_feature": "bx-oven", "from_stratum": "bx-hearth-level", "period": "c13", "dating_by": {"by": ["koroglu-gulgun"], "via": "personal communication"}, "pages": [269]},
+    {"id": "slag-b2x", "class": "E22_Human-Made_Object", "label": "B2X ocağı demir cürufları", "type": "slag", "material": "iron", "found_by": "exc-bb15", "at_feature": "b2x-furnace", "pages": [269]},
+    {"id": "bones-pit-b2x", "class": "E20_Biological_Object", "label": "Çukurdaki tilki, keçi/koyun ve kuş kemikleri", "type": "animal bone", "taxa": ["tilki", "keçi/koyun", "kuş"], "identified_by": {"by": ["onar"], "via": "personal communication"}, "found_by": "exc-bb15", "at_feature": "pit-over-b2x", "pages": [269]},
+    {"id": "bones-b3-hearth", "class": "E20_Biological_Object", "label": "B3 ocağındaki hayvan kemikleri", "type": "animal bone", "found_by": "exc-bb15", "at_feature": "b3-hearth", "pages": [270]},
+    {"id": "syrian-glazed-b3", "class": "E22_Human-Made_Object", "label": "Suriye menşeli mavi sırlı ithal seramik parçaları", "type": "pottery sherds", "found_by": "exc-bb15", "at_feature": "b3", "from_stratum": "b3-mortar", "period": "c12-13", "dating_by": {"by": ["koroglu-gulgun"], "via": "personal communication"}, "note": "Harcın ve ocağın içinden.", "pages": [270]},
+    {"id": "path-finds", "class": "E22_Human-Made_Object", "label": "Patika boyunca Orta Çağ çömlek parçaları, küçük taşlar ve cam bilezikler", "type": "mixed finds", "period": "medieval", "found_by": "exc-bb15", "at_feature": "medieval-path", "pages": [270]},
+
+    {"id": "loom-weight-m1", "class": "E22_Human-Made_Object", "label": "Tezgâh ağırlığı", "type": "loom weight", "period": "roman", "found_by": "exc-dd15", "at_feature": "m1", "pages": [270]},
+    {"id": "arrowhead-m1", "class": "E22_Human-Made_Object", "label": "Tunç ok ucu", "type": "arrowhead", "material": "bronze", "period": "hellenistic", "found_by": "exc-dd15", "at_feature": "m1", "pages": [270]},
+    {"id": "pottery-m1", "class": "E22_Human-Made_Object", "label": "M1 çanak çömleği", "type": "pottery sherds", "found_by": "exc-dd15", "at_feature": "m1", "note": "Yumuktepe'nin Orta Çağ ve Demir Çağı bağlamlarında daha önce belgelenmemiş örnekler içerir.", "pages": [270]},
+
+    {"id": "pithos-ee18", "class": "E22_Human-Made_Object", "label": "In situ pithos", "type": "pithos", "count": 1, "period": "byzantine", "found_by": "exc-ee18", "at_feature": "trench-ee18", "condition": "in situ", "dimensions": [{"type": "depth below datum", "value": -157, "unit": "cm"}], "note": "Açmanın kuzeydoğusunda.", "pages": [271]},
+    {"id": "einkorn-pithos", "class": "E20_Biological_Object", "label": "Pithos içindeki siyez taneleri", "type": "plant remains", "taxa": ["Triticum monococcum"], "found_by": "exc-ee18", "at_feature": "trench-ee18", "from_stratum": "pithos-fill", "pages": [271]},
+    {"id": "port-st-simeon-pithos", "class": "E22_Human-Made_Object", "label": "Pithos içi ve çevresinden Port St. Simeon mal grubu çanak parçaları", "type": "pottery sherds", "period": "c12-13", "dating_by": {"by": ["koroglu-gulgun"], "via": "personal communication"}, "found_by": "exc-ee18", "at_feature": "trench-ee18", "pages": [271]},
+    {"id": "roof-tiles-ee18", "class": "E22_Human-Made_Object", "label": "Kiremit parçaları", "type": "roof tile", "period": "c10-13", "dating_by": {"by": ["koroglu-gulgun"], "via": "personal communication"}, "found_by": "exc-ee18", "at_feature": "trench-ee18", "note": "10.-13. yy. ait olduğu düşünülen.", "pages": [271]},
+    {"id": "mixed-sherds-ee18", "class": "E22_Human-Made_Object", "label": "Neolitik'ten Orta Çağ'a değişik dönemlere ait kap parçaları", "type": "pottery sherds", "periods": ["neolithic", "medieval"], "found_by": "exc-ee18", "at_feature": "trench-ee18", "from_stratum": "ee18-compact", "pages": [271]},
+    {"id": "dfbw-ee18", "class": "E22_Human-Made_Object", "label": "DFBW çömlek parçası", "type": "pottery sherds", "count": 1, "found_by": "exc-ee18", "at_feature": "trench-ee18", "from_stratum": "ee18-compact", "dimensions": [{"type": "depth below datum", "value": -175, "unit": "cm"}], "pages": [271]},
+    {"id": "marble-ee18", "class": "E22_Human-Made_Object", "label": "Mermer parçası", "type": "stone fragment", "material": "marble", "count": 1, "found_by": "exc-ee18", "at_feature": "trench-ee18", "from_stratum": "ee18-compact", "dimensions": [{"type": "depth below datum", "value": -175, "unit": "cm"}], "pages": [271]},
+    {"id": "bricks-ee18", "class": "E22_Human-Made_Object", "label": "Tuğla parçaları", "type": "brick", "period": "c12-13", "dating_by": {"by": ["koroglu-gulgun"], "via": "personal communication"}, "found_by": "exc-ee18", "at_feature": "ee18-terrace-stones", "pages": [271]},
+    {"id": "port-st-simeon-south", "class": "E22_Human-Made_Object", "label": "Güney profilinden Port St. Simeon renkli sır akıtmalı ve kazıma çanaklar ile Ege'den ithal kazıma çanak parçaları", "type": "pottery sherds", "period": "c12-13", "dating_by": {"by": ["koroglu-gulgun"], "via": "personal communication"}, "found_by": "exc-ee18", "at_feature": "ee18-stone-group", "pages": [271]},
+    {"id": "glass-bottle-ee18", "class": "E22_Human-Made_Object", "label": "Modern cam şişe parçası", "type": "glass fragment", "material": "glass", "count": 1, "period": "modern", "found_by": "exc-ee18", "at_feature": "ee18-hazne", "dimensions": [{"type": "depth below datum", "value": -211, "unit": "cm"}], "pages": [271]},
+    {"id": "cattle-bones-d1", "class": "E20_Biological_Object", "label": "D1 birimindeki büyükbaş hayvan kemikleri", "type": "animal bone", "taxa": ["büyükbaş hayvan"], "found_by": "exc-ee18", "at_feature": "d1", "figures": ["resim-7"], "pages": [271]},
+    {"id": "gya-medieval-finds", "class": "E22_Human-Made_Object", "label": "GYA Orta Çağ buluntuları: seramik, metal objeler, cam bilezikler, sikkeler", "type": "mixed finds", "period": "c11-15", "found_by": "campaign-2024", "at_feature": "site", "note": "Sonuç bölümündeki genel sayım; açma belirtilmemiştir.", "pages": [272]}
+  ],
+
+  "samples": [
+    {"id": "s-olive-a701", "label": "Zeytin çekirdeği (A701 ocağının doğusu)", "material_type": "olive stone", "taxa": ["Olea europaea"], "taken_from": "a701-hearth", "taken_during": "exc-aa15", "pages": [268]},
+    {"id": "s-lentil-a701", "label": "Mercimek tohumları (A701 ocağının güneyi)", "material_type": "seed", "taxa": ["Lens culinaris"], "taken_from": "a701-hearth", "taken_during": "exc-aa15", "pages": [268]},
+    {"id": "s-barley-bx", "label": "Arpa (BX fırını)", "material_type": "seed", "taxa": ["Hordeum vulgare"], "taken_from": "bx-oven", "taken_during": "exc-bb15", "pages": [269]},
+    {"id": "s-charcoal-b3", "label": "Kömürleşmiş odun kalıntıları (B3 ocağı)", "material_type": "charred wood", "taken_from": "b3-hearth", "taken_during": "exc-bb15", "pages": [270]},
+    {"id": "s-einkorn-pithos", "label": "Siyez tohum örnekleri (pithos içi)", "material_type": "seed", "taxa": ["Triticum monococcum"], "taken_from": "pithos-ee18", "taken_during": "exc-ee18", "pages": [271]}
+  ],
+
+  "analyses": [
+    {"id": "c14-a701", "type": "radiocarbon dating (calibrated)", "label": "A701 karbon 14 tarihi: MÖ 2580-2141 cal.", "samples": ["s-olive-a701", "s-lentil-a701"], "result": {"begin": "-2580", "end": "-2141"}, "dates": "a701", "note": "İki örnek için tek bir tarih aralığı verilmiştir; laboratuvar ve ölçüm kodu belirtilmemiştir.", "pages": [268]},
+    {"id": "c14-bx", "type": "radiocarbon dating (calibrated)", "label": "BX fırını karbon 14 tarihi: MS 1387-1476 cal.", "samples": ["s-barley-bx"], "result": {"begin": "1387", "end": "1476"}, "dates": "bx-oven", "pages": [269]},
+    {"id": "c14-b3", "type": "radiocarbon dating (calibrated)", "label": "B3 karbon 14 tarihi: MS 1147-1280 cal.", "samples": ["s-charcoal-b3"], "result": {"begin": "1147", "end": "1280"}, "dates": "b3", "pages": [270]},
+    {"id": "c14-pithos", "type": "radiocarbon dating (calibrated)", "label": "Pithos karbon 14 tarihi: MS 1299-1425 cal.", "samples": ["s-einkorn-pithos"], "result": {"begin": "1299", "end": "1425"}, "dates": "pithos-ee18", "pages": [271]}
+  ],
+
+  "interpretations": [
+    {"id": "int-a701-oval", "about": "a701", "assigned": "Oval planlı yapı (olası)", "by": ["ulas", "evgen"], "basis": "Taş temellerin yönelimi", "pages": [267]},
+    {"id": "int-a701-function", "about": "a701", "assigned": "ETÇ II evresine ait bitkisel kaynakları depolama ve pişirme mekânı (büyük olasılıkla)", "by": ["ulas", "evgen"], "basis": "Mimari, seramik ve arkeobotanik veriler", "pages": [268]},
+    {"id": "int-a701-first-eba2", "about": "a701", "assigned": "Yumuktepe'de ETÇ II evresinin belgelenen ilk mimari yapı katı", "by": ["ulas", "evgen"], "basis": "Karbon 14 sonuçları MÖ 2580-2141 cal.", "pages": [268, 272]},
+    {"id": "int-a701-terrace", "about": "a701", "assigned": "XVI tabakayı keserek yamaca oturtulan teras yerleşmesi", "by": ["ulas", "evgen"], "pages": [268, 272]},
+    {"id": "int-b2x-smelting", "about": "b2x-furnace", "assigned": "Demir eritme amaçlı ocak", "by": ["ulas", "evgen"], "basis": "Ocak içinde elde edilen demir cürufları", "pages": [269]},
+    {"id": "int-pit-burial", "about": "bones-pit-b2x", "assigned": "Düzenli bir şekilde gömülmüş hayvanlar", "by": ["ulas", "evgen"], "pages": [269]},
+    {"id": "int-path-summit", "about": "medieval-path", "assigned": "Zirveye ulaşım için yapılmış iki evreli patika (muhtemelen)", "by": ["ulas", "evgen"], "pages": [269, 270]},
+    {"id": "int-b1ya-wall-path", "about": "b1ya-wall", "assigned": "Höyüğün üst kısmına çıkan patikanın parçası (muhtemelen)", "by": ["ulas", "evgen"], "pages": [270]},
+    {"id": "int-b3-mortar", "about": "b3-mortar", "assigned": "Kerpiç blokların üzerine sıvanmış sert harç", "by": ["ulas", "evgen"], "basis": "Harç kaldırıldığında kerpiç bloklar görünmüştür", "pages": [270]},
+    {"id": "int-shared-wall", "about": "m1-m2-wall", "assigned": "Alanın ikincil kullanımına işaret eden duvar", "by": ["ulas", "evgen"], "pages": [270]},
+    {"id": "int-m1-m2-function", "about": "trench-dd15", "assigned": "M1 ve M2 arasında işlevsel ayrım; işlevler henüz belirlenemiyor", "by": ["ulas", "evgen"], "basis": "Farklı zeminler ve duvar kalınlıkları", "pages": [270, 271]},
+    {"id": "int-pithos-einkorn", "about": "pithos-ee18", "assigned": "Siyez tanelerinin depolanması için kullanılmış; kaplıca buğday tarımı bu dönemde terk edilmemiştir", "by": ["ulas", "evgen"], "basis": "Pithos içi toprağın arkeobotanik analizi", "pages": [271]},
+    {"id": "int-ee18-terracing", "about": "ee18-terrace-stones", "assigned": "Basit bir Orta Çağ teraslama işlemi (olası)", "by": ["ulas", "evgen"], "pages": [271]},
+    {"id": "int-resettlement", "about": "site", "assigned": "MÖ V. binyıl sonunda terk, III. binyıl başında Erken Tunç Çağı'nda yeniden yerleşim", "by": ["ulas", "evgen"], "basis": "Caneva 2025; Novák vd. 2017", "pages": [268, 269]}
+  ],
+
+  "figures": [
+    {"id": "resim-1", "kind": "Resim", "number": 1, "caption": "Yumuktepe Höyüğü'nün havadan görünümü.", "depicts": ["site"], "page": 274},
+    {"id": "sekil-1", "kind": "Şekil", "number": 1, "caption": "2024 yılında kazısı gerçekleştirilen plankareleri ve önceki kazı alanlarını gösteren plan.", "depicts": ["trench-aa15", "trench-bb15", "trench-dd15", "trench-ee18"], "page": 275},
+    {"id": "resim-2", "kind": "Resim", "number": 2, "caption": "Kazı çalışması gerçekleştirilen AA15, BB15, DD15 ve EE18 (fotoğrafta sol üst köşede) açmaları.", "depicts": ["trench-aa15", "trench-bb15", "trench-dd15", "trench-ee18"], "page": 276},
+    {"id": "resim-3", "kind": "Resim", "number": 3, "caption": "AA15 açmasındaki A 701 yapı katı.", "depicts": ["a701"], "page": 276},
+    {"id": "resim-4", "kind": "Resim", "number": 4, "caption": "Bademağacı (Duru 2008) ve Yumuktepe el yapımı siyah hamurlu çanak çömlek mal grubu.", "depicts": ["pottery-a701"], "page": 277},
+    {"id": "resim-5", "kind": "Resim", "number": 5, "caption": "BB15 açmasında tespit edilen yapı katları.", "depicts": ["trench-bb15", "bx-oven", "b2x-furnace", "b3"], "page": 277},
+    {"id": "resim-6", "kind": "Resim", "number": 6, "caption": "DD15 açmasında ortaya çıkarılan yapı katları.", "depicts": ["m1", "m2", "m1-m2-wall"], "page": 278},
+    {"id": "resim-7", "kind": "Resim", "number": 7, "caption": "EE18 plankaresinde tespit edilen Orta Çağ 13.-14. yy. teras yapı katları.", "depicts": ["trench-ee18", "d1"], "page": 278}
+  ]
+}
