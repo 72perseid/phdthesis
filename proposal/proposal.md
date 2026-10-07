@@ -142,19 +142,20 @@ Programın kurallarına göre proje yürütücüsünün doktora derecesine sahip
 
 Modül mühendislik bilimleriyle eş güdüm istediği ve yöntemin yarısı dil modelleriyle ilgili olduğu için, ekipte bilgisayar mühendisliğinden bir araştırmacı bulunması gerektiğini düşünüyorum. Kurallar bunu zorunlu tutmuyor; ancak yalnızca arkeologlardan oluşan bir ekip modülün amacını kâğıt üzerinde karşılamayabilir. Bir danışman da olabilir, fakat ekipte yer alan bir araştırmacı daha güçlü bir işaret verir.
 
-Aday olarak düşündüğüm isim, Ege Üniversitesi Bilgisayar Mühendisliği Bölümü'nden Doç. Dr. Özgür Gümüş'tür. Çalışma alanları anlamsal ağ, ontolojiler ve bağlı veridir; bu, çalışmamın CIDOC CRM ile ilgili yarısıyla doğrudan örtüşmektedir. Dil modelleri üzerine bir çalışmasını bulamadım. Kendisiyle henüz görüşmedim; önce sizin görüşünüzü almak isterim.
+Mühendislik tarafında Ege Üniversitesi Bilgisayar Mühendisliği Bölümü Başkanı Prof. Dr. Murat Osman Ünalır ile ilerliyoruz. Çalışma alanları ontoloji mühendisliği, anlamsal ağ, bilgi gösterimi, birlikte çalışabilirlik ve makine öğrenmesidir; bu, çalışmamın her iki yarısıyla da örtüşmektedir. Programın kuralına göre profesör unvanlı kişiler projede araştırmacı olarak görev alamamaktadır. Bu nedenle Ünalır hoca projede danışman olarak yer alabilir; araştırmacı görevi için kendi grubundan bir öğretim üyesinin katılması uygun olur.
 
 | Görev | Kişi |
 |---|---|
 | Proje yürütücüsü | Prof. Dr. Çiler Çilingiroğlu |
-| Araştırmacı | Bilgisayar mühendisliği; aday: Doç. Dr. Özgür Gümüş |
+| Danışman | Prof. Dr. Murat Osman Ünalır, bilgisayar mühendisliği |
+| Araştırmacı | Bilgisayar mühendisliğinden bir öğretim üyesi; belirlenecek |
 | Doktora bursiyeri | Tuğçe Köseoğlu |
 | Diğer bursiyerler | Kayıtları denetleyecek arkeoloji öğrencileri |
 
-[TODO: bütçe] [TODO: iş paketleri ve takvim] [TODO: 3005-B'nin resmî metninden ekip kurallarının doğrulanması]
+[TODO: bütçe] [TODO: iş paketleri ve takvim] [TODO: araştırmacı adı]
 
 ## 10. Size sorularım
 
 1. **Standardın ekleri.** Yapı, çekirdek modelin yanında kazı, analiz, konum ve yorum eklerini (CRMarchaeo, CRMsci, CRMgeo, CRMinf) kullanıyor. Bu kapsamı bir doktora tezi için uygun buluyor musunuz?
 2. **Karaburun verisi.** Bu kayıtları tezde kullanmama izin verir misiniz? Veri yalnızca kendi sunucumda tutulacak ve onayınız olmadan hiçbir şey yayımlanmayacaktır.
-3. **Eş danışman.** Çalışmanın dil modeli ve ölçüm kısmı için bilgisayar mühendisliğinden bir eş danışman gerekli midir? Aynı kişi projede araştırmacı olarak da yer alabilir.
+3. **Eş danışman.** Tezin dil modeli ve ölçüm kısmı için Ünalır hocanın ikinci tez danışmanı olmasını uygun bulur musunuz?
