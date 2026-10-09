@@ -1,0 +1,1035 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:crmgeo="http://www.cidoc-crm.org/extensions/crmgeo/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:base="http://www.cidoc-crm.org/extensions/crmgeo/">
+  <!--
+OWL implementation of CRMgeo v2.0.1 May, 2026 (https://cidoc-crm.org/crmgeo/ModelVersion/version-2.0.1)).
+
+Created by FORTH-ICS - May, 2026
+CC BY 4.0 https://creativecommons.org/licenses/by/4.0/legalcode
+
+-->
+  <owl:Ontology rdf:about="http://www.cidoc-crm.org/extensions/crmgeo/">
+    <rdfs:label xml:lang="en">CRMgeo 2.0.1 / OWL</rdfs:label>
+    <owl:versionIRI rdf:resource="http://www.cidoc-crm.org/extensions/crmgeo/owl/2.0.1/"/>
+    <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/owl/7.1.3/"/>
+    <owl:imports rdf:resource="http://www.opengis.net/ont/geosparql#1.1"/>
+    <owl:imports rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    <owl:versionInfo xml:lang="en">CRMgeo 2.0.1 (May, 2026) including references to CIDOC-CRM 7.1.3, GeoSPARQL 1.1 and WGS84 1.22.</owl:versionInfo>
+  </owl:Ontology>
+  <owl:Class rdf:about="SP1_Phenomenal_Spacetime_Volume">
+    <rdfs:label xml:lang="en">SP1 Phenomenal Spacetime Volume</rdfs:label>
+    <skos:notation>SP1</skos:notation>
+    <skos:prefLabel xml:lang="en">Phenomenal Spacetime Volume</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises the 4 dimensional point sets (volumes) (S) which material phenomena (I) occupy in Space-Time (S). An instance of S1 Space Time Volume represents the true (I) extent of an instance of E4 Period in spacetime or the true (I) extent of the trajectory of an instance of E18 Physical Thing during the course of its existence, from production to destruction. A fuzziness of the extent lies in the very nature of the phenomenon, and not in the shortcomings of observation (U). The degree of fuzziness with respect to the scale of the phenomenon may vary widely, but the extent is never exact in a mathematical sense. According to modern physics, points in space-time are absolute with respect to the physical phenomena happening at them, regardless of the so-called Galilean relativity of spatial or temporal reference systems in terms of which an observer may describe them. Following the theory, points relative to different spatial or temporal reference systems can be related if common points of phenomena in space-time are known in different systems. Instances of SP1 Phenomenal Space-Time Volume are sets of such absolute space-time points of phenomena (I). The (Einstein) relativity of spatial and temporal distances is of no concern for the scales of things in the cultural-historical discourse, but does not alter the above principles. The temporal projection of an instance of SP1 Phenomenal Space-Time Volume defines an E52 Time-Span while its spatial projection defines an SP2 Phenomenal Place. The true location of an instance of E18 Physical Thing during some time-span can be regarded as the spatial projection of the restriction of its trajectory to the respective time-span.
+
+Examples:
+- The Space Time Volume (SP1) of the Event (E7) of Ceasar’s (E21) murdering
+- The Space Time Volume (SP1) where and when the carbon 14 dating (E16) of the "Schoeninger Speer II" (E22) in 1996 took place
+- The spatio-temporal trajectory (SP1) of the H.M.S. Victory (E22) from its launching (E12) to its actual location (E9)
+- The Space Time Volume (SP1) of the temple in Abu Simbel (E25) before its removal (E6)
+
+In First Order Logic:
+- SP1(x) ⇒ E92(x)
+</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="SP2_Phenomenal_Place">
+    <rdfs:label xml:lang="en">SP2 Phenomenal Place</rdfs:label>
+    <skos:notation>SP2</skos:notation>
+    <skos:prefLabel xml:lang="en">Phenomenal Place</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises instances of E53 Place (S) whose extent (U) and position is defined by the spatial projection of the spatiotemporal extent of a real world phenomenon that can be observed or measured. The spatial projection depends on the instance of S3 Reference Space onto which the extent of the phenomenon is projected. In general, there are no limitations to the number of Reference Spaces one could regard, but only few choices are relevant for the cultural-historical discourse. Typical for the archaeological discourse is to choose a reference space with respect to which the remains of some events would stay at the same place, for instance, relative to the bedrock of a continental plate. On the other hand, for the citizenship of babies born in aeroplanes, the space in which the boundaries of the overflown state are defined may be relevant (I). Instances of SP2 Phenomenal Place exist as long as the respective reference space is defined. Note that we can talk in particular about what was at a place in a country before a city was built there, i.e., before the time the event occurred by which the place is defined, but we cannot talk about the place of earth before it came into existence due to lack of a reasonable reference space (E).
+
+Examples:
+- The place (SP2) where the murder (E7) of Caesar (E21) happened
+- Place (SP2) on H.M.S. Victory (E22) at which Nelson (E21) died
+- The Place (SP2) of the Varus Battle (E7)
+- The volume in space (SP2) of my vine glass (E22)
+- The place (SP2) the H.M.S Victory (E22) occupied over the seafloor when Nelson (E21) died
+- The space (SP2) enclosed by this room (E22)
+- The space (SP2) in borehole Nr. 405 (E25)
+
+In First Order Logic:
+- SP2(x) ⇒ E53(x)
+</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="SP3_Reference_Space">
+    <rdfs:label xml:lang="en">SP3 Reference Space</rdfs:label>
+    <skos:notation>SP3</skos:notation>
+    <skos:prefLabel xml:lang="en">Reference Space</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises the (typically Eucledian) Space (S) that is at rest (I) in relation to an instance of E18 Physical Thing and extends (U) infinitely beyond it. It is the space in which we typically expect things to stay in place if no particular natural or human distortion processes occur. This definition requires that at least essential parts of the respective physical thing have a stability of form. The degree of this stability (e.g., elastic deformation of a ship on sea, landslides, geological deformations) limits the precision to which an instance of SP3 Reference Space is defined. It is possible to construct types of (non Euclidean) reference spaces which adapt to elastic deformations or have other geometric and dynamic properties to adapt to changes of form of the reference object, but they are of rare utility in the cultural-historical discourse.
+An instance of SP3 Reference Space begins to exist with the largest thing that is at rest in it and ceases to exist with its E6 Destruction. If other things are at rest in the same space and their time-span of existence falls within the one of the reference objects, they share the same reference space (I). It has therefore the same temporal extent (time-span of existence) as the whole of the E18 Physical Things it is at rest with (E).
+
+Examples:
+- The Space (SP3) inside and around H.M.S. Victory (E22) while it is moving through the Atlantic Ocean (E26)
+- The Space (SP3) inside and around the Eurasian Continental Plate (E26)
+- The Space (SP3) inside and around the Earth (E26)
+- The Space (SP3) inside and around the Solar system (E26)
+
+In First Order Logic:
+- SP3(x) ⇒ E1(x)
+</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="SP4_Spatial_Coordinate_Reference_System">
+    <rdfs:label xml:lang="en">SP4 Spatial Coordinate Reference System</rdfs:label>
+    <skos:notation>SP4</skos:notation>
+    <skos:prefLabel xml:lang="en">Spatial Coordinate Reference System</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises systems that are used to describe locations in a SP3 Reference Space (S). An instance of SP4 Spatial Coordinate Reference System is composed of two parts: The first is a Coordinate System which is a set of coordinate axes with specified units of measurement and axis directions. The second part is a set of reference features at rest in the Reference Space it describes in the real world that relate the Coordinate System to real world locations (U) and fix it with respect to the reference object of its Reference Space .
+In surveying and geodesy, instances of SP4 Spatial Coordinate Reference System are called a datum. In the case of spatial coordinate reference systems for the earth the datum consists of the reference points and an ellipsoid that approximates the shape of the earth. National systems often use ellipsoids that approximate their territory best and shift them in an appropriate position relative to the earth while WGS84 is an ellipsoid for the whole earth and used in GPS receivers. In engineering a datum is a reference feature of an object used to create a reference system for measurement. The set of reference features in the real world are subset of E26 Physical Feature that are within the described reference space at rest and pertain to the E18 Physical Thing the reference space is at rest with.
+SP4 Spatial Coordinate Reference Systems have a validity for a certain spatial extent of the SP3 Reference Space and in addition a temporal validity. The combination of coordinate reference system and datum provides a unique identity (I). SP4 Spatial Coordinate Reference Systems may be defined for the earth, moving objects like planes or ships, linear features like boreholes or local systems. If there is a standardised identifier system available, such as EPSG codes, it should be used.
+
+Examples:
+- Longitude-Latitude (ellipsoidal Coordinate System) in WGS84 (Datum)
+- EPSG 3241
+- the coordinate system to describe locations on H.M.S. Victory (E22) taking the deck foundation of the middle mast (E26) as origin, the mast as z axis, the line at right angle to the bow line as x axis and a right angle to both as y axis.
+- The printed lines of the millimeter paper on which an archaeological site (E27) is drawn
+
+In First Order Logic:
+- SP4(x) ⇒ E29(x)
+</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="SP6_Declarative_Place">
+    <rdfs:label xml:lang="en">SP6 Declarative Place</rdfs:label>
+    <skos:notation>SP6</skos:notation>
+    <skos:prefLabel xml:lang="en">Declarative Place</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises instances of E53 Place (S) whose extent (U) and position is defined by an E94 Space Primitive (S). There is one implicit or explicit SP3 Reference Space in which the E94 Space Primitive describes the intended place. Even though E94 Space Primitives have an unlimited precision, measurement devices and the precision of the position of reference features relating the SP4 Spatial Coordinate Reference System to a SP3 Reference Space impose limitations to the determination of a SP6 Declarative Place in the real world (U).
+Several E94 Space Primitives may denote the same SP6 Declarative Place if their precision falls within the same range (I).
+Instances of SP6 Declarative Places may be used to approximate instances of E53 Places or parts of them. They may as well be used to define the location and spatial extent of property rights or national borders. Instances of SP6 Declarative Places may be used to approximate instances of E53 Places or parts of them. They may as well be used to define the location and spatial extent of property rights or national borders.
+
+Examples:
+- the place (SP6) defined by &lt;gml:Point gml:id="p21" srsName="http://www.opengis.net/def/crs/EPSG/0/4326"&gt; &lt;gml:coordinates&gt;45.67, 88.56&lt;/gml:coordinates&gt; &lt;/gml:Point&gt;
+- the place (SP6) defined by a line approximating the Danube river (E27)
+- the place (SP6) of the Orinoco river (E27) defined in the map (E22) of Diego Ribeiro (E21) in 1529
+- the place (SP6) defined through a polygon that represents the boundaries of the Germanisches Nationalmuseum (E25)
+- the extent of the United Kingdom (E25) in the year 2003
+
+In First Order Logic:
+- SP6 (x) ⇒ E53(x)
+- SP6 (x) ⇒ geo:Geometry
+</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="SP7_Declarative_Spacetime_Volume">
+    <rdfs:label xml:lang="en">SP7 Declarative Spacetime Volume</rdfs:label>
+    <skos:notation>SP7</skos:notation>
+    <skos:prefLabel xml:lang="en">Declarative Spacetime Volume</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E92_Spacetime_Volume"/>
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises instances of E92 Spacetime Volumes (S) whose temporal and spatial extent (U) and position is defined by a E95 Spacetime Primitive. There is one implicit or explicit SP3 Reference Space in which the E95 Spacetime Primitive describes the intended Spacetime Volume. As we restrict the model to Galilean physics and explicitly exclude systems with velocities close to the speed of light we do not model a “Reference Time” as it would be necessary for relativistic physics. This implies that there is only one Reference Time.
+Even though E95 Spacetime Primitives have an unlimited precision, measurement devices and the precision of the position of reference features relating the SP4 Spatial Coordinate Reference System to a SP3 Reference Space impose limitations to the determination of the spatial part of a SP7 Declarative Spacetime Volume in the real world (U).
+The same limitation to precision is true for the temporal part of a SP7 Declarative Spacetime Volume due to precision of time measurement devices and of the determination of the reference event of a SP11 Temporal Reference System.
+Several SP12 Spacetime Volume Expressions may denote the same SP7 Declarative Spacetime Volume if their precision falls within the same range (I).
+Instances of SP7 Declarative Spacetime Volumes may be used to approximate instances of SP8 Spacetime Volumes or parts of them. They may as well be used to define the spatial and temporal extent of property rights or national borders.
+
+Examples:
+- the spacetime volume (SP7) defined by a polygon (E94) approximating the Danube river flood in Austria (E27) between 6th and 9th of August 2002 (E52)
+- the spacetime volume (E94) of the Orinoco river (E27) defined in the map (E22) of Diego Ribeiro (E21) in 1529
+- the spacetime volume (SP7) representing the boundaries (E94) of the United Kingdom (E25) from 1900-1950 (E52)
+
+In First Order Logic:
+- SP7 (x) ⇒ E92(x)
+- SP7 (x) ⇒ geo:Geometry
+</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="SP10_DeclarativeTime-Span">
+    <rdfs:label xml:lang="en">SP10 DeclarativeTime-Span</rdfs:label>
+    <skos:notation>SP10</skos:notation>
+    <skos:prefLabel xml:lang="en">DeclarativeTime-Span</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises instances of E52 Time-Spans that represent the Time Span defined by a SP 14 Time Expression. Thus they derive their identity through an expression defining an extent in time. Even though SP10 Declarative Time Spans have an unlimited precision, measurement devices and the possible precision within the SP11 Temporal Reference System impose limitations to the determination of a SP10 Declarative Time Span. The accuracy of a SP10 Declarative Time Spans depends upon the documentation and measurement method.
+SP10 Declarative Time Spans may be used to approximate actual (phenomenal) Time-Spans of temporal entities.
+
+Examples:
+- Extent in time defined by the expression “1961”
+- Extent in time defined by the expression “From 12-17-1993 to 12-8-1996”
+- Extent in time defined by the expression “14h30 – 16h22 4th July 1945”
+
+In First Order Logic:
+- SP10 (x) ⇒ E52(x)
+</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="SP11_Temporal_Reference_System">
+    <rdfs:label xml:lang="en">SP11 Temporal Reference System</rdfs:label>
+    <skos:notation>SP11</skos:notation>
+    <skos:prefLabel xml:lang="en">Temporal Reference System</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E29_Design_or_Procedure"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises systems (S) that are used to describe positions and extents in a Reference Time. If relativistic effects are negligible in the wider spacetime area of interest and the speeds of associated things, then there is only one unique global reference time. The typical way to measure time is to count the cycles of a periodic process for which we have a hypothesis of constant frequency, such as oscillations of a crystal, molecular arrangement, rotation of earth around itself or around the sun. The origin for a Temporal Reference System is fixed on a reference event. As long as the number of cycles passed from that reference event until now are known, the temporal reference system exists (E) and expressions in this Reference System can be interpreted with respect to the Reference Time.
+A temporal reference system represents time as a continuous linear interpolation over the infinite series of cycles extended from the reference event to the past and the future, regardless of the temporal position of the mathematical point zero of an instance of SP14 Time Expression. For instance the proleptic Gregorian calendar begins with the event at an arbitrary position, the point zero being the date of the „Birth of Christ“. The actual date of the birth of Christ is regarded as unknown and therefore is not the reference event.
+The identity of a Temporal Reference System is defined through the type of periodic process it is based on, the reference event and the distance of the reference event to the position of the mathematical point zero (I).
+A value in the Reference Time is a temporal position measured relative to a temporal reference system. For dates after 1582, ISO 8601 specifies the use of the Gregorian Calendar and 24 hour local or Coordinated Universal Time (UTC) for information interchange.ISO 8601 also offers the option to use the proleptic Gregorian Calendar for dates before 1582 although historically the Julian calendar applied ( https://en.wikipedia.org/wiki/ISO_8601). SP11 Temporal Reference System should be used to state the calendar explicitly.
+In ISO 19108 three common types of temporal reference systems are explicitly stated: calendars (used with clocks for greater resolution), temporal coordinate systems, and ordinal temporal reference systems.
+Calendars and clocks are both based on interval scales. A calendar is a discrete temporal reference system that provides a basis for defining temporal position to a resolution of one day. A clock provides a basis for defining temporal position within a day. A clock must be used with a calendar in order to provide a complete description of a temporal position within a specific day. Every calendar provides a set of rules for composing a calendar date from a set of elements such as year, month, and day. In every calendar, years are numbered relative to the date of a reference event that defines a calendar era [ISO 19108].
+Specifying temporal position in terms of calendar date and time of day complicates the computation of distances between points and the functional description of temporal operations. A temporal coordinate system may be used to support applications of this kind. [ISO 19108].
+Ordinal temporal reference systems as specified in ISO 19108 are no instances of SP11 Temporal Reference Systems as they do not define cycles of a periodic process but define a system of time intervals based on reference periods related to certain natural or cultural phenomena.
+
+Examples:
+- Gregorian Calendar
+- Coordinated Universal Time (UTC) 
+- Julian date
+- Greenwich time
+- ISO 8601
+
+In First Order Logic:
+- SP11(x) ⇒ E29(x)
+</rdfs:comment>
+  </owl:Class>
+  <owl:Class rdf:about="SP13_Phenomenal_Time-Span">
+    <rdfs:label xml:lang="en">SP13 Phenomenal Time-Span</rdfs:label>
+    <skos:notation>SP13</skos:notation>
+    <skos:prefLabel xml:lang="en">Phenomenal Time-Span</skos:prefLabel>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E52_Time-Span"/>
+    <rdfs:comment xml:lang="en">Scope note:
+This class comprises instances of E52 Time-Spans whose extent (U) and position is defined by the temporal projection of the spatiotemporal extent that can be observed or measured. Thus they derive their identity through the extent in time of a real world phenomenon (I).
+
+Examples:
+- Duration of the phenomenal temporal extent of the Trafalgar battle (E7)
+- The real duration of the Ming Dynasty (E74)
+- The real extent of the lifetime of Caesar (E21) starting with his birth (E67) and ending with his death (E69)
+
+In First Order Logic:
+- SP13 (x) ⇒ E52(x)
+</rdfs:comment>
+  </owl:Class>
+  <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E4_Period">
+    <rdfs:subClassOf rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E4_Period">
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing">
+    <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Feature"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#Point">
+    <rdfs:subClassOf rdf:resource="SP6_Declarative_Place"/>
+  </rdf:Description>
+  <owl:ObjectProperty rdf:about="Q2_occupied">
+    <rdfs:label xml:lang="en">Q2 occupied</rdfs:label>
+    <skos:notation>Q2</skos:notation>
+    <skos:prefLabel xml:lang="en">occupied</skos:prefLabel>
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    <rdfs:range rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+    <owl:inverseOf rdf:resource="Q2i_is_occupied_by"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P196_defines"/>
+    <rdfs:comment xml:lang="en">Quantification: one to one, necessary (1,1:0,1)
+
+Scope note:
+This property describes the 4 dimensional point sets (volumes) in spacetime that the trajectory of an instance of E18 Physical Thing occupies in spacetime in the course of its existence. We include in the occupied space the space filled by the matter of the physical thing and all inner spaces not accessible in regular function.
+
+Examples:
+- H.M.S. Victory (E22) occupied a spatio-temporal trajectory (SP1) from its launching (E12) to its actual location (E9)
+
+In First Order Logic:
+- Q2(x,y) ⇒ E18(x)
+- Q2(x,y) ⇒ SP1(y)
+- Q2(x,y) ⇔ P196(x,y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q2i_is_occupied_by">
+    <rdfs:label xml:lang="en">Q2i is occupied by</rdfs:label>
+    <skos:notation>Q2i</skos:notation>
+    <skos:prefLabel xml:lang="en">is occupied by</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    <owl:inverseOf rdf:resource="Q2_occupied"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P196i_is_defined_by"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: one to one, necessary (1,1:0,1)
+
+Scope note of the inverse property:
+This property describes the 4 dimensional point sets (volumes) in spacetime that the trajectory of an instance of E18 Physical Thing occupies in spacetime in the course of its existence. We include in the occupied space the space filled by the matter of the physical thing and all inner spaces not accessible in regular function.
+
+Examples of the inverse property:
+- H.M.S. Victory (E22) occupied a spatio-temporal trajectory (SP1) from its launching (E12) to its actual location (E9)
+
+In First Order Logic of the inverse property:
+- Q2(x,y) ⇒ E18(x)
+- Q2(x,y) ⇒ SP1(y)
+- Q2(x,y) ⇔ P196(x,y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q3_has_temporal_projection">
+    <rdfs:label xml:lang="en">Q3 has temporal projection</rdfs:label>
+    <skos:notation>Q3</skos:notation>
+    <skos:prefLabel xml:lang="en">has temporal projection</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+    <rdfs:range rdf:resource="SP13_Phenomenal_Time-Span"/>
+    <owl:inverseOf rdf:resource="Q3i_is_temporal_projection_of"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P160_has_temporal_projection"/>
+    <rdfs:comment xml:lang="en">Quantification: one to one , necessary, dependent (1,1:1,1)
+
+Scope note:
+This property describes the temporal projection of an instance of a SP1 Phenomenal Spacetime Volume. This property can be extended in a future model to a ternary (3-ary) relationship describing the temporal projection under a spatial constraint.
+
+Examples:
+- The spatio-temporal trajectory (SP1) of the H.M.S. Victory (E22) has temporal projection the phenomenal temporal extent from its from its launching to its actual location (SP13)
+
+In First Order Logic:
+- Q3(x,y) ⇒ SP1(x)
+- Q3(x,y) ⇒ SP13(y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q3i_is_temporal_projection_of">
+    <rdfs:label xml:lang="en">Q3i is temporal projection of</rdfs:label>
+    <skos:notation>Q3i</skos:notation>
+    <skos:prefLabel xml:lang="en">is temporal projection of</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP13_Phenomenal_Time-Span"/>
+    <rdfs:range rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+    <owl:inverseOf rdf:resource="Q3_has_temporal_projection"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P160i_is_temporal_projection_of"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: one to one , necessary, dependent (1,1:1,1)
+
+Scope note of the inverse property:
+This property describes the temporal projection of an instance of a SP1 Phenomenal Spacetime Volume. This property can be extended in a future model to a ternary (3-ary) relationship describing the temporal projection under a spatial constraint.
+
+Examples of the inverse property:
+- The spatio-temporal trajectory (SP1) of the H.M.S. Victory (E22) has temporal projection the phenomenal temporal extent from its from its launching to its actual location (SP13)
+
+In First Order Logic of the inverse property:
+- Q3(x,y) ⇒ SP1(x)
+- Q3(x,y) ⇒ SP13(y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q4_has_spatial_projection">
+    <rdfs:label xml:lang="en">Q4 has spatial projection</rdfs:label>
+    <skos:notation>Q4</skos:notation>
+    <skos:prefLabel xml:lang="en">has spatial projection</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+    <rdfs:range rdf:resource="SP2_Phenomenal_Place"/>
+    <owl:inverseOf rdf:resource="Q4i_is_spatial_projection_of"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P161_has_spatial_projection"/>
+    <rdfs:comment xml:lang="en">Quantification: one to many, necessary, dependent (1,n:1,1)
+
+Scope note:
+This property describes the spatial projection of an instance of a SP1 Phenomenal Spacetime Volume on an instance of SP2 Phenomenal Place. Even though the projection of a spacetime volume to one instance of SP3 Reference Space is unique, each reference space gives rise to another projection. The projections overlap at the time of the spacetime volume, the respective instances of SP2 Phenomenal Place may later drift apart, or earlier be yet apart.
+This property can be extended in a future model to a ternary (3-ary) relationship describing the spatial projection under a temporal constraint.
+
+Examples:
+- The spatio-temporal trajectory (SP1) of the H.M.S. Victory (E22) has spatial projection the phenomenal spatial extent from its from its launching to its actual location (SP2)
+
+In First Order Logic:
+- Q4(x,y) ⇒ SP1(x)
+- Q4(x,y) ⇒ SP2 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q4i_is_spatial_projection_of">
+    <rdfs:label xml:lang="en">Q4i is spatial projection of</rdfs:label>
+    <skos:notation>Q4i</skos:notation>
+    <skos:prefLabel xml:lang="en">is spatial projection of</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP2_Phenomenal_Place"/>
+    <rdfs:range rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+    <owl:inverseOf rdf:resource="Q4_has_spatial_projection"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P161i_is_spatial_projection_of"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: one to many, necessary, dependent (1,n:1,1)
+
+Scope note of the inverse property:
+This property describes the spatial projection of an instance of a SP1 Phenomenal Spacetime Volume on an instance of SP2 Phenomenal Place. Even though the projection of a spacetime volume to one instance of SP3 Reference Space is unique, each reference space gives rise to another projection. The projections overlap at the time of the spacetime volume, the respective instances of SP2 Phenomenal Place may later drift apart, or earlier be yet apart.
+This property can be extended in a future model to a ternary (3-ary) relationship describing the spatial projection under a temporal constraint.
+
+Examples of the inverse property:
+- The spatio-temporal trajectory (SP1) of the H.M.S. Victory (E22) has spatial projection the phenomenal spatial extent from its from its launching to its actual location (SP2)
+
+In First Order Logic of the inverse property:
+- Q4(x,y) ⇒ SP1(x)
+- Q4(x,y) ⇒ SP2 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q5_defined_in">
+    <rdfs:label xml:lang="en">Q5 defined in</rdfs:label>
+    <skos:notation>Q5</skos:notation>
+    <skos:prefLabel xml:lang="en">defined in</skos:prefLabel>
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <rdfs:range rdf:resource="SP3_Reference_Space"/>
+    <owl:inverseOf rdf:resource="Q5i_is_reference_space_for"/>
+    <rdfs:comment xml:lang="en">Quantification: many to one, necessary (1,1:0,n)
+
+Scope note:
+This property associates an instance of E53 Place with the instance of SP3 Reference Space it is defined in.
+
+Examples:
+- The location of Lord Nelson when he died (E53) defined in the Reference Space (SP3) inside and around the H.M.S. Victory (E22)
+
+In First Order Logic:
+- Q5(x,y) ⇒ E53(x)
+- Q5(x,y) ⇒ SP3 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q5i_is_reference_space_for">
+    <rdfs:label xml:lang="en">Q5i is reference space for</rdfs:label>
+    <skos:notation>Q5i</skos:notation>
+    <skos:prefLabel xml:lang="en">is reference space for</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP3_Reference_Space"/>
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
+    <owl:inverseOf rdf:resource="Q5_defined_in"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to one, necessary (1,1:0,n)
+
+Scope note of the inverse property:
+This property associates an instance of E53 Place with the instance of SP3 Reference Space it is defined in.
+
+Examples of the inverse property:
+- The location of Lord Nelson when he died (E53) defined in the Reference Space (SP3) inside and around the H.M.S. Victory (E22)
+
+In First Order Logic of the inverse property:
+- Q5(x,y) ⇒ E53(x)
+- Q5(x,y) ⇒ SP3 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q6_is_at_rest_in_relation_to">
+    <rdfs:label xml:lang="en">Q6 is at rest in relation to</rdfs:label>
+    <skos:notation>Q6</skos:notation>
+    <skos:prefLabel xml:lang="en">is at rest in relation to</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP3_Reference_Space"/>
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    <owl:inverseOf rdf:resource="Q6i_rests_in_relation_to"/>
+    <rdfs:comment xml:lang="en">Quantification: many to many, necessary, dependent (1,n:1,n)
+
+Scope note:
+This property associates an instance of SP3 Reference Space with the instance of E18 Physical Thing that is at rest in it. For all instances of E18 Physical Thing exist at least one reference space it is at rest with due to their relative stability of form. Larger constellations of matter may comprise many physical features that are at rest with them.
+
+Examples:
+- The Reference Space (SP3) which is at rest in relation to the H.M.S. Victory (E22)
+
+In First Order Logic:
+- Q6(x,y) ⇒ SP3 (x)
+- Q6(x,y) ⇒ E18 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q6i_rests_in_relation_to">
+    <rdfs:label xml:lang="en">Q6i rests in relation to</rdfs:label>
+    <skos:notation>Q6i</skos:notation>
+    <skos:prefLabel xml:lang="en">rests in relation to</skos:prefLabel>
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+    <rdfs:range rdf:resource="SP3_Reference_Space"/>
+    <owl:inverseOf rdf:resource="Q6_is_at_rest_in_relation_to"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to many, necessary, dependent (1,n:1,n)
+
+Scope note of the inverse property:
+This property associates an instance of SP3 Reference Space with the instance of E18 Physical Thing that is at rest in it. For all instances of E18 Physical Thing exist at least one reference space it is at rest with due to their relative stability of form. Larger constellations of matter may comprise many physical features that are at rest with them.
+
+Examples of the inverse property:
+- The Reference Space (SP3) which is at rest in relation to the H.M.S. Victory (E22)
+
+In First Order Logic of the inverse property:
+- Q6(x,y) ⇒ SP3 (x)
+- Q6(x,y) ⇒ E18 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q7_describes">
+    <rdfs:label xml:lang="en">Q7 describes</rdfs:label>
+    <skos:notation>Q7</skos:notation>
+    <skos:prefLabel xml:lang="en">describes</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP4_Spatial_Coordinate_Reference_System"/>
+    <rdfs:range rdf:resource="SP3_Reference_Space"/>
+    <owl:inverseOf rdf:resource="Q7i_is_described_by"/>
+    <rdfs:comment xml:lang="en">Quantification: many to one, necessary (1,1:0,n)
+
+Scope note:
+This property associates an instance of SP4 Spatial Coordinate Reference System with the instance of SP3 Reference Space for which it can be used to describe locations.
+
+Examples:
+- The Spatial Coordinate Reference System (SP4) which describes the Reference Space (SP3) in and around the H.M.S. Victory (E22)
+
+In First Order Logic:
+- Q7(x,y) ⇒ SP4 (x)
+- Q7(x,y) ⇒ SP3 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q7i_is_described_by">
+    <rdfs:label xml:lang="en">Q7i is described by</rdfs:label>
+    <skos:notation>Q7i</skos:notation>
+    <skos:prefLabel xml:lang="en">is described by</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP3_Reference_Space"/>
+    <rdfs:range rdf:resource="SP4_Spatial_Coordinate_Reference_System"/>
+    <owl:inverseOf rdf:resource="Q7_describes"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to one, necessary (1,1:0,n)
+
+Scope note of the inverse property:
+This property associates an instance of SP4 Spatial Coordinate Reference System with the instance of SP3 Reference Space for which it can be used to describe locations.
+
+Examples of the inverse property:
+- The Spatial Coordinate Reference System (SP4) which describes the Reference Space (SP3) in and around the H.M.S. Victory (E22)
+
+In First Order Logic of the inverse property:
+- Q7(x,y) ⇒ SP4 (x)
+- Q7(x,y) ⇒ SP3 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q8_is_fixed_on">
+    <rdfs:label xml:lang="en">Q8 is fixed on</rdfs:label>
+    <skos:notation>Q8</skos:notation>
+    <skos:prefLabel xml:lang="en">is fixed on</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP4_Spatial_Coordinate_Reference_System"/>
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature"/>
+    <owl:inverseOf rdf:resource="Q8i_fixes"/>
+    <rdfs:comment xml:lang="en">Quantification: one to many, necessary, dependent (1,n:1,1)
+
+Scope note:
+This property defines the physical reference features that ground a spatial coordinate reference system in the real world.
+In surveying and geodesy this is part of the datum definition and is often a point identified by a physical feature on earth (sometimes monuments) where the earth approximation ellipsoid touches the earth and one axis of the ellipsoid runs through.
+
+Examples:
+- the Spatial Coordinate Reference System (SP4) of the H.M.S. Victory (E22) is fixed on the mast of the H.M.S. Victory (E26)
+
+In First Order Logic:
+- Q8(x,y) ⇒ SP4 (x)
+- Q8(x,y) ⇒ E26 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q8i_fixes">
+    <rdfs:label xml:lang="en">Q8i fixes</rdfs:label>
+    <skos:notation>Q8i</skos:notation>
+    <skos:prefLabel xml:lang="en">fixes</skos:prefLabel>
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E26_Physical_Feature"/>
+    <rdfs:range rdf:resource="SP4_Spatial_Coordinate_Reference_System"/>
+    <owl:inverseOf rdf:resource="Q8_is_fixed_on"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: one to many, necessary, dependent (1,n:1,1)
+
+Scope note of the inverse property:
+This property defines the physical reference features that ground a spatial coordinate reference system in the real world.
+In surveying and geodesy this is part of the datum definition and is often a point identified by a physical feature on earth (sometimes monuments) where the earth approximation ellipsoid touches the earth and one axis of the ellipsoid runs through.
+
+Examples of the inverse property:
+- the Spatial Coordinate Reference System (SP4) of the H.M.S. Victory (E22) is fixed on the mast of the H.M.S. Victory (E26)
+
+In First Order Logic of the inverse property:
+- Q8(x,y) ⇒ SP4 (x)
+- Q8(x,y) ⇒ E26 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q9_place_is_expressed_in_terms_of">
+    <rdfs:label xml:lang="en">Q9 place is expressed in terms of</rdfs:label>
+    <skos:notation>Q9</skos:notation>
+    <skos:prefLabel xml:lang="en">place is expressed in terms of</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP6_Declarative_Place"/>
+    <rdfs:range rdf:resource="SP4_Spatial_Coordinate_Reference_System"/>
+    <owl:inverseOf rdf:resource="Q9i_expresses_place"/>
+    <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
+
+Scope note:
+This property defines the coordinate reference system in terms of which a Space Primitive is formulated.
+
+Examples:
+- the Declarative Place the Spatial Coordinate Reference System (SP4) of the H.M.S. Victory (E22) is fixed on the mast of the H.M.S. Victory (E26)
+
+In First Order Logic:
+- Q9(x,y) ⇒ SP6 (x)
+- Q9(x,y) ⇒ SP4 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q9i_expresses_place">
+    <rdfs:label xml:lang="en">Q9i expresses place</rdfs:label>
+    <skos:notation>Q9i</skos:notation>
+    <skos:prefLabel xml:lang="en">expresses place</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP4_Spatial_Coordinate_Reference_System"/>
+    <rdfs:range rdf:resource="SP6_Declarative_Place"/>
+    <owl:inverseOf rdf:resource="Q9_place_is_expressed_in_terms_of"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to many (0,n:0,n)
+
+Scope note of the inverse property:
+This property defines the coordinate reference system in terms of which a Space Primitive is formulated.
+
+Examples of the inverse property:
+- the Declarative Place the Spatial Coordinate Reference System (SP4) of the H.M.S. Victory (E22) is fixed on the mast of the H.M.S. Victory (E26)
+
+In First Order Logic of the inverse property:
+- Q9(x,y) ⇒ SP6 (x)
+- Q9(x,y) ⇒ SP4 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="Q10_place_is_defined_by">
+    <rdfs:label xml:lang="en">Q10 place is defined by</rdfs:label>
+    <skos:notation>Q10</skos:notation>
+    <skos:prefLabel xml:lang="en">place is defined by</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP6_Declarative_Place"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P168_place_is_defined_by"/>
+    <rdfs:comment xml:lang="en">Quantification: one to many, dependent (0,n:1,1)
+
+Scope note:
+This property associates an instance of SP6 Declarative Place with the instance of E94 Space Primitive that defines it. Syntactic variants or use of different scripts may result in multiple instances of E94 Space Primitive defining exactly the same place. Transformations between different reference systems always result in new definitions of places approximating each other and not in alternative definitions.
+
+Examples:
+- The centroid from https://sws.geonames.org/735927 (SP6) place is defined by 40°31'17.9"N 21°15'48.3"E (E94). [A single point for approximating the centre of the city of Kastoria, Greece]
+- Martin’s coordinates for Kastoria (SP6) place is defined by 40°30'23"N 21°14'53"E, 40°31'40"N 21°16'43"E (E94). [A square covering the built settlement structure of Kastoria, Greece]
+
+In First Order Logic:
+- Q10(x,y) ⇒ SP6 (x)
+- Q10(x,y) ⇒ E94 (y)
+- Q10(x,y) ⇔ P168(x,y)
+</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="Q11_approximates_place">
+    <rdfs:label xml:lang="en">Q11 approximates place</rdfs:label>
+    <skos:notation>Q11</skos:notation>
+    <skos:prefLabel xml:lang="en">approximates place</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP6_Declarative_Place"/>
+    <rdfs:range rdf:resource="SP2_Phenomenal_Place"/>
+    <owl:inverseOf rdf:resource="Q11i_place_is_approximated_by"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P189_approximates"/>
+    <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
+
+Scope note:
+This property approximates a SP2 Phenomenal Place which is defined in the same reference space.
+The property does not state the quality or accuracy of the approximation, but states the intention to approximate the place.
+
+Examples:
+- [40°31'17.9"N 21°15'48.3"E] (SP6) approximates place Kastoria, Greece, TGN ID: 7010880 (SP2). [The declarative place with point shape which is defined in terms of coordinates taken from https://sws.geonames.org/735927 approximates the phenomenal place of Kastoria]
+- [40°31'00.1"N 21°16'00.1"E] (SP6) approximates place Kastoria, Greece, TGN ID: 7010880 (E53). [The declarative place with point shape which is defined in terms of coordinates taken from http://vocab.getty.edu/page/tgn/7010880 approximates the phenomenal place of Kastoria]
+
+In First Order Logic:
+- Q11(x,y) ⇒ SP6 (x)
+- Q11(x,y) ⇒ SP2 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q11i_place_is_approximated_by">
+    <rdfs:label xml:lang="en">Q11i place is approximated by</rdfs:label>
+    <skos:notation>Q11i</skos:notation>
+    <skos:prefLabel xml:lang="en">place is approximated by</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP2_Phenomenal_Place"/>
+    <rdfs:range rdf:resource="SP6_Declarative_Place"/>
+    <owl:inverseOf rdf:resource="Q11_approximates_place"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P189i_is_approximated_by"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to many (0,n:0,n)
+
+Scope note of the inverse property:
+This property approximates a SP2 Phenomenal Place which is defined in the same reference space.
+The property does not state the quality or accuracy of the approximation, but states the intention to approximate the place.
+
+Examples of the inverse property:
+- [40°31'17.9"N 21°15'48.3"E] (SP6) approximates place Kastoria, Greece, TGN ID: 7010880 (SP2). [The declarative place with point shape which is defined in terms of coordinates taken from https://sws.geonames.org/735927 approximates the phenomenal place of Kastoria]
+- [40°31'00.1"N 21°16'00.1"E] (SP6) approximates place Kastoria, Greece, TGN ID: 7010880 (E53). [The declarative place with point shape which is defined in terms of coordinates taken from http://vocab.getty.edu/page/tgn/7010880 approximates the phenomenal place of Kastoria]
+
+In First Order Logic of the inverse property:
+- Q11(x,y) ⇒ SP6 (x)
+- Q11(x,y) ⇒ SP2 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q12_approximates_spacetime">
+    <rdfs:label xml:lang="en">Q12 approximates spacetime</rdfs:label>
+    <skos:notation>Q12</skos:notation>
+    <skos:prefLabel xml:lang="en">approximates spacetime</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP7_Declarative_Spacetime_Volume"/>
+    <rdfs:range rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+    <owl:inverseOf rdf:resource="Q12i_spacetime_is_approximated_by"/>
+    <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
+
+Scope note:
+This property approximates an E53 Place which is defined in the same reference space.
+The property does not state the quality or accuracy of the approximation, but states the intention to approximate the place.
+
+Examples:
+- &lt;Placemark&gt;
+- &lt;name&gt; Byzantine Empire &lt;/name&gt;&lt;styleUrl&gt;#style_1&lt;/styleUrl&gt;
+- &lt;TimeSpan&gt;
+- &lt;begin&gt;330&lt;/begin&gt;&lt;end&gt;1453&lt;/end&gt;
+- &lt;/TimeSpan&gt;
+- &lt;Polygon&gt;
+- &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;
+- &lt;outerBoundaryIs&gt;
+- &lt;LinearRing&gt;
+- &lt;coordinates&gt;18.452787460,40.85553626,017.2223187,40.589098,....0 17.2223,39.783
+- &lt;/coordinates&gt;
+- &lt;/LinearRing&gt;
+- &lt;/outerBoundaryIs&gt;
+- &lt;/Polygon&gt;
+- &lt;/Placemark&gt; [spatial and temporal information in KML] (E95) defining the maximum extent of the Byzantine Empire (SP7) approximates spacetime the phenomenal maximum extent of the Byzantine Empire (SP1)
+
+In First Order Logic:
+- Q12(x,y) ⇒ SP7 (x)
+- Q12(x,y) ⇒ SP1 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q12i_spacetime_is_approximated_by">
+    <rdfs:label xml:lang="en">Q12i spacetime is approximated by</rdfs:label>
+    <skos:notation>Q12i</skos:notation>
+    <skos:prefLabel xml:lang="en">spacetime is approximated by</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP1_Phenomenal_Spacetime_Volume"/>
+    <rdfs:range rdf:resource="SP7_Declarative_Spacetime_Volume"/>
+    <owl:inverseOf rdf:resource="Q12_approximates_spacetime"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to many (0,n:0,n)
+
+Scope note of the inverse property:
+This property approximates an E53 Place which is defined in the same reference space.
+The property does not state the quality or accuracy of the approximation, but states the intention to approximate the place.
+
+Examples of the inverse property:
+- &lt;Placemark&gt;
+- &lt;name&gt; Byzantine Empire &lt;/name&gt;&lt;styleUrl&gt;#style_1&lt;/styleUrl&gt;
+- &lt;TimeSpan&gt;
+- &lt;begin&gt;330&lt;/begin&gt;&lt;end&gt;1453&lt;/end&gt;
+- &lt;/TimeSpan&gt;
+- &lt;Polygon&gt;
+- &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;
+- &lt;outerBoundaryIs&gt;
+- &lt;LinearRing&gt;
+- &lt;coordinates&gt;18.452787460,40.85553626,017.2223187,40.589098,....0 17.2223,39.783
+- &lt;/coordinates&gt;
+- &lt;/LinearRing&gt;
+- &lt;/outerBoundaryIs&gt;
+- &lt;/Polygon&gt;
+- &lt;/Placemark&gt; [spatial and temporal information in KML] (E95) defining the maximum extent of the Byzantine Empire (SP7) approximates spacetime the phenomenal maximum extent of the Byzantine Empire (SP1)
+
+In First Order Logic of the inverse property:
+- Q12(x,y) ⇒ SP7 (x)
+- Q12(x,y) ⇒ SP1 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q13_approximates_time">
+    <rdfs:label xml:lang="en">Q13 approximates time</rdfs:label>
+    <skos:notation>Q13</skos:notation>
+    <skos:prefLabel xml:lang="en">approximates time</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP10_DeclarativeTime-Span"/>
+    <rdfs:range rdf:resource="SP13_Phenomenal_Time-Span"/>
+    <owl:inverseOf rdf:resource="Q13i_time_is_approximated_by"/>
+    <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
+
+Scope note:
+This property approximates a E52 Time-Span. The property does not state the quality or accuracy of the approximation, but states the intention to approximate the time span .
+
+Examples:
+- September 1939- September 1945 (SP10) approximates time the phenomenal duration of the Second World War (SP13)
+
+In First Order Logic:
+- Q13(x,y) ⇒ SP10 (x)
+- Q13(x,y) ⇒ SP13 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q13i_time_is_approximated_by">
+    <rdfs:label xml:lang="en">Q13i time is approximated by</rdfs:label>
+    <skos:notation>Q13i</skos:notation>
+    <skos:prefLabel xml:lang="en">time is approximated by</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP13_Phenomenal_Time-Span"/>
+    <rdfs:range rdf:resource="SP10_DeclarativeTime-Span"/>
+    <owl:inverseOf rdf:resource="Q13_approximates_time"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to many (0,n:0,n)
+
+Scope note of the inverse property:
+This property approximates a E52 Time-Span. The property does not state the quality or accuracy of the approximation, but states the intention to approximate the time span .
+
+Examples of the inverse property:
+- September 1939- September 1945 (SP10) approximates time the phenomenal duration of the Second World War (SP13)
+
+In First Order Logic of the inverse property:
+- Q13(x,y) ⇒ SP10 (x)
+- Q13(x,y) ⇒ SP13 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="Q14i_time_is_defined_by">
+    <rdfs:label xml:lang="en">Q14i time is defined by</rdfs:label>
+    <skos:notation>Q14i</skos:notation>
+    <skos:prefLabel xml:lang="en">time is defined by</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP10_DeclarativeTime-Span"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P170i_time_is_defined_by"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to one (0,1:0,n)
+
+Scope note of the inverse property:
+This property associates an instance of E61 Time Primitive with the instance of SP10 Declarative Time Span it defines. Syntactic variants or use of different scripts may result in multiple instances of E61 Time Primitive defining exactly the same time span. Transformations between different temporal reference systems in general result in new definitions of time spans approximating each other.
+
+Examples of the inverse property:
+- “1800/1/1 0:00:00 – 1899/31/12 23:59:59” (E61) defines time the 19(th) century (SP10).
+- “1968/1/1 – 2018/1/1” (E61) defines time 1968/1/1 – 2018/1/1 (SP10). [an arbitrary time-span during which the Saint Titus reliquary was present in the Saint Titus Church in Heraklion, Crete]
+
+In First Order Logic of the inverse property:
+- Q14(x,y) ⇒ E61 (x)
+- Q14(x,y) ⇒ SP10 (y)
+- Q14(x,y) ⇔ P170(x,y)
+</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="Q15_time_is_expressed_in_terms_of">
+    <rdfs:label xml:lang="en">Q15 time is expressed in terms of</rdfs:label>
+    <skos:notation>Q15</skos:notation>
+    <skos:prefLabel xml:lang="en">time is expressed in terms of</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP10_DeclarativeTime-Span"/>
+    <rdfs:range rdf:resource="SP11_Temporal_Reference_System"/>
+    <owl:inverseOf rdf:resource="Q15i_expresses_time"/>
+    <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
+
+Scope note:
+This property defines the temporal reference system in terms of which a SP10 Declarative Time-Span is formulated.
+
+Examples:
+- The declarative time span (SP10) defined by “1800/1/1 0:00:00 – 1899/31/12 23:59:59” (E61) time is expressed in terms of the Gregorian Calendar (SP11).
+
+In First Order Logic:
+- Q15(x,y) ⇒ SP10 (x)
+- Q15(x,y) ⇒ SP11 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q15i_expresses_time">
+    <rdfs:label xml:lang="en">Q15i expresses time</rdfs:label>
+    <skos:notation>Q15i</skos:notation>
+    <skos:prefLabel xml:lang="en">expresses time</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP11_Temporal_Reference_System"/>
+    <rdfs:range rdf:resource="SP10_DeclarativeTime-Span"/>
+    <owl:inverseOf rdf:resource="Q15_time_is_expressed_in_terms_of"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to many (0,n:0,n)
+
+Scope note of the inverse property:
+This property defines the temporal reference system in terms of which a SP10 Declarative Time-Span is formulated.
+
+Examples of the inverse property:
+- The declarative time span (SP10) defined by “1800/1/1 0:00:00 – 1899/31/12 23:59:59” (E61) time is expressed in terms of the Gregorian Calendar (SP11).
+
+In First Order Logic of the inverse property:
+- Q15(x,y) ⇒ SP10 (x)
+- Q15(x,y) ⇒ SP11 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:DatatypeProperty rdf:about="Q16i_spacetime_volume_is_defined_by">
+    <rdfs:label xml:lang="en">Q16i spacetime volume is defined by</rdfs:label>
+    <skos:notation>Q16i</skos:notation>
+    <skos:prefLabel xml:lang="en">spacetime volume is defined by</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP7_Declarative_Spacetime_Volume"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/P169i_spacetime_volume_is_defined_by"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to one, necessary (1,1:0,n)
+
+Scope note of the inverse property:
+This property associates an instance of E95 Spacetime Primitive with the instance of SP7 Declarative Spacetime Volume it defines. Syntactic variants or use of different scripts may result in multiple instances of E95 Spacetime Primitive defining exactly the same SP7 Declarative Spacetime Volume. Transformations between different temporal or spatial reference systems in general result in new definitions of Spacetime Volumes approximating each other.
+
+Examples of the inverse property:
+- &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+- &lt;kml xmlns="http://www.opengis.net/kml/2.2"
+- xmlns:gx="http://www.google.com/kml/ext/2.2"&gt;
+- &lt;Document&gt;
+- &lt;name&gt;Byzantine Empire – Maximum Extent under Justinian I&lt;/name&gt;
+- &lt;description&gt;
+- Approximation of the greatest territorial extent of the Eastern Roman
+- (Byzantine) Empire, reached at the end of Justinian I's reconquests
+- (Vandal War 533–534, Gothic War 535–554). Polygon is a coarse
+- illustrative approximation, not a surveyed boundary.
+- &lt;/description&gt;
+- &lt;Placemark&gt;
+- &lt;name&gt;Byzantine Empire (maximum extent, c. 555 CE)&lt;/name&gt;
+- &lt;!-- Temporal extent: roughly the year of greatest reach --&gt;
+- &lt;TimeSpan&gt;
+- &lt;begin&gt;0555-01-01&lt;/begin&gt;
+- &lt;end&gt;0565-11-14&lt;/end&gt;
+- &lt;/TimeSpan&gt;
+- &lt;!-- Spatial extent: simplified outer ring covering the empire at its peak --&gt;
+- &lt;Polygon&gt;
+- &lt;tessellate&gt;1&lt;/tessellate&gt;
+- &lt;outerBoundaryIs&gt;
+- &lt;LinearRing&gt;
+- &lt;coordinates&gt;
+- -9.30,35.90,0 &lt;!-- SW Iberia (Spania province) --&gt;
+- 0.20,38.50,0 &lt;!-- E coast of Spania --&gt;
+- 9.20,37.40,0 &lt;!-- N Africa, Carthage region --&gt;
+- 11.30,33.50,0 &lt;!-- Tripolitania --&gt;
+- 22.00,31.20,0 &lt;!-- Cyrenaica --&gt;
+- 31.20,30.00,0 &lt;!-- Egypt, Nile delta --&gt;
+- 34.50,29.50,0 &lt;!-- Sinai / Palaestina Salutaris --&gt;
+- 37.20,31.30,0 &lt;!-- Arabia / desert limes --&gt;
+- 41.30,36.40,0 &lt;!-- Mesopotamian frontier --&gt;
+- 43.50,38.50,0 &lt;!-- Armenian frontier --&gt;
+- 41.40,41.20,0 &lt;!-- Lazica, E Black Sea --&gt;
+- 35.00,42.50,0 &lt;!-- N coast Anatolia --&gt;
+- 28.00,42.20,0 &lt;!-- Lower Danube frontier (Thrace) --&gt;
+- 22.50,44.00,0 &lt;!-- Danube limes --&gt;
+- 18.00,42.80,0 &lt;!-- Dalmatian coast --&gt;
+- 13.50,45.80,0 &lt;!-- N Italy / Istria --&gt;
+- 7.50,44.00,0 &lt;!-- NW Italy --&gt;
+- 10.20,41.80,0 &lt;!-- W coast Italy --&gt;
+- 15.50,38.30,0 &lt;!-- Sicily --&gt;
+- 8.30,39.50,0 &lt;!-- Sardinia --&gt;
+- 9.20,40.50,0 &lt;!-- back across the Tyrrhenian --&gt;
+- -2.50,36.10,0 &lt;!-- Balearic/Mauretania II --&gt;
+- -9.30,35.90,0 &lt;!-- close ring --&gt;
+- &lt;/coordinates&gt;
+- &lt;/LinearRing&gt;
+- &lt;/outerBoundaryIs&gt;
+- &lt;/Polygon&gt;
+- &lt;/Placemark&gt;
+- &lt;/Document&gt;
+- &lt;/kml&gt;
+- [spatial and temporal information in KML] (E95) defines spacetime volume the declared maximum extent of the Byzantine Empire between 555 and 565 (proleptic Gregorian calendar per ISO 8601 ) (SP7)
+
+In First Order Logic of the inverse property:
+- Q16(x,y) ⇒ E95 (x)
+- Q16(x,y) ⇒ SP7 (y)
+- Q16(x,y) ⇔ P169(x,y)
+</rdfs:comment>
+  </owl:DatatypeProperty>
+  <owl:ObjectProperty rdf:about="Q17_time_is_expressed_in_terms_of">
+    <rdfs:label xml:lang="en">Q17 time is expressed in terms of</rdfs:label>
+    <skos:notation>Q17</skos:notation>
+    <skos:prefLabel xml:lang="en">time is expressed in terms of</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP7_Declarative_Spacetime_Volume"/>
+    <rdfs:range rdf:resource="SP11_Temporal_Reference_System"/>
+    <owl:inverseOf rdf:resource="Q17i_expresses_time"/>
+    <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
+
+Scope note:
+This property defines the temporal reference system in terms of which a SP7 Declarative Spacetime Volume is formulated.
+
+Examples:
+- The declared maximum extent of the Byzantine Empire (SP7) defined by &lt;Placemark&gt;
+- &lt;name&gt; Byzantine Empire &lt;/name&gt;&lt;styleUrl&gt;#style_1&lt;/styleUrl&gt;
+- &lt;TimeSpan&gt;
+- &lt;begin&gt;330&lt;/begin&gt;&lt;end&gt;1453&lt;/end&gt;
+- &lt;/TimeSpan&gt;
+- &lt;Polygon&gt;
+- &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;
+- &lt;outerBoundaryIs&gt;
+- &lt;LinearRing&gt;
+- &lt;coordinates&gt;18.452787460,40.85553626,017.2223187,40.589098,....0 17.2223,39.783
+- &lt;/coordinates&gt;
+- &lt;/LinearRing&gt;
+- &lt;/outerBoundaryIs&gt;
+- &lt;/Polygon&gt;
+- &lt;/Placemark&gt; (E95) time is expressed in terms of the proleptic Gregorian Calendar (SP11).
+
+In First Order Logic:
+- Q17 (x,y) ⇒ SP7 (x)
+- Q17 (x,y) ⇒ SP11 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q17i_expresses_time">
+    <rdfs:label xml:lang="en">Q17i expresses time</rdfs:label>
+    <skos:notation>Q17i</skos:notation>
+    <skos:prefLabel xml:lang="en">expresses time</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP11_Temporal_Reference_System"/>
+    <rdfs:range rdf:resource="SP7_Declarative_Spacetime_Volume"/>
+    <owl:inverseOf rdf:resource="Q17_time_is_expressed_in_terms_of"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to many (0,n:0,n)
+
+Scope note of the inverse property:
+This property defines the temporal reference system in terms of which a SP7 Declarative Spacetime Volume is formulated.
+
+Examples of the inverse property:
+- The declared maximum extent of the Byzantine Empire (SP7) defined by &lt;Placemark&gt;
+- &lt;name&gt; Byzantine Empire &lt;/name&gt;&lt;styleUrl&gt;#style_1&lt;/styleUrl&gt;
+- &lt;TimeSpan&gt;
+- &lt;begin&gt;330&lt;/begin&gt;&lt;end&gt;1453&lt;/end&gt;
+- &lt;/TimeSpan&gt;
+- &lt;Polygon&gt;
+- &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;
+- &lt;outerBoundaryIs&gt;
+- &lt;LinearRing&gt;
+- &lt;coordinates&gt;18.452787460,40.85553626,017.2223187,40.589098,....0 17.2223,39.783
+- &lt;/coordinates&gt;
+- &lt;/LinearRing&gt;
+- &lt;/outerBoundaryIs&gt;
+- &lt;/Polygon&gt;
+- &lt;/Placemark&gt; (E95) time is expressed in terms of the proleptic Gregorian Calendar (SP11).
+
+In First Order Logic of the inverse property:
+- Q17 (x,y) ⇒ SP7 (x)
+- Q17 (x,y) ⇒ SP11 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q18_place_is_expressed_in_terms_of">
+    <rdfs:label xml:lang="en">Q18 place is expressed in terms of</rdfs:label>
+    <skos:notation>Q18</skos:notation>
+    <skos:prefLabel xml:lang="en">place is expressed in terms of</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP7_Declarative_Spacetime_Volume"/>
+    <rdfs:range rdf:resource="SP4_Spatial_Coordinate_Reference_System"/>
+    <owl:inverseOf rdf:resource="Q18i_expresses_place"/>
+    <rdfs:comment xml:lang="en">Quantification: many to many (0,n:0,n)
+
+Scope note:
+This property defines the spatial coordinate reference system in terms of which a SP12 Spacetime Volume Expression is formulated.
+
+Examples:
+- The declared maximum extent of the Byzantine Empire (SP7) defined by &lt;Placemark&gt;
+- &lt;name&gt; Byzantine Empire &lt;/name&gt;&lt;styleUrl&gt;#style_1&lt;/styleUrl&gt;
+- &lt;TimeSpan&gt;
+- &lt;begin&gt;330&lt;/begin&gt;&lt;end&gt;1453&lt;/end&gt;
+- &lt;/TimeSpan&gt;
+- &lt;Polygon&gt;
+- &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;
+- &lt;outerBoundaryIs&gt;
+- &lt;LinearRing&gt;
+- &lt;coordinates&gt;18.452787460,40.85553626,017.2223187,40.589098,....0 17.2223,39.783
+- &lt;/coordinates&gt;
+- &lt;/LinearRing&gt;
+- &lt;/outerBoundaryIs&gt;
+- &lt;/Polygon&gt;
+- &lt;/Placemark&gt; (E95) place is expressed in terms of Longitude-Latitude(ellipsoidal Coordinate System) in WGS84 (Datum) (SP4)
+
+In First Order Logic:
+- Q18 (x,y) ⇒ SP7 (x)
+- Q18 (x,y) ⇒ SP4 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q18i_expresses_place">
+    <rdfs:label xml:lang="en">Q18i expresses place</rdfs:label>
+    <skos:notation>Q18i</skos:notation>
+    <skos:prefLabel xml:lang="en">expresses place</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP4_Spatial_Coordinate_Reference_System"/>
+    <rdfs:range rdf:resource="SP7_Declarative_Spacetime_Volume"/>
+    <owl:inverseOf rdf:resource="Q18_place_is_expressed_in_terms_of"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to many (0,n:0,n)
+
+Scope note of the inverse property:
+This property defines the spatial coordinate reference system in terms of which a SP12 Spacetime Volume Expression is formulated.
+
+Examples of the inverse property:
+- The declared maximum extent of the Byzantine Empire (SP7) defined by &lt;Placemark&gt;
+- &lt;name&gt; Byzantine Empire &lt;/name&gt;&lt;styleUrl&gt;#style_1&lt;/styleUrl&gt;
+- &lt;TimeSpan&gt;
+- &lt;begin&gt;330&lt;/begin&gt;&lt;end&gt;1453&lt;/end&gt;
+- &lt;/TimeSpan&gt;
+- &lt;Polygon&gt;
+- &lt;altitudeMode&gt;clampToGround&lt;/altitudeMode&gt;
+- &lt;outerBoundaryIs&gt;
+- &lt;LinearRing&gt;
+- &lt;coordinates&gt;18.452787460,40.85553626,017.2223187,40.589098,....0 17.2223,39.783
+- &lt;/coordinates&gt;
+- &lt;/LinearRing&gt;
+- &lt;/outerBoundaryIs&gt;
+- &lt;/Polygon&gt;
+- &lt;/Placemark&gt; (E95) place is expressed in terms of Longitude-Latitude(ellipsoidal Coordinate System) in WGS84 (Datum) (SP4)
+
+In First Order Logic of the inverse property:
+- Q18 (x,y) ⇒ SP7 (x)
+- Q18 (x,y) ⇒ SP4 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q19_has_reference_event">
+    <rdfs:label xml:lang="en">Q19 has reference event</rdfs:label>
+    <skos:notation>Q19</skos:notation>
+    <skos:prefLabel xml:lang="en">has reference event</skos:prefLabel>
+    <rdfs:domain rdf:resource="SP11_Temporal_Reference_System"/>
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    <owl:inverseOf rdf:resource="Q19i_is_reference_event_of"/>
+    <rdfs:comment xml:lang="en">Quantification: many to one, necessary (1,1:0,n)
+
+Scope note:
+This property defines the reference event for a SP11 Temporal Reference System.
+
+Examples:
+- the Gregorian Calendar (SP11) has reference event Birth of Christ (E67).
+
+In First Order Logic:
+- Q18 (x,y) ⇒ SP11 (x)
+- Q18 (x,y) ⇒ E5 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="Q19i_is_reference_event_of">
+    <rdfs:label xml:lang="en">Q19i is reference event of</rdfs:label>
+    <skos:notation>Q19i</skos:notation>
+    <skos:prefLabel xml:lang="en">is reference event of</skos:prefLabel>
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E5_Event"/>
+    <rdfs:range rdf:resource="SP11_Temporal_Reference_System"/>
+    <owl:inverseOf rdf:resource="Q19_has_reference_event"/>
+    <rdfs:comment xml:lang="en">Quantification of the inverse property: many to one, necessary (1,1:0,n)
+
+Scope note of the inverse property:
+This property defines the reference event for a SP11 Temporal Reference System.
+
+Examples of the inverse property:
+- the Gregorian Calendar (SP11) has reference event Birth of Christ (E67).
+
+In First Order Logic of the inverse property:
+- Q18 (x,y) ⇒ SP11 (x)
+- Q18 (x,y) ⇒ E5 (y)
+</rdfs:comment>
+  </owl:ObjectProperty>
+</rdf:RDF>

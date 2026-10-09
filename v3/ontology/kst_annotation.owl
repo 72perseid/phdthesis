@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Open THIS file in Protégé. It imports CIDOC CRM and the three extensions;
+     your hand-annotated individuals (finds, contexts, places, periods) go here.
+     Nothing from the imported ontologies is changed. -->
+<rdf:RDF xmlns="http://example.org/kst/"
+         xml:base="http://example.org/kst/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:crm="http://www.cidoc-crm.org/cidoc-crm/"
+         xmlns:crmsci="http://www.cidoc-crm.org/extensions/crmsci/"
+         xmlns:crmarchaeo="http://www.cidoc-crm.org/extensions/crmarchaeo/"
+         xmlns:crminf="http://www.cidoc-crm.org/extensions/crminf/">
+  <owl:Ontology rdf:about="http://example.org/kst/">
+    <rdfs:label xml:lang="en">KST hand annotation, version 3</rdfs:label>
+    <owl:imports rdf:resource="http://www.cidoc-crm.org/cidoc-crm/owl/7.1.3/"/>
+    <owl:imports rdf:resource="http://www.cidoc-crm.org/extensions/crmsci/owl/3.2/"/>
+    <owl:imports rdf:resource="http://www.cidoc-crm.org/extensions/crmarchaeo/owl/2.1.1/"/>
+    <owl:imports rdf:resource="http://www.cidoc-crm.org/extensions/crminf/owl/1.2.1/"/>
+  </owl:Ontology>
+</rdf:RDF>

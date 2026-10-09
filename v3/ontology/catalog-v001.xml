@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Protégé reads this file from the folder of the ontology it opens and
+     resolves owl:imports to local files instead of the web.
+     CRMarchaeo 2.1.1 still imports CRM 7.1.2 and CRMsci 2.0; both are
+     redirected to the newer local files. -->
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+  <uri name="http://www.cidoc-crm.org/cidoc-crm/" uri="CIDOC_CRM_v7.1.3.owl"/>
+  <uri name="http://www.cidoc-crm.org/cidoc-crm/owl/7.1.3/" uri="CIDOC_CRM_v7.1.3.owl"/>
+  <uri name="http://www.cidoc-crm.org/cidoc-crm/owl/7.1.2/" uri="CIDOC_CRM_v7.1.3.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crmsci/" uri="CRMsci_v3.2.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crmsci/owl/3.2/" uri="CRMsci_v3.2.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crmsci/owl/2.0/" uri="CRMsci_v3.2.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crmarchaeo/" uri="CRMarchaeo_v2.1.1.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crmarchaeo/owl/2.1.1/" uri="CRMarchaeo_v2.1.1.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crminf/" uri="CRMinf_v1.2.1.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crminf/owl/1.2.1/" uri="CRMinf_v1.2.1.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crmgeo/" uri="CRMgeo_v2.0.1.owl"/>
+  <uri name="http://www.cidoc-crm.org/extensions/crmgeo/owl/2.0.1/" uri="CRMgeo_v2.0.1.owl"/>
+</catalog>
