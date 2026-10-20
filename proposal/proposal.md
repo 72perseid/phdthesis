@@ -1,18 +1,22 @@
-# Kazı Verisi İçin Ortak Bir Yapı: CIDOC CRM ile Uyumlu, Veriyi Kazı Ekibinin Elinde Tutan Bir Yöntem
+# Arazi Verisini Kaynağında FAIR Kılmak: CIDOC CRM ile Uyumlu, Veri Modelcisi Gerektirmeyen Bir Kayıt Modeli
 
-**Doktora tez önerisi taslağı — görüşünüzü almak içindir**
+**Doktora tez önerisi taslağı, ikinci sürüm — görüşünüzü almak içindir**
 
 Hazırlayan: Tuğçe Köseoğlu
 Sunulan: Prof. Dr. Çiler Çilingiroğlu, Ege Üniversitesi, Arkeoloji Bölümü
-Tarih: 29 Eylül 2026
+Tarih: 20 Ekim 2026
+
+Bu sürüm 29 Eylül tarihli ilk taslağın yerine geçer. Aradaki görüşmelerin ardından tezin sorusu, yöntemi ve veri kaynakları değişmiştir. Değişenleri belgenin sonunda ayrıca özetledim.
 
 ## 1. Şu anda ne üzerinde çalışıyorum
 
-Bir kazının ürettiği bilginin büyük kısmı yayımlanmaz. Yayımlanan rapor damıtılmış bir özettir; asıl veri kazının kendi dosyalarında, çoğunlukla Excel tablolarında, açma defterlerinde ve fotoğraf klasörlerinde kalır. Her kazı bu dosyaları kendi alışkanlığına göre düzenler. Bu nedenle bir kazının verisini devralan araştırmacı, onu anlamak için uzun zaman harcar; iki kazının verisini yan yana koymak ise çoğu zaman mümkün olmaz.
+Türkiye'de bir kazının ya da yüzey araştırmasının ürettiği kayıt, onu üreten ekibin dışında kullanılamaz durumdadır. Kayıt kâğıt formlarda, Excel tablolarında, Word belgelerinde ve Bakanlığın envanter formlarında tutulur; her ekip kendi düzenini ve kendi terimlerini kullanır. Dışarıya yalnızca Kazı Sonuçları Toplantısı'ndaki damıtılmış rapor çıkar. Kayıt, ne başka bir araştırmacı tarafından bulunabilir, ne ona erişilebilir, ne başka bir kayıtla birleştirilebilir, ne de onu üretenler dışında biri tarafından yeniden kullanılabilir. Araştırma verisi için uluslararası ölçüt olan FAIR ilkelerinin dördü de karşılanmamaktadır.
 
-Üzerinde çalıştığım şey, bu veriyi taşıyabilecek ortak bir yapıdır. Yapının üç özelliği olmasını istiyorum. Birincisi, arkeoloğun alıştığı tablo görünümünü koruması ve teknik bilgi gerektirmemesidir. İkincisi, arka planda uluslararası bir standarda, CIDOC CRM'e uyması ve böylece verinin başka sistemlerle konuşabilmesidir. Üçüncüsü, yayımlanmamış verinin kazı ekibinin denetiminden çıkmamasıdır.
+Bu durumun gerekçeleri sorulduğunda, verilen yanıtlar arasında teknik olanlar vardır: standart yoktur, araç yoktur, ekipte bu işi yapacak kimse yoktur, zaman yoktur. Bu gerekçenin gerçek olup olmadığı hiç sınanmamıştır. Uluslararası standart, yani CIDOC CRM ve arkeoloji ekleri, yıllardır mevcuttur; üzerine kurulmuş açık kaynaklı araçlar da vardır. Türkiye'de hiçbir kazı ya da araştırma bunları kullanmamaktadır. Nedeni, bu araçların bir veri modelcisi, bir sunucu, İngilizce ve Türkiye'de var olmayan terim listeleri gerektirmesidir.
 
-Bu çalışmanın uzun vadeli hedefi bir TÜBİTAK 3005 proje başvurusudur. Belgenin büyük kısmı tezin kendisini anlatmaktadır; projeye ilişkin düşüncelerimi 9. bölümde özetledim.
+Üzerinde çalıştığım şey, bu teknik engeli ortadan kaldıran bir kayıt modelidir: arazide, telefonda ya da dizüstü bilgisayarda, çevrimdışı çalışan; kullanıcının listeden seçerek doldurduğu; arkada standarda uyan ve FAIR bir kayıt üreten; kurulması için modelci gerektirmeyen bir yapı. Tez, bu yapının gerçek arazi ekipleriyle ne ölçüde çalıştığını ve ürettiği kaydın ne ölçüde FAIR olduğunu ölçecektir.
+
+Bu çalışmanın uzun vadeli hedefi bir TÜBİTAK 3005 başvurusudur. Belgenin büyük kısmı tezi anlatır; projeye ilişkin düşüncelerimi 10. bölümde özetledim.
 
 ## 2. İki temel kavram
 
@@ -22,127 +26,141 @@ CIDOC CRM, kültürel miras bilgisini tanımlamak için Uluslararası Müzeler K
 
 Modelin temel fikri, bilgiyi olaylar üzerinden kurmaktır. Bir Excel satırında "kandil, C3 açması, Roma Dönemi" yazar. CIDOC CRM aynı bilgiyi şöyle ifade eder: bir nesne vardır; bu nesne bir kazı etkinliği sırasında, belirli bir tabakada bulunmuştur; bir kişi bu nesneyi belirli bir gerekçeyle Roma Dönemi'ne tarihlemiştir. Fark şudur: ikinci ifadede tarihlemenin bir gözlem değil bir yorum olduğu, kimin yaptığı ve neye dayandığı da kayıtlıdır.
 
-Çekirdek modelin arkeolojiye özgü ekleri vardır. CRMarchaeo kazıyı ve tabakalanmayı, CRMsci örnek alma ve laboratuvar analizini, CRMgeo konumu ve koordinatı, CRMinf ise yorumu ve gerekçesini tanımlar. Avrupa'daki arkeolojik veri altyapısı ARIADNE bu model üzerine kuruludur.
+Çekirdek modelin arkeolojiye özgü ekleri vardır. CRMarchaeo kazıyı ve tabakalanmayı, CRMsci gözlemi, örnek almayı ve laboratuvar analizini, CRMgeo konumu ve koordinatı, CRMinf ise yorumu ve gerekçesini tanımlar. Yüzey araştırması için ayrı bir resmî ek yoktur; araştırma kayıtları gözlem ve örnek alma modülü üzerinden ifade edilir. Avrupa'daki arkeolojik veri altyapısı ARIADNE bu model üzerine kuruludur.
 
-Modelin zorluğu, doğrudan kullanılamamasıdır. Uzmanlık ister ve aynı bilgiyi birkaç farklı biçimde ifade etmeye izin verir. Bu yüzden iki kurum da standarda uyduğu hâlde verileri birbiriyle karşılaştırılamayabilir.
+Modelin iki sınırı vardır. Birincisi, doğrudan kullanılamaz; uzmanlık ister ve aynı bilgiyi birkaç farklı biçimde ifade etmeye izin verir. İkincisi, sözcükleri vermez. Model bir buluntunun bir türü olduğunu söyler; türün "sikke" mi "coin" mi olduğunu, hangi listeden geldiğini söylemez. Sözcükler ayrı sözlüklerden gelir ve Türkçe arazi kayıtları için böyle bir sözlük yoktur.
 
 ### 2.2 FAIR ilkeleri nedir
 
 FAIR, araştırma verisinin nasıl yönetilmesi gerektiğini tanımlayan ve 2016'da yayımlanan dört ilkenin baş harfleridir. Veri bulunabilir olmalıdır (Findable): kalıcı bir tanımlayıcısı ve tanımı olmalıdır. Erişilebilir olmalıdır (Accessible): ona nasıl ve hangi koşulla ulaşılacağı açık olmalıdır. Birlikte çalışabilir olmalıdır (Interoperable): ortak bir dil ve ortak sözlükler kullanmalıdır. Yeniden kullanılabilir olmalıdır (Reusable): lisansı, kaynağı ve nasıl üretildiği belli olmalıdır.
 
-FAIR, açık veri ile aynı şey değildir. Bir veri seti ambargolu ya da erişime kapalı olabilir ve yine de FAIR olabilir; yeter ki var olduğu bilinsin ve erişim koşulu yazılı olsun. Bu ayrım bu tez için önemlidir, çünkü kazı başkanının yayın hakkı ile verinin düzenli saklanması birbiriyle çelişmez.
+FAIR, açık veri ile aynı şey değildir. Bir veri seti ambargolu ya da erişime kapalı olabilir ve yine de FAIR olabilir; yeter ki var olduğu bilinsin ve erişim koşulu yazılı olsun. Bu ayrım bu tez için önemlidir. Araştırma başkanının yayın hakkı, Bakanlığın malzeme üzerindeki mülkiyeti ve buluntu yerlerinin korunması, verinin düzenli ve tanımlı tutulmasıyla çelişmez. Koordinatlar kapalı kalabilir; kaydın geri kalanı yine FAIR olabilir. "Olabildiğince açık, gerektiği kadar kapalı" ilkesi tezin varsayılan tutumudur.
 
-CIDOC CRM, FAIR'in "birlikte çalışabilir" ilkesini arkeolojide karşılamanın yoludur. Avrupa'da bu yönde kurumsal altyapılar vardır. Türkiye'de kazı verisi için yerleşik bir standart, kılavuz ya da araç şu ana kadar bulamadım. [TODO: Türkçe literatür taraması; TAY ve MUES'in ayrıntılı incelenmesi]
+Bu tezde dört ilkenin karşılığı şudur: standart ve sözlükler "birlikte çalışabilir" ve "yeniden kullanılabilir" ilkelerini karşılar; kalıcı tanımlayıcı, tanım ve lisans ise "bulunabilir" ve "erişilebilir" ilkelerini. Son ikisi ucuzdur, ancak en baştan tasarıma konması gerekir.
 
-## 3. Önerdiğim yapı ve yöntem
+## 3. Tezin sorusu
 
-### 3.1 Temel fikir
+**Sorun.** Türkiye'de arazi verisi FAIR değildir ve bunun teknik gerekçesi hiç sınanmamıştır.
 
-Arkeolog CIDOC CRM'i öğrenmek zorunda kalmamalıdır. Önerdiğim çözüm, standardı veritabanının içine yerleştirmektir. Arkeolog alışık olduğu bir tabloyu doldurur: buluntu listesi, tabaka listesi, yontmataş sayım tablosu. Her sütunun CIDOC CRM'deki karşılığı önceden ve bir kez belirlenmiştir. Standarda uygun çıktı, veritabanından kendiliğinden üretilir.
+**Soru.** Bir Türk arazi ekibi, veri modelcisi olmadan, doğrudan CIDOC CRM ile uyumlu ve FAIR bir yapıya kayıt tutabilir mi; kaydettiklerinin ne kadarı kayıt anında karşılaştırılabilir veriye dönüşür; ortaya çıkan kayıt hangi düzeyde FAIR'dir?
 
-Yapı sabittir. Yeni bir kazı geldiğinde yeni tablo ya da sütun eklenmez. Hedef, bir kazının kaydettiği bilginin en az yüzde 95'ini bu sabit yapının içinde, karşılaştırılabilir biçimde tutmaktır.
+**Alt sorular ve her birinin kanıtı.**
 
-### 3.2 Yapının nasıl tasarlandığı
+| Alt soru | Kanıt |
+|---|---|
+| Yapı standarttan nasıl türetilir ve bu türetme başkası tarafından tekrarlanabilir mi | Yazılı bir yöntem ve her kararın gerekçesiyle tutulduğu bir karar günlüğü |
+| Sözcükler nereden gelir | Arazi ekiplerinin kendi kayıtlarından ve dilinden derlenen, mümkün olduğunda uluslararası sözlüklerle eşlenen Türkçe listeler |
+| Ekibe maliyeti nedir, okuyucuya getirisi nedir | Kayıt anında karşılaştırılabilir biçimde saklanan bilginin oranı; çıktının FAIR ölçütleriyle değerlendirilmesi; orada bulunmamış bir arkeoloğun kayıttan soruları yanıtlayabilmesi |
 
-İlk denemede yapıyı kazı raporlarından türettim ve her yeni raporda yapı bozuldu. Bu nedenle yönü tersine çevirdim: yapı artık standardın kendisinden türetiliyor, raporlar ve kazı kayıtları ise yalnızca sınama malzemesi olarak kullanılıyor.
+Tezin tartışma bölümünde savunulacak ikinci bir sav vardır: teknik engel bu düzeye indiğinde veri paylaşımının önünde ne kaldığı daha açık görülür. Bu savı tez kendi başına kanıtlamaz. İki araştırmanın başkanlarının, çalışma sonunda yapılandırılmış veriyi hangi koşullarla paylaşmaya karar verdikleri gözlenecek ve literatürdeki diğer engellerle (yayın önceliği, izin rejimi, güven, zaman) birlikte tartışılacaktır. Literatür, teknik engelin çoğu zaman asıl engel olmadığını söylemektedir; bu da bir bulgu olur.
 
-Yapı, her biri standardın bir bölümünü izleyen modüllerden oluşur. Çekirdek modül her kazıda bulunan şeyleri tutar: kişiler, yerler, dönemler, etkinlikler, nesneler ve ölçümler. Bunun üzerine kazı ve tabakalanma, örnek ve analiz, yorum ve gerekçe, konum, kaynak ve belgeleme modülleri gelir. Bir modül kullanılmayabilir; laboratuvar çalışması olmayan bir kazıda analiz modülü boş kalır ve başka hiçbir şey değişmez.
+## 4. Önerdiğim yöntem
 
-### 3.3 Arkeolojik açıdan önemli üç karar
+### 4.1 Yapı standarttan türetilir
 
-**Gözlem ile yorum ayrı tutulur.** "Bu tabakada şu buluntu vardı" bir kayıttır. "Bu yapı Geç Roma Dönemi'ne aittir" bir yorumdur. Yapı, her yorumun kim tarafından, neye dayanarak ve ne kadar kesinlikle yapıldığını kaydeder. Aynı konu hakkında çelişen iki yorum birlikte saklanır. "Muhtemelen" denilerek söylenen bir şey kesin bilgi olarak kaydedilmez.
+Arkeolog CIDOC CRM'i öğrenmek zorunda kalmamalıdır. Standart yapının içine yerleştirilir: kullanıcı bir form doldurur, her alanın standarttaki karşılığı önceden ve bir kez belirlenmiştir, standarda uygun çıktı kendiliğinden üretilir.
 
-**Dönem bir ad değil, bir tanımdır.** "Neolitik" sözcüğü farklı bölgelerde ve farklı yazarlarda farklı yılları ifade eder. Bu yüzden her dönem, onu kimin tanımladığı, hangi bölge için geçerli olduğu ve hangi yılları kapsadığı ile birlikte saklanır.
+Yapı, standardın kendisinden türetilir; arazi kayıtları yalnızca sınama malzemesidir. Standart hangi şeyin bir nesne, hangisinin bir olay, hangisinin bir yer, hangisinin bir yorum olduğunu belirler; bunlar birbirinden ayrı kimliklerle tutulur. Standardın belirlemediği şeyler, yani hangi alanların zorunlu olduğu, bir torba seramiğin tek kayıt mı yirmi kayıt mı olduğu, hangi listenin hangi alana bağlandığı, insan kararıdır. Her böyle karar bir satır olarak günlüğe yazılır: karar, gerekçe, tarih, kişi. Bu günlük, yöntemin başkası tarafından tekrarlanabilmesinin güvencesidir.
 
-**Kazının kendi terimleri korunur.** Kazı ekibinin kullandığı terim olduğu gibi saklanır ve yanına, varsa, ortak sözlükteki karşılığı eklenir. Ekip, kimseden izin almadan kendi terimini ya da kendi sütununu ekleyebilir. Bu eklemeler yalnızca o kazı içinde karşılaştırılabilir kalır; birçok kazının kullandığı bir ekleme sonradan ortak sözlüğe alınabilir.
+Yapı modüllerden oluşur. Çekirdek modül her arazi çalışmasında bulunanları tutar: kişiler, yerler, dönemler, etkinlikler, nesneler, ölçümler. Üzerine yüzey araştırması, kazı ve tabakalanma, örnek ve analiz, yorum ve gerekçe, konum ve belgeleme modülleri gelir. Kullanılmayan modül boş kalır.
 
-### 3.4 Başarının nasıl ölçüleceği
+### 4.2 Sözcükler arazi pratiğinden gelir
 
-Kapsamayı şöyle ölçmeyi öneriyorum. Önce, yapıyı hiç görmemiş bir okuyucu kaynaktaki bütün ifadeleri listeler. Sonra her ifadenin yapıda nereye düştüğüne bakılır. Dört sonuç mümkündür: ifade karşılaştırılabilir biçimde saklanmıştır; yalnızca kazının kendi eklemesiyle saklanmıştır; yalnızca serbest metin olarak saklanmıştır; ya da hiç saklanamamıştır. Her kayıp için neyin düştüğü, neden düştüğü ve geri kazanılıp kazanılamayacağı yazılır. Bu kayıp dökümü, tezin bulgularından biri olacaktır.
+Tezin asıl emeğinin burada olduğunu düşünüyorum. Standart yapıyı verir, sözcükleri vermez. Türkçe arazi terimleri için yerleşik bir sözlük yoktur; uluslararası sözlüklerde Türkçe karşılıklar yok denecek kadar azdır.
 
-## 4. Dil modelleri ve veri egemenliği
+Listeler, ekiplerin fiilen kullandığı sözcüklerden derlenecektir: formlarındaki, tablolarındaki ve arazide bir buluntuyu tarif ederken söyledikleri her terim, neye işaret ettiğiyle birlikte. Her terim, varsa, uluslararası sözlükteki karşılığıyla eşlenir. Ekibin kendi terimi daima korunur; ekip kimseden izin almadan kendi terimini ya da kendi alanını ekleyebilir. Böyle eklemeler yalnızca o çalışma içinde karşılaştırılabilir kalır; birçok ekibin kullandığı bir ekleme sonradan ortak listeye alınır.
 
-Dağınık kayıtları bu yapıya elle aktarmak çok zaman alır. Büyük dil modelleri bu işi hızlandırabilir. Önerdiğim yöntemde modelin görevi sınırlıdır: model yalnızca tablolardaki değerleri doldurur. Hangi bilginin standartta neye karşılık geldiğine model karar vermez; bu karar yapının içinde sabittir. Veritabanı, modelin hatalı girişini bir insanın hatalı girişi gibi reddeder.
+### 4.3 Kayıt aracı
 
-Sorun şudur: en başarılı modeller yurt dışındaki şirketlerin sunucularında çalışır. Yayımlanmamış kazı verisi bu sunuculara gönderildiğinde, veri üzerindeki denetim kazı ekibinin elinden çıkar. Bu, yayın hakkı ve ulusal miras açısından kabul edilebilir değildir.
+Yapı ve listeler, arazide kullanılan bir araçta somutlaşır. Aracın özellikleri şunlardır: çevrimdışı çalışır, çünkü arazide bağlantı yoktur; telefonda ya da dizüstü bilgisayarda çalışır; kullanıcı listeden seçer, serbest metin yalnızca açıklama alanındadır; tekil buluntu için kart, toplu buluntu için tablo görünümü vardır, çünkü kimse iki yüz seramik parçasını tek tek anlatmaz; kurulumu modelci gerektirmez, çünkü yapı ve listeler hazır gelir; Bakanlığın envanter formlarını kayıttan kendiliğinden üretir.
 
-Bu nedenle tezin ikinci sorusu şudur: aynı iş, araştırmacının kendi sunucusunda çalışan açık kaynaklı modellerle ne ölçüde yapılabilir? Bunu ölçmek için, bir arkeoloğun elle işaretlediği bir karşılaştırma kümesi üzerinde yerel modelleri en başarılı modelle kıyaslayacağım. "Benzer sonuç" ifadesi ölçümden önce sayısal bir eşik olarak tanımlanacaktır. Aradaki farkı kapatabilecek her yol ayrı ölçülecektir: soruların ve yapının tasarımı, modele ilgili belgelerin verilmesi, çıktının biçiminin zorunlu tutulması, modelin arkeoloji metinleriyle eğitilmesi ve insan denetimi. Türkçe metinlerdeki başarım ayrı bir değişken olarak izlenecektir.
+Bu araç tezin savı değil, tezin ölçüm aletidir. İlk aşamada listeli bir elektronik tablo yeterlidir; uygulama ikinci arazi çalışmasına yetişmelidir.
 
-[TODO: karşılaştırma kümesinin boyutu ve kimin işaretleyeceği] [TODO: sayısal eşik] [TODO: sunucu kurulumu ve aday modeller] Bu bölümdeki ölçümlerin hiçbiri henüz yapılmamıştır.
+### 4.4 Arkeolojik açıdan önemli üç karar
+
+**Gözlem ile yorum ayrı tutulur.** "Bu birimde şu buluntu vardı" bir kayıttır. "Bu yerleşim Geç Roma Dönemi'ne aittir" bir yorumdur. Yapı, her yorumun kim tarafından, neye dayanarak ve ne kadar kesinlikle yapıldığını kaydeder. Çelişen iki yorum birlikte saklanır. "Muhtemelen" denilerek söylenen bir şey kesin bilgi olarak kaydedilmez. Formda bunun karşılığı, "ne gördüm" ile "ne düşünüyorum" alanlarının ayrı olmasıdır.
+
+**Dönem bir ad değil, bir tanımdır.** "Neolitik" sözcüğü farklı bölgelerde ve farklı yazarlarda farklı yılları ifade eder. Her dönem, onu kimin tanımladığı, hangi bölge için geçerli olduğu ve hangi yılları kapsadığı ile birlikte saklanır.
+
+**Yokluk da bir kayıttır.** Yürünmüş ve hiçbir şey bulunmamış bir birim ile hiç yürünmemiş bir birim aynı şey değildir. Yapı, "bakıldı, yoktu" bilgisini saklar; yoğunluk haritası için bu fark zorunludur.
 
 ## 5. Araştırma tasarımı
 
-Çalışma üç aşamadan oluşur.
+Tez iki yüzey araştırmasının verisiyle yürütülecektir. Bakanlığın envanter formu (Ek-21) yüzey araştırması ile kazı için tek formdur; bu nedenle tezin kapsamı "kazı verisi" değil "arazi verisi" olarak tanımlanmıştır.
 
-**Birinci aşama: yayımlanmış veriyle ön çalışma.** Yapıyı ve iş akışını kurmak için Kazı Sonuçları Toplantısı ciltlerini kullanıyorum. Bu metinler yayımlanmış ve herkese açık olduğu için, bu aşamada en başarılı modelleri kullanmakta bir sakınca yoktur. Bu aşama yapıyı, iş akışını ve ulaşılabilecek en yüksek başarımı verir. Höyük, klasik kent ve mağara gibi farklı yerleşim türleri yapının dayanıklılığını sınar.
+**Birinci çalışma: tamamlanmış bir araştırma.** Onayınız olursa Karaburun yüzey araştırmasının kayıtlarını kullanmak istiyorum. Çalışma bitmiş olduğu için bu kayıtlar iki işe yarar. Birincisi, Türkçe listelerin ilk kaynağıdır: ekibin kullandığı her terim buradan derlenir. İkincisi, yapının tamamlanmış bir veri setine ne ölçüde uyduğunun sınamasıdır: kayıtların ne kadarı karşılaştırılabilir biçimde yerleşir, ne kadarı açıklama alanına düşer, nerede eksik liste, nerede eksik alan vardır. Ekibiniz çalışmayı tanıdığı için bu aşama yöntemi geliştirme aşamasıdır, bağımsız sınama değildir.
 
-**İkinci aşama: yayımlanmamış kazı kaydıyla aktarım denemesi.** Onayınız olursa Karaburun kayıtlarını kullanmak istiyorum. Yapı yayımlanmış düzyazı üzerinde tasarlandı ve burada gerçek kazı kaydı üzerinde sınanacak. Yapının burada da çalışacağı bir varsayımdır. Nerede bozulduğu başlı başına bir bulgudur. [TODO: kayıtların biçimi ve kapsamı]
+**İkinci çalışma: yeni bir araştırma.** Bağımsız sınama için başka bir başkanın yürüttüğü yeni bir yüzey araştırması gerekmektedir; Tokat Erbaa yüzey araştırması aday olarak görüşülmektedir. Burada kayıt, yapı ve listelerle, kayıt anında tutulacaktır. Mümkünse araziye kendim katılacağım. İlk sezonda yalnızca gözlem yapılır: ekip bugün nasıl kaydediyor, hangi form ve tablolarla, ve arazide söylenip de yazılmayan neler var. İkinci sezonda, ya da ekip kabul ederse ilk sezonda, kayıt yapı ile tutulur. Bu çalışma "modelci olmadan" savının sınandığı yerdir.
 
-**Üçüncü aşama: yerel modellerle çalıştırma.** Aynı karşılaştırma kümeleri bu kez yalnızca yerel modellerle işlenir ve sonuçlar birinci aşamadaki en yüksek başarımla kıyaslanır.
+**Her iki çalışmada ölçülenler.** Karşılaştırılabilir biçimde saklanan bilginin oranı, tamamlanmış ve canlı kayıt için ayrı ayrı. Çıktının FAIR ölçütleriyle değerlendirilmesi; bunun için Avrupa altyapısının yayımladığı ölçütler kullanılacaktır. Devir sınaması: çalışmada bulunmamış bir arkeolog, önceden belirlenmiş bir soru listesini yalnızca kayıttan yanıtlamaya çalışır; önce ekibin kendi dosyalarından, sonra yapılandırılmış kayıttan. Son olarak, iki başkanın çalışma sonunda yapılandırılmış veriyi paylaşma kararı ve koşulları.
 
-## 6. Ön çalışmanın bugünkü durumu
+**Kazı modülü.** Yapıda kazı ve tabakalanma modülü vardır ve standarttan aynı yöntemle türetilmiştir; ancak elimde kazı kaydı olmadığı için bu modül tezde sınanmış bir sav olarak değil, tasarlanmış ve belgelenmiş bir parça olarak yer alacaktır. Bir açma kaydı bulunursa sınama eklenir. Bunu açıkça yazmayı, iddia etmemeye tercih ediyorum.
 
-45. Kazı Sonuçları Toplantısı cildindeki 26 bildiriden dördünü işledim: Seleukeia Sidera, Yumuktepe, Sinekkaya ve Zerzevan Kalesi. Sonuçlar şöyledir.
+## 6. Hipotez
 
-Rapordan veritabanına, veritabanından CIDOC CRM çıktısına kadar bütün adımlar çalışmaktadır ve üretilen çıktıda standarda aykırı hiçbir ifade yoktur. Yapıyı kurarken kullandığım üç bildiride bilginin yüzde 84 ile 89'u karşılaştırılabilir biçimde saklanmıştır. Yapıyı hiç değiştirmeden denediğim dördüncü bildiride bu oran yüzde 72'dir. Yüzde 95 hedefine henüz ulaşılmamıştır.
+Sınanabilir kısım: standarttan türetilmiş bir yapı ve arazi pratiğinden derlenmiş listelerle, bir Türk arazi ekibinin kaydettiği bilginin büyük çoğunluğu kayıt anında karşılaştırılabilir ve FAIR biçimde tutulabilir, ekibe bir modelci ya da sunucu yükü getirmeden. Hedef oran olarak yüzde 95'i koyuyorum; bu bir hedeftir, ölçümden önce yazılmıştır ve ulaşılamazsa nerede ve neden ulaşılamadığı tezin bulgusu olur.
 
-Eksiğin büyük kısmı yapıdan değil sözlükten kaynaklanmaktadır. Dördüncü bildiride kazının kendi eklemesiyle saklanan 317 ifadenin 255'inde tablo ve sütun mevcuttu; yalnızca terim ortak sözlükte yoktu. "Ok ucu", "ağırşak", "pişmiş toprak" gibi terimler bunlara örnektir. Bu, Türkçe bir arkeoloji sözlüğünün bu işin asıl emeği olduğunu göstermektedir.
+Tartışılacak kısım: teknik engel kalktığında paylaşımın önünde kalan engeller daha net görünür hâle gelir. Bu, iki başkanın kararı ve literatür üzerinden tartışılacaktır.
 
-Yapı, kimsenin aramadığı tutarsızlıkları da ortaya çıkarmıştır. Yumuktepe'de BX fırını radyokarbon ile MS 1387–1476 arasına tarihlenmiştir; aynı fırının ocak seviyesinden gelen iki seramik grubu ise 13. yüzyıla tarihlenmiştir (Şekil 1). Sinekkaya'da yontmataş tablosunun basılı toplamı 677'dir, hücrelerin toplamı ise 676'dır.
+## 7. Ön deneme ve öğrettikleri
 
-![Şekil 1. Yumuktepe BX fırınının CIDOC CRM'deki karşılığı. Her kutu bir varlık, her ok bir ilişkidir. Fırının kullanımı 1387–1476, ocak seviyesindeki seramiklerin üretimi 1200–1299 olarak kayıtlıdır. Şekil, üretilen veriden doğrudan çizilmiştir.](bx_oven.png)
+Bu tasarıma gelmeden önce, kendi başıma bir ön deneme yaptım: Kazı Sonuçları Toplantısı'ndaki birkaç bildiriyi standarda uygun bir yapıya aktarmayı ve kaybı ölçmeyi denedim. Bu deneme tezin parçası değildir ve sayıları tezde yer almayacaktır; yayımlanmış rapor damıtılmış bir metindir ve arazi kaydını temsil etmez.
 
-Bu sonuçların sınırları açıktır. Dört bildiri tek bir cilde aittir. Bilgiyi metinden çıkaran bir dil modelidir ve hiçbir arkeolog sonuçları bildirilerle karşılaştırmamıştır. Gerçek kazı kaydı henüz yüklenmemiştir. [TODO: ön çalışmada kullanılan modelin adı ve sürümü]
+Deneme üç şey öğretti ve üçü de tasarıma girdi. Yapı, standarttan yazılı bir yöntemle türetilebilir ve bu tekrarlanabilir. Kaybın büyük kısmı yapıdan değil sözcüklerden gelir: tablo ve alan mevcutken Türkçe terim listede yoktur. Ve serbest metinden yapıya aktarmak, listeden seçerek kaydetmekten çok daha fazla kaybettirir; bu da kaydı kaynağında tutmanın, sonradan aktarmaya göre neden doğru sıra olduğunu gösterir.
 
-## 7. Hipotez
+## 8. Tezin kapsamı dışında bırakılanlar
 
-Hipotezin sınanabilir kısmı şudur: CIDOC CRM ile uyumlu bir ilişkisel yapı, birbirine benzemeyen kazı verileri arasındaki farklılığı belirgin biçimde azaltır. Bunu, yeni bir kazının yapıda zorunlu kıldığı değişikliklerin sayısı ve karşılaştırılabilir biçimde saklanan bilginin oranı ile ölçeceğim.
+Bu sürümde üç şeyi bilinçli olarak tezin dışına çıkardım.
 
-Hipotezin tartışma bölümünde savunulacak kısmı şudur: böyle bir yapı, Türkiye arkeolojisinde veri paylaşımının önündeki uygulamaya dönük bir engeli düşürür. Bu savı tez kendi başına kanıtlayamaz; literatür ve mevzuat üzerinden tartışılacaktır.
+**Büyük dil modelleri.** İlk taslakta modeller yöntemin yarısıydı. Kayıt listeden seçerek tutulduğunda modele gerek kalmamaktadır; tezin çekirdeği modelsiz çalışır. Modellerin yeri, mevcut arşivlerin, yani yıllardır birikmiş Excel ve defterlerin, sonradan yapıya aktarılmasıdır. Bu, tezin değil sonraki adımın işidir ve 10. bölümdeki projede yer alır. Veri egemenliği kaygısı geçerliliğini korur ve orada ele alınır.
 
-## 8. Tez taslağı
+**Arşivlerin geriye dönük aktarımı.** Yukarıdaki nedenle, tezden sonra.
 
-1. Giriş ve araştırma soruları
-2. Kavramlar: CIDOC CRM, FAIR, açık erişim, ilişkisel veritabanı ve elektronik tablo
-3. Önceki çalışmalar: Avrupa ve ARIADNE; Türkiye, TAY ve MUES; arkeolojide büyük dil modelleri
-4. Neden yerel dil modelleri: veri sızıntısı ve veri egemenliği
-5. Yöntem
-6. Bulgular
-7. Tartışma
-8. Sonuç
+**Kazı modülünün sınanması.** Kazı kaydı elde edilene kadar, 5. bölümde açıklandığı gibi.
 
-## 9. Tezi destekleyecek proje: TÜBİTAK 3005
+## 9. Tez taslağı
 
-### 9.1 Program ve modül
+1. Giriş: Türkiye'de arazi verisi neden FAIR değil, teknik gerekçe ve araştırma soruları
+2. Kavramlar: CIDOC CRM ve arkeoloji ekleri, FAIR, açık veri ile farkı, Bakanlık mevzuatı ve envanter formları
+3. Önceki çalışmalar: Avrupa altyapısı ve mevcut araçlar, neden Türkiye'de kullanılmadıkları, Türkiye'deki envanter ve sözlük girişimleri
+4. Yöntem: yapının standarttan türetilmesi ve karar günlüğü; listelerin derlenmesi; kayıt aracı; ölçütler
+5. Birinci çalışma: tamamlanmış araştırma kaydının yapıya uyumu ve listelerin derlenmesi
+6. İkinci çalışma: yeni araştırmada kayıt anında kayıt
+7. Bulgular: kapsama oranları, FAIR değerlendirmesi, devir sınaması, paylaşım kararları
+8. Tartışma: teknik engel kalkınca ne kalıyor
+9. Sonuç ve sonraki adımlar
+
+## 10. Tezi destekleyecek proje: TÜBİTAK 3005
+
+### 10.1 Program ve modül
 
 TÜBİTAK 3005 programı 10 Eylül 2026'da iki modül olarak yeniden açılmıştır. Her iki modülde de proje süresi en fazla 24 ay, destek üst sınırı burslar hariç 1.200.000 TL'dir ve başvuru yıl boyunca yapılabilmektedir. Modülün amacına uymayan öneriler bilimsel değerlendirmeye alınmadan iade edilmektedir.
 
-Başvuruyu 3005-B, Teknolojik İlerlemelerin Toplumsal Etkileri Modülü'ne yapmayı öneriyorum. Bu modül, yüksek teknolojilerin toplumsal etkilerini mühendislik bilimleriyle eş güdüm içinde ele alan ve toplumsal fayda hedefleyen sosyal ve beşeri bilimler araştırmalarını desteklemektedir. Diğer modül olan 3005-A, bir kamu kurumuyla birlikte doldurulmuş bir iş birliği formu istemektedir; 3005-B'de böyle bir koşul yoktur.
+Başvuruyu 3005-B, Teknolojik İlerlemelerin Toplumsal Etkileri Modülü'ne yapmayı öneriyorum. Bu modül, yüksek teknolojilerin toplumsal etkilerini mühendislik bilimleriyle eş güdüm içinde ele alan ve toplumsal fayda hedefleyen sosyal ve beşeri bilimler araştırmalarını desteklemektedir. 3005-A bir kamu kurumuyla doldurulmuş iş birliği formu istemektedir; 3005-B'de böyle bir koşul yoktur.
 
-### 9.2 Projenin savı
+### 10.2 Projenin savı ve tezle iş bölümü
 
-Proje, yapay zekânın arkeologların gündelik çalışmasında neyi değiştirdiğini ölçecektir. Bir araç tanıtmak yeterli değildir, çünkü modül teknolojinin insanlar üzerindeki etkisini sormaktadır. Bu nedenle proje şu soruları ölçülebilir biçimde soracaktır: Bir araştırmacı başka bir kazının verisini anlamak için ne kadar zaman harcıyor ve ortak yapı bu süreyi kısaltıyor mu? Teknik eğitimi olmayan bir kazı ekibi, verisini dışarıya vermeden dil modellerinden yararlanabiliyor mu? Yayımlanmamış miras verisinin yurt dışındaki yapay zekâ hizmetlerine gönderilmesi nasıl bir risk oluşturuyor ve bunun sınanmış bir alternatifi var mı?
+Tez, kaydı kaynağında FAIR kılan yapıyı iki araştırmada sınar. Proje, tezin bilinçli olarak dışında bıraktığı iki şeyi üstlenir: mevcut arşivlerin yapıya aktarılması ve bunun arkeologların çalışması üzerindeki etkisinin ölçülmesi.
 
-### 9.3 Tez ile proje arasındaki iş bölümü
+Arşiv aktarımı, modülün istediği yüksek teknoloji bileşenidir. Yıllardır birikmiş Excel tabloları ve defterler elle aktarılamayacak kadar çoktur; büyük dil modelleri bu işi yapabilir. Ancak yayımlanmamış miras verisi yurt dışındaki şirket sunucularına gönderilemez. Proje, aynı işin araştırmacının kendi sunucusunda çalışan açık kaynaklı modellerle ne ölçüde yapılabildiğini, tezin listeleri ve yapısı hedef alınarak ölçer. Tezde elde edilen listeler bu aktarımın ön koşuludur; listeler olmadan aktarımın neden başarısız olduğunu ön denemede gördüm.
 
-Tez araştırma sorusunu sorar; proje ise tek bir doktora öğrencisinin yapamayacağı işleri karşılar. Proje kabul edilmese de tez kendi başına savunulabilir olmalıdır.
+Toplumsal etki, modülün asıl sorusudur. Proje şunları ölçecektir: bir araştırmacı başka bir çalışmanın verisini anlamak için ne kadar zaman harcıyor ve yapı bu süreyi kısaltıyor mu; teknik eğitimi olmayan bir ekip, kurulumdan ilk sezona kaç saatte geçiyor; yapıyı kullanan ekipler veri paylaşımı konusunda ne diyor ve ne yapıyor. Son soru için gerekirse etik kurul onayıyla bir anket yapılır; bu, tezin değil projenin işidir.
 
 | Tezde kalan | Projenin eklediği |
 |---|---|
-| Yapının tasarımı ve standarttan nasıl türetildiği | Kayıtları kaynaklarla karşılaştıracak arkeologlar (bursiyer) |
-| Kapsama ölçütü ve kayıp dökümü | Türkçe arkeoloji sözlüğünün oluşturulması |
-| Yerel modellerin en başarılı modellerle kıyaslanması | Daha çok sayıda kazı ile sınama |
-| Karaburun verisi üzerinde aktarım denemesi | Gerçek kazı ekiplerinin yapıyı kullanması; sunucu ve donanım |
+| Yapının standarttan türetilmesi ve karar günlüğü | Daha çok sayıda kazı ve araştırma ile sınama |
+| İki araştırmadan derlenen Türkçe listeler | Listelerin ulusal bir sözlüğe genişletilmesi |
+| Kayıt aracı ve iki arazi sınaması | Aracın ekiplere kurulumu, eğitim, sunucu ve donanım |
+| FAIR değerlendirmesi ve devir sınaması | Mevcut arşivlerin yerel modellerle aktarımı ve bunun ölçümü |
+| İki başkanın paylaşım kararı | Ekiplerle anket ve etkinin ölçümü |
 
-Sağ sütundaki her madde, ön çalışmanın bugünkü bir eksiğine karşılık gelmektedir: sonuçları henüz hiçbir arkeolog denetlememiştir, kaybın çoğu eksik terimlerden kaynaklanmıştır ve tabloları henüz hiç kimse kullanmamıştır.
+Proje kabul edilmese de tez kendi başına savunulabilir olmalıdır; tablo bu ayrımı korumak için düzenlenmiştir.
 
-### 9.4 Proje ekibi
+### 10.3 Proje ekibi
 
 Programın kurallarına göre proje yürütücüsünün doktora derecesine sahip ve kadrolu olması gerekmektedir; doktora öğrencileri yürütücü olamaz, bursiyer olarak yer alabilir. Bu nedenle projenin yürütücülüğünü sizin üstlenmenizi rica ediyorum. Ben projede doktora bursiyeri olarak yer alırım.
 
-Modül mühendislik bilimleriyle eş güdüm istediği ve yöntemin yarısı dil modelleriyle ilgili olduğu için, ekipte bilgisayar mühendisliğinden bir araştırmacı bulunması gerektiğini düşünüyorum. Kurallar bunu zorunlu tutmuyor; ancak yalnızca arkeologlardan oluşan bir ekip modülün amacını kâğıt üzerinde karşılamayabilir. Bir danışman da olabilir, fakat ekipte yer alan bir araştırmacı daha güçlü bir işaret verir.
-
-Mühendislik tarafında Ege Üniversitesi Bilgisayar Mühendisliği Bölümü Başkanı Prof. Dr. Murat Osman Ünalır ile ilerliyoruz. Çalışma alanları ontoloji mühendisliği, anlamsal ağ, bilgi gösterimi, birlikte çalışabilirlik ve makine öğrenmesidir; bu, çalışmamın her iki yarısıyla da örtüşmektedir. Programın kuralına göre profesör unvanlı kişiler projede araştırmacı olarak görev alamamaktadır. Bu nedenle Ünalır hoca projede danışman olarak yer alabilir; araştırmacı görevi için kendi grubundan bir öğretim üyesinin katılması uygun olur.
+Mühendislik tarafında Ege Üniversitesi Bilgisayar Mühendisliği Bölümü Başkanı Prof. Dr. Murat Osman Ünalır ile ilerliyoruz. Çalışma alanları ontoloji mühendisliği, anlamsal ağ, birlikte çalışabilirlik ve makine öğrenmesidir. Kendisiyle yaptığımız görüşmeler bu sürümdeki değişikliklerin bir kısmının kaynağıdır: kaydı kaynağında tutan, model gerektirmeyen bir araç ve arşiv aktarımının sonraki adım olması onun önerisidir. Programın kuralına göre profesör unvanlı kişiler projede araştırmacı olarak görev alamamaktadır; bu nedenle Ünalır hoca danışman olarak yer alabilir, araştırmacı görevi için kendi grubundan bir öğretim üyesinin katılması uygun olur.
 
 | Görev | Kişi |
 |---|---|
@@ -150,12 +168,16 @@ Mühendislik tarafında Ege Üniversitesi Bilgisayar Mühendisliği Bölümü Ba
 | Danışman | Prof. Dr. Murat Osman Ünalır, bilgisayar mühendisliği |
 | Araştırmacı | Bilgisayar mühendisliğinden bir öğretim üyesi; belirlenecek |
 | Doktora bursiyeri | Tuğçe Köseoğlu |
-| Diğer bursiyerler | Kayıtları denetleyecek arkeoloji öğrencileri |
+| Diğer bursiyerler | Kayıtları denetleyecek ve arşiv aktarımını karşılaştıracak arkeoloji öğrencileri |
 
 [TODO: bütçe] [TODO: iş paketleri ve takvim] [TODO: araştırmacı adı]
 
-## 10. Size sorularım
+## 11. İlk taslağa göre değişenler
 
-1. **Standardın ekleri.** Yapı, çekirdek modelin yanında kazı, analiz, konum ve yorum eklerini (CRMarchaeo, CRMsci, CRMgeo, CRMinf) kullanıyor. Bu kapsamı bir doktora tezi için uygun buluyor musunuz?
-2. **Karaburun verisi.** Bu kayıtları tezde kullanmama izin verir misiniz? Veri yalnızca kendi sunucumda tutulacak ve onayınız olmadan hiçbir şey yayımlanmayacaktır.
-3. **Eş danışman.** Tezin dil modeli ve ölçüm kısmı için Ünalır hocanın ikinci tez danışmanı olmasını uygun bulur musunuz?
+Tezin sorusu, "kazı verisi için ortak bir yapı"dan "arazi verisini kaynağında FAIR kılmak ve teknik gerekçeyi sınamak"a dönüştü. Büyük dil modelleri tezin çekirdeğinden çıktı ve projeye taşındı. Kazı Sonuçları Toplantısı ön denemesi tezin dışına alındı; yalnızca öğrettikleri kaldı. Veri kaynağı, yayımlanmış raporlar yerine iki yüzey araştırması oldu; kapsam "kazı" yerine "arazi" olarak tanımlandı. Kazı modülünün sınanmamış olduğu açıkça yazıldı.
+
+## 12. Size sorularım
+
+1. **Karaburun kayıtları.** Bu kayıtları tezde kullanmama izin verir misiniz? Veri yalnızca kendi bilgisayarımda tutulacak, koordinatlar dâhil hiçbir şey onayınız olmadan yayımlanmayacaktır. Kayıtların hangi biçimde (Access, Excel, form) ve hangi kapsamda olduğunu öğrenmek istiyorum.
+2. **İkinci araştırma.** Tokat Erbaa yüzey araştırması için başkanla temas kurmamda yardımcı olabilir misiniz, ya da daha uygun bulduğunuz bir araştırma var mı? Gerekli olan, başkanın yazılı izni ve neyin yayımlanabileceğine dair bir satırdır.
+3. **Eş danışman.** Tezin yapı ve standart kısmı için Ünalır hocanın ikinci tez danışmanı olmasını uygun bulur musunuz?

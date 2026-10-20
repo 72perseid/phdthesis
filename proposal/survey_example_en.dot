@@ -1,0 +1,60 @@
+digraph survey {
+  rankdir=TB; dpi=200; nodesep=0.3; ranksep=0.55; labelloc="b"; fontname="DejaVu Sans"; fontsize=9;
+  label="Boxes are entities, arrows are relations. Pink: events and interpretations. Blue: objects. Green: places. Purple: period and time. Grey: type, material, measurement. Beige: person, team, source.";
+  node [shape=box, style="filled,rounded", fontname="DejaVu Sans", fontsize=10, margin="0.12,0.06"];
+  edge [fontname="DejaVu Sans", fontsize=8, color="#555555"];
+  survey [label="Tokat Erbaa Survey
+2027 season
+E7_Activity", fillcolor="#fad7a0"];
+  team [label="Team A
+E74_Group", fillcolor="#fdebd0"];
+  walk [label="Walking of unit 12
+14 July 2027
+S19_Encounter_Event", fillcolor="#f5b7b1"];
+  unit [label="Unit 12
+E53_Place", fillcolor="#d5f5e3"];
+  district [label="Erbaa district
+E53_Place", fillcolor="#d5f5e3"];
+  vis [label="Visibility: 60 %
+E54_Dimension", fillcolor="#eeeeee"];
+  bag [label="Bag 12.01
+23 sherds
+E19_Physical_Object", fillcolor="#aed6f1"];
+  bagtype [label="systematic surface collection
+E55_Type", fillcolor="#eeeeee"];
+  sherd [label="Sherd 12.01.3
+E22_Human-Made_Object", fillcolor="#aed6f1"];
+  part [label="rim
+E55_Type", fillcolor="#eeeeee"];
+  mat [label="fired clay
+E57_Material", fillcolor="#eeeeee"];
+  dating [label="Dating
+certainty: probable
+E13_Attribute_Assignment", fillcolor="#f5b7b1"];
+  person [label="S. Ünlüsoy
+E21_Person", fillcolor="#fdebd0"];
+  grounds [label="form parallel:
+Hayes 1972, form 3
+E31_Document", fillcolor="#fdebd0"];
+  period [label="Late Roman period
+E4_Period", fillcolor="#d7bde2"];
+  span [label="AD 300 – 450
+E52_Time-Span", fillcolor="#d7bde2"];
+  survey -> walk [label="P9_consists_of"];
+  walk -> team [label="P14_carried_out_by"];
+  walk -> unit [label="O21_encountered_at"];
+  unit -> district [label="P89_falls_within"];
+  walk -> vis [label="O16_observed_value"];
+  walk -> bag [label="O19_encountered_object"];
+  bag -> bagtype [label="P2_has_type"];
+  sherd -> bag [label="P46i_forms_part_of"];
+  sherd -> part [label="P2_has_type"];
+  sherd -> mat [label="P45_consists_of"];
+  dating -> sherd [label="P140_assigned_attribute_to"];
+  dating -> period [label="P141_assigned"];
+  dating -> person [label="P14_carried_out_by"];
+  dating -> grounds [label="P17_was_motivated_by"];
+  period -> span [label="P4_has_time-span"];
+  { rank=same; unit; vis; bag; }
+  { rank=same; person; grounds; period; }
+}

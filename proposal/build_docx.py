@@ -2,7 +2,8 @@
 """
 build_docx.py - proposal.md to proposal.docx, without pandoc.
 
-  python3 build_docx.py
+  python3 build_docx.py              # proposal.md -> proposal.docx
+  python3 build_docx.py other.md     # other.md -> other.docx
 
 Turns the markdown into one HTML file with the figure inside it,
 then lets LibreOffice write the Word file. Knows only the markdown
@@ -56,7 +57,7 @@ def convert(md: str) -> str:
             i += 1
         elif m := re.match(r"!\[(.*)\]\((.*)\)$", line):
             data = base64.b64encode((HERE / m.group(2)).read_bytes()).decode()
-            out.append(f'<p><img src="data:image/png;base64,{data}" width="620"></p>')
+            out.append(f'<p><img src="data:image/png;base64,{data}" width="640"></p>')
             out.append(f'<p class="caption">{inline(m.group(1))}</p>')
             i += 1
         elif line.startswith("|"):
@@ -86,14 +87,16 @@ def convert(md: str) -> str:
 
 
 def main() -> None:
-    page = HERE / "proposal.html"
-    page.write_text(convert((HERE / "proposal.md").read_text(encoding="utf-8")), encoding="utf-8")
+    import sys
+    src = HERE / (sys.argv[1] if len(sys.argv) > 1 else "proposal.md")
+    page = src.with_suffix(".html")
+    page.write_text(convert(src.read_text(encoding="utf-8")), encoding="utf-8")
     subprocess.run(["soffice", "--headless", "--convert-to", "docx:MS Word 2007 XML",
                     "--outdir", str(HERE), str(page)], check=True)
-    docx = HERE / "proposal.docx"
+    docx = src.with_suffix(".docx")
     # LibreOffice exits with 0 even when it wrote nothing, for example while the file is open
     if not docx.exists() or docx.stat().st_mtime < page.stat().st_mtime:
-        raise SystemExit("proposal.docx was NOT updated. Close the file in Word or LibreOffice and run again.")
+        raise SystemExit(f"{docx.name} was NOT updated. Close the file in Word or LibreOffice and run again.")
     print("written:", docx)
 
 
